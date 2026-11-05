@@ -399,39 +399,44 @@ export const S5: React.FC<ShotProps> = ({ t, len }) => {
         x: 645,
         y: 1185,
         scale: sc,
-        yaw: -0.35,
+        yaw: -0.22,
         facing: -1,
-        tilt: -3,
-        headTilt: -8,
+        tilt: -2,
+        headTilt: -6,
         blink: 1,
         expr: 'happy',
-        armL: { a: 52, b: 82 },
-        armR: { a: 48, b: 86 },
+        armL: { a: 22, b: -95 },
+        armR: { a: 22, b: -95 },
       },
     },
     {
       f: 14,
       p: {
-        tilt: -5,
-        headTilt: -12,
+        tilt: -4,
+        headTilt: -10,
         squash: 0.03,
-         blink: 1,
+        blink: 1,
         expr: 'happy',
-        armL: { a: 58, b: 88 },
-        armR: { a: 54, b: 92 },
+        armL: { a: 26, b: -102 },
+        armR: { a: 26, b: -102 },
       },
       ease: easeOut,
     },
   ]);
-  const moHands = toWorld(mo, joints(mo).armL.end);
+  const claspX = mo.x - 18;
+  const claspY = mo.y - 68 * sc;
 
   return (
     <g transform={camTV(540, kf(t, [[0, 960], [len, 940]]), kf(t, [[0, 1.26], [len, 1.34]]))}>
       <Park t={t + 130} id="s5p" meteors={2} />
 
       <Hero look={MO} pose={{ ...mo, blink: 1, expr: 'happy' }} rimId="rimL" shadow={0.55} />
-      {/* Clasped wishing hands highlight */}
-      <Sparkle x={moHands.x - 18} y={moHands.y - 24} t={t - 8} s={1.2} />
+      {/* Mo's hands clasped together in front of his chest making a wish */}
+      <g filter="url(#rimL)" transform={`translate(${claspX} ${claspY})`}>
+        <ellipse cx={-8} cy={0} rx={20} ry={15} transform="rotate(-25 -8 0)" fill={MO.hand} stroke={MO.line} strokeWidth={5} />
+        <ellipse cx={8} cy={2} rx={20} ry={15} transform="rotate(25 8 2)" fill={MO.hand} stroke={MO.line} strokeWidth={5} />
+      </g>
+      <Sparkle x={claspX - 36} y={claspY - 28} t={t - 8} s={1.2} />
 
       {/* Over Pip's blurred dark shoulder & hood in left foreground, holding the glowing star */}
       <Foreground blur={10}>
@@ -558,13 +563,13 @@ export const S6: React.FC<ShotProps> = ({ t, len }) => {
 
 // ---------- S7: high-angle insert: "By midnight," bench top with 00:00 phone & Pip dropping a star into the jar ----------
 export const S7: React.FC<ShotProps> = ({ t, len }) => {
-  const dropP = easeOut(clamp((t - 2) / 12)); // hand brings star to jar mouth and drops it in (key=14)
+  const dropP = easeOut(clamp((t - 4) / 14)); // at key=14 the star is dropping right through the open mouth of the jar!
   const jarX = 655;
-  const jarY = 1185;
-  const hx = lerp(380, 585, clamp(t / 9));
-  const hy = lerp(480, 745, clamp(t / 9));
+  const jarY = 1210;
+  const hx = lerp(380, 565, clamp(t / 10));
+  const hy = lerp(460, 695, clamp(t / 10));
   const starX = lerp(hx + 45, jarX, dropP);
-  const starY = lerp(hy + 55, jarY - 195, dropP);
+  const starY = lerp(hy + 55, jarY - 285, dropP);
 
   return (
     <g transform={camTV(540, 960, kf(t, [[0, 1.0], [len, 1.06]]))}>
@@ -573,40 +578,48 @@ export const S7: React.FC<ShotProps> = ({ t, len }) => {
       {[420, 680, 940, 1200].map((sy, i) => (
         <path key={i} d={`M -200 ${sy} L 1280 ${sy}`} stroke="#1A1210" strokeWidth={8} opacity={0.65} />
       ))}
-      <Glow x={jarX} y={jarY - 120} r={520} kind="warm" o={0.65} />
+      <Glow x={jarX} y={jarY - 140} r={520} kind="warm" o={0.65} />
 
-      {/* Pip's Phone on the left of the bench reading 00:00 MIDNIGHT */}
-      <g transform="translate(275 1040) rotate(-10)">
-        <Phone x={0} y={0} w={185} rot={0} on={1} caller="00:00" />
-        <rect x={-72} y={-125} width={144} height={68} rx={10} fill="#141C30" />
-        <text y={-76} textAnchor="middle" fontFamily={FONT.ui} fontSize={44} fill={STAR_CYAN} fontWeight={700}>
+      {/* Pip's Phone on the left of the bench showing a clean 00:00 lock screen */}
+      <g transform="translate(270 1045) rotate(-10)">
+        <Phone x={0} y={0} w={190} rot={0} on={0} />
+        <rect x={-82} y={-182} width={164} height={364} rx={20} fill="#162238" />
+        <rect x={-82} y={-182} width={164} height={160} rx={20} fill="#243B62" opacity={0.65} />
+        <text y={-95} textAnchor="middle" fontFamily={FONT.ui} fontSize={14} fill="#9FC0FF" letterSpacing={1.5}>
+          5 NOV · TAURIDS
+        </text>
+        <text y={-32} textAnchor="middle" fontFamily={FONT.ui} fontSize={54} fill="#F6EFE3" fontWeight={700}>
           00:00
+        </text>
+        <rect x={-64} y={24} width={128} height={54} rx={12} fill="#0E1626" opacity={0.85} />
+        <text y={58} textAnchor="middle" fontFamily={FONT.ui} fontSize={22} fill={STAR_GOLD} letterSpacing={2}>
+          MIDNIGHT
         </text>
       </g>
 
       {/* Open glass mason jar on the bench */}
-      <StarJar x={jarX} y={jarY} s={2.35} stars={t >= 13 ? 9 : 8} glow={1.25} lid={false} t={t} />
+      <StarJar x={jarX} y={jarY} s={2.35} stars={t >= 18 ? 9 : 7} glow={1.25} lid={false} t={t} />
       {/* Jar lid resting beside the jar */}
-      <g transform="translate(885 1215) rotate(14)">
+      <g transform="translate(895 1235) rotate(14)">
         <ellipse cx={0} cy={8} rx={68} ry={22} fill="#000" opacity={0.35} />
         <ellipse cx={0} cy={0} rx={64} ry={22} fill="#8C96A6" stroke="#181520" strokeWidth={5} />
         <ellipse cx={0} cy={-4} rx={48} ry={14} fill="#6E7888" />
       </g>
 
-      {/* Falling star entering the mouth of the jar */}
-      {t < 17 ? <ShootingStar x={starX} y={starY} r={26} tailLen={85} angle={-110} t={t} id="s7st" /> : null}
+      {/* Falling star dropping right into the mouth of the jar */}
+      {t < 19 ? <ShootingStar x={starX} y={starY} r={28} tailLen={95} angle={-110} t={t} id="s7st" /> : null}
 
       {/* Pip's arm & mitten coming in from top-left */}
       <g filter="url(#rimR)">
         <path
-          d={`M 120 180 Q 340 480 ${hx - 15} ${hy - 10}`}
+          d={`M 120 180 Q 340 460 ${hx - 15} ${hy - 10}`}
           stroke={PIP.line}
           strokeWidth={142}
           fill="none"
           strokeLinecap="round"
         />
         <path
-          d={`M 120 180 Q 340 480 ${hx - 15} ${hy - 10}`}
+          d={`M 120 180 Q 340 460 ${hx - 15} ${hy - 10}`}
           stroke={PIP.limb}
           strokeWidth={120}
           fill="none"
@@ -624,8 +637,8 @@ export const S7: React.FC<ShotProps> = ({ t, len }) => {
         />
       </g>
 
-      <FocusRings x={jarX} y={jarY - 210} t={t - 9} r0={45} color={STAR_GOLD} />
-      <Sparkle x={jarX + 95} y={jarY - 250} t={t - 10} s={1.6} />
+      <FocusRings x={starX} y={starY} t={t - 8} r0={45} color={STAR_GOLD} />
+      <Sparkle x={jarX + 95} y={jarY - 310} t={t - 10} s={1.6} />
     </g>
   );
 };
@@ -738,7 +751,7 @@ export const S9: React.FC<ShotProps> = ({ t, len }) => {
     {
       f: 0,
       p: {
-        x: 430,
+        x: 420,
         y: footY - LEG_LEN * sc,
         scale: sc,
         yaw: 0.25,
@@ -759,19 +772,20 @@ export const S9: React.FC<ShotProps> = ({ t, len }) => {
   ]);
   const mo: Pose = {
     ...basePose,
-    x: 695,
+    x: 705,
     y: footY - LEG_LEN * 1.02,
     scale: 1.02,
     yaw: -0.35,
     facing: -1,
     look: -0.5,
     headTilt: -12,
-    armL: { a: 38, b: 48 },
+    armL: { a: 56, b: 36 },
     armR: { a: 18, b: -10 },
     ...faceAt(t, [[0, 'happy']]),
   };
   const rHand = toWorld(pip, joints(pip).armR.end);
   const lHand = toWorld(pip, joints(pip).armL.end);
+  const moHand = toWorld(mo, joints(mo).armL.end);
 
   return (
     <g transform={camTV(540, kf(t, [[0, 955], [len, 930]]), kf(t, [[0, 0.98], [len, 1.04]]))}>
@@ -787,12 +801,14 @@ export const S9: React.FC<ShotProps> = ({ t, len }) => {
 
       {/* Glowing jar held in Pip's left hand */}
       <StarJar x={lHand.x + 10} y={lHand.y + 24} s={0.78} stars={12} glow={1.2} t={t} />
+      {/* Glowing star held in Mo's hand */}
+      <ShootingStar x={moHand.x - 6} y={moHand.y - 10} r={16} tailLen={0} t={t} id="s9most" />
 
       {/* Slow-motion shooting star frozen in Pip's raised right palm */}
       <ShootingStar x={rHand.x + 8} y={rHand.y - 18} r={22} tailLen={240} angle={-135} t={t} id="s9st" />
       <FocusRings x={rHand.x + 8} y={rHand.y - 18} t={t - 18} r0={35} color={STAR_GOLD} />
 
-      {/* Title card inside upper safe area (y=360..460, well below 200px top safe margin) */}
+      {/* Title card inside upper safe area (y=355..455, well below 200px top safe margin) */}
       <TitleCard
         t={t}
         x={540}
@@ -802,7 +818,7 @@ export const S9: React.FC<ShotProps> = ({ t, len }) => {
         accent="STAR"
         accentT={26}
       />
-      <g transform="translate(355 555) scale(0.88)">
+      <g transform="translate(432 545) scale(0.88)">
         <HudChip x={0} y={0} f={t} label="CATCH" icon="pause" />
       </g>
     </g>
@@ -822,7 +838,7 @@ export const S10: React.FC<ShotProps> = ({ t, len }) => {
     x: head.x + shakeX,
     y: head.y - HEAD.y * sc,
     scale: sc,
-    yaw: 0.15,
+    yaw: 0.12,
     look: kf(t, [
       [0, 0.2],
       [8, 0],
@@ -831,8 +847,8 @@ export const S10: React.FC<ShotProps> = ({ t, len }) => {
       [0, 4],
       [8, -4],
     ]),
-    armL: { a: 16, b: -8 },
-    armR: { a: 16, b: -8 },
+    armL: { a: 24, b: -118 },
+    armR: { a: 24, b: -118 },
     ...faceAt(t, [
       [0, 'smug'],
       [6, 'shock'],
@@ -840,6 +856,9 @@ export const S10: React.FC<ShotProps> = ({ t, len }) => {
     glint: 1,
     glintColor: red > 0.5 ? '#FF5A3A' : STAR_GOLD,
   };
+
+  const jarX = 540 + shakeX * 1.4;
+  const jarY = 1350;
 
   return (
     <g>
@@ -853,9 +872,31 @@ export const S10: React.FC<ShotProps> = ({ t, len }) => {
 
       <Hero look={PIP} pose={pose} rimId={red > 0.4 ? 'rimRed' : 'rimR'} shadow={0} />
 
-      {/* Overheating StarJar right below Pip's chin cracking open */}
-      <StarJar x={540 + shakeX * 1.4} y={1360} s={2.35} stars={12} glow={1.6} red={red} crack={crack} t={t * 3} />
-      <FocusRings x={540} y={1210} t={t - 5} r0={75} color="#FF5A4A" />
+      {/* Overheating StarJar right below Pip's chin cracking open, gripped by Pip's two mittens */}
+      <StarJar x={jarX} y={jarY} s={2.35} stars={12} glow={1.6} red={red} crack={crack} t={t * 3} />
+      <g filter={red > 0.4 ? 'url(#rimRed)' : 'url(#rimR)'}>
+        <ellipse
+          cx={jarX - 118}
+          cy={jarY - 135}
+          rx={46}
+          ry={64}
+          transform={`rotate(12 ${jarX - 118} ${jarY - 135})`}
+          fill={PIP.hand}
+          stroke={PIP.line}
+          strokeWidth={10}
+        />
+        <ellipse
+          cx={jarX + 118}
+          cy={jarY - 135}
+          rx={46}
+          ry={64}
+          transform={`rotate(-12 ${jarX + 118} ${jarY - 135})`}
+          fill={PIP.hand}
+          stroke={PIP.line}
+          strokeWidth={10}
+        />
+      </g>
+      <FocusRings x={540} y={1200} t={t - 5} r0={75} color="#FF5A4A" />
     </g>
   );
 };
@@ -863,7 +904,7 @@ export const S10: React.FC<ShotProps> = ({ t, len }) => {
 // ---------- S11: schematic, wide: "Taurid meteors hit the air at about" Earth upper atmosphere entry ----------
 export const S11: React.FC<ShotProps> = ({ t, len }) => {
   const entryP = easeOut(clamp((t - 2) / 22));
-  const mx = lerp(210, 645, entryP);
+  const mx = lerp(210, 610, entryP);
   const my = lerp(475, 795, entryP);
   const hitP = clamp((t - 14) / 12);
 
@@ -883,7 +924,7 @@ export const S11: React.FC<ShotProps> = ({ t, len }) => {
         color={STAR_CYAN}
         width={4}
       />
-      <SchLabel x={275} y={755} t={t - 6} text="100 KM · UPPER ATMOSPHERE" size={26} color={STAR_CYAN} />
+      <SchLabel x={255} y={865} t={t - 6} text="100 KM · UPPER ATMOSPHERE" size={25} color={STAR_CYAN} />
 
       <DrawOn
         d="M 80 1120 Q 540 1010 1000 1120"
@@ -898,16 +939,16 @@ export const S11: React.FC<ShotProps> = ({ t, len }) => {
       {/* Meteoroid entry trajectory & ram-pressure plasma cone */}
       <DrawOn d={`M 210 475 L ${mx} ${my}`} t={t - 2} dur={12} color={SCH.live} width={6} />
       {hitP > 0 ? (
-        <g transform={`translate(${mx} ${my}) rotate(36)`}>
+        <g transform={`translate(${mx} ${my}) rotate(38)`}>
           <path
-            d={`M -45 -75 Q 45 0 -45 75`}
+            d="M -45 -75 Q 45 0 -45 75"
             fill="none"
             stroke={UI.bad}
             strokeWidth={6}
             opacity={hitP}
           />
           <path
-            d={`M -85 -115 Q 75 0 -85 115`}
+            d="M -85 -115 Q 75 0 -85 115"
             fill="none"
             stroke={SCH.live}
             strokeWidth={4}
@@ -916,12 +957,13 @@ export const S11: React.FC<ShotProps> = ({ t, len }) => {
           />
         </g>
       ) : null}
-      <ShootingStar x={mx} y={my} r={22} tailLen={190} angle={-144} t={t} red={hitP} id="s11m" />
+      <ShootingStar x={mx} y={my} r={22} tailLen={190} angle={-142} t={t} red={hitP} id="s11m" />
 
       {hitP > 0 ? (
         <g>
-          <SchLabel x={735} y={695} t={t - 15} text="RAM-PRESSURE SHOCK" size={28} color={UI.bad} />
-          <SchLabel x={735} y={735} t={t - 17} text="AIR COMPRESSED TO PLASMA" size={24} color={SCH.live} />
+          <DrawOn d={`M ${mx + 42} ${my - 42} L 690 615`} t={t - 14} dur={6} color={UI.bad} width={3} />
+          <SchLabel x={785} y={585} t={t - 15} text="RAM-PRESSURE SHOCK" size={27} color={UI.bad} />
+          <SchLabel x={785} y={625} t={t - 17} text="AIR COMPRESSED TO PLASMA" size={23} color={SCH.live} />
         </g>
       ) : null}
 
@@ -1151,7 +1193,7 @@ export const S15: React.FC<ShotProps> = ({ t, len }) => {
   const red = clamp(0.45 + (t / len) * 0.55);
   const pip: Pose = {
     ...basePose,
-    x: 345,
+    x: 335,
     y: 1255,
     scale: sc,
     yaw: 0.22,
@@ -1161,15 +1203,15 @@ export const S15: React.FC<ShotProps> = ({ t, len }) => {
       [14, -20],
     ]),
     look: 0.2,
-    armL: { a: 22, b: -12 },
-    armR: { a: 38, b: 48 },
+    armL: { a: 42, b: 56 },
+    armR: { a: 14, b: -8 },
     ...faceAt(t, [[0, 'shock']]),
     glint: 1,
     glintColor: '#FF5A3A',
   };
   const mo: Pose = {
     ...basePose,
-    x: 745,
+    x: 755,
     y: 1255,
     scale: sc,
     yaw: -0.22,
@@ -1180,8 +1222,8 @@ export const S15: React.FC<ShotProps> = ({ t, len }) => {
       [14, -20],
     ]),
     look: -0.2,
-    armL: { a: 42, b: 52 },
-    armR: { a: 22, b: -12 },
+    armL: { a: 14, b: -8 },
+    armR: { a: 42, b: 56 },
     ...faceAt(t, [[0, 'worried']]),
     glint: 1,
     glintColor: '#FF5A3A',
@@ -1210,22 +1252,22 @@ export const S16: React.FC<ShotProps> = ({ t, len }) => {
 
   const pip: Pose = {
     ...basePose,
-    x: 415,
+    x: 375,
     y: footY - LEG_LEN * sc,
     scale: sc,
     yaw: 0.28,
     tilt: -8,
     headTilt: -22,
     look: 0.3,
-    armL: { a: 28, b: -14 },
-    armR: { a: 52, b: 36 },
+    armL: { a: 46, b: 48 },
+    armR: { a: 16, b: -10 },
     ...faceAt(t, [[0, 'shock']]),
     glint: 1,
     glintColor: '#FF5A3A',
   };
   const mo: Pose = {
     ...basePose,
-    x: 685,
+    x: 715,
     y: footY - LEG_LEN * sc,
     scale: sc,
     yaw: -0.28,
@@ -1233,8 +1275,8 @@ export const S16: React.FC<ShotProps> = ({ t, len }) => {
     tilt: 8,
     headTilt: -22,
     look: -0.3,
-    armL: { a: 48, b: 42 },
-    armR: { a: 28, b: -14 },
+    armL: { a: 16, b: -10 },
+    armR: { a: 46, b: 48 },
     ...faceAt(t, [[0, 'shock']]),
     glint: 1,
     glintColor: '#FF5A3A',
@@ -1253,7 +1295,7 @@ export const S16: React.FC<ShotProps> = ({ t, len }) => {
 
       <Hero look={PIP} pose={pip} rimId="rimRed" shadow={0.65} />
       <Hero look={MO} pose={mo} rimId="rimRed" shadow={0.65} />
-      <StarJar x={535} y={footY + 12} s={0.85} stars={12} glow={1.4} red={1} crack={1} t={t} />
+      <StarJar x={540} y={footY + 12} s={0.88} stars={12} glow={1.4} red={1} crack={1} t={t} />
     </g>
   );
 };
@@ -1262,36 +1304,36 @@ export const S16: React.FC<ShotProps> = ({ t, len }) => {
 export const S17: React.FC<ShotProps> = ({ t, len }) => {
   const grow = easeOut(clamp(t / len));
   const fbx = 540;
-  const fby = lerp(430, 515, grow);
-  const fbr = lerp(76, 108, grow);
+  const fby = lerp(400, 465, grow);
+  const fbr = lerp(74, 102, grow);
   const cardPop = backOut(clamp((t - 8) / 9));
   const ctaPop = backOut(clamp((t - 15) / 9));
 
   const pip: Pose = {
     ...basePose,
-    x: 335,
-    y: 1365,
-    scale: 1.28,
-    yaw: 0.35,
-    tilt: -8,
-    headTilt: -22,
-    armL: { a: 24, b: -12 },
-    armR: { a: 64, b: 28 },
+    x: 325,
+    y: 1410,
+    scale: 1.18,
+    yaw: 0.32,
+    tilt: -6,
+    headTilt: -20,
+    armL: { a: 44, b: 52 },
+    armR: { a: 16, b: -10 },
     ...faceAt(t, [[0, 'shock']]),
     glint: 1,
     glintColor: '#FF5A3A',
   };
   const mo: Pose = {
     ...basePose,
-    x: 745,
-    y: 1365,
-    scale: 1.28,
-    yaw: -0.35,
+    x: 755,
+    y: 1410,
+    scale: 1.18,
+    yaw: -0.32,
     facing: -1,
-    tilt: 8,
-    headTilt: -22,
-    armL: { a: 58, b: 34 },
-    armR: { a: 24, b: -12 },
+    tilt: 6,
+    headTilt: -20,
+    armL: { a: 16, b: -10 },
+    armR: { a: 44, b: 52 },
     ...faceAt(t, [[0, 'shock']]),
     glint: 1,
     glintColor: '#FF5A3A',
@@ -1305,7 +1347,7 @@ export const S17: React.FC<ShotProps> = ({ t, len }) => {
       <Glow x={fbx} y={fby} r={680} kind="red" o={0.95} />
       <Glow x={fbx} y={fby} r={420} kind="warm" o={0.95} />
       <Rays x={fbx} y={fby} t={t * 1.8} len={1100} n={18} o={0.26} color="#FF8A5A" />
-      <ShootingStar x={fbx} y={fby} r={fbr} tailLen={560} angle={-105} t={t} red={0.95} id="s17fb" />
+      <ShootingStar x={fbx} y={fby} r={fbr} tailLen={520} angle={-105} t={t} red={0.95} id="s17fb" />
 
       {/* Concentric shockwave rings expanding from the fireball */}
       {[150, 240, 340].map((r, i) => (
@@ -1325,9 +1367,9 @@ export const S17: React.FC<ShotProps> = ({ t, len }) => {
       <Hero look={PIP} pose={pip} rimId="rimRed" shadow={0} />
       <Hero look={MO} pose={mo} rimId="rimRed" shadow={0} />
 
-      {/* IFMOSPHERE Channel End Card inside middle safe area (y = 780..1085, well above y = 1540) */}
+      {/* IFMOSPHERE Channel End Card inside middle safe area (y = 700..990, clear above Pip & Mo at y >= 1110) */}
       {cardPop > 0 ? (
-        <g transform={`translate(540 875) scale(${cardPop})`}>
+        <g transform={`translate(540 795) scale(${cardPop})`}>
           <rect
             x={-410}
             y={-95}
@@ -1335,7 +1377,7 @@ export const S17: React.FC<ShotProps> = ({ t, len }) => {
             height={185}
             rx={32}
             fill="#0B0816"
-            opacity={0.9}
+            opacity={0.92}
             stroke={STAR_GOLD}
             strokeWidth={4}
           />
@@ -1365,13 +1407,13 @@ export const S17: React.FC<ShotProps> = ({ t, len }) => {
       ) : null}
 
       {ctaPop > 0 ? (
-        <g transform={`translate(540 1045) scale(${ctaPop})`}>
+        <g transform={`translate(540 955) scale(${ctaPop})`}>
           <rect
             x={-330}
-            y={-46}
+            y={-44}
             width={660}
-            height={92}
-            rx={46}
+            height={88}
+            rx={44}
             fill="#1E1024"
             stroke="#FF8A3D"
             strokeWidth={4}

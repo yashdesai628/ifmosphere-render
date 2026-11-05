@@ -342,6 +342,11 @@
   }
  ],
  "audio": {
-  "voice": "meteor/voice.wav"
+  "voice": "meteor/voice.wav",
+  "sfx": "meteor/sfx.wav",
+  "voiceVol": 0.8,
+  "sfxVol": 0.3297,
+  "music": "meteor/music.wav",
+  "musicVol": 0.0773
  }
 }

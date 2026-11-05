@@ -315,5 +315,124 @@
    "len": 12,
    "amp": 12
   }
- ]
+ ],
+ "sound": {
+  "clips": {
+   "roof_wind": [
+    "a gentle evening breeze on a city rooftop, distant traffic",
+    7.0
+   ],
+   "room_tone": [
+    "quiet indoor room tone in the evening, faint distant city hum, no voices",
+    12.5
+   ],
+   "music": [
+    "playful quirky cartoon background music, pizzicato strings, glockenspiel and soft bass, light and curious, 110 bpm, no vocals",
+    17.0
+   ],
+   "title_boom": [
+    "a cinematic whoosh rising into a deep boom impact",
+    1.6
+   ],
+   "drone_hit": [
+    "a dark ominous low drone hit, deep cinematic horror sting",
+    2.6
+   ],
+   "sparkle": [
+    "a short bright magical sparkle twinkle, cartoon",
+    0.8
+   ],
+   "pop": [
+    "a cartoon speech bubble pop, short and bright",
+    0.5
+   ],
+   "catch": [
+    "a hand catching a ceramic mug mid-air, soft slap and thud",
+    0.5
+   ],
+   "fall_whoosh": [
+    "a small object falling fast through the air, short soft whoosh",
+    0.6
+   ],
+   "clink": [
+    "a ceramic coffee mug knocked by a hand on a wooden desk, short clink and scrape",
+    0.7
+   ],
+   "ding": [
+    "a correct answer ding, bright bell chime",
+    0.8
+   ],
+   "gasp": [
+    "two young people gasping in surprise at the same moment, cartoon, short",
+    0.8
+   ],
+   "gulp": [
+    "a nervous cartoon gulp, short",
+    0.5
+   ],
+   "counter_tick": [
+    "a fast mechanical counter ticking up rapidly, digits rolling over, getting faster",
+    1.6
+   ],
+   "crack": [
+    "glass cracking sharply, the crack spreading across a pane",
+    1.1
+   ],
+   "power_hum": [
+    "a deep electrical power grid hum swelling louder, transformers buzzing, rising",
+    3.0
+   ],
+   "meteor_streak": [
+    "a bright shooting star streaking across the night sky, a crystalline shimmering whoosh",
+    1.0
+   ],
+   "catch_chime": [
+    "a soft warm celestial bell chime with a gentle time-slow shimmer, magical and delicate, short",
+    0.9
+   ],
+   "fireball_roar": [
+    "a colossal meteor fireball roaring overhead, deep atmospheric rumble and scorching plasma whoosh",
+    2.4
+   ]
+  },
+  "events": [
+   ["S1", "roof_wind", 0.05, "onset", "S10"],
+   ["S1+2", "meteor_streak", 0.11, "onset", "S1+36"],
+   ["S1+45", "sparkle", 0.16, "onset", "S2"],
+   ["S2+22", "fall_whoosh", 0.14, "onset", "S3+2"],
+   ["S3+14", "catch", 0.18, "onset", "S4"],
+   ["S3+15", "catch_chime", 0.22, "onset", "S4"],
+   ["S4+19", "sparkle", 0.16, "onset", "S5"],
+   ["S5+31", "sparkle", 0.16, "onset", "S6"],
+   ["S6+27", "catch_chime", 0.18, "onset", "S7"],
+   ["S6+28", "gasp", 0.16, "onset", "S7"],
+   ["S7+20", "clink", 0.16, "onset", "S8"],
+   ["S8+2", "power_hum", 0.015, "onset", "S9"],
+   ["S8+35", "gulp", 0.11, "onset", "S9"],
+   ["S9", "title_boom", 0.24, "peak"],
+   ["S9+56", "catch_chime", 0.22, "onset", "S10"],
+   ["S10+21", "crack", 0.22, "onset", "S11"],
+   ["S10+22", "drone_hit", 0.18, "onset", "S11"],
+   ["S11", "room_tone", 0.04, "onset", "S16"],
+   ["S11+14", "pop", 0.06],
+   ["S12+2", "counter_tick", 0.05, "onset", "S12+24"],
+   ["S12+53", "ding", 0.18, "onset", "S13"],
+   ["S13+2", "pop", 0.06],
+   ["S14+21", "meteor_streak", 0.18, "onset", "S15"],
+   ["S15+20", "drone_hit", 0.20, "onset", "S16"],
+   ["S16", "roof_wind", 0.05, "onset"],
+   ["S17+40", "fireball_roar", 0.52],
+   ["S17+42", "drone_hit", 0.45],
+   ["S17+46", "pop", 0.20]
+  ],
+  "repeats": [],
+  "music": {
+   "clip": "music",
+   "until": "S10"
+  },
+  "levels": {
+   "sfx_lu": -4.2,
+   "music_lu": -13.2
+  }
+ }
 }

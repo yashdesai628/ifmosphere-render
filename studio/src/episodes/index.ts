@@ -3,5 +3,6 @@ import { rewind } from './rewind';
 import { copyPaste } from './copy-paste';
 import { reaction } from './reaction';
 import { meteor } from './meteor';
+import { starcatcher } from './starcatcher';
 
-export const EPISODES = [rewind, copyPaste, reaction, meteor];
+export const EPISODES = [rewind, copyPaste, reaction, meteor, starcatcher];

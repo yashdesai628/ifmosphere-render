@@ -1,0 +1,2727 @@
+{
+  "id": "Starcatcher",
+  "slug": "starcatcher",
+  "channel": {
+    "name": "Ifmosphere",
+    "tagline": "Step into the what if."
+  },
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "topic": "What if you could catch a shooting star?",
+  "title": [
+    "WHAT IF YOU",
+    "COULD CATCH A STAR?"
+  ],
+  "accent": "STAR",
+  "power": {
+    "word": "Catch.",
+    "rule": "you can lock onto a falling shooting star from the ground and slow it to a dead stop in your palm",
+    "look": "catch: time slows as a streak of starlight freezes in your palm with a warm golden-cyan starlight halo, a CATCH HUD chip, and a soft celestial chime"
+  },
+  "chapters": [
+    {
+      "chapter": 0,
+      "title": "COLD OPEN",
+      "card": null
+    },
+    {
+      "chapter": 1,
+      "title": "The First Catch",
+      "card": [
+        "CHAPTER 1",
+        "THE FIRST CATCH"
+      ]
+    },
+    {
+      "chapter": 2,
+      "title": "Wishes for Sale",
+      "card": [
+        "CHAPTER 2",
+        "WISHES FOR SALE"
+      ]
+    },
+    {
+      "chapter": 3,
+      "title": "The Real Science",
+      "card": [
+        "CHAPTER 3",
+        "THE REAL SCIENCE"
+      ]
+    },
+    {
+      "chapter": 4,
+      "title": "Bigger Fish",
+      "card": [
+        "CHAPTER 4",
+        "BIGGER FISH"
+      ]
+    },
+    {
+      "chapter": 5,
+      "title": "Something Much Bigger",
+      "card": [
+        "CHAPTER 5",
+        "SOMETHING MUCH BIGGER"
+      ]
+    },
+    {
+      "chapter": 6,
+      "title": "What You Caught",
+      "card": [
+        "CHAPTER 6",
+        "WHAT YOU CAUGHT"
+      ]
+    }
+  ],
+  "script": [
+    {
+      "chapter": 0,
+      "speaker": "narrator",
+      "beat": "0.1 cold open: payoff in the dark park",
+      "text": "Midnight in the park. Freezing air, numb hands. Above the trees, a bright streak of light slashes across the dark. You do not make a wish. You just reach up. Catch."
+    },
+    {
+      "chapter": 0,
+      "speaker": "narrator",
+      "beat": "0.2 cold open: frozen streak in palm + escalation montage",
+      "text": "Time stutters. The falling streak freezes right in your open palm, humming like a living ember. Warm golden light spills between your mittens. Soon your jars are glowing with starlight, a queue stretches round the block, sirens wail, and the clouds turn blood red."
+    },
+    {
+      "chapter": 0,
+      "speaker": "narrator",
+      "beat": "0.3 title card",
+      "text": "What if you could catch a star?"
+    },
+    {
+      "chapter": 1,
+      "speaker": "narrator",
+      "beat": "1.1 chapter card + discovering the power",
+      "text": "Chapter One. The First Catch. It starts on a quiet night in early November, as the Northern Taurids build toward their peak around November twelfth. You are walking home through the park, breath misting in the cold. A shooting star flashes overhead. Just for a laugh, you point your mitten at the sky and close your fingers. Catch."
+    },
+    {
+      "chapter": 1,
+      "speaker": "narrator",
+      "beat": "1.2 warm hands and bedroom nightlight jar",
+      "text": "A soft chime rings out. Down drops a glowing golden pebble, landing gently in your palm. It does not burn. It feels like a warm marshmallow. You slip it into your pocket, and the walk home feels like summer. Back in your bedroom, you pluck another streak through the window and drop it into an empty jam jar on your nightstand. Instant nightlight."
+    },
+    {
+      "chapter": 1,
+      "speaker": "narrator",
+      "beat": "1.3 warming cocoa + Mo spots it through the window",
+      "text": "At your desk, a captured star keeps your mug of cocoa piping hot while you work. You think you have found the ultimate cosy life hack. Until you look at the window and see your mate Mo staring through the glass."
+    },
+    {
+      "chapter": 1,
+      "speaker": "mo",
+      "beat": "1.4 Mo reacts at the window (cliffhanger into Ch 2)",
+      "text": "Wait. Those fall out of the sky for free, and you are using them to warm up cocoa?"
+    },
+    {
+      "chapter": 2,
+      "speaker": "narrator",
+      "beat": "2.1 chapter card + Mo sets up the stall",
+      "text": "Chapter Two. Wishes for Sale. By the next evening, Mo has turned your secret into a business. He sets up a folding table by the park gate, strings up lights, and tapes a cardboard sign to the front: Genuine Shooting Stars, Hold Your Own Wish. You stand behind the table with empty mason jars, plucking streaks out of the sky on demand. Catch. Catch. Each one lands with a golden chime."
+    },
+    {
+      "chapter": 2,
+      "speaker": "mo",
+      "beat": "2.2 Mo pitches to the crowd",
+      "text": "Step right up! Fresh off the cosmos! Make a wish while it is still warm, no refunds!"
+    },
+    {
+      "chapter": 2,
+      "speaker": "narrator",
+      "beat": "2.3 silly wishes and queue round the block",
+      "text": "At first, it is silly fun. A nervous teenager holds a glowing jar and wishes to pass his driving test. A kid wishes for a puppy. Your pockets fill with cash, and the queue stretches round the block."
+    },
+    {
+      "chapter": 2,
+      "speaker": "narrator",
+      "beat": "2.4 things turn uncomfortable + humming jars (cliffhanger into Ch 3)",
+      "text": "Then the mood turns ugly. People in fancy coats shove to the front, waving money and demanding brighter stars. Customers storm back, furious that their selfish wishes have not come true. Someone tries to smash a jar open on the path. Inside the glass, the captured stars pulse faster, humming with a low vibration that makes your teeth ache. Because what you are catching is not fairy dust at all."
+    },
+    {
+      "chapter": 3,
+      "speaker": "narrator",
+      "beat": "3.1 chapter card + sand to pebble size",
+      "text": "Chapter Three. The Real Science. Let us pause the chaos and look at what a shooting star really is. When you see a streak of light in the night sky, it is not a giant cartoon star. It is a meteoroid. And most visible meteors come from particles sand grain to pebble sized. That is real."
+    },
+    {
+      "chapter": 3,
+      "speaker": "narrator",
+      "beat": "3.2 altitude: 80 to 120 km in mesosphere/lower thermosphere",
+      "text": "Even weirder, they are nowhere near the trees. Most meteors burn up roughly eighty to one hundred and twenty kilometres above the ground, high in the mesosphere and lower thermosphere. That is real."
+    },
+    {
+      "chapter": 3,
+      "speaker": "narrator",
+      "beat": "3.3 speed (27 km/s) and ionised air plasma glow",
+      "text": "So how can a tiny pebble eighty kilometres up shine brightly enough to see from the park? Speed. Taurid meteoroids enter the atmosphere at about twenty seven kilometres per second. That is real. And at twenty seven kilometres per second, the rock is not on fire like wood. Instead, the air around the meteoroid is heated and ionised into a glowing trail of plasma. The glow is mostly superheated air."
+    },
+    {
+      "chapter": 3,
+      "speaker": "narrator",
+      "beat": "3.4 impossible catch + hand-wave power mechanics & consequences",
+      "text": "Catching a pebble at that speed should be completely impossible. Your power works by locking onto a meteoroid from below and slowing it to a dead stop in your palm. Which raises a big question. Where does all that stopped energy go? Into the jar. And what happens when you reach for something bigger?"
+    },
+    {
+      "chapter": 4,
+      "speaker": "narrator",
+      "beat": "4.1 chapter card + greedy for a Taurid fireball on the roof",
+      "text": "Chapter Four. Bigger Fish. Alongside tiny dust grains, the Taurids are famous for bright fireballs, made by much larger chunks of rock. Late that night, you climb onto the rooftop above the city. Glowing jars line the wall, humming in the dark. Pebbles feel too small now. You want a real prize. Suddenly, a brilliant green and gold fireball blazes across the clouds, lighting up the whole street. Mo grabs your sleeve."
+    },
+    {
+      "chapter": 4,
+      "speaker": "mo",
+      "beat": "4.2 Mo warns you",
+      "text": "Leave that one alone, mate! Look at the trail on it! That thing looks angry!"
+    },
+    {
+      "chapter": 4,
+      "speaker": "narrator",
+      "beat": "4.3 catching the fireball + shockwave + radar",
+      "text": "You reach up anyway. Catch. The sky flashes white. A shockwave rolls across the roof, popping every bulb on the string lights. The fireball slams to a stop above your mittens, shrinking into a sputtering core of blinding plasma. Every car alarm on the street goes off. Because when a bright fireball vanishes mid flight on weather radar and satellite cameras, the world notices."
+    },
+    {
+      "chapter": 4,
+      "speaker": "narrator",
+      "beat": "4.4 scientists, news vans, and government suits knock (cliffhanger into Ch 5)",
+      "text": "By morning, news vans block your street, scientists with sensors surround the park, and government agents in dark suits knock on your door. They are not here to arrest you. Their telescopes just spotted something else."
+    },
+    {
+      "chapter": 5,
+      "speaker": "narrator",
+      "beat": "5.1 chapter card + briefing room threat",
+      "text": "Chapter Five. Something Much Bigger. Inside a briefing room, the agents turn a radar screen toward you. Hidden inside the Taurid stream is a dark, house sized object hurtling toward Earth at twenty seven kilometres per second, right on course for the city. There is no time to evacuate, and nothing else can stop it. So the world asks you to stand in the park and catch it."
+    },
+    {
+      "chapter": 5,
+      "speaker": "narrator",
+      "beat": "5.2 dark city tension + Mo stands by you",
+      "text": "That night, the city cuts every light. Searchlights sweep the clouds. Scientists watch from behind shields. Mo stands beside you on the path, knees shaking."
+    },
+    {
+      "chapter": 5,
+      "speaker": "mo",
+      "beat": "5.3 Mo nervous joke",
+      "text": "No pressure or anything. Just the whole city behind us. Use both hands, yeah?"
+    },
+    {
+      "chapter": 5,
+      "speaker": "narrator",
+      "beat": "5.4 the giant bolide enters + the attempt (cliffhanger into Ch 6)",
+      "text": "High above, roughly one hundred kilometres up, the clouds turn blood red. A deep roar shakes the ground as a colossal fireball tears through the upper air, dragging a tail of plasma across the sky. You plant your feet, raise both hands toward the glare, and whisper the word. Catch. A shockwave flattens the grass. The roar drops into silence. Slowly, impossibly, the giant fireball halts just above your fingertips. And as the plasma clears, your breath catches."
+    },
+    {
+      "chapter": 6,
+      "speaker": "narrator",
+      "beat": "6.1 chapter card + the plasma clears to reveal the craft",
+      "text": "Chapter Six. What You Caught. The superheated air fades into the night breeze, and you finally see what is hovering above your palms. It is not a jagged space rock. Its surface is smooth dark metal, shaped into clean geometric panels that glint in the moonlight, etched with glowing cyan symbols no human ever wrote."
+    },
+    {
+      "chapter": 6,
+      "speaker": "narrator",
+      "beat": "6.2 all the jars pulse in sync \u2014 beacons",
+      "text": "Behind you, every mason jar you filled all week suddenly flares bright blue. All those tiny pebbles pulse in the exact same rhythm, answering the craft above your hands. They were never random grains of space dust. They were beacons, sent ahead to find someone who could catch them."
+    },
+    {
+      "chapter": 6,
+      "speaker": "narrator",
+      "beat": "6.3 the hatch opens + closing question",
+      "text": "And now that you have caught their ship, a hatch on its underside clicks open. If you could catch a falling star tonight, and it answered back, would you open your hand, or let it go?"
+    }
+  ],
+  "science": [
+    {
+      "claim": "Taurid meteoroids enter at about 27 km/s.",
+      "working": "Southern Taurid (STA) meteoroids enter Earth's atmosphere at about 27 km/s (Northern Taurids, NTA, enter at about 29 km/s).",
+      "source": "International Meteor Organization (IMO) Meteor Shower Outlook / Calendar (STA: 27 km/s, NTA: 29 km/s)"
+    },
+    {
+      "claim": "Most meteors burn up roughly 80-120 km above the ground (mesosphere / lower thermosphere).",
+      "working": "Meteors become visible and ablate primarily between 80 km and 120 km altitude (around 100 km sits right in this mesosphere / lower thermosphere band).",
+      "source": "NASA / American Meteor Society (AMS) Meteor FAQ"
+    },
+    {
+      "claim": "Most visible meteors come from particles sand-grain to pebble sized.",
+      "working": "The vast majority of visible shooting stars are produced by meteoroids ranging in size from a grain of sand to a small pebble (millimetres to a few centimetres across), while brighter fireballs come from larger fragments.",
+      "source": "American Meteor Society (AMS) Meteor FAQ"
+    },
+    {
+      "claim": "The Northern Taurids peak around 12 Nov 2026, and the Taurids are known for bright fireballs.",
+      "working": "The Northern Taurid meteor shower peaks around 12 November 2026 (following the Southern Taurids in early November), and both branches are noted by NASA and the IMO for producing bright fireballs.",
+      "source": "NASA \"What's Up: November 2026\" & IMO Meteor Shower Outlook"
+    },
+    {
+      "claim": "The glow of a meteor is mostly the air around the meteoroid being heated and ionised into plasma, not the rock burning like wood on fire.",
+      "working": "At hypersonic entry speeds (~27 km/s), ram pressure compresses and heats the air ahead of the meteoroid to thousands of kelvins, ionising the surrounding atmospheric gas and ablated vapour into a glowing plasma trail.",
+      "source": "NASA / American Meteor Society (AMS) Meteor FAQ"
+    }
+  ],
+  "cast": [
+    "pipHood",
+    "mo",
+    "sis",
+    "mom",
+    "suit",
+    "pip",
+    "pipInk"
+  ],
+  "shots": [
+    {
+      "id": "S1",
+      "chapter": 0,
+      "size": "wide",
+      "note": "Dark park at night, city skyline silhouette, bright falling star streaking across sky above Pip"
+    },
+    {
+      "id": "S2",
+      "chapter": 0,
+      "size": "low angle, medium",
+      "note": "Pip in dark park looking up, breath misting, reaching bare hand toward falling streak"
+    },
+    {
+      "id": "S3",
+      "chapter": 0,
+      "size": "macro insert, slow motion",
+      "note": "Pip's open palm catching the blazing streak of light, shockwave rings rippling outward"
+    },
+    {
+      "id": "S4",
+      "chapter": 0,
+      "size": "close-up",
+      "note": "Captured star frozen and hovering in Pip's palm, warm golden light on Pip's amazed face"
+    },
+    {
+      "id": "S5",
+      "chapter": 0,
+      "size": "medium wide",
+      "note": "Rapid flash-forward montage split: glowing mason jars, crowd queue, red sky emergency"
+    },
+    {
+      "id": "S6",
+      "chapter": 0,
+      "size": "title, wide",
+      "note": "Title card: WHAT IF YOU COULD CATCH A STAR? over dark park with glowing palm"
+    },
+    {
+      "id": "S7",
+      "chapter": 1,
+      "size": "wide, chapter card",
+      "note": "Chapter 1 card: THE FIRST CATCH over November night park"
+    },
+    {
+      "id": "S8",
+      "chapter": 1,
+      "size": "medium",
+      "note": "Pip walking along park path at night, Northern Taurid streaks overhead, pointing mitten up"
+    },
+    {
+      "id": "S9",
+      "chapter": 1,
+      "size": "macro insert",
+      "note": "Glowing golden pebble dropping gently into Pip's mittened palm like a warm marshmallow"
+    },
+    {
+      "id": "S10",
+      "chapter": 1,
+      "size": "medium, high angle",
+      "note": "Pip in dark bedroom plucking a shooting star through open window into a jam jar on nightstand"
+    },
+    {
+      "id": "S11",
+      "chapter": 1,
+      "size": "top-down insert",
+      "note": "Study desk close-up: glowing star jar beside steaming mug of hot cocoa and notebook"
+    },
+    {
+      "id": "S12",
+      "chapter": 1,
+      "size": "medium",
+      "note": "Pip at study desk smiling with warm cocoa while Mo appears outside the window"
+    },
+    {
+      "id": "S13",
+      "chapter": 1,
+      "size": "over the shoulder, close-up",
+      "note": "Mo pressed against bedroom window glass, wide-eyed, pointing at the glowing star jar"
+    },
+    {
+      "id": "S14",
+      "chapter": 2,
+      "size": "wide, chapter card",
+      "note": "Chapter 2 card: WISHES FOR SALE over park stall setup"
+    },
+    {
+      "id": "S15",
+      "chapter": 2,
+      "size": "wide",
+      "note": "Park at dusk: WISHES FOR SALE cardboard banner on folding table, queue of stick figures round the block"
+    },
+    {
+      "id": "S16",
+      "chapter": 2,
+      "size": "medium two-shot",
+      "note": "Pip plucking streaks from sky while Mo screws lids onto glowing mason jars and counts cash"
+    },
+    {
+      "id": "S17",
+      "chapter": 2,
+      "size": "medium",
+      "note": "Customers holding glowing star jars like lanterns, taking selfies, proposing on one knee"
+    },
+    {
+      "id": "S18",
+      "chapter": 2,
+      "size": "macro insert, Dutch angle",
+      "note": "Crate of twenty captured star jars vibrating, rattling against glass, pulsing in angry red-gold sync"
+    },
+    {
+      "id": "S19",
+      "chapter": 3,
+      "size": "wide, chapter card",
+      "note": "Chapter 3 card: THE REAL SCIENCE over blueprint schematic grid"
+    },
+    {
+      "id": "S20",
+      "chapter": 3,
+      "size": "wide, diagram",
+      "note": "Schematic diagram 1: Scale comparison \u2014 giant cartoon star crossed out vs 1 mm sand grain to 1 cm pebble meteoroid"
+    },
+    {
+      "id": "S21",
+      "chapter": 3,
+      "size": "wide, diagram",
+      "note": "Schematic diagram 2: Earth atmosphere cross-section showing 80 to 120 km mesosphere/thermosphere burn-up zone"
+    },
+    {
+      "id": "S22",
+      "chapter": 3,
+      "size": "wide, diagram",
+      "note": "Schematic diagram 3: Taurid meteoroid vector entering at 27 km/s with kinetic energy gauge"
+    },
+    {
+      "id": "S23",
+      "chapter": 3,
+      "size": "macro insert, diagram",
+      "note": "Schematic diagram 4: Ram-pressure compression heating and glowing ionised plasma air shell around pebble"
+    },
+    {
+      "id": "S24",
+      "chapter": 3,
+      "size": "medium, diagram",
+      "note": "Schematic diagram 5: Stick figure attempting bare-hand catch at 27 km/s vs WARNING: INSTANT VAPORISATION stamp"
+    },
+    {
+      "id": "S25",
+      "chapter": 3,
+      "size": "wide, diagram",
+      "note": "Schematic diagram 6: Deceleration field \u2014 27 km/s -> 0 m/s braking curve and plasma dispersal"
+    },
+    {
+      "id": "S26",
+      "chapter": 3,
+      "size": "macro insert, diagram",
+      "note": "Schematic diagram 7: Trapped meteoroid in glass jar emitting acoustic standing waves into the glass"
+    },
+    {
+      "id": "S27",
+      "chapter": 4,
+      "size": "wide, chapter card",
+      "note": "Chapter 4 card: BIGGER FISH over city rooftop at night"
+    },
+    {
+      "id": "S28",
+      "chapter": 4,
+      "size": "wide",
+      "note": "Pip and Mo on rooftop at night as a brilliant green-white bolide fireball blazes across the sky"
+    },
+    {
+      "id": "S29",
+      "chapter": 4,
+      "size": "low angle, medium",
+      "note": "Pip straining with both hands on rooftop to catch the grapefruit-sized white-hot iron meteoroid as shockwave cracks chimney"
+    },
+    {
+      "id": "S30",
+      "chapter": 4,
+      "size": "close-up, insert",
+      "note": "Meteorological radar monitor showing a 27 km/s track dropping straight to zero over Pip's street"
+    },
+    {
+      "id": "S31",
+      "chapter": 4,
+      "size": "wide, high angle",
+      "note": "Morning street outside Pip's house packed with news satellite vans, black SUVs, and radiation suits"
+    },
+    {
+      "id": "S32",
+      "chapter": 4,
+      "size": "medium",
+      "note": "Pip opening front door in bathrobe holding glowing grapefruit iron core while Mo whispers behind him"
+    },
+    {
+      "id": "S33",
+      "chapter": 5,
+      "size": "wide, chapter card",
+      "note": "Chapter 5 card: SOMETHING MUCH BIGGER over emergency command room"
+    },
+    {
+      "id": "S34",
+      "chapter": 5,
+      "size": "wide",
+      "note": "Underground briefing room: giant red trajectory screen showing house-sized Taurid object at 27 km/s aimed at city"
+    },
+    {
+      "id": "S35",
+      "chapter": 5,
+      "size": "close-up",
+      "note": "Pip and Mo at briefing table looking up at the impact projection as generals and scientists turn to Pip"
+    },
+    {
+      "id": "S36",
+      "chapter": 5,
+      "size": "wide",
+      "note": "Blacked-out city park at night, searchlights sweeping blood-red clouds, scientists behind blast shields"
+    },
+    {
+      "id": "S37",
+      "chapter": 5,
+      "size": "medium two-shot",
+      "note": "Pip and Mo standing on park path in wind, Mo nervous, Pip raising both hands toward sky"
+    },
+    {
+      "id": "S38",
+      "chapter": 5,
+      "size": "wide, low angle",
+      "note": "Colossal fireball tearing through clouds 100 km up, dragging a massive plasma tail toward the park"
+    },
+    {
+      "id": "S39",
+      "chapter": 5,
+      "size": "low angle, slow motion",
+      "note": "Pip planting feet with both hands raised as massive fireball halts just above his fingertips in a huge shockwave"
+    },
+    {
+      "id": "S40",
+      "chapter": 6,
+      "size": "wide, chapter card",
+      "note": "Chapter 6 card: WHAT YOU CAUGHT over clearing smoke in park"
+    },
+    {
+      "id": "S41",
+      "chapter": 6,
+      "size": "macro insert, low angle",
+      "note": "Plasma clearing to reveal a smooth dark-metal geometric craft with glowing cyan alien symbols hovering above Pip's hands"
+    },
+    {
+      "id": "S42",
+      "chapter": 6,
+      "size": "medium wide",
+      "note": "Dozens of mason jars across the park and city windows flaring bright cyan-blue and pulsing in sync with the craft"
+    },
+    {
+      "id": "S43",
+      "chapter": 6,
+      "size": "close-up, low angle",
+      "note": "Underside hatch of the dark-metal craft clicking open with bright cyan light shining down onto Pip's face"
+    },
+    {
+      "id": "S44",
+      "chapter": 6,
+      "size": "wide, end card",
+      "note": "End card: IFMOSPHERE \u2014 Step into the what if. Comment your what-if / Subscribe for more what-ifs"
+    }
+  ],
+  "edit": [
+    {
+      "shot": "S1",
+      "at": "f:0"
+    },
+    {
+      "shot": "S2",
+      "at": "f:47"
+    },
+    {
+      "shot": "S1",
+      "at": "f:107"
+    },
+    {
+      "shot": "S2",
+      "at": "f:153"
+    },
+    {
+      "shot": "S2",
+      "at": "f:221"
+    },
+    {
+      "shot": "S3",
+      "at": "f:300",
+      "look": "catch"
+    },
+    {
+      "shot": "S4",
+      "at": "f:373"
+    },
+    {
+      "shot": "S2",
+      "at": "f:425"
+    },
+    {
+      "shot": "S4",
+      "at": "f:474"
+    },
+    {
+      "shot": "S2",
+      "at": "f:524"
+    },
+    {
+      "shot": "S5",
+      "at": "f:591"
+    },
+    {
+      "shot": "S1",
+      "at": "f:654"
+    },
+    {
+      "shot": "S5",
+      "at": "f:709"
+    },
+    {
+      "shot": "S6",
+      "at": "f:792"
+    },
+    {
+      "shot": "S7",
+      "at": "f:900"
+    },
+    {
+      "shot": "S8",
+      "at": "f:1017"
+    },
+    {
+      "shot": "S9",
+      "at": "f:1095"
+    },
+    {
+      "shot": "S8",
+      "at": "f:1163"
+    },
+    {
+      "shot": "S9",
+      "at": "f:1226"
+    },
+    {
+      "shot": "S8",
+      "at": "f:1299"
+    },
+    {
+      "shot": "S9",
+      "at": "f:1367"
+    },
+    {
+      "shot": "S8",
+      "at": "f:1428"
+    },
+    {
+      "shot": "S9",
+      "at": "f:1503"
+    },
+    {
+      "shot": "S9",
+      "at": "f:1556",
+      "look": "catch"
+    },
+    {
+      "shot": "S8",
+      "at": "f:1620"
+    },
+    {
+      "shot": "S9",
+      "at": "f:1683"
+    },
+    {
+      "shot": "S8",
+      "at": "f:1747"
+    },
+    {
+      "shot": "S9",
+      "at": "f:1813"
+    },
+    {
+      "shot": "S8",
+      "at": "f:1877"
+    },
+    {
+      "shot": "S9",
+      "at": "f:1939"
+    },
+    {
+      "shot": "S8",
+      "at": "f:2003"
+    },
+    {
+      "shot": "S10",
+      "at": "f:2070"
+    },
+    {
+      "shot": "S9",
+      "at": "f:2133"
+    },
+    {
+      "shot": "S10",
+      "at": "f:2202"
+    },
+    {
+      "shot": "S9",
+      "at": "f:2277"
+    },
+    {
+      "shot": "S11",
+      "at": "f:2329"
+    },
+    {
+      "shot": "S12",
+      "at": "f:2394"
+    },
+    {
+      "shot": "S11",
+      "at": "f:2489"
+    },
+    {
+      "shot": "S12",
+      "at": "f:2580"
+    },
+    {
+      "shot": "S11",
+      "at": "f:2655"
+    },
+    {
+      "shot": "S13",
+      "at": "f:2701"
+    },
+    {
+      "shot": "S12",
+      "at": "f:2764"
+    },
+    {
+      "shot": "S11",
+      "at": "f:2839"
+    },
+    {
+      "shot": "S14",
+      "at": "f:2925"
+    },
+    {
+      "shot": "S15",
+      "at": "f:3044"
+    },
+    {
+      "shot": "S16",
+      "at": "f:3106"
+    },
+    {
+      "shot": "S15",
+      "at": "f:3170"
+    },
+    {
+      "shot": "S16",
+      "at": "f:3244"
+    },
+    {
+      "shot": "S15",
+      "at": "f:3317"
+    },
+    {
+      "shot": "S16",
+      "at": "f:3381"
+    },
+    {
+      "shot": "S15",
+      "at": "f:3468"
+    },
+    {
+      "shot": "S16",
+      "at": "f:3535"
+    },
+    {
+      "shot": "S15",
+      "at": "f:3599"
+    },
+    {
+      "shot": "S16",
+      "at": "f:3689"
+    },
+    {
+      "shot": "S15",
+      "at": "f:3752"
+    },
+    {
+      "shot": "S16",
+      "at": "f:3819"
+    },
+    {
+      "shot": "S15",
+      "at": "f:3884"
+    },
+    {
+      "shot": "S16",
+      "at": "f:3953"
+    },
+    {
+      "shot": "S17",
+      "at": "f:4050"
+    },
+    {
+      "shot": "S16",
+      "at": "f:4136"
+    },
+    {
+      "shot": "S17",
+      "at": "f:4200"
+    },
+    {
+      "shot": "S16",
+      "at": "f:4274"
+    },
+    {
+      "shot": "S17",
+      "at": "f:4340"
+    },
+    {
+      "shot": "S16",
+      "at": "f:4408"
+    },
+    {
+      "shot": "S18",
+      "at": "f:4466"
+    },
+    {
+      "shot": "S16",
+      "at": "f:4533"
+    },
+    {
+      "shot": "S18",
+      "at": "f:4605"
+    },
+    {
+      "shot": "S16",
+      "at": "f:4694"
+    },
+    {
+      "shot": "S18",
+      "at": "f:4758"
+    },
+    {
+      "shot": "S16",
+      "at": "f:4851"
+    },
+    {
+      "shot": "S18",
+      "at": "f:4943"
+    },
+    {
+      "shot": "S16",
+      "at": "f:5013"
+    },
+    {
+      "shot": "S18",
+      "at": "f:5076"
+    },
+    {
+      "shot": "S16",
+      "at": "f:5155"
+    },
+    {
+      "shot": "S15",
+      "at": "f:5230"
+    },
+    {
+      "shot": "S19",
+      "at": "f:5302"
+    },
+    {
+      "shot": "S20",
+      "at": "f:5421"
+    },
+    {
+      "shot": "S21",
+      "at": "f:5488"
+    },
+    {
+      "shot": "S20",
+      "at": "f:5553"
+    },
+    {
+      "shot": "S21",
+      "at": "f:5618"
+    },
+    {
+      "shot": "S20",
+      "at": "f:5689"
+    },
+    {
+      "shot": "S21",
+      "at": "f:5759"
+    },
+    {
+      "shot": "S20",
+      "at": "f:5824"
+    },
+    {
+      "shot": "S21",
+      "at": "f:5941"
+    },
+    {
+      "shot": "S20",
+      "at": "f:6005"
+    },
+    {
+      "shot": "S21",
+      "at": "f:6074"
+    },
+    {
+      "shot": "S20",
+      "at": "f:6143"
+    },
+    {
+      "shot": "S21",
+      "at": "f:6204"
+    },
+    {
+      "shot": "S20",
+      "at": "f:6279"
+    },
+    {
+      "shot": "S22",
+      "at": "f:6347"
+    },
+    {
+      "shot": "S23",
+      "at": "f:6415"
+    },
+    {
+      "shot": "S22",
+      "at": "f:6510"
+    },
+    {
+      "shot": "S23",
+      "at": "f:6583"
+    },
+    {
+      "shot": "S22",
+      "at": "f:6649"
+    },
+    {
+      "shot": "S23",
+      "at": "f:6761"
+    },
+    {
+      "shot": "S22",
+      "at": "f:6833"
+    },
+    {
+      "shot": "S23",
+      "at": "f:6912"
+    },
+    {
+      "shot": "S22",
+      "at": "f:6980"
+    },
+    {
+      "shot": "S23",
+      "at": "f:7050"
+    },
+    {
+      "shot": "S22",
+      "at": "f:7114"
+    },
+    {
+      "shot": "S24",
+      "at": "f:7182"
+    },
+    {
+      "shot": "S25",
+      "at": "f:7257"
+    },
+    {
+      "shot": "S25",
+      "at": "f:7305"
+    },
+    {
+      "shot": "S24",
+      "at": "f:7370"
+    },
+    {
+      "shot": "S26",
+      "at": "f:7482"
+    },
+    {
+      "shot": "S25",
+      "at": "f:7550"
+    },
+    {
+      "shot": "S26",
+      "at": "f:7636"
+    },
+    {
+      "shot": "S25",
+      "at": "f:7705"
+    },
+    {
+      "shot": "S27",
+      "at": "f:7813"
+    },
+    {
+      "shot": "S28",
+      "at": "f:7920"
+    },
+    {
+      "shot": "S29",
+      "at": "f:7984"
+    },
+    {
+      "shot": "S28",
+      "at": "f:8054"
+    },
+    {
+      "shot": "S29",
+      "at": "f:8136"
+    },
+    {
+      "shot": "S28",
+      "at": "f:8208"
+    },
+    {
+      "shot": "S29",
+      "at": "f:8277"
+    },
+    {
+      "shot": "S28",
+      "at": "f:8361"
+    },
+    {
+      "shot": "S29",
+      "at": "f:8430"
+    },
+    {
+      "shot": "S28",
+      "at": "f:8494"
+    },
+    {
+      "shot": "S29",
+      "at": "f:8563"
+    },
+    {
+      "shot": "S28",
+      "at": "f:8631"
+    },
+    {
+      "shot": "S29",
+      "at": "f:8694"
+    },
+    {
+      "shot": "S29",
+      "at": "f:8756"
+    },
+    {
+      "shot": "S28",
+      "at": "f:8835"
+    },
+    {
+      "shot": "S29",
+      "at": "f:8898"
+    },
+    {
+      "shot": "S30",
+      "at": "f:8967",
+      "look": "catch"
+    },
+    {
+      "shot": "S29",
+      "at": "f:9069"
+    },
+    {
+      "shot": "S30",
+      "at": "f:9138"
+    },
+    {
+      "shot": "S29",
+      "at": "f:9200"
+    },
+    {
+      "shot": "S30",
+      "at": "f:9280"
+    },
+    {
+      "shot": "S29",
+      "at": "f:9342"
+    },
+    {
+      "shot": "S30",
+      "at": "f:9405"
+    },
+    {
+      "shot": "S29",
+      "at": "f:9474"
+    },
+    {
+      "shot": "S31",
+      "at": "f:9559"
+    },
+    {
+      "shot": "S30",
+      "at": "f:9627"
+    },
+    {
+      "shot": "S29",
+      "at": "f:9702"
+    },
+    {
+      "shot": "S32",
+      "at": "f:9763"
+    },
+    {
+      "shot": "S31",
+      "at": "f:9844"
+    },
+    {
+      "shot": "S32",
+      "at": "f:9914"
+    },
+    {
+      "shot": "S31",
+      "at": "f:9977"
+    },
+    {
+      "shot": "S32",
+      "at": "f:10042"
+    },
+    {
+      "shot": "S31",
+      "at": "f:10105"
+    },
+    {
+      "shot": "S33",
+      "at": "f:10208"
+    },
+    {
+      "shot": "S34",
+      "at": "f:10283"
+    },
+    {
+      "shot": "S34",
+      "at": "f:10334"
+    },
+    {
+      "shot": "S35",
+      "at": "f:10395"
+    },
+    {
+      "shot": "S35",
+      "at": "f:10468"
+    },
+    {
+      "shot": "S34",
+      "at": "f:10552"
+    },
+    {
+      "shot": "S35",
+      "at": "f:10614"
+    },
+    {
+      "shot": "S34",
+      "at": "f:10688"
+    },
+    {
+      "shot": "S35",
+      "at": "f:10750"
+    },
+    {
+      "shot": "S34",
+      "at": "f:10815"
+    },
+    {
+      "shot": "S35",
+      "at": "f:10879"
+    },
+    {
+      "shot": "S36",
+      "at": "f:10971"
+    },
+    {
+      "shot": "S37",
+      "at": "f:11033"
+    },
+    {
+      "shot": "S36",
+      "at": "f:11096"
+    },
+    {
+      "shot": "S37",
+      "at": "f:11162"
+    },
+    {
+      "shot": "S36",
+      "at": "f:11225"
+    },
+    {
+      "shot": "S37",
+      "at": "f:11330"
+    },
+    {
+      "shot": "S36",
+      "at": "f:11395"
+    },
+    {
+      "shot": "S37",
+      "at": "f:11463"
+    },
+    {
+      "shot": "S38",
+      "at": "f:11528"
+    },
+    {
+      "shot": "S37",
+      "at": "f:11603"
+    },
+    {
+      "shot": "S38",
+      "at": "f:11690"
+    },
+    {
+      "shot": "S37",
+      "at": "f:11754"
+    },
+    {
+      "shot": "S38",
+      "at": "f:11821"
+    },
+    {
+      "shot": "S37",
+      "at": "f:11885"
+    },
+    {
+      "shot": "S38",
+      "at": "f:11952"
+    },
+    {
+      "shot": "S37",
+      "at": "f:12015"
+    },
+    {
+      "shot": "S39",
+      "at": "f:12098",
+      "look": "catch"
+    },
+    {
+      "shot": "S38",
+      "at": "f:12168"
+    },
+    {
+      "shot": "S39",
+      "at": "f:12237"
+    },
+    {
+      "shot": "S38",
+      "at": "f:12301"
+    },
+    {
+      "shot": "S39",
+      "at": "f:12371"
+    },
+    {
+      "shot": "S38",
+      "at": "f:12474"
+    },
+    {
+      "shot": "S37",
+      "at": "f:12549"
+    },
+    {
+      "shot": "S40",
+      "at": "f:12622"
+    },
+    {
+      "shot": "S41",
+      "at": "f:12734"
+    },
+    {
+      "shot": "S42",
+      "at": "f:12797"
+    },
+    {
+      "shot": "S41",
+      "at": "f:12860"
+    },
+    {
+      "shot": "S42",
+      "at": "f:12926"
+    },
+    {
+      "shot": "S41",
+      "at": "f:12997"
+    },
+    {
+      "shot": "S42",
+      "at": "f:13064"
+    },
+    {
+      "shot": "S41",
+      "at": "f:13133"
+    },
+    {
+      "shot": "S42",
+      "at": "f:13205"
+    },
+    {
+      "shot": "S42",
+      "at": "f:13281"
+    },
+    {
+      "shot": "S41",
+      "at": "f:13345"
+    },
+    {
+      "shot": "S42",
+      "at": "f:13413"
+    },
+    {
+      "shot": "S41",
+      "at": "f:13475"
+    },
+    {
+      "shot": "S42",
+      "at": "f:13548"
+    },
+    {
+      "shot": "S41",
+      "at": "f:13623"
+    },
+    {
+      "shot": "S42",
+      "at": "f:13708"
+    },
+    {
+      "shot": "S43",
+      "at": "f:13826"
+    },
+    {
+      "shot": "S41",
+      "at": "f:13891"
+    },
+    {
+      "shot": "S43",
+      "at": "f:13972"
+    },
+    {
+      "shot": "S41",
+      "at": "f:14039"
+    },
+    {
+      "shot": "S43",
+      "at": "f:14104"
+    },
+    {
+      "shot": "S42",
+      "at": "f:14160"
+    },
+    {
+      "shot": "S43",
+      "at": "f:14226"
+    },
+    {
+      "shot": "S44",
+      "at": "f:14292"
+    }
+  ],
+  "end": "f:14400",
+  "fx": [
+    {
+      "kind": "flash",
+      "at": "f:302",
+      "color": "#FFF6D6",
+      "o": 0.85
+    },
+    {
+      "kind": "shake",
+      "at": "f:302",
+      "amp": 10,
+      "len": 18
+    },
+    {
+      "kind": "flash",
+      "at": "f:1558",
+      "color": "#FFF6D6",
+      "o": 0.75
+    },
+    {
+      "kind": "flash",
+      "at": "f:9023",
+      "color": "#FFFFFF",
+      "o": 0.9
+    },
+    {
+      "kind": "shake",
+      "at": "f:9023",
+      "amp": 16,
+      "len": 24
+    },
+    {
+      "kind": "flash",
+      "at": "f:12100",
+      "color": "#FFE4B5",
+      "o": 0.9
+    },
+    {
+      "kind": "shake",
+      "at": "f:12100",
+      "amp": 20,
+      "len": 30
+    }
+  ],
+  "sound": {
+    "clips": {
+      "roof_wind": [
+        "a gentle evening breeze on a city rooftop, distant traffic",
+        7.0
+      ],
+      "room_tone": [
+        "quiet indoor room tone in the evening, faint distant city hum, no voices",
+        12.5
+      ],
+      "music": [
+        "playful quirky cartoon background music, pizzicato strings, glockenspiel and soft bass, light and curious, 110 bpm, no vocals",
+        17.0
+      ],
+      "title_boom": [
+        "a cinematic whoosh rising into a deep boom impact",
+        1.6
+      ],
+      "drone_hit": [
+        "a dark ominous low drone hit, deep cinematic horror sting",
+        2.6
+      ],
+      "sparkle": [
+        "a short bright magical sparkle twinkle, cartoon",
+        0.8
+      ],
+      "pop": [
+        "a cartoon speech bubble pop, short and bright",
+        0.5
+      ],
+      "catch": [
+        "a hand catching a ceramic mug mid-air, soft slap and thud",
+        0.5
+      ],
+      "fall_whoosh": [
+        "a small object falling fast through the air, short soft whoosh",
+        0.6
+      ],
+      "clink": [
+        "a ceramic coffee mug knocked by a hand on a wooden desk, short clink and scrape",
+        0.7
+      ],
+      "ding": [
+        "a correct answer ding, bright bell chime",
+        0.8
+      ],
+      "gasp": [
+        "two young people gasping in surprise at the same moment, cartoon, short",
+        0.8
+      ],
+      "gulp": [
+        "a nervous cartoon gulp, short",
+        0.5
+      ],
+      "counter_tick": [
+        "a fast mechanical counter ticking up rapidly, digits rolling over, getting faster",
+        1.6
+      ],
+      "crack": [
+        "glass cracking sharply, the crack spreading across a pane",
+        1.1
+      ],
+      "power_hum": [
+        "a deep electrical power grid hum swelling louder, transformers buzzing, rising",
+        3.0
+      ],
+      "power_down": [
+        "a whole city losing power, a deep electrical power-down whine dropping in pitch into silence",
+        2.5
+      ],
+      "switch_off": [
+        "a heavy electrical breaker switching off with a dull clunk",
+        0.5
+      ],
+      "bulb_pop": [
+        "a small light bulb popping out, a tiny glass tink and fizz",
+        0.5
+      ],
+      "select_draw": [
+        "a quick digital selection sound, a soft rising electronic shimmer as a box is drawn on screen, short",
+        0.6
+      ],
+      "copy_click": [
+        "a crisp satisfying computer copy click with a tiny soft digital chime, short",
+        0.5
+      ],
+      "paste_pop": [
+        "a bright magical pop as an object appears out of thin air, a soft shimmering whoosh into a pop",
+        0.7
+      ],
+      "glitch": [
+        "a short digital glitch, an electric buzz and crackle flickering like an unstable hologram",
+        1.5
+      ],
+      "time_snap": [
+        "a crisp finger snap into a deep time-slow bass drop and sub-bass hum, short",
+        1.0
+      ],
+      "dq_stamp": [
+        "a heavy metal stamp slamming down with a deep resonant thud and electronic alarm beep, short",
+        0.9
+      ],
+      "window_whirr": [
+        "a luxury car power window motor whirring smoothly upwards and sealing shut",
+        1.4
+      ],
+      "step": [
+        "a single sneaker footstep on a wooden stair, close",
+        0.5
+      ],
+      "shatter": [
+        "a ceramic coffee mug smashing on a wooden floor, shards scattering and liquid splash",
+        1.3
+      ],
+      "buzzer": [
+        "a game show wrong answer buzzer, short",
+        0.8
+      ],
+      "class_murmur": [
+        "a quiet classroom murmur, kids whispering, chairs shuffling",
+        2.0
+      ],
+      "meteor_streak": [
+        "a bright shooting star streaking across the night sky, a crystalline shimmering whoosh",
+        1.0
+      ],
+      "catch_chime": [
+        "a soft warm celestial bell chime with a gentle time-slow shimmer, magical and delicate, short",
+        0.9
+      ],
+      "fireball_roar": [
+        "a colossal meteor fireball roaring overhead, deep atmospheric rumble and scorching plasma whoosh",
+        2.4
+      ]
+    },
+    "events": [
+      [
+        "f:0",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:210"
+      ],
+      [
+        "f:210",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:420"
+      ],
+      [
+        "f:420",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:630"
+      ],
+      [
+        "f:630",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:840"
+      ],
+      [
+        "f:840",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:1050"
+      ],
+      [
+        "f:1050",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:1260"
+      ],
+      [
+        "f:1260",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:1470"
+      ],
+      [
+        "f:1470",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:1680"
+      ],
+      [
+        "f:1680",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:1890"
+      ],
+      [
+        "f:1890",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:2100"
+      ],
+      [
+        "f:2100",
+        "room_tone",
+        0.14,
+        "onset",
+        "f:2310"
+      ],
+      [
+        "f:2310",
+        "room_tone",
+        0.14,
+        "onset",
+        "f:2520"
+      ],
+      [
+        "f:2520",
+        "room_tone",
+        0.14,
+        "onset",
+        "f:2730"
+      ],
+      [
+        "f:2730",
+        "room_tone",
+        0.14,
+        "onset",
+        "f:2940"
+      ],
+      [
+        "f:2940",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:3150"
+      ],
+      [
+        "f:3150",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:3360"
+      ],
+      [
+        "f:3360",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:3570"
+      ],
+      [
+        "f:3570",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:3780"
+      ],
+      [
+        "f:3780",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:3990"
+      ],
+      [
+        "f:3990",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:4200"
+      ],
+      [
+        "f:4200",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:4410"
+      ],
+      [
+        "f:4410",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:4620"
+      ],
+      [
+        "f:4620",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:4830"
+      ],
+      [
+        "f:4830",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:5040"
+      ],
+      [
+        "f:5040",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:5250"
+      ],
+      [
+        "f:5250",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:5460"
+      ],
+      [
+        "f:5460",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:5670"
+      ],
+      [
+        "f:5670",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:5880"
+      ],
+      [
+        "f:5880",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:6090"
+      ],
+      [
+        "f:6090",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:6300"
+      ],
+      [
+        "f:6300",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:6510"
+      ],
+      [
+        "f:6510",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:6720"
+      ],
+      [
+        "f:6720",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:6930"
+      ],
+      [
+        "f:6930",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:7140"
+      ],
+      [
+        "f:7140",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:7350"
+      ],
+      [
+        "f:7350",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:7560"
+      ],
+      [
+        "f:7560",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:7770"
+      ],
+      [
+        "f:7770",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:7980"
+      ],
+      [
+        "f:7980",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:8190"
+      ],
+      [
+        "f:8190",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:8400"
+      ],
+      [
+        "f:8400",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:8610"
+      ],
+      [
+        "f:8610",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:8820"
+      ],
+      [
+        "f:8820",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:9030"
+      ],
+      [
+        "f:9030",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:9240"
+      ],
+      [
+        "f:9240",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:9450"
+      ],
+      [
+        "f:9450",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:9660"
+      ],
+      [
+        "f:9660",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:9870"
+      ],
+      [
+        "f:9870",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:10080"
+      ],
+      [
+        "f:10080",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:10290"
+      ],
+      [
+        "f:10290",
+        "room_tone",
+        0.14,
+        "onset",
+        "f:10500"
+      ],
+      [
+        "f:10500",
+        "room_tone",
+        0.14,
+        "onset",
+        "f:10710"
+      ],
+      [
+        "f:10710",
+        "room_tone",
+        0.14,
+        "onset",
+        "f:10920"
+      ],
+      [
+        "f:10920",
+        "room_tone",
+        0.14,
+        "onset",
+        "f:11130"
+      ],
+      [
+        "f:11130",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:11340"
+      ],
+      [
+        "f:11340",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:11550"
+      ],
+      [
+        "f:11550",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:11760"
+      ],
+      [
+        "f:11760",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:11970"
+      ],
+      [
+        "f:11970",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:12180"
+      ],
+      [
+        "f:12180",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:12390"
+      ],
+      [
+        "f:12390",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:12600"
+      ],
+      [
+        "f:12600",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:12810"
+      ],
+      [
+        "f:12810",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:13020"
+      ],
+      [
+        "f:13020",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:13230"
+      ],
+      [
+        "f:13230",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:13440"
+      ],
+      [
+        "f:13440",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:13650"
+      ],
+      [
+        "f:13650",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:13860"
+      ],
+      [
+        "f:13860",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:14070"
+      ],
+      [
+        "f:14070",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:14280"
+      ],
+      [
+        "f:14280",
+        "roof_wind",
+        0.16,
+        "onset",
+        "f:14400"
+      ],
+      [
+        "f:8",
+        "meteor_streak",
+        0.55,
+        "onset"
+      ],
+      [
+        "f:59",
+        "fall_whoosh",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:300",
+        "time_snap",
+        0.65,
+        "peak"
+      ],
+      [
+        "f:304",
+        "catch_chime",
+        0.65,
+        "onset"
+      ],
+      [
+        "f:379",
+        "sparkle",
+        0.5,
+        "onset"
+      ],
+      [
+        "f:591",
+        "pop",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:609",
+        "class_murmur",
+        0.35,
+        "onset"
+      ],
+      [
+        "f:627",
+        "fireball_roar",
+        0.55,
+        "onset"
+      ],
+      [
+        "f:794",
+        "title_boom",
+        0.7,
+        "peak"
+      ],
+      [
+        "f:902",
+        "title_boom",
+        0.5,
+        "peak"
+      ],
+      [
+        "f:1023",
+        "step",
+        0.35,
+        "onset"
+      ],
+      [
+        "f:1039",
+        "step",
+        0.35,
+        "onset"
+      ],
+      [
+        "f:1057",
+        "meteor_streak",
+        0.5,
+        "onset"
+      ],
+      [
+        "f:1095",
+        "catch_chime",
+        0.65,
+        "onset"
+      ],
+      [
+        "f:1105",
+        "sparkle",
+        0.5,
+        "onset"
+      ],
+      [
+        "f:2078",
+        "meteor_streak",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:2094",
+        "clink",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:2098",
+        "ding",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:2335",
+        "clink",
+        0.4,
+        "onset"
+      ],
+      [
+        "f:2343",
+        "sparkle",
+        0.4,
+        "onset"
+      ],
+      [
+        "f:2412",
+        "gasp",
+        0.5,
+        "onset"
+      ],
+      [
+        "f:2705",
+        "pop",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:2927",
+        "title_boom",
+        0.5,
+        "peak"
+      ],
+      [
+        "f:3052",
+        "class_murmur",
+        0.4,
+        "onset"
+      ],
+      [
+        "f:3069",
+        "meteor_streak",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:3110",
+        "catch_chime",
+        0.55,
+        "onset"
+      ],
+      [
+        "f:3122",
+        "ding",
+        0.5,
+        "onset"
+      ],
+      [
+        "f:3134",
+        "counter_tick",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:4056",
+        "copy_click",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:4070",
+        "sparkle",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:4466",
+        "power_hum",
+        0.6,
+        "onset"
+      ],
+      [
+        "f:4486",
+        "crack",
+        0.55,
+        "onset"
+      ],
+      [
+        "f:4501",
+        "drone_hit",
+        0.6,
+        "peak"
+      ],
+      [
+        "f:5304",
+        "title_boom",
+        0.5,
+        "peak"
+      ],
+      [
+        "f:5425",
+        "select_draw",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:5437",
+        "buzzer",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:5447",
+        "ding",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:5492",
+        "select_draw",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:5508",
+        "meteor_streak",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:6351",
+        "counter_tick",
+        0.5,
+        "onset"
+      ],
+      [
+        "f:6365",
+        "meteor_streak",
+        0.55,
+        "onset"
+      ],
+      [
+        "f:6421",
+        "fireball_roar",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:6435",
+        "select_draw",
+        0.4,
+        "onset"
+      ],
+      [
+        "f:7194",
+        "dq_stamp",
+        0.6,
+        "peak"
+      ],
+      [
+        "f:7261",
+        "time_snap",
+        0.55,
+        "onset"
+      ],
+      [
+        "f:7273",
+        "catch_chime",
+        0.55,
+        "onset"
+      ],
+      [
+        "f:7486",
+        "power_hum",
+        0.5,
+        "onset"
+      ],
+      [
+        "f:7815",
+        "title_boom",
+        0.5,
+        "peak"
+      ],
+      [
+        "f:7930",
+        "fireball_roar",
+        0.65,
+        "onset"
+      ],
+      [
+        "f:7990",
+        "gasp",
+        0.5,
+        "onset"
+      ],
+      [
+        "f:8967",
+        "time_snap",
+        0.75,
+        "peak"
+      ],
+      [
+        "f:8973",
+        "bulb_pop",
+        0.6,
+        "onset"
+      ],
+      [
+        "f:8979",
+        "bulb_pop",
+        0.55,
+        "onset"
+      ],
+      [
+        "f:8985",
+        "crack",
+        0.6,
+        "onset"
+      ],
+      [
+        "f:9563",
+        "select_draw",
+        0.5,
+        "onset"
+      ],
+      [
+        "f:9575",
+        "buzzer",
+        0.5,
+        "onset"
+      ],
+      [
+        "f:9769",
+        "window_whirr",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:9781",
+        "step",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:10210",
+        "title_boom",
+        0.55,
+        "peak"
+      ],
+      [
+        "f:10287",
+        "drone_hit",
+        0.6,
+        "peak"
+      ],
+      [
+        "f:10303",
+        "select_draw",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:10401",
+        "gulp",
+        0.5,
+        "onset"
+      ],
+      [
+        "f:10413",
+        "counter_tick",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:10973",
+        "switch_off",
+        0.6,
+        "onset"
+      ],
+      [
+        "f:10977",
+        "power_down",
+        0.65,
+        "onset"
+      ],
+      [
+        "f:11041",
+        "gulp",
+        0.45,
+        "onset"
+      ],
+      [
+        "f:11528",
+        "fireball_roar",
+        0.8,
+        "onset"
+      ],
+      [
+        "f:11552",
+        "drone_hit",
+        0.7,
+        "peak"
+      ],
+      [
+        "f:12098",
+        "time_snap",
+        0.85,
+        "peak"
+      ],
+      [
+        "f:12106",
+        "catch_chime",
+        0.7,
+        "onset"
+      ],
+      [
+        "f:12116",
+        "power_down",
+        0.6,
+        "onset"
+      ],
+      [
+        "f:12624",
+        "title_boom",
+        0.55,
+        "peak"
+      ],
+      [
+        "f:12740",
+        "glitch",
+        0.55,
+        "onset"
+      ],
+      [
+        "f:12754",
+        "sparkle",
+        0.5,
+        "onset"
+      ],
+      [
+        "f:12801",
+        "power_hum",
+        0.65,
+        "onset"
+      ],
+      [
+        "f:12813",
+        "catch_chime",
+        0.6,
+        "onset"
+      ],
+      [
+        "f:13832",
+        "window_whirr",
+        0.6,
+        "onset"
+      ],
+      [
+        "f:13844",
+        "drone_hit",
+        0.65,
+        "peak"
+      ],
+      [
+        "f:14294",
+        "title_boom",
+        0.6,
+        "peak"
+      ],
+      [
+        "f:14304",
+        "sparkle",
+        0.5,
+        "onset"
+      ],
+      [
+        "f:300",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:591",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:1017",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:1367",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:1683",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:2003",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:2329",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:2701",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:3106",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:3468",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:3819",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:4200",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:4533",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:4943",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:5302",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:5689",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:6074",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:6415",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:6833",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:7182",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:7550",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:7984",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:8361",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:8694",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:9069",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:9405",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:9763",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:10105",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:10468",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:10815",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:11162",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:11528",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:11885",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:12237",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:12622",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:12997",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:13345",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:13708",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ],
+      [
+        "f:14104",
+        "fall_whoosh",
+        0.18,
+        "onset"
+      ]
+    ],
+    "music": {
+      "clip": "music",
+      "from": "f:0"
+    },
+    "levels": {
+      "sfx_lu": 1.0,
+      "music_lu": -10.0
+    }
+  }
+}

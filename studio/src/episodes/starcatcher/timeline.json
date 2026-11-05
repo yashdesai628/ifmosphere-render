@@ -1,0 +1,2054 @@
+{
+  "slug": "starcatcher",
+  "title": "WHAT IF YOU COULD CATCH A STAR?",
+  "fps": 30,
+  "total": 14400,
+  "segments": [
+    {
+      "shot": "S1",
+      "a": 0,
+      "b": 47,
+      "t0": 0,
+      "t1": 47,
+      "line": "Midnight in the park."
+    },
+    {
+      "shot": "S2",
+      "a": 47,
+      "b": 107,
+      "t0": 0,
+      "t1": 60,
+      "line": "Freezing air, numb hands."
+    },
+    {
+      "shot": "S1",
+      "a": 107,
+      "b": 153,
+      "t0": 0,
+      "t1": 46,
+      "line": "Above the trees, a bright"
+    },
+    {
+      "shot": "S2",
+      "a": 153,
+      "b": 221,
+      "t0": 0,
+      "t1": 68,
+      "line": "streak of light slashes across the dark."
+    },
+    {
+      "shot": "S2",
+      "a": 221,
+      "b": 300,
+      "t0": 0,
+      "t1": 79,
+      "line": "You do not make a wish. You just reach up."
+    },
+    {
+      "shot": "S3",
+      "a": 300,
+      "b": 373,
+      "t0": 0,
+      "t1": 73,
+      "line": "Catch. Time stutters.",
+      "look": "catch"
+    },
+    {
+      "shot": "S4",
+      "a": 373,
+      "b": 425,
+      "t0": 0,
+      "t1": 52,
+      "line": "The falling streak freezes right"
+    },
+    {
+      "shot": "S2",
+      "a": 425,
+      "b": 474,
+      "t0": 0,
+      "t1": 49,
+      "line": "in your open palm, humming"
+    },
+    {
+      "shot": "S4",
+      "a": 474,
+      "b": 524,
+      "t0": 0,
+      "t1": 50,
+      "line": "like a living ember. Warm"
+    },
+    {
+      "shot": "S2",
+      "a": 524,
+      "b": 591,
+      "t0": 0,
+      "t1": 67,
+      "line": "golden light spills between your mittens."
+    },
+    {
+      "shot": "S5",
+      "a": 591,
+      "b": 654,
+      "t0": 0,
+      "t1": 63,
+      "line": "Soon your jars are glowing with starlight,"
+    },
+    {
+      "shot": "S1",
+      "a": 654,
+      "b": 709,
+      "t0": 0,
+      "t1": 55,
+      "line": "a queue stretches round the block,"
+    },
+    {
+      "shot": "S5",
+      "a": 709,
+      "b": 792,
+      "t0": 0,
+      "t1": 83,
+      "line": "sirens wail, and the clouds turn blood red."
+    },
+    {
+      "shot": "S6",
+      "a": 792,
+      "b": 900,
+      "t0": 0,
+      "t1": 108,
+      "line": "What if you could catch a star?"
+    },
+    {
+      "shot": "S7",
+      "a": 900,
+      "b": 1017,
+      "t0": 0,
+      "t1": 117,
+      "line": "Chapter One. The First Catch."
+    },
+    {
+      "shot": "S8",
+      "a": 1017,
+      "b": 1095,
+      "t0": 0,
+      "t1": 78,
+      "line": "It starts on a quiet night in early November,"
+    },
+    {
+      "shot": "S9",
+      "a": 1095,
+      "b": 1163,
+      "t0": 0,
+      "t1": 68,
+      "line": "as the Northern Taurids build toward their peak"
+    },
+    {
+      "shot": "S8",
+      "a": 1163,
+      "b": 1226,
+      "t0": 0,
+      "t1": 63,
+      "line": "around November twelfth. You"
+    },
+    {
+      "shot": "S9",
+      "a": 1226,
+      "b": 1299,
+      "t0": 0,
+      "t1": 73,
+      "line": "are walking home through the park, breath misting"
+    },
+    {
+      "shot": "S8",
+      "a": 1299,
+      "b": 1367,
+      "t0": 0,
+      "t1": 68,
+      "line": "in the cold. A shooting star"
+    },
+    {
+      "shot": "S9",
+      "a": 1367,
+      "b": 1428,
+      "t0": 0,
+      "t1": 61,
+      "line": "flashes overhead. Just"
+    },
+    {
+      "shot": "S8",
+      "a": 1428,
+      "b": 1503,
+      "t0": 0,
+      "t1": 75,
+      "line": "for a laugh, you point your mitten at the sky"
+    },
+    {
+      "shot": "S9",
+      "a": 1503,
+      "b": 1556,
+      "t0": 0,
+      "t1": 53,
+      "line": "and close your fingers."
+    },
+    {
+      "shot": "S9",
+      "a": 1556,
+      "b": 1620,
+      "t0": 0,
+      "t1": 64,
+      "line": "Catch. A soft",
+      "look": "catch"
+    },
+    {
+      "shot": "S8",
+      "a": 1620,
+      "b": 1683,
+      "t0": 0,
+      "t1": 63,
+      "line": "chime rings out. Down"
+    },
+    {
+      "shot": "S9",
+      "a": 1683,
+      "b": 1747,
+      "t0": 0,
+      "t1": 64,
+      "line": "drops a glowing golden pebble,"
+    },
+    {
+      "shot": "S8",
+      "a": 1747,
+      "b": 1813,
+      "t0": 0,
+      "t1": 66,
+      "line": "landing gently in your palm."
+    },
+    {
+      "shot": "S9",
+      "a": 1813,
+      "b": 1877,
+      "t0": 0,
+      "t1": 64,
+      "line": "It does not burn. It feels"
+    },
+    {
+      "shot": "S8",
+      "a": 1877,
+      "b": 1939,
+      "t0": 0,
+      "t1": 62,
+      "line": "like a warm marshmallow."
+    },
+    {
+      "shot": "S9",
+      "a": 1939,
+      "b": 2003,
+      "t0": 0,
+      "t1": 64,
+      "line": "You slip it into your pocket, and"
+    },
+    {
+      "shot": "S8",
+      "a": 2003,
+      "b": 2070,
+      "t0": 0,
+      "t1": 67,
+      "line": "the walk home feels like summer."
+    },
+    {
+      "shot": "S10",
+      "a": 2070,
+      "b": 2133,
+      "t0": 0,
+      "t1": 63,
+      "line": "Back in your bedroom, you pluck another"
+    },
+    {
+      "shot": "S9",
+      "a": 2133,
+      "b": 2202,
+      "t0": 0,
+      "t1": 69,
+      "line": "streak through the window and drop it into an empty"
+    },
+    {
+      "shot": "S10",
+      "a": 2202,
+      "b": 2277,
+      "t0": 0,
+      "t1": 75,
+      "line": "jam jar on your nightstand. Instant"
+    },
+    {
+      "shot": "S9",
+      "a": 2277,
+      "b": 2329,
+      "t0": 0,
+      "t1": 52,
+      "line": "nightlight."
+    },
+    {
+      "shot": "S11",
+      "a": 2329,
+      "b": 2394,
+      "t0": 0,
+      "t1": 65,
+      "line": "At your desk, a captured star"
+    },
+    {
+      "shot": "S12",
+      "a": 2394,
+      "b": 2489,
+      "t0": 0,
+      "t1": 95,
+      "line": "keeps your mug of cocoa piping hot while you work."
+    },
+    {
+      "shot": "S11",
+      "a": 2489,
+      "b": 2580,
+      "t0": 0,
+      "t1": 91,
+      "line": "You think you have found the ultimate cosy life hack."
+    },
+    {
+      "shot": "S12",
+      "a": 2580,
+      "b": 2655,
+      "t0": 0,
+      "t1": 75,
+      "line": "Until you look at the window and see your mate Mo staring"
+    },
+    {
+      "shot": "S11",
+      "a": 2655,
+      "b": 2701,
+      "t0": 0,
+      "t1": 46,
+      "line": "through the glass."
+    },
+    {
+      "shot": "S13",
+      "a": 2701,
+      "b": 2764,
+      "t0": 0,
+      "t1": 63,
+      "line": "Wait. Those fall out of"
+    },
+    {
+      "shot": "S12",
+      "a": 2764,
+      "b": 2839,
+      "t0": 0,
+      "t1": 75,
+      "line": "the sky for free, and you are using them to warm"
+    },
+    {
+      "shot": "S11",
+      "a": 2839,
+      "b": 2925,
+      "t0": 0,
+      "t1": 86,
+      "line": "up cocoa?"
+    },
+    {
+      "shot": "S14",
+      "a": 2925,
+      "b": 3044,
+      "t0": 0,
+      "t1": 119,
+      "line": "Chapter Two. Wishes for Sale."
+    },
+    {
+      "shot": "S15",
+      "a": 3044,
+      "b": 3106,
+      "t0": 0,
+      "t1": 62,
+      "line": "By the next evening, Mo has turned"
+    },
+    {
+      "shot": "S16",
+      "a": 3106,
+      "b": 3170,
+      "t0": 0,
+      "t1": 64,
+      "line": "your secret into a business. He"
+    },
+    {
+      "shot": "S15",
+      "a": 3170,
+      "b": 3244,
+      "t0": 0,
+      "t1": 74,
+      "line": "sets up a folding table by the park gate,"
+    },
+    {
+      "shot": "S16",
+      "a": 3244,
+      "b": 3317,
+      "t0": 0,
+      "t1": 73,
+      "line": "strings up lights, and tapes a cardboard"
+    },
+    {
+      "shot": "S15",
+      "a": 3317,
+      "b": 3381,
+      "t0": 0,
+      "t1": 64,
+      "line": "sign to the front: Genuine"
+    },
+    {
+      "shot": "S16",
+      "a": 3381,
+      "b": 3468,
+      "t0": 0,
+      "t1": 87,
+      "line": "Shooting Stars, Hold Your Own Wish."
+    },
+    {
+      "shot": "S15",
+      "a": 3468,
+      "b": 3535,
+      "t0": 0,
+      "t1": 67,
+      "line": "You stand behind the table with empty mason"
+    },
+    {
+      "shot": "S16",
+      "a": 3535,
+      "b": 3599,
+      "t0": 0,
+      "t1": 64,
+      "line": "jars, plucking streaks out of the sky"
+    },
+    {
+      "shot": "S15",
+      "a": 3599,
+      "b": 3689,
+      "t0": 0,
+      "t1": 90,
+      "line": "on demand. Catch."
+    },
+    {
+      "shot": "S16",
+      "a": 3689,
+      "b": 3752,
+      "t0": 0,
+      "t1": 63,
+      "line": "Catch. Each one"
+    },
+    {
+      "shot": "S15",
+      "a": 3752,
+      "b": 3819,
+      "t0": 0,
+      "t1": 67,
+      "line": "lands with a golden chime."
+    },
+    {
+      "shot": "S16",
+      "a": 3819,
+      "b": 3884,
+      "t0": 0,
+      "t1": 65,
+      "line": "Step right up! Fresh"
+    },
+    {
+      "shot": "S15",
+      "a": 3884,
+      "b": 3953,
+      "t0": 0,
+      "t1": 69,
+      "line": "off the cosmos! Make a wish"
+    },
+    {
+      "shot": "S16",
+      "a": 3953,
+      "b": 4050,
+      "t0": 0,
+      "t1": 97,
+      "line": "while it is still warm, no refunds!"
+    },
+    {
+      "shot": "S17",
+      "a": 4050,
+      "b": 4136,
+      "t0": 0,
+      "t1": 86,
+      "line": "At first, it is silly fun."
+    },
+    {
+      "shot": "S16",
+      "a": 4136,
+      "b": 4200,
+      "t0": 0,
+      "t1": 64,
+      "line": "A nervous teenager holds a glowing jar"
+    },
+    {
+      "shot": "S17",
+      "a": 4200,
+      "b": 4274,
+      "t0": 0,
+      "t1": 74,
+      "line": "and wishes to pass his driving test."
+    },
+    {
+      "shot": "S16",
+      "a": 4274,
+      "b": 4340,
+      "t0": 0,
+      "t1": 66,
+      "line": "A kid wishes for a puppy."
+    },
+    {
+      "shot": "S17",
+      "a": 4340,
+      "b": 4408,
+      "t0": 0,
+      "t1": 68,
+      "line": "Your pockets fill with cash, and the queue"
+    },
+    {
+      "shot": "S16",
+      "a": 4408,
+      "b": 4466,
+      "t0": 0,
+      "t1": 58,
+      "line": "stretches round the block."
+    },
+    {
+      "shot": "S18",
+      "a": 4466,
+      "b": 4533,
+      "t0": 0,
+      "t1": 67,
+      "line": "Then the mood turns ugly."
+    },
+    {
+      "shot": "S16",
+      "a": 4533,
+      "b": 4605,
+      "t0": 0,
+      "t1": 72,
+      "line": "People in fancy coats shove to the front,"
+    },
+    {
+      "shot": "S18",
+      "a": 4605,
+      "b": 4694,
+      "t0": 0,
+      "t1": 89,
+      "line": "waving money and demanding brighter stars."
+    },
+    {
+      "shot": "S16",
+      "a": 4694,
+      "b": 4758,
+      "t0": 0,
+      "t1": 64,
+      "line": "Customers storm back, furious"
+    },
+    {
+      "shot": "S18",
+      "a": 4758,
+      "b": 4851,
+      "t0": 0,
+      "t1": 93,
+      "line": "that their selfish wishes have not come true."
+    },
+    {
+      "shot": "S16",
+      "a": 4851,
+      "b": 4943,
+      "t0": 0,
+      "t1": 92,
+      "line": "Someone tries to smash a jar open on the path."
+    },
+    {
+      "shot": "S18",
+      "a": 4943,
+      "b": 5013,
+      "t0": 0,
+      "t1": 70,
+      "line": "Inside the glass, the captured stars"
+    },
+    {
+      "shot": "S16",
+      "a": 5013,
+      "b": 5076,
+      "t0": 0,
+      "t1": 63,
+      "line": "pulse faster, humming with a low"
+    },
+    {
+      "shot": "S18",
+      "a": 5076,
+      "b": 5155,
+      "t0": 0,
+      "t1": 79,
+      "line": "vibration that makes your teeth ache."
+    },
+    {
+      "shot": "S16",
+      "a": 5155,
+      "b": 5230,
+      "t0": 0,
+      "t1": 75,
+      "line": "Because what you are catching is not fairy dust at"
+    },
+    {
+      "shot": "S15",
+      "a": 5230,
+      "b": 5302,
+      "t0": 0,
+      "t1": 72,
+      "line": "all."
+    },
+    {
+      "shot": "S19",
+      "a": 5302,
+      "b": 5421,
+      "t0": 0,
+      "t1": 119,
+      "line": "Chapter Three. The Real Science."
+    },
+    {
+      "shot": "S20",
+      "a": 5421,
+      "b": 5488,
+      "t0": 0,
+      "t1": 67,
+      "line": "Let us pause the chaos and look at what a shooting"
+    },
+    {
+      "shot": "S21",
+      "a": 5488,
+      "b": 5553,
+      "t0": 0,
+      "t1": 65,
+      "line": "star really is. When you see"
+    },
+    {
+      "shot": "S20",
+      "a": 5553,
+      "b": 5618,
+      "t0": 0,
+      "t1": 65,
+      "line": "a streak of light in the night sky,"
+    },
+    {
+      "shot": "S21",
+      "a": 5618,
+      "b": 5689,
+      "t0": 0,
+      "t1": 71,
+      "line": "it is not a giant cartoon star."
+    },
+    {
+      "shot": "S20",
+      "a": 5689,
+      "b": 5759,
+      "t0": 0,
+      "t1": 70,
+      "line": "It is a meteoroid. And most"
+    },
+    {
+      "shot": "S21",
+      "a": 5759,
+      "b": 5824,
+      "t0": 0,
+      "t1": 65,
+      "line": "visible meteors come from particles sand"
+    },
+    {
+      "shot": "S20",
+      "a": 5824,
+      "b": 5941,
+      "t0": 0,
+      "t1": 117,
+      "line": "grain to pebble sized. That is real."
+    },
+    {
+      "shot": "S21",
+      "a": 5941,
+      "b": 6005,
+      "t0": 0,
+      "t1": 64,
+      "line": "Even weirder, they are nowhere near"
+    },
+    {
+      "shot": "S20",
+      "a": 6005,
+      "b": 6074,
+      "t0": 0,
+      "t1": 69,
+      "line": "the trees. Most meteors burn"
+    },
+    {
+      "shot": "S21",
+      "a": 6074,
+      "b": 6143,
+      "t0": 0,
+      "t1": 69,
+      "line": "up roughly eighty to one hundred and twenty"
+    },
+    {
+      "shot": "S20",
+      "a": 6143,
+      "b": 6204,
+      "t0": 0,
+      "t1": 61,
+      "line": "kilometres above the ground, high"
+    },
+    {
+      "shot": "S21",
+      "a": 6204,
+      "b": 6279,
+      "t0": 0,
+      "t1": 75,
+      "line": "in the mesosphere and lower thermosphere."
+    },
+    {
+      "shot": "S20",
+      "a": 6279,
+      "b": 6347,
+      "t0": 0,
+      "t1": 68,
+      "line": "That is real."
+    },
+    {
+      "shot": "S22",
+      "a": 6347,
+      "b": 6415,
+      "t0": 0,
+      "t1": 68,
+      "line": "So how can a tiny pebble eighty kilometres"
+    },
+    {
+      "shot": "S23",
+      "a": 6415,
+      "b": 6510,
+      "t0": 0,
+      "t1": 95,
+      "line": "up shine brightly enough to see from the park?"
+    },
+    {
+      "shot": "S22",
+      "a": 6510,
+      "b": 6583,
+      "t0": 0,
+      "t1": 73,
+      "line": "Speed. Taurid meteoroids"
+    },
+    {
+      "shot": "S23",
+      "a": 6583,
+      "b": 6649,
+      "t0": 0,
+      "t1": 66,
+      "line": "enter the atmosphere at about twenty seven"
+    },
+    {
+      "shot": "S22",
+      "a": 6649,
+      "b": 6761,
+      "t0": 0,
+      "t1": 112,
+      "line": "kilometres per second. That is real."
+    },
+    {
+      "shot": "S23",
+      "a": 6761,
+      "b": 6833,
+      "t0": 0,
+      "t1": 72,
+      "line": "And at twenty seven kilometres per second,"
+    },
+    {
+      "shot": "S22",
+      "a": 6833,
+      "b": 6912,
+      "t0": 0,
+      "t1": 79,
+      "line": "the rock is not on fire like wood."
+    },
+    {
+      "shot": "S23",
+      "a": 6912,
+      "b": 6980,
+      "t0": 0,
+      "t1": 68,
+      "line": "Instead, the air around the meteoroid"
+    },
+    {
+      "shot": "S22",
+      "a": 6980,
+      "b": 7050,
+      "t0": 0,
+      "t1": 70,
+      "line": "is heated and ionised into a glowing trail"
+    },
+    {
+      "shot": "S23",
+      "a": 7050,
+      "b": 7114,
+      "t0": 0,
+      "t1": 64,
+      "line": "of plasma. The glow is"
+    },
+    {
+      "shot": "S22",
+      "a": 7114,
+      "b": 7182,
+      "t0": 0,
+      "t1": 68,
+      "line": "mostly superheated air."
+    },
+    {
+      "shot": "S24",
+      "a": 7182,
+      "b": 7257,
+      "t0": 0,
+      "t1": 75,
+      "line": "Catching a pebble at that speed should be completely"
+    },
+    {
+      "shot": "S25",
+      "a": 7257,
+      "b": 7305,
+      "t0": 0,
+      "t1": 48,
+      "line": "impossible."
+    },
+    {
+      "shot": "S25",
+      "a": 7305,
+      "b": 7370,
+      "t0": 0,
+      "t1": 65,
+      "line": "Your power works by locking onto a meteoroid"
+    },
+    {
+      "shot": "S24",
+      "a": 7370,
+      "b": 7482,
+      "t0": 0,
+      "t1": 112,
+      "line": "from below and slowing it to a dead stop in your palm."
+    },
+    {
+      "shot": "S26",
+      "a": 7482,
+      "b": 7550,
+      "t0": 0,
+      "t1": 68,
+      "line": "Which raises a big question."
+    },
+    {
+      "shot": "S25",
+      "a": 7550,
+      "b": 7636,
+      "t0": 0,
+      "t1": 86,
+      "line": "Where does all that stopped energy go?"
+    },
+    {
+      "shot": "S26",
+      "a": 7636,
+      "b": 7705,
+      "t0": 0,
+      "t1": 69,
+      "line": "Into the jar. And what happens"
+    },
+    {
+      "shot": "S25",
+      "a": 7705,
+      "b": 7813,
+      "t0": 0,
+      "t1": 108,
+      "line": "when you reach for something bigger?"
+    },
+    {
+      "shot": "S27",
+      "a": 7813,
+      "b": 7920,
+      "t0": 0,
+      "t1": 107,
+      "line": "Chapter Four. Bigger Fish."
+    },
+    {
+      "shot": "S28",
+      "a": 7920,
+      "b": 7984,
+      "t0": 0,
+      "t1": 64,
+      "line": "Alongside tiny dust grains,"
+    },
+    {
+      "shot": "S29",
+      "a": 7984,
+      "b": 8054,
+      "t0": 0,
+      "t1": 70,
+      "line": "the Taurids are famous for bright fireballs,"
+    },
+    {
+      "shot": "S28",
+      "a": 8054,
+      "b": 8136,
+      "t0": 0,
+      "t1": 82,
+      "line": "made by much larger chunks of rock."
+    },
+    {
+      "shot": "S29",
+      "a": 8136,
+      "b": 8208,
+      "t0": 0,
+      "t1": 72,
+      "line": "Late that night, you climb onto the rooftop"
+    },
+    {
+      "shot": "S28",
+      "a": 8208,
+      "b": 8277,
+      "t0": 0,
+      "t1": 69,
+      "line": "above the city. Glowing jars"
+    },
+    {
+      "shot": "S29",
+      "a": 8277,
+      "b": 8361,
+      "t0": 0,
+      "t1": 84,
+      "line": "line the wall, humming in the dark."
+    },
+    {
+      "shot": "S28",
+      "a": 8361,
+      "b": 8430,
+      "t0": 0,
+      "t1": 69,
+      "line": "Pebbles feel too small now."
+    },
+    {
+      "shot": "S29",
+      "a": 8430,
+      "b": 8494,
+      "t0": 0,
+      "t1": 64,
+      "line": "You want a real prize."
+    },
+    {
+      "shot": "S28",
+      "a": 8494,
+      "b": 8563,
+      "t0": 0,
+      "t1": 69,
+      "line": "Suddenly, a brilliant green and gold"
+    },
+    {
+      "shot": "S29",
+      "a": 8563,
+      "b": 8631,
+      "t0": 0,
+      "t1": 68,
+      "line": "fireball blazes across the clouds,"
+    },
+    {
+      "shot": "S28",
+      "a": 8631,
+      "b": 8694,
+      "t0": 0,
+      "t1": 63,
+      "line": "lighting up the whole street."
+    },
+    {
+      "shot": "S29",
+      "a": 8694,
+      "b": 8756,
+      "t0": 0,
+      "t1": 62,
+      "line": "Mo grabs your sleeve."
+    },
+    {
+      "shot": "S29",
+      "a": 8756,
+      "b": 8835,
+      "t0": 0,
+      "t1": 79,
+      "line": "Leave that one alone, mate!"
+    },
+    {
+      "shot": "S28",
+      "a": 8835,
+      "b": 8898,
+      "t0": 0,
+      "t1": 63,
+      "line": "Look at the trail on it!"
+    },
+    {
+      "shot": "S29",
+      "a": 8898,
+      "b": 8967,
+      "t0": 0,
+      "t1": 69,
+      "line": "That thing looks angry!"
+    },
+    {
+      "shot": "S30",
+      "a": 8967,
+      "b": 9069,
+      "t0": 0,
+      "t1": 102,
+      "line": "You reach up anyway. Catch.",
+      "look": "catch"
+    },
+    {
+      "shot": "S29",
+      "a": 9069,
+      "b": 9138,
+      "t0": 0,
+      "t1": 69,
+      "line": "The sky flashes white."
+    },
+    {
+      "shot": "S30",
+      "a": 9138,
+      "b": 9200,
+      "t0": 0,
+      "t1": 62,
+      "line": "A shockwave rolls across the roof,"
+    },
+    {
+      "shot": "S29",
+      "a": 9200,
+      "b": 9280,
+      "t0": 0,
+      "t1": 80,
+      "line": "popping every bulb on the string lights."
+    },
+    {
+      "shot": "S30",
+      "a": 9280,
+      "b": 9342,
+      "t0": 0,
+      "t1": 62,
+      "line": "The fireball slams to a stop above your"
+    },
+    {
+      "shot": "S29",
+      "a": 9342,
+      "b": 9405,
+      "t0": 0,
+      "t1": 63,
+      "line": "mittens, shrinking into a sputtering"
+    },
+    {
+      "shot": "S30",
+      "a": 9405,
+      "b": 9474,
+      "t0": 0,
+      "t1": 69,
+      "line": "core of blinding plasma."
+    },
+    {
+      "shot": "S29",
+      "a": 9474,
+      "b": 9559,
+      "t0": 0,
+      "t1": 85,
+      "line": "Every car alarm on the street goes off."
+    },
+    {
+      "shot": "S31",
+      "a": 9559,
+      "b": 9627,
+      "t0": 0,
+      "t1": 68,
+      "line": "Because when a bright fireball vanishes mid"
+    },
+    {
+      "shot": "S30",
+      "a": 9627,
+      "b": 9702,
+      "t0": 0,
+      "t1": 75,
+      "line": "flight on weather radar and satellite cameras,"
+    },
+    {
+      "shot": "S29",
+      "a": 9702,
+      "b": 9763,
+      "t0": 0,
+      "t1": 61,
+      "line": "the world notices."
+    },
+    {
+      "shot": "S32",
+      "a": 9763,
+      "b": 9844,
+      "t0": 0,
+      "t1": 81,
+      "line": "By morning, news vans block your street,"
+    },
+    {
+      "shot": "S31",
+      "a": 9844,
+      "b": 9914,
+      "t0": 0,
+      "t1": 70,
+      "line": "scientists with sensors surround the park,"
+    },
+    {
+      "shot": "S32",
+      "a": 9914,
+      "b": 9977,
+      "t0": 0,
+      "t1": 63,
+      "line": "and government agents in dark suits knock"
+    },
+    {
+      "shot": "S31",
+      "a": 9977,
+      "b": 10042,
+      "t0": 0,
+      "t1": 65,
+      "line": "on your door. They are not here"
+    },
+    {
+      "shot": "S32",
+      "a": 10042,
+      "b": 10105,
+      "t0": 0,
+      "t1": 63,
+      "line": "to arrest you. Their telescopes"
+    },
+    {
+      "shot": "S31",
+      "a": 10105,
+      "b": 10208,
+      "t0": 0,
+      "t1": 103,
+      "line": "just spotted something else."
+    },
+    {
+      "shot": "S33",
+      "a": 10208,
+      "b": 10283,
+      "t0": 0,
+      "t1": 75,
+      "line": "Chapter Five. Something Much"
+    },
+    {
+      "shot": "S34",
+      "a": 10283,
+      "b": 10334,
+      "t0": 0,
+      "t1": 51,
+      "line": "Bigger."
+    },
+    {
+      "shot": "S34",
+      "a": 10334,
+      "b": 10395,
+      "t0": 0,
+      "t1": 61,
+      "line": "Inside a briefing room, the agents"
+    },
+    {
+      "shot": "S35",
+      "a": 10395,
+      "b": 10468,
+      "t0": 0,
+      "t1": 73,
+      "line": "turn a radar screen toward you."
+    },
+    {
+      "shot": "S35",
+      "a": 10468,
+      "b": 10552,
+      "t0": 0,
+      "t1": 84,
+      "line": "Hidden inside the Taurid stream is a dark,"
+    },
+    {
+      "shot": "S34",
+      "a": 10552,
+      "b": 10614,
+      "t0": 0,
+      "t1": 62,
+      "line": "house sized object hurtling toward"
+    },
+    {
+      "shot": "S35",
+      "a": 10614,
+      "b": 10688,
+      "t0": 0,
+      "t1": 74,
+      "line": "Earth at twenty seven kilometres per second,"
+    },
+    {
+      "shot": "S34",
+      "a": 10688,
+      "b": 10750,
+      "t0": 0,
+      "t1": 62,
+      "line": "right on course for the city."
+    },
+    {
+      "shot": "S35",
+      "a": 10750,
+      "b": 10815,
+      "t0": 0,
+      "t1": 65,
+      "line": "There is no time to evacuate, and"
+    },
+    {
+      "shot": "S34",
+      "a": 10815,
+      "b": 10879,
+      "t0": 0,
+      "t1": 64,
+      "line": "nothing else can stop it. So"
+    },
+    {
+      "shot": "S35",
+      "a": 10879,
+      "b": 10971,
+      "t0": 0,
+      "t1": 92,
+      "line": "the world asks you to stand in the park and catch it."
+    },
+    {
+      "shot": "S36",
+      "a": 10971,
+      "b": 11033,
+      "t0": 0,
+      "t1": 62,
+      "line": "That night, the city cuts every"
+    },
+    {
+      "shot": "S37",
+      "a": 11033,
+      "b": 11096,
+      "t0": 0,
+      "t1": 63,
+      "line": "light. Searchlights sweep"
+    },
+    {
+      "shot": "S36",
+      "a": 11096,
+      "b": 11162,
+      "t0": 0,
+      "t1": 66,
+      "line": "the clouds. Scientists watch"
+    },
+    {
+      "shot": "S37",
+      "a": 11162,
+      "b": 11225,
+      "t0": 0,
+      "t1": 63,
+      "line": "from behind shields. Mo"
+    },
+    {
+      "shot": "S36",
+      "a": 11225,
+      "b": 11330,
+      "t0": 0,
+      "t1": 105,
+      "line": "stands beside you on the path, knees shaking."
+    },
+    {
+      "shot": "S37",
+      "a": 11330,
+      "b": 11395,
+      "t0": 0,
+      "t1": 65,
+      "line": "No pressure or anything. Just"
+    },
+    {
+      "shot": "S36",
+      "a": 11395,
+      "b": 11463,
+      "t0": 0,
+      "t1": 68,
+      "line": "the whole city behind us. Use"
+    },
+    {
+      "shot": "S37",
+      "a": 11463,
+      "b": 11528,
+      "t0": 0,
+      "t1": 65,
+      "line": "both hands, yeah?"
+    },
+    {
+      "shot": "S38",
+      "a": 11528,
+      "b": 11603,
+      "t0": 0,
+      "t1": 75,
+      "line": "High above, roughly one hundred kilometres"
+    },
+    {
+      "shot": "S37",
+      "a": 11603,
+      "b": 11690,
+      "t0": 0,
+      "t1": 87,
+      "line": "up, the clouds turn blood red."
+    },
+    {
+      "shot": "S38",
+      "a": 11690,
+      "b": 11754,
+      "t0": 0,
+      "t1": 64,
+      "line": "A deep roar shakes the ground as"
+    },
+    {
+      "shot": "S37",
+      "a": 11754,
+      "b": 11821,
+      "t0": 0,
+      "t1": 67,
+      "line": "a colossal fireball tears through the upper"
+    },
+    {
+      "shot": "S38",
+      "a": 11821,
+      "b": 11885,
+      "t0": 0,
+      "t1": 64,
+      "line": "air, dragging a tail of plasma"
+    },
+    {
+      "shot": "S37",
+      "a": 11885,
+      "b": 11952,
+      "t0": 0,
+      "t1": 67,
+      "line": "across the sky. You plant"
+    },
+    {
+      "shot": "S38",
+      "a": 11952,
+      "b": 12015,
+      "t0": 0,
+      "t1": 63,
+      "line": "your feet, raise both hands toward"
+    },
+    {
+      "shot": "S37",
+      "a": 12015,
+      "b": 12098,
+      "t0": 0,
+      "t1": 83,
+      "line": "the glare, and whisper the word."
+    },
+    {
+      "shot": "S39",
+      "a": 12098,
+      "b": 12168,
+      "t0": 0,
+      "t1": 70,
+      "line": "Catch. A shockwave",
+      "look": "catch"
+    },
+    {
+      "shot": "S38",
+      "a": 12168,
+      "b": 12237,
+      "t0": 0,
+      "t1": 69,
+      "line": "flattens the grass. The roar"
+    },
+    {
+      "shot": "S39",
+      "a": 12237,
+      "b": 12301,
+      "t0": 0,
+      "t1": 64,
+      "line": "drops into silence."
+    },
+    {
+      "shot": "S38",
+      "a": 12301,
+      "b": 12371,
+      "t0": 0,
+      "t1": 70,
+      "line": "Slowly, impossibly, the"
+    },
+    {
+      "shot": "S39",
+      "a": 12371,
+      "b": 12474,
+      "t0": 0,
+      "t1": 103,
+      "line": "giant fireball halts just above your fingertips."
+    },
+    {
+      "shot": "S38",
+      "a": 12474,
+      "b": 12549,
+      "t0": 0,
+      "t1": 75,
+      "line": "And as the plasma clears, your breath catches."
+    },
+    {
+      "shot": "S37",
+      "a": 12549,
+      "b": 12622,
+      "t0": 0,
+      "t1": 73,
+      "line": ""
+    },
+    {
+      "shot": "S40",
+      "a": 12622,
+      "b": 12734,
+      "t0": 0,
+      "t1": 112,
+      "line": "Chapter Six. What You Caught."
+    },
+    {
+      "shot": "S41",
+      "a": 12734,
+      "b": 12797,
+      "t0": 0,
+      "t1": 63,
+      "line": "The superheated air fades into the night"
+    },
+    {
+      "shot": "S42",
+      "a": 12797,
+      "b": 12860,
+      "t0": 0,
+      "t1": 63,
+      "line": "breeze, and you finally see what"
+    },
+    {
+      "shot": "S41",
+      "a": 12860,
+      "b": 12926,
+      "t0": 0,
+      "t1": 66,
+      "line": "is hovering above your palms. It"
+    },
+    {
+      "shot": "S42",
+      "a": 12926,
+      "b": 12997,
+      "t0": 0,
+      "t1": 71,
+      "line": "is not a jagged space rock."
+    },
+    {
+      "shot": "S41",
+      "a": 12997,
+      "b": 13064,
+      "t0": 0,
+      "t1": 67,
+      "line": "Its surface is smooth dark metal,"
+    },
+    {
+      "shot": "S42",
+      "a": 13064,
+      "b": 13133,
+      "t0": 0,
+      "t1": 69,
+      "line": "shaped into clean geometric panels that glint"
+    },
+    {
+      "shot": "S41",
+      "a": 13133,
+      "b": 13205,
+      "t0": 0,
+      "t1": 72,
+      "line": "in the moonlight, etched with glowing cyan"
+    },
+    {
+      "shot": "S42",
+      "a": 13205,
+      "b": 13281,
+      "t0": 0,
+      "t1": 76,
+      "line": "symbols no human ever wrote."
+    },
+    {
+      "shot": "S42",
+      "a": 13281,
+      "b": 13345,
+      "t0": 0,
+      "t1": 64,
+      "line": "Behind you, every mason jar"
+    },
+    {
+      "shot": "S41",
+      "a": 13345,
+      "b": 13413,
+      "t0": 0,
+      "t1": 68,
+      "line": "you filled all week suddenly flares bright"
+    },
+    {
+      "shot": "S42",
+      "a": 13413,
+      "b": 13475,
+      "t0": 0,
+      "t1": 62,
+      "line": "blue. All those tiny"
+    },
+    {
+      "shot": "S41",
+      "a": 13475,
+      "b": 13548,
+      "t0": 0,
+      "t1": 73,
+      "line": "pebbles pulse in the exact same rhythm,"
+    },
+    {
+      "shot": "S42",
+      "a": 13548,
+      "b": 13623,
+      "t0": 0,
+      "t1": 75,
+      "line": "answering the craft above your hands."
+    },
+    {
+      "shot": "S41",
+      "a": 13623,
+      "b": 13708,
+      "t0": 0,
+      "t1": 85,
+      "line": "They were never random grains of space dust."
+    },
+    {
+      "shot": "S42",
+      "a": 13708,
+      "b": 13826,
+      "t0": 0,
+      "t1": 118,
+      "line": "They were beacons, sent ahead to find someone who could catch them."
+    },
+    {
+      "shot": "S43",
+      "a": 13826,
+      "b": 13891,
+      "t0": 0,
+      "t1": 65,
+      "line": "And now that you have caught their ship, a"
+    },
+    {
+      "shot": "S41",
+      "a": 13891,
+      "b": 13972,
+      "t0": 0,
+      "t1": 81,
+      "line": "hatch on its underside clicks open."
+    },
+    {
+      "shot": "S43",
+      "a": 13972,
+      "b": 14039,
+      "t0": 0,
+      "t1": 67,
+      "line": "If you could catch a falling star tonight,"
+    },
+    {
+      "shot": "S41",
+      "a": 14039,
+      "b": 14104,
+      "t0": 0,
+      "t1": 65,
+      "line": "and it answered back, would you open your"
+    },
+    {
+      "shot": "S43",
+      "a": 14104,
+      "b": 14160,
+      "t0": 0,
+      "t1": 56,
+      "line": "hand, or let it go?"
+    },
+    {
+      "shot": "S42",
+      "a": 14160,
+      "b": 14226,
+      "t0": 0,
+      "t1": 66,
+      "line": ""
+    },
+    {
+      "shot": "S43",
+      "a": 14226,
+      "b": 14292,
+      "t0": 0,
+      "t1": 66,
+      "line": ""
+    },
+    {
+      "shot": "S44",
+      "a": 14292,
+      "b": 14400,
+      "t0": 0,
+      "t1": 108,
+      "line": ""
+    }
+  ],
+  "shots": [
+    {
+      "id": "S1",
+      "size": "wide",
+      "key": 23,
+      "len": 55,
+      "first": 0,
+      "line": "Midnight in the park.",
+      "note": "Dark park at night, city skyline silhouette, bright falling star streaking across sky above Pip"
+    },
+    {
+      "id": "S2",
+      "size": "low angle, medium",
+      "key": 30,
+      "len": 79,
+      "first": 47,
+      "line": "Freezing air, numb hands.",
+      "note": "Pip in dark park looking up, breath misting, reaching bare hand toward falling streak"
+    },
+    {
+      "id": "S3",
+      "size": "macro insert, slow motion",
+      "key": 36,
+      "len": 73,
+      "first": 300,
+      "line": "Catch. Time stutters.",
+      "note": "Pip's open palm catching the blazing streak of light, shockwave rings rippling outward"
+    },
+    {
+      "id": "S4",
+      "size": "close-up",
+      "key": 26,
+      "len": 52,
+      "first": 373,
+      "line": "The falling streak freezes right",
+      "note": "Captured star frozen and hovering in Pip's palm, warm golden light on Pip's amazed face"
+    },
+    {
+      "id": "S5",
+      "size": "medium wide",
+      "key": 31,
+      "len": 83,
+      "first": 591,
+      "line": "Soon your jars are glowing with starlight,",
+      "note": "Rapid flash-forward montage split: glowing mason jars, crowd queue, red sky emergency"
+    },
+    {
+      "id": "S6",
+      "size": "title, wide",
+      "key": 54,
+      "len": 108,
+      "first": 792,
+      "line": "What if you could catch a star?",
+      "note": "Title card: WHAT IF YOU COULD CATCH A STAR? over dark park with glowing palm"
+    },
+    {
+      "id": "S7",
+      "size": "wide, chapter card",
+      "key": 58,
+      "len": 117,
+      "first": 900,
+      "line": "Chapter One. The First Catch.",
+      "note": "Chapter 1 card: THE FIRST CATCH over November night park"
+    },
+    {
+      "id": "S8",
+      "size": "medium",
+      "key": 39,
+      "len": 78,
+      "first": 1017,
+      "line": "It starts on a quiet night in early November,",
+      "note": "Pip walking along park path at night, Northern Taurid streaks overhead, pointing mitten up"
+    },
+    {
+      "id": "S9",
+      "size": "macro insert",
+      "key": 34,
+      "len": 73,
+      "first": 1095,
+      "line": "as the Northern Taurids build toward their peak",
+      "note": "Glowing golden pebble dropping gently into Pip's mittened palm like a warm marshmallow"
+    },
+    {
+      "id": "S10",
+      "size": "medium, high angle",
+      "key": 31,
+      "len": 75,
+      "first": 2070,
+      "line": "Back in your bedroom, you pluck another",
+      "note": "Pip in dark bedroom plucking a shooting star through open window into a jam jar on nightstand"
+    },
+    {
+      "id": "S11",
+      "size": "top-down insert",
+      "key": 32,
+      "len": 91,
+      "first": 2329,
+      "line": "At your desk, a captured star",
+      "note": "Study desk close-up: glowing star jar beside steaming mug of hot cocoa and notebook"
+    },
+    {
+      "id": "S12",
+      "size": "medium",
+      "key": 47,
+      "len": 95,
+      "first": 2394,
+      "line": "keeps your mug of cocoa piping hot while you work.",
+      "note": "Pip at study desk smiling with warm cocoa while Mo appears outside the window"
+    },
+    {
+      "id": "S13",
+      "size": "over the shoulder, close-up",
+      "key": 31,
+      "len": 63,
+      "first": 2701,
+      "line": "Wait. Those fall out of",
+      "note": "Mo pressed against bedroom window glass, wide-eyed, pointing at the glowing star jar"
+    },
+    {
+      "id": "S14",
+      "size": "wide, chapter card",
+      "key": 59,
+      "len": 119,
+      "first": 2925,
+      "line": "Chapter Two. Wishes for Sale.",
+      "note": "Chapter 2 card: WISHES FOR SALE over park stall setup"
+    },
+    {
+      "id": "S15",
+      "size": "wide",
+      "key": 31,
+      "len": 90,
+      "first": 3044,
+      "line": "By the next evening, Mo has turned",
+      "note": "Park at dusk: WISHES FOR SALE cardboard banner on folding table, queue of stick figures round the block"
+    },
+    {
+      "id": "S16",
+      "size": "medium two-shot",
+      "key": 32,
+      "len": 97,
+      "first": 3106,
+      "line": "your secret into a business. He",
+      "note": "Pip plucking streaks from sky while Mo screws lids onto glowing mason jars and counts cash"
+    },
+    {
+      "id": "S17",
+      "size": "medium",
+      "key": 43,
+      "len": 86,
+      "first": 4050,
+      "line": "At first, it is silly fun.",
+      "note": "Customers holding glowing star jars like lanterns, taking selfies, proposing on one knee"
+    },
+    {
+      "id": "S18",
+      "size": "macro insert, Dutch angle",
+      "key": 33,
+      "len": 93,
+      "first": 4466,
+      "line": "Then the mood turns ugly.",
+      "note": "Crate of twenty captured star jars vibrating, rattling against glass, pulsing in angry red-gold sync"
+    },
+    {
+      "id": "S19",
+      "size": "wide, chapter card",
+      "key": 59,
+      "len": 119,
+      "first": 5302,
+      "line": "Chapter Three. The Real Science.",
+      "note": "Chapter 3 card: THE REAL SCIENCE over blueprint schematic grid"
+    },
+    {
+      "id": "S20",
+      "size": "wide, diagram",
+      "key": 33,
+      "len": 117,
+      "first": 5421,
+      "line": "Let us pause the chaos and look at what a shooting",
+      "note": "Schematic diagram 1: Scale comparison \u2014 giant cartoon star crossed out vs 1 mm sand grain to 1 cm pebble meteoroid"
+    },
+    {
+      "id": "S21",
+      "size": "wide, diagram",
+      "key": 32,
+      "len": 75,
+      "first": 5488,
+      "line": "star really is. When you see",
+      "note": "Schematic diagram 2: Earth atmosphere cross-section showing 80 to 120 km mesosphere/thermosphere burn-up zone"
+    },
+    {
+      "id": "S22",
+      "size": "wide, diagram",
+      "key": 34,
+      "len": 112,
+      "first": 6347,
+      "line": "So how can a tiny pebble eighty kilometres",
+      "note": "Schematic diagram 3: Taurid meteoroid vector entering at 27 km/s with kinetic energy gauge"
+    },
+    {
+      "id": "S23",
+      "size": "macro insert, diagram",
+      "key": 47,
+      "len": 95,
+      "first": 6415,
+      "line": "up shine brightly enough to see from the park?",
+      "note": "Schematic diagram 4: Ram-pressure compression heating and glowing ionised plasma air shell around pebble"
+    },
+    {
+      "id": "S24",
+      "size": "medium, diagram",
+      "key": 37,
+      "len": 112,
+      "first": 7182,
+      "line": "Catching a pebble at that speed should be completely",
+      "note": "Schematic diagram 5: Stick figure attempting bare-hand catch at 27 km/s vs WARNING: INSTANT VAPORISATION stamp"
+    },
+    {
+      "id": "S25",
+      "size": "wide, diagram",
+      "key": 24,
+      "len": 108,
+      "first": 7257,
+      "line": "impossible.",
+      "note": "Schematic diagram 6: Deceleration field \u2014 27 km/s -> 0 m/s braking curve and plasma dispersal"
+    },
+    {
+      "id": "S26",
+      "size": "macro insert, diagram",
+      "key": 34,
+      "len": 69,
+      "first": 7482,
+      "line": "Which raises a big question.",
+      "note": "Schematic diagram 7: Trapped meteoroid in glass jar emitting acoustic standing waves into the glass"
+    },
+    {
+      "id": "S27",
+      "size": "wide, chapter card",
+      "key": 53,
+      "len": 107,
+      "first": 7813,
+      "line": "Chapter Four. Bigger Fish.",
+      "note": "Chapter 4 card: BIGGER FISH over city rooftop at night"
+    },
+    {
+      "id": "S28",
+      "size": "wide",
+      "key": 32,
+      "len": 82,
+      "first": 7920,
+      "line": "Alongside tiny dust grains,",
+      "note": "Pip and Mo on rooftop at night as a brilliant green-white bolide fireball blazes across the sky"
+    },
+    {
+      "id": "S29",
+      "size": "low angle, medium",
+      "key": 35,
+      "len": 85,
+      "first": 7984,
+      "line": "the Taurids are famous for bright fireballs,",
+      "note": "Pip straining with both hands on rooftop to catch the grapefruit-sized white-hot iron meteoroid as shockwave cracks chimney"
+    },
+    {
+      "id": "S30",
+      "size": "close-up, insert",
+      "key": 51,
+      "len": 102,
+      "first": 8967,
+      "line": "You reach up anyway. Catch.",
+      "note": "Meteorological radar monitor showing a 27 km/s track dropping straight to zero over Pip's street"
+    },
+    {
+      "id": "S31",
+      "size": "wide, high angle",
+      "key": 34,
+      "len": 103,
+      "first": 9559,
+      "line": "Because when a bright fireball vanishes mid",
+      "note": "Morning street outside Pip's house packed with news satellite vans, black SUVs, and radiation suits"
+    },
+    {
+      "id": "S32",
+      "size": "medium",
+      "key": 40,
+      "len": 81,
+      "first": 9763,
+      "line": "By morning, news vans block your street,",
+      "note": "Pip opening front door in bathrobe holding glowing grapefruit iron core while Mo whispers behind him"
+    },
+    {
+      "id": "S33",
+      "size": "wide, chapter card",
+      "key": 37,
+      "len": 75,
+      "first": 10208,
+      "line": "Chapter Five. Something Much",
+      "note": "Chapter 5 card: SOMETHING MUCH BIGGER over emergency command room"
+    },
+    {
+      "id": "S34",
+      "size": "wide",
+      "key": 25,
+      "len": 64,
+      "first": 10283,
+      "line": "Bigger.",
+      "note": "Underground briefing room: giant red trajectory screen showing house-sized Taurid object at 27 km/s aimed at city"
+    },
+    {
+      "id": "S35",
+      "size": "close-up",
+      "key": 36,
+      "len": 92,
+      "first": 10395,
+      "line": "turn a radar screen toward you.",
+      "note": "Pip and Mo at briefing table looking up at the impact projection as generals and scientists turn to Pip"
+    },
+    {
+      "id": "S36",
+      "size": "wide",
+      "key": 31,
+      "len": 105,
+      "first": 10971,
+      "line": "That night, the city cuts every",
+      "note": "Blacked-out city park at night, searchlights sweeping blood-red clouds, scientists behind blast shields"
+    },
+    {
+      "id": "S37",
+      "size": "medium two-shot",
+      "key": 31,
+      "len": 87,
+      "first": 11033,
+      "line": "light. Searchlights sweep",
+      "note": "Pip and Mo standing on park path in wind, Mo nervous, Pip raising both hands toward sky"
+    },
+    {
+      "id": "S38",
+      "size": "wide, low angle",
+      "key": 37,
+      "len": 75,
+      "first": 11528,
+      "line": "High above, roughly one hundred kilometres",
+      "note": "Colossal fireball tearing through clouds 100 km up, dragging a massive plasma tail toward the park"
+    },
+    {
+      "id": "S39",
+      "size": "low angle, slow motion",
+      "key": 35,
+      "len": 103,
+      "first": 12098,
+      "line": "Catch. A shockwave",
+      "note": "Pip planting feet with both hands raised as massive fireball halts just above his fingertips in a huge shockwave"
+    },
+    {
+      "id": "S40",
+      "size": "wide, chapter card",
+      "key": 56,
+      "len": 112,
+      "first": 12622,
+      "line": "Chapter Six. What You Caught.",
+      "note": "Chapter 6 card: WHAT YOU CAUGHT over clearing smoke in park"
+    },
+    {
+      "id": "S41",
+      "size": "macro insert, low angle",
+      "key": 31,
+      "len": 85,
+      "first": 12734,
+      "line": "The superheated air fades into the night",
+      "note": "Plasma clearing to reveal a smooth dark-metal geometric craft with glowing cyan alien symbols hovering above Pip's hands"
+    },
+    {
+      "id": "S42",
+      "size": "medium wide",
+      "key": 31,
+      "len": 118,
+      "first": 12797,
+      "line": "breeze, and you finally see what",
+      "note": "Dozens of mason jars across the park and city windows flaring bright cyan-blue and pulsing in sync with the craft"
+    },
+    {
+      "id": "S43",
+      "size": "close-up, low angle",
+      "key": 32,
+      "len": 67,
+      "first": 13826,
+      "line": "And now that you have caught their ship, a",
+      "note": "Underside hatch of the dark-metal craft clicking open with bright cyan light shining down onto Pip's face"
+    },
+    {
+      "id": "S44",
+      "size": "wide, end card",
+      "key": 54,
+      "len": 108,
+      "first": 14292,
+      "line": "",
+      "note": "End card: IFMOSPHERE \u2014 Step into the what if. Comment your what-if / Subscribe for more what-ifs"
+    }
+  ],
+  "fx": [
+    {
+      "kind": "flash",
+      "color": "#FFF6D6",
+      "o": 0.85,
+      "f": 302
+    },
+    {
+      "kind": "shake",
+      "amp": 10,
+      "len": 18,
+      "f": 302
+    },
+    {
+      "kind": "flash",
+      "color": "#FFF6D6",
+      "o": 0.75,
+      "f": 1558
+    },
+    {
+      "kind": "flash",
+      "color": "#FFFFFF",
+      "o": 0.9,
+      "f": 9023
+    },
+    {
+      "kind": "shake",
+      "amp": 16,
+      "len": 24,
+      "f": 9023
+    },
+    {
+      "kind": "flash",
+      "color": "#FFE4B5",
+      "o": 0.9,
+      "f": 12100
+    },
+    {
+      "kind": "shake",
+      "amp": 20,
+      "len": 30,
+      "f": 12100
+    }
+  ],
+  "audio": {
+    "voice": "starcatcher/voice.wav",
+    "sfx": "starcatcher/sfx.wav",
+    "voiceVol": 0.6716,
+    "sfxVol": 0.5151,
+    "music": "starcatcher/music.wav",
+    "musicVol": 0.0834
+  }
+}
