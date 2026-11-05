@@ -27,7 +27,7 @@ jobs:
       - id: p
         working-directory: studio
         env: { COMP: "${{ inputs.comp }}", CHUNKS: "${{ inputs.chunks }}" }
-        run: node ../plan.mjs
+        run: node plan.mjs
 
   render:
     needs: plan
