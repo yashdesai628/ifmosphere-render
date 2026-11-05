@@ -1,0 +1,494 @@
+{
+ "id": "Reaction",
+ "slug": "reaction",
+ "topic": "What if your reaction time was ten times faster?",
+ "title": [
+  "WHAT IF YOU",
+  "REACTED 10X FASTER?"
+ ],
+ "accent": "10X",
+ "power": {
+  "word": "Snap.",
+  "rule": "you react in 0.025 s instead of about 0.25 s: the world seems to slow while you move",
+  "look": "time-slow: the world desaturates and slows, a SNAP chip and a stopwatch reading 0.025 s, a snap sound"
+ },
+ "script": [
+  {
+   "beat": "1 cold open, demo 1 (small and selfish)",
+   "text": "A fly zips past your face. Snap. Caught it."
+  },
+  {
+   "beat": "1 cold open, demo 2 (useful)",
+   "text": "Your phone slips. Snap. Caught, mid-air."
+  },
+  {
+   "beat": "1 cold open, demo 3 (a little uncanny)",
+   "text": "A penalty, top corner. Snap. Saved. Every single one."
+  },
+  {
+   "beat": "2 premise (title card)",
+   "text": "What if you reacted ten times faster?"
+  },
+  {
+   "beat": "4 the turn: the cost, one real fact",
+   "text": "One catch. In a sprint, react faster than a tenth of a second and it's a false start. Too fast means disqualified. That's real."
+  },
+  {
+   "beat": "5-7 folded into a question",
+   "text": "And somebody in a black car just noticed."
+  }
+ ],
+ "science": [
+  {
+   "claim": "A normal visual reaction takes about 0.25 s; ten times faster is 0.025 s.",
+   "working": "Typical simple visual reaction time is about 0.25 s (250 ms). 0.25 s / 10 = 0.025 s (25 ms). The stopwatch in the power's look reads 0.025 s.",
+   "source": "Typical human simple visual reaction time (~250 ms); arithmetic"
+  },
+  {
+   "claim": "In a sprint, reacting faster than a tenth of a second is a false start, and a false start means disqualification.",
+   "working": "World Athletics rules treat a reaction time under 0.100 s from the gun, as measured by the start-block sensors (start information system), as a false start. Since 2010 one false start disqualifies the athlete responsible. 0.025 s is well under 0.100 s, so every start at that reaction time would be ruled a false start.",
+   "source": "World Athletics Competition & Technical Rules, TR16.6 (reaction under 0.100 s = false start) and TR16.8 (one false start disqualifies, since 2010)"
+  },
+  {
+   "claim": "Optional on-screen detail: a dropped ruler falls 30.7 cm in 0.25 s but only 3.1 mm in 0.025 s.",
+   "working": "d = 1/2 g t^2 with g = 9.81 m/s^2. t = 0.25 s: 0.5 x 9.81 x 0.0625 = 0.3066 m = 30.7 cm. t = 0.025 s: 0.5 x 9.81 x 0.000625 = 0.003066 m = 3.1 mm.",
+   "source": "Free fall from rest, d = 1/2 g t^2 (standard gravity 9.81 m/s^2)"
+  }
+ ],
+ "cast": [
+  "pipHood",
+  "mo",
+  "suit"
+ ],
+ "gaps": {
+  "word": 0.12,
+  "comma": 0.2,
+  "sentence": 0.3,
+  "question": 0.45,
+  "pairs": {
+   "real|And": 0.42
+  }
+ },
+ "shots": [
+  {
+   "id": "S1",
+   "size": "close-up, profile",
+   "set": "kitchen (blurred)",
+   "key": 22,
+   "note": "a fly zips across frame right past Pip's nose, its trail looping; his eyes snap after it and glint cyan"
+  },
+  {
+   "id": "S2",
+   "size": "macro insert, slow motion",
+   "set": "kitchen (blurred)",
+   "key": 9,
+   "note": "time slows: the fly hangs, wings beating slowly; Pip's mitten whips in and snaps shut round it"
+  },
+  {
+   "id": "S3",
+   "size": "medium two-shot",
+   "set": "kitchen",
+   "key": 14,
+   "note": "Pip at the island, fist held up, smug; behind him Mo freezes mid-swing with a rolled magazine"
+  },
+  {
+   "id": "S4",
+   "size": "high-angle insert",
+   "set": "study (desk top)",
+   "key": 20,
+   "note": "Pip's elbow nudges the phone; it tips off the lit desk edge toward the blurred floor"
+  },
+  {
+   "id": "S5",
+   "size": "low angle at floor level, slow motion",
+   "set": "study (under the desk)",
+   "key": 10,
+   "note": "the phone hangs a hand above the floorboards, turning slowly; Pip's hand whips in and catches it"
+  },
+  {
+   "id": "S6",
+   "size": "medium",
+   "set": "study",
+   "key": 18,
+   "note": "Pip back in his chair, already scrolling the phone, not even looking: cool"
+  },
+  {
+   "id": "S7",
+   "size": "over the shoulder, ball on the spot",
+   "set": "stadium (pitch, goal end)",
+   "key": 20,
+   "note": "Mo's boot swings in past camera, the ball flies at the top corner; Pip ready in goal under the floodlights"
+  },
+  {
+   "id": "S8",
+   "size": "low angle, slow motion",
+   "set": "stadium (goal mouth)",
+   "key": 12,
+   "note": "time slows: Pip at full stretch in the air under the crossbar, his mittens close on the ball in the top corner"
+  },
+  {
+   "id": "S9",
+   "size": "macro insert",
+   "set": "stadium (goal)",
+   "key": 10,
+   "note": "the ball pressed into Pip's two mittens, the net billowing behind, floodlight flare"
+  },
+  {
+   "id": "S10",
+   "size": "wide",
+   "set": "stadium (goal end)",
+   "key": 30,
+   "note": "balls keep coming; Pip catches every one without moving his eyes, a pile grows at his feet, Mo sinks to his knees; SAVED 47/47"
+  },
+  {
+   "id": "S11",
+   "size": "title, wide",
+   "set": "rooftop",
+   "key": 52,
+   "note": "the premise over the city at dusk; Pip on the roof spinning a football on one finger; a stopwatch reads 0.025 s"
+  },
+  {
+   "id": "S12",
+   "size": "close-up",
+   "set": "stadium (track)",
+   "key": 14,
+   "note": "Pip at the start line, smug, the floodlights soft behind; then a flicker of doubt"
+  },
+  {
+   "id": "S13",
+   "size": "wide, side-on, over the starter's arm",
+   "set": "stadium (track)",
+   "key": 18,
+   "note": "Pip in lane 4 and Mo in lane 5 crouched in the blocks; the starter's pistol up in the dark foreground"
+  },
+  {
+   "id": "S14",
+   "size": "schematic",
+   "set": "schematic",
+   "key": 50,
+   "note": "BANG at 0 s; a red zone up to 0.100 s marked FALSE START; NORMAL 0.25 s; then YOU 0.025 s drops deep in the red"
+  },
+  {
+   "id": "S15",
+   "size": "medium wide, side-on",
+   "set": "stadium (track)",
+   "key": 14,
+   "note": "Pip is three strides gone while the gun smoke is still a puff; Mo still crouched; a red light flashes"
+  },
+  {
+   "id": "S16",
+   "size": "insert",
+   "set": "stadium (scoreboard)",
+   "key": 40,
+   "note": "the scoreboard: LANE 4 PIP R.T. 0.025, FALSE START blinking red, then DQ stamps on"
+  },
+  {
+   "id": "S17",
+   "size": "extreme close-up",
+   "set": "stadium (track)",
+   "key": 12,
+   "note": "Pip, worried, the light turning red on him"
+  },
+  {
+   "id": "S18",
+   "size": "wide, outside",
+   "set": "street outside the stadium",
+   "key": 30,
+   "note": "a black car at the kerb under a streetlight, the floodlights beyond the fence; its rear window down, the suit watching"
+  },
+  {
+   "id": "S19",
+   "size": "close-up through the car window",
+   "set": "black car",
+   "key": 30,
+   "note": "the suit's face lit from below by a tablet reading 0.025 s; his eyes slide to us; the tinted window glides up; the headlights snap on"
+  }
+ ],
+ "edit": [
+  {
+   "shot": "S1",
+   "at": "A"
+  },
+  {
+   "shot": "S2",
+   "at": "Snap",
+   "look": "snap"
+  },
+  {
+   "shot": "S3",
+   "at": "Caught"
+  },
+  {
+   "shot": "S4",
+   "at": "Your"
+  },
+  {
+   "shot": "S5",
+   "at": "Snap",
+   "look": "snap"
+  },
+  {
+   "shot": "S6",
+   "at": "Caught"
+  },
+  {
+   "shot": "S7",
+   "at": "A"
+  },
+  {
+   "shot": "S8",
+   "at": "Snap",
+   "look": "snap"
+  },
+  {
+   "shot": "S9",
+   "at": "Saved"
+  },
+  {
+   "shot": "S10",
+   "at": "Every"
+  },
+  {
+   "shot": "S11",
+   "at": "What"
+  },
+  {
+   "shot": "S12",
+   "at": "One"
+  },
+  {
+   "shot": "S13",
+   "at": "In"
+  },
+  {
+   "shot": "S14",
+   "at": "react"
+  },
+  {
+   "shot": "S15",
+   "at": "false"
+  },
+  {
+   "shot": "S16",
+   "at": "Too"
+  },
+  {
+   "shot": "S17",
+   "at": "That's"
+  },
+  {
+   "shot": "S18",
+   "at": "And"
+  },
+  {
+   "shot": "S19",
+   "at": "just"
+  }
+ ],
+ "tail": 1.3,
+ "fx": [
+  {
+   "at": "S2+9",
+   "kind": "flash",
+   "color": "#DDF2FF",
+   "o": 0.4
+  },
+  {
+   "at": "S5+10",
+   "kind": "flash",
+   "color": "#DDF2FF",
+   "o": 0.4
+  },
+  {
+   "at": "S8+9",
+   "kind": "flash",
+   "color": "#DDF2FF",
+   "o": 0.45
+  },
+  {
+   "at": "S9",
+   "kind": "shake",
+   "len": 8,
+   "amp": 9
+  },
+  {
+   "at": "S11",
+   "kind": "flash",
+   "color": "#FFF3DC"
+  },
+  {
+   "at": "S15",
+   "kind": "flash",
+   "color": "#FF3344",
+   "o": 0.55
+  },
+  {
+   "at": "S16+28",
+   "kind": "shake",
+   "len": 8,
+   "amp": 8
+  },
+  {
+   "at": "S19+36",
+   "kind": "flash",
+   "color": "#FFF6E0",
+   "o": 0.9
+  }
+ ],
+ "sound": {
+  "clips": {
+   "room_tone": [
+    "quiet indoor room tone in the evening, faint distant city hum, no voices",
+    12.5
+   ],
+   "roof_wind": [
+    "a gentle evening breeze on a city rooftop, distant traffic",
+    7.0
+   ],
+   "music": [
+    "playful quirky cartoon background music, pizzicato strings, glockenspiel and soft bass, light and curious, 110 bpm, no vocals",
+    17.0
+   ],
+   "title_boom": [
+    "a cinematic whoosh rising into a deep boom impact",
+    1.6
+   ],
+   "drone_hit": [
+    "a dark ominous low drone hit, deep cinematic horror sting",
+    2.6
+   ],
+   "sparkle": [
+    "a short bright magical sparkle twinkle, cartoon",
+    0.8
+   ],
+   "pop": [
+    "a cartoon speech bubble pop, short and bright",
+    0.5
+   ],
+   "catch": [
+    "a hand catching a ceramic mug mid-air, soft slap and thud",
+    0.5
+   ],
+   "fall_whoosh": [
+    "a small object falling fast through the air, short soft whoosh",
+    0.6
+   ],
+   "clink": [
+    "a ceramic coffee mug knocked by a hand on a wooden desk, short clink and scrape",
+    0.7
+   ],
+   "shades": [
+    "cool sunglasses sliding on with a swoosh and a bright metallic glint",
+    0.9
+   ],
+   "ding": [
+    "a correct answer ding, bright bell chime",
+    0.8
+   ],
+   "buzzer": [
+    "a game show wrong answer buzzer, short",
+    0.8
+   ],
+   "step": [
+    "a single sneaker footstep on a wooden stair, close",
+    0.5
+   ],
+   "gasp": [
+    "two young people gasping in surprise at the same moment, cartoon, short",
+    0.8
+   ],
+   "gulp": [
+    "a nervous cartoon gulp, short",
+    0.5
+   ],
+   "counter_tick": [
+    "a fast mechanical counter ticking up rapidly, digits rolling over, getting faster",
+    1.6
+   ],
+   "switch_off": [
+    "a heavy electrical breaker switching off with a dull clunk",
+    0.5
+   ],
+   "fly_buzz": [
+    "a single housefly buzzing past an ear, close up rapid wing buzz, short",
+    1.0
+   ],
+   "time_snap": [
+    "a crisp finger snap into a deep time-slow bass drop and sub-bass hum, short",
+    1.0
+   ],
+   "ball_kick": [
+    "a leather soccer ball kicked hard on a grass pitch, a punchy thud and fast whoosh",
+    0.8
+   ],
+   "start_gun": [
+    "a track and field starter pistol firing a sharp crack with stadium echo, short",
+    1.0
+   ],
+   "dq_stamp": [
+    "a heavy metal stamp slamming down with a deep resonant thud and electronic alarm beep, short",
+    0.9
+   ],
+   "window_whirr": [
+    "a luxury car power window motor whirring smoothly upwards and sealing shut, short",
+    1.4
+   ]
+  },
+  "events": [
+   ["S1", "room_tone", 0.06, "onset", "S7"],
+   ["S1+2", "fly_buzz", 0.14, "onset", "S1+40"],
+   ["S2+14", "time_snap", 0.24, "onset", "S3"],
+   ["S2+16", "catch", 0.22, "onset", "S3"],
+   ["S3+15", "sparkle", 0.18, "onset", "S4"],
+   ["S3+16", "gasp", 0.16, "onset", "S4"],
+   ["S4+7", "clink", 0.12],
+   ["S4+26", "fall_whoosh", 0.22, "peak", "S5"],
+   ["S5+14", "time_snap", 0.24, "onset", "S6"],
+   ["S5+16", "catch", 0.22, "onset", "S6"],
+   ["S6+28", "shades", 0.24, "onset", "S7"],
+   ["S6+30", "sparkle", 0.16, "onset", "S7"],
+   ["S7", "roof_wind", 0.06, "onset", "S14"],
+   ["S7+36", "ball_kick", 0.26, "onset", "S8"],
+   ["S8+14", "time_snap", 0.24, "onset", "S9"],
+   ["S9+17", "catch", 0.26, "onset", "S10"],
+   ["S9+18", "sparkle", 0.18, "onset", "S10"],
+   ["S10+31", "ding", 0.24, "onset", "S11"],
+   ["S11", "title_boom", 0.28, "peak"],
+   ["S11+59", "sparkle", 0.2, "onset", "S12"],
+   ["S12+21", "drone_hit", 0.18, "onset", "S13"],
+   ["S12+21", "gulp", 0.22, "onset", "S13"],
+   ["S13+23", "step", 0.18, "onset", "S14"],
+   ["S14+18", "pop", 0.08],
+   ["S14+26", "pop", 0.1],
+   ["S14+34", "counter_tick", 0.07, "onset", "S15"],
+   ["S15+21", "start_gun", 0.26, "onset", "S16"],
+   ["S15+23", "buzzer", 0.2, "onset", "S16"],
+   ["S16+26", "pop", 0.08],
+   ["S16+47", "dq_stamp", 0.26, "onset", "S17"],
+   ["S17+17", "drone_hit", 0.2, "onset", "S18"],
+   ["S18", "room_tone", 0.05, "onset"],
+   ["S19+22", "window_whirr", 0.55],
+   ["S19+36", "switch_off", 0.6],
+   ["S19+37", "drone_hit", 0.5]
+  ],
+  "repeats": [
+   {
+    "at": "S10+2",
+    "clip": "pop",
+    "n": 8,
+    "every": 3,
+    "gain": [0.03, 0.06],
+    "pitch": [0.9, 1.25],
+    "note": "saved footballs piling up around Pip's feet"
+   }
+  ],
+  "music": {
+   "clip": "music",
+   "until": "S12"
+  },
+  "levels": {
+   "sfx_lu": -3.8,
+   "music_lu": -10.8
+  }
+ }
+}

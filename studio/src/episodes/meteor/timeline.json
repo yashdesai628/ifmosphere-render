@@ -1,0 +1,347 @@
+{
+ "slug": "meteor",
+ "title": "WHAT IF YOU COULD CATCH A STAR?",
+ "fps": 30,
+ "total": 713,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 51,
+   "t0": 0,
+   "t1": 51,
+   "line": "A streak of light over the park."
+  },
+  {
+   "shot": "S2",
+   "a": 51,
+   "b": 78,
+   "t0": 0,
+   "t1": 27,
+   "line": "You reach up."
+  },
+  {
+   "shot": "S3",
+   "a": 78,
+   "b": 101,
+   "t0": 0,
+   "t1": 23,
+   "line": "Catch.",
+   "look": "catch"
+  },
+  {
+   "shot": "S4",
+   "a": 101,
+   "b": 126,
+   "t0": 0,
+   "t1": 25,
+   "line": "It's warm."
+  },
+  {
+   "shot": "S5",
+   "a": 126,
+   "b": 163,
+   "t0": 0,
+   "t1": 37,
+   "line": "Your mate makes a wish."
+  },
+  {
+   "shot": "S6",
+   "a": 163,
+   "b": 197,
+   "t0": 0,
+   "t1": 34,
+   "line": "You hand it to him."
+  },
+  {
+   "shot": "S7",
+   "a": 197,
+   "b": 222,
+   "t0": 0,
+   "t1": 25,
+   "line": "By midnight,"
+  },
+  {
+   "shot": "S8",
+   "a": 222,
+   "b": 262,
+   "t0": 0,
+   "t1": 40,
+   "line": "your jar is glowing."
+  },
+  {
+   "shot": "S9",
+   "a": 262,
+   "b": 330,
+   "t0": 0,
+   "t1": 68,
+   "line": "What if you could catch shooting stars?"
+  },
+  {
+   "shot": "S10",
+   "a": 330,
+   "b": 360,
+   "t0": 0,
+   "t1": 30,
+   "line": "One catch."
+  },
+  {
+   "shot": "S11",
+   "a": 360,
+   "b": 414,
+   "t0": 0,
+   "t1": 54,
+   "line": "Taurid meteors hit the air at about"
+  },
+  {
+   "shot": "S12",
+   "a": 414,
+   "b": 473,
+   "t0": 0,
+   "t1": 59,
+   "line": "27 kilometres per second."
+  },
+  {
+   "shot": "S13",
+   "a": 473,
+   "b": 538,
+   "t0": 0,
+   "t1": 65,
+   "line": "That's over 25 times faster than"
+  },
+  {
+   "shot": "S14",
+   "a": 538,
+   "b": 565,
+   "t0": 0,
+   "t1": 27,
+   "line": "a rifle bullet."
+  },
+  {
+   "shot": "S15",
+   "a": 565,
+   "b": 594,
+   "t0": 0,
+   "t1": 29,
+   "line": "That's real."
+  },
+  {
+   "shot": "S16",
+   "a": 594,
+   "b": 638,
+   "t0": 0,
+   "t1": 44,
+   "line": "And tonight, something much"
+  },
+  {
+   "shot": "S17",
+   "a": 638,
+   "b": 713,
+   "t0": 0,
+   "t1": 75,
+   "line": "bigger is heading your way."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 28,
+   "len": 51,
+   "first": 0,
+   "line": "A streak of light over the park.",
+   "note": "night park under starry sky and crescent moon; a bright Taurid meteor streaks across the sky as Pip looks up from the lamp-lit path"
+  },
+  {
+   "id": "S2",
+   "size": "low angle, medium",
+   "key": 16,
+   "len": 27,
+   "first": 51,
+   "line": "You reach up.",
+   "note": "looking up at Pip against the starry sky and park lamp; his eyes glint golden-cyan as he reaches up toward the falling streak"
+  },
+  {
+   "id": "S3",
+   "size": "macro insert, slow motion",
+   "key": 11,
+   "len": 23,
+   "first": 78,
+   "line": "Catch.",
+   "note": "power word Catch: the slow-motion glowing meteor streak freezes right in Pip's open palm with concentric starlight rings"
+  },
+  {
+   "id": "S4",
+   "size": "close-up",
+   "key": 14,
+   "len": 25,
+   "first": 101,
+   "line": "It's warm.",
+   "note": "Pip's face lit warm gold from below by the captured star cupped in his mittens; soft heat wisps rise as he smiles"
+  },
+  {
+   "id": "S5",
+   "size": "over the shoulder, medium",
+   "key": 18,
+   "len": 37,
+   "first": 126,
+   "line": "Your mate makes a wish.",
+   "note": "over Pip's blurred dark shoulder: Mo by the park bench with eyes squeezed shut and hands clasped, making a wish"
+  },
+  {
+   "id": "S6",
+   "size": "medium two-shot",
+   "key": 18,
+   "len": 34,
+   "first": 163,
+   "line": "You hand it to him.",
+   "note": "Pip hands the glowing star into Mo's cupped palms; Mo's eyes pop wide open in amazed shock as the starlight lights both faces"
+  },
+  {
+   "id": "S7",
+   "size": "high-angle insert",
+   "key": 14,
+   "len": 25,
+   "first": 197,
+   "line": "By midnight,",
+   "note": "top-down on the wooden park bench at 00:00 on Pip's phone; Pip's hand drops another glowing star into a glass mason jar"
+  },
+  {
+   "id": "S8",
+   "size": "medium close-up",
+   "key": 20,
+   "len": 40,
+   "first": 222,
+   "line": "your jar is glowing.",
+   "note": "the glass jar packed with captured stars pulsing with intense, uncanny golden-white light; Pip and Mo exchange an uneasy look"
+  },
+  {
+   "id": "S9",
+   "size": "title, wide",
+   "key": 38,
+   "len": 68,
+   "first": 262,
+   "line": "What if you could catch shooting stars?",
+   "note": "WHAT IF YOU / COULD CATCH A STAR? over the night park; Pip holds the glowing jar while freezing a slow-mo streak in his palm"
+  },
+  {
+   "id": "S10",
+   "size": "extreme close-up",
+   "key": 14,
+   "len": 30,
+   "first": 330,
+   "line": "One catch.",
+   "note": "One catch: the glow on Pip's face turns ominous crimson-orange and a hairline crack snaps across the glowing jar"
+  },
+  {
+   "id": "S11",
+   "size": "schematic, wide",
+   "key": 28,
+   "len": 54,
+   "first": 360,
+   "line": "Taurid meteors hit the air at about",
+   "note": "blueprint schematic of Earth's upper atmosphere (100 KM) with a Southern Taurid meteoroid slamming into the air and compressing plasma"
+  },
+  {
+   "id": "S12",
+   "size": "schematic, close",
+   "key": 36,
+   "len": 59,
+   "first": 414,
+   "line": "27 kilometres per second.",
+   "note": "velocity schematic counting up to 27 KM/S (97,200 KM/H) with ram-pressure shockwave vectors lighting up orange-red"
+  },
+  {
+   "id": "S13",
+   "size": "schematic, comparison",
+   "key": 38,
+   "len": 65,
+   "first": 473,
+   "line": "That's over 25 times faster than",
+   "note": "speed comparison: RIFLE BULLET (~1 KM/S) vs TAURID METEOR (27 KM/S) blazing past with an OVER 25X FASTER badge"
+  },
+  {
+   "id": "S14",
+   "size": "macro insert",
+   "key": 14,
+   "len": 27,
+   "first": 538,
+   "line": "a rifle bullet.",
+   "note": "a hyper-velocity glowing Taurid rock wrapped in a scorching red shockwave cone tearing straight toward Pip's outstretched hand"
+  },
+  {
+   "id": "S15",
+   "size": "close-up, low angle",
+   "key": 14,
+   "len": 29,
+   "first": 565,
+   "line": "That's real.",
+   "note": "That's real: Pip and Mo look up in dread as harsh crimson fireball light floods down over their faces"
+  },
+  {
+   "id": "S16",
+   "size": "wide, low angle",
+   "key": 22,
+   "len": 44,
+   "first": 594,
+   "line": "And tonight, something much",
+   "note": "a colossal Taurid fireball bolide splits the night clouds above the park, casting fierce red light over Pip and Mo below"
+  },
+  {
+   "id": "S17",
+   "size": "over the shoulder, end card",
+   "key": 36,
+   "len": 75,
+   "first": 638,
+   "line": "bigger is heading your way.",
+   "note": "the giant fireball hurtles toward Pip and Mo in the park below; IFMOSPHERE and Comment your what-if end card"
+  }
+ ],
+ "fx": [
+  {
+   "kind": "flash",
+   "color": "#FFF5D6",
+   "o": 0.45,
+   "f": 87
+  },
+  {
+   "kind": "flash",
+   "color": "#FFF5D6",
+   "o": 0.35,
+   "f": 173
+  },
+  {
+   "kind": "flash",
+   "color": "#FFF3DC",
+   "o": 0.65,
+   "f": 262
+  },
+  {
+   "kind": "flash",
+   "color": "#FF4A3A",
+   "o": 0.5,
+   "f": 330
+  },
+  {
+   "kind": "shake",
+   "len": 10,
+   "amp": 10,
+   "f": 546
+  },
+  {
+   "kind": "flash",
+   "color": "#FF5A3A",
+   "o": 0.55,
+   "f": 594
+  },
+  {
+   "kind": "shake",
+   "len": 12,
+   "amp": 12,
+   "f": 598
+  }
+ ],
+ "audio": {
+  "voice": "meteor/voice.wav"
+ }
+}

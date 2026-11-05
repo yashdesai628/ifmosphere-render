@@ -1,0 +1,64 @@
+name: render
+on:
+  workflow_dispatch:
+    inputs:
+      comp:
+        description: Remotion composition id
+        required: true
+      chunks:
+        description: Number of parallel slices (max 20 on Free)
+        default: "20"
+      tag:
+        description: Label for the output artifact
+        default: "episode"
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.p.outputs.matrix }}
+      frames: ${{ steps.p.outputs.frames }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: studio/package-lock.json }
+      - run: npm ci
+        working-directory: studio
+      - id: p
+        working-directory: studio
+        env: { COMP: "${{ inputs.comp }}", CHUNKS: "${{ inputs.chunks }}" }
+        run: node ../plan.mjs
+
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: studio/package-lock.json }
+      - run: npm ci
+        working-directory: studio
+      - name: Render slice ${{ matrix.i }} (${{ matrix.range }})
+        working-directory: studio
+        run: |
+          npx remotion render src/index.ts "${{ inputs.comp }}" "../part_${{ matrix.i }}.mp4" \
+            --frames=${{ matrix.range }} --muted --codec=h264 --crf=16 --concurrency=4 --log=warn
+      - uses: actions/upload-artifact@v4
+        with: { name: "part_${{ matrix.i }}", path: "part_${{ matrix.i }}.mp4", retention-days: 3 }
+
+  join:
+    needs: render
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with: { pattern: "part_*", merge-multiple: true, path: parts }
+      - run: |
+          sudo apt-get -qq update && sudo apt-get -qq install -y ffmpeg >/dev/null
+          cd parts && ls part_*.mp4 | sort | sed "s/^/file '/;s/$/'/" > list.txt
+          ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i list.txt -c copy "../${{ inputs.tag }}-video.mp4"
+          ffprobe -v error -show_entries format=duration -of csv=p=0 "../${{ inputs.tag }}-video.mp4"
+      - uses: actions/upload-artifact@v4
+        with: { name: "${{ inputs.tag }}-video", path: "${{ inputs.tag }}-video.mp4", retention-days: 7 }

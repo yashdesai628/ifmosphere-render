@@ -1,0 +1,393 @@
+{
+ "slug": "reaction",
+ "title": "WHAT IF YOU REACTED 10X FASTER?",
+ "fps": 30,
+ "total": 695,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 51,
+   "t0": 0,
+   "t1": 51,
+   "line": "A fly zips past your face."
+  },
+  {
+   "shot": "S2",
+   "a": 51,
+   "b": 71,
+   "t0": 0,
+   "t1": 20,
+   "line": "Snap.",
+   "look": "snap"
+  },
+  {
+   "shot": "S3",
+   "a": 71,
+   "b": 92,
+   "t0": 0,
+   "t1": 21,
+   "line": "Caught it."
+  },
+  {
+   "shot": "S4",
+   "a": 92,
+   "b": 124,
+   "t0": 0,
+   "t1": 32,
+   "line": "Your phone slips."
+  },
+  {
+   "shot": "S5",
+   "a": 124,
+   "b": 144,
+   "t0": 0,
+   "t1": 20,
+   "line": "Snap.",
+   "look": "snap"
+  },
+  {
+   "shot": "S6",
+   "a": 144,
+   "b": 179,
+   "t0": 0,
+   "t1": 35,
+   "line": "Caught, mid- air."
+  },
+  {
+   "shot": "S7",
+   "a": 179,
+   "b": 222,
+   "t0": 0,
+   "t1": 43,
+   "line": "A penalty, top corner."
+  },
+  {
+   "shot": "S8",
+   "a": 222,
+   "b": 242,
+   "t0": 0,
+   "t1": 20,
+   "line": "Snap.",
+   "look": "snap"
+  },
+  {
+   "shot": "S9",
+   "a": 242,
+   "b": 265,
+   "t0": 0,
+   "t1": 23,
+   "line": "Saved."
+  },
+  {
+   "shot": "S10",
+   "a": 265,
+   "b": 303,
+   "t0": 0,
+   "t1": 38,
+   "line": "Every single one."
+  },
+  {
+   "shot": "S11",
+   "a": 303,
+   "b": 372,
+   "t0": 0,
+   "t1": 69,
+   "line": "What if you reacted ten times faster?"
+  },
+  {
+   "shot": "S12",
+   "a": 372,
+   "b": 399,
+   "t0": 0,
+   "t1": 27,
+   "line": "One catch."
+  },
+  {
+   "shot": "S13",
+   "a": 399,
+   "b": 426,
+   "t0": 0,
+   "t1": 27,
+   "line": "In a sprint,"
+  },
+  {
+   "shot": "S14",
+   "a": 426,
+   "b": 494,
+   "t0": 0,
+   "t1": 68,
+   "line": "react faster than a tenth of a second and it's"
+  },
+  {
+   "shot": "S15",
+   "a": 494,
+   "b": 522,
+   "t0": 0,
+   "t1": 28,
+   "line": "a false start."
+  },
+  {
+   "shot": "S16",
+   "a": 522,
+   "b": 572,
+   "t0": 0,
+   "t1": 50,
+   "line": "Too fast means disqualified."
+  },
+  {
+   "shot": "S17",
+   "a": 572,
+   "b": 599,
+   "t0": 0,
+   "t1": 27,
+   "line": "That's real."
+  },
+  {
+   "shot": "S18",
+   "a": 599,
+   "b": 635,
+   "t0": 0,
+   "t1": 36,
+   "line": "And somebody in a black car"
+  },
+  {
+   "shot": "S19",
+   "a": 635,
+   "b": 695,
+   "t0": 0,
+   "t1": 60,
+   "line": "just noticed."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "close-up, profile",
+   "key": 22,
+   "len": 51,
+   "first": 0,
+   "line": "A fly zips past your face.",
+   "note": "a fly zips across frame right past Pip's nose, its trail looping; his eyes snap after it and glint cyan"
+  },
+  {
+   "id": "S2",
+   "size": "macro insert, slow motion",
+   "key": 9,
+   "len": 20,
+   "first": 51,
+   "line": "Snap.",
+   "note": "time slows: the fly hangs, wings beating slowly; Pip's mitten whips in and snaps shut round it"
+  },
+  {
+   "id": "S3",
+   "size": "medium two-shot",
+   "key": 14,
+   "len": 21,
+   "first": 71,
+   "line": "Caught it.",
+   "note": "Pip at the island, fist held up, smug; behind him Mo freezes mid-swing with a rolled magazine"
+  },
+  {
+   "id": "S4",
+   "size": "high-angle insert",
+   "key": 20,
+   "len": 32,
+   "first": 92,
+   "line": "Your phone slips.",
+   "note": "Pip's elbow nudges the phone; it tips off the lit desk edge toward the blurred floor"
+  },
+  {
+   "id": "S5",
+   "size": "low angle at floor level, slow motion",
+   "key": 10,
+   "len": 20,
+   "first": 124,
+   "line": "Snap.",
+   "note": "the phone hangs a hand above the floorboards, turning slowly; Pip's hand whips in and catches it"
+  },
+  {
+   "id": "S6",
+   "size": "medium",
+   "key": 18,
+   "len": 35,
+   "first": 144,
+   "line": "Caught, mid- air.",
+   "note": "Pip back in his chair, already scrolling the phone, not even looking: cool"
+  },
+  {
+   "id": "S7",
+   "size": "over the shoulder, ball on the spot",
+   "key": 20,
+   "len": 43,
+   "first": 179,
+   "line": "A penalty, top corner.",
+   "note": "Mo's boot swings in past camera, the ball flies at the top corner; Pip ready in goal under the floodlights"
+  },
+  {
+   "id": "S8",
+   "size": "low angle, slow motion",
+   "key": 12,
+   "len": 20,
+   "first": 222,
+   "line": "Snap.",
+   "note": "time slows: Pip at full stretch in the air under the crossbar, his mittens close on the ball in the top corner"
+  },
+  {
+   "id": "S9",
+   "size": "macro insert",
+   "key": 10,
+   "len": 23,
+   "first": 242,
+   "line": "Saved.",
+   "note": "the ball pressed into Pip's two mittens, the net billowing behind, floodlight flare"
+  },
+  {
+   "id": "S10",
+   "size": "wide",
+   "key": 30,
+   "len": 38,
+   "first": 265,
+   "line": "Every single one.",
+   "note": "balls keep coming; Pip catches every one without moving his eyes, a pile grows at his feet, Mo sinks to his knees; SAVED 47/47"
+  },
+  {
+   "id": "S11",
+   "size": "title, wide",
+   "key": 52,
+   "len": 69,
+   "first": 303,
+   "line": "What if you reacted ten times faster?",
+   "note": "the premise over the city at dusk; Pip on the roof spinning a football on one finger; a stopwatch reads 0.025 s"
+  },
+  {
+   "id": "S12",
+   "size": "close-up",
+   "key": 14,
+   "len": 27,
+   "first": 372,
+   "line": "One catch.",
+   "note": "Pip at the start line, smug, the floodlights soft behind; then a flicker of doubt"
+  },
+  {
+   "id": "S13",
+   "size": "wide, side-on, over the starter's arm",
+   "key": 18,
+   "len": 27,
+   "first": 399,
+   "line": "In a sprint,",
+   "note": "Pip in lane 4 and Mo in lane 5 crouched in the blocks; the starter's pistol up in the dark foreground"
+  },
+  {
+   "id": "S14",
+   "size": "schematic",
+   "key": 50,
+   "len": 68,
+   "first": 426,
+   "line": "react faster than a tenth of a second and it's",
+   "note": "BANG at 0 s; a red zone up to 0.100 s marked FALSE START; NORMAL 0.25 s; then YOU 0.025 s drops deep in the red"
+  },
+  {
+   "id": "S15",
+   "size": "medium wide, side-on",
+   "key": 14,
+   "len": 28,
+   "first": 494,
+   "line": "a false start.",
+   "note": "Pip is three strides gone while the gun smoke is still a puff; Mo still crouched; a red light flashes"
+  },
+  {
+   "id": "S16",
+   "size": "insert",
+   "key": 40,
+   "len": 50,
+   "first": 522,
+   "line": "Too fast means disqualified.",
+   "note": "the scoreboard: LANE 4 PIP R.T. 0.025, FALSE START blinking red, then DQ stamps on"
+  },
+  {
+   "id": "S17",
+   "size": "extreme close-up",
+   "key": 12,
+   "len": 27,
+   "first": 572,
+   "line": "That's real.",
+   "note": "Pip, worried, the light turning red on him"
+  },
+  {
+   "id": "S18",
+   "size": "wide, outside",
+   "key": 30,
+   "len": 36,
+   "first": 599,
+   "line": "And somebody in a black car",
+   "note": "a black car at the kerb under a streetlight, the floodlights beyond the fence; its rear window down, the suit watching"
+  },
+  {
+   "id": "S19",
+   "size": "close-up through the car window",
+   "key": 30,
+   "len": 60,
+   "first": 635,
+   "line": "just noticed.",
+   "note": "the suit's face lit from below by a tablet reading 0.025 s; his eyes slide to us; the tinted window glides up; the headlights snap on"
+  }
+ ],
+ "fx": [
+  {
+   "kind": "flash",
+   "color": "#DDF2FF",
+   "o": 0.4,
+   "f": 60
+  },
+  {
+   "kind": "flash",
+   "color": "#DDF2FF",
+   "o": 0.4,
+   "f": 134
+  },
+  {
+   "kind": "flash",
+   "color": "#DDF2FF",
+   "o": 0.45,
+   "f": 231
+  },
+  {
+   "kind": "shake",
+   "len": 8,
+   "amp": 9,
+   "f": 242
+  },
+  {
+   "kind": "flash",
+   "color": "#FFF3DC",
+   "f": 303
+  },
+  {
+   "kind": "flash",
+   "color": "#FF3344",
+   "o": 0.55,
+   "f": 494
+  },
+  {
+   "kind": "shake",
+   "len": 8,
+   "amp": 8,
+   "f": 550
+  },
+  {
+   "kind": "flash",
+   "color": "#FFF6E0",
+   "o": 0.9,
+   "f": 671
+  }
+ ],
+ "audio": {
+  "voice": "reaction/voice.wav",
+  "sfx": "reaction/sfx.wav",
+  "voiceVol": 0.8,
+  "sfxVol": 0.5048,
+  "music": "reaction/music.wav",
+  "musicVol": 0.1079
+ }
+}
