@@ -1,0 +1,3469 @@
+{
+ "slug": "jump",
+ "title": "WHAT IF YOU JUMPED ON EVERY WORLD?",
+ "fps": 30,
+ "total": 14081,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 54,
+   "t0": 0,
+   "t1": 54,
+   "line": "Pitch black space."
+  },
+  {
+   "shot": "S2",
+   "a": 54,
+   "b": 122,
+   "t0": 0,
+   "t1": 68,
+   "line": "Dusty rock under your sneakers."
+  },
+  {
+   "shot": "S3",
+   "a": 122,
+   "b": 178,
+   "t0": 0,
+   "t1": 56,
+   "line": "You crouch for a normal hop,"
+  },
+  {
+   "shot": "S4",
+   "a": 178,
+   "b": 244,
+   "t0": 0,
+   "t1": 66,
+   "line": "push off, and keep rising."
+  },
+  {
+   "shot": "S5",
+   "a": 244,
+   "b": 292,
+   "t0": 0,
+   "t1": 48,
+   "line": "Higher and higher."
+  },
+  {
+   "shot": "S6",
+   "a": 292,
+   "b": 361,
+   "t0": 0,
+   "t1": 69,
+   "line": "The comet shrinks below your feet."
+  },
+  {
+   "shot": "S7",
+   "a": 361,
+   "b": 441,
+   "t0": 0,
+   "t1": 80,
+   "line": "Jump here and you never come back down."
+  },
+  {
+   "shot": "S8",
+   "a": 441,
+   "b": 519,
+   "t0": 0,
+   "t1": 78,
+   "line": "From worlds that launch you over houses"
+  },
+  {
+   "shot": "S9",
+   "a": 519,
+   "b": 584,
+   "t0": 0,
+   "t1": 65,
+   "line": "to worlds that flatten you instantly:"
+  },
+  {
+   "shot": "S10",
+   "a": 584,
+   "b": 655,
+   "t0": 0,
+   "t1": 71,
+   "line": "what if you jumped on every world?"
+  },
+  {
+   "shot": "S11",
+   "a": 655,
+   "b": 743,
+   "t0": 0,
+   "t1": 88,
+   "line": "(Title Card: WHAT IF YOU JUMPED ON EVERY WORLD?)"
+  },
+  {
+   "shot": "S12",
+   "a": 743,
+   "b": 801,
+   "t0": 0,
+   "t1": 58,
+   "line": "Start with your Earth baseline."
+  },
+  {
+   "shot": "S13",
+   "a": 801,
+   "b": 870,
+   "t0": 0,
+   "t1": 69,
+   "line": "Stand in your school gym, crouch,"
+  },
+  {
+   "shot": "S14",
+   "a": 870,
+   "b": 937,
+   "t0": 0,
+   "t1": 67,
+   "line": "and pop up beside the chalk wall."
+  },
+  {
+   "shot": "S15",
+   "a": 937,
+   "b": 1023,
+   "t0": 0,
+   "t1": 86,
+   "line": "Slap! About half a metre."
+  },
+  {
+   "shot": "S16",
+   "a": 1023,
+   "b": 1082,
+   "t0": 0,
+   "t1": 59,
+   "line": "Outside in a floodlit stadium"
+  },
+  {
+   "shot": "S17",
+   "a": 1082,
+   "b": 1143,
+   "t0": 0,
+   "t1": 61,
+   "line": "sits the high jump world record:"
+  },
+  {
+   "shot": "S18",
+   "a": 1143,
+   "b": 1201,
+   "t0": 0,
+   "t1": 58,
+   "line": "two point four five metres,"
+  },
+  {
+   "shot": "S19",
+   "a": 1201,
+   "b": 1297,
+   "t0": 0,
+   "t1": 96,
+   "line": "set by Javier Sotomayor in nineteen ninety three."
+  },
+  {
+   "shot": "S20",
+   "a": 1297,
+   "b": 1360,
+   "t0": 0,
+   "t1": 63,
+   "line": "Even the best human barely clears a"
+  },
+  {
+   "shot": "S21",
+   "a": 1360,
+   "b": 1426,
+   "t0": 0,
+   "t1": 66,
+   "line": "doorway. Unless we leave Earth."
+  },
+  {
+   "shot": "S22",
+   "a": 1426,
+   "b": 1509,
+   "t0": 0,
+   "t1": 83,
+   "line": "(Chapter 2 Card)"
+  },
+  {
+   "shot": "S23",
+   "a": 1509,
+   "b": 1564,
+   "t0": 0,
+   "t1": 55,
+   "line": "Step onto your bathroom scale,"
+  },
+  {
+   "shot": "S24",
+   "a": 1564,
+   "b": 1646,
+   "t0": 0,
+   "t1": 82,
+   "line": "because a single rule runs this whole tour."
+  },
+  {
+   "shot": "S25",
+   "a": 1646,
+   "b": 1740,
+   "t0": 0,
+   "t1": 94,
+   "line": "Your leg muscles pack the same push everywhere."
+  },
+  {
+   "shot": "S26",
+   "a": 1740,
+   "b": 1800,
+   "t0": 0,
+   "t1": 60,
+   "line": "Only gravity changes."
+  },
+  {
+   "shot": "S27",
+   "a": 1800,
+   "b": 1852,
+   "t0": 0,
+   "t1": 52,
+   "line": "Less gravity means a higher"
+  },
+  {
+   "shot": "S28",
+   "a": 1852,
+   "b": 1905,
+   "t0": 0,
+   "t1": 53,
+   "line": "jump and a longer hang time."
+  },
+  {
+   "shot": "S29",
+   "a": 1905,
+   "b": 1975,
+   "t0": 0,
+   "t1": 70,
+   "line": "More gravity drags you straight down."
+  },
+  {
+   "shot": "S30",
+   "a": 1975,
+   "b": 2034,
+   "t0": 0,
+   "t1": 59,
+   "line": "Ready to test that rule?"
+  },
+  {
+   "shot": "S31",
+   "a": 2034,
+   "b": 2087,
+   "t0": 0,
+   "t1": 53,
+   "line": "Look out your window tonight."
+  },
+  {
+   "shot": "S32",
+   "a": 2087,
+   "b": 2170,
+   "t0": 0,
+   "t1": 83,
+   "line": "(Chapter 3 Card)"
+  },
+  {
+   "shot": "S33",
+   "a": 2170,
+   "b": 2232,
+   "t0": 0,
+   "t1": 62,
+   "line": "Touch down on the Moon under a starry"
+  },
+  {
+   "shot": "S34",
+   "a": 2232,
+   "b": 2291,
+   "t0": 0,
+   "t1": 59,
+   "line": "sky with blue Earth overhead."
+  },
+  {
+   "shot": "S35",
+   "a": 2291,
+   "b": 2356,
+   "t0": 0,
+   "t1": 65,
+   "line": "Lunar gravity pulls at about one point"
+  },
+  {
+   "shot": "S36",
+   "a": 2356,
+   "b": 2417,
+   "t0": 0,
+   "t1": 61,
+   "line": "six two metres per second squared."
+  },
+  {
+   "shot": "S37",
+   "a": 2417,
+   "b": 2500,
+   "t0": 0,
+   "t1": 83,
+   "line": "Push off with your gym hop and boing!"
+  },
+  {
+   "shot": "S38",
+   "a": 2500,
+   "b": 2571,
+   "t0": 0,
+   "t1": 71,
+   "line": "You soar about three metres high,"
+  },
+  {
+   "shot": "S39",
+   "a": 2571,
+   "b": 2617,
+   "t0": 0,
+   "t1": 46,
+   "line": "floating for nearly four seconds"
+  },
+  {
+   "shot": "S40",
+   "a": 2617,
+   "b": 2689,
+   "t0": 0,
+   "t1": 72,
+   "line": "before drifting softly into the grey dust."
+  },
+  {
+   "shot": "S41",
+   "a": 2689,
+   "b": 2793,
+   "t0": 0,
+   "t1": 104,
+   "line": "Wait: why did real astronauts barely hop?"
+  },
+  {
+   "shot": "S42",
+   "a": 2793,
+   "b": 2875,
+   "t0": 0,
+   "t1": 82,
+   "line": "(Chapter 4 Card)"
+  },
+  {
+   "shot": "S43",
+   "a": 2875,
+   "b": 2939,
+   "t0": 0,
+   "t1": 64,
+   "line": "Time for an Apollo reality check."
+  },
+  {
+   "shot": "S44",
+   "a": 2939,
+   "b": 3020,
+   "t0": 0,
+   "t1": 81,
+   "line": "Real astronauts wore stiff bulky spacesuits"
+  },
+  {
+   "shot": "S45",
+   "a": 3020,
+   "b": 3077,
+   "t0": 0,
+   "t1": 57,
+   "line": "and heavy life support backpacks."
+  },
+  {
+   "shot": "S46",
+   "a": 3077,
+   "b": 3171,
+   "t0": 0,
+   "t1": 94,
+   "line": "Bending their knees felt like wrestling a giant mattress,"
+  },
+  {
+   "shot": "S47",
+   "a": 3171,
+   "b": 3249,
+   "t0": 0,
+   "t1": 78,
+   "line": "so they jumped far less than our no suit leap."
+  },
+  {
+   "shot": "S48",
+   "a": 3249,
+   "b": 3307,
+   "t0": 0,
+   "t1": 58,
+   "line": "In nineteen seventy two,"
+  },
+  {
+   "shot": "S49",
+   "a": 3307,
+   "b": 3371,
+   "t0": 0,
+   "t1": 64,
+   "line": "Charlie Duke tried a big high jump,"
+  },
+  {
+   "shot": "S50",
+   "a": 3371,
+   "b": 3426,
+   "t0": 0,
+   "t1": 55,
+   "line": "tipped backwards in slow motion,"
+  },
+  {
+   "shot": "S51",
+   "a": 3426,
+   "b": 3488,
+   "t0": 0,
+   "t1": 62,
+   "line": "and fell flat onto his backpack!"
+  },
+  {
+   "shot": "S52",
+   "a": 3488,
+   "b": 3571,
+   "t0": 0,
+   "t1": 83,
+   "line": "Next stop: grab a basketball."
+  },
+  {
+   "shot": "S53",
+   "a": 3571,
+   "b": 3654,
+   "t0": 0,
+   "t1": 83,
+   "line": "(Chapter 5 Card)"
+  },
+  {
+   "shot": "S54",
+   "a": 3654,
+   "b": 3736,
+   "t0": 0,
+   "t1": 82,
+   "line": "Welcome to the rusty red court of Mars,"
+  },
+  {
+   "shot": "S55",
+   "a": 3736,
+   "b": 3799,
+   "t0": 0,
+   "t1": 63,
+   "line": "where gravity sits at about three point"
+  },
+  {
+   "shot": "S56",
+   "a": 3799,
+   "b": 3866,
+   "t0": 0,
+   "t1": 67,
+   "line": "seven one metres per second squared."
+  },
+  {
+   "shot": "S57",
+   "a": 3866,
+   "b": 3924,
+   "t0": 0,
+   "t1": 58,
+   "line": "Dribble through red dust,"
+  },
+  {
+   "shot": "S58",
+   "a": 3924,
+   "b": 4002,
+   "t0": 0,
+   "t1": 78,
+   "line": "plant your sneakers, and launch."
+  },
+  {
+   "shot": "S59",
+   "a": 4002,
+   "b": 4116,
+   "t0": 0,
+   "t1": 114,
+   "line": "You rise about two point six times higher than on Earth,"
+  },
+  {
+   "shot": "S60",
+   "a": 4116,
+   "b": 4211,
+   "t0": 0,
+   "t1": 95,
+   "line": "gliding above the rim for an easy slam dunk!"
+  },
+  {
+   "shot": "S61",
+   "a": 4211,
+   "b": 4283,
+   "t0": 0,
+   "t1": 72,
+   "line": "Want that exact same bounce somewhere"
+  },
+  {
+   "shot": "S62",
+   "a": 4283,
+   "b": 4360,
+   "t0": 0,
+   "t1": 77,
+   "line": "way stranger? Head toward the Sun."
+  },
+  {
+   "shot": "S63",
+   "a": 4360,
+   "b": 4443,
+   "t0": 0,
+   "t1": 83,
+   "line": "(Chapter 6 Card)"
+  },
+  {
+   "shot": "S64",
+   "a": 4443,
+   "b": 4499,
+   "t0": 0,
+   "t1": 56,
+   "line": "Cratered Mercury looks tiny,"
+  },
+  {
+   "shot": "S65",
+   "a": 4499,
+   "b": 4561,
+   "t0": 0,
+   "t1": 62,
+   "line": "yet its dense core gives it basically"
+  },
+  {
+   "shot": "S66",
+   "a": 4561,
+   "b": 4619,
+   "t0": 0,
+   "t1": 58,
+   "line": "the same gravity pull as Mars."
+  },
+  {
+   "shot": "S67",
+   "a": 4619,
+   "b": 4708,
+   "t0": 0,
+   "t1": 89,
+   "line": "You leap just as high over silver rock."
+  },
+  {
+   "shot": "S68",
+   "a": 4708,
+   "b": 4767,
+   "t0": 0,
+   "t1": 59,
+   "line": "Then you unfold a chair to watch"
+  },
+  {
+   "shot": "S69",
+   "a": 4767,
+   "b": 4828,
+   "t0": 0,
+   "t1": 61,
+   "line": "the sunrise before jumping again."
+  },
+  {
+   "shot": "S70",
+   "a": 4828,
+   "b": 4912,
+   "t0": 0,
+   "t1": 84,
+   "line": "You wait. And you wait."
+  },
+  {
+   "shot": "S71",
+   "a": 4912,
+   "b": 5009,
+   "t0": 0,
+   "t1": 97,
+   "line": "A solar day on Mercury lasts about four thousand,"
+  },
+  {
+   "shot": "S72",
+   "a": 5009,
+   "b": 5071,
+   "t0": 0,
+   "t1": 62,
+   "line": "two hundred and twenty two hours."
+  },
+  {
+   "shot": "S73",
+   "a": 5071,
+   "b": 5166,
+   "t0": 0,
+   "t1": 95,
+   "line": "Pack snacks, because the next planet cooks them."
+  },
+  {
+   "shot": "S74",
+   "a": 5166,
+   "b": 5248,
+   "t0": 0,
+   "t1": 82,
+   "line": "(Chapter 7 Card)"
+  },
+  {
+   "shot": "S75",
+   "a": 5248,
+   "b": 5314,
+   "t0": 0,
+   "t1": 66,
+   "line": "Drop beneath the yellow clouds of Venus"
+  },
+  {
+   "shot": "S76",
+   "a": 5314,
+   "b": 5374,
+   "t0": 0,
+   "t1": 60,
+   "line": "and forget jumping altogether."
+  },
+  {
+   "shot": "S77",
+   "a": 5374,
+   "b": 5424,
+   "t0": 0,
+   "t1": 50,
+   "line": "Thick air crushes down"
+  },
+  {
+   "shot": "S78",
+   "a": 5424,
+   "b": 5504,
+   "t0": 0,
+   "t1": 80,
+   "line": "at about ninety three times Earth's surface pressure,"
+  },
+  {
+   "shot": "S79",
+   "a": 5504,
+   "b": 5555,
+   "t0": 0,
+   "t1": 51,
+   "line": "like being about nine hundred metres"
+  },
+  {
+   "shot": "S80",
+   "a": 5555,
+   "b": 5610,
+   "t0": 0,
+   "t1": 55,
+   "line": "underwater without a submarine."
+  },
+  {
+   "shot": "S81",
+   "a": 5610,
+   "b": 5671,
+   "t0": 0,
+   "t1": 61,
+   "line": "Worse, the rocks bake"
+  },
+  {
+   "shot": "S82",
+   "a": 5671,
+   "b": 5761,
+   "t0": 0,
+   "t1": 90,
+   "line": "at about four hundred and sixty five degrees Celsius."
+  },
+  {
+   "shot": "S83",
+   "a": 5761,
+   "b": 5815,
+   "t0": 0,
+   "t1": 54,
+   "line": "You do not jump here:"
+  },
+  {
+   "shot": "S84",
+   "a": 5815,
+   "b": 5890,
+   "t0": 0,
+   "t1": 75,
+   "line": "you get squished like a panini and cooked!"
+  },
+  {
+   "shot": "S85",
+   "a": 5890,
+   "b": 5947,
+   "t0": 0,
+   "t1": 57,
+   "line": "Could a robot survive?"
+  },
+  {
+   "shot": "S86",
+   "a": 5947,
+   "b": 6029,
+   "t0": 0,
+   "t1": 82,
+   "line": "(Chapter 8 Card)"
+  },
+  {
+   "shot": "S87",
+   "a": 6029,
+   "b": 6095,
+   "t0": 0,
+   "t1": 66,
+   "line": "Engineers tried. Tough"
+  },
+  {
+   "shot": "S88",
+   "a": 6095,
+   "b": 6151,
+   "t0": 0,
+   "t1": 56,
+   "line": "Soviet Venera probes parachuted"
+  },
+  {
+   "shot": "S89",
+   "a": 6151,
+   "b": 6214,
+   "t0": 0,
+   "t1": 63,
+   "line": "down inside heavy titanium shells"
+  },
+  {
+   "shot": "S90",
+   "a": 6214,
+   "b": 6290,
+   "t0": 0,
+   "t1": 76,
+   "line": "just to photograph that glowing landscape."
+  },
+  {
+   "shot": "S91",
+   "a": 6290,
+   "b": 6360,
+   "t0": 0,
+   "t1": 70,
+   "line": "The moment a lander touched the ground,"
+  },
+  {
+   "shot": "S92",
+   "a": 6360,
+   "b": 6427,
+   "t0": 0,
+   "t1": 67,
+   "line": "a brutal countdown clock started."
+  },
+  {
+   "shot": "S93",
+   "a": 6427,
+   "b": 6492,
+   "t0": 0,
+   "t1": 65,
+   "line": "Tick, tick, sizzle."
+  },
+  {
+   "shot": "S94",
+   "a": 6492,
+   "b": 6562,
+   "t0": 0,
+   "t1": 70,
+   "line": "Even the longest lasting Soviet probe"
+  },
+  {
+   "shot": "S95",
+   "a": 6562,
+   "b": 6624,
+   "t0": 0,
+   "t1": 62,
+   "line": "survived only about two hours on the surface"
+  },
+  {
+   "shot": "S96",
+   "a": 6624,
+   "b": 6680,
+   "t0": 0,
+   "t1": 56,
+   "line": "before Venus fried it silent."
+  },
+  {
+   "shot": "S97",
+   "a": 6680,
+   "b": 6784,
+   "t0": 0,
+   "t1": 104,
+   "line": "Let us cool off somewhere thick air actually helps."
+  },
+  {
+   "shot": "S98",
+   "a": 6784,
+   "b": 6866,
+   "t0": 0,
+   "t1": 82,
+   "line": "(Chapter 9 Card)"
+  },
+  {
+   "shot": "S99",
+   "a": 6866,
+   "b": 6958,
+   "t0": 0,
+   "t1": 92,
+   "line": "Out around Saturn orbits hazy golden Titan."
+  },
+  {
+   "shot": "S100",
+   "a": 6958,
+   "b": 7064,
+   "t0": 0,
+   "t1": 106,
+   "line": "Gravity here pulls at only about one seventh of Earth's,"
+  },
+  {
+   "shot": "S101",
+   "a": 7064,
+   "b": 7110,
+   "t0": 0,
+   "t1": 46,
+   "line": "while the cold surface air"
+  },
+  {
+   "shot": "S102",
+   "a": 7110,
+   "b": 7185,
+   "t0": 0,
+   "t1": 75,
+   "line": "is about four times denser than ours."
+  },
+  {
+   "shot": "S103",
+   "a": 7185,
+   "b": 7257,
+   "t0": 0,
+   "t1": 72,
+   "line": "Tape cardboard wings to your arms,"
+  },
+  {
+   "shot": "S104",
+   "a": 7257,
+   "b": 7350,
+   "t0": 0,
+   "t1": 93,
+   "line": "hop off an icy boulder, and flap hard!"
+  },
+  {
+   "shot": "S105",
+   "a": 7350,
+   "b": 7428,
+   "t0": 0,
+   "t1": 78,
+   "line": "Those homemade wings catch the soupy air"
+  },
+  {
+   "shot": "S106",
+   "a": 7428,
+   "b": 7495,
+   "t0": 0,
+   "t1": 67,
+   "line": "and lift you airborne above dark lakes."
+  },
+  {
+   "shot": "S107",
+   "a": 7495,
+   "b": 7589,
+   "t0": 0,
+   "t1": 94,
+   "line": "Feeling unstoppable? Try Jupiter."
+  },
+  {
+   "shot": "S108",
+   "a": 7589,
+   "b": 7671,
+   "t0": 0,
+   "t1": 82,
+   "line": "(Chapter 10 Card)"
+  },
+  {
+   "shot": "S109",
+   "a": 7671,
+   "b": 7751,
+   "t0": 0,
+   "t1": 80,
+   "line": "Bad news: giant striped Jupiter"
+  },
+  {
+   "shot": "S110",
+   "a": 7751,
+   "b": 7807,
+   "t0": 0,
+   "t1": 56,
+   "line": "has no solid surface at all,"
+  },
+  {
+   "shot": "S111",
+   "a": 7807,
+   "b": 7892,
+   "t0": 0,
+   "t1": 85,
+   "line": "so we hang a diving board in its upper clouds."
+  },
+  {
+   "shot": "S112",
+   "a": 7892,
+   "b": 7960,
+   "t0": 0,
+   "t1": 68,
+   "line": "At about two point five times Earth's"
+  },
+  {
+   "shot": "S113",
+   "a": 7960,
+   "b": 8026,
+   "t0": 0,
+   "t1": 66,
+   "line": "gravity, your knees groan."
+  },
+  {
+   "shot": "S114",
+   "a": 8026,
+   "b": 8084,
+   "t0": 0,
+   "t1": 58,
+   "line": "A seventy kilogram you weighs"
+  },
+  {
+   "shot": "S115",
+   "a": 8084,
+   "b": 8171,
+   "t0": 0,
+   "t1": 87,
+   "line": "like about one hundred and sixty five kilograms on Earth."
+  },
+  {
+   "shot": "S116",
+   "a": 8171,
+   "b": 8253,
+   "t0": 0,
+   "t1": 82,
+   "line": "You strain, hop about twenty centimetres,"
+  },
+  {
+   "shot": "S117",
+   "a": 8253,
+   "b": 8336,
+   "t0": 0,
+   "t1": 83,
+   "line": "land, and sink straight into the clouds!"
+  },
+  {
+   "shot": "S118",
+   "a": 8336,
+   "b": 8396,
+   "t0": 0,
+   "t1": 60,
+   "line": "At least the next giant floats."
+  },
+  {
+   "shot": "S119",
+   "a": 8396,
+   "b": 8478,
+   "t0": 0,
+   "t1": 82,
+   "line": "(Chapter 11 Card)"
+  },
+  {
+   "shot": "S120",
+   "a": 8478,
+   "b": 8552,
+   "t0": 0,
+   "t1": 74,
+   "line": "Ringed Saturn has no solid floor either,"
+  },
+  {
+   "shot": "S121",
+   "a": 8552,
+   "b": 8639,
+   "t0": 0,
+   "t1": 87,
+   "line": "though near its clouds your weight feels close to home."
+  },
+  {
+   "shot": "S122",
+   "a": 8639,
+   "b": 8696,
+   "t0": 0,
+   "t1": 57,
+   "line": "Instead, Saturn hides"
+  },
+  {
+   "shot": "S123",
+   "a": 8696,
+   "b": 8747,
+   "t0": 0,
+   "t1": 51,
+   "line": "a wild party trick."
+  },
+  {
+   "shot": "S124",
+   "a": 8747,
+   "b": 8836,
+   "t0": 0,
+   "t1": 89,
+   "line": "On average, it has a density of about six hundred and"
+  },
+  {
+   "shot": "S125",
+   "a": 8836,
+   "b": 8915,
+   "t0": 0,
+   "t1": 79,
+   "line": "eighty seven kilograms per cubic metre,"
+  },
+  {
+   "shot": "S126",
+   "a": 8915,
+   "b": 8964,
+   "t0": 0,
+   "t1": 49,
+   "line": "less dense than water!"
+  },
+  {
+   "shot": "S127",
+   "a": 8964,
+   "b": 9015,
+   "t0": 0,
+   "t1": 51,
+   "line": "Fill a giant bathtub,"
+  },
+  {
+   "shot": "S128",
+   "a": 9015,
+   "b": 9079,
+   "t0": 0,
+   "t1": 64,
+   "line": "drop Saturn in beside a rubber duck,"
+  },
+  {
+   "shot": "S129",
+   "a": 9079,
+   "b": 9128,
+   "t0": 0,
+   "t1": 49,
+   "line": "and the planet floats."
+  },
+  {
+   "shot": "S130",
+   "a": 9128,
+   "b": 9182,
+   "t0": 0,
+   "t1": 54,
+   "line": "Now grab a bowling ball."
+  },
+  {
+   "shot": "S131",
+   "a": 9182,
+   "b": 9264,
+   "t0": 0,
+   "t1": 82,
+   "line": "(Chapter 12 Card)"
+  },
+  {
+   "shot": "S132",
+   "a": 9264,
+   "b": 9320,
+   "t0": 0,
+   "t1": 56,
+   "line": "Step into the outer solar system's"
+  },
+  {
+   "shot": "S133",
+   "a": 9320,
+   "b": 9373,
+   "t0": 0,
+   "t1": 53,
+   "line": "ice giant bowling alley."
+  },
+  {
+   "shot": "S134",
+   "a": 9373,
+   "b": 9477,
+   "t0": 0,
+   "t1": 104,
+   "line": "Down the left lane rolls pale cyan Uranus,"
+  },
+  {
+   "shot": "S135",
+   "a": 9477,
+   "b": 9546,
+   "t0": 0,
+   "t1": 69,
+   "line": "spinning tipped right over on its side"
+  },
+  {
+   "shot": "S136",
+   "a": 9546,
+   "b": 9635,
+   "t0": 0,
+   "t1": 89,
+   "line": "at about ninety eight degrees like a tumbling barrel."
+  },
+  {
+   "shot": "S137",
+   "a": 9635,
+   "b": 9688,
+   "t0": 0,
+   "t1": 53,
+   "line": "Hop near its clouds and you"
+  },
+  {
+   "shot": "S138",
+   "a": 9688,
+   "b": 9751,
+   "t0": 0,
+   "t1": 63,
+   "line": "bounce slightly easier than home."
+  },
+  {
+   "shot": "S139",
+   "a": 9751,
+   "b": 9810,
+   "t0": 0,
+   "t1": 59,
+   "line": "Try deep blue Neptune next"
+  },
+  {
+   "shot": "S140",
+   "a": 9810,
+   "b": 9864,
+   "t0": 0,
+   "t1": 54,
+   "line": "door, though, and oof:"
+  },
+  {
+   "shot": "S141",
+   "a": 9864,
+   "b": 9947,
+   "t0": 0,
+   "t1": 83,
+   "line": "Neptune pulls a bit harder than Earth."
+  },
+  {
+   "shot": "S142",
+   "a": 9947,
+   "b": 10006,
+   "t0": 0,
+   "t1": 59,
+   "line": "Ready for superhero mode?"
+  },
+  {
+   "shot": "S143",
+   "a": 10006,
+   "b": 10089,
+   "t0": 0,
+   "t1": 83,
+   "line": "(Chapter 13 Card)"
+  },
+  {
+   "shot": "S144",
+   "a": 10089,
+   "b": 10144,
+   "t0": 0,
+   "t1": 55,
+   "line": "Land on icy Pluto,"
+  },
+  {
+   "shot": "S145",
+   "a": 10144,
+   "b": 10202,
+   "t0": 0,
+   "t1": 58,
+   "line": "where the Sun shrinks to a bright star"
+  },
+  {
+   "shot": "S146",
+   "a": 10202,
+   "b": 10254,
+   "t0": 0,
+   "t1": 52,
+   "line": "over a heart shaped glacier."
+  },
+  {
+   "shot": "S147",
+   "a": 10254,
+   "b": 10311,
+   "t0": 0,
+   "t1": 57,
+   "line": "Gravity drops to about zero"
+  },
+  {
+   "shot": "S148",
+   "a": 10311,
+   "b": 10378,
+   "t0": 0,
+   "t1": 67,
+   "line": "point six two metres per second squared,"
+  },
+  {
+   "shot": "S149",
+   "a": 10378,
+   "b": 10431,
+   "t0": 0,
+   "t1": 53,
+   "line": "so a seventy kilogram you weighs"
+  },
+  {
+   "shot": "S150",
+   "a": 10431,
+   "b": 10504,
+   "t0": 0,
+   "t1": 73,
+   "line": "like about four to five kilograms on Earth."
+  },
+  {
+   "shot": "S151",
+   "a": 10504,
+   "b": 10600,
+   "t0": 0,
+   "t1": 96,
+   "line": "Push off and you rocket about seven metres high,"
+  },
+  {
+   "shot": "S152",
+   "a": 10600,
+   "b": 10689,
+   "t0": 0,
+   "t1": 89,
+   "line": "clearing a house with roughly nine seconds of airtime!"
+  },
+  {
+   "shot": "S153",
+   "a": 10689,
+   "b": 10756,
+   "t0": 0,
+   "t1": 67,
+   "line": "Tiny worlds get wilder still."
+  },
+  {
+   "shot": "S154",
+   "a": 10756,
+   "b": 10838,
+   "t0": 0,
+   "t1": 82,
+   "line": "(Chapter 14 Card)"
+  },
+  {
+   "shot": "S155",
+   "a": 10838,
+   "b": 10893,
+   "t0": 0,
+   "t1": 55,
+   "line": "Tiptoe onto Dimorphos,"
+  },
+  {
+   "shot": "S156",
+   "a": 10893,
+   "b": 10969,
+   "t0": 0,
+   "t1": 76,
+   "line": "a rubble asteroid only about one hundred and"
+  },
+  {
+   "shot": "S157",
+   "a": 10969,
+   "b": 11022,
+   "t0": 0,
+   "t1": 53,
+   "line": "fifty one metres wide."
+  },
+  {
+   "shot": "S158",
+   "a": 11022,
+   "b": 11080,
+   "t0": 0,
+   "t1": 58,
+   "line": "It is so small NASA"
+  },
+  {
+   "shot": "S159",
+   "a": 11080,
+   "b": 11130,
+   "t0": 0,
+   "t1": 50,
+   "line": "used it for target practice:"
+  },
+  {
+   "shot": "S160",
+   "a": 11130,
+   "b": 11176,
+   "t0": 0,
+   "t1": 46,
+   "line": "in twenty twenty two,"
+  },
+  {
+   "shot": "S161",
+   "a": 11176,
+   "b": 11254,
+   "t0": 0,
+   "t1": 78,
+   "line": "the DART spacecraft slammed into Dimorphos"
+  },
+  {
+   "shot": "S162",
+   "a": 11254,
+   "b": 11350,
+   "t0": 0,
+   "t1": 96,
+   "line": "and shortened its orbit by about thirty three minutes."
+  },
+  {
+   "shot": "S163",
+   "a": 11350,
+   "b": 11424,
+   "t0": 0,
+   "t1": 74,
+   "line": "Gravity here barely whispers."
+  },
+  {
+   "shot": "S164",
+   "a": 11424,
+   "b": 11502,
+   "t0": 0,
+   "t1": 78,
+   "line": "Even a tiny flinch sends you floating up,"
+  },
+  {
+   "shot": "S165",
+   "a": 11502,
+   "b": 11562,
+   "t0": 0,
+   "t1": 60,
+   "line": "leading straight back to where we started."
+  },
+  {
+   "shot": "S166",
+   "a": 11562,
+   "b": 11645,
+   "t0": 0,
+   "t1": 83,
+   "line": "(Chapter 15 Card)"
+  },
+  {
+   "shot": "S167",
+   "a": 11645,
+   "b": 11701,
+   "t0": 0,
+   "t1": 56,
+   "line": "Remember our opening comet?"
+  },
+  {
+   "shot": "S168",
+   "a": 11701,
+   "b": 11772,
+   "t0": 0,
+   "t1": 71,
+   "line": "When the European Space Agency set"
+  },
+  {
+   "shot": "S169",
+   "a": 11772,
+   "b": 11858,
+   "t0": 0,
+   "t1": 86,
+   "line": "its Philae lander onto comet sixty seven P,"
+  },
+  {
+   "shot": "S170",
+   "a": 11858,
+   "b": 11913,
+   "t0": 0,
+   "t1": 55,
+   "line": "its harpoons failed."
+  },
+  {
+   "shot": "S171",
+   "a": 11913,
+   "b": 11982,
+   "t0": 0,
+   "t1": 69,
+   "line": "Philae bounced off at about thirty eight"
+  },
+  {
+   "shot": "S172",
+   "a": 11982,
+   "b": 12063,
+   "t0": 0,
+   "t1": 81,
+   "line": "centimetres per second, slower than a stroll,"
+  },
+  {
+   "shot": "S173",
+   "a": 12063,
+   "b": 12122,
+   "t0": 0,
+   "t1": 59,
+   "line": "yet flew for about one kilometre"
+  },
+  {
+   "shot": "S174",
+   "a": 12122,
+   "b": 12173,
+   "t0": 0,
+   "t1": 51,
+   "line": "over nearly two hours!"
+  },
+  {
+   "shot": "S175",
+   "a": 12173,
+   "b": 12253,
+   "t0": 0,
+   "t1": 80,
+   "line": "Your jump is much faster than that bounce."
+  },
+  {
+   "shot": "S176",
+   "a": 12253,
+   "b": 12316,
+   "t0": 0,
+   "t1": 63,
+   "line": "Push off here, wave goodbye,"
+  },
+  {
+   "shot": "S177",
+   "a": 12316,
+   "b": 12379,
+   "t0": 0,
+   "t1": 63,
+   "line": "and off you go into space forever."
+  },
+  {
+   "shot": "S178",
+   "a": 12379,
+   "b": 12462,
+   "t0": 0,
+   "t1": 83,
+   "line": "(Chapter 16 Card)"
+  },
+  {
+   "shot": "S179",
+   "a": 12462,
+   "b": 12529,
+   "t0": 0,
+   "t1": 67,
+   "line": "Final boss: the Sun."
+  },
+  {
+   "shot": "S180",
+   "a": 12529,
+   "b": 12597,
+   "t0": 0,
+   "t1": 68,
+   "line": "Give yourself magic heat proof boots"
+  },
+  {
+   "shot": "S181",
+   "a": 12597,
+   "b": 12682,
+   "t0": 0,
+   "t1": 85,
+   "line": "and an imaginary platform at the solar surface."
+  },
+  {
+   "shot": "S182",
+   "a": 12682,
+   "b": 12743,
+   "t0": 0,
+   "t1": 61,
+   "line": "Solar gravity slams down"
+  },
+  {
+   "shot": "S183",
+   "a": 12743,
+   "b": 12817,
+   "t0": 0,
+   "t1": 74,
+   "line": "at about twenty eight times Earth's pull."
+  },
+  {
+   "shot": "S184",
+   "a": 12817,
+   "b": 12915,
+   "t0": 0,
+   "t1": 98,
+   "line": "Forget jumping: you could not even stand!"
+  },
+  {
+   "shot": "S185",
+   "a": 12915,
+   "b": 13015,
+   "t0": 0,
+   "t1": 100,
+   "line": "Your knees buckle, your face pancakes onto the deck,"
+  },
+  {
+   "shot": "S186",
+   "a": 13015,
+   "b": 13086,
+   "t0": 0,
+   "t1": 71,
+   "line": "and wiggling a thumb feels heroic."
+  },
+  {
+   "shot": "S187",
+   "a": 13086,
+   "b": 13183,
+   "t0": 0,
+   "t1": 97,
+   "line": "Suddenly, ordinary Earth sounds pretty wonderful."
+  },
+  {
+   "shot": "S188",
+   "a": 13183,
+   "b": 13265,
+   "t0": 0,
+   "t1": 82,
+   "line": "(Chapter 17 Card)"
+  },
+  {
+   "shot": "S189",
+   "a": 13265,
+   "b": 13358,
+   "t0": 0,
+   "t1": 93,
+   "line": "Back on your city rooftop at dawn, take a little hop."
+  },
+  {
+   "shot": "S190",
+   "a": 13358,
+   "b": 13407,
+   "t0": 0,
+   "t1": 49,
+   "line": "About half a metre up,"
+  },
+  {
+   "shot": "S191",
+   "a": 13407,
+   "b": 13454,
+   "t0": 0,
+   "t1": 47,
+   "line": "soft thud down."
+  },
+  {
+   "shot": "S192",
+   "a": 13454,
+   "b": 13542,
+   "t0": 0,
+   "t1": 88,
+   "line": "Your tiny Earth jump suddenly feels perfect."
+  },
+  {
+   "shot": "S193",
+   "a": 13542,
+   "b": 13624,
+   "t0": 0,
+   "t1": 82,
+   "line": "And you can spot part of this tour yourself:"
+  },
+  {
+   "shot": "S194",
+   "a": 13624,
+   "b": 13684,
+   "t0": 0,
+   "t1": 60,
+   "line": "Mars and Jupiter appear"
+  },
+  {
+   "shot": "S195",
+   "a": 13684,
+   "b": 13758,
+   "t0": 0,
+   "t1": 74,
+   "line": "very close together in the mid November sky,"
+  },
+  {
+   "shot": "S196",
+   "a": 13758,
+   "b": 13831,
+   "t0": 0,
+   "t1": 73,
+   "line": "and the Leonid meteors peak around the seventeenth"
+  },
+  {
+   "shot": "S197",
+   "a": 13831,
+   "b": 13903,
+   "t0": 0,
+   "t1": 72,
+   "line": "and eighteenth of November, so look up."
+  },
+  {
+   "shot": "S198",
+   "a": 13903,
+   "b": 13973,
+   "t0": 0,
+   "t1": 70,
+   "line": "Which world would you jump on first?"
+  },
+  {
+   "shot": "S199",
+   "a": 13973,
+   "b": 14081,
+   "t0": 0,
+   "t1": 108,
+   "line": "(End Card: IFMOSPHERE · Comment your world · Subscribe)"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "cu",
+   "key": 31,
+   "len": 54,
+   "first": 0,
+   "line": "Pitch black space.",
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S2",
+   "size": "low",
+   "key": 39,
+   "len": 68,
+   "first": 54,
+   "line": "Dusty rock under your sneakers.",
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S3",
+   "size": "ws",
+   "key": 32,
+   "len": 56,
+   "first": 122,
+   "line": "You crouch for a normal hop,",
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S4",
+   "size": "cu",
+   "key": 38,
+   "len": 66,
+   "first": 178,
+   "line": "push off, and keep rising.",
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S5",
+   "size": "low",
+   "key": 28,
+   "len": 48,
+   "first": 244,
+   "line": "Higher and higher.",
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S6",
+   "size": "ws",
+   "key": 40,
+   "len": 69,
+   "first": 292,
+   "line": "The comet shrinks below your feet.",
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S7",
+   "size": "cu",
+   "key": 46,
+   "len": 80,
+   "first": 361,
+   "line": "Jump here and you never come back down.",
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S8",
+   "size": "low",
+   "key": 45,
+   "len": 78,
+   "first": 441,
+   "line": "From worlds that launch you over houses",
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S9",
+   "size": "ws",
+   "key": 38,
+   "len": 65,
+   "first": 519,
+   "line": "to worlds that flatten you instantly:",
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S10",
+   "size": "cu",
+   "key": 41,
+   "len": 71,
+   "first": 584,
+   "line": "what if you jumped on every world?",
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S11",
+   "size": "ws",
+   "key": 24,
+   "len": 88,
+   "first": 655,
+   "line": "(Title Card: WHAT IF YOU JUMPED ON EVERY WORLD?)",
+   "note": "Ch 0 (title_card)"
+  },
+  {
+   "id": "S12",
+   "size": "ms",
+   "key": 34,
+   "len": 58,
+   "first": 743,
+   "line": "Start with your Earth baseline.",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S13",
+   "size": "insert",
+   "key": 40,
+   "len": 69,
+   "first": 801,
+   "line": "Stand in your school gym, crouch,",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S14",
+   "size": "high",
+   "key": 39,
+   "len": 67,
+   "first": 870,
+   "line": "and pop up beside the chalk wall.",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S15",
+   "size": "ms",
+   "key": 50,
+   "len": 86,
+   "first": 937,
+   "line": "Slap! About half a metre.",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S16",
+   "size": "insert",
+   "key": 34,
+   "len": 59,
+   "first": 1023,
+   "line": "Outside in a floodlit stadium",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S17",
+   "size": "high",
+   "key": 35,
+   "len": 61,
+   "first": 1082,
+   "line": "sits the high jump world record:",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S18",
+   "size": "ms",
+   "key": 34,
+   "len": 58,
+   "first": 1143,
+   "line": "two point four five metres,",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S19",
+   "size": "insert",
+   "key": 56,
+   "len": 96,
+   "first": 1201,
+   "line": "set by Javier Sotomayor in nineteen ninety three.",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S20",
+   "size": "high",
+   "key": 37,
+   "len": 63,
+   "first": 1297,
+   "line": "Even the best human barely clears a",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S21",
+   "size": "ms",
+   "key": 38,
+   "len": 66,
+   "first": 1360,
+   "line": "doorway. Unless we leave Earth.",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S22",
+   "size": "ws",
+   "key": 22,
+   "len": 83,
+   "first": 1426,
+   "line": "(Chapter 2 Card)",
+   "note": "Ch 2 (chapter_card)"
+  },
+  {
+   "id": "S23",
+   "size": "diagram",
+   "key": 32,
+   "len": 55,
+   "first": 1509,
+   "line": "Step onto your bathroom scale,",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S24",
+   "size": "mcu",
+   "key": 48,
+   "len": 82,
+   "first": 1564,
+   "line": "because a single rule runs this whole tour.",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S25",
+   "size": "ots",
+   "key": 55,
+   "len": 94,
+   "first": 1646,
+   "line": "Your leg muscles pack the same push everywhere.",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S26",
+   "size": "diagram",
+   "key": 35,
+   "len": 60,
+   "first": 1740,
+   "line": "Only gravity changes.",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S27",
+   "size": "mcu",
+   "key": 30,
+   "len": 52,
+   "first": 1800,
+   "line": "Less gravity means a higher",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S28",
+   "size": "ots",
+   "key": 31,
+   "len": 53,
+   "first": 1852,
+   "line": "jump and a longer hang time.",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S29",
+   "size": "diagram",
+   "key": 41,
+   "len": 70,
+   "first": 1905,
+   "line": "More gravity drags you straight down.",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S30",
+   "size": "mcu",
+   "key": 34,
+   "len": 59,
+   "first": 1975,
+   "line": "Ready to test that rule?",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S31",
+   "size": "ots",
+   "key": 31,
+   "len": 53,
+   "first": 2034,
+   "line": "Look out your window tonight.",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S32",
+   "size": "ws",
+   "key": 22,
+   "len": 83,
+   "first": 2087,
+   "line": "(Chapter 3 Card)",
+   "note": "Ch 3 (chapter_card)"
+  },
+  {
+   "id": "S33",
+   "size": "cu",
+   "key": 36,
+   "len": 62,
+   "first": 2170,
+   "line": "Touch down on the Moon under a starry",
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S34",
+   "size": "low",
+   "key": 34,
+   "len": 59,
+   "first": 2232,
+   "line": "sky with blue Earth overhead.",
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S35",
+   "size": "ws",
+   "key": 38,
+   "len": 65,
+   "first": 2291,
+   "line": "Lunar gravity pulls at about one point",
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S36",
+   "size": "cu",
+   "key": 35,
+   "len": 61,
+   "first": 2356,
+   "line": "six two metres per second squared.",
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S37",
+   "size": "low",
+   "key": 48,
+   "len": 83,
+   "first": 2417,
+   "line": "Push off with your gym hop and boing!",
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S38",
+   "size": "ws",
+   "key": 41,
+   "len": 71,
+   "first": 2500,
+   "line": "You soar about three metres high,",
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S39",
+   "size": "cu",
+   "key": 27,
+   "len": 46,
+   "first": 2571,
+   "line": "floating for nearly four seconds",
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S40",
+   "size": "low",
+   "key": 42,
+   "len": 72,
+   "first": 2617,
+   "line": "before drifting softly into the grey dust.",
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S41",
+   "size": "ws",
+   "key": 60,
+   "len": 104,
+   "first": 2689,
+   "line": "Wait: why did real astronauts barely hop?",
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S42",
+   "size": "ws",
+   "key": 22,
+   "len": 82,
+   "first": 2793,
+   "line": "(Chapter 4 Card)",
+   "note": "Ch 4 (chapter_card)"
+  },
+  {
+   "id": "S43",
+   "size": "high",
+   "key": 37,
+   "len": 64,
+   "first": 2875,
+   "line": "Time for an Apollo reality check.",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S44",
+   "size": "ms",
+   "key": 47,
+   "len": 81,
+   "first": 2939,
+   "line": "Real astronauts wore stiff bulky spacesuits",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S45",
+   "size": "insert",
+   "key": 33,
+   "len": 57,
+   "first": 3020,
+   "line": "and heavy life support backpacks.",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S46",
+   "size": "high",
+   "key": 55,
+   "len": 94,
+   "first": 3077,
+   "line": "Bending their knees felt like wrestling a giant mattress,",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S47",
+   "size": "ms",
+   "key": 45,
+   "len": 78,
+   "first": 3171,
+   "line": "so they jumped far less than our no suit leap.",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S48",
+   "size": "insert",
+   "key": 34,
+   "len": 58,
+   "first": 3249,
+   "line": "In nineteen seventy two,",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S49",
+   "size": "high",
+   "key": 37,
+   "len": 64,
+   "first": 3307,
+   "line": "Charlie Duke tried a big high jump,",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S50",
+   "size": "ms",
+   "key": 32,
+   "len": 55,
+   "first": 3371,
+   "line": "tipped backwards in slow motion,",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S51",
+   "size": "insert",
+   "key": 36,
+   "len": 62,
+   "first": 3426,
+   "line": "and fell flat onto his backpack!",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S52",
+   "size": "high",
+   "key": 48,
+   "len": 83,
+   "first": 3488,
+   "line": "Next stop: grab a basketball.",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S53",
+   "size": "ws",
+   "key": 22,
+   "len": 83,
+   "first": 3571,
+   "line": "(Chapter 5 Card)",
+   "note": "Ch 5 (chapter_card)"
+  },
+  {
+   "id": "S54",
+   "size": "ots",
+   "key": 48,
+   "len": 82,
+   "first": 3654,
+   "line": "Welcome to the rusty red court of Mars,",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S55",
+   "size": "diagram",
+   "key": 37,
+   "len": 63,
+   "first": 3736,
+   "line": "where gravity sits at about three point",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S56",
+   "size": "mcu",
+   "key": 39,
+   "len": 67,
+   "first": 3799,
+   "line": "seven one metres per second squared.",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S57",
+   "size": "ots",
+   "key": 34,
+   "len": 58,
+   "first": 3866,
+   "line": "Dribble through red dust,",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S58",
+   "size": "diagram",
+   "key": 45,
+   "len": 78,
+   "first": 3924,
+   "line": "plant your sneakers, and launch.",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S59",
+   "size": "mcu",
+   "key": 66,
+   "len": 114,
+   "first": 4002,
+   "line": "You rise about two point six times higher than on Earth,",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S60",
+   "size": "ots",
+   "key": 55,
+   "len": 95,
+   "first": 4116,
+   "line": "gliding above the rim for an easy slam dunk!",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S61",
+   "size": "diagram",
+   "key": 42,
+   "len": 72,
+   "first": 4211,
+   "line": "Want that exact same bounce somewhere",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S62",
+   "size": "mcu",
+   "key": 45,
+   "len": 77,
+   "first": 4283,
+   "line": "way stranger? Head toward the Sun.",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S63",
+   "size": "ws",
+   "key": 22,
+   "len": 83,
+   "first": 4360,
+   "line": "(Chapter 6 Card)",
+   "note": "Ch 6 (chapter_card)"
+  },
+  {
+   "id": "S64",
+   "size": "ws",
+   "key": 32,
+   "len": 56,
+   "first": 4443,
+   "line": "Cratered Mercury looks tiny,",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S65",
+   "size": "cu",
+   "key": 36,
+   "len": 62,
+   "first": 4499,
+   "line": "yet its dense core gives it basically",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S66",
+   "size": "low",
+   "key": 34,
+   "len": 58,
+   "first": 4561,
+   "line": "the same gravity pull as Mars.",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S67",
+   "size": "ws",
+   "key": 52,
+   "len": 89,
+   "first": 4619,
+   "line": "You leap just as high over silver rock.",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S68",
+   "size": "cu",
+   "key": 34,
+   "len": 59,
+   "first": 4708,
+   "line": "Then you unfold a chair to watch",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S69",
+   "size": "low",
+   "key": 35,
+   "len": 61,
+   "first": 4767,
+   "line": "the sunrise before jumping again.",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S70",
+   "size": "ws",
+   "key": 49,
+   "len": 84,
+   "first": 4828,
+   "line": "You wait. And you wait.",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S71",
+   "size": "cu",
+   "key": 56,
+   "len": 97,
+   "first": 4912,
+   "line": "A solar day on Mercury lasts about four thousand,",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S72",
+   "size": "low",
+   "key": 36,
+   "len": 62,
+   "first": 5009,
+   "line": "two hundred and twenty two hours.",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S73",
+   "size": "ws",
+   "key": 55,
+   "len": 95,
+   "first": 5071,
+   "line": "Pack snacks, because the next planet cooks them.",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S74",
+   "size": "ws",
+   "key": 22,
+   "len": 82,
+   "first": 5166,
+   "line": "(Chapter 7 Card)",
+   "note": "Ch 7 (chapter_card)"
+  },
+  {
+   "id": "S75",
+   "size": "high",
+   "key": 38,
+   "len": 66,
+   "first": 5248,
+   "line": "Drop beneath the yellow clouds of Venus",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S76",
+   "size": "ms",
+   "key": 35,
+   "len": 60,
+   "first": 5314,
+   "line": "and forget jumping altogether.",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S77",
+   "size": "insert",
+   "key": 29,
+   "len": 50,
+   "first": 5374,
+   "line": "Thick air crushes down",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S78",
+   "size": "high",
+   "key": 46,
+   "len": 80,
+   "first": 5424,
+   "line": "at about ninety three times Earth's surface pressure,",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S79",
+   "size": "ms",
+   "key": 30,
+   "len": 51,
+   "first": 5504,
+   "line": "like being about nine hundred metres",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S80",
+   "size": "insert",
+   "key": 32,
+   "len": 55,
+   "first": 5555,
+   "line": "underwater without a submarine.",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S81",
+   "size": "high",
+   "key": 35,
+   "len": 61,
+   "first": 5610,
+   "line": "Worse, the rocks bake",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S82",
+   "size": "ms",
+   "key": 52,
+   "len": 90,
+   "first": 5671,
+   "line": "at about four hundred and sixty five degrees Celsius.",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S83",
+   "size": "insert",
+   "key": 31,
+   "len": 54,
+   "first": 5761,
+   "line": "You do not jump here:",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S84",
+   "size": "high",
+   "key": 44,
+   "len": 75,
+   "first": 5815,
+   "line": "you get squished like a panini and cooked!",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S85",
+   "size": "ms",
+   "key": 33,
+   "len": 57,
+   "first": 5890,
+   "line": "Could a robot survive?",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S86",
+   "size": "ws",
+   "key": 22,
+   "len": 82,
+   "first": 5947,
+   "line": "(Chapter 8 Card)",
+   "note": "Ch 8 (chapter_card)"
+  },
+  {
+   "id": "S87",
+   "size": "diagram",
+   "key": 38,
+   "len": 66,
+   "first": 6029,
+   "line": "Engineers tried. Tough",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S88",
+   "size": "mcu",
+   "key": 32,
+   "len": 56,
+   "first": 6095,
+   "line": "Soviet Venera probes parachuted",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S89",
+   "size": "ots",
+   "key": 37,
+   "len": 63,
+   "first": 6151,
+   "line": "down inside heavy titanium shells",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S90",
+   "size": "diagram",
+   "key": 44,
+   "len": 76,
+   "first": 6214,
+   "line": "just to photograph that glowing landscape.",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S91",
+   "size": "mcu",
+   "key": 41,
+   "len": 70,
+   "first": 6290,
+   "line": "The moment a lander touched the ground,",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S92",
+   "size": "ots",
+   "key": 39,
+   "len": 67,
+   "first": 6360,
+   "line": "a brutal countdown clock started.",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S93",
+   "size": "diagram",
+   "key": 38,
+   "len": 65,
+   "first": 6427,
+   "line": "Tick, tick, sizzle.",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S94",
+   "size": "mcu",
+   "key": 41,
+   "len": 70,
+   "first": 6492,
+   "line": "Even the longest lasting Soviet probe",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S95",
+   "size": "ots",
+   "key": 36,
+   "len": 62,
+   "first": 6562,
+   "line": "survived only about two hours on the surface",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S96",
+   "size": "diagram",
+   "key": 32,
+   "len": 56,
+   "first": 6624,
+   "line": "before Venus fried it silent.",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S97",
+   "size": "mcu",
+   "key": 60,
+   "len": 104,
+   "first": 6680,
+   "line": "Let us cool off somewhere thick air actually helps.",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S98",
+   "size": "ws",
+   "key": 22,
+   "len": 82,
+   "first": 6784,
+   "line": "(Chapter 9 Card)",
+   "note": "Ch 9 (chapter_card)"
+  },
+  {
+   "id": "S99",
+   "size": "ws",
+   "key": 53,
+   "len": 92,
+   "first": 6866,
+   "line": "Out around Saturn orbits hazy golden Titan.",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S100",
+   "size": "cu",
+   "key": 61,
+   "len": 106,
+   "first": 6958,
+   "line": "Gravity here pulls at only about one seventh of Earth's,",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S101",
+   "size": "low",
+   "key": 27,
+   "len": 46,
+   "first": 7064,
+   "line": "while the cold surface air",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S102",
+   "size": "ws",
+   "key": 44,
+   "len": 75,
+   "first": 7110,
+   "line": "is about four times denser than ours.",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S103",
+   "size": "cu",
+   "key": 42,
+   "len": 72,
+   "first": 7185,
+   "line": "Tape cardboard wings to your arms,",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S104",
+   "size": "low",
+   "key": 54,
+   "len": 93,
+   "first": 7257,
+   "line": "hop off an icy boulder, and flap hard!",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S105",
+   "size": "ws",
+   "key": 45,
+   "len": 78,
+   "first": 7350,
+   "line": "Those homemade wings catch the soupy air",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S106",
+   "size": "cu",
+   "key": 39,
+   "len": 67,
+   "first": 7428,
+   "line": "and lift you airborne above dark lakes.",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S107",
+   "size": "low",
+   "key": 55,
+   "len": 94,
+   "first": 7495,
+   "line": "Feeling unstoppable? Try Jupiter.",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S108",
+   "size": "ws",
+   "key": 22,
+   "len": 82,
+   "first": 7589,
+   "line": "(Chapter 10 Card)",
+   "note": "Ch 10 (chapter_card)"
+  },
+  {
+   "id": "S109",
+   "size": "insert",
+   "key": 46,
+   "len": 80,
+   "first": 7671,
+   "line": "Bad news: giant striped Jupiter",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S110",
+   "size": "high",
+   "key": 32,
+   "len": 56,
+   "first": 7751,
+   "line": "has no solid surface at all,",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S111",
+   "size": "ms",
+   "key": 49,
+   "len": 85,
+   "first": 7807,
+   "line": "so we hang a diving board in its upper clouds.",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S112",
+   "size": "insert",
+   "key": 39,
+   "len": 68,
+   "first": 7892,
+   "line": "At about two point five times Earth's",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S113",
+   "size": "high",
+   "key": 38,
+   "len": 66,
+   "first": 7960,
+   "line": "gravity, your knees groan.",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S114",
+   "size": "ms",
+   "key": 34,
+   "len": 58,
+   "first": 8026,
+   "line": "A seventy kilogram you weighs",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S115",
+   "size": "insert",
+   "key": 50,
+   "len": 87,
+   "first": 8084,
+   "line": "like about one hundred and sixty five kilograms on Earth.",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S116",
+   "size": "high",
+   "key": 48,
+   "len": 82,
+   "first": 8171,
+   "line": "You strain, hop about twenty centimetres,",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S117",
+   "size": "ms",
+   "key": 48,
+   "len": 83,
+   "first": 8253,
+   "line": "land, and sink straight into the clouds!",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S118",
+   "size": "insert",
+   "key": 35,
+   "len": 60,
+   "first": 8336,
+   "line": "At least the next giant floats.",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S119",
+   "size": "ws",
+   "key": 22,
+   "len": 82,
+   "first": 8396,
+   "line": "(Chapter 11 Card)",
+   "note": "Ch 11 (chapter_card)"
+  },
+  {
+   "id": "S120",
+   "size": "mcu",
+   "key": 43,
+   "len": 74,
+   "first": 8478,
+   "line": "Ringed Saturn has no solid floor either,",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S121",
+   "size": "ots",
+   "key": 50,
+   "len": 87,
+   "first": 8552,
+   "line": "though near its clouds your weight feels close to home.",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S122",
+   "size": "diagram",
+   "key": 33,
+   "len": 57,
+   "first": 8639,
+   "line": "Instead, Saturn hides",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S123",
+   "size": "mcu",
+   "key": 30,
+   "len": 51,
+   "first": 8696,
+   "line": "a wild party trick.",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S124",
+   "size": "ots",
+   "key": 52,
+   "len": 89,
+   "first": 8747,
+   "line": "On average, it has a density of about six hundred and",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S125",
+   "size": "diagram",
+   "key": 46,
+   "len": 79,
+   "first": 8836,
+   "line": "eighty seven kilograms per cubic metre,",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S126",
+   "size": "mcu",
+   "key": 28,
+   "len": 49,
+   "first": 8915,
+   "line": "less dense than water!",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S127",
+   "size": "ots",
+   "key": 30,
+   "len": 51,
+   "first": 8964,
+   "line": "Fill a giant bathtub,",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S128",
+   "size": "diagram",
+   "key": 37,
+   "len": 64,
+   "first": 9015,
+   "line": "drop Saturn in beside a rubber duck,",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S129",
+   "size": "mcu",
+   "key": 28,
+   "len": 49,
+   "first": 9079,
+   "line": "and the planet floats.",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S130",
+   "size": "ots",
+   "key": 31,
+   "len": 54,
+   "first": 9128,
+   "line": "Now grab a bowling ball.",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S131",
+   "size": "ws",
+   "key": 22,
+   "len": 82,
+   "first": 9182,
+   "line": "(Chapter 12 Card)",
+   "note": "Ch 12 (chapter_card)"
+  },
+  {
+   "id": "S132",
+   "size": "cu",
+   "key": 32,
+   "len": 56,
+   "first": 9264,
+   "line": "Step into the outer solar system's",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S133",
+   "size": "low",
+   "key": 31,
+   "len": 53,
+   "first": 9320,
+   "line": "ice giant bowling alley.",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S134",
+   "size": "ws",
+   "key": 60,
+   "len": 104,
+   "first": 9373,
+   "line": "Down the left lane rolls pale cyan Uranus,",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S135",
+   "size": "cu",
+   "key": 40,
+   "len": 69,
+   "first": 9477,
+   "line": "spinning tipped right over on its side",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S136",
+   "size": "low",
+   "key": 52,
+   "len": 89,
+   "first": 9546,
+   "line": "at about ninety eight degrees like a tumbling barrel.",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S137",
+   "size": "ws",
+   "key": 31,
+   "len": 53,
+   "first": 9635,
+   "line": "Hop near its clouds and you",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S138",
+   "size": "cu",
+   "key": 37,
+   "len": 63,
+   "first": 9688,
+   "line": "bounce slightly easier than home.",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S139",
+   "size": "low",
+   "key": 34,
+   "len": 59,
+   "first": 9751,
+   "line": "Try deep blue Neptune next",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S140",
+   "size": "ws",
+   "key": 31,
+   "len": 54,
+   "first": 9810,
+   "line": "door, though, and oof:",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S141",
+   "size": "cu",
+   "key": 48,
+   "len": 83,
+   "first": 9864,
+   "line": "Neptune pulls a bit harder than Earth.",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S142",
+   "size": "low",
+   "key": 34,
+   "len": 59,
+   "first": 9947,
+   "line": "Ready for superhero mode?",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S143",
+   "size": "ws",
+   "key": 22,
+   "len": 83,
+   "first": 10006,
+   "line": "(Chapter 13 Card)",
+   "note": "Ch 13 (chapter_card)"
+  },
+  {
+   "id": "S144",
+   "size": "insert",
+   "key": 32,
+   "len": 55,
+   "first": 10089,
+   "line": "Land on icy Pluto,",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S145",
+   "size": "high",
+   "key": 34,
+   "len": 58,
+   "first": 10144,
+   "line": "where the Sun shrinks to a bright star",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S146",
+   "size": "ms",
+   "key": 30,
+   "len": 52,
+   "first": 10202,
+   "line": "over a heart shaped glacier.",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S147",
+   "size": "insert",
+   "key": 33,
+   "len": 57,
+   "first": 10254,
+   "line": "Gravity drops to about zero",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S148",
+   "size": "high",
+   "key": 39,
+   "len": 67,
+   "first": 10311,
+   "line": "point six two metres per second squared,",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S149",
+   "size": "ms",
+   "key": 31,
+   "len": 53,
+   "first": 10378,
+   "line": "so a seventy kilogram you weighs",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S150",
+   "size": "insert",
+   "key": 42,
+   "len": 73,
+   "first": 10431,
+   "line": "like about four to five kilograms on Earth.",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S151",
+   "size": "high",
+   "key": 56,
+   "len": 96,
+   "first": 10504,
+   "line": "Push off and you rocket about seven metres high,",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S152",
+   "size": "ms",
+   "key": 52,
+   "len": 89,
+   "first": 10600,
+   "line": "clearing a house with roughly nine seconds of airtime!",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S153",
+   "size": "insert",
+   "key": 39,
+   "len": 67,
+   "first": 10689,
+   "line": "Tiny worlds get wilder still.",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S154",
+   "size": "ws",
+   "key": 22,
+   "len": 82,
+   "first": 10756,
+   "line": "(Chapter 14 Card)",
+   "note": "Ch 14 (chapter_card)"
+  },
+  {
+   "id": "S155",
+   "size": "mcu",
+   "key": 32,
+   "len": 55,
+   "first": 10838,
+   "line": "Tiptoe onto Dimorphos,",
+   "note": "Ch 14 (speech)"
+  },
+  {
+   "id": "S156",
+   "size": "ots",
+   "key": 44,
+   "len": 76,
+   "first": 10893,
+   "line": "a rubble asteroid only about one hundred and",
+   "note": "Ch 14 (speech)"
+  },
+  {
+   "id": "S157",
+   "size": "diagram",
+   "key": 31,
+   "len": 53,
+   "first": 10969,
+   "line": "fifty one metres wide.",
+   "note": "Ch 14 (speech)"
+  },
+  {
+   "id": "S158",
+   "size": "mcu",
+   "key": 34,
+   "len": 58,
+   "first": 11022,
+   "line": "It is so small NASA",
+   "note": "Ch 14 (speech)"
+  },
+  {
+   "id": "S159",
+   "size": "ots",
+   "key": 29,
+   "len": 50,
+   "first": 11080,
+   "line": "used it for target practice:",
+   "note": "Ch 14 (speech)"
+  },
+  {
+   "id": "S160",
+   "size": "diagram",
+   "key": 27,
+   "len": 46,
+   "first": 11130,
+   "line": "in twenty twenty two,",
+   "note": "Ch 14 (speech)"
+  },
+  {
+   "id": "S161",
+   "size": "mcu",
+   "key": 45,
+   "len": 78,
+   "first": 11176,
+   "line": "the DART spacecraft slammed into Dimorphos",
+   "note": "Ch 14 (speech)"
+  },
+  {
+   "id": "S162",
+   "size": "ots",
+   "key": 56,
+   "len": 96,
+   "first": 11254,
+   "line": "and shortened its orbit by about thirty three minutes.",
+   "note": "Ch 14 (speech)"
+  },
+  {
+   "id": "S163",
+   "size": "diagram",
+   "key": 43,
+   "len": 74,
+   "first": 11350,
+   "line": "Gravity here barely whispers.",
+   "note": "Ch 14 (speech)"
+  },
+  {
+   "id": "S164",
+   "size": "mcu",
+   "key": 45,
+   "len": 78,
+   "first": 11424,
+   "line": "Even a tiny flinch sends you floating up,",
+   "note": "Ch 14 (speech)"
+  },
+  {
+   "id": "S165",
+   "size": "ots",
+   "key": 35,
+   "len": 60,
+   "first": 11502,
+   "line": "leading straight back to where we started.",
+   "note": "Ch 14 (speech)"
+  },
+  {
+   "id": "S166",
+   "size": "ws",
+   "key": 22,
+   "len": 83,
+   "first": 11562,
+   "line": "(Chapter 15 Card)",
+   "note": "Ch 15 (chapter_card)"
+  },
+  {
+   "id": "S167",
+   "size": "cu",
+   "key": 32,
+   "len": 56,
+   "first": 11645,
+   "line": "Remember our opening comet?",
+   "note": "Ch 15 (speech)"
+  },
+  {
+   "id": "S168",
+   "size": "low",
+   "key": 41,
+   "len": 71,
+   "first": 11701,
+   "line": "When the European Space Agency set",
+   "note": "Ch 15 (speech)"
+  },
+  {
+   "id": "S169",
+   "size": "ws",
+   "key": 50,
+   "len": 86,
+   "first": 11772,
+   "line": "its Philae lander onto comet sixty seven P,",
+   "note": "Ch 15 (speech)"
+  },
+  {
+   "id": "S170",
+   "size": "cu",
+   "key": 32,
+   "len": 55,
+   "first": 11858,
+   "line": "its harpoons failed.",
+   "note": "Ch 15 (speech)"
+  },
+  {
+   "id": "S171",
+   "size": "low",
+   "key": 40,
+   "len": 69,
+   "first": 11913,
+   "line": "Philae bounced off at about thirty eight",
+   "note": "Ch 15 (speech)"
+  },
+  {
+   "id": "S172",
+   "size": "ws",
+   "key": 47,
+   "len": 81,
+   "first": 11982,
+   "line": "centimetres per second, slower than a stroll,",
+   "note": "Ch 15 (speech)"
+  },
+  {
+   "id": "S173",
+   "size": "cu",
+   "key": 34,
+   "len": 59,
+   "first": 12063,
+   "line": "yet flew for about one kilometre",
+   "note": "Ch 15 (speech)"
+  },
+  {
+   "id": "S174",
+   "size": "low",
+   "key": 30,
+   "len": 51,
+   "first": 12122,
+   "line": "over nearly two hours!",
+   "note": "Ch 15 (speech)"
+  },
+  {
+   "id": "S175",
+   "size": "ws",
+   "key": 46,
+   "len": 80,
+   "first": 12173,
+   "line": "Your jump is much faster than that bounce.",
+   "note": "Ch 15 (speech)"
+  },
+  {
+   "id": "S176",
+   "size": "cu",
+   "key": 37,
+   "len": 63,
+   "first": 12253,
+   "line": "Push off here, wave goodbye,",
+   "note": "Ch 15 (speech)"
+  },
+  {
+   "id": "S177",
+   "size": "low",
+   "key": 37,
+   "len": 63,
+   "first": 12316,
+   "line": "and off you go into space forever.",
+   "note": "Ch 15 (speech)"
+  },
+  {
+   "id": "S178",
+   "size": "ws",
+   "key": 22,
+   "len": 83,
+   "first": 12379,
+   "line": "(Chapter 16 Card)",
+   "note": "Ch 16 (chapter_card)"
+  },
+  {
+   "id": "S179",
+   "size": "insert",
+   "key": 39,
+   "len": 67,
+   "first": 12462,
+   "line": "Final boss: the Sun.",
+   "note": "Ch 16 (speech)"
+  },
+  {
+   "id": "S180",
+   "size": "high",
+   "key": 39,
+   "len": 68,
+   "first": 12529,
+   "line": "Give yourself magic heat proof boots",
+   "note": "Ch 16 (speech)"
+  },
+  {
+   "id": "S181",
+   "size": "ms",
+   "key": 49,
+   "len": 85,
+   "first": 12597,
+   "line": "and an imaginary platform at the solar surface.",
+   "note": "Ch 16 (speech)"
+  },
+  {
+   "id": "S182",
+   "size": "insert",
+   "key": 35,
+   "len": 61,
+   "first": 12682,
+   "line": "Solar gravity slams down",
+   "note": "Ch 16 (speech)"
+  },
+  {
+   "id": "S183",
+   "size": "high",
+   "key": 43,
+   "len": 74,
+   "first": 12743,
+   "line": "at about twenty eight times Earth's pull.",
+   "note": "Ch 16 (speech)"
+  },
+  {
+   "id": "S184",
+   "size": "ms",
+   "key": 57,
+   "len": 98,
+   "first": 12817,
+   "line": "Forget jumping: you could not even stand!",
+   "note": "Ch 16 (speech)"
+  },
+  {
+   "id": "S185",
+   "size": "insert",
+   "key": 58,
+   "len": 100,
+   "first": 12915,
+   "line": "Your knees buckle, your face pancakes onto the deck,",
+   "note": "Ch 16 (speech)"
+  },
+  {
+   "id": "S186",
+   "size": "high",
+   "key": 41,
+   "len": 71,
+   "first": 13015,
+   "line": "and wiggling a thumb feels heroic.",
+   "note": "Ch 16 (speech)"
+  },
+  {
+   "id": "S187",
+   "size": "ms",
+   "key": 56,
+   "len": 97,
+   "first": 13086,
+   "line": "Suddenly, ordinary Earth sounds pretty wonderful.",
+   "note": "Ch 16 (speech)"
+  },
+  {
+   "id": "S188",
+   "size": "ws",
+   "key": 22,
+   "len": 82,
+   "first": 13183,
+   "line": "(Chapter 17 Card)",
+   "note": "Ch 17 (chapter_card)"
+  },
+  {
+   "id": "S189",
+   "size": "diagram",
+   "key": 54,
+   "len": 93,
+   "first": 13265,
+   "line": "Back on your city rooftop at dawn, take a little hop.",
+   "note": "Ch 17 (speech)"
+  },
+  {
+   "id": "S190",
+   "size": "mcu",
+   "key": 28,
+   "len": 49,
+   "first": 13358,
+   "line": "About half a metre up,",
+   "note": "Ch 17 (speech)"
+  },
+  {
+   "id": "S191",
+   "size": "ots",
+   "key": 27,
+   "len": 47,
+   "first": 13407,
+   "line": "soft thud down.",
+   "note": "Ch 17 (speech)"
+  },
+  {
+   "id": "S192",
+   "size": "diagram",
+   "key": 51,
+   "len": 88,
+   "first": 13454,
+   "line": "Your tiny Earth jump suddenly feels perfect.",
+   "note": "Ch 17 (speech)"
+  },
+  {
+   "id": "S193",
+   "size": "mcu",
+   "key": 48,
+   "len": 82,
+   "first": 13542,
+   "line": "And you can spot part of this tour yourself:",
+   "note": "Ch 17 (speech)"
+  },
+  {
+   "id": "S194",
+   "size": "ots",
+   "key": 35,
+   "len": 60,
+   "first": 13624,
+   "line": "Mars and Jupiter appear",
+   "note": "Ch 17 (speech)"
+  },
+  {
+   "id": "S195",
+   "size": "diagram",
+   "key": 43,
+   "len": 74,
+   "first": 13684,
+   "line": "very close together in the mid November sky,",
+   "note": "Ch 17 (speech)"
+  },
+  {
+   "id": "S196",
+   "size": "mcu",
+   "key": 42,
+   "len": 73,
+   "first": 13758,
+   "line": "and the Leonid meteors peak around the seventeenth",
+   "note": "Ch 17 (speech)"
+  },
+  {
+   "id": "S197",
+   "size": "ots",
+   "key": 42,
+   "len": 72,
+   "first": 13831,
+   "line": "and eighteenth of November, so look up.",
+   "note": "Ch 17 (speech)"
+  },
+  {
+   "id": "S198",
+   "size": "diagram",
+   "key": 41,
+   "len": 70,
+   "first": 13903,
+   "line": "Which world would you jump on first?",
+   "note": "Ch 17 (speech)"
+  },
+  {
+   "id": "S199",
+   "size": "ws",
+   "key": 30,
+   "len": 108,
+   "first": 13973,
+   "line": "(End Card: IFMOSPHERE · Comment your world · Subscribe)",
+   "note": "Ch 17 (end_card)"
+  }
+ ],
+ "fx": [
+  {
+   "f": 655,
+   "kind": "flash",
+   "color": "#FFE27A",
+   "o": 0.55
+  },
+  {
+   "f": 942,
+   "kind": "shake",
+   "len": 7,
+   "amp": 7
+  },
+  {
+   "f": 3440,
+   "kind": "shake",
+   "len": 10,
+   "amp": 10
+  },
+  {
+   "f": 4155,
+   "kind": "shake",
+   "len": 9,
+   "amp": 11
+  },
+  {
+   "f": 5835,
+   "kind": "shake",
+   "len": 10,
+   "amp": 12
+  },
+  {
+   "f": 6640,
+   "kind": "flash",
+   "color": "#FF6A3D",
+   "o": 0.5
+  },
+  {
+   "f": 8260,
+   "kind": "shake",
+   "len": 9,
+   "amp": 11
+  },
+  {
+   "f": 9035,
+   "kind": "shake",
+   "len": 8,
+   "amp": 8
+  },
+  {
+   "f": 11200,
+   "kind": "flash",
+   "color": "#FFF3D1",
+   "o": 0.65
+  },
+  {
+   "f": 11201,
+   "kind": "shake",
+   "len": 12,
+   "amp": 14
+  },
+  {
+   "f": 12945,
+   "kind": "shake",
+   "len": 12,
+   "amp": 15
+  }
+ ],
+ "audio": {
+  "voice": "jump/voice.wav",
+  "sfx": "jump/sfx.wav",
+  "music": "jump/music.wav",
+  "voiceVol": 0.85,
+  "sfxVol": 1.0,
+  "musicVol": 1.0
+ }
+}

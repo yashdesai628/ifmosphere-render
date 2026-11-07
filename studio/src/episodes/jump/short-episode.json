@@ -1,0 +1,447 @@
+{
+ "id": "JumpShort",
+ "slug": "jump",
+ "short": true,
+ "channel": {
+  "name": "Ifmosphere",
+  "tagline": "Step into the what if."
+ },
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "topic": "What If You Jumped on Every World? (Vertical Short)",
+ "title": [
+  "WHAT IF YOU JUMPED",
+  "ON EVERY WORLD?"
+ ],
+ "accent": "EVERY WORLD",
+ "script": [
+  {
+   "beat": "0 cold open: comet 0-5s hook",
+   "text": "Jump here and you never come back down. Watch how high your normal jump goes across space."
+  },
+  {
+   "beat": "1 Earth: 0.5 m",
+   "text": "On Earth, hop beside a gym wall: about half a metre before gravity pulls you down."
+  },
+  {
+   "beat": "2 Moon: 3 m, ~4 s",
+   "text": "On the Moon, at about one point six two metres per second squared, you soar about three metres high for nearly four seconds!"
+  },
+  {
+   "beat": "3 Pluto: 7 m, ~9 s",
+   "text": "Out on icy Pluto, at about zero point six two, you launch about seven metres up with roughly nine seconds of airtime!"
+  },
+  {
+   "beat": "4 Comet 67P payoff: Philae 38 cm/s, ~1 km, ~2 h",
+   "text": "Then try comet sixty seven P. Europe's Philae lander bounced off it at about thirty eight centimetres per second and flew about one kilometre over nearly two hours. You jump much faster, so you drift into space forever!"
+  },
+  {
+   "beat": "5 End CTA",
+   "text": "Which world next? Full film on the channel."
+  }
+ ],
+ "science": [
+  {
+   "claim": "Earth standing jump ~0.5 m; Moon (1.62 m/s²) ~3 m and ~4 s; Pluto (0.62 m/s²) ~7 m and ~9 s; ESA Philae bounced off comet 67P at ~38 cm/s for ~1 km over nearly 2 hours.",
+   "working": "Height scales inversely with surface gravity for a 0.5 m Earth standing jump (~3.1 m/s take-off speed, no suit). Human take-off speed far exceeds Philae's 38 cm/s rebound and 67P's escape speed.",
+   "source": "NASA Planetary Fact Sheets (Moon, Pluto); ESA Rosetta / Philae Touchdown Analysis"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "ws",
+   "key": 46,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S2",
+   "size": "mcu",
+   "key": 57,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S3",
+   "size": "ms",
+   "key": 42,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S4",
+   "size": "cu",
+   "key": 50,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S5",
+   "size": "ws",
+   "key": 51,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S6",
+   "size": "ms",
+   "key": 45,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S7",
+   "size": "cu",
+   "key": 30,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S8",
+   "size": "ws",
+   "key": 28,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S9",
+   "size": "insert",
+   "key": 31,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S10",
+   "size": "ms",
+   "key": 29,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S11",
+   "size": "mcu",
+   "key": 34,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S12",
+   "size": "ws",
+   "key": 41,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S13",
+   "size": "insert",
+   "key": 38,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S14",
+   "size": "diagram",
+   "key": 38,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S15",
+   "size": "ws",
+   "key": 52,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S16",
+   "size": "mcu",
+   "key": 55,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S17",
+   "size": "ms",
+   "key": 49,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S18",
+   "size": "ws",
+   "key": 26,
+   "note": "Short (end_card)"
+  }
+ ],
+ "edit": [
+  {
+   "shot": "S1",
+   "dur_f": 79,
+   "t0": 0,
+   "line": "Jump here and you never come back down."
+  },
+  {
+   "shot": "S2",
+   "dur_f": 98,
+   "t0": 0,
+   "line": "Watch how high your normal jump goes across space."
+  },
+  {
+   "shot": "S3",
+   "dur_f": 72,
+   "t0": 0,
+   "line": "On Earth, hop beside a gym wall:"
+  },
+  {
+   "shot": "S4",
+   "dur_f": 87,
+   "t0": 0,
+   "line": "about half a metre before gravity pulls you down."
+  },
+  {
+   "shot": "S5",
+   "dur_f": 88,
+   "t0": 0,
+   "line": "On the Moon, at about one point six two metres"
+  },
+  {
+   "shot": "S6",
+   "dur_f": 77,
+   "t0": 0,
+   "line": "per second squared, you soar about three metres"
+  },
+  {
+   "shot": "S7",
+   "dur_f": 52,
+   "t0": 0,
+   "line": "high for nearly four seconds!"
+  },
+  {
+   "shot": "S8",
+   "dur_f": 48,
+   "t0": 0,
+   "line": "Out on icy Pluto,"
+  },
+  {
+   "shot": "S9",
+   "dur_f": 54,
+   "t0": 0,
+   "line": "at about zero point six two,"
+  },
+  {
+   "shot": "S10",
+   "dur_f": 50,
+   "t0": 0,
+   "line": "you launch about seven metres up"
+  },
+  {
+   "shot": "S11",
+   "dur_f": 59,
+   "t0": 0,
+   "line": "with roughly nine seconds of airtime!"
+  },
+  {
+   "shot": "S12",
+   "dur_f": 71,
+   "t0": 0,
+   "line": "Then try comet sixty seven P."
+  },
+  {
+   "shot": "S13",
+   "dur_f": 65,
+   "t0": 0,
+   "line": "Europe's Philae lander bounced off"
+  },
+  {
+   "shot": "S14",
+   "dur_f": 66,
+   "t0": 0,
+   "line": "it at about thirty eight centimetres per second"
+  },
+  {
+   "shot": "S15",
+   "dur_f": 89,
+   "t0": 0,
+   "line": "and flew about one kilometre over nearly two hours."
+  },
+  {
+   "shot": "S16",
+   "dur_f": 95,
+   "t0": 0,
+   "line": "You jump much faster, so you drift into space forever!"
+  },
+  {
+   "shot": "S17",
+   "dur_f": 84,
+   "t0": 0,
+   "line": "Which world next? Full film on the channel."
+  },
+  {
+   "shot": "S18",
+   "dur_f": 98,
+   "t0": 0,
+   "line": "(Short End Card: WHICH WORLD NEXT? Full film on the channel)"
+  }
+ ],
+ "sound": {
+  "reusedLibraryClips": [
+   "ball_kick",
+   "big_step",
+   "bulb_pop",
+   "buzzer",
+   "catch",
+   "catch_chime",
+   "clink",
+   "counter_tick",
+   "crack",
+   "ding",
+   "dizzy",
+   "drone_hit",
+   "fall_whoosh",
+   "fireball_roar",
+   "gulp",
+   "land",
+   "meteor_streak",
+   "music",
+   "paper_land",
+   "paste_pop",
+   "pop",
+   "power_down",
+   "roof_wind",
+   "sparkle",
+   "step",
+   "title_boom",
+   "tumble"
+  ],
+  "compositeWorldFoley": [
+   "boing",
+   "sizzle",
+   "splash",
+   "wing_flap",
+   "bball_swish",
+   "bowling_strike"
+  ],
+  "events": [
+   [
+    "S1+2",
+    "boing",
+    0.6,
+    "onset"
+   ],
+   [
+    "S1+16",
+    "fall_whoosh",
+    0.52,
+    "onset"
+   ],
+   [
+    "S2+2",
+    "title_boom",
+    0.55,
+    "peak"
+   ],
+   [
+    "S3+4",
+    "step",
+    0.48,
+    "onset"
+   ],
+   [
+    "S4+5",
+    "boing",
+    0.52,
+    "onset"
+   ],
+   [
+    "S4+22",
+    "land",
+    0.56,
+    "onset"
+   ],
+   [
+    "S5+3",
+    "sparkle",
+    0.46,
+    "onset"
+   ],
+   [
+    "S6+4",
+    "boing",
+    0.65,
+    "onset"
+   ],
+   [
+    "S7+4",
+    "fall_whoosh",
+    0.5,
+    "onset"
+   ],
+   [
+    "S8+3",
+    "sparkle",
+    0.48,
+    "onset"
+   ],
+   [
+    "S10+4",
+    "boing",
+    0.68,
+    "onset"
+   ],
+   [
+    "S11+4",
+    "catch_chime",
+    0.52,
+    "onset"
+   ],
+   [
+    "S12+3",
+    "step",
+    0.44,
+    "onset"
+   ],
+   [
+    "S13+5",
+    "clink",
+    0.58,
+    "onset"
+   ],
+   [
+    "S14+4",
+    "boing",
+    0.52,
+    "onset"
+   ],
+   [
+    "S15+4",
+    "fall_whoosh",
+    0.5,
+    "onset"
+   ],
+   [
+    "S16+4",
+    "boing",
+    0.62,
+    "onset"
+   ],
+   [
+    "S16+18",
+    "fall_whoosh",
+    0.55,
+    "onset"
+   ],
+   [
+    "S17+3",
+    "roof_wind",
+    0.36,
+    "onset"
+   ],
+   [
+    "S18+2",
+    "title_boom",
+    0.68,
+    "peak"
+   ],
+   [
+    "S18+12",
+    "catch_chime",
+    0.62,
+    "onset"
+   ]
+  ],
+  "music": {
+   "clip": "music",
+   "looped": true,
+   "from": "f:0"
+  },
+  "levels": {
+   "sfx_lu": -4.0,
+   "music_lu": -12.0
+  }
+ }
+}

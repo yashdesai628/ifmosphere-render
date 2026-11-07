@@ -1,0 +1,344 @@
+{
+ "slug": "jump",
+ "title": "WHAT IF YOU JUMPED ON EVERY WORLD?",
+ "fps": 30,
+ "total": 1332,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 79,
+   "t0": 0,
+   "t1": 79,
+   "line": "Jump here and you never come back down."
+  },
+  {
+   "shot": "S2",
+   "a": 79,
+   "b": 177,
+   "t0": 0,
+   "t1": 98,
+   "line": "Watch how high your normal jump goes across space."
+  },
+  {
+   "shot": "S3",
+   "a": 177,
+   "b": 249,
+   "t0": 0,
+   "t1": 72,
+   "line": "On Earth, hop beside a gym wall:"
+  },
+  {
+   "shot": "S4",
+   "a": 249,
+   "b": 336,
+   "t0": 0,
+   "t1": 87,
+   "line": "about half a metre before gravity pulls you down."
+  },
+  {
+   "shot": "S5",
+   "a": 336,
+   "b": 424,
+   "t0": 0,
+   "t1": 88,
+   "line": "On the Moon, at about one point six two metres"
+  },
+  {
+   "shot": "S6",
+   "a": 424,
+   "b": 501,
+   "t0": 0,
+   "t1": 77,
+   "line": "per second squared, you soar about three metres"
+  },
+  {
+   "shot": "S7",
+   "a": 501,
+   "b": 553,
+   "t0": 0,
+   "t1": 52,
+   "line": "high for nearly four seconds!"
+  },
+  {
+   "shot": "S8",
+   "a": 553,
+   "b": 601,
+   "t0": 0,
+   "t1": 48,
+   "line": "Out on icy Pluto,"
+  },
+  {
+   "shot": "S9",
+   "a": 601,
+   "b": 655,
+   "t0": 0,
+   "t1": 54,
+   "line": "at about zero point six two,"
+  },
+  {
+   "shot": "S10",
+   "a": 655,
+   "b": 705,
+   "t0": 0,
+   "t1": 50,
+   "line": "you launch about seven metres up"
+  },
+  {
+   "shot": "S11",
+   "a": 705,
+   "b": 764,
+   "t0": 0,
+   "t1": 59,
+   "line": "with roughly nine seconds of airtime!"
+  },
+  {
+   "shot": "S12",
+   "a": 764,
+   "b": 835,
+   "t0": 0,
+   "t1": 71,
+   "line": "Then try comet sixty seven P."
+  },
+  {
+   "shot": "S13",
+   "a": 835,
+   "b": 900,
+   "t0": 0,
+   "t1": 65,
+   "line": "Europe's Philae lander bounced off"
+  },
+  {
+   "shot": "S14",
+   "a": 900,
+   "b": 966,
+   "t0": 0,
+   "t1": 66,
+   "line": "it at about thirty eight centimetres per second"
+  },
+  {
+   "shot": "S15",
+   "a": 966,
+   "b": 1055,
+   "t0": 0,
+   "t1": 89,
+   "line": "and flew about one kilometre over nearly two hours."
+  },
+  {
+   "shot": "S16",
+   "a": 1055,
+   "b": 1150,
+   "t0": 0,
+   "t1": 95,
+   "line": "You jump much faster, so you drift into space forever!"
+  },
+  {
+   "shot": "S17",
+   "a": 1150,
+   "b": 1234,
+   "t0": 0,
+   "t1": 84,
+   "line": "Which world next? Full film on the channel."
+  },
+  {
+   "shot": "S18",
+   "a": 1234,
+   "b": 1332,
+   "t0": 0,
+   "t1": 98,
+   "line": "(Short End Card: WHICH WORLD NEXT? Full film on the channel)"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "ws",
+   "key": 46,
+   "len": 79,
+   "first": 0,
+   "line": "Jump here and you never come back down.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S2",
+   "size": "mcu",
+   "key": 57,
+   "len": 98,
+   "first": 79,
+   "line": "Watch how high your normal jump goes across space.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S3",
+   "size": "ms",
+   "key": 42,
+   "len": 72,
+   "first": 177,
+   "line": "On Earth, hop beside a gym wall:",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S4",
+   "size": "cu",
+   "key": 50,
+   "len": 87,
+   "first": 249,
+   "line": "about half a metre before gravity pulls you down.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S5",
+   "size": "ws",
+   "key": 51,
+   "len": 88,
+   "first": 336,
+   "line": "On the Moon, at about one point six two metres",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S6",
+   "size": "ms",
+   "key": 45,
+   "len": 77,
+   "first": 424,
+   "line": "per second squared, you soar about three metres",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S7",
+   "size": "cu",
+   "key": 30,
+   "len": 52,
+   "first": 501,
+   "line": "high for nearly four seconds!",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S8",
+   "size": "ws",
+   "key": 28,
+   "len": 48,
+   "first": 553,
+   "line": "Out on icy Pluto,",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S9",
+   "size": "insert",
+   "key": 31,
+   "len": 54,
+   "first": 601,
+   "line": "at about zero point six two,",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S10",
+   "size": "ms",
+   "key": 29,
+   "len": 50,
+   "first": 655,
+   "line": "you launch about seven metres up",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S11",
+   "size": "mcu",
+   "key": 34,
+   "len": 59,
+   "first": 705,
+   "line": "with roughly nine seconds of airtime!",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S12",
+   "size": "ws",
+   "key": 41,
+   "len": 71,
+   "first": 764,
+   "line": "Then try comet sixty seven P.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S13",
+   "size": "insert",
+   "key": 38,
+   "len": 65,
+   "first": 835,
+   "line": "Europe's Philae lander bounced off",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S14",
+   "size": "diagram",
+   "key": 38,
+   "len": 66,
+   "first": 900,
+   "line": "it at about thirty eight centimetres per second",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S15",
+   "size": "ws",
+   "key": 52,
+   "len": 89,
+   "first": 966,
+   "line": "and flew about one kilometre over nearly two hours.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S16",
+   "size": "mcu",
+   "key": 55,
+   "len": 95,
+   "first": 1055,
+   "line": "You jump much faster, so you drift into space forever!",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S17",
+   "size": "ms",
+   "key": 49,
+   "len": 84,
+   "first": 1150,
+   "line": "Which world next? Full film on the channel.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S18",
+   "size": "ws",
+   "key": 26,
+   "len": 98,
+   "first": 1234,
+   "line": "(Short End Card: WHICH WORLD NEXT? Full film on the channel)",
+   "note": "Short (end_card)"
+  }
+ ],
+ "fx": [
+  {
+   "f": 252,
+   "kind": "shake",
+   "len": 6,
+   "amp": 7
+  },
+  {
+   "f": 658,
+   "kind": "flash",
+   "color": "#9FC0FF",
+   "o": 0.45
+  },
+  {
+   "f": 845,
+   "kind": "shake",
+   "len": 7,
+   "amp": 8
+  }
+ ],
+ "audio": {
+  "voice": "jump/short-voice.wav",
+  "sfx": "jump/short-sfx.wav",
+  "music": "jump/short-music.wav",
+  "voiceVol": 0.85,
+  "sfxVol": 1.0,
+  "musicVol": 1.0
+ }
+}
