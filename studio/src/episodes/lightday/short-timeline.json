@@ -1,0 +1,366 @@
+{
+ "slug": "lightday",
+ "title": "WHAT IF YOUR TEXT TOOK A DAY?",
+ "fps": 30,
+ "total": 1330,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 94,
+   "t0": 0,
+   "t1": 94,
+   "line": "You hit send. The reply comes back in two days."
+  },
+  {
+   "shot": "S2",
+   "a": 94,
+   "b": 144,
+   "t0": 0,
+   "t1": 50,
+   "line": "Not because they're ignoring you."
+  },
+  {
+   "shot": "S3",
+   "a": 144,
+   "b": 215,
+   "t0": 0,
+   "t1": 71,
+   "line": "Because your friend is one light- day away,"
+  },
+  {
+   "shot": "S4",
+   "a": 215,
+   "b": 299,
+   "t0": 0,
+   "t1": 84,
+   "line": "and on the eighteenth of November Voyager one gets there."
+  },
+  {
+   "shot": "S5",
+   "a": 299,
+   "b": 368,
+   "t0": 0,
+   "t1": 69,
+   "line": "Text the Moon and radio waves moving"
+  },
+  {
+   "shot": "S6",
+   "a": 368,
+   "b": 434,
+   "t0": 0,
+   "t1": 66,
+   "line": "at about one hundred eighty- six thousand miles"
+  },
+  {
+   "shot": "S7",
+   "a": 434,
+   "b": 505,
+   "t0": 0,
+   "t1": 71,
+   "line": "per second arrive in one point three seconds."
+  },
+  {
+   "shot": "S8",
+   "a": 505,
+   "b": 560,
+   "t0": 0,
+   "t1": 55,
+   "line": "Text Mars and the delay"
+  },
+  {
+   "shot": "S9",
+   "a": 560,
+   "b": 617,
+   "t0": 0,
+   "t1": 57,
+   "line": "stretches up to twenty- two minutes:"
+  },
+  {
+   "shot": "S10",
+   "a": 617,
+   "b": 708,
+   "t0": 0,
+   "t1": 91,
+   "line": "you can make a whole sandwich before the typing dots appear."
+  },
+  {
+   "shot": "S11",
+   "a": 708,
+   "b": 774,
+   "t0": 0,
+   "t1": 66,
+   "line": "Out at Neptune, a message takes"
+  },
+  {
+   "shot": "S12",
+   "a": 774,
+   "b": 836,
+   "t0": 0,
+   "t1": 62,
+   "line": "four hours and ten minutes one way."
+  },
+  {
+   "shot": "S13",
+   "a": 836,
+   "b": 882,
+   "t0": 0,
+   "t1": 46,
+   "line": "And at one light- day,"
+  },
+  {
+   "shot": "S14",
+   "a": 882,
+   "b": 943,
+   "t0": 0,
+   "t1": 61,
+   "line": "about sixteen billion miles out,"
+  },
+  {
+   "shot": "S15",
+   "a": 943,
+   "b": 1017,
+   "t0": 0,
+   "t1": 74,
+   "line": "a command takes twenty- four hours each way,"
+  },
+  {
+   "shot": "S16",
+   "a": 1017,
+   "b": 1092,
+   "t0": 0,
+   "t1": 75,
+   "line": "where Voyager one carries the Golden Record"
+  },
+  {
+   "shot": "S17",
+   "a": 1092,
+   "b": 1157,
+   "t0": 0,
+   "t1": 65,
+   "line": "with greetings in fifty- five languages."
+  },
+  {
+   "shot": "S18",
+   "a": 1157,
+   "b": 1204,
+   "t0": 0,
+   "t1": 47,
+   "line": "Who would you text first?"
+  },
+  {
+   "shot": "S19",
+   "a": 1204,
+   "b": 1252,
+   "t0": 0,
+   "t1": 48,
+   "line": "Full film on the channel."
+  },
+  {
+   "shot": "S20",
+   "a": 1252,
+   "b": 1330,
+   "t0": 0,
+   "t1": 78,
+   "line": "(Short End Card & Loop to Frame 0: WHO WOULD YOU TEXT FIRST?)"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "insert",
+   "key": 18,
+   "len": 94,
+   "first": 0,
+   "line": "You hit send. The reply comes back in two days.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S2",
+   "size": "ws",
+   "key": 28,
+   "len": 50,
+   "first": 94,
+   "line": "Not because they're ignoring you.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S3",
+   "size": "ms",
+   "key": 40,
+   "len": 71,
+   "first": 144,
+   "line": "Because your friend is one light- day away,",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S4",
+   "size": "cu",
+   "key": 47,
+   "len": 84,
+   "first": 215,
+   "line": "and on the eighteenth of November Voyager one gets there.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S5",
+   "size": "ots",
+   "key": 39,
+   "len": 69,
+   "first": 299,
+   "line": "Text the Moon and radio waves moving",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S6",
+   "size": "diagram",
+   "key": 37,
+   "len": 66,
+   "first": 368,
+   "line": "at about one hundred eighty- six thousand miles",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S7",
+   "size": "low",
+   "key": 40,
+   "len": 71,
+   "first": 434,
+   "line": "per second arrive in one point three seconds.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S8",
+   "size": "high",
+   "key": 31,
+   "len": 55,
+   "first": 505,
+   "line": "Text Mars and the delay",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S9",
+   "size": "insert",
+   "key": 32,
+   "len": 57,
+   "first": 560,
+   "line": "stretches up to twenty- two minutes:",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S10",
+   "size": "mcu",
+   "key": 51,
+   "len": 91,
+   "first": 617,
+   "line": "you can make a whole sandwich before the typing dots appear.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S11",
+   "size": "ws",
+   "key": 37,
+   "len": 66,
+   "first": 708,
+   "line": "Out at Neptune, a message takes",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S12",
+   "size": "ms",
+   "key": 35,
+   "len": 62,
+   "first": 774,
+   "line": "four hours and ten minutes one way.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S13",
+   "size": "cu",
+   "key": 26,
+   "len": 46,
+   "first": 836,
+   "line": "And at one light- day,",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S14",
+   "size": "ots",
+   "key": 34,
+   "len": 61,
+   "first": 882,
+   "line": "about sixteen billion miles out,",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S15",
+   "size": "diagram",
+   "key": 41,
+   "len": 74,
+   "first": 943,
+   "line": "a command takes twenty- four hours each way,",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S16",
+   "size": "low",
+   "key": 42,
+   "len": 75,
+   "first": 1017,
+   "line": "where Voyager one carries the Golden Record",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S17",
+   "size": "high",
+   "key": 36,
+   "len": 65,
+   "first": 1092,
+   "line": "with greetings in fifty- five languages.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S18",
+   "size": "insert",
+   "key": 26,
+   "len": 47,
+   "first": 1157,
+   "line": "Who would you text first?",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S19",
+   "size": "mcu",
+   "key": 27,
+   "len": 48,
+   "first": 1204,
+   "line": "Full film on the channel.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S20",
+   "size": "ws",
+   "key": 22,
+   "len": 78,
+   "first": 1252,
+   "line": "(Short End Card & Loop to Frame 0: WHO WOULD YOU TEXT FIRST?)",
+   "note": "Short (end_card)"
+  }
+ ],
+ "fx": [
+  {
+   "f": 2,
+   "kind": "flash",
+   "color": "#7FD4FF",
+   "o": 0.35
+  }
+ ],
+ "audio": {
+  "voice": "lightday/short-voice.wav",
+  "sfx": "lightday/short-sfx.wav",
+  "music": "lightday/short-music.wav",
+  "voiceVol": 1.0,
+  "sfxVol": 1.0,
+  "musicVol": 1.0
+ }
+}

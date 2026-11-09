@@ -5,5 +5,6 @@ import { reaction } from './reaction';
 import { meteor } from './meteor';
 import { starcatcher } from './starcatcher';
 import { jump, jumpShort } from './jump';
+import { lightday, lightdayShort } from './lightday';
 
-export const EPISODES = [rewind, copyPaste, reaction, meteor, starcatcher, jump, jumpShort];
+export const EPISODES = [rewind, copyPaste, reaction, meteor, starcatcher, jump, jumpShort, lightday, lightdayShort];

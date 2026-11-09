@@ -29,9 +29,9 @@ export type Look = {
   shoe: string;
   face: string;
   hair: string;
-  extra?: 'hood' | 'curls' | 'bunches' | 'bob' | 'suit';
+  extra?: 'hood' | 'curls' | 'bunches' | 'bob' | 'suit' | 'tuft';
 };
-export type CastName = 'pip' | 'pipHood' | 'pipInk' | 'mo' | 'sis' | 'mom' | 'suit';
+export type CastName = 'pip' | 'pipHood' | 'pipInk' | 'mo' | 'bo' | 'sis' | 'mom' | 'suit';
 export const LOOKS: Record<CastName, Look> = {
   // A: Pip as built
   pip: { skin: C.skin, skinShade: C.skinShade, hand: C.skin, jacket: C.jacket, jacketShade: C.jacketShade, accent: C.jacketShade, limb: C.limb, line: C.ink, shoe: C.shoe, face: C.ink, hair: C.ink },
@@ -41,6 +41,8 @@ export const LOOKS: Record<CastName, Look> = {
   pipInk: { skin: '#26232F', skinShade: '#1C1A24', hand: '#26232F', jacket: C.jacket, jacketShade: C.jacketShade, accent: C.jacketShade, limb: '#26232F', line: '#121019', shoe: C.shoe, face: '#F6EFE3', hair: '#26232F' },
   // Mo, Pip's friend: a second recurring character with his own costume (curly hair, headphones round his neck)
   mo: { skin: '#C98E68', skinShade: '#B07A58', hand: '#C98E68', jacket: '#5E6E46', jacketShade: '#4C5A38', accent: '#E9C46A', limb: '#3A3446', line: '#1A1622', shoe: '#D9534F', face: C.ink, hair: '#2A1C18', extra: 'curls' },
+  // Bo, Pip's friend who receives texts across space: warm light-tan skin, cobalt-teal jacket, amber scarf collar, swept hair tuft
+  bo: { skin: '#EADBC8', skinShade: '#D4C0A8', hand: '#EADBC8', jacket: '#3B7EA1', jacketShade: '#2B607D', accent: '#FFB84D', limb: '#E5D4BE', line: '#151824', shoe: '#F27D52', face: C.ink, hair: '#231A24', extra: 'tuft' },
   // the formula's recurring cast (beats 5 and 6): Pip's little sister (draw her at about 0.7 of Pip's scale), his mum,
   // and the man in a suit who notices the power. All three are ours: plain shapes, no famous silhouettes.
   sis: { skin: C.skin, skinShade: C.skinShade, hand: C.skin, jacket: '#3E8C86', jacketShade: '#2F6E69', accent: '#F28C6A', limb: '#3A3446', line: '#14121C', shoe: '#F28C6A', face: C.ink, hair: '#3A2620', extra: 'bunches' },
@@ -397,6 +399,19 @@ export const Hero: React.FC<{ pose: Pose; shadow?: number; rimId?: string; look?
       {L.extra === 'suit' ? (
         // short combed-back hair with a hard side parting
         <path transform={`translate(${-pose.yaw * 14} 0)`} d={`M -60 ${HEAD.y - 18} Q -64 ${HEAD.y - 70} 4 ${HEAD.y - 68} Q 64 ${HEAD.y - 64} 60 ${HEAD.y - 18} Q 52 ${HEAD.y - 44} 18 ${HEAD.y - 46} L 12 ${HEAD.y - 54} L 6 ${HEAD.y - 46} Q -44 ${HEAD.y - 46} -60 ${HEAD.y - 18} Z`} fill={L.hair} />
+      ) : null}
+      {L.extra === 'tuft' ? (
+        // Bo's swept-up side wave hair + warm scarf band at neck
+        <g>
+          <path
+            transform={`translate(${-pose.yaw * 14} 0)`}
+            d={`M -58 ${HEAD.y - 24} Q -54 ${HEAD.y - 72} -4 ${HEAD.y - 74} Q 26 ${HEAD.y - 92} 48 ${HEAD.y - 78} Q 34 ${HEAD.y - 64} 58 ${HEAD.y - 26} Q 34 ${HEAD.y - 48} 0 ${HEAD.y - 46} Q -34 ${HEAD.y - 48} -58 ${HEAD.y - 24} Z`}
+            fill={L.hair}
+            stroke={L.line}
+            strokeWidth={3.5}
+            strokeLinejoin="round"
+          />
+        </g>
       ) : null}
       <Face expr={pose.expr} blink={pose.blink} look={pose.look} glasses={pose.glasses} yaw={pose.yaw} ink={L.face} glint={pose.glint} glintColor={pose.glintColor} />
       {L.extra === 'curls'

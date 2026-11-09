@@ -121,18 +121,28 @@ export const Episode: React.FC<EpisodeProps> = ({ timeline: tl, shots, looks = {
   const jitter = def?.jitter && lv > 0 ? Math.sin(f * 13.7) * def.jitter * lv : 0;
   const { flash, x, y } = fxAt(tl, f);
   const A = tl.audio;
+  const isAudioOnly =
+    typeof window !== 'undefined' &&
+    typeof document !== 'undefined' &&
+    (window as unknown as { remotion_isPlayer?: boolean }).remotion_isPlayer === false &&
+    f !== (window as unknown as { remotion_initialFrame?: number }).remotion_initialFrame &&
+    !document.body.style.background;
   return (
     <AbsoluteFill style={{ backgroundColor: bg }}>
-      <AbsoluteFill style={{ transform: `translate(${x + jitter}px, ${y}px) scale(${x || y ? 1.02 : 1})`, filter: def?.grade && lv > 0 ? def.grade(lv) : undefined }}>
-        <ShotFrame width={width} height={height}>{Shot ? <Shot t={clockAt(seg, f)} len={info?.len ?? seg.b - seg.a} f={f} /> : null}</ShotFrame>
-      </AbsoluteFill>
-      <Grade f={f} grain={grain} vignette={vignette} width={width} height={height} />
-      {def?.Overlay && run ? (
-        <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`} style={{ position: 'absolute', inset: 0, opacity: lv }}>
-          <def.Overlay f={f} lv={lv} p={clamp((f - run.a) / (run.b - run.a))} n={run.n} />
-        </svg>
+      {!isAudioOnly ? (
+        <>
+          <AbsoluteFill style={{ transform: `translate(${x + jitter}px, ${y}px) scale(${x || y ? 1.02 : 1})`, filter: def?.grade && lv > 0 ? def.grade(lv) : undefined }}>
+            <ShotFrame width={width} height={height}>{Shot ? <Shot t={clockAt(seg, f)} len={info?.len ?? seg.b - seg.a} f={f} /> : null}</ShotFrame>
+          </AbsoluteFill>
+          <Grade f={f} grain={grain} vignette={vignette} width={width} height={height} />
+          {def?.Overlay && run ? (
+            <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`} style={{ position: 'absolute', inset: 0, opacity: lv }}>
+              <def.Overlay f={f} lv={lv} p={clamp((f - run.a) / (run.b - run.a))} n={run.n} />
+            </svg>
+          ) : null}
+          {flash ? <AbsoluteFill style={{ backgroundColor: flash.color, opacity: flash.o }} /> : null}
+        </>
       ) : null}
-      {flash ? <AbsoluteFill style={{ backgroundColor: flash.color, opacity: flash.o }} /> : null}
       {A.voice ? <Audio src={staticFile(A.voice)} volume={A.voiceVol ?? 1} /> : null}
       {A.sfx ? <Audio src={staticFile(A.sfx)} volume={A.sfxVol ?? 1} /> : null}
       {A.music ? <Audio src={staticFile(A.music)} volume={A.musicVol ?? 1} /> : null}

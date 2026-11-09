@@ -1,0 +1,339 @@
+{
+  "id": "LightdayShort",
+  "slug": "lightday",
+  "short": true,
+  "channel": {
+    "name": "Ifmosphere",
+    "tagline": "Step into the what if."
+  },
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "topic": "What If Your Text Took Two Days to Get a Reply? (Vertical Short)",
+  "title": [
+    "WHAT IF YOUR TEXT",
+    "TOOK A DAY?"
+  ],
+  "accent": "A DAY",
+  "voice": {
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_multilingual_v2",
+    "settings": {
+      "stability": 0.52,
+      "similarity_boost": 0.76,
+      "style": 0.18,
+      "use_speaker_boost": true
+    }
+  },
+  "script": [
+    {
+      "beat": "0 cold open hook (0-4s): phone REPLY IN 2 DAYS",
+      "text": "You hit send. The reply comes back in two days."
+    },
+    {
+      "beat": "1 payoff: Voyager 1 on 18 November 2026",
+      "text": "Not because they're ignoring you. Because your friend is one light-day away, and on the eighteenth of November Voyager one gets there."
+    },
+    {
+      "beat": "2 Moon: 1.3 seconds",
+      "text": "Text the Moon and radio waves moving at about one hundred eighty-six thousand miles per second arrive in one point three seconds."
+    },
+    {
+      "beat": "3 Mars: up to 22 minutes",
+      "text": "Text Mars and the delay stretches up to twenty-two minutes: you can make a whole sandwich before the typing dots appear."
+    },
+    {
+      "beat": "4 Neptune: 4 hours 10 minutes",
+      "text": "Out at Neptune, a message takes four hours and ten minutes one way."
+    },
+    {
+      "beat": "5 One light-day & Golden Record 55 languages",
+      "text": "And at one light-day, about sixteen billion miles out, a command takes twenty-four hours each way, where Voyager one carries the Golden Record with greetings in fifty-five languages."
+    },
+    {
+      "beat": "6 CTA loop back to frame 0",
+      "text": "Who would you text first? Full film on the channel."
+    }
+  ],
+  "science": [
+    {
+      "claim": "One light-day is about 16 billion miles (about 26 billion km); light travels at about 186,000 miles per second; Voyager 1 reaches one light-day on 18 November 2026 at 5:16 a.m. EST after 49 years, 2 months and 11 days.",
+      "working": "Light travels at ~186,000 miles/s; over 24 hours (86,400 s) that is ~16 billion miles (~26 billion km). From launch on 5 September 1977 to 18 November 2026 is 49 years, 2 months, and 11 days.",
+      "source": "NASA 'What Is a Light-Day' https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/"
+    },
+    {
+      "claim": "The Moon is 384,400 km away with a 1.3-second one-way light delay, while Artemis II astronauts needed about three days to fly there.",
+      "working": "384,400 km / ~300,000 km/s = ~1.28 s (1.3 seconds one way), compared to ~3 days for crewed Artemis II lunar transit.",
+      "source": "NASA 'What Is a Light-Day' https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/"
+    },
+    {
+      "claim": "Sunlight takes about 8 minutes 20 seconds to reach Earth; Mars one-way light delay ranges from 3 to 22 minutes; Neptune one-way delay is 4 hours 10 minutes and Voyager 2 took 12 years to reach Neptune.",
+      "working": "1 AU light time is ~8 min 20 s. Earth-Mars distance varies with orbital position, giving 3 to 22 minutes one-way light time. Neptune is ~30 AU (~4 hours 10 minutes one-way light time; Voyager 2 launched 1977, arrived 1989 = 12 years).",
+      "source": "NASA 'What Is a Light-Day' https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/"
+    },
+    {
+      "claim": "Mars solar conjunction happens about every 26 months when Earth and Mars are on opposite sides of the Sun, causing communication blackouts that can last weeks.",
+      "working": "Earth-Mars synodic period is ~26 months; solar corona blocks and corrupts radio signals passing near the Sun for weeks.",
+      "source": "NASA Mars comms white paper https://www.nasa.gov/wp-content/uploads/2024/01/mars-communications-disruption-and-delay.pdf"
+    },
+    {
+      "claim": "At one light-day, a radio command takes 24 hours to reach Voyager 1 and 24 hours for the reply (48 hours round-trip). NASA celebrates Voyager's light-day on 17 November; Mars and Jupiter sit close together before sunrise on 15-16 November; the Leonid meteors peak on 17-18 November.",
+      "working": "1 light-day = 24 hours one-way propagation delay, 48 hours two-way. Skywatching dates from NASA's November 2026 guide.",
+      "source": "NASA What's Up Nov 2026 https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/"
+    },
+    {
+      "claim": "Voyager 1 launched on 5 September 1977 and carries the Golden Record with greetings in 55 languages, including 'Hello from the children of planet Earth.'",
+      "working": "Voyager 1 launch date 5 Sep 1977; Golden Record audio greetings recorded in 55 languages plus music and sounds of Earth.",
+      "source": "NASA Voyager 1 https://science.nasa.gov/mission/voyager/voyager-1/ and NASA Night Sky Notes https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/"
+    },
+    {
+      "claim": "Voyager 1 is heading toward star AC +79 3888 (17+ light-years away) and will pass within about 1.7 light-years of it in 40,000 years. Proxima Centauri is about 4.24 light-years away (a reply takes about 8.5 years). Andromeda is about 2.5 million light-years away. Voyager 2 reaches one light-day in November 2035.",
+      "working": "Round-trip light time to Proxima Centauri: 2 x 4.24 light-years = 8.48 years (about 8.5 years).",
+      "source": "NASA 'What Is a Light-Day' https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S1",
+      "size": "insert",
+      "key": 18,
+      "note": "Short (speech)"
+    },
+    {
+      "id": "S2",
+      "size": "ws",
+      "key": 28,
+      "note": "Short (speech)"
+    },
+    {
+      "id": "S3",
+      "size": "ms",
+      "key": 40,
+      "note": "Short (speech)"
+    },
+    {
+      "id": "S4",
+      "size": "cu",
+      "key": 47,
+      "note": "Short (speech)"
+    },
+    {
+      "id": "S5",
+      "size": "ots",
+      "key": 39,
+      "note": "Short (speech)"
+    },
+    {
+      "id": "S6",
+      "size": "diagram",
+      "key": 37,
+      "note": "Short (speech)"
+    },
+    {
+      "id": "S7",
+      "size": "low",
+      "key": 40,
+      "note": "Short (speech)"
+    },
+    {
+      "id": "S8",
+      "size": "high",
+      "key": 31,
+      "note": "Short (speech)"
+    },
+    {
+      "id": "S9",
+      "size": "insert",
+      "key": 32,
+      "note": "Short (speech)"
+    },
+    {
+      "id": "S10",
+      "size": "mcu",
+      "key": 51,
+      "note": "Short (speech)"
+    },
+    {
+      "id": "S11",
+      "size": "ws",
+      "key": 37,
+      "note": "Short (speech)"
+    },
+    {
+      "id": "S12",
+      "size": "ms",
+      "key": 35,
+      "note": "Short (speech)"
+    },
+    {
+      "id": "S13",
+      "size": "cu",
+      "key": 26,
+      "note": "Short (speech)"
+    },
+    {
+      "id": "S14",
+      "size": "ots",
+      "key": 34,
+      "note": "Short (speech)"
+    },
+    {
+      "id": "S15",
+      "size": "diagram",
+      "key": 41,
+      "note": "Short (speech)"
+    },
+    {
+      "id": "S16",
+      "size": "low",
+      "key": 42,
+      "note": "Short (speech)"
+    },
+    {
+      "id": "S17",
+      "size": "high",
+      "key": 36,
+      "note": "Short (speech)"
+    },
+    {
+      "id": "S18",
+      "size": "insert",
+      "key": 26,
+      "note": "Short (speech)"
+    },
+    {
+      "id": "S19",
+      "size": "mcu",
+      "key": 27,
+      "note": "Short (speech)"
+    },
+    {
+      "id": "S20",
+      "size": "ws",
+      "key": 22,
+      "note": "Short (end_card)"
+    }
+  ],
+  "edit": [
+    {
+      "shot": "S1",
+      "dur_f": 94,
+      "t0": 0,
+      "line": "You hit send. The reply comes back in two days."
+    },
+    {
+      "shot": "S2",
+      "dur_f": 50,
+      "t0": 0,
+      "line": "Not because they're ignoring you."
+    },
+    {
+      "shot": "S3",
+      "dur_f": 71,
+      "t0": 0,
+      "line": "Because your friend is one light- day away,"
+    },
+    {
+      "shot": "S4",
+      "dur_f": 84,
+      "t0": 0,
+      "line": "and on the eighteenth of November Voyager one gets there."
+    },
+    {
+      "shot": "S5",
+      "dur_f": 69,
+      "t0": 0,
+      "line": "Text the Moon and radio waves moving"
+    },
+    {
+      "shot": "S6",
+      "dur_f": 66,
+      "t0": 0,
+      "line": "at about one hundred eighty- six thousand miles"
+    },
+    {
+      "shot": "S7",
+      "dur_f": 71,
+      "t0": 0,
+      "line": "per second arrive in one point three seconds."
+    },
+    {
+      "shot": "S8",
+      "dur_f": 55,
+      "t0": 0,
+      "line": "Text Mars and the delay"
+    },
+    {
+      "shot": "S9",
+      "dur_f": 57,
+      "t0": 0,
+      "line": "stretches up to twenty- two minutes:"
+    },
+    {
+      "shot": "S10",
+      "dur_f": 91,
+      "t0": 0,
+      "line": "you can make a whole sandwich before the typing dots appear."
+    },
+    {
+      "shot": "S11",
+      "dur_f": 66,
+      "t0": 0,
+      "line": "Out at Neptune, a message takes"
+    },
+    {
+      "shot": "S12",
+      "dur_f": 62,
+      "t0": 0,
+      "line": "four hours and ten minutes one way."
+    },
+    {
+      "shot": "S13",
+      "dur_f": 46,
+      "t0": 0,
+      "line": "And at one light- day,"
+    },
+    {
+      "shot": "S14",
+      "dur_f": 61,
+      "t0": 0,
+      "line": "about sixteen billion miles out,"
+    },
+    {
+      "shot": "S15",
+      "dur_f": 74,
+      "t0": 0,
+      "line": "a command takes twenty- four hours each way,"
+    },
+    {
+      "shot": "S16",
+      "dur_f": 75,
+      "t0": 0,
+      "line": "where Voyager one carries the Golden Record"
+    },
+    {
+      "shot": "S17",
+      "dur_f": 65,
+      "t0": 0,
+      "line": "with greetings in fifty- five languages."
+    },
+    {
+      "shot": "S18",
+      "dur_f": 47,
+      "t0": 0,
+      "line": "Who would you text first?"
+    },
+    {
+      "shot": "S19",
+      "dur_f": 48,
+      "t0": 0,
+      "line": "Full film on the channel."
+    },
+    {
+      "shot": "S20",
+      "dur_f": 78,
+      "t0": 0,
+      "line": "(Short End Card & Loop to Frame 0: WHO WOULD YOU TEXT FIRST?)"
+    }
+  ]
+}

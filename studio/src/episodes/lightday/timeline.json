@@ -1,0 +1,3126 @@
+{
+ "slug": "lightday",
+ "title": "WHAT IF YOUR TEXT TOOK A DAY?",
+ "fps": 30,
+ "total": 12816,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 107,
+   "t0": 0,
+   "t1": 107,
+   "line": "You hit send. The reply comes back in two days."
+  },
+  {
+   "shot": "S2",
+   "a": 107,
+   "b": 166,
+   "t0": 0,
+   "t1": 59,
+   "line": "Not because they're ignoring you."
+  },
+  {
+   "shot": "S3",
+   "a": 166,
+   "b": 243,
+   "t0": 0,
+   "t1": 77,
+   "line": "Because your friend is one light- day away,"
+  },
+  {
+   "shot": "S4",
+   "a": 243,
+   "b": 290,
+   "t0": 0,
+   "t1": 47,
+   "line": "and on the eighteenth of November"
+  },
+  {
+   "shot": "S5",
+   "a": 290,
+   "b": 349,
+   "t0": 0,
+   "t1": 59,
+   "line": "a real spacecraft gets there."
+  },
+  {
+   "shot": "S6",
+   "a": 349,
+   "b": 404,
+   "t0": 0,
+   "t1": 55,
+   "line": "You stare at your glowing screen"
+  },
+  {
+   "shot": "S7",
+   "a": 404,
+   "b": 477,
+   "t0": 0,
+   "t1": 73,
+   "line": "as a forty- eight hour countdown ticks down,"
+  },
+  {
+   "shot": "S8",
+   "a": 477,
+   "b": 551,
+   "t0": 0,
+   "t1": 74,
+   "line": "while a tiny probe coasts through the dark."
+  },
+  {
+   "shot": "S9",
+   "a": 551,
+   "b": 607,
+   "t0": 0,
+   "t1": 56,
+   "line": "What if your text took a day?"
+  },
+  {
+   "shot": "S10",
+   "a": 607,
+   "b": 689,
+   "t0": 0,
+   "t1": 82,
+   "line": "(Title Card: WHAT IF YOUR TEXT TOOK A DAY?)"
+  },
+  {
+   "shot": "S11",
+   "a": 689,
+   "b": 789,
+   "t0": 0,
+   "t1": 100,
+   "line": "Back in your bedroom on Earth, texting feels instant."
+  },
+  {
+   "shot": "S12",
+   "a": 789,
+   "b": 866,
+   "t0": 0,
+   "t1": 77,
+   "line": "You send your friend Bo a waving hand,"
+  },
+  {
+   "shot": "S13",
+   "a": 866,
+   "b": 912,
+   "t0": 0,
+   "t1": 46,
+   "line": "the bubble turns delivered,"
+  },
+  {
+   "shot": "S14",
+   "a": 912,
+   "b": 1002,
+   "t0": 0,
+   "t1": 90,
+   "line": "and Bo fires back a laughing face in a blink."
+  },
+  {
+   "shot": "S15",
+   "a": 1002,
+   "b": 1095,
+   "t0": 0,
+   "t1": 93,
+   "line": "That is because your message rides a radio wave,"
+  },
+  {
+   "shot": "S16",
+   "a": 1095,
+   "b": 1188,
+   "t0": 0,
+   "t1": 93,
+   "line": "a form of light moving at about one hundred eighty- six"
+  },
+  {
+   "shot": "S17",
+   "a": 1188,
+   "b": 1246,
+   "t0": 0,
+   "t1": 58,
+   "line": "thousand miles every second."
+  },
+  {
+   "shot": "S18",
+   "a": 1246,
+   "b": 1326,
+   "t0": 0,
+   "t1": 80,
+   "line": "Nothing in the universe travels faster."
+  },
+  {
+   "shot": "S19",
+   "a": 1326,
+   "b": 1409,
+   "t0": 0,
+   "t1": 83,
+   "line": "On Earth, that speed hides the gap,"
+  },
+  {
+   "shot": "S20",
+   "a": 1409,
+   "b": 1458,
+   "t0": 0,
+   "t1": 49,
+   "line": "but the rule is simple:"
+  },
+  {
+   "shot": "S21",
+   "a": 1458,
+   "b": 1518,
+   "t0": 0,
+   "t1": 60,
+   "line": "distance equals delay."
+  },
+  {
+   "shot": "S22",
+   "a": 1518,
+   "b": 1597,
+   "t0": 0,
+   "t1": 79,
+   "line": "So what happens when Bo leaves Earth?"
+  },
+  {
+   "shot": "S23",
+   "a": 1597,
+   "b": 1673,
+   "t0": 0,
+   "t1": 76,
+   "line": "(Chapter 2 Card: THE MOON)"
+  },
+  {
+   "shot": "S24",
+   "a": 1673,
+   "b": 1754,
+   "t0": 0,
+   "t1": 81,
+   "line": "Now Bo moves into a glass dome on the Moon,"
+  },
+  {
+   "shot": "S25",
+   "a": 1754,
+   "b": 1813,
+   "t0": 0,
+   "t1": 59,
+   "line": "three hundred eighty- four thousand,"
+  },
+  {
+   "shot": "S26",
+   "a": 1813,
+   "b": 1868,
+   "t0": 0,
+   "t1": 55,
+   "line": "four hundred kilometres away."
+  },
+  {
+   "shot": "S27",
+   "a": 1868,
+   "b": 1926,
+   "t0": 0,
+   "t1": 58,
+   "line": "Artemis two astronauts needed"
+  },
+  {
+   "shot": "S28",
+   "a": 1926,
+   "b": 1983,
+   "t0": 0,
+   "t1": 57,
+   "line": "about three days to fly that far,"
+  },
+  {
+   "shot": "S29",
+   "a": 1983,
+   "b": 2038,
+   "t0": 0,
+   "t1": 55,
+   "line": "yet your text crosses the gap"
+  },
+  {
+   "shot": "S30",
+   "a": 2038,
+   "b": 2109,
+   "t0": 0,
+   "t1": 71,
+   "line": "in one point three seconds each way."
+  },
+  {
+   "shot": "S31",
+   "a": 2109,
+   "b": 2155,
+   "t0": 0,
+   "t1": 46,
+   "line": "That sounds fast,"
+  },
+  {
+   "shot": "S32",
+   "a": 2155,
+   "b": 2220,
+   "t0": 0,
+   "t1": 65,
+   "line": "until you try a live video call."
+  },
+  {
+   "shot": "S33",
+   "a": 2220,
+   "b": 2268,
+   "t0": 0,
+   "t1": 48,
+   "line": "You ask a question,"
+  },
+  {
+   "shot": "S34",
+   "a": 2268,
+   "b": 2317,
+   "t0": 0,
+   "t1": 49,
+   "line": "wait through an awkward silence,"
+  },
+  {
+   "shot": "S35",
+   "a": 2317,
+   "b": 2392,
+   "t0": 0,
+   "t1": 75,
+   "line": "and start speaking right as Bo answers."
+  },
+  {
+   "shot": "S36",
+   "a": 2392,
+   "b": 2455,
+   "t0": 0,
+   "t1": 63,
+   "line": "You both apologise at once,"
+  },
+  {
+   "shot": "S37",
+   "a": 2455,
+   "b": 2544,
+   "t0": 0,
+   "t1": 89,
+   "line": "freeze again, and stare toward the rising Sun."
+  },
+  {
+   "shot": "S38",
+   "a": 2544,
+   "b": 2620,
+   "t0": 0,
+   "t1": 76,
+   "line": "(Chapter 3 Card: THE SUN)"
+  },
+  {
+   "shot": "S39",
+   "a": 2620,
+   "b": 2666,
+   "t0": 0,
+   "t1": 46,
+   "line": "Back at your bedroom window,"
+  },
+  {
+   "shot": "S40",
+   "a": 2666,
+   "b": 2750,
+   "t0": 0,
+   "t1": 84,
+   "line": "warm morning light spills across your desk."
+  },
+  {
+   "shot": "S41",
+   "a": 2750,
+   "b": 2826,
+   "t0": 0,
+   "t1": 76,
+   "line": "Every beam hitting your glass actually left"
+  },
+  {
+   "shot": "S42",
+   "a": 2826,
+   "b": 2904,
+   "t0": 0,
+   "t1": 78,
+   "line": "the Sun about eight minutes and twenty seconds ago."
+  },
+  {
+   "shot": "S43",
+   "a": 2904,
+   "b": 3004,
+   "t0": 0,
+   "t1": 100,
+   "line": "You are literally looking at a sunrise from the past."
+  },
+  {
+   "shot": "S44",
+   "a": 3004,
+   "b": 3098,
+   "t0": 0,
+   "t1": 94,
+   "line": "If the Sun suddenly wore giant sunglasses,"
+  },
+  {
+   "shot": "S45",
+   "a": 3098,
+   "b": 3154,
+   "t0": 0,
+   "t1": 56,
+   "line": "you would keep squinting in bright daylight"
+  },
+  {
+   "shot": "S46",
+   "a": 3154,
+   "b": 3224,
+   "t0": 0,
+   "t1": 70,
+   "line": "for over eight minutes before the shade arrived."
+  },
+  {
+   "shot": "S47",
+   "a": 3224,
+   "b": 3303,
+   "t0": 0,
+   "t1": 79,
+   "line": "Eight minutes already breaks a live chat,"
+  },
+  {
+   "shot": "S48",
+   "a": 3303,
+   "b": 3382,
+   "t0": 0,
+   "t1": 79,
+   "line": "and Bo is packing a suitcase for the red planet."
+  },
+  {
+   "shot": "S49",
+   "a": 3382,
+   "b": 3457,
+   "t0": 0,
+   "t1": 75,
+   "line": "(Chapter 4 Card: MARS)"
+  },
+  {
+   "shot": "S50",
+   "a": 3457,
+   "b": 3507,
+   "t0": 0,
+   "t1": 50,
+   "line": "Now Bo lands on Mars,"
+  },
+  {
+   "shot": "S51",
+   "a": 3507,
+   "b": 3565,
+   "t0": 0,
+   "t1": 58,
+   "line": "where a one- way message takes"
+  },
+  {
+   "shot": "S52",
+   "a": 3565,
+   "b": 3635,
+   "t0": 0,
+   "t1": 70,
+   "line": "anywhere from three to twenty- two minutes depending"
+  },
+  {
+   "shot": "S53",
+   "a": 3635,
+   "b": 3695,
+   "t0": 0,
+   "t1": 60,
+   "line": "on where the planets sit in their orbits."
+  },
+  {
+   "shot": "S54",
+   "a": 3695,
+   "b": 3770,
+   "t0": 0,
+   "t1": 75,
+   "line": "You text what's up, walk into the kitchen,"
+  },
+  {
+   "shot": "S55",
+   "a": 3770,
+   "b": 3819,
+   "t0": 0,
+   "t1": 49,
+   "line": "toast bread, stack lettuce"
+  },
+  {
+   "shot": "S56",
+   "a": 3819,
+   "b": 3865,
+   "t0": 0,
+   "t1": 46,
+   "line": "and cheese into a whole sandwich,"
+  },
+  {
+   "shot": "S57",
+   "a": 3865,
+   "b": 3957,
+   "t0": 0,
+   "t1": 92,
+   "line": "and take a bite before Bo's typing dots even appear."
+  },
+  {
+   "shot": "S58",
+   "a": 3957,
+   "b": 4022,
+   "t0": 0,
+   "t1": 65,
+   "line": "Live video calls are dead;"
+  },
+  {
+   "shot": "S59",
+   "a": 4022,
+   "b": 4097,
+   "t0": 0,
+   "t1": 75,
+   "line": "your friendship runs on long voice notes."
+  },
+  {
+   "shot": "S60",
+   "a": 4097,
+   "b": 4190,
+   "t0": 0,
+   "t1": 93,
+   "line": "And then the orbits line up in the worst possible way."
+  },
+  {
+   "shot": "S61",
+   "a": 4190,
+   "b": 4266,
+   "t0": 0,
+   "t1": 76,
+   "line": "(Chapter 5 Card: MARS CONJUNCTION)"
+  },
+  {
+   "shot": "S62",
+   "a": 4266,
+   "b": 4340,
+   "t0": 0,
+   "t1": 74,
+   "line": "About every twenty- six months, Earth"
+  },
+  {
+   "shot": "S63",
+   "a": 4340,
+   "b": 4423,
+   "t0": 0,
+   "t1": 83,
+   "line": "and Mars swing onto opposite sides of the Sun."
+  },
+  {
+   "shot": "S64",
+   "a": 4423,
+   "b": 4487,
+   "t0": 0,
+   "t1": 64,
+   "line": "The Sun sits right between you,"
+  },
+  {
+   "shot": "S65",
+   "a": 4487,
+   "b": 4546,
+   "t0": 0,
+   "t1": 59,
+   "line": "blocking and scrambling the radio signal"
+  },
+  {
+   "shot": "S66",
+   "a": 4546,
+   "b": 4613,
+   "t0": 0,
+   "t1": 67,
+   "line": "so a total blackout can last weeks."
+  },
+  {
+   "shot": "S67",
+   "a": 4613,
+   "b": 4685,
+   "t0": 0,
+   "t1": 72,
+   "line": "Your phone flashes a red warning:"
+  },
+  {
+   "shot": "S68",
+   "a": 4685,
+   "b": 4760,
+   "t0": 0,
+   "t1": 75,
+   "line": "no signal, Sun in the way."
+  },
+  {
+   "shot": "S69",
+   "a": 4760,
+   "b": 4835,
+   "t0": 0,
+   "t1": 75,
+   "line": "You panic, mash the resend button,"
+  },
+  {
+   "shot": "S70",
+   "a": 4835,
+   "b": 4902,
+   "t0": 0,
+   "t1": 67,
+   "line": "wave your phone out the window, and pace the rug"
+  },
+  {
+   "shot": "S71",
+   "a": 4902,
+   "b": 4984,
+   "t0": 0,
+   "t1": 82,
+   "line": "while Bo's messages bounce off solar glare."
+  },
+  {
+   "shot": "S72",
+   "a": 4984,
+   "b": 5079,
+   "t0": 0,
+   "t1": 95,
+   "line": "Wait until Bo flies past the giant planets."
+  },
+  {
+   "shot": "S73",
+   "a": 5079,
+   "b": 5155,
+   "t0": 0,
+   "t1": 76,
+   "line": "(Chapter 6 Card: NEPTUNE)"
+  },
+  {
+   "shot": "S74",
+   "a": 5155,
+   "b": 5206,
+   "t0": 0,
+   "t1": 51,
+   "line": "Out at windy blue Neptune,"
+  },
+  {
+   "shot": "S75",
+   "a": 5206,
+   "b": 5253,
+   "t0": 0,
+   "t1": 47,
+   "line": "a message takes four hours"
+  },
+  {
+   "shot": "S76",
+   "a": 5253,
+   "b": 5299,
+   "t0": 0,
+   "t1": 46,
+   "line": "and ten minutes one way."
+  },
+  {
+   "shot": "S77",
+   "a": 5299,
+   "b": 5393,
+   "t0": 0,
+   "t1": 94,
+   "line": "Voyager two took twelve years just to fly there,"
+  },
+  {
+   "shot": "S78",
+   "a": 5393,
+   "b": 5467,
+   "t0": 0,
+   "t1": 74,
+   "line": "and even light crawls across that gulf."
+  },
+  {
+   "shot": "S79",
+   "a": 5467,
+   "b": 5546,
+   "t0": 0,
+   "t1": 79,
+   "line": "You tap good morning over breakfast cereal;"
+  },
+  {
+   "shot": "S80",
+   "a": 5546,
+   "b": 5601,
+   "t0": 0,
+   "t1": 55,
+   "line": "your phone finally marks it delivered"
+  },
+  {
+   "shot": "S81",
+   "a": 5601,
+   "b": 5655,
+   "t0": 0,
+   "t1": 54,
+   "line": "while you eat a lunchtime sandwich."
+  },
+  {
+   "shot": "S82",
+   "a": 5655,
+   "b": 5712,
+   "t0": 0,
+   "t1": 57,
+   "line": "Bo replies right away,"
+  },
+  {
+   "shot": "S83",
+   "a": 5712,
+   "b": 5788,
+   "t0": 0,
+   "t1": 76,
+   "line": "yet the answer lands on your table at dinner."
+  },
+  {
+   "shot": "S84",
+   "a": 5788,
+   "b": 5877,
+   "t0": 0,
+   "t1": 89,
+   "line": "Now push past Neptune into deep space,"
+  },
+  {
+   "shot": "S85",
+   "a": 5877,
+   "b": 5935,
+   "t0": 0,
+   "t1": 58,
+   "line": "until the delay hits a full day."
+  },
+  {
+   "shot": "S86",
+   "a": 5935,
+   "b": 6011,
+   "t0": 0,
+   "t1": 76,
+   "line": "(Chapter 7 Card: ONE LIGHT-DAY)"
+  },
+  {
+   "shot": "S87",
+   "a": 6011,
+   "b": 6072,
+   "t0": 0,
+   "t1": 61,
+   "line": "Welcome to one light- day:"
+  },
+  {
+   "shot": "S88",
+   "a": 6072,
+   "b": 6135,
+   "t0": 0,
+   "t1": 63,
+   "line": "about sixteen billion miles,"
+  },
+  {
+   "shot": "S89",
+   "a": 6135,
+   "b": 6227,
+   "t0": 0,
+   "t1": 92,
+   "line": "or about twenty- six billion kilometres from Earth."
+  },
+  {
+   "shot": "S90",
+   "a": 6227,
+   "b": 6275,
+   "t0": 0,
+   "t1": 48,
+   "line": "Here, a text takes"
+  },
+  {
+   "shot": "S91",
+   "a": 6275,
+   "b": 6330,
+   "t0": 0,
+   "t1": 55,
+   "line": "twenty- four hours one way,"
+  },
+  {
+   "shot": "S92",
+   "a": 6330,
+   "b": 6402,
+   "t0": 0,
+   "t1": 72,
+   "line": "and forty- eight hours for a reply."
+  },
+  {
+   "shot": "S93",
+   "a": 6402,
+   "b": 6486,
+   "t0": 0,
+   "t1": 84,
+   "line": "Every single exchange takes two days."
+  },
+  {
+   "shot": "S94",
+   "a": 6486,
+   "b": 6573,
+   "t0": 0,
+   "t1": 87,
+   "line": "You send happy birthday on the right morning;"
+  },
+  {
+   "shot": "S95",
+   "a": 6573,
+   "b": 6629,
+   "t0": 0,
+   "t1": 56,
+   "line": "it arrives a day late,"
+  },
+  {
+   "shot": "S96",
+   "a": 6629,
+   "b": 6705,
+   "t0": 0,
+   "t1": 76,
+   "line": "and Bo's thank you lands a day after that."
+  },
+  {
+   "shot": "S97",
+   "a": 6705,
+   "b": 6788,
+   "t0": 0,
+   "t1": 83,
+   "line": "Picking an argument becomes impossible,"
+  },
+  {
+   "shot": "S98",
+   "a": 6788,
+   "b": 6886,
+   "t0": 0,
+   "t1": 98,
+   "line": "because by the time a grumpy reply arrives two days later,"
+  },
+  {
+   "shot": "S99",
+   "a": 6886,
+   "b": 6961,
+   "t0": 0,
+   "t1": 75,
+   "line": "you both forgot what you were fighting about."
+  },
+  {
+   "shot": "S100",
+   "a": 6961,
+   "b": 7056,
+   "t0": 0,
+   "t1": 95,
+   "line": "And a real spacecraft is reaching that mark right now."
+  },
+  {
+   "shot": "S101",
+   "a": 7056,
+   "b": 7132,
+   "t0": 0,
+   "t1": 76,
+   "line": "(Chapter 8 Card: VOYAGER 1)"
+  },
+  {
+   "shot": "S102",
+   "a": 7132,
+   "b": 7227,
+   "t0": 0,
+   "t1": 95,
+   "line": "Launched on the fifth of September nineteen seventy- seven,"
+  },
+  {
+   "shot": "S103",
+   "a": 7227,
+   "b": 7299,
+   "t0": 0,
+   "t1": 72,
+   "line": "Voyager one crosses one light- day"
+  },
+  {
+   "shot": "S104",
+   "a": 7299,
+   "b": 7382,
+   "t0": 0,
+   "t1": 83,
+   "line": "on the eighteenth of November twenty twenty- six,"
+  },
+  {
+   "shot": "S105",
+   "a": 7382,
+   "b": 7462,
+   "t0": 0,
+   "t1": 80,
+   "line": "at five sixteen in the morning Eastern time,"
+  },
+  {
+   "shot": "S106",
+   "a": 7462,
+   "b": 7514,
+   "t0": 0,
+   "t1": 52,
+   "line": "after forty- nine years,"
+  },
+  {
+   "shot": "S107",
+   "a": 7514,
+   "b": 7588,
+   "t0": 0,
+   "t1": 74,
+   "line": "two months and eleven days of flight."
+  },
+  {
+   "shot": "S108",
+   "a": 7588,
+   "b": 7643,
+   "t0": 0,
+   "t1": 55,
+   "line": "NASA engineers already"
+  },
+  {
+   "shot": "S109",
+   "a": 7643,
+   "b": 7702,
+   "t0": 0,
+   "t1": 59,
+   "line": "live this delay every workday."
+  },
+  {
+   "shot": "S110",
+   "a": 7702,
+   "b": 7772,
+   "t0": 0,
+   "t1": 70,
+   "line": "At a mission desk with two clocks,"
+  },
+  {
+   "shot": "S111",
+   "a": 7772,
+   "b": 7827,
+   "t0": 0,
+   "t1": 55,
+   "line": "an engineer sends a command that takes"
+  },
+  {
+   "shot": "S112",
+   "a": 7827,
+   "b": 7882,
+   "t0": 0,
+   "t1": 55,
+   "line": "twenty- four hours to arrive,"
+  },
+  {
+   "shot": "S113",
+   "a": 7882,
+   "b": 7944,
+   "t0": 0,
+   "t1": 62,
+   "line": "then waits twenty- four more hours"
+  },
+  {
+   "shot": "S114",
+   "a": 7944,
+   "b": 8007,
+   "t0": 0,
+   "t1": 63,
+   "line": "just to hear the spacecraft answer."
+  },
+  {
+   "shot": "S115",
+   "a": 8007,
+   "b": 8095,
+   "t0": 0,
+   "t1": 88,
+   "line": "And bolted to its side is a message of its own."
+  },
+  {
+   "shot": "S116",
+   "a": 8095,
+   "b": 8170,
+   "t0": 0,
+   "t1": 75,
+   "line": "(Chapter 9 Card: THE GOLDEN RECORD)"
+  },
+  {
+   "shot": "S117",
+   "a": 8170,
+   "b": 8248,
+   "t0": 0,
+   "t1": 78,
+   "line": "Voyager one carries a gleaming copper disc"
+  },
+  {
+   "shot": "S118",
+   "a": 8248,
+   "b": 8295,
+   "t0": 0,
+   "t1": 47,
+   "line": "called the Golden Record:"
+  },
+  {
+   "shot": "S119",
+   "a": 8295,
+   "b": 8342,
+   "t0": 0,
+   "t1": 47,
+   "line": "music, pictures,"
+  },
+  {
+   "shot": "S120",
+   "a": 8342,
+   "b": 8435,
+   "t0": 0,
+   "t1": 93,
+   "line": "and spoken greetings in fifty- five languages."
+  },
+  {
+   "shot": "S121",
+   "a": 8435,
+   "b": 8483,
+   "t0": 0,
+   "t1": 48,
+   "line": "One voice says:"
+  },
+  {
+   "shot": "S122",
+   "a": 8483,
+   "b": 8559,
+   "t0": 0,
+   "t1": 76,
+   "line": "Hello from the children of planet Earth."
+  },
+  {
+   "shot": "S123",
+   "a": 8559,
+   "b": 8611,
+   "t0": 0,
+   "t1": 52,
+   "line": "It is the slowest text"
+  },
+  {
+   "shot": "S124",
+   "a": 8611,
+   "b": 8671,
+   "t0": 0,
+   "t1": 60,
+   "line": "message humanity has ever sent,"
+  },
+  {
+   "shot": "S125",
+   "a": 8671,
+   "b": 8736,
+   "t0": 0,
+   "t1": 65,
+   "line": "drifting outward in a bottle across the dark"
+  },
+  {
+   "shot": "S126",
+   "a": 8736,
+   "b": 8782,
+   "t0": 0,
+   "t1": 46,
+   "line": "sea between the stars."
+  },
+  {
+   "shot": "S127",
+   "a": 8782,
+   "b": 8863,
+   "t0": 0,
+   "t1": 81,
+   "line": "No delivery tick, no typing bubble,"
+  },
+  {
+   "shot": "S128",
+   "a": 8863,
+   "b": 8955,
+   "t0": 0,
+   "t1": 92,
+   "line": "just a golden groove waiting for someone to press play."
+  },
+  {
+   "shot": "S129",
+   "a": 8955,
+   "b": 9033,
+   "t0": 0,
+   "t1": 78,
+   "line": "So where is that message actually heading?"
+  },
+  {
+   "shot": "S130",
+   "a": 9033,
+   "b": 9109,
+   "t0": 0,
+   "t1": 76,
+   "line": "(Chapter 10 Card: STAR AC +79 3888)"
+  },
+  {
+   "shot": "S131",
+   "a": 9109,
+   "b": 9157,
+   "t0": 0,
+   "t1": 48,
+   "line": "Right now, Voyager"
+  },
+  {
+   "shot": "S132",
+   "a": 9157,
+   "b": 9223,
+   "t0": 0,
+   "t1": 66,
+   "line": "one is aimed toward a cool red star"
+  },
+  {
+   "shot": "S133",
+   "a": 9223,
+   "b": 9289,
+   "t0": 0,
+   "t1": 66,
+   "line": "more than seventeen light- years away,"
+  },
+  {
+   "shot": "S134",
+   "a": 9289,
+   "b": 9349,
+   "t0": 0,
+   "t1": 60,
+   "line": "catalogued as A C plus"
+  },
+  {
+   "shot": "S135",
+   "a": 9349,
+   "b": 9436,
+   "t0": 0,
+   "t1": 87,
+   "line": "seventy- nine thirty- eight eighty- eight."
+  },
+  {
+   "shot": "S136",
+   "a": 9436,
+   "b": 9492,
+   "t0": 0,
+   "t1": 56,
+   "line": "At spacecraft speed,"
+  },
+  {
+   "shot": "S137",
+   "a": 9492,
+   "b": 9579,
+   "t0": 0,
+   "t1": 87,
+   "line": "it will pass within about one point seven light- years"
+  },
+  {
+   "shot": "S138",
+   "a": 9579,
+   "b": 9661,
+   "t0": 0,
+   "t1": 82,
+   "line": "of that star in forty thousand years."
+  },
+  {
+   "shot": "S139",
+   "a": 9661,
+   "b": 9733,
+   "t0": 0,
+   "t1": 72,
+   "line": "If Bo lived near that star today,"
+  },
+  {
+   "shot": "S140",
+   "a": 9733,
+   "b": 9789,
+   "t0": 0,
+   "t1": 56,
+   "line": "a single text from your phone would take"
+  },
+  {
+   "shot": "S141",
+   "a": 9789,
+   "b": 9857,
+   "t0": 0,
+   "t1": 68,
+   "line": "over seventeen years just to arrive."
+  },
+  {
+   "shot": "S142",
+   "a": 9857,
+   "b": 9955,
+   "t0": 0,
+   "t1": 98,
+   "line": "Even the very closest star next door tests your patience."
+  },
+  {
+   "shot": "S143",
+   "a": 9955,
+   "b": 10031,
+   "t0": 0,
+   "t1": 76,
+   "line": "(Chapter 11 Card: DEEP COSMOS)"
+  },
+  {
+   "shot": "S144",
+   "a": 10031,
+   "b": 10083,
+   "t0": 0,
+   "t1": 52,
+   "line": "Take Proxima Centauri,"
+  },
+  {
+   "shot": "S145",
+   "a": 10083,
+   "b": 10140,
+   "t0": 0,
+   "t1": 57,
+   "line": "the nearest star beyond our Sun,"
+  },
+  {
+   "shot": "S146",
+   "a": 10140,
+   "b": 10233,
+   "t0": 0,
+   "t1": 93,
+   "line": "at about four point two four light- years away."
+  },
+  {
+   "shot": "S147",
+   "a": 10233,
+   "b": 10302,
+   "t0": 0,
+   "t1": 69,
+   "line": "Send a joke there and the reply"
+  },
+  {
+   "shot": "S148",
+   "a": 10302,
+   "b": 10379,
+   "t0": 0,
+   "t1": 77,
+   "line": "comes back in about eight point five years;"
+  },
+  {
+   "shot": "S149",
+   "a": 10379,
+   "b": 10426,
+   "t0": 0,
+   "t1": 47,
+   "line": "you tap send as a kid"
+  },
+  {
+   "shot": "S150",
+   "a": 10426,
+   "b": 10491,
+   "t0": 0,
+   "t1": 65,
+   "line": "and read the laugh as a grown adult."
+  },
+  {
+   "shot": "S151",
+   "a": 10491,
+   "b": 10567,
+   "t0": 0,
+   "t1": 76,
+   "line": "Try texting the Andromeda galaxy,"
+  },
+  {
+   "shot": "S152",
+   "a": 10567,
+   "b": 10643,
+   "t0": 0,
+   "t1": 76,
+   "line": "about two point five million light- years away,"
+  },
+  {
+   "shot": "S153",
+   "a": 10643,
+   "b": 10724,
+   "t0": 0,
+   "t1": 81,
+   "line": "and by the time your message arrives, humans look like"
+  },
+  {
+   "shot": "S154",
+   "a": 10724,
+   "b": 10811,
+   "t0": 0,
+   "t1": 87,
+   "line": "glowing futuristic crabs wondering who Bo was."
+  },
+  {
+   "shot": "S155",
+   "a": 10811,
+   "b": 10908,
+   "t0": 0,
+   "t1": 97,
+   "line": "Closer to home, a twin probe is catching up."
+  },
+  {
+   "shot": "S156",
+   "a": 10908,
+   "b": 10984,
+   "t0": 0,
+   "t1": 76,
+   "line": "(Chapter 12 Card: THE TWIST: VOYAGER 2)"
+  },
+  {
+   "shot": "S157",
+   "a": 10984,
+   "b": 11059,
+   "t0": 0,
+   "t1": 75,
+   "line": "Here is the twist: Voyager"
+  },
+  {
+   "shot": "S158",
+   "a": 11059,
+   "b": 11107,
+   "t0": 0,
+   "t1": 48,
+   "line": "one is not alone."
+  },
+  {
+   "shot": "S159",
+   "a": 11107,
+   "b": 11176,
+   "t0": 0,
+   "t1": 69,
+   "line": "Its twin, Voyager two,"
+  },
+  {
+   "shot": "S160",
+   "a": 11176,
+   "b": 11275,
+   "t0": 0,
+   "t1": 99,
+   "line": "is following on a different path through interstellar space"
+  },
+  {
+   "shot": "S161",
+   "a": 11275,
+   "b": 11341,
+   "t0": 0,
+   "t1": 66,
+   "line": "and reaches one light- day from Earth"
+  },
+  {
+   "shot": "S162",
+   "a": 11341,
+   "b": 11411,
+   "t0": 0,
+   "t1": 70,
+   "line": "in November twenty thirty- five."
+  },
+  {
+   "shot": "S163",
+   "a": 11411,
+   "b": 11460,
+   "t0": 0,
+   "t1": 49,
+   "line": "You grab your phone,"
+  },
+  {
+   "shot": "S164",
+   "a": 11460,
+   "b": 11519,
+   "t0": 0,
+   "t1": 59,
+   "line": "open the calendar app, and set"
+  },
+  {
+   "shot": "S165",
+   "a": 11519,
+   "b": 11598,
+   "t0": 0,
+   "t1": 79,
+   "line": "a reminder for November twenty thirty- five so you"
+  },
+  {
+   "shot": "S166",
+   "a": 11598,
+   "b": 11655,
+   "t0": 0,
+   "t1": 57,
+   "line": "don't miss the twin milestone."
+  },
+  {
+   "shot": "S167",
+   "a": 11655,
+   "b": 11717,
+   "t0": 0,
+   "t1": 62,
+   "line": "After all those cosmic waits,"
+  },
+  {
+   "shot": "S168",
+   "a": 11717,
+   "b": 11778,
+   "t0": 0,
+   "t1": 61,
+   "line": "you step up to the roof at dusk."
+  },
+  {
+   "shot": "S169",
+   "a": 11778,
+   "b": 11854,
+   "t0": 0,
+   "t1": 76,
+   "line": "(Chapter 13 Card: EARTH ROOFTOP)"
+  },
+  {
+   "shot": "S170",
+   "a": 11854,
+   "b": 11908,
+   "t0": 0,
+   "t1": 54,
+   "line": "Back on your rooftop at dusk,"
+  },
+  {
+   "shot": "S171",
+   "a": 11908,
+   "b": 11965,
+   "t0": 0,
+   "t1": 57,
+   "line": "you text Bo come outside,"
+  },
+  {
+   "shot": "S172",
+   "a": 11965,
+   "b": 12038,
+   "t0": 0,
+   "t1": 73,
+   "line": "and Bo steps through the door in a second."
+  },
+  {
+   "shot": "S173",
+   "a": 12038,
+   "b": 12127,
+   "t0": 0,
+   "t1": 89,
+   "line": "This week, the sky puts on a show:"
+  },
+  {
+   "shot": "S174",
+   "a": 12127,
+   "b": 12195,
+   "t0": 0,
+   "t1": 68,
+   "line": "on the seventeenth of November NASA"
+  },
+  {
+   "shot": "S175",
+   "a": 12195,
+   "b": 12253,
+   "t0": 0,
+   "t1": 58,
+   "line": "celebrates Voyager's light- day,"
+  },
+  {
+   "shot": "S176",
+   "a": 12253,
+   "b": 12304,
+   "t0": 0,
+   "t1": 51,
+   "line": "while the Leonid meteors peak"
+  },
+  {
+   "shot": "S177",
+   "a": 12304,
+   "b": 12372,
+   "t0": 0,
+   "t1": 68,
+   "line": "on the seventeenth and eighteenth of November,"
+  },
+  {
+   "shot": "S178",
+   "a": 12372,
+   "b": 12445,
+   "t0": 0,
+   "t1": 73,
+   "line": "right after Mars and Jupiter sit close together"
+  },
+  {
+   "shot": "S179",
+   "a": 12445,
+   "b": 12553,
+   "t0": 0,
+   "t1": 108,
+   "line": "before sunrise on the fifteenth and sixteenth of November."
+  },
+  {
+   "shot": "S180",
+   "a": 12553,
+   "b": 12652,
+   "t0": 0,
+   "t1": 99,
+   "line": "Who would you text if the reply took two days?"
+  },
+  {
+   "shot": "S181",
+   "a": 12652,
+   "b": 12708,
+   "t0": 0,
+   "t1": 56,
+   "line": "Step into the what if."
+  },
+  {
+   "shot": "S182",
+   "a": 12708,
+   "b": 12816,
+   "t0": 0,
+   "t1": 108,
+   "line": "(End Card: IFMOSPHERE · Comment your 2-day text · Subscribe)"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "insert",
+   "key": 18,
+   "len": 107,
+   "first": 0,
+   "line": "You hit send. The reply comes back in two days.",
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S2",
+   "size": "cu",
+   "key": 33,
+   "len": 59,
+   "first": 107,
+   "line": "Not because they're ignoring you.",
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S3",
+   "size": "diagram",
+   "key": 43,
+   "len": 77,
+   "first": 166,
+   "line": "Because your friend is one light- day away,",
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S4",
+   "size": "high",
+   "key": 26,
+   "len": 47,
+   "first": 243,
+   "line": "and on the eighteenth of November",
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S5",
+   "size": "mcu",
+   "key": 33,
+   "len": 59,
+   "first": 290,
+   "line": "a real spacecraft gets there.",
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S6",
+   "size": "ms",
+   "key": 31,
+   "len": 55,
+   "first": 349,
+   "line": "You stare at your glowing screen",
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S7",
+   "size": "ots",
+   "key": 41,
+   "len": 73,
+   "first": 404,
+   "line": "as a forty- eight hour countdown ticks down,",
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S8",
+   "size": "low",
+   "key": 41,
+   "len": 74,
+   "first": 477,
+   "line": "while a tiny probe coasts through the dark.",
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S9",
+   "size": "insert",
+   "key": 31,
+   "len": 56,
+   "first": 551,
+   "line": "What if your text took a day?",
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S10",
+   "size": "ws",
+   "key": 22,
+   "len": 82,
+   "first": 607,
+   "line": "(Title Card: WHAT IF YOUR TEXT TOOK A DAY?)",
+   "note": "Ch 0 (title_card)"
+  },
+  {
+   "id": "S11",
+   "size": "ots",
+   "key": 56,
+   "len": 100,
+   "first": 689,
+   "line": "Back in your bedroom on Earth, texting feels instant.",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S12",
+   "size": "low",
+   "key": 43,
+   "len": 77,
+   "first": 789,
+   "line": "You send your friend Bo a waving hand,",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S13",
+   "size": "insert",
+   "key": 26,
+   "len": 46,
+   "first": 866,
+   "line": "the bubble turns delivered,",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S14",
+   "size": "ws",
+   "key": 50,
+   "len": 90,
+   "first": 912,
+   "line": "and Bo fires back a laughing face in a blink.",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S15",
+   "size": "cu",
+   "key": 52,
+   "len": 93,
+   "first": 1002,
+   "line": "That is because your message rides a radio wave,",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S16",
+   "size": "diagram",
+   "key": 52,
+   "len": 93,
+   "first": 1095,
+   "line": "a form of light moving at about one hundred eighty- six",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S17",
+   "size": "high",
+   "key": 32,
+   "len": 58,
+   "first": 1188,
+   "line": "thousand miles every second.",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S18",
+   "size": "mcu",
+   "key": 45,
+   "len": 80,
+   "first": 1246,
+   "line": "Nothing in the universe travels faster.",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S19",
+   "size": "ms",
+   "key": 46,
+   "len": 83,
+   "first": 1326,
+   "line": "On Earth, that speed hides the gap,",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S20",
+   "size": "ots",
+   "key": 27,
+   "len": 49,
+   "first": 1409,
+   "line": "but the rule is simple:",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S21",
+   "size": "low",
+   "key": 34,
+   "len": 60,
+   "first": 1458,
+   "line": "distance equals delay.",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S22",
+   "size": "insert",
+   "key": 44,
+   "len": 79,
+   "first": 1518,
+   "line": "So what happens when Bo leaves Earth?",
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S23",
+   "size": "ws",
+   "key": 22,
+   "len": 76,
+   "first": 1597,
+   "line": "(Chapter 2 Card: THE MOON)",
+   "note": "Ch 2 (chapter_card)"
+  },
+  {
+   "id": "S24",
+   "size": "ots",
+   "key": 45,
+   "len": 81,
+   "first": 1673,
+   "line": "Now Bo moves into a glass dome on the Moon,",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S25",
+   "size": "low",
+   "key": 33,
+   "len": 59,
+   "first": 1754,
+   "line": "three hundred eighty- four thousand,",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S26",
+   "size": "insert",
+   "key": 31,
+   "len": 55,
+   "first": 1813,
+   "line": "four hundred kilometres away.",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S27",
+   "size": "ws",
+   "key": 32,
+   "len": 58,
+   "first": 1868,
+   "line": "Artemis two astronauts needed",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S28",
+   "size": "cu",
+   "key": 32,
+   "len": 57,
+   "first": 1926,
+   "line": "about three days to fly that far,",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S29",
+   "size": "diagram",
+   "key": 31,
+   "len": 55,
+   "first": 1983,
+   "line": "yet your text crosses the gap",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S30",
+   "size": "high",
+   "key": 40,
+   "len": 71,
+   "first": 2038,
+   "line": "in one point three seconds each way.",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S31",
+   "size": "mcu",
+   "key": 26,
+   "len": 46,
+   "first": 2109,
+   "line": "That sounds fast,",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S32",
+   "size": "ms",
+   "key": 36,
+   "len": 65,
+   "first": 2155,
+   "line": "until you try a live video call.",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S33",
+   "size": "ots",
+   "key": 27,
+   "len": 48,
+   "first": 2220,
+   "line": "You ask a question,",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S34",
+   "size": "low",
+   "key": 27,
+   "len": 49,
+   "first": 2268,
+   "line": "wait through an awkward silence,",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S35",
+   "size": "insert",
+   "key": 42,
+   "len": 75,
+   "first": 2317,
+   "line": "and start speaking right as Bo answers.",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S36",
+   "size": "ws",
+   "key": 35,
+   "len": 63,
+   "first": 2392,
+   "line": "You both apologise at once,",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S37",
+   "size": "cu",
+   "key": 50,
+   "len": 89,
+   "first": 2455,
+   "line": "freeze again, and stare toward the rising Sun.",
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S38",
+   "size": "ws",
+   "key": 22,
+   "len": 76,
+   "first": 2544,
+   "line": "(Chapter 3 Card: THE SUN)",
+   "note": "Ch 3 (chapter_card)"
+  },
+  {
+   "id": "S39",
+   "size": "insert",
+   "key": 26,
+   "len": 46,
+   "first": 2620,
+   "line": "Back at your bedroom window,",
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S40",
+   "size": "ws",
+   "key": 47,
+   "len": 84,
+   "first": 2666,
+   "line": "warm morning light spills across your desk.",
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S41",
+   "size": "cu",
+   "key": 43,
+   "len": 76,
+   "first": 2750,
+   "line": "Every beam hitting your glass actually left",
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S42",
+   "size": "diagram",
+   "key": 44,
+   "len": 78,
+   "first": 2826,
+   "line": "the Sun about eight minutes and twenty seconds ago.",
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S43",
+   "size": "high",
+   "key": 56,
+   "len": 100,
+   "first": 2904,
+   "line": "You are literally looking at a sunrise from the past.",
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S44",
+   "size": "mcu",
+   "key": 53,
+   "len": 94,
+   "first": 3004,
+   "line": "If the Sun suddenly wore giant sunglasses,",
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S45",
+   "size": "ms",
+   "key": 31,
+   "len": 56,
+   "first": 3098,
+   "line": "you would keep squinting in bright daylight",
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S46",
+   "size": "ots",
+   "key": 39,
+   "len": 70,
+   "first": 3154,
+   "line": "for over eight minutes before the shade arrived.",
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S47",
+   "size": "low",
+   "key": 44,
+   "len": 79,
+   "first": 3224,
+   "line": "Eight minutes already breaks a live chat,",
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S48",
+   "size": "insert",
+   "key": 44,
+   "len": 79,
+   "first": 3303,
+   "line": "and Bo is packing a suitcase for the red planet.",
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S49",
+   "size": "ws",
+   "key": 22,
+   "len": 75,
+   "first": 3382,
+   "line": "(Chapter 4 Card: MARS)",
+   "note": "Ch 4 (chapter_card)"
+  },
+  {
+   "id": "S50",
+   "size": "ots",
+   "key": 28,
+   "len": 50,
+   "first": 3457,
+   "line": "Now Bo lands on Mars,",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S51",
+   "size": "low",
+   "key": 32,
+   "len": 58,
+   "first": 3507,
+   "line": "where a one- way message takes",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S52",
+   "size": "insert",
+   "key": 39,
+   "len": 70,
+   "first": 3565,
+   "line": "anywhere from three to twenty- two minutes depending",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S53",
+   "size": "ws",
+   "key": 34,
+   "len": 60,
+   "first": 3635,
+   "line": "on where the planets sit in their orbits.",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S54",
+   "size": "cu",
+   "key": 42,
+   "len": 75,
+   "first": 3695,
+   "line": "You text what's up, walk into the kitchen,",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S55",
+   "size": "diagram",
+   "key": 27,
+   "len": 49,
+   "first": 3770,
+   "line": "toast bread, stack lettuce",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S56",
+   "size": "high",
+   "key": 26,
+   "len": 46,
+   "first": 3819,
+   "line": "and cheese into a whole sandwich,",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S57",
+   "size": "mcu",
+   "key": 52,
+   "len": 92,
+   "first": 3865,
+   "line": "and take a bite before Bo's typing dots even appear.",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S58",
+   "size": "ms",
+   "key": 36,
+   "len": 65,
+   "first": 3957,
+   "line": "Live video calls are dead;",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S59",
+   "size": "ots",
+   "key": 42,
+   "len": 75,
+   "first": 4022,
+   "line": "your friendship runs on long voice notes.",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S60",
+   "size": "low",
+   "key": 52,
+   "len": 93,
+   "first": 4097,
+   "line": "And then the orbits line up in the worst possible way.",
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S61",
+   "size": "ws",
+   "key": 22,
+   "len": 76,
+   "first": 4190,
+   "line": "(Chapter 5 Card: MARS CONJUNCTION)",
+   "note": "Ch 5 (chapter_card)"
+  },
+  {
+   "id": "S62",
+   "size": "ms",
+   "key": 41,
+   "len": 74,
+   "first": 4266,
+   "line": "About every twenty- six months, Earth",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S63",
+   "size": "ots",
+   "key": 46,
+   "len": 83,
+   "first": 4340,
+   "line": "and Mars swing onto opposite sides of the Sun.",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S64",
+   "size": "low",
+   "key": 36,
+   "len": 64,
+   "first": 4423,
+   "line": "The Sun sits right between you,",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S65",
+   "size": "insert",
+   "key": 33,
+   "len": 59,
+   "first": 4487,
+   "line": "blocking and scrambling the radio signal",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S66",
+   "size": "ws",
+   "key": 38,
+   "len": 67,
+   "first": 4546,
+   "line": "so a total blackout can last weeks.",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S67",
+   "size": "cu",
+   "key": 40,
+   "len": 72,
+   "first": 4613,
+   "line": "Your phone flashes a red warning:",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S68",
+   "size": "diagram",
+   "key": 42,
+   "len": 75,
+   "first": 4685,
+   "line": "no signal, Sun in the way.",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S69",
+   "size": "high",
+   "key": 42,
+   "len": 75,
+   "first": 4760,
+   "line": "You panic, mash the resend button,",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S70",
+   "size": "mcu",
+   "key": 38,
+   "len": 67,
+   "first": 4835,
+   "line": "wave your phone out the window, and pace the rug",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S71",
+   "size": "ms",
+   "key": 46,
+   "len": 82,
+   "first": 4902,
+   "line": "while Bo's messages bounce off solar glare.",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S72",
+   "size": "ots",
+   "key": 53,
+   "len": 95,
+   "first": 4984,
+   "line": "Wait until Bo flies past the giant planets.",
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S73",
+   "size": "ws",
+   "key": 22,
+   "len": 76,
+   "first": 5079,
+   "line": "(Chapter 6 Card: NEPTUNE)",
+   "note": "Ch 6 (chapter_card)"
+  },
+  {
+   "id": "S74",
+   "size": "mcu",
+   "key": 29,
+   "len": 51,
+   "first": 5155,
+   "line": "Out at windy blue Neptune,",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S75",
+   "size": "ms",
+   "key": 26,
+   "len": 47,
+   "first": 5206,
+   "line": "a message takes four hours",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S76",
+   "size": "ots",
+   "key": 26,
+   "len": 46,
+   "first": 5253,
+   "line": "and ten minutes one way.",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S77",
+   "size": "low",
+   "key": 53,
+   "len": 94,
+   "first": 5299,
+   "line": "Voyager two took twelve years just to fly there,",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S78",
+   "size": "insert",
+   "key": 41,
+   "len": 74,
+   "first": 5393,
+   "line": "and even light crawls across that gulf.",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S79",
+   "size": "ws",
+   "key": 44,
+   "len": 79,
+   "first": 5467,
+   "line": "You tap good morning over breakfast cereal;",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S80",
+   "size": "cu",
+   "key": 31,
+   "len": 55,
+   "first": 5546,
+   "line": "your phone finally marks it delivered",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S81",
+   "size": "diagram",
+   "key": 30,
+   "len": 54,
+   "first": 5601,
+   "line": "while you eat a lunchtime sandwich.",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S82",
+   "size": "high",
+   "key": 32,
+   "len": 57,
+   "first": 5655,
+   "line": "Bo replies right away,",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S83",
+   "size": "mcu",
+   "key": 43,
+   "len": 76,
+   "first": 5712,
+   "line": "yet the answer lands on your table at dinner.",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S84",
+   "size": "ms",
+   "key": 50,
+   "len": 89,
+   "first": 5788,
+   "line": "Now push past Neptune into deep space,",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S85",
+   "size": "ots",
+   "key": 32,
+   "len": 58,
+   "first": 5877,
+   "line": "until the delay hits a full day.",
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S86",
+   "size": "ws",
+   "key": 22,
+   "len": 76,
+   "first": 5935,
+   "line": "(Chapter 7 Card: ONE LIGHT-DAY)",
+   "note": "Ch 7 (chapter_card)"
+  },
+  {
+   "id": "S87",
+   "size": "mcu",
+   "key": 34,
+   "len": 61,
+   "first": 6011,
+   "line": "Welcome to one light- day:",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S88",
+   "size": "ms",
+   "key": 35,
+   "len": 63,
+   "first": 6072,
+   "line": "about sixteen billion miles,",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S89",
+   "size": "ots",
+   "key": 52,
+   "len": 92,
+   "first": 6135,
+   "line": "or about twenty- six billion kilometres from Earth.",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S90",
+   "size": "low",
+   "key": 27,
+   "len": 48,
+   "first": 6227,
+   "line": "Here, a text takes",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S91",
+   "size": "insert",
+   "key": 31,
+   "len": 55,
+   "first": 6275,
+   "line": "twenty- four hours one way,",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S92",
+   "size": "ws",
+   "key": 40,
+   "len": 72,
+   "first": 6330,
+   "line": "and forty- eight hours for a reply.",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S93",
+   "size": "cu",
+   "key": 47,
+   "len": 84,
+   "first": 6402,
+   "line": "Every single exchange takes two days.",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S94",
+   "size": "diagram",
+   "key": 49,
+   "len": 87,
+   "first": 6486,
+   "line": "You send happy birthday on the right morning;",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S95",
+   "size": "high",
+   "key": 31,
+   "len": 56,
+   "first": 6573,
+   "line": "it arrives a day late,",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S96",
+   "size": "mcu",
+   "key": 43,
+   "len": 76,
+   "first": 6629,
+   "line": "and Bo's thank you lands a day after that.",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S97",
+   "size": "ms",
+   "key": 46,
+   "len": 83,
+   "first": 6705,
+   "line": "Picking an argument becomes impossible,",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S98",
+   "size": "ots",
+   "key": 55,
+   "len": 98,
+   "first": 6788,
+   "line": "because by the time a grumpy reply arrives two days later,",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S99",
+   "size": "low",
+   "key": 42,
+   "len": 75,
+   "first": 6886,
+   "line": "you both forgot what you were fighting about.",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S100",
+   "size": "insert",
+   "key": 53,
+   "len": 95,
+   "first": 6961,
+   "line": "And a real spacecraft is reaching that mark right now.",
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S101",
+   "size": "ws",
+   "key": 22,
+   "len": 76,
+   "first": 7056,
+   "line": "(Chapter 8 Card: VOYAGER 1)",
+   "note": "Ch 8 (chapter_card)"
+  },
+  {
+   "id": "S102",
+   "size": "ots",
+   "key": 53,
+   "len": 95,
+   "first": 7132,
+   "line": "Launched on the fifth of September nineteen seventy- seven,",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S103",
+   "size": "low",
+   "key": 40,
+   "len": 72,
+   "first": 7227,
+   "line": "Voyager one crosses one light- day",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S104",
+   "size": "insert",
+   "key": 46,
+   "len": 83,
+   "first": 7299,
+   "line": "on the eighteenth of November twenty twenty- six,",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S105",
+   "size": "ws",
+   "key": 45,
+   "len": 80,
+   "first": 7382,
+   "line": "at five sixteen in the morning Eastern time,",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S106",
+   "size": "cu",
+   "key": 29,
+   "len": 52,
+   "first": 7462,
+   "line": "after forty- nine years,",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S107",
+   "size": "diagram",
+   "key": 41,
+   "len": 74,
+   "first": 7514,
+   "line": "two months and eleven days of flight.",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S108",
+   "size": "high",
+   "key": 31,
+   "len": 55,
+   "first": 7588,
+   "line": "NASA engineers already",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S109",
+   "size": "mcu",
+   "key": 33,
+   "len": 59,
+   "first": 7643,
+   "line": "live this delay every workday.",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S110",
+   "size": "ms",
+   "key": 39,
+   "len": 70,
+   "first": 7702,
+   "line": "At a mission desk with two clocks,",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S111",
+   "size": "ots",
+   "key": 31,
+   "len": 55,
+   "first": 7772,
+   "line": "an engineer sends a command that takes",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S112",
+   "size": "low",
+   "key": 31,
+   "len": 55,
+   "first": 7827,
+   "line": "twenty- four hours to arrive,",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S113",
+   "size": "insert",
+   "key": 35,
+   "len": 62,
+   "first": 7882,
+   "line": "then waits twenty- four more hours",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S114",
+   "size": "ws",
+   "key": 35,
+   "len": 63,
+   "first": 7944,
+   "line": "just to hear the spacecraft answer.",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S115",
+   "size": "cu",
+   "key": 49,
+   "len": 88,
+   "first": 8007,
+   "line": "And bolted to its side is a message of its own.",
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S116",
+   "size": "ws",
+   "key": 22,
+   "len": 75,
+   "first": 8095,
+   "line": "(Chapter 9 Card: THE GOLDEN RECORD)",
+   "note": "Ch 9 (chapter_card)"
+  },
+  {
+   "id": "S117",
+   "size": "insert",
+   "key": 44,
+   "len": 78,
+   "first": 8170,
+   "line": "Voyager one carries a gleaming copper disc",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S118",
+   "size": "ws",
+   "key": 26,
+   "len": 47,
+   "first": 8248,
+   "line": "called the Golden Record:",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S119",
+   "size": "cu",
+   "key": 26,
+   "len": 47,
+   "first": 8295,
+   "line": "music, pictures,",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S120",
+   "size": "diagram",
+   "key": 52,
+   "len": 93,
+   "first": 8342,
+   "line": "and spoken greetings in fifty- five languages.",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S121",
+   "size": "high",
+   "key": 27,
+   "len": 48,
+   "first": 8435,
+   "line": "One voice says:",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S122",
+   "size": "mcu",
+   "key": 43,
+   "len": 76,
+   "first": 8483,
+   "line": "Hello from the children of planet Earth.",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S123",
+   "size": "ms",
+   "key": 29,
+   "len": 52,
+   "first": 8559,
+   "line": "It is the slowest text",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S124",
+   "size": "ots",
+   "key": 34,
+   "len": 60,
+   "first": 8611,
+   "line": "message humanity has ever sent,",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S125",
+   "size": "low",
+   "key": 36,
+   "len": 65,
+   "first": 8671,
+   "line": "drifting outward in a bottle across the dark",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S126",
+   "size": "insert",
+   "key": 26,
+   "len": 46,
+   "first": 8736,
+   "line": "sea between the stars.",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S127",
+   "size": "ws",
+   "key": 45,
+   "len": 81,
+   "first": 8782,
+   "line": "No delivery tick, no typing bubble,",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S128",
+   "size": "cu",
+   "key": 52,
+   "len": 92,
+   "first": 8863,
+   "line": "just a golden groove waiting for someone to press play.",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S129",
+   "size": "diagram",
+   "key": 44,
+   "len": 78,
+   "first": 8955,
+   "line": "So where is that message actually heading?",
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S130",
+   "size": "ws",
+   "key": 22,
+   "len": 76,
+   "first": 9033,
+   "line": "(Chapter 10 Card: STAR AC +79 3888)",
+   "note": "Ch 10 (chapter_card)"
+  },
+  {
+   "id": "S131",
+   "size": "ws",
+   "key": 27,
+   "len": 48,
+   "first": 9109,
+   "line": "Right now, Voyager",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S132",
+   "size": "cu",
+   "key": 37,
+   "len": 66,
+   "first": 9157,
+   "line": "one is aimed toward a cool red star",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S133",
+   "size": "diagram",
+   "key": 37,
+   "len": 66,
+   "first": 9223,
+   "line": "more than seventeen light- years away,",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S134",
+   "size": "high",
+   "key": 34,
+   "len": 60,
+   "first": 9289,
+   "line": "catalogued as A C plus",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S135",
+   "size": "mcu",
+   "key": 49,
+   "len": 87,
+   "first": 9349,
+   "line": "seventy- nine thirty- eight eighty- eight.",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S136",
+   "size": "ms",
+   "key": 31,
+   "len": 56,
+   "first": 9436,
+   "line": "At spacecraft speed,",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S137",
+   "size": "ots",
+   "key": 49,
+   "len": 87,
+   "first": 9492,
+   "line": "it will pass within about one point seven light- years",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S138",
+   "size": "low",
+   "key": 46,
+   "len": 82,
+   "first": 9579,
+   "line": "of that star in forty thousand years.",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S139",
+   "size": "insert",
+   "key": 40,
+   "len": 72,
+   "first": 9661,
+   "line": "If Bo lived near that star today,",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S140",
+   "size": "ws",
+   "key": 31,
+   "len": 56,
+   "first": 9733,
+   "line": "a single text from your phone would take",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S141",
+   "size": "cu",
+   "key": 38,
+   "len": 68,
+   "first": 9789,
+   "line": "over seventeen years just to arrive.",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S142",
+   "size": "diagram",
+   "key": 55,
+   "len": 98,
+   "first": 9857,
+   "line": "Even the very closest star next door tests your patience.",
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S143",
+   "size": "ws",
+   "key": 22,
+   "len": 76,
+   "first": 9955,
+   "line": "(Chapter 11 Card: DEEP COSMOS)",
+   "note": "Ch 11 (chapter_card)"
+  },
+  {
+   "id": "S144",
+   "size": "ws",
+   "key": 29,
+   "len": 52,
+   "first": 10031,
+   "line": "Take Proxima Centauri,",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S145",
+   "size": "cu",
+   "key": 32,
+   "len": 57,
+   "first": 10083,
+   "line": "the nearest star beyond our Sun,",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S146",
+   "size": "diagram",
+   "key": 52,
+   "len": 93,
+   "first": 10140,
+   "line": "at about four point two four light- years away.",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S147",
+   "size": "high",
+   "key": 39,
+   "len": 69,
+   "first": 10233,
+   "line": "Send a joke there and the reply",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S148",
+   "size": "mcu",
+   "key": 43,
+   "len": 77,
+   "first": 10302,
+   "line": "comes back in about eight point five years;",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S149",
+   "size": "ms",
+   "key": 26,
+   "len": 47,
+   "first": 10379,
+   "line": "you tap send as a kid",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S150",
+   "size": "ots",
+   "key": 36,
+   "len": 65,
+   "first": 10426,
+   "line": "and read the laugh as a grown adult.",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S151",
+   "size": "low",
+   "key": 43,
+   "len": 76,
+   "first": 10491,
+   "line": "Try texting the Andromeda galaxy,",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S152",
+   "size": "insert",
+   "key": 43,
+   "len": 76,
+   "first": 10567,
+   "line": "about two point five million light- years away,",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S153",
+   "size": "ws",
+   "key": 45,
+   "len": 81,
+   "first": 10643,
+   "line": "and by the time your message arrives, humans look like",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S154",
+   "size": "cu",
+   "key": 49,
+   "len": 87,
+   "first": 10724,
+   "line": "glowing futuristic crabs wondering who Bo was.",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S155",
+   "size": "diagram",
+   "key": 54,
+   "len": 97,
+   "first": 10811,
+   "line": "Closer to home, a twin probe is catching up.",
+   "note": "Ch 11 (speech)"
+  },
+  {
+   "id": "S156",
+   "size": "ws",
+   "key": 22,
+   "len": 76,
+   "first": 10908,
+   "line": "(Chapter 12 Card: THE TWIST: VOYAGER 2)",
+   "note": "Ch 12 (chapter_card)"
+  },
+  {
+   "id": "S157",
+   "size": "ws",
+   "key": 42,
+   "len": 75,
+   "first": 10984,
+   "line": "Here is the twist: Voyager",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S158",
+   "size": "cu",
+   "key": 27,
+   "len": 48,
+   "first": 11059,
+   "line": "one is not alone.",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S159",
+   "size": "diagram",
+   "key": 39,
+   "len": 69,
+   "first": 11107,
+   "line": "Its twin, Voyager two,",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S160",
+   "size": "high",
+   "key": 55,
+   "len": 99,
+   "first": 11176,
+   "line": "is following on a different path through interstellar space",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S161",
+   "size": "mcu",
+   "key": 37,
+   "len": 66,
+   "first": 11275,
+   "line": "and reaches one light- day from Earth",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S162",
+   "size": "ms",
+   "key": 39,
+   "len": 70,
+   "first": 11341,
+   "line": "in November twenty thirty- five.",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S163",
+   "size": "ots",
+   "key": 27,
+   "len": 49,
+   "first": 11411,
+   "line": "You grab your phone,",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S164",
+   "size": "low",
+   "key": 33,
+   "len": 59,
+   "first": 11460,
+   "line": "open the calendar app, and set",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S165",
+   "size": "insert",
+   "key": 44,
+   "len": 79,
+   "first": 11519,
+   "line": "a reminder for November twenty thirty- five so you",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S166",
+   "size": "ws",
+   "key": 32,
+   "len": 57,
+   "first": 11598,
+   "line": "don't miss the twin milestone.",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S167",
+   "size": "cu",
+   "key": 35,
+   "len": 62,
+   "first": 11655,
+   "line": "After all those cosmic waits,",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S168",
+   "size": "diagram",
+   "key": 34,
+   "len": 61,
+   "first": 11717,
+   "line": "you step up to the roof at dusk.",
+   "note": "Ch 12 (speech)"
+  },
+  {
+   "id": "S169",
+   "size": "ws",
+   "key": 22,
+   "len": 76,
+   "first": 11778,
+   "line": "(Chapter 13 Card: EARTH ROOFTOP)",
+   "note": "Ch 13 (chapter_card)"
+  },
+  {
+   "id": "S170",
+   "size": "ws",
+   "key": 30,
+   "len": 54,
+   "first": 11854,
+   "line": "Back on your rooftop at dusk,",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S171",
+   "size": "cu",
+   "key": 32,
+   "len": 57,
+   "first": 11908,
+   "line": "you text Bo come outside,",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S172",
+   "size": "diagram",
+   "key": 41,
+   "len": 73,
+   "first": 11965,
+   "line": "and Bo steps through the door in a second.",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S173",
+   "size": "high",
+   "key": 50,
+   "len": 89,
+   "first": 12038,
+   "line": "This week, the sky puts on a show:",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S174",
+   "size": "mcu",
+   "key": 38,
+   "len": 68,
+   "first": 12127,
+   "line": "on the seventeenth of November NASA",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S175",
+   "size": "ms",
+   "key": 32,
+   "len": 58,
+   "first": 12195,
+   "line": "celebrates Voyager's light- day,",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S176",
+   "size": "ots",
+   "key": 29,
+   "len": 51,
+   "first": 12253,
+   "line": "while the Leonid meteors peak",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S177",
+   "size": "low",
+   "key": 38,
+   "len": 68,
+   "first": 12304,
+   "line": "on the seventeenth and eighteenth of November,",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S178",
+   "size": "insert",
+   "key": 41,
+   "len": 73,
+   "first": 12372,
+   "line": "right after Mars and Jupiter sit close together",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S179",
+   "size": "ws",
+   "key": 60,
+   "len": 108,
+   "first": 12445,
+   "line": "before sunrise on the fifteenth and sixteenth of November.",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S180",
+   "size": "cu",
+   "key": 55,
+   "len": 99,
+   "first": 12553,
+   "line": "Who would you text if the reply took two days?",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S181",
+   "size": "diagram",
+   "key": 31,
+   "len": 56,
+   "first": 12652,
+   "line": "Step into the what if.",
+   "note": "Ch 13 (speech)"
+  },
+  {
+   "id": "S182",
+   "size": "ws",
+   "key": 22,
+   "len": 108,
+   "first": 12708,
+   "line": "(End Card: IFMOSPHERE · Comment your 2-day text · Subscribe)",
+   "note": "Ch 13 (end_card)"
+  }
+ ],
+ "fx": [
+  {
+   "f": 2,
+   "kind": "flash",
+   "color": "#7FD4FF",
+   "o": 0.35
+  },
+  {
+   "f": 477,
+   "kind": "flash",
+   "color": "#FFE27A",
+   "o": 0.55
+  }
+ ],
+ "audio": {
+  "voice": "lightday/voice.wav",
+  "sfx": "lightday/sfx.wav",
+  "music": "lightday/music.wav",
+  "voiceVol": 1.0,
+  "sfxVol": 1.0,
+  "musicVol": 1.0
+ }
+}
