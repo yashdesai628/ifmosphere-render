@@ -6,5 +6,6 @@ import { meteor } from './meteor';
 import { starcatcher } from './starcatcher';
 import { jump, jumpShort } from './jump';
 import { lightday, lightdayShort } from './lightday';
+import { closermoon, closermoonShort } from './closermoon';
 
-export const EPISODES = [rewind, copyPaste, reaction, meteor, starcatcher, jump, jumpShort, lightday, lightdayShort];
+export const EPISODES = [rewind, copyPaste, reaction, meteor, starcatcher, jump, jumpShort, lightday, lightdayShort, closermoon, closermoonShort];

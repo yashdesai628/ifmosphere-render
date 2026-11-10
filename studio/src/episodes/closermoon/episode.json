@@ -1,0 +1,2746 @@
+{
+ "id": "Closermoon",
+ "slug": "closermoon",
+ "channel": {
+  "name": "Ifmosphere",
+  "tagline": "Step into the what if."
+ },
+ "width": 1920,
+ "height": 1080,
+ "fps": 30,
+ "topic": "What If the Moon Came Twice as Close?",
+ "title": [
+  "WHAT IF THE MOON",
+  "CAME 2X CLOSER?"
+ ],
+ "accent": "2X CLOSER",
+ "voice": {
+  "id": "CwhRBWXzGAHq8TQ4Fs17",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.66,
+   "similarity_boost": 0.82,
+   "style": 0.1,
+   "use_speaker_boost": true
+  }
+ },
+ "chapters": [
+  {
+   "chapter": 0,
+   "title": "Cold Open: Moon 2x Closer",
+   "card": null
+  },
+  {
+   "chapter": 1,
+   "title": "Today's Moon: 384,400 km Average",
+   "card": [
+    "TODAY'S MOON",
+    "384,400 KM AVERAGE · 27-DAY ORBIT"
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Twice as Close: 192,200 km",
+   "card": [
+    "HALF THE DISTANCE",
+    "384,400 KM → ABOUT 192,200 KM"
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Supermoon Reality Check",
+   "card": [
+    "SUPERMOON REALITY CHECK",
+    "14% BIGGER VS 100% WIDER"
+   ]
+  },
+  {
+   "chapter": 4,
+   "title": "Silver Nights: Reading Outdoors",
+   "card": [
+    "SILVER NIGHTS",
+    "ABOUT 192,200 KM · FOUR TIMES THE AREA"
+   ]
+  },
+  {
+   "chapter": 5,
+   "title": "The Ocean: Tides x8",
+   "card": [
+    "THE OCEAN AWAKENS",
+    "192,200 KM · TIDAL PULL ABOUT X8"
+   ]
+  },
+  {
+   "chapter": 6,
+   "title": "Hours Later: The Coast",
+   "card": [
+    "HOURS LATER: THE COAST",
+    "ABOUT 192,200 KM · COASTAL FLOODING"
+   ]
+  },
+  {
+   "chapter": 7,
+   "title": "Sleep and Moods: Curtain Light",
+   "card": [
+    "TRYING TO SLEEP",
+    "ABOUT 192,200 KM · CURTAIN FLOODLIGHT"
+   ]
+  },
+  {
+   "chapter": 8,
+   "title": "The Moon's Orbit and Giant Eclipses",
+   "card": [
+    "ORBIT AND ECLIPSES",
+    "27-DAY ORBIT · GIANT SOLAR ECLIPSE"
+   ]
+  },
+  {
+   "chapter": 9,
+   "title": "Reality: Drifting 1 Inch Farther",
+   "card": [
+    "THE REAL VERDICT",
+    "384,400 KM · +1 INCH FARTHER PER YEAR"
+   ]
+  },
+  {
+   "chapter": 10,
+   "title": "This Month For Real: November 2026 Sky",
+   "card": [
+    "NOVEMBER 2026 SKYWATCHING",
+    "15–16 NOV · 17–18 NOV · 24 NOV SUPERMOON"
+   ]
+  }
+ ],
+ "script": [
+  {
+   "chapter": 0,
+   "beat": "Chapter 0: Cold Open: Moon 2x Closer",
+   "text": "The Moon just moved twice as close. Watch what the ocean does first. A silver wall of water races up the sand right past your ankles, because the Moon's pull grows about eight times stronger when it gets twice as close. You scramble backward up the beach grabbing your flip-flops as foamy surf climbs toward the dunes. Overhead, a giant Moon fills the sky at about one hundred ninety-two thousand, two hundred kilometres instead of three hundred eighty-four thousand, four hundred kilometres. What if the Moon came twice as close?"
+  },
+  {
+   "chapter": 1,
+   "beat": "Chapter 1: Today's Moon: 384,400 km Average",
+   "text": "First, look at the real Moon tonight. NASA measures its average distance at three hundred eighty-four thousand, four hundred kilometres, or two hundred thirty-eight thousand, eight hundred fifty-five miles. It has a radius of one thousand, seven hundred forty kilometres and orbits Earth in twenty-seven days along a slightly oval path. At perigee, its closest point, it reaches about three hundred sixty-three thousand, three hundred kilometres, or two hundred twenty-six thousand miles. At apogee, its farthest point, it swings to about four hundred five thousand, five hundred kilometres, or two hundred fifty-one thousand miles, while drifting about one inch farther away each year. Now cut that average distance in half."
+  },
+  {
+   "chapter": 2,
+   "beat": "Chapter 2: Twice as Close: 192,200 km",
+   "text": "Half of three hundred eighty-four thousand, four hundred kilometres puts the Moon at about one hundred ninety-two thousand, two hundred kilometres. Step outside and look up: at half the distance, the Moon looks about twice as wide and covers about four times the area in the sky. Normally, you can stretch your arm out and cover the Moon with your thumb. Tonight, the glowing cratered rim spills right past your hand at arm's length. Through your bedroom window, instead of a small coin in the corner of the glass, a colossal silver lantern fills the frame. Wait: isn't that just a supermoon?"
+  },
+  {
+   "chapter": 3,
+   "beat": "Chapter 3: Supermoon Reality Check",
+   "text": "Time for a supermoon reality check. According to NASA, a real supermoon at perigee looks up to fourteen percent bigger and thirty percent brighter than the faintest full Moon at apogee. Fourteen percent is subtle: you squint at the sky, shrug, and wonder if your eyes are playing tricks. Our Moon at about one hundred ninety-two thousand, two hundred kilometres would be one hundred percent wider, twice the width and about four times the area. Put them side by side and today's supermoon looks like a teacup saucer while our giant Moon looms behind you like a stadium roof until you tip off your stool. Now watch what happens after sunset."
+  },
+  {
+   "chapter": 4,
+   "beat": "Chapter 4: Silver Nights: Reading Outdoors",
+   "text": "With a lunar disc covering about four times the area, clear nights turn into a bright silver twilight. You sit on a park bench outdoors reading a paperback book with no flashlight at all, while sharp shadows stretch across the path. Along the street, automatic streetlight timers get confused by the bright sky and switch themselves off. Up in the trees, birds stay awake chirping at the silver glow, and a wide-eyed neighbourhood cat paces the fence wondering where night went. You turn another page in the quiet park, thinking a brighter night feels peaceful. Then the ocean answers."
+  },
+  {
+   "chapter": 5,
+   "beat": "Chapter 5: The Ocean: Tides x8",
+   "text": "NASA notes that even a real supermoon can cause higher tides than usual. Because tidal force follows an inverse-cube law, halving the Moon's distance to about one hundred ninety-two thousand, two hundred kilometres makes its pull on the oceans about eight times stronger. Down on the beach, a wave washes under your beach towel. You drag the towel higher up the sand, and the next wave chases your heels again. You move your towel again and again until you are clinging to the top of the lifeguard stand, while harbour boats buck on their ropes and the tide line marches up the stone stairs. Wait until high tide peaks hours later."
+  },
+  {
+   "chapter": 6,
+   "beat": "Chapter 6: Hours Later: The Coast",
+   "text": "Hours later, that eightfold tidal pull turns low coastal streets into shallow canals. Seawater brims over the promenade wall and swirls around lampposts and park benches. You paddle a yellow rubber dinghy past a flooded street corner while cheerful crabs take over a seaside café table. Then, when low tide arrives, the ocean pulls back just as dramatically, leaving harbour boats sitting high and dry on wide muddy flats far from the pier stairs. Tired of rowing past street signs, you paddle home, climb upstairs, and try to get some sleep."
+  },
+  {
+   "chapter": 7,
+   "beat": "Chapter 7: Sleep and Moods: Curtain Light",
+   "text": "Inside your bedroom, sleeping under a Moon twice as close is a losing battle. Silver moonlight pours through the gap in your curtains like a searchlight aimed straight at your bed. You pull the curtains tight, slip on a thick sleep mask, and even stack sunglasses over the mask, yet the whole room still glows silver. Your cat perches on the windowsill batting at moonbeams while you hide under heavy pillows and grumble at the ceiling. Finally you shuffle to the window, peel back the curtain, and notice how fast the giant Moon seems to cross the glass."
+  },
+  {
+   "chapter": 8,
+   "beat": "Chapter 8: The Moon's Orbit and Giant Eclipses",
+   "text": "In our illustration, even if the Moon keeps its twenty-seven day pace across the sky, its twice-as-wide disc makes its cratered edge appear to race past rooftops and clouds. And when that giant Moon passes in front of the Sun during a solar eclipse, the view is unforgettable. Today, the Moon barely covers the Sun. At about one hundred ninety-two thousand, two hundred kilometres, a Moon twice as wide covers far more than the Sun, turning midday into a deep twilight around a huge dark silhouette while you watch through eclipse glasses. So could the real Moon ever creep closer like this?"
+  },
+  {
+   "chapter": 9,
+   "beat": "Chapter 9: Reality: Drifting 1 Inch Farther",
+   "text": "In reality, NASA measurements show the Moon is doing the exact opposite. Instead of moving closer, our Moon at three hundred eighty-four thousand, four hundred kilometres is drifting about one inch farther from Earth every year. Astronomers track that slow retreat by bouncing laser pulses off reflectors left on the Moon. Earth's spinning tidal bulge tugs our one thousand, seven hundred forty kilometre radius neighbour into a slightly wider orbit year after year. Out on the sand, you hold up a tiny ruler and wave goodbye in slow motion. Yet this very month, the real sky puts on a show."
+  },
+  {
+   "chapter": 10,
+   "beat": "Chapter 10: This Month For Real: November 2026 Sky",
+   "text": "Up on your rooftop at dusk, NASA's November twenty twenty-six skywatching tips give you three real nights to mark down. Before sunrise on the fifteenth and sixteenth of November, Mars and Jupiter shine just one point two degrees apart. On the seventeenth and eighteenth of November after moonset, the Leonid meteors peak with up to about fifteen meteors per hour. And on the twenty-fourth of November twenty twenty-six at fourteen fifty-four U T C, the first of three supermoons in a row rises, followed by another on the twenty-fourth of December twenty twenty-six and a third in January. Look east around sunset on the twenty-fourth. Which night would you watch the giant Moon?"
+  }
+ ],
+ "science": [
+  {
+   "claim": "The Moon's average distance from Earth is 384,400 km (238,855 mi), its radius is 1,740 km, it orbits Earth in 27 days, and it drifts away by about 1 inch per year.",
+   "working": "Direct NASA lunar fact sheet values: mean orbit distance 384,400 km (238,855 miles), equatorial/mean radius 1,740 km, sidereal orbital period 27 days, lunar laser ranging recession ~1 inch/year.",
+   "source": "NASA Moon Facts https://science.nasa.gov/moon/facts/"
+  },
+  {
+   "claim": "The Moon's orbit is slightly oval, with perigee at ~363,300 km (226,000 mi) and apogee at ~405,500 km (251,000 mi); a supermoon looks up to 14% bigger and 30% brighter than the faintest full Moon, can cause higher tides than usual, and occurs on 24 Nov 2026 at 14:54 UTC and 24 Dec 2026.",
+   "working": "At perigee (~363,300 km) vs apogee (~405,500 km), apparent angular diameter increases by up to ~14% and illuminated flux by ~30%; alignment of full Moon with perigee produces perigean spring tides.",
+   "source": "NASA Supermoons https://science.nasa.gov/moon/supermoons/"
+  },
+  {
+   "claim": "In November 2026, Mars and Jupiter appear 1.2 degrees apart before sunrise on 15-16 Nov; the Leonid meteor shower peaks on 17-18 Nov after moonset with up to ~15 meteors per hour; the 24 Nov supermoon is the first of three supermoons in a row across November, December, and January.",
+   "working": "Skywatching calendar dates and rates directly from NASA's November 2026 guide.",
+   "source": "NASA What's Up Nov 2026 https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/"
+  },
+  {
+   "claim": "At half of the average distance (about 192,200 km), the Moon appears about twice as wide (100% wider), covers about four times the area in the sky, and exerts about eight times the tidal pull.",
+   "working": "Half of 384,400 km = 192,200 km. Apparent angular width scales as 1/d = 2x (100% wider); solid-angle sky area scales as (1/d)^2 = 4x; differential gravitational tidal force scales as inverse cube (1/d)^3 = 2^3 = 8x.",
+   "source": "Computed from NASA Moon Facts https://science.nasa.gov/moon/facts/ and inverse-cube tidal physics"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "ws",
+   "key": 38,
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S2",
+   "size": "insert",
+   "key": 35,
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S3",
+   "size": "ms",
+   "key": 30,
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S4",
+   "size": "cu",
+   "key": 30,
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S5",
+   "size": "ots",
+   "key": 33,
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S6",
+   "size": "low",
+   "key": 43,
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S7",
+   "size": "high",
+   "key": 32,
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S8",
+   "size": "mcu",
+   "key": 34,
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S9",
+   "size": "diagram",
+   "key": 26,
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S10",
+   "size": "ws",
+   "key": 31,
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S11",
+   "size": "insert",
+   "key": 28,
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S12",
+   "size": "ms",
+   "key": 36,
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S13",
+   "size": "cu",
+   "key": 37,
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S14",
+   "size": "ots",
+   "key": 27,
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S15",
+   "size": "low",
+   "key": 32,
+   "note": "Ch 0 (speech)"
+  },
+  {
+   "id": "S16",
+   "size": "ws",
+   "key": 38,
+   "note": "Ch 0 (title_card)"
+  },
+  {
+   "id": "S17",
+   "size": "mcu",
+   "key": 43,
+   "note": "Ch 1 (chapter_open)"
+  },
+  {
+   "id": "S18",
+   "size": "diagram",
+   "key": 33,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S19",
+   "size": "ws",
+   "key": 34,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S20",
+   "size": "insert",
+   "key": 38,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S21",
+   "size": "ms",
+   "key": 30,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S22",
+   "size": "cu",
+   "key": 26,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S23",
+   "size": "ots",
+   "key": 34,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S24",
+   "size": "low",
+   "key": 34,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S25",
+   "size": "high",
+   "key": 37,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S26",
+   "size": "mcu",
+   "key": 24,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S27",
+   "size": "diagram",
+   "key": 36,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S28",
+   "size": "ws",
+   "key": 30,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S29",
+   "size": "insert",
+   "key": 42,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S30",
+   "size": "ms",
+   "key": 31,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S31",
+   "size": "cu",
+   "key": 33,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S32",
+   "size": "ots",
+   "key": 36,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S33",
+   "size": "low",
+   "key": 29,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S34",
+   "size": "high",
+   "key": 36,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S35",
+   "size": "mcu",
+   "key": 36,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S36",
+   "size": "diagram",
+   "key": 39,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S37",
+   "size": "ws",
+   "key": 33,
+   "note": "Ch 1 (speech)"
+  },
+  {
+   "id": "S38",
+   "size": "ws",
+   "key": 38,
+   "note": "Ch 2 (chapter_card)"
+  },
+  {
+   "id": "S39",
+   "size": "ms",
+   "key": 39,
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S40",
+   "size": "cu",
+   "key": 34,
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S41",
+   "size": "ots",
+   "key": 30,
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S42",
+   "size": "low",
+   "key": 31,
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S43",
+   "size": "high",
+   "key": 30,
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S44",
+   "size": "mcu",
+   "key": 37,
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S45",
+   "size": "diagram",
+   "key": 33,
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S46",
+   "size": "ws",
+   "key": 28,
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S47",
+   "size": "insert",
+   "key": 36,
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S48",
+   "size": "ms",
+   "key": 29,
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S49",
+   "size": "cu",
+   "key": 38,
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S50",
+   "size": "ots",
+   "key": 36,
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S51",
+   "size": "low",
+   "key": 35,
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S52",
+   "size": "high",
+   "key": 36,
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S53",
+   "size": "mcu",
+   "key": 37,
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S54",
+   "size": "diagram",
+   "key": 40,
+   "note": "Ch 2 (speech)"
+  },
+  {
+   "id": "S55",
+   "size": "ws",
+   "key": 38,
+   "note": "Ch 3 (chapter_card)"
+  },
+  {
+   "id": "S56",
+   "size": "insert",
+   "key": 45,
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S57",
+   "size": "ms",
+   "key": 33,
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S58",
+   "size": "cu",
+   "key": 32,
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S59",
+   "size": "ots",
+   "key": 31,
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S60",
+   "size": "low",
+   "key": 40,
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S61",
+   "size": "high",
+   "key": 31,
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S62",
+   "size": "mcu",
+   "key": 38,
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S63",
+   "size": "diagram",
+   "key": 44,
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S64",
+   "size": "ws",
+   "key": 31,
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S65",
+   "size": "insert",
+   "key": 31,
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S66",
+   "size": "ms",
+   "key": 31,
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S67",
+   "size": "cu",
+   "key": 32,
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S68",
+   "size": "ots",
+   "key": 30,
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S69",
+   "size": "low",
+   "key": 32,
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S70",
+   "size": "high",
+   "key": 33,
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S71",
+   "size": "mcu",
+   "key": 32,
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S72",
+   "size": "diagram",
+   "key": 32,
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S73",
+   "size": "ws",
+   "key": 32,
+   "note": "Ch 3 (speech)"
+  },
+  {
+   "id": "S74",
+   "size": "ws",
+   "key": 38,
+   "note": "Ch 4 (chapter_card)"
+  },
+  {
+   "id": "S75",
+   "size": "ms",
+   "key": 34,
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S76",
+   "size": "cu",
+   "key": 36,
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S77",
+   "size": "ots",
+   "key": 29,
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S78",
+   "size": "low",
+   "key": 35,
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S79",
+   "size": "high",
+   "key": 40,
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S80",
+   "size": "mcu",
+   "key": 48,
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S81",
+   "size": "diagram",
+   "key": 34,
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S82",
+   "size": "ws",
+   "key": 35,
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S83",
+   "size": "insert",
+   "key": 34,
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S84",
+   "size": "ms",
+   "key": 31,
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S85",
+   "size": "cu",
+   "key": 30,
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S86",
+   "size": "ots",
+   "key": 34,
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S87",
+   "size": "low",
+   "key": 40,
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S88",
+   "size": "high",
+   "key": 35,
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S89",
+   "size": "mcu",
+   "key": 30,
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S90",
+   "size": "diagram",
+   "key": 31,
+   "note": "Ch 4 (speech)"
+  },
+  {
+   "id": "S91",
+   "size": "ws",
+   "key": 38,
+   "note": "Ch 5 (chapter_card)"
+  },
+  {
+   "id": "S92",
+   "size": "insert",
+   "key": 36,
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S93",
+   "size": "ms",
+   "key": 40,
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S94",
+   "size": "cu",
+   "key": 35,
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S95",
+   "size": "ots",
+   "key": 37,
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S96",
+   "size": "low",
+   "key": 42,
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S97",
+   "size": "high",
+   "key": 32,
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S98",
+   "size": "mcu",
+   "key": 40,
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S99",
+   "size": "diagram",
+   "key": 32,
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S100",
+   "size": "ws",
+   "key": 33,
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S101",
+   "size": "insert",
+   "key": 32,
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S102",
+   "size": "ms",
+   "key": 43,
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S103",
+   "size": "cu",
+   "key": 32,
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S104",
+   "size": "ots",
+   "key": 29,
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S105",
+   "size": "low",
+   "key": 32,
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S106",
+   "size": "high",
+   "key": 32,
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S107",
+   "size": "mcu",
+   "key": 26,
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S108",
+   "size": "diagram",
+   "key": 36,
+   "note": "Ch 5 (speech)"
+  },
+  {
+   "id": "S109",
+   "size": "ws",
+   "key": 38,
+   "note": "Ch 6 (chapter_card)"
+  },
+  {
+   "id": "S110",
+   "size": "insert",
+   "key": 36,
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S111",
+   "size": "ms",
+   "key": 30,
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S112",
+   "size": "cu",
+   "key": 34,
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S113",
+   "size": "ots",
+   "key": 32,
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S114",
+   "size": "low",
+   "key": 36,
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S115",
+   "size": "high",
+   "key": 33,
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S116",
+   "size": "mcu",
+   "key": 37,
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S117",
+   "size": "diagram",
+   "key": 37,
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S118",
+   "size": "ws",
+   "key": 30,
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S119",
+   "size": "insert",
+   "key": 42,
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S120",
+   "size": "ms",
+   "key": 34,
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S121",
+   "size": "cu",
+   "key": 35,
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S122",
+   "size": "ots",
+   "key": 34,
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S123",
+   "size": "low",
+   "key": 37,
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S124",
+   "size": "high",
+   "key": 35,
+   "note": "Ch 6 (speech)"
+  },
+  {
+   "id": "S125",
+   "size": "ws",
+   "key": 38,
+   "note": "Ch 7 (chapter_card)"
+  },
+  {
+   "id": "S126",
+   "size": "diagram",
+   "key": 32,
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S127",
+   "size": "ws",
+   "key": 29,
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S128",
+   "size": "insert",
+   "key": 35,
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S129",
+   "size": "ms",
+   "key": 31,
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S130",
+   "size": "cu",
+   "key": 39,
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S131",
+   "size": "ots",
+   "key": 34,
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S132",
+   "size": "low",
+   "key": 34,
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S133",
+   "size": "high",
+   "key": 36,
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S134",
+   "size": "mcu",
+   "key": 32,
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S135",
+   "size": "diagram",
+   "key": 33,
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S136",
+   "size": "ws",
+   "key": 30,
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S137",
+   "size": "insert",
+   "key": 39,
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S138",
+   "size": "ms",
+   "key": 30,
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S139",
+   "size": "cu",
+   "key": 33,
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S140",
+   "size": "ots",
+   "key": 35,
+   "note": "Ch 7 (speech)"
+  },
+  {
+   "id": "S141",
+   "size": "ws",
+   "key": 38,
+   "note": "Ch 8 (chapter_card)"
+  },
+  {
+   "id": "S142",
+   "size": "high",
+   "key": 32,
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S143",
+   "size": "mcu",
+   "key": 33,
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S144",
+   "size": "diagram",
+   "key": 33,
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S145",
+   "size": "ws",
+   "key": 33,
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S146",
+   "size": "insert",
+   "key": 44,
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S147",
+   "size": "ms",
+   "key": 33,
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S148",
+   "size": "cu",
+   "key": 34,
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S149",
+   "size": "ots",
+   "key": 33,
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S150",
+   "size": "low",
+   "key": 30,
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S151",
+   "size": "high",
+   "key": 35,
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S152",
+   "size": "mcu",
+   "key": 30,
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S153",
+   "size": "diagram",
+   "key": 36,
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S154",
+   "size": "ws",
+   "key": 30,
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S155",
+   "size": "insert",
+   "key": 34,
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S156",
+   "size": "ms",
+   "key": 37,
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S157",
+   "size": "cu",
+   "key": 29,
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S158",
+   "size": "ots",
+   "key": 40,
+   "note": "Ch 8 (speech)"
+  },
+  {
+   "id": "S159",
+   "size": "ws",
+   "key": 38,
+   "note": "Ch 9 (chapter_card)"
+  },
+  {
+   "id": "S160",
+   "size": "high",
+   "key": 36,
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S161",
+   "size": "mcu",
+   "key": 38,
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S162",
+   "size": "diagram",
+   "key": 35,
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S163",
+   "size": "ws",
+   "key": 35,
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S164",
+   "size": "insert",
+   "key": 35,
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S165",
+   "size": "ms",
+   "key": 31,
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S166",
+   "size": "cu",
+   "key": 34,
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S167",
+   "size": "ots",
+   "key": 36,
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S168",
+   "size": "low",
+   "key": 34,
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S169",
+   "size": "high",
+   "key": 34,
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S170",
+   "size": "mcu",
+   "key": 34,
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S171",
+   "size": "diagram",
+   "key": 33,
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S172",
+   "size": "ws",
+   "key": 35,
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S173",
+   "size": "insert",
+   "key": 35,
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S174",
+   "size": "ms",
+   "key": 34,
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S175",
+   "size": "cu",
+   "key": 34,
+   "note": "Ch 9 (speech)"
+  },
+  {
+   "id": "S176",
+   "size": "ws",
+   "key": 38,
+   "note": "Ch 10 (chapter_card)"
+  },
+  {
+   "id": "S177",
+   "size": "low",
+   "key": 33,
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S178",
+   "size": "high",
+   "key": 34,
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S179",
+   "size": "mcu",
+   "key": 28,
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S180",
+   "size": "diagram",
+   "key": 34,
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S181",
+   "size": "ws",
+   "key": 32,
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S182",
+   "size": "insert",
+   "key": 34,
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S183",
+   "size": "ms",
+   "key": 25,
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S184",
+   "size": "cu",
+   "key": 35,
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S185",
+   "size": "ots",
+   "key": 34,
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S186",
+   "size": "low",
+   "key": 33,
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S187",
+   "size": "high",
+   "key": 34,
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S188",
+   "size": "mcu",
+   "key": 36,
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S189",
+   "size": "diagram",
+   "key": 30,
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S190",
+   "size": "ws",
+   "key": 42,
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S191",
+   "size": "insert",
+   "key": 36,
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S192",
+   "size": "ms",
+   "key": 28,
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S193",
+   "size": "cu",
+   "key": 35,
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S194",
+   "size": "ots",
+   "key": 33,
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S195",
+   "size": "low",
+   "key": 33,
+   "note": "Ch 10 (speech)"
+  },
+  {
+   "id": "S196",
+   "size": "ws",
+   "key": 48,
+   "note": "Ch 10 (end_card)"
+  }
+ ],
+ "edit": [
+  {
+   "shot": "S1",
+   "at": "f:0",
+   "dur_f": 76,
+   "t0": 0,
+   "line": "The Moon just moved twice as close."
+  },
+  {
+   "shot": "S2",
+   "at": "f:76",
+   "dur_f": 71,
+   "t0": 0,
+   "line": "Watch what the ocean does first."
+  },
+  {
+   "shot": "S3",
+   "at": "f:147",
+   "dur_f": 60,
+   "t0": 0,
+   "line": "A silver wall of water races up the"
+  },
+  {
+   "shot": "S4",
+   "at": "f:207",
+   "dur_f": 61,
+   "t0": 0,
+   "line": "sand right past your ankles,"
+  },
+  {
+   "shot": "S5",
+   "at": "f:268",
+   "dur_f": 67,
+   "t0": 0,
+   "line": "because the Moon's pull grows about eight times"
+  },
+  {
+   "shot": "S6",
+   "at": "f:335",
+   "dur_f": 86,
+   "t0": 0,
+   "line": "stronger when it gets twice as close."
+  },
+  {
+   "shot": "S7",
+   "at": "f:421",
+   "dur_f": 64,
+   "t0": 0,
+   "line": "You scramble backward up the beach grabbing"
+  },
+  {
+   "shot": "S8",
+   "at": "f:485",
+   "dur_f": 68,
+   "t0": 0,
+   "line": "your flip- flops as foamy surf climbs"
+  },
+  {
+   "shot": "S9",
+   "at": "f:553",
+   "dur_f": 53,
+   "t0": 0,
+   "line": "toward the dunes."
+  },
+  {
+   "shot": "S10",
+   "at": "f:606",
+   "dur_f": 62,
+   "t0": 0,
+   "line": "Overhead, a giant Moon fills the"
+  },
+  {
+   "shot": "S11",
+   "at": "f:668",
+   "dur_f": 57,
+   "t0": 0,
+   "line": "sky at about one hundred ninety-"
+  },
+  {
+   "shot": "S12",
+   "at": "f:725",
+   "dur_f": 72,
+   "t0": 0,
+   "line": "two thousand, two hundred kilometres"
+  },
+  {
+   "shot": "S13",
+   "at": "f:797",
+   "dur_f": 75,
+   "t0": 0,
+   "line": "instead of three hundred eighty- four thousand,"
+  },
+  {
+   "shot": "S14",
+   "at": "f:872",
+   "dur_f": 54,
+   "t0": 0,
+   "line": "four hundred kilometres."
+  },
+  {
+   "shot": "S15",
+   "at": "f:926",
+   "dur_f": 65,
+   "t0": 0,
+   "line": "What if the Moon came twice as close?"
+  },
+  {
+   "shot": "S16",
+   "at": "f:991",
+   "dur_f": 76,
+   "t0": 0,
+   "line": "(Title Card: WHAT IF THE MOON CAME 2X CLOSER?)"
+  },
+  {
+   "shot": "S17",
+   "at": "f:1067",
+   "dur_f": 87,
+   "t0": 0,
+   "line": "First, look at the real Moon tonight."
+  },
+  {
+   "shot": "S18",
+   "at": "f:1154",
+   "dur_f": 66,
+   "t0": 0,
+   "line": "NASA measures its average distance at three"
+  },
+  {
+   "shot": "S19",
+   "at": "f:1220",
+   "dur_f": 68,
+   "t0": 0,
+   "line": "hundred eighty- four thousand, four hundred"
+  },
+  {
+   "shot": "S20",
+   "at": "f:1288",
+   "dur_f": 76,
+   "t0": 0,
+   "line": "kilometres, or two hundred thirty-"
+  },
+  {
+   "shot": "S21",
+   "at": "f:1364",
+   "dur_f": 61,
+   "t0": 0,
+   "line": "eight thousand, eight hundred fifty-"
+  },
+  {
+   "shot": "S22",
+   "at": "f:1425",
+   "dur_f": 52,
+   "t0": 0,
+   "line": "five miles."
+  },
+  {
+   "shot": "S23",
+   "at": "f:1477",
+   "dur_f": 69,
+   "t0": 0,
+   "line": "It has a radius of one thousand, seven"
+  },
+  {
+   "shot": "S24",
+   "at": "f:1546",
+   "dur_f": 68,
+   "t0": 0,
+   "line": "hundred forty kilometres and orbits Earth"
+  },
+  {
+   "shot": "S25",
+   "at": "f:1614",
+   "dur_f": 74,
+   "t0": 0,
+   "line": "in twenty- seven days along a slightly"
+  },
+  {
+   "shot": "S26",
+   "at": "f:1688",
+   "dur_f": 49,
+   "t0": 0,
+   "line": "oval path."
+  },
+  {
+   "shot": "S27",
+   "at": "f:1737",
+   "dur_f": 72,
+   "t0": 0,
+   "line": "At perigee, its closest point,"
+  },
+  {
+   "shot": "S28",
+   "at": "f:1809",
+   "dur_f": 61,
+   "t0": 0,
+   "line": "it reaches about three hundred sixty-"
+  },
+  {
+   "shot": "S29",
+   "at": "f:1870",
+   "dur_f": 84,
+   "t0": 0,
+   "line": "three thousand, three hundred kilometres,"
+  },
+  {
+   "shot": "S30",
+   "at": "f:1954",
+   "dur_f": 62,
+   "t0": 0,
+   "line": "or two hundred twenty- six thousand"
+  },
+  {
+   "shot": "S31",
+   "at": "f:2016",
+   "dur_f": 66,
+   "t0": 0,
+   "line": "miles. At apogee,"
+  },
+  {
+   "shot": "S32",
+   "at": "f:2082",
+   "dur_f": 73,
+   "t0": 0,
+   "line": "its farthest point, it swings to about four"
+  },
+  {
+   "shot": "S33",
+   "at": "f:2155",
+   "dur_f": 59,
+   "t0": 0,
+   "line": "hundred five thousand, five hundred"
+  },
+  {
+   "shot": "S34",
+   "at": "f:2214",
+   "dur_f": 73,
+   "t0": 0,
+   "line": "kilometres, or two hundred fifty-"
+  },
+  {
+   "shot": "S35",
+   "at": "f:2287",
+   "dur_f": 73,
+   "t0": 0,
+   "line": "one thousand miles, while drifting about"
+  },
+  {
+   "shot": "S36",
+   "at": "f:2360",
+   "dur_f": 78,
+   "t0": 0,
+   "line": "one inch farther away each year."
+  },
+  {
+   "shot": "S37",
+   "at": "f:2438",
+   "dur_f": 66,
+   "t0": 0,
+   "line": "Now cut that average distance in half."
+  },
+  {
+   "shot": "S38",
+   "at": "f:2504",
+   "dur_f": 76,
+   "t0": 0,
+   "line": "(Chapter 2 Card: HALF THE DISTANCE)"
+  },
+  {
+   "shot": "S39",
+   "at": "f:2580",
+   "dur_f": 79,
+   "t0": 0,
+   "line": "Half of three hundred eighty- four thousand,"
+  },
+  {
+   "shot": "S40",
+   "at": "f:2659",
+   "dur_f": 69,
+   "t0": 0,
+   "line": "four hundred kilometres puts the Moon at about"
+  },
+  {
+   "shot": "S41",
+   "at": "f:2728",
+   "dur_f": 61,
+   "t0": 0,
+   "line": "one hundred ninety- two thousand,"
+  },
+  {
+   "shot": "S42",
+   "at": "f:2789",
+   "dur_f": 63,
+   "t0": 0,
+   "line": "two hundred kilometres."
+  },
+  {
+   "shot": "S43",
+   "at": "f:2852",
+   "dur_f": 60,
+   "t0": 0,
+   "line": "Step outside and look up:"
+  },
+  {
+   "shot": "S44",
+   "at": "f:2912",
+   "dur_f": 75,
+   "t0": 0,
+   "line": "at half the distance, the Moon looks about twice"
+  },
+  {
+   "shot": "S45",
+   "at": "f:2987",
+   "dur_f": 67,
+   "t0": 0,
+   "line": "as wide and covers about four times the"
+  },
+  {
+   "shot": "S46",
+   "at": "f:3054",
+   "dur_f": 56,
+   "t0": 0,
+   "line": "area in the sky."
+  },
+  {
+   "shot": "S47",
+   "at": "f:3110",
+   "dur_f": 72,
+   "t0": 0,
+   "line": "Normally, you can stretch your arm out and cover"
+  },
+  {
+   "shot": "S48",
+   "at": "f:3182",
+   "dur_f": 59,
+   "t0": 0,
+   "line": "the Moon with your thumb."
+  },
+  {
+   "shot": "S49",
+   "at": "f:3241",
+   "dur_f": 77,
+   "t0": 0,
+   "line": "Tonight, the glowing cratered rim spills right"
+  },
+  {
+   "shot": "S50",
+   "at": "f:3318",
+   "dur_f": 72,
+   "t0": 0,
+   "line": "past your hand at arm's length."
+  },
+  {
+   "shot": "S51",
+   "at": "f:3390",
+   "dur_f": 71,
+   "t0": 0,
+   "line": "Through your bedroom window, instead of a small"
+  },
+  {
+   "shot": "S52",
+   "at": "f:3461",
+   "dur_f": 72,
+   "t0": 0,
+   "line": "coin in the corner of the glass, a colossal"
+  },
+  {
+   "shot": "S53",
+   "at": "f:3533",
+   "dur_f": 75,
+   "t0": 0,
+   "line": "silver lantern fills the frame."
+  },
+  {
+   "shot": "S54",
+   "at": "f:3608",
+   "dur_f": 80,
+   "t0": 0,
+   "line": "Wait: isn't that just a supermoon?"
+  },
+  {
+   "shot": "S55",
+   "at": "f:3688",
+   "dur_f": 76,
+   "t0": 0,
+   "line": "(Chapter 3 Card: SUPERMOON REALITY CHECK)"
+  },
+  {
+   "shot": "S56",
+   "at": "f:3764",
+   "dur_f": 91,
+   "t0": 0,
+   "line": "Time for a supermoon reality check."
+  },
+  {
+   "shot": "S57",
+   "at": "f:3855",
+   "dur_f": 67,
+   "t0": 0,
+   "line": "According to NASA, a real supermoon"
+  },
+  {
+   "shot": "S58",
+   "at": "f:3922",
+   "dur_f": 64,
+   "t0": 0,
+   "line": "at perigee looks up to fourteen percent"
+  },
+  {
+   "shot": "S59",
+   "at": "f:3986",
+   "dur_f": 62,
+   "t0": 0,
+   "line": "bigger and thirty percent brighter than the"
+  },
+  {
+   "shot": "S60",
+   "at": "f:4048",
+   "dur_f": 81,
+   "t0": 0,
+   "line": "faintest full Moon at apogee."
+  },
+  {
+   "shot": "S61",
+   "at": "f:4129",
+   "dur_f": 62,
+   "t0": 0,
+   "line": "Fourteen percent is subtle:"
+  },
+  {
+   "shot": "S62",
+   "at": "f:4191",
+   "dur_f": 76,
+   "t0": 0,
+   "line": "you squint at the sky, shrug,"
+  },
+  {
+   "shot": "S63",
+   "at": "f:4267",
+   "dur_f": 88,
+   "t0": 0,
+   "line": "and wonder if your eyes are playing tricks."
+  },
+  {
+   "shot": "S64",
+   "at": "f:4355",
+   "dur_f": 62,
+   "t0": 0,
+   "line": "Our Moon at about one hundred ninety-"
+  },
+  {
+   "shot": "S65",
+   "at": "f:4417",
+   "dur_f": 63,
+   "t0": 0,
+   "line": "two thousand, two hundred kilometres"
+  },
+  {
+   "shot": "S66",
+   "at": "f:4480",
+   "dur_f": 62,
+   "t0": 0,
+   "line": "would be one hundred percent wider,"
+  },
+  {
+   "shot": "S67",
+   "at": "f:4542",
+   "dur_f": 64,
+   "t0": 0,
+   "line": "twice the width and about four times the"
+  },
+  {
+   "shot": "S68",
+   "at": "f:4606",
+   "dur_f": 61,
+   "t0": 0,
+   "line": "area. Put them side"
+  },
+  {
+   "shot": "S69",
+   "at": "f:4667",
+   "dur_f": 64,
+   "t0": 0,
+   "line": "by side and today's supermoon looks like"
+  },
+  {
+   "shot": "S70",
+   "at": "f:4731",
+   "dur_f": 66,
+   "t0": 0,
+   "line": "a teacup saucer while our giant Moon"
+  },
+  {
+   "shot": "S71",
+   "at": "f:4797",
+   "dur_f": 64,
+   "t0": 0,
+   "line": "looms behind you like a stadium roof until"
+  },
+  {
+   "shot": "S72",
+   "at": "f:4861",
+   "dur_f": 65,
+   "t0": 0,
+   "line": "you tip off your stool."
+  },
+  {
+   "shot": "S73",
+   "at": "f:4926",
+   "dur_f": 64,
+   "t0": 0,
+   "line": "Now watch what happens after sunset."
+  },
+  {
+   "shot": "S74",
+   "at": "f:4990",
+   "dur_f": 76,
+   "t0": 0,
+   "line": "(Chapter 4 Card: SILVER NIGHTS)"
+  },
+  {
+   "shot": "S75",
+   "at": "f:5066",
+   "dur_f": 68,
+   "t0": 0,
+   "line": "With a lunar disc covering about four times"
+  },
+  {
+   "shot": "S76",
+   "at": "f:5134",
+   "dur_f": 73,
+   "t0": 0,
+   "line": "the area, clear nights turn into a bright"
+  },
+  {
+   "shot": "S77",
+   "at": "f:5207",
+   "dur_f": 58,
+   "t0": 0,
+   "line": "silver twilight."
+  },
+  {
+   "shot": "S78",
+   "at": "f:5265",
+   "dur_f": 71,
+   "t0": 0,
+   "line": "You sit on a park bench outdoors reading a"
+  },
+  {
+   "shot": "S79",
+   "at": "f:5336",
+   "dur_f": 81,
+   "t0": 0,
+   "line": "paperback book with no flashlight at all,"
+  },
+  {
+   "shot": "S80",
+   "at": "f:5417",
+   "dur_f": 96,
+   "t0": 0,
+   "line": "while sharp shadows stretch across the path."
+  },
+  {
+   "shot": "S81",
+   "at": "f:5513",
+   "dur_f": 68,
+   "t0": 0,
+   "line": "Along the street, automatic streetlight"
+  },
+  {
+   "shot": "S82",
+   "at": "f:5581",
+   "dur_f": 70,
+   "t0": 0,
+   "line": "timers get confused by the bright sky"
+  },
+  {
+   "shot": "S83",
+   "at": "f:5651",
+   "dur_f": 68,
+   "t0": 0,
+   "line": "and switch themselves off."
+  },
+  {
+   "shot": "S84",
+   "at": "f:5719",
+   "dur_f": 62,
+   "t0": 0,
+   "line": "Up in the trees, birds stay awake"
+  },
+  {
+   "shot": "S85",
+   "at": "f:5781",
+   "dur_f": 61,
+   "t0": 0,
+   "line": "chirping at the silver glow,"
+  },
+  {
+   "shot": "S86",
+   "at": "f:5842",
+   "dur_f": 69,
+   "t0": 0,
+   "line": "and a wide- eyed neighbourhood cat paces"
+  },
+  {
+   "shot": "S87",
+   "at": "f:5911",
+   "dur_f": 80,
+   "t0": 0,
+   "line": "the fence wondering where night went."
+  },
+  {
+   "shot": "S88",
+   "at": "f:5991",
+   "dur_f": 70,
+   "t0": 0,
+   "line": "You turn another page in the quiet park,"
+  },
+  {
+   "shot": "S89",
+   "at": "f:6061",
+   "dur_f": 61,
+   "t0": 0,
+   "line": "thinking a brighter night feels peaceful."
+  },
+  {
+   "shot": "S90",
+   "at": "f:6122",
+   "dur_f": 62,
+   "t0": 0,
+   "line": "Then the ocean answers."
+  },
+  {
+   "shot": "S91",
+   "at": "f:6184",
+   "dur_f": 77,
+   "t0": 0,
+   "line": "(Chapter 5 Card: THE OCEAN AWAKENS)"
+  },
+  {
+   "shot": "S92",
+   "at": "f:6261",
+   "dur_f": 72,
+   "t0": 0,
+   "line": "NASA notes that even a real supermoon can"
+  },
+  {
+   "shot": "S93",
+   "at": "f:6333",
+   "dur_f": 81,
+   "t0": 0,
+   "line": "cause higher tides than usual."
+  },
+  {
+   "shot": "S94",
+   "at": "f:6414",
+   "dur_f": 70,
+   "t0": 0,
+   "line": "Because tidal force follows an inverse-"
+  },
+  {
+   "shot": "S95",
+   "at": "f:6484",
+   "dur_f": 74,
+   "t0": 0,
+   "line": "cube law, halving the Moon's distance"
+  },
+  {
+   "shot": "S96",
+   "at": "f:6558",
+   "dur_f": 84,
+   "t0": 0,
+   "line": "to about one hundred ninety- two thousand,"
+  },
+  {
+   "shot": "S97",
+   "at": "f:6642",
+   "dur_f": 64,
+   "t0": 0,
+   "line": "two hundred kilometres makes its pull on the"
+  },
+  {
+   "shot": "S98",
+   "at": "f:6706",
+   "dur_f": 81,
+   "t0": 0,
+   "line": "oceans about eight times stronger."
+  },
+  {
+   "shot": "S99",
+   "at": "f:6787",
+   "dur_f": 65,
+   "t0": 0,
+   "line": "Down on the beach, a wave washes under"
+  },
+  {
+   "shot": "S100",
+   "at": "f:6852",
+   "dur_f": 67,
+   "t0": 0,
+   "line": "your beach towel. You drag the"
+  },
+  {
+   "shot": "S101",
+   "at": "f:6919",
+   "dur_f": 64,
+   "t0": 0,
+   "line": "towel higher up the sand, and the"
+  },
+  {
+   "shot": "S102",
+   "at": "f:6983",
+   "dur_f": 86,
+   "t0": 0,
+   "line": "next wave chases your heels again."
+  },
+  {
+   "shot": "S103",
+   "at": "f:7069",
+   "dur_f": 65,
+   "t0": 0,
+   "line": "You move your towel again and again until"
+  },
+  {
+   "shot": "S104",
+   "at": "f:7134",
+   "dur_f": 58,
+   "t0": 0,
+   "line": "you are clinging to the top of the lifeguard"
+  },
+  {
+   "shot": "S105",
+   "at": "f:7192",
+   "dur_f": 64,
+   "t0": 0,
+   "line": "stand, while harbour boats buck"
+  },
+  {
+   "shot": "S106",
+   "at": "f:7256",
+   "dur_f": 64,
+   "t0": 0,
+   "line": "on their ropes and the tide line marches up the"
+  },
+  {
+   "shot": "S107",
+   "at": "f:7320",
+   "dur_f": 53,
+   "t0": 0,
+   "line": "stone stairs."
+  },
+  {
+   "shot": "S108",
+   "at": "f:7373",
+   "dur_f": 73,
+   "t0": 0,
+   "line": "Wait until high tide peaks hours later."
+  },
+  {
+   "shot": "S109",
+   "at": "f:7446",
+   "dur_f": 76,
+   "t0": 0,
+   "line": "(Chapter 6 Card: HOURS LATER: THE COAST)"
+  },
+  {
+   "shot": "S110",
+   "at": "f:7522",
+   "dur_f": 72,
+   "t0": 0,
+   "line": "Hours later, that eightfold tidal pull"
+  },
+  {
+   "shot": "S111",
+   "at": "f:7594",
+   "dur_f": 61,
+   "t0": 0,
+   "line": "turns low coastal streets into shallow"
+  },
+  {
+   "shot": "S112",
+   "at": "f:7655",
+   "dur_f": 69,
+   "t0": 0,
+   "line": "canals. Seawater brims"
+  },
+  {
+   "shot": "S113",
+   "at": "f:7724",
+   "dur_f": 64,
+   "t0": 0,
+   "line": "over the promenade wall and swirls around"
+  },
+  {
+   "shot": "S114",
+   "at": "f:7788",
+   "dur_f": 73,
+   "t0": 0,
+   "line": "lampposts and park benches."
+  },
+  {
+   "shot": "S115",
+   "at": "f:7861",
+   "dur_f": 67,
+   "t0": 0,
+   "line": "You paddle a yellow rubber dinghy past a"
+  },
+  {
+   "shot": "S116",
+   "at": "f:7928",
+   "dur_f": 75,
+   "t0": 0,
+   "line": "flooded street corner while cheerful crabs take"
+  },
+  {
+   "shot": "S117",
+   "at": "f:8003",
+   "dur_f": 74,
+   "t0": 0,
+   "line": "over a seaside café table."
+  },
+  {
+   "shot": "S118",
+   "at": "f:8077",
+   "dur_f": 61,
+   "t0": 0,
+   "line": "Then, when low tide arrives,"
+  },
+  {
+   "shot": "S119",
+   "at": "f:8138",
+   "dur_f": 84,
+   "t0": 0,
+   "line": "the ocean pulls back just as dramatically,"
+  },
+  {
+   "shot": "S120",
+   "at": "f:8222",
+   "dur_f": 68,
+   "t0": 0,
+   "line": "leaving harbour boats sitting high and dry"
+  },
+  {
+   "shot": "S121",
+   "at": "f:8290",
+   "dur_f": 70,
+   "t0": 0,
+   "line": "on wide muddy flats far from the pier"
+  },
+  {
+   "shot": "S122",
+   "at": "f:8360",
+   "dur_f": 68,
+   "t0": 0,
+   "line": "stairs. Tired of rowing"
+  },
+  {
+   "shot": "S123",
+   "at": "f:8428",
+   "dur_f": 75,
+   "t0": 0,
+   "line": "past street signs, you paddle home,"
+  },
+  {
+   "shot": "S124",
+   "at": "f:8503",
+   "dur_f": 71,
+   "t0": 0,
+   "line": "climb upstairs, and try to get some sleep."
+  },
+  {
+   "shot": "S125",
+   "at": "f:8574",
+   "dur_f": 77,
+   "t0": 0,
+   "line": "(Chapter 7 Card: TRYING TO SLEEP)"
+  },
+  {
+   "shot": "S126",
+   "at": "f:8651",
+   "dur_f": 65,
+   "t0": 0,
+   "line": "Inside your bedroom, sleeping under a"
+  },
+  {
+   "shot": "S127",
+   "at": "f:8716",
+   "dur_f": 59,
+   "t0": 0,
+   "line": "Moon twice as close is a losing"
+  },
+  {
+   "shot": "S128",
+   "at": "f:8775",
+   "dur_f": 70,
+   "t0": 0,
+   "line": "battle. Silver moonlight"
+  },
+  {
+   "shot": "S129",
+   "at": "f:8845",
+   "dur_f": 63,
+   "t0": 0,
+   "line": "pours through the gap in your curtains like a"
+  },
+  {
+   "shot": "S130",
+   "at": "f:8908",
+   "dur_f": 79,
+   "t0": 0,
+   "line": "searchlight aimed straight at your bed."
+  },
+  {
+   "shot": "S131",
+   "at": "f:8987",
+   "dur_f": 68,
+   "t0": 0,
+   "line": "You pull the curtains tight, slip on a"
+  },
+  {
+   "shot": "S132",
+   "at": "f:9055",
+   "dur_f": 69,
+   "t0": 0,
+   "line": "thick sleep mask, and even stack"
+  },
+  {
+   "shot": "S133",
+   "at": "f:9124",
+   "dur_f": 72,
+   "t0": 0,
+   "line": "sunglasses over the mask, yet the whole"
+  },
+  {
+   "shot": "S134",
+   "at": "f:9196",
+   "dur_f": 65,
+   "t0": 0,
+   "line": "room still glows silver."
+  },
+  {
+   "shot": "S135",
+   "at": "f:9261",
+   "dur_f": 66,
+   "t0": 0,
+   "line": "Your cat perches on the windowsill batting"
+  },
+  {
+   "shot": "S136",
+   "at": "f:9327",
+   "dur_f": 61,
+   "t0": 0,
+   "line": "at moonbeams while you hide under heavy"
+  },
+  {
+   "shot": "S137",
+   "at": "f:9388",
+   "dur_f": 79,
+   "t0": 0,
+   "line": "pillows and grumble at the ceiling."
+  },
+  {
+   "shot": "S138",
+   "at": "f:9467",
+   "dur_f": 61,
+   "t0": 0,
+   "line": "Finally you shuffle to the window,"
+  },
+  {
+   "shot": "S139",
+   "at": "f:9528",
+   "dur_f": 67,
+   "t0": 0,
+   "line": "peel back the curtain, and notice how fast"
+  },
+  {
+   "shot": "S140",
+   "at": "f:9595",
+   "dur_f": 70,
+   "t0": 0,
+   "line": "the giant Moon seems to cross the glass."
+  },
+  {
+   "shot": "S141",
+   "at": "f:9665",
+   "dur_f": 76,
+   "t0": 0,
+   "line": "(Chapter 8 Card: ORBIT AND ECLIPSES)"
+  },
+  {
+   "shot": "S142",
+   "at": "f:9741",
+   "dur_f": 65,
+   "t0": 0,
+   "line": "In our illustration, even if the Moon"
+  },
+  {
+   "shot": "S143",
+   "at": "f:9806",
+   "dur_f": 67,
+   "t0": 0,
+   "line": "keeps its twenty- seven day pace across"
+  },
+  {
+   "shot": "S144",
+   "at": "f:9873",
+   "dur_f": 67,
+   "t0": 0,
+   "line": "the sky, its twice- as-"
+  },
+  {
+   "shot": "S145",
+   "at": "f:9940",
+   "dur_f": 67,
+   "t0": 0,
+   "line": "wide disc makes its cratered edge appear to"
+  },
+  {
+   "shot": "S146",
+   "at": "f:10007",
+   "dur_f": 88,
+   "t0": 0,
+   "line": "race past rooftops and clouds."
+  },
+  {
+   "shot": "S147",
+   "at": "f:10095",
+   "dur_f": 67,
+   "t0": 0,
+   "line": "And when that giant Moon passes in front"
+  },
+  {
+   "shot": "S148",
+   "at": "f:10162",
+   "dur_f": 69,
+   "t0": 0,
+   "line": "of the Sun during a solar eclipse,"
+  },
+  {
+   "shot": "S149",
+   "at": "f:10231",
+   "dur_f": 67,
+   "t0": 0,
+   "line": "the view is unforgettable."
+  },
+  {
+   "shot": "S150",
+   "at": "f:10298",
+   "dur_f": 61,
+   "t0": 0,
+   "line": "Today, the Moon barely covers the"
+  },
+  {
+   "shot": "S151",
+   "at": "f:10359",
+   "dur_f": 70,
+   "t0": 0,
+   "line": "Sun. At about one hundred"
+  },
+  {
+   "shot": "S152",
+   "at": "f:10429",
+   "dur_f": 61,
+   "t0": 0,
+   "line": "ninety- two thousand, two hundred"
+  },
+  {
+   "shot": "S153",
+   "at": "f:10490",
+   "dur_f": 73,
+   "t0": 0,
+   "line": "kilometres, a Moon twice as wide"
+  },
+  {
+   "shot": "S154",
+   "at": "f:10563",
+   "dur_f": 60,
+   "t0": 0,
+   "line": "covers far more than the Sun,"
+  },
+  {
+   "shot": "S155",
+   "at": "f:10623",
+   "dur_f": 68,
+   "t0": 0,
+   "line": "turning midday into a deep twilight"
+  },
+  {
+   "shot": "S156",
+   "at": "f:10691",
+   "dur_f": 74,
+   "t0": 0,
+   "line": "around a huge dark silhouette while you watch through"
+  },
+  {
+   "shot": "S157",
+   "at": "f:10765",
+   "dur_f": 59,
+   "t0": 0,
+   "line": "eclipse glasses."
+  },
+  {
+   "shot": "S158",
+   "at": "f:10824",
+   "dur_f": 81,
+   "t0": 0,
+   "line": "So could the real Moon ever creep closer like this?"
+  },
+  {
+   "shot": "S159",
+   "at": "f:10905",
+   "dur_f": 77,
+   "t0": 0,
+   "line": "(Chapter 9 Card: THE REAL VERDICT)"
+  },
+  {
+   "shot": "S160",
+   "at": "f:10982",
+   "dur_f": 73,
+   "t0": 0,
+   "line": "In reality, NASA measurements show the Moon"
+  },
+  {
+   "shot": "S161",
+   "at": "f:11055",
+   "dur_f": 77,
+   "t0": 0,
+   "line": "is doing the exact opposite."
+  },
+  {
+   "shot": "S162",
+   "at": "f:11132",
+   "dur_f": 71,
+   "t0": 0,
+   "line": "Instead of moving closer, our Moon at three"
+  },
+  {
+   "shot": "S163",
+   "at": "f:11203",
+   "dur_f": 70,
+   "t0": 0,
+   "line": "hundred eighty- four thousand, four hundred"
+  },
+  {
+   "shot": "S164",
+   "at": "f:11273",
+   "dur_f": 71,
+   "t0": 0,
+   "line": "kilometres is drifting about one inch farther"
+  },
+  {
+   "shot": "S165",
+   "at": "f:11344",
+   "dur_f": 63,
+   "t0": 0,
+   "line": "from Earth every year."
+  },
+  {
+   "shot": "S166",
+   "at": "f:11407",
+   "dur_f": 68,
+   "t0": 0,
+   "line": "Astronomers track that slow retreat by"
+  },
+  {
+   "shot": "S167",
+   "at": "f:11475",
+   "dur_f": 72,
+   "t0": 0,
+   "line": "bouncing laser pulses off reflectors left"
+  },
+  {
+   "shot": "S168",
+   "at": "f:11547",
+   "dur_f": 68,
+   "t0": 0,
+   "line": "on the Moon. Earth's spinning"
+  },
+  {
+   "shot": "S169",
+   "at": "f:11615",
+   "dur_f": 68,
+   "t0": 0,
+   "line": "tidal bulge tugs our one thousand,"
+  },
+  {
+   "shot": "S170",
+   "at": "f:11683",
+   "dur_f": 69,
+   "t0": 0,
+   "line": "seven hundred forty kilometre radius neighbour"
+  },
+  {
+   "shot": "S171",
+   "at": "f:11752",
+   "dur_f": 66,
+   "t0": 0,
+   "line": "into a slightly wider orbit year after"
+  },
+  {
+   "shot": "S172",
+   "at": "f:11818",
+   "dur_f": 70,
+   "t0": 0,
+   "line": "year. Out on the sand,"
+  },
+  {
+   "shot": "S173",
+   "at": "f:11888",
+   "dur_f": 70,
+   "t0": 0,
+   "line": "you hold up a tiny ruler and wave goodbye"
+  },
+  {
+   "shot": "S174",
+   "at": "f:11958",
+   "dur_f": 68,
+   "t0": 0,
+   "line": "in slow motion. Yet this very"
+  },
+  {
+   "shot": "S175",
+   "at": "f:12026",
+   "dur_f": 69,
+   "t0": 0,
+   "line": "month, the real sky puts on a show."
+  },
+  {
+   "shot": "S176",
+   "at": "f:12095",
+   "dur_f": 76,
+   "t0": 0,
+   "line": "(Chapter 10 Card: NOVEMBER 2026 SKYWATCHING)"
+  },
+  {
+   "shot": "S177",
+   "at": "f:12171",
+   "dur_f": 67,
+   "t0": 0,
+   "line": "Up on your rooftop at dusk, NASA's"
+  },
+  {
+   "shot": "S178",
+   "at": "f:12238",
+   "dur_f": 69,
+   "t0": 0,
+   "line": "November twenty twenty- six skywatching"
+  },
+  {
+   "shot": "S179",
+   "at": "f:12307",
+   "dur_f": 57,
+   "t0": 0,
+   "line": "tips give you three real nights to mark"
+  },
+  {
+   "shot": "S180",
+   "at": "f:12364",
+   "dur_f": 68,
+   "t0": 0,
+   "line": "down. Before sunrise on"
+  },
+  {
+   "shot": "S181",
+   "at": "f:12432",
+   "dur_f": 65,
+   "t0": 0,
+   "line": "the fifteenth and sixteenth of November,"
+  },
+  {
+   "shot": "S182",
+   "at": "f:12497",
+   "dur_f": 69,
+   "t0": 0,
+   "line": "Mars and Jupiter shine just one point two"
+  },
+  {
+   "shot": "S183",
+   "at": "f:12566",
+   "dur_f": 51,
+   "t0": 0,
+   "line": "degrees apart."
+  },
+  {
+   "shot": "S184",
+   "at": "f:12617",
+   "dur_f": 70,
+   "t0": 0,
+   "line": "On the seventeenth and eighteenth of November after"
+  },
+  {
+   "shot": "S185",
+   "at": "f:12687",
+   "dur_f": 68,
+   "t0": 0,
+   "line": "moonset, the Leonid meteors"
+  },
+  {
+   "shot": "S186",
+   "at": "f:12755",
+   "dur_f": 67,
+   "t0": 0,
+   "line": "peak with up to about fifteen meteors per"
+  },
+  {
+   "shot": "S187",
+   "at": "f:12822",
+   "dur_f": 69,
+   "t0": 0,
+   "line": "hour. And on the twenty- fourth of"
+  },
+  {
+   "shot": "S188",
+   "at": "f:12891",
+   "dur_f": 72,
+   "t0": 0,
+   "line": "November twenty twenty- six at fourteen"
+  },
+  {
+   "shot": "S189",
+   "at": "f:12963",
+   "dur_f": 60,
+   "t0": 0,
+   "line": "fifty- four U T C,"
+  },
+  {
+   "shot": "S190",
+   "at": "f:13023",
+   "dur_f": 84,
+   "t0": 0,
+   "line": "the first of three supermoons in a row rises,"
+  },
+  {
+   "shot": "S191",
+   "at": "f:13107",
+   "dur_f": 73,
+   "t0": 0,
+   "line": "followed by another on the twenty- fourth of December"
+  },
+  {
+   "shot": "S192",
+   "at": "f:13180",
+   "dur_f": 57,
+   "t0": 0,
+   "line": "twenty twenty- six and a third in"
+  },
+  {
+   "shot": "S193",
+   "at": "f:13237",
+   "dur_f": 70,
+   "t0": 0,
+   "line": "January. Look east around"
+  },
+  {
+   "shot": "S194",
+   "at": "f:13307",
+   "dur_f": 66,
+   "t0": 0,
+   "line": "sunset on the twenty- fourth."
+  },
+  {
+   "shot": "S195",
+   "at": "f:13373",
+   "dur_f": 66,
+   "t0": 0,
+   "line": "Which night would you watch the giant Moon?"
+  },
+  {
+   "shot": "S196",
+   "at": "f:13439",
+   "dur_f": 96,
+   "t0": 0,
+   "line": "(End Card: IFMOSPHERE · Comment your answer · Subscribe for more what-ifs)"
+  }
+ ],
+ "fx": []
+}

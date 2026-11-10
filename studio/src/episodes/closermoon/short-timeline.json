@@ -1,0 +1,366 @@
+{
+ "slug": "closermoon",
+ "title": "WHAT IF THE MOON CAME 2X CLOSER? (SHORT)",
+ "fps": 30,
+ "total": 1351,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 65,
+   "t0": 0,
+   "t1": 65,
+   "line": "The Moon just moved twice as close."
+  },
+  {
+   "shot": "S2",
+   "a": 65,
+   "b": 120,
+   "t0": 0,
+   "t1": 55,
+   "line": "Watch what the ocean does first."
+  },
+  {
+   "shot": "S3",
+   "a": 120,
+   "b": 186,
+   "t0": 0,
+   "t1": 66,
+   "line": "Waves race up the beach, because halving the"
+  },
+  {
+   "shot": "S4",
+   "a": 186,
+   "b": 245,
+   "t0": 0,
+   "t1": 59,
+   "line": "Moon's three hundred eighty- four thousand,"
+  },
+  {
+   "shot": "S5",
+   "a": 245,
+   "b": 311,
+   "t0": 0,
+   "t1": 66,
+   "line": "four hundred kilometre distance to about one"
+  },
+  {
+   "shot": "S6",
+   "a": 311,
+   "b": 392,
+   "t0": 0,
+   "t1": 81,
+   "line": "hundred ninety- two thousand, two hundred kilometres"
+  },
+  {
+   "shot": "S7",
+   "a": 392,
+   "b": 467,
+   "t0": 0,
+   "t1": 75,
+   "line": "makes its pull grow about eight times stronger."
+  },
+  {
+   "shot": "S8",
+   "a": 467,
+   "b": 534,
+   "t0": 0,
+   "t1": 67,
+   "line": "Overhead, the Moon looks about twice as wide"
+  },
+  {
+   "shot": "S9",
+   "a": 534,
+   "b": 614,
+   "t0": 0,
+   "t1": 80,
+   "line": "and covers about four times the area in the sky."
+  },
+  {
+   "shot": "S10",
+   "a": 614,
+   "b": 680,
+   "t0": 0,
+   "t1": 66,
+   "line": "According to NASA, a real supermoon is"
+  },
+  {
+   "shot": "S11",
+   "a": 680,
+   "b": 750,
+   "t0": 0,
+   "t1": 70,
+   "line": "only up to fourteen percent bigger and thirty"
+  },
+  {
+   "shot": "S12",
+   "a": 750,
+   "b": 825,
+   "t0": 0,
+   "t1": 75,
+   "line": "percent brighter than the faintest full Moon,"
+  },
+  {
+   "shot": "S13",
+   "a": 825,
+   "b": 904,
+   "t0": 0,
+   "t1": 79,
+   "line": "while this giant is one hundred percent wider."
+  },
+  {
+   "shot": "S14",
+   "a": 904,
+   "b": 976,
+   "t0": 0,
+   "t1": 72,
+   "line": "Nights turn bright enough to read a book outdoors"
+  },
+  {
+   "shot": "S15",
+   "a": 976,
+   "b": 1036,
+   "t0": 0,
+   "t1": 60,
+   "line": "while you move your beach towel up the stairs"
+  },
+  {
+   "shot": "S16",
+   "a": 1036,
+   "b": 1094,
+   "t0": 0,
+   "t1": 58,
+   "line": "again and again. In reality,"
+  },
+  {
+   "shot": "S17",
+   "a": 1094,
+   "b": 1162,
+   "t0": 0,
+   "t1": 68,
+   "line": "the Moon drifts about one inch farther away"
+  },
+  {
+   "shot": "S18",
+   "a": 1162,
+   "b": 1226,
+   "t0": 0,
+   "t1": 64,
+   "line": "every year. Supermoon twenty- fourth"
+  },
+  {
+   "shot": "S19",
+   "a": 1226,
+   "b": 1293,
+   "t0": 0,
+   "t1": 67,
+   "line": "of November. Full film on the channel."
+  },
+  {
+   "shot": "S20",
+   "a": 1293,
+   "b": 1351,
+   "t0": 0,
+   "t1": 58,
+   "line": "(End Card: SUPERMOON 24 NOV · Loop to Frame 0)"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "ws",
+   "key": 32,
+   "len": 65,
+   "first": 0,
+   "line": "The Moon just moved twice as close.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S2",
+   "size": "insert",
+   "key": 27,
+   "len": 55,
+   "first": 65,
+   "line": "Watch what the ocean does first.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S3",
+   "size": "ms",
+   "key": 33,
+   "len": 66,
+   "first": 120,
+   "line": "Waves race up the beach, because halving the",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S4",
+   "size": "cu",
+   "key": 29,
+   "len": 59,
+   "first": 186,
+   "line": "Moon's three hundred eighty- four thousand,",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S5",
+   "size": "ots",
+   "key": 33,
+   "len": 66,
+   "first": 245,
+   "line": "four hundred kilometre distance to about one",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S6",
+   "size": "low",
+   "key": 40,
+   "len": 81,
+   "first": 311,
+   "line": "hundred ninety- two thousand, two hundred kilometres",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S7",
+   "size": "high",
+   "key": 37,
+   "len": 75,
+   "first": 392,
+   "line": "makes its pull grow about eight times stronger.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S8",
+   "size": "mcu",
+   "key": 33,
+   "len": 67,
+   "first": 467,
+   "line": "Overhead, the Moon looks about twice as wide",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S9",
+   "size": "diagram",
+   "key": 40,
+   "len": 80,
+   "first": 534,
+   "line": "and covers about four times the area in the sky.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S10",
+   "size": "ws",
+   "key": 33,
+   "len": 66,
+   "first": 614,
+   "line": "According to NASA, a real supermoon is",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S11",
+   "size": "insert",
+   "key": 35,
+   "len": 70,
+   "first": 680,
+   "line": "only up to fourteen percent bigger and thirty",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S12",
+   "size": "ms",
+   "key": 37,
+   "len": 75,
+   "first": 750,
+   "line": "percent brighter than the faintest full Moon,",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S13",
+   "size": "cu",
+   "key": 39,
+   "len": 79,
+   "first": 825,
+   "line": "while this giant is one hundred percent wider.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S14",
+   "size": "ots",
+   "key": 36,
+   "len": 72,
+   "first": 904,
+   "line": "Nights turn bright enough to read a book outdoors",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S15",
+   "size": "low",
+   "key": 30,
+   "len": 60,
+   "first": 976,
+   "line": "while you move your beach towel up the stairs",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S16",
+   "size": "high",
+   "key": 29,
+   "len": 58,
+   "first": 1036,
+   "line": "again and again. In reality,",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S17",
+   "size": "mcu",
+   "key": 34,
+   "len": 68,
+   "first": 1094,
+   "line": "the Moon drifts about one inch farther away",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S18",
+   "size": "diagram",
+   "key": 32,
+   "len": 64,
+   "first": 1162,
+   "line": "every year. Supermoon twenty- fourth",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S19",
+   "size": "ws",
+   "key": 33,
+   "len": 67,
+   "first": 1226,
+   "line": "of November. Full film on the channel.",
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S20",
+   "size": "insert",
+   "key": 29,
+   "len": 58,
+   "first": 1293,
+   "line": "(End Card: SUPERMOON 24 NOV · Loop to Frame 0)",
+   "note": "Short (end_loop)"
+  }
+ ],
+ "fx": [
+  {
+   "f": 65,
+   "kind": "shake",
+   "len": 8,
+   "amp": 9
+  }
+ ],
+ "audio": {
+  "voice": "closermoon/short-voice.wav",
+  "sfx": "closermoon/short-sfx.wav",
+  "music": "closermoon/short-music.wav",
+  "voiceVol": 0.85,
+  "sfxVol": 0.3,
+  "musicVol": 0.2
+ }
+}

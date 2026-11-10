@@ -1,0 +1,345 @@
+{
+ "id": "ClosermoonShort",
+ "slug": "closermoon",
+ "short": true,
+ "channel": {
+  "name": "Ifmosphere",
+  "tagline": "Step into the what if."
+ },
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "topic": "What If the Moon Came Twice as Close? (Vertical Short)",
+ "title": [
+  "WHAT IF THE MOON",
+  "CAME 2X CLOSER?"
+ ],
+ "accent": "2X CLOSER",
+ "voice": {
+  "id": "CwhRBWXzGAHq8TQ4Fs17",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.66,
+   "similarity_boost": 0.82,
+   "style": 0.1,
+   "use_speaker_boost": true
+  }
+ },
+ "script": [
+  {
+   "beat": "0 cold open hook (0-4s): beach, giant Moon, MOON 2X CLOSER",
+   "text": "The Moon just moved twice as close. Watch what the ocean does first."
+  },
+  {
+   "beat": "1 payoff: tide climbing PULL x8 (192,200 km vs 384,400 km)",
+   "text": "Waves race up the beach, because halving the Moon's three hundred eighty-four thousand, four hundred kilometre distance to about one hundred ninety-two thousand, two hundred kilometres makes its pull grow about eight times stronger."
+  },
+  {
+   "beat": "2 sky size x2 wide, x4 area",
+   "text": "Overhead, the Moon looks about twice as wide and covers about four times the area in the sky."
+  },
+  {
+   "beat": "3 supermoon reality check: only 14% bigger and 30% brighter (NASA)",
+   "text": "According to NASA, a real supermoon is only up to fourteen percent bigger and thirty percent brighter than the faintest full Moon, while this giant is one hundred percent wider."
+  },
+  {
+   "beat": "4 night bright + towel gag",
+   "text": "Nights turn bright enough to read a book outdoors while you move your beach towel up the stairs again and again."
+  },
+  {
+   "beat": "5 reality: Moon drifts 1 inch a year",
+   "text": "In reality, the Moon drifts about one inch farther away every year."
+  },
+  {
+   "beat": "6 end CTA: Supermoon 24 Nov + loop to frame 0",
+   "text": "Supermoon twenty-fourth of November. Full film on the channel."
+  }
+ ],
+ "science": [
+  {
+   "claim": "The Moon's average distance from Earth is 384,400 km (238,855 mi), its radius is 1,740 km, it orbits Earth in 27 days, and it drifts away by about 1 inch per year.",
+   "working": "Direct NASA lunar fact sheet values: mean orbit distance 384,400 km (238,855 miles), equatorial/mean radius 1,740 km, sidereal orbital period 27 days, lunar laser ranging recession ~1 inch/year.",
+   "source": "NASA Moon Facts https://science.nasa.gov/moon/facts/"
+  },
+  {
+   "claim": "The Moon's orbit is slightly oval, with perigee at ~363,300 km (226,000 mi) and apogee at ~405,500 km (251,000 mi); a supermoon looks up to 14% bigger and 30% brighter than the faintest full Moon, can cause higher tides than usual, and occurs on 24 Nov 2026 at 14:54 UTC and 24 Dec 2026.",
+   "working": "At perigee (~363,300 km) vs apogee (~405,500 km), apparent angular diameter increases by up to ~14% and illuminated flux by ~30%; alignment of full Moon with perigee produces perigean spring tides.",
+   "source": "NASA Supermoons https://science.nasa.gov/moon/supermoons/"
+  },
+  {
+   "claim": "In November 2026, Mars and Jupiter appear 1.2 degrees apart before sunrise on 15-16 Nov; the Leonid meteor shower peaks on 17-18 Nov after moonset with up to ~15 meteors per hour; the 24 Nov supermoon is the first of three supermoons in a row across November, December, and January.",
+   "working": "Skywatching calendar dates and rates directly from NASA's November 2026 guide.",
+   "source": "NASA What's Up Nov 2026 https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/"
+  },
+  {
+   "claim": "At half of the average distance (about 192,200 km), the Moon appears about twice as wide (100% wider), covers about four times the area in the sky, and exerts about eight times the tidal pull.",
+   "working": "Half of 384,400 km = 192,200 km. Apparent angular width scales as 1/d = 2x (100% wider); solid-angle sky area scales as (1/d)^2 = 4x; differential gravitational tidal force scales as inverse cube (1/d)^3 = 2^3 = 8x.",
+   "source": "Computed from NASA Moon Facts https://science.nasa.gov/moon/facts/ and inverse-cube tidal physics"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "ws",
+   "key": 32,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S2",
+   "size": "insert",
+   "key": 27,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S3",
+   "size": "ms",
+   "key": 33,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S4",
+   "size": "cu",
+   "key": 29,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S5",
+   "size": "ots",
+   "key": 33,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S6",
+   "size": "low",
+   "key": 40,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S7",
+   "size": "high",
+   "key": 37,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S8",
+   "size": "mcu",
+   "key": 33,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S9",
+   "size": "diagram",
+   "key": 40,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S10",
+   "size": "ws",
+   "key": 33,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S11",
+   "size": "insert",
+   "key": 35,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S12",
+   "size": "ms",
+   "key": 37,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S13",
+   "size": "cu",
+   "key": 39,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S14",
+   "size": "ots",
+   "key": 36,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S15",
+   "size": "low",
+   "key": 30,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S16",
+   "size": "high",
+   "key": 29,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S17",
+   "size": "mcu",
+   "key": 34,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S18",
+   "size": "diagram",
+   "key": 32,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S19",
+   "size": "ws",
+   "key": 33,
+   "note": "Short (speech)"
+  },
+  {
+   "id": "S20",
+   "size": "insert",
+   "key": 29,
+   "note": "Short (end_loop)"
+  }
+ ],
+ "edit": [
+  {
+   "shot": "S1",
+   "at": "f:0",
+   "dur_f": 65,
+   "t0": 0,
+   "line": "The Moon just moved twice as close."
+  },
+  {
+   "shot": "S2",
+   "at": "f:65",
+   "dur_f": 55,
+   "t0": 0,
+   "line": "Watch what the ocean does first."
+  },
+  {
+   "shot": "S3",
+   "at": "f:120",
+   "dur_f": 66,
+   "t0": 0,
+   "line": "Waves race up the beach, because halving the"
+  },
+  {
+   "shot": "S4",
+   "at": "f:186",
+   "dur_f": 59,
+   "t0": 0,
+   "line": "Moon's three hundred eighty- four thousand,"
+  },
+  {
+   "shot": "S5",
+   "at": "f:245",
+   "dur_f": 66,
+   "t0": 0,
+   "line": "four hundred kilometre distance to about one"
+  },
+  {
+   "shot": "S6",
+   "at": "f:311",
+   "dur_f": 81,
+   "t0": 0,
+   "line": "hundred ninety- two thousand, two hundred kilometres"
+  },
+  {
+   "shot": "S7",
+   "at": "f:392",
+   "dur_f": 75,
+   "t0": 0,
+   "line": "makes its pull grow about eight times stronger."
+  },
+  {
+   "shot": "S8",
+   "at": "f:467",
+   "dur_f": 67,
+   "t0": 0,
+   "line": "Overhead, the Moon looks about twice as wide"
+  },
+  {
+   "shot": "S9",
+   "at": "f:534",
+   "dur_f": 80,
+   "t0": 0,
+   "line": "and covers about four times the area in the sky."
+  },
+  {
+   "shot": "S10",
+   "at": "f:614",
+   "dur_f": 66,
+   "t0": 0,
+   "line": "According to NASA, a real supermoon is"
+  },
+  {
+   "shot": "S11",
+   "at": "f:680",
+   "dur_f": 70,
+   "t0": 0,
+   "line": "only up to fourteen percent bigger and thirty"
+  },
+  {
+   "shot": "S12",
+   "at": "f:750",
+   "dur_f": 75,
+   "t0": 0,
+   "line": "percent brighter than the faintest full Moon,"
+  },
+  {
+   "shot": "S13",
+   "at": "f:825",
+   "dur_f": 79,
+   "t0": 0,
+   "line": "while this giant is one hundred percent wider."
+  },
+  {
+   "shot": "S14",
+   "at": "f:904",
+   "dur_f": 72,
+   "t0": 0,
+   "line": "Nights turn bright enough to read a book outdoors"
+  },
+  {
+   "shot": "S15",
+   "at": "f:976",
+   "dur_f": 60,
+   "t0": 0,
+   "line": "while you move your beach towel up the stairs"
+  },
+  {
+   "shot": "S16",
+   "at": "f:1036",
+   "dur_f": 58,
+   "t0": 0,
+   "line": "again and again. In reality,"
+  },
+  {
+   "shot": "S17",
+   "at": "f:1094",
+   "dur_f": 68,
+   "t0": 0,
+   "line": "the Moon drifts about one inch farther away"
+  },
+  {
+   "shot": "S18",
+   "at": "f:1162",
+   "dur_f": 64,
+   "t0": 0,
+   "line": "every year. Supermoon twenty- fourth"
+  },
+  {
+   "shot": "S19",
+   "at": "f:1226",
+   "dur_f": 67,
+   "t0": 0,
+   "line": "of November. Full film on the channel."
+  },
+  {
+   "shot": "S20",
+   "at": "f:1293",
+   "dur_f": 58,
+   "t0": 0,
+   "line": "(End Card: SUPERMOON 24 NOV · Loop to Frame 0)"
+  }
+ ],
+ "fx": []
+}
