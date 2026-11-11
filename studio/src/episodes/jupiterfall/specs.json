@@ -452,7 +452,6 @@
  "S17": {
   "bg": {
    "k": "space",
-   "jr": null,
    "seed": 14,
    "nebula": "#7A4FB8"
   },
@@ -2057,7 +2056,6 @@
  "S76": {
   "bg": {
    "k": "space",
-   "jr": null,
    "seed": 59,
    "earth": {
     "x": 0.75,
@@ -2082,7 +2080,6 @@
  "S77": {
   "bg": {
    "k": "space",
-   "jr": null,
    "seed": 60,
    "earth": {
     "x": 0.5,
@@ -4325,7 +4322,6 @@
  "S167": {
   "bg": {
    "k": "space",
-   "jr": null,
    "seed": 65,
    "moons": [
     [
