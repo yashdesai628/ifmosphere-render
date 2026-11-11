@@ -20,7 +20,7 @@ const FALL: Record<string, { top: string; bot: string; wisp: string; part: strin
   top: { top: '#1B1740', bot: '#E7B982', wisp: '#FFE2B8', part: '#FFFFFF' },
 };
 
-const OVX = (W: number, H: number) => ({ x: -W * 0.7, y: -H * 0.7, w: W * 2.4, h: H * 2.4 });
+const OVX = (W: number, H: number) => ({ x: -W * 0.7, y: -H * 0.7, w: W * 2.4, h: H * 2.4, width: W * 2.4, height: H * 2.4 });
 const Stars: React.FC<{ W: number; H: number; seed: number; n?: number; o?: number }> = ({ W, H, seed, n = 90, o = 0.85 }) => (
   <g>
     {Array.from({ length: n }).map((_, i) => (
@@ -100,7 +100,7 @@ const Limb: React.FC<{ s: BgSpec; W: number; H: number; t: number; p: number }> 
       <rect {...o} fill={s.sky ?? '#05040E'} />
       {s.stars !== false ? <Stars W={W} H={H} seed={s.seed ?? 3} n={s.sn ?? 110} /> : null}
       {s.haze ? <rect x={o.x} y={cy - R - 40} width={o.w} height={160} fill={s.haze} opacity={0.18} /> : null}
-      <Disc id="lb" cx={cx} cy={cy} R={R} rot={tw(s.rot, p, 0)} pal={PAL[s.pal ?? 'jup']} seed={s.seed ?? 3} flow={t * (s.flow ?? 0.05)} spot={s.spot} light={s.light} glow={s.glow} eddies={s.eddies ?? 3} minH={s.minH} maxH={s.maxH} amp={s.amp} />
+      <Disc id="jf_lb" cx={cx} cy={cy} R={R} rot={tw(s.rot, p, 0)} pal={PAL[s.pal ?? 'jup']} seed={s.seed ?? 3} flow={t * (s.flow ?? 0.05)} spot={s.spot} light={s.light} glow={s.glow} eddies={s.eddies ?? 3} minH={s.minH} maxH={s.maxH} amp={s.amp} />
     </g>
   );
 };
@@ -156,23 +156,23 @@ const Fall: React.FC<{ s: BgSpec; W: number; H: number; t: number; p: number }> 
   return (
     <g transform={`rotate(${rot} ${W / 2} ${H / 2})`}>
       <defs>
-        <linearGradient id="fg" x1="0" y1="0" x2="0" y2="1">
+        <linearGradient id="jf_fg" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stopColor={F.top} />
           <stop offset="100%" stopColor={F.bot} />
         </linearGradient>
-        <radialGradient id="fw">
+        <radialGradient id="jf_fw">
           <stop offset="0%" stopColor={F.wisp} stopOpacity={0.9} />
           <stop offset="100%" stopColor={F.wisp} stopOpacity={0} />
         </radialGradient>
       </defs>
-      <rect {...o} fill="url(#fg)" />
+      <rect {...o} fill="url(#jf_fg)" />
       {Array.from({ length: n }).map((_, i) => {
         const z = 0.25 + rnd(s.seed ?? 4, i) * 0.9;
         const y = ((((rnd((s.seed ?? 4) + 1, i) * span + dir * t * sp * z * 6) % span) + span) % span) - H * 0.45;
         const x = -W * 0.3 + rnd((s.seed ?? 4) + 2, i) * W * 1.6;
         const rx = (s.wide ?? 1) * (120 + rnd((s.seed ?? 4) + 4, i) * 360) * z;
         const ry = (s.thick ?? 1) * (14 + rnd((s.seed ?? 4) + 5, i) * 40) * z;
-        return <ellipse key={i} cx={x} cy={y} rx={rx} ry={ry} fill="url(#fw)" opacity={(s.dens ?? 0.5) * (0.35 + 0.65 * z)} />;
+        return <ellipse key={i} cx={x} cy={y} rx={rx} ry={ry} fill="url(#jf_fw)" opacity={(s.dens ?? 0.5) * (0.35 + 0.65 * z)} />;
       })}
       {part ? (
         <g>
@@ -207,17 +207,17 @@ const Ocean: React.FC<{ s: BgSpec; W: number; H: number; t: number; p: number }>
     return (
       <g transform={`rotate(${tw(s.rot, p, 0)} ${W / 2} ${H / 2})`}>
         <defs>
-          <linearGradient id="osk" x1="0" y1="0" x2="0" y2="1">
+          <linearGradient id="jf_osk" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stopColor={s.sky1 ?? '#2A2250'} />
             <stop offset="100%" stopColor={s.sky2 ?? '#F0A060'} />
           </linearGradient>
-          <linearGradient id="osea" x1="0" y1="0" x2="0" y2="1">
+          <linearGradient id="jf_osea" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stopColor={s.sea1 ?? '#6FB8D8'} />
             <stop offset="100%" stopColor={s.sea2 ?? '#0B2450'} />
           </linearGradient>
         </defs>
-        <rect x={o.x} y={o.y} width={o.w} height={hz - o.y} fill="url(#osk)" />
-        <rect x={o.x} y={hz} width={o.w} height={o.y + o.h - hz} fill="url(#osea)" />
+        <rect x={o.x} y={o.y} width={o.w} height={hz - o.y} fill="url(#jf_osk)" />
+        <rect x={o.x} y={hz} width={o.w} height={o.y + o.h - hz} fill="url(#jf_osea)" />
         {s.sun ? <circle cx={s.sun[0] * W} cy={hz - 10} r={s.sun[1]} fill="#FFE9B8" opacity={0.85} /> : null}
         {Array.from({ length: rows }).map((_, i) => {
           const q = (i + 1) / rows;
@@ -243,21 +243,21 @@ const Ocean: React.FC<{ s: BgSpec; W: number; H: number; t: number; p: number }>
   return (
     <g transform={`rotate(${tw(s.rot, p, 0)} ${W / 2} ${H / 2})`}>
       <defs>
-        <linearGradient id="ou" x1="0" y1="0" x2="0" y2="1">
+        <linearGradient id="jf_ou" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stopColor={s.c1 ?? top} />
           <stop offset="55%" stopColor={s.c2 ?? '#0E3C74'} />
           <stop offset="100%" stopColor={s.c3 ?? '#050B24'} />
         </linearGradient>
-        <linearGradient id="oray" x1="0" y1="0" x2="0" y2="1">
+        <linearGradient id="jf_oray" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stopColor="#CFF8FF" stopOpacity={0.5} />
           <stop offset="100%" stopColor="#CFF8FF" stopOpacity={0} />
         </linearGradient>
       </defs>
-      <rect {...o} fill="url(#ou)" />
+      <rect {...o} fill="url(#jf_ou)" />
       {Array.from({ length: s.rays ?? 7 }).map((_, i) => {
         const x = W * (0.05 + rnd(41 + (s.seed ?? 0), i) * 0.9);
         const w = 40 + rnd(42, i) * 120;
-        return <path key={i} d={`M ${x - w * 0.3} ${-H * 0.1} L ${x + w * 0.3} ${-H * 0.1} L ${x + w * 2 + Math.sin(t * 0.03 + i) * 30} ${H * 1.1} L ${x - w * 2} ${H * 1.1} Z`} fill="url(#oray)" opacity={0.45} />;
+        return <path key={i} d={`M ${x - w * 0.3} ${-H * 0.1} L ${x + w * 0.3} ${-H * 0.1} L ${x + w * 2 + Math.sin(t * 0.03 + i) * 30} ${H * 1.1} L ${x - w * 2} ${H * 1.1} Z`} fill="url(#jf_oray)" opacity={0.45} />;
       })}
       {Array.from({ length: s.bn ?? 30 }).map((_, i) => {
         const z = 0.4 + rnd(51 + (s.seed ?? 0), i) * 1.1;
@@ -285,7 +285,7 @@ const Metal: React.FC<{ s: BgSpec; W: number; H: number; t: number; p: number }>
   return (
     <g>
       <defs>
-        <linearGradient id="mt" x1="0" y1="0" x2="1" y2="1">
+        <linearGradient id="jf_mt" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0%" stopColor={s.m1 ?? '#2A3342'} />
           <stop offset="35%" stopColor={s.m2 ?? '#B9C4D4'} />
           <stop offset="52%" stopColor="#F4F8FF" />
@@ -293,7 +293,7 @@ const Metal: React.FC<{ s: BgSpec; W: number; H: number; t: number; p: number }>
           <stop offset="100%" stopColor={s.m4 ?? '#1C202C'} />
         </linearGradient>
       </defs>
-      <rect {...o} fill="url(#mt)" />
+      <rect {...o} fill="url(#jf_mt)" />
       <g transform={`rotate(${ang} ${W / 2} ${H / 2})`}>
         {Array.from({ length: 12 }).map((_, i) => {
           const y = -H * 0.5 + (i / 12) * H * 2 + Math.sin(t * 0.03 + i) * 12;
@@ -341,19 +341,19 @@ const Core: React.FC<{ s: BgSpec; W: number; H: number; t: number; p: number }> 
   return (
     <g>
       <defs>
-        <radialGradient id="cg" cx={gx / W} cy={gy / H} r={0.75}>
+        <radialGradient id="jf_cg" cx={gx / W} cy={gy / H} r={0.75}>
           <stop offset="0%" stopColor={s.c0 ?? '#FFF1C8'} stopOpacity={1} />
           <stop offset="25%" stopColor={s.c1 ?? '#FFB866'} stopOpacity={0.95} />
           <stop offset="60%" stopColor={s.c2 ?? '#B44A5A'} stopOpacity={0.8} />
           <stop offset="100%" stopColor="#120820" stopOpacity={1} />
         </radialGradient>
-        <linearGradient id="cfl" x1="0" y1="0" x2="0" y2="1">
+        <linearGradient id="jf_cfl" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stopColor="#6A5A78" />
           <stop offset="100%" stopColor="#2A2038" />
         </linearGradient>
       </defs>
       <rect {...o} fill="#120820" />
-      <rect {...o} fill="url(#cg)" opacity={0.35 + glow * 0.65} />
+      <rect {...o} fill="url(#jf_cg)" opacity={0.35 + glow * 0.65} />
       {Array.from({ length: 44 }).map((_, i) => {
         const a = rnd(71, i) * 6.28;
         const r = 40 + ((rnd(72, i) * 700 + t * (1 + rnd(73, i) * 2.4)) % 700);
@@ -361,7 +361,7 @@ const Core: React.FC<{ s: BgSpec; W: number; H: number; t: number; p: number }> 
       })}
       {floor > 0.02 ? (
         <g opacity={floor}>
-          <path d={`M ${-W * 0.2} ${H * 0.82} Q ${W * 0.3} ${H * 0.76} ${W * 0.55} ${H * 0.82} T ${W * 1.2} ${H * 0.8} L ${W * 1.2} ${H * 1.3} L ${-W * 0.2} ${H * 1.3} Z`} fill="url(#cfl)" stroke="#CDB8E8" strokeWidth={5} />
+          <path d={`M ${-W * 0.2} ${H * 0.82} Q ${W * 0.3} ${H * 0.76} ${W * 0.55} ${H * 0.82} T ${W * 1.2} ${H * 0.8} L ${W * 1.2} ${H * 1.3} L ${-W * 0.2} ${H * 1.3} Z`} fill="url(#jf_cfl)" stroke="#CDB8E8" strokeWidth={5} />
           {Array.from({ length: 9 }).map((_, i) => (
             <path key={i} d={`M ${rnd(75, i) * W} ${H * 0.86 + rnd(76, i) * 120} l 60 -12 l 50 8`} stroke="#CDB8E8" strokeWidth={3} fill="none" opacity={0.6} />
           ))}
@@ -383,7 +383,7 @@ const Space: React.FC<{ s: BgSpec; W: number; H: number; t: number; p: number }>
       <rect {...o} fill={s.sky ?? '#05040E'} />
       <Stars W={W} H={H} seed={s.seed ?? 8} n={s.sn ?? 120} />
       {s.nebula ? <ellipse cx={W * 0.3} cy={H * 0.3} rx={W * 0.5} ry={H * 0.25} fill={s.nebula} opacity={0.12} transform="rotate(-20 0 0)" /> : null}
-      {s.jr !== null && s.jr !== undefined ? <Disc id="sp" cx={jx} cy={jy} R={jr} rot={tw(s.rot, p, 0)} pal={PAL[s.pal ?? 'jup']} seed={s.seed ?? 8} flow={t * 0.05} spot={s.spot} light={s.light ?? -0.4} eddies={2} /> : null}
+      {s.jr !== null && s.jr !== undefined ? <Disc id="jf_sp" cx={jx} cy={jy} R={jr} rot={tw(s.rot, p, 0)} pal={PAL[s.pal ?? 'jup']} seed={s.seed ?? 8} flow={t * 0.05} spot={s.spot} light={s.light ?? -0.4} eddies={2} /> : null}
       {E ? <EarthDisc x={tw(E.x, p) * W} y={tw(E.y, p) * H} r={tw(E.r, p) * H} /> : null}
       {s.moons
         ? (s.moons as number[][]).map((m, i) => <circle key={i} cx={m[0] * W} cy={m[1] * H} r={m[2]} fill={['#E8E0C8', '#D8A858', '#C7C2D2', '#9AA7B8'][i % 4]} />)
@@ -465,7 +465,7 @@ const Diagram: React.FC<{ s: BgSpec; W: number; H: number; t: number; p: number 
         ? Array.from({ length: 20 }).map((_, i) => <line key={i} x1={-W} x2={W * 2} y1={i * 80 - 200} y2={i * 80 - 200} stroke="#2A2A5A" strokeWidth={1.4} opacity={0.5} />)
         : null}
       <defs>
-        <radialGradient id="dgc">
+        <radialGradient id="jf_dgc">
           <stop offset="0%" stopColor="#FFF4CF" />
           <stop offset="60%" stopColor="#FFC58A" stopOpacity={0.85} />
           <stop offset="100%" stopColor="#FF8A5A" stopOpacity={0} />
@@ -474,7 +474,7 @@ const Diagram: React.FC<{ s: BgSpec; W: number; H: number; t: number; p: number 
       {ring(1, '#E7CFA6', 'clouds')}
       {ring(0.93, '#2F77B8', 'ocean')}
       {ring(0.5, '#B9C4D6', 'metal')}
-      <circle cx={cx} cy={cy} r={R * 0.2} fill="url(#dgc)" stroke={hi === 'core' ? '#fff' : 'none'} strokeWidth={8} />
+      <circle cx={cx} cy={cy} r={R * 0.2} fill="url(#jf_dgc)" stroke={hi === 'core' ? '#fff' : 'none'} strokeWidth={8} />
       {[0.5, 0.2].map((r, i) => (
         <circle key={i} cx={cx} cy={cy} r={R * r} fill="none" stroke="#fff" strokeOpacity={0.3} strokeDasharray="14 14" strokeWidth={3} />
       ))}
@@ -508,22 +508,22 @@ const Roof: React.FC<{ s: BgSpec; W: number; H: number; t: number; p: number }> 
   return (
     <g>
       <defs>
-        <linearGradient id="rsk" x1="0" y1="0" x2="0" y2="1">
+        <linearGradient id="jf_rsk" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stopColor="#070818" />
           <stop offset="55%" stopColor={dawn > 0.6 ? '#2A2250' : '#10123A'} />
           <stop offset="100%" stopColor={dawn > 0.6 ? '#F08E6A' : '#6A3A5A'} />
         </linearGradient>
-        <radialGradient id="rgl">
+        <radialGradient id="jf_rgl">
           <stop offset="0%" stopColor="#FFFFFF" stopOpacity={0.95} />
           <stop offset="100%" stopColor="#FFFFFF" stopOpacity={0} />
         </radialGradient>
       </defs>
-      <rect {...o} fill="url(#rsk)" />
+      <rect {...o} fill="url(#jf_rsk)" />
       <Stars W={W} H={H} seed={9} n={80} o={0.9 - dawn * 0.5} />
-      <circle cx={jx} cy={jy} r={46 * jb} fill="url(#rgl)" />
+      <circle cx={jx} cy={jy} r={46 * jb} fill="url(#jf_rgl)" />
       <circle cx={jx} cy={jy} r={10 * jb} fill="#FFF8E6" />
       <circle cx={jx + gap} cy={jy + gap * 0.18} r={4.5} fill="#FF7B5A" />
-      <circle cx={jx + gap} cy={jy + gap * 0.18} r={16} fill="url(#rgl)" opacity={0.35} />
+      <circle cx={jx + gap} cy={jy + gap * 0.18} r={16} fill="url(#jf_rgl)" opacity={0.35} />
       {s.moons ? (
         <g>
           {[0, 1].map((m) => (
@@ -559,7 +559,7 @@ const Info: React.FC<{ s: BgSpec; W: number; H: number; t: number; p: number }> 
     return (
       <g>
         {base}
-        <Disc id="si" cx={jx} cy={jy} R={R} rot={-8} pal={PAL.jup} seed={5} flow={t * 0.03} light={-0.3} eddies={2} />
+        <Disc id="jf_si" cx={jx} cy={jy} R={R} rot={-8} pal={PAL.jup} seed={5} flow={t * 0.03} light={-0.3} eddies={2} />
         <EarthDisc x={ex} y={jy + R * 0.2} r={r0} />
         <path d={`M ${jx - R} ${jy + R + 40} L ${jx + R} ${jy + R + 40}`} stroke="#FFE27A" strokeWidth={5} />
         <path d={`M ${ex - r0} ${jy + R * 0.2 + r0 + 40} L ${ex + r0} ${jy + R * 0.2 + r0 + 40}`} stroke="#FFE27A" strokeWidth={5} />
@@ -670,12 +670,12 @@ const Wash: React.FC<{ s: BgSpec; W: number; H: number }> = ({ s, W, H }) => {
   return (
     <g>
       <defs>
-        <radialGradient id="wsh" cx={s.cx ?? 0.5} cy={s.cy ?? 0.5} r={0.8}>
+        <radialGradient id="jf_wsh" cx={s.cx ?? 0.5} cy={s.cy ?? 0.5} r={0.8}>
           <stop offset="0%" stopColor={s.c1 ?? '#4A2A6A'} />
           <stop offset="100%" stopColor={s.c2 ?? '#0A0614'} />
         </radialGradient>
       </defs>
-      <rect {...o} fill="url(#wsh)" />
+      <rect {...o} fill="url(#jf_wsh)" />
     </g>
   );
 };

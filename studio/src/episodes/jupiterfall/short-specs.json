@@ -26,7 +26,7 @@
    {
     "t": "JUPITER HAS NO GROUND",
     "st": "big",
-    "slot": "t2"
+    "slot": "b2"
    }
   ],
   "props": [
@@ -347,8 +347,8 @@
    "hz": 0.8
   },
   "pip": {
-   "x": 0.35,
-   "y": 0.78,
+   "x": 0.3,
+   "y": 0.84,
    "s": 0.8,
    "pose": "pointUp",
    "helmet": 0,
@@ -358,7 +358,7 @@
    {
     "t": "SEE IT FOR REAL",
     "st": "big",
-    "slot": "b2"
+    "slot": "t"
    }
   ]
  },
@@ -498,7 +498,7 @@
    {
     "t": "JUPITER HAS NO GROUND",
     "st": "big",
-    "slot": "t2",
+    "slot": "b2",
     "at": 40
    }
   ],
