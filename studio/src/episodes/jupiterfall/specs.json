@@ -342,7 +342,7 @@
   "bg": {
    "k": "info",
    "viz": "sizes",
-   "er": 0.045
+   "er": 0.034
   },
   "texts": [
    {
@@ -472,19 +472,19 @@
  },
  "S18": {
   "bg": {
-   "k": "diagram",
-   "R": 0.42,
-   "cx": 0.5,
-   "depth": 0,
-   "ray": false,
-   "hi": "ocean",
-   "grid": false
+   "k": "info",
+   "viz": "grid",
+   "R": 0.38,
+   "fill": 0,
+   "cx": 0.6,
+   "bg": "#140E26"
   },
   "texts": [
    {
     "t": "IF IT WERE HOLLOW...",
     "st": "big",
-    "slot": "t"
+    "slot": "ml",
+    "size": 64
    }
   ]
  },
@@ -2434,20 +2434,36 @@
  },
  "S91": {
   "bg": {
-   "k": "diagram",
-   "R": 0.42,
-   "cx": 0.5,
-   "depth": 0.07,
-   "hi": "clouds",
-   "ang": -90
+   "k": "fall",
+   "pal": "water",
+   "seed": 79,
+   "sp": 0.9,
+   "dens": 0.35,
+   "part": "drop",
+   "pn": 10
+  },
+  "pip": {
+   "x": 0.62,
+   "y": 0.5,
+   "s": 0.7,
+   "pose": "point",
+   "flip": -1
   },
   "texts": [
    {
     "t": "LAYER 3 OF 3",
-    "st": "chip",
-    "slot": "tl"
+    "st": "big",
+    "slot": "ml",
+    "size": 70
    }
-  ]
+  ],
+  "gauge": {
+   "st": "bar",
+   "depth": "71 km",
+   "slot": "tr",
+   "fill": 1,
+   "layer": "LAST CLOUD"
+  }
  },
  "S92": {
   "bg": {
@@ -2582,23 +2598,32 @@
  },
  "S98": {
   "bg": {
-   "k": "diagram",
-   "R": 0.42,
-   "cx": 0.62,
-   "depth": [
-    0.1,
-    0.4
-   ],
-   "hi": "ocean",
-   "bg": "#160A12"
+   "k": "wash",
+   "c1": "#6A2A1A",
+   "c2": "#0A0408",
+   "cy": 0.4
+  },
+  "pip": {
+   "x": 0.3,
+   "y": 0.6,
+   "s": 1.0,
+   "pose": "brace",
+   "look": "dark"
   },
   "texts": [
    {
     "t": "PRESSURE + HEAT",
-    "st": "sticker",
-    "slot": "tl"
+    "st": "big",
+    "slot": "t"
    }
   ],
+  "gauge": {
+   "st": "warn",
+   "depth": "!!!",
+   "slot": "mr",
+   "layer": "DEEP INSIDE",
+   "shake": 8
+  },
   "label": {
    "st": "pill",
    "a": "NASA",

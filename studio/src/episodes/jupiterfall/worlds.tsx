@@ -602,7 +602,7 @@ const Info: React.FC<{ s: BgSpec; W: number; H: number; t: number; p: number }> 
         {base}
         <path d={`M ${cx - R} ${cy} A ${R} ${R} 0 0 1 ${cx + R} ${cy}`} fill="none" stroke="#2D2D66" strokeWidth={R * 0.2} strokeLinecap="round" />
         <path d={`M ${cx - R} ${cy} A ${R} ${R} 0 0 1 ${cx + R * Math.cos(a - Math.PI) * -1 * -1 - 0} ${cy}`} fill="none" stroke="none" />
-        <path d={`M ${cx - R} ${cy} A ${R} ${R} 0 ${needle > 0.5 ? 1 : 0} 1 ${cx + Math.cos(a) * R} ${cy + Math.sin(a) * R}`} fill="none" stroke={s.arc ?? '#FF5A4A'} strokeWidth={R * 0.2} strokeLinecap="round" />
+        <path d={`M ${cx - R} ${cy} A ${R} ${R} 0 0 1 ${cx + Math.cos(a) * R} ${cy + Math.sin(a) * R}`} fill="none" stroke={s.arc ?? '#FF5A4A'} strokeWidth={R * 0.2} strokeLinecap="round" />
         {Array.from({ length: 19 }).map((_, i) => {
           const q = Math.PI * (1 + i / 18);
           return <line key={i} x1={cx + Math.cos(q) * R * 0.78} y1={cy + Math.sin(q) * R * 0.78} x2={cx + Math.cos(q) * R * (i % 3 ? 0.86 : 0.92)} y2={cy + Math.sin(q) * R * (i % 3 ? 0.86 : 0.92)} stroke="#F6EFE3" strokeWidth={i % 3 ? 3 : 6} />;
