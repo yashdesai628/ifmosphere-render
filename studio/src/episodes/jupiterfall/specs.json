@@ -1,0 +1,4407 @@
+{
+ "S1": {
+  "bg": {
+   "k": "limb",
+   "R": 0.8,
+   "cy": [
+    1.92,
+    1.82
+   ],
+   "seed": 3,
+   "spot": {
+    "u": 0.15,
+    "v": -0.62,
+    "s": 0.5
+   }
+  },
+  "pip": {
+   "x": 0.5,
+   "y": [
+    0.26,
+    0.3
+   ],
+   "s": 0.62,
+   "pose": "step",
+   "wrist": "L"
+  },
+  "texts": [
+   {
+    "t": "JUPITER HAS NO GROUND",
+    "st": "big",
+    "slot": "b"
+   }
+  ],
+  "props": [
+   {
+    "k": "hull",
+    "x": 0.5,
+    "y": 0.12,
+    "s": 0.9,
+    "a": 1
+   }
+  ]
+ },
+ "S2": {
+  "bg": {
+   "k": "limb",
+   "R": 0.7,
+   "cy": 1.75,
+   "seed": 4,
+   "rot": -6
+  },
+  "pip": {
+   "x": [
+    0.5,
+    0.5
+   ],
+   "y": [
+    0.3,
+    0.52
+   ],
+   "s": 0.5,
+   "pose": "spread",
+   "spin": [
+    0,
+    25
+   ]
+  },
+  "texts": [
+   {
+    "t": "GROUND: NONE",
+    "st": "stamp",
+    "slot": "tr"
+   }
+  ],
+  "props": [
+   {
+    "k": "hull",
+    "x": 0.5,
+    "y": [
+     0.05,
+     -0.05
+    ],
+    "s": 0.7,
+    "a": 1
+   }
+  ],
+  "cam": {
+   "z": [
+    1.0,
+    1.08
+   ]
+  }
+ },
+ "S3": {
+  "bg": {
+   "k": "space",
+   "jr": 0.42,
+   "jx": 0.62,
+   "jy": 0.55,
+   "seed": 11,
+   "spot": {
+    "u": 0.2,
+    "v": 0.3,
+    "s": 0.8
+   }
+  },
+  "pip": {
+   "x": 0.2,
+   "y": 0.42,
+   "s": 0.55,
+   "pose": "point"
+  },
+  "texts": [
+   {
+    "t": "NO TRUE SURFACE - NASA",
+    "st": "fact",
+    "slot": "t"
+   }
+  ]
+ },
+ "S4": {
+  "bg": {
+   "k": "diagram",
+   "R": 0.4,
+   "cx": 0.62,
+   "depth": [
+    0,
+    0.07
+   ],
+   "hi": "clouds"
+  },
+  "pip": {
+   "x": 0.17,
+   "y": 0.55,
+   "s": 0.5,
+   "pose": "pointUp"
+  },
+  "texts": [
+   {
+    "t": "3 LAYERS OF CLOUD",
+    "st": "sticker",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S5": {
+  "bg": {
+   "k": "ocean",
+   "view": "surface",
+   "hz": 0.5,
+   "sky1": "#1B1740",
+   "sky2": "#C98F5E",
+   "sea1": "#4A8EC0",
+   "sea2": "#0A1C44"
+  },
+  "pip": {
+   "x": 0.5,
+   "y": [
+    0.3,
+    0.42
+   ],
+   "s": 0.45,
+   "pose": "flail",
+   "ex": "shock"
+  },
+  "texts": [
+   {
+    "t": "SKY -> OCEAN",
+    "st": "big",
+    "slot": "b"
+   }
+  ]
+ },
+ "S6": {
+  "bg": {
+   "k": "wash",
+   "c1": "#2A3060",
+   "c2": "#05040E"
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.62,
+   "s": 1.5,
+   "pose": "tap",
+   "wrist": "L"
+  },
+  "texts": [
+   {
+    "t": "DEPTH: 0 km",
+    "st": "num",
+    "slot": "t",
+    "size": 150
+   }
+  ],
+  "gauge": {
+   "st": "lcd",
+   "depth": "0 km",
+   "slot": "tr",
+   "ground": "NONE",
+   "fill": 0,
+   "layer": "SPACE"
+  }
+ },
+ "S7": {
+  "bg": {
+   "k": "wash",
+   "c1": "#3A2050",
+   "c2": "#05040E",
+   "cx": 0.3
+  },
+  "pip": {
+   "x": 0.32,
+   "y": 0.6,
+   "s": 1.3,
+   "pose": "cringe",
+   "wrist": "L"
+  },
+  "texts": [
+   {
+    "t": "GROUND: NONE",
+    "st": "stamp",
+    "slot": "t"
+   }
+  ],
+  "gauge": {
+   "st": "warn",
+   "depth": "0 km",
+   "slot": "mr",
+   "ground": "NONE"
+  }
+ },
+ "S8": {
+  "bg": {
+   "k": "limb",
+   "R": 0.7,
+   "cy": 1.6,
+   "seed": 7,
+   "pal": "amber"
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.45,
+   "s": 0.8,
+   "pose": "shrug",
+   "ex": "oops"
+  },
+  "texts": [
+   {
+    "t": "love that for us",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S9": {
+  "bg": {
+   "k": "space",
+   "jr": 0.9,
+   "jy": 1.25,
+   "seed": 12,
+   "rot": 8
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.42,
+   "s": 0.8,
+   "pose": "brace"
+  },
+  "texts": [
+   {
+    "t": "DEEP BREATH",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ],
+  "props": [
+   {
+    "k": "hull",
+    "x": 0.5,
+    "y": 0.92,
+    "s": 1.2,
+    "a": 1
+   }
+  ]
+ },
+ "S10": {
+  "bg": {
+   "k": "limb",
+   "R": 0.75,
+   "cy": [
+    2.0,
+    1.75
+   ],
+   "seed": 9,
+   "spot": {
+    "u": -0.3,
+    "v": -0.6,
+    "s": 0.6
+   }
+  },
+  "pip": {
+   "x": [
+    0.5,
+    0.5
+   ],
+   "y": [
+    0.2,
+    0.58
+   ],
+   "s": 0.4,
+   "pose": "streamline",
+   "spin": [
+    0,
+    180
+   ]
+  },
+  "texts": [
+   {
+    "t": "FALL INTO JUPITER",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S11": {
+  "bg": {
+   "k": "space",
+   "jr": 0.35,
+   "jx": 0.7,
+   "seed": 13
+  },
+  "pip": {
+   "x": 0.28,
+   "y": 0.55,
+   "s": 0.7,
+   "pose": "hold2",
+   "hold": "ball"
+  },
+  "title": 1
+ },
+ "S12": {
+  "bg": {
+   "k": "info",
+   "viz": "sizes",
+   "er": 0.045
+  },
+  "texts": [
+   {
+    "t": "11x WIDER THAN EARTH",
+    "st": "fact",
+    "slot": "t"
+   }
+  ],
+  "label": {
+   "st": "pill",
+   "a": "NASA",
+   "slot": "br"
+  }
+ },
+ "S13": {
+  "bg": {
+   "k": "info",
+   "viz": "sizes",
+   "er": [
+    0.03,
+    0.05
+   ],
+   "jx": 0.4,
+   "ex": 0.86,
+   "bg": "#120E28"
+  },
+  "texts": [
+   {
+    "t": "RADIUS",
+    "st": "chip",
+    "slot": "tl"
+   },
+   {
+    "t": "69,911",
+    "st": "num",
+    "slot": "c",
+    "size": 170
+   }
+  ]
+ },
+ "S14": {
+  "bg": {
+   "k": "info",
+   "viz": "dial",
+   "needle": [
+    0.1,
+    0.92
+   ],
+   "arc": "#FFB347"
+  },
+  "texts": [
+   {
+    "t": "69,911 km",
+    "st": "big",
+    "slot": "t"
+   },
+   {
+    "t": "radius",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S15": {
+  "bg": {
+   "k": "wash",
+   "c1": "#3A2A60",
+   "c2": "#0B0816"
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.55,
+   "s": 1.2,
+   "pose": "hold",
+   "hold": "grapeR"
+  },
+  "texts": [
+   {
+    "t": "EARTH = GRAPE",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S16": {
+  "bg": {
+   "k": "wash",
+   "c1": "#603A2A",
+   "c2": "#0B0816",
+   "cx": 0.6
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.58,
+   "s": 1.1,
+   "pose": "hold2",
+   "hold": "ball"
+  },
+  "texts": [
+   {
+    "t": "JUPITER = BASKETBALL",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S17": {
+  "bg": {
+   "k": "space",
+   "jr": null,
+   "seed": 14,
+   "nebula": "#7A4FB8"
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.56,
+   "s": 1.0,
+   "pose": "weigh",
+   "hold": "grape+ballR"
+  },
+  "texts": [
+   {
+    "t": "arms: complaining",
+    "st": "note",
+    "slot": "br"
+   }
+  ]
+ },
+ "S18": {
+  "bg": {
+   "k": "diagram",
+   "R": 0.42,
+   "cx": 0.5,
+   "depth": 0,
+   "ray": false,
+   "hi": "ocean",
+   "grid": false
+  },
+  "texts": [
+   {
+    "t": "IF IT WERE HOLLOW...",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S19": {
+  "bg": {
+   "k": "info",
+   "viz": "grid",
+   "R": 0.4,
+   "fill": [
+    0.05,
+    1
+   ]
+  },
+  "texts": [
+   {
+    "t": "~1,000 EARTHS",
+    "st": "big",
+    "slot": "t"
+   }
+  ],
+  "label": {
+   "st": "pill",
+   "a": "NASA",
+   "slot": "br"
+  }
+ },
+ "S20": {
+  "bg": {
+   "k": "wash",
+   "c1": "#4A2A6A",
+   "c2": "#0A0614"
+  },
+  "pip": {
+   "x": 0.3,
+   "y": 0.6,
+   "s": 0.8,
+   "pose": "shrug"
+  },
+  "texts": [
+   {
+    "t": "a lot of grapes",
+    "st": "note",
+    "slot": "tr"
+   }
+  ],
+  "props": [
+   {
+    "k": "grape",
+    "x": 0.55,
+    "y": 0.3,
+    "s": 0.8
+   },
+   {
+    "k": "grape",
+    "x": 0.65,
+    "y": 0.45,
+    "s": 0.8
+   },
+   {
+    "k": "grape",
+    "x": 0.75,
+    "y": 0.32,
+    "s": 0.8
+   },
+   {
+    "k": "grape",
+    "x": 0.6,
+    "y": 0.62,
+    "s": 0.8
+   },
+   {
+    "k": "grape",
+    "x": 0.82,
+    "y": 0.58,
+    "s": 0.8
+   },
+   {
+    "k": "grape",
+    "x": 0.7,
+    "y": 0.75,
+    "s": 0.8
+   },
+   {
+    "k": "grape",
+    "x": 0.88,
+    "y": 0.2,
+    "s": 0.8
+   }
+  ]
+ },
+ "S21": {
+  "bg": {
+   "k": "space",
+   "jr": 0.6,
+   "jy": 1.1,
+   "seed": 15
+  },
+  "pip": {
+   "x": 0.35,
+   "y": 0.45,
+   "s": 0.8,
+   "pose": "wave"
+  },
+  "texts": [
+   {
+    "t": "bye, grape",
+    "st": "note",
+    "slot": "bl"
+   }
+  ],
+  "props": [
+   {
+    "k": "grape",
+    "x": [
+     0.45,
+     0.85
+    ],
+    "y": [
+     0.4,
+     0.15
+    ],
+    "s": 0.9,
+    "r": [
+     0,
+     160
+    ]
+   }
+  ]
+ },
+ "S22": {
+  "bg": {
+   "k": "space",
+   "jr": 0.6,
+   "jy": 1.15,
+   "jx": 0.4,
+   "seed": 16,
+   "rot": -10
+  },
+  "pip": {
+   "x": 0.6,
+   "y": 0.45,
+   "s": 0.85,
+   "pose": "salute",
+   "hold": "ballR"
+  },
+  "texts": [
+   {
+    "t": "FOR THE PRINCIPLE",
+    "st": "sticker",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S23": {
+  "bg": {
+   "k": "limb",
+   "R": 0.75,
+   "cy": 1.65,
+   "seed": 17,
+   "rot": [
+    0,
+    14
+   ],
+   "flow": 0.4
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.35,
+   "s": 0.55,
+   "pose": "peek"
+  },
+  "texts": [
+   {
+    "t": "IT'S MOVING",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S24": {
+  "bg": {
+   "k": "space",
+   "jr": 0.4,
+   "seed": 18,
+   "rot": [
+    0,
+    40
+   ]
+  },
+  "pip": {
+   "x": 0.18,
+   "y": 0.7,
+   "s": 0.45,
+   "pose": "flail"
+  },
+  "texts": [
+   {
+    "t": "FAST. VERY FAST.",
+    "st": "big",
+    "slot": "t"
+   }
+  ],
+  "fx": [
+   {
+    "k": "streaks",
+    "a": 0,
+    "n": 10,
+    "c": "#FFE2B8",
+    "sp": 2
+   }
+  ]
+ },
+ "S25": {
+  "bg": {
+   "k": "info",
+   "viz": "clock",
+   "turns": [
+    0,
+    0.8
+   ],
+   "sector": [
+    0,
+    0.41
+   ]
+  },
+  "texts": [
+   {
+    "t": "1 DAY = 9.9 HOURS",
+    "st": "big",
+    "slot": "t"
+   }
+  ],
+  "card": {
+   "a": "THE SPIN",
+   "b": "a day of 9.9 hours",
+   "st": 1
+  }
+ },
+ "S26": {
+  "bg": {
+   "k": "info",
+   "viz": "clock",
+   "cx": 0.3,
+   "R": 0.3,
+   "turns": [
+    0.2,
+    2.2
+   ],
+   "sector": 0.41,
+   "bg": "#14102A"
+  },
+  "texts": [
+   {
+    "t": "SHORTEST DAY",
+    "st": "sticker",
+    "slot": "mr"
+   }
+  ]
+ },
+ "S27": {
+  "bg": {
+   "k": "space",
+   "jr": 0.3,
+   "jx": 0.5,
+   "seed": 19,
+   "moons": [
+    [
+     0.15,
+     0.3,
+     14
+    ],
+    [
+     0.85,
+     0.7,
+     10
+    ],
+    [
+     0.2,
+     0.8,
+     8
+    ]
+   ]
+  },
+  "texts": [
+   {
+    "t": "OF ANY PLANET - NASA",
+    "st": "fact",
+    "slot": "b"
+   }
+  ]
+ },
+ "S28": {
+  "bg": {
+   "k": "limb",
+   "R": 0.25,
+   "cx": 0.5,
+   "cy": 0.5,
+   "seed": 20,
+   "rot": [
+    0,
+    50
+   ],
+   "flow": 0.8,
+   "stars": true
+  },
+  "texts": [
+   {
+    "t": "LIKE A TURNTABLE",
+    "st": "big",
+    "slot": "t"
+   }
+  ],
+  "cam": {
+   "r": [
+    0,
+    -6
+   ]
+  }
+ },
+ "S29": {
+  "bg": {
+   "k": "bands",
+   "n": 6,
+   "sp": 6,
+   "arrows": false,
+   "seed": 21
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.25,
+   "s": 0.7,
+   "pose": "stand",
+   "tilt": -8
+  },
+  "texts": [
+   {
+    "t": "clouds racing",
+    "st": "note",
+    "slot": "bl"
+   }
+  ]
+ },
+ "S30": {
+  "bg": {
+   "k": "limb",
+   "R": 0.8,
+   "cy": 1.75,
+   "seed": 22,
+   "minH": 60,
+   "maxH": 110
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.25,
+   "s": 0.45,
+   "pose": "peek",
+   "ex": "happy"
+  },
+  "texts": [
+   {
+    "t": "STRIPES",
+    "st": "big",
+    "slot": "b"
+   }
+  ]
+ },
+ "S31": {
+  "bg": {
+   "k": "bands",
+   "n": 7,
+   "hi": 2,
+   "sp": 2,
+   "seed": 23
+  },
+  "texts": [
+   {
+    "t": "DARK = BELTS",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S32": {
+  "bg": {
+   "k": "bands",
+   "n": 7,
+   "hi": 3,
+   "sp": 2,
+   "seed": 24,
+   "y0": 0.05
+  },
+  "texts": [
+   {
+    "t": "LIGHT = ZONES",
+    "st": "sticker",
+    "slot": "b"
+   }
+  ]
+ },
+ "S33": {
+  "bg": {
+   "k": "bands",
+   "n": 5,
+   "sp": 4,
+   "seed": 25,
+   "rot": -8
+  },
+  "texts": [
+   {
+    "t": "OPPOSITE DIRECTIONS",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S34": {
+  "bg": {
+   "k": "bands",
+   "n": 6,
+   "sp": 7,
+   "seed": 26,
+   "rot": 6,
+   "pal": "rust"
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.5,
+   "pose": "cringe"
+  },
+  "texts": [
+   {
+    "t": "traffic lanes that hate each other",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S35": {
+  "bg": {
+   "k": "bands",
+   "n": 4,
+   "sp": 3,
+   "seed": 27,
+   "hi": 0,
+   "span": 1.4
+  },
+  "pip": {
+   "x": 0.62,
+   "y": 0.45,
+   "s": 0.65,
+   "pose": "wave2",
+   "flip": -1
+  },
+  "texts": [
+   {
+    "t": "<- BELT",
+    "st": "chip",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S36": {
+  "bg": {
+   "k": "bands",
+   "n": 4,
+   "sp": 3,
+   "seed": 28,
+   "hi": 1,
+   "span": 1.4,
+   "y0": -0.1
+  },
+  "pip": {
+   "x": 0.35,
+   "y": 0.55,
+   "s": 0.65,
+   "pose": "shrug",
+   "ex": "oops"
+  },
+  "texts": [
+   {
+    "t": "ZONE -> (ignoring you)",
+    "st": "chip",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S37": {
+  "bg": {
+   "k": "limb",
+   "R": 0.6,
+   "cy": [
+    1.6,
+    1.3
+   ],
+   "seed": 29
+  },
+  "pip": {
+   "x": 0.5,
+   "y": [
+    0.25,
+    0.45
+   ],
+   "s": 0.5,
+   "pose": "streamline",
+   "spin": [
+    0,
+    160
+   ]
+  },
+  "texts": [
+   {
+    "t": "STOP WAVING. FALL.",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S38": {
+  "bg": {
+   "k": "fall",
+   "pal": "top",
+   "sp": 1,
+   "dens": 0.6,
+   "seed": 31
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.6,
+   "pose": "spread",
+   "wrist": "L"
+  },
+  "card": {
+   "a": "LAYER ONE",
+   "b": "top of the clouds",
+   "st": 0
+  }
+ },
+ "S39": {
+  "bg": {
+   "k": "fall",
+   "pal": "amm",
+   "part": "flake",
+   "seed": 32,
+   "pn": 18,
+   "ps": 1.4
+  },
+  "pip": {
+   "x": 0.38,
+   "y": 0.5,
+   "s": 0.7,
+   "pose": "float"
+  },
+  "texts": [
+   {
+    "t": "AMMONIA ICE",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S40": {
+  "bg": {
+   "k": "fall",
+   "pal": "amm",
+   "part": "flake",
+   "seed": 33,
+   "pn": 30,
+   "ps": 0.8,
+   "sp": 0.5
+  },
+  "texts": [
+   {
+    "t": "pale + frosty",
+    "st": "note",
+    "slot": "bl"
+   }
+  ],
+  "props": [
+   {
+    "k": "flake",
+    "x": 0.6,
+    "y": 0.45,
+    "s": [
+     1.0,
+     1.4
+    ],
+    "r": [
+     0,
+     40
+    ]
+   }
+  ]
+ },
+ "S41": {
+  "bg": {
+   "k": "fall",
+   "pal": "amm",
+   "dens": [
+    0.4,
+    0.95
+   ],
+   "seed": 34,
+   "wide": 1.6,
+   "thick": 2
+  },
+  "pip": {
+   "x": 0.5,
+   "y": [
+    0.4,
+    0.62
+   ],
+   "s": 0.55,
+   "pose": "curl"
+  },
+  "texts": [
+   {
+    "t": "WHITE-OUT",
+    "st": "stamp",
+    "slot": "tr"
+   }
+  ],
+  "cam": {
+   "z": [
+    1,
+    1.15
+   ]
+  }
+ },
+ "S42": {
+  "bg": {
+   "k": "fall",
+   "pal": "amm",
+   "seed": 35,
+   "sp": 0.6
+  },
+  "pip": {
+   "x": 0.3,
+   "y": 0.55,
+   "s": 0.8,
+   "pose": "cringe"
+  },
+  "texts": [
+   {
+    "t": "judged.",
+    "st": "note",
+    "slot": "bl"
+   }
+  ],
+  "props": [
+   {
+    "k": "flake",
+    "x": [
+     0.9,
+     0.62
+    ],
+    "y": 0.42,
+    "s": 1.6,
+    "r": [
+     0,
+     30
+    ]
+   },
+   {
+    "k": "eyes",
+    "x": [
+     0.9,
+     0.62
+    ],
+    "y": 0.42,
+    "s": 0.8
+   }
+  ]
+ },
+ "S43": {
+  "bg": {
+   "k": "fall",
+   "pal": "amm",
+   "seed": 36,
+   "sp": 1.6
+  },
+  "pip": {
+   "x": 0.4,
+   "y": 0.62,
+   "s": 1.4,
+   "pose": "tap",
+   "wrist": "L"
+  },
+  "gauge": {
+   "st": "seg",
+   "depth": "12 km",
+   "slot": "tr",
+   "layer": "AMMONIA",
+   "fill": [
+    0.1,
+    0.2
+   ]
+  }
+ },
+ "S44": {
+  "bg": {
+   "k": "diagram",
+   "R": 0.42,
+   "cx": 0.66,
+   "depth": 0.02,
+   "hi": "clouds",
+   "ang": -60
+  },
+  "pip": {
+   "x": 0.2,
+   "y": 0.6,
+   "s": 0.55,
+   "pose": "point"
+  },
+  "texts": [
+   {
+    "t": "3 CLOUD LAYERS - NASA",
+    "st": "fact",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S45": {
+  "bg": {
+   "k": "info",
+   "viz": "depthbars",
+   "f1": [
+    0,
+    1
+   ],
+   "f2": 0
+  },
+  "texts": [
+   {
+    "t": "~71 km",
+    "st": "num",
+    "slot": "c",
+    "size": 180
+   },
+   {
+    "t": "all three layers",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S46": {
+  "bg": {
+   "k": "info",
+   "viz": "depthbars",
+   "f1": 1,
+   "f2": 0,
+   "bg": "#16122E"
+  },
+  "texts": [
+   {
+    "t": "TOP TO BOTTOM",
+    "st": "sticker",
+    "slot": "tr"
+   }
+  ],
+  "props": [
+   {
+    "k": "arrow",
+    "x": 0.22,
+    "y": [
+     0.24,
+     0.35
+    ],
+    "r": 90,
+    "s": 0.8
+   }
+  ]
+ },
+ "S47": {
+  "bg": {
+   "k": "fall",
+   "pal": "amm",
+   "seed": 37,
+   "sp": 0.4,
+   "dens": 0.7
+  },
+  "pip": {
+   "x": 0.6,
+   "y": 0.58,
+   "s": 0.9,
+   "pose": "stomp"
+  },
+  "texts": [
+   {
+    "t": "LAYER 1 OF 3",
+    "st": "chip",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S48": {
+  "bg": {
+   "k": "fall",
+   "pal": "amm",
+   "seed": 38,
+   "sp": 0.2,
+   "dens": 1.0,
+   "n": 50
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.35,
+   "pose": "float"
+  },
+  "texts": [
+   {
+    "t": "JUST WHITE",
+    "st": "big",
+    "slot": "b"
+   }
+  ],
+  "cam": {
+   "z": [
+    1.2,
+    0.95
+   ]
+  }
+ },
+ "S49": {
+  "bg": {
+   "k": "fall",
+   "pal": "amm",
+   "seed": 39,
+   "rot": [
+    0,
+    70
+   ],
+   "sp": 2
+  },
+  "pip": {
+   "x": [
+    0.4,
+    0.7
+   ],
+   "y": 0.5,
+   "s": 0.7,
+   "pose": "tumble"
+  },
+  "texts": [
+   {
+    "t": "SHOVE!",
+    "st": "stamp",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S50": {
+  "bg": {
+   "k": "fall",
+   "pal": "amm",
+   "seed": 40,
+   "rot": 90,
+   "sp": 3
+  },
+  "pip": {
+   "x": 0.45,
+   "y": 0.5,
+   "s": 0.75,
+   "pose": "peek",
+   "ex": "shock"
+  },
+  "texts": [
+   {
+    "t": "THE WIND NOTICED",
+    "st": "big",
+    "slot": "b"
+   }
+  ],
+  "fx": [
+   {
+    "k": "streaks",
+    "a": 0,
+    "n": 16,
+    "c": "#FFFFFF",
+    "sp": 3
+   }
+  ]
+ },
+ "S51": {
+  "bg": {
+   "k": "fall",
+   "pal": "amm",
+   "seed": 41,
+   "rot": 90,
+   "sp": 4,
+   "dens": 0.4
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.6,
+   "pose": "brace",
+   "hold": "scarf",
+   "hx": 180
+  },
+  "fx": [
+   {
+    "k": "streaks",
+    "a": 180,
+    "n": 18,
+    "c": "#DDEBFF",
+    "sp": 4
+   }
+  ],
+  "card": {
+   "a": "THE WINDS",
+   "b": "no joke",
+   "st": 1
+  }
+ },
+ "S52": {
+  "bg": {
+   "k": "info",
+   "viz": "dial",
+   "needle": [
+    0,
+    0.97
+   ],
+   "arc": "#FF5A4A"
+  },
+  "texts": [
+   {
+    "t": "UP TO 539 km/h",
+    "st": "big",
+    "slot": "t"
+   }
+  ],
+  "label": {
+   "st": "pill",
+   "a": "NASA",
+   "slot": "br"
+  }
+ },
+ "S53": {
+  "bg": {
+   "k": "limb",
+   "R": 0.25,
+   "cx": 0.5,
+   "cy": 0.52,
+   "seed": 42,
+   "flow": 1.2
+  },
+  "texts": [
+   {
+    "t": "AT THE EQUATOR",
+    "st": "sticker",
+    "slot": "b"
+   }
+  ],
+  "props": [
+   {
+    "k": "arrow",
+    "x": 0.5,
+    "y": 0.52,
+    "s": 1.6,
+    "c": "#FF8A3D"
+   }
+  ]
+ },
+ "S54": {
+  "bg": {
+   "k": "wash",
+   "c1": "#5A1E2A",
+   "c2": "#0B0816"
+  },
+  "pip": {
+   "x": 0.38,
+   "y": 0.6,
+   "s": 1.4,
+   "pose": "tap",
+   "wrist": "L"
+  },
+  "gauge": {
+   "st": "warn",
+   "depth": "WIND!",
+   "slot": "mr",
+   "layer": "539 km/h",
+   "shake": 6
+  }
+ },
+ "S55": {
+  "bg": {
+   "k": "fall",
+   "pal": "amm",
+   "seed": 43,
+   "rot": 90,
+   "sp": 5
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.7,
+   "pose": "tumble",
+   "spin": [
+    0,
+    360
+   ]
+  },
+  "texts": [
+   {
+    "t": "HEAD OVER BOOTS",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S56": {
+  "bg": {
+   "k": "wash",
+   "c1": "#CFE0F5",
+   "c2": "#7A90B8"
+  },
+  "texts": [
+   {
+    "t": "sky. sky. sleeve.",
+    "st": "note",
+    "slot": "t"
+   }
+  ],
+  "props": [
+   {
+    "k": "visor",
+    "x": 0.5,
+    "y": 0.5,
+    "s": 3.0
+   },
+   {
+    "k": "scarfBit",
+    "x": [
+     0.2,
+     0.1
+    ],
+    "y": 0.75,
+    "s": 2.4,
+    "r": -10
+   }
+  ]
+ },
+ "S57": {
+  "bg": {
+   "k": "fall",
+   "pal": "amm",
+   "seed": 44,
+   "rot": -90,
+   "sp": 4
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.7,
+   "pose": "lean",
+   "tilt": 80
+  },
+  "texts": [
+   {
+    "t": "SIDEWAYS = DOWN",
+    "st": "sticker",
+    "slot": "bl"
+   }
+  ],
+  "props": [
+   {
+    "k": "arrow",
+    "x": 0.78,
+    "y": 0.3,
+    "s": 1.0
+   }
+  ]
+ },
+ "S58": {
+  "bg": {
+   "k": "fall",
+   "pal": "amm",
+   "seed": 45,
+   "rot": 90,
+   "sp": 2
+  },
+  "pip": {
+   "x": 0.45,
+   "y": 0.55,
+   "s": 0.85,
+   "pose": "pointUp",
+   "hold": "flag",
+   "ex": "smug"
+  },
+  "texts": [
+   {
+    "t": "CLAIMED!",
+    "st": "stamp",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S59": {
+  "bg": {
+   "k": "fall",
+   "pal": "amm",
+   "seed": 46,
+   "rot": 90,
+   "sp": 3
+  },
+  "pip": {
+   "x": 0.3,
+   "y": 0.6,
+   "s": 0.8,
+   "pose": "reach"
+  },
+  "texts": [
+   {
+    "t": "un-claimed",
+    "st": "note",
+    "slot": "bl"
+   }
+  ],
+  "props": [
+   {
+    "k": "flag",
+    "x": [
+     0.45,
+     1.1
+    ],
+    "y": [
+     0.5,
+     0.2
+    ],
+    "s": 0.8,
+    "r": [
+     0,
+     120
+    ]
+   }
+  ]
+ },
+ "S60": {
+  "bg": {
+   "k": "fall",
+   "pal": "amm",
+   "seed": 47,
+   "rot": 90,
+   "sp": 3
+  },
+  "pip": {
+   "x": 0.45,
+   "y": 0.6,
+   "s": 0.85,
+   "pose": "flail"
+  },
+  "texts": [
+   {
+    "t": "THE SCARF TOO",
+    "st": "big",
+    "slot": "t"
+   }
+  ],
+  "props": [
+   {
+    "k": "scarfBit",
+    "x": [
+     0.5,
+     0.95
+    ],
+    "y": [
+     0.45,
+     0.25
+    ],
+    "s": 1.1,
+    "r": [
+     0,
+     30
+    ]
+   }
+  ]
+ },
+ "S61": {
+  "bg": {
+   "k": "fall",
+   "pal": "amm",
+   "seed": 48,
+   "rot": 60,
+   "sp": 3
+  },
+  "pip": {
+   "x": [
+    0.4,
+    0.55
+   ],
+   "y": 0.55,
+   "s": 0.9,
+   "pose": "cling",
+   "hold": "scarf",
+   "hx": 0
+  },
+  "texts": [
+   {
+    "t": "it grabs back",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S62": {
+  "bg": {
+   "k": "limb",
+   "R": 0.8,
+   "cy": 1.85,
+   "seed": 49,
+   "flow": 1.5
+  },
+  "pip": {
+   "x": [
+    0.2,
+    0.8
+   ],
+   "y": 0.35,
+   "s": 0.5,
+   "pose": "float",
+   "hold": "scarf",
+   "hx": 180
+  },
+  "texts": [
+   {
+    "t": "CARRIED",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S63": {
+  "bg": {
+   "k": "space",
+   "jr": 1.2,
+   "jy": 1.55,
+   "seed": 50
+  },
+  "texts": [
+   {
+    "t": "bye, flag",
+    "st": "note",
+    "slot": "br"
+   }
+  ],
+  "props": [
+   {
+    "k": "flag",
+    "x": [
+     0.5,
+     0.75
+    ],
+    "y": [
+     0.5,
+     0.25
+    ],
+    "s": [
+     0.6,
+     0.25
+    ],
+    "r": [
+     0,
+     200
+    ]
+   }
+  ]
+ },
+ "S64": {
+  "bg": {
+   "k": "grs",
+   "cx": 1.15,
+   "cy": 0.6,
+   "sc": 1.0,
+   "seed": 51
+  },
+  "pip": {
+   "x": 0.32,
+   "y": 0.45,
+   "s": 0.8,
+   "pose": "brace",
+   "ex": "shock"
+  },
+  "texts": [
+   {
+    "t": "SOMETHING ENORMOUS",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S65": {
+  "bg": {
+   "k": "grs",
+   "cx": [
+    0.7,
+    0.55
+   ],
+   "cy": 0.55,
+   "sc": 1.2,
+   "seed": 52
+  },
+  "card": {
+   "a": "THE GREAT RED SPOT",
+   "b": "a storm",
+   "st": 0
+  }
+ },
+ "S66": {
+  "bg": {
+   "k": "info",
+   "viz": "compare",
+   "er": 0.17,
+   "two": true
+  },
+  "texts": [
+   {
+    "t": "2x AS WIDE AS EARTH",
+    "st": "big",
+    "slot": "t"
+   }
+  ],
+  "label": {
+   "st": "pill",
+   "a": "NASA",
+   "slot": "br"
+  }
+ },
+ "S67": {
+  "bg": {
+   "k": "grs",
+   "cx": 0.5,
+   "cy": 0.5,
+   "sc": 0.8,
+   "seed": 53,
+   "rot": [
+    0,
+    20
+   ]
+  },
+  "texts": [
+   {
+    "t": "300+ YEARS",
+    "st": "num",
+    "slot": "t",
+    "size": 150
+   }
+  ],
+  "props": [
+   {
+    "k": "eyes",
+    "x": 0.12,
+    "y": 0.85,
+    "s": 0.9
+   }
+  ]
+ },
+ "S68": {
+  "bg": {
+   "k": "space",
+   "jr": 0.35,
+   "jx": 0.25,
+   "jy": 0.6,
+   "seed": 54
+  },
+  "texts": [
+   {
+    "t": "JUNO GRAVITY DATA",
+    "st": "fact",
+    "slot": "b"
+   }
+  ],
+  "props": [
+   {
+    "k": "probe",
+    "x": 0.68,
+    "y": 0.4,
+    "s": 1.6,
+    "r": -12
+   }
+  ]
+ },
+ "S69": {
+  "bg": {
+   "k": "info",
+   "viz": "depthbars",
+   "f1": 1,
+   "f2": [
+    0,
+    1
+   ],
+   "bg": "#1E0E14"
+  },
+  "texts": [
+   {
+    "t": "~500 km DEEP",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S70": {
+  "bg": {
+   "k": "grs",
+   "cx": 0.5,
+   "cy": 0.4,
+   "sc": 0.7,
+   "seed": 55,
+   "brot": 10
+  },
+  "texts": [
+   {
+    "t": "NOT A SURFACE SWIRL",
+    "st": "sticker",
+    "slot": "b"
+   }
+  ],
+  "props": [
+   {
+    "k": "x",
+    "x": 0.82,
+    "y": 0.75,
+    "s": 1.0
+   }
+  ]
+ },
+ "S71": {
+  "bg": {
+   "k": "wash",
+   "c1": "#7A2C20",
+   "c2": "#1A0806"
+  },
+  "texts": [
+   {
+    "t": "A STORM WITH A BASEMENT",
+    "st": "big",
+    "slot": "b"
+   }
+  ],
+  "props": [
+   {
+    "k": "ring",
+    "x": 0.5,
+    "y": 0.3,
+    "s": 2.0,
+    "c": "#F7C9A0"
+   },
+   {
+    "k": "arrow",
+    "x": 0.5,
+    "y": 0.62,
+    "r": 90,
+    "s": 1.1
+   }
+  ]
+ },
+ "S72": {
+  "bg": {
+   "k": "grs",
+   "cx": 0.5,
+   "cy": 0.5,
+   "sc": 1.1,
+   "seed": 56
+  },
+  "pip": {
+   "x": [
+    0.2,
+    0.8
+   ],
+   "y": [
+    0.3,
+    0.7
+   ],
+   "s": 0.4,
+   "pose": "streamline",
+   "spin": [
+    0,
+    260
+   ]
+  },
+  "texts": [
+   {
+    "t": "AROUND THE EDGE",
+    "st": "chip",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S73": {
+  "bg": {
+   "k": "grs",
+   "cx": 0.5,
+   "cy": 0.5,
+   "sc": 0.9,
+   "seed": 57,
+   "rot": [
+    0,
+    -60
+   ]
+  },
+  "pip": {
+   "x": [
+    0.75,
+    0.55
+   ],
+   "y": [
+    0.5,
+    0.42
+   ],
+   "s": 0.3,
+   "pose": "curl",
+   "spin": [
+    0,
+    400
+   ]
+  },
+  "texts": [
+   {
+    "t": "coin in a funnel",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S74": {
+  "bg": {
+   "k": "grs",
+   "cx": 0.6,
+   "cy": 0.5,
+   "sc": 1.0,
+   "seed": 58,
+   "earth": {
+    "x": 0.2,
+    "y": 0.5,
+    "r": [
+     0,
+     0.14
+    ]
+   }
+  },
+  "texts": [
+   {
+    "t": "EARTH, FOR SCALE",
+    "st": "sticker",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S75": {
+  "bg": {
+   "k": "info",
+   "viz": "compare",
+   "er": 0.2,
+   "two": true,
+   "sil": true,
+   "bg": "#1A0E1E"
+  },
+  "texts": [
+   {
+    "t": "2 EARTHS ACROSS",
+    "st": "big",
+    "slot": "b"
+   }
+  ]
+ },
+ "S76": {
+  "bg": {
+   "k": "space",
+   "jr": null,
+   "seed": 59,
+   "earth": {
+    "x": 0.75,
+    "y": 0.4,
+    "r": 0.12
+   }
+  },
+  "pip": {
+   "x": 0.28,
+   "y": 0.6,
+   "s": 0.85,
+   "pose": "wave2"
+  },
+  "texts": [
+   {
+    "t": "hi Earth!",
+    "st": "note",
+    "slot": "bl"
+   }
+  ]
+ },
+ "S77": {
+  "bg": {
+   "k": "space",
+   "jr": null,
+   "seed": 60,
+   "earth": {
+    "x": 0.5,
+    "y": 0.45,
+    "r": 0.24
+   }
+  },
+  "texts": [
+   {
+    "t": "(no wave back)",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S78": {
+  "bg": {
+   "k": "grs",
+   "cx": 0.45,
+   "cy": 0.55,
+   "sc": 1.4,
+   "seed": 61,
+   "brot": -8
+  },
+  "texts": [
+   {
+    "t": "300 YEARS OF WEATHER",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S79": {
+  "bg": {
+   "k": "grs",
+   "cx": 0.7,
+   "cy": 0.6,
+   "sc": 0.6,
+   "seed": 62
+  },
+  "pip": {
+   "x": 0.25,
+   "y": 0.4,
+   "s": 0.7,
+   "pose": "cool",
+   "ex": "cool"
+  },
+  "texts": [
+   {
+    "t": "visiting: 1 afternoon",
+    "st": "note",
+    "slot": "bl"
+   }
+  ]
+ },
+ "S80": {
+  "bg": {
+   "k": "grs",
+   "cx": [
+    0.5,
+    0.75
+   ],
+   "cy": [
+    0.5,
+    0.25
+   ],
+   "sc": [
+    0.9,
+    0.6
+   ],
+   "seed": 63
+  },
+  "pip": {
+   "x": 0.4,
+   "y": [
+    0.4,
+    0.7
+   ],
+   "s": 0.5,
+   "pose": "streamline",
+   "spin": 180
+  },
+  "texts": [
+   {
+    "t": "DROP LOWER",
+    "st": "big",
+    "slot": "b"
+   }
+  ]
+ },
+ "S81": {
+  "bg": {
+   "k": "fall",
+   "pal": "hs",
+   "seed": 64,
+   "sp": 1.4,
+   "dens": 0.5
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.45,
+   "s": 0.55,
+   "pose": "streamline",
+   "spin": 180
+  },
+  "card": {
+   "a": "KEEP DROPPING",
+   "b": "layers two and three",
+   "st": 1
+  }
+ },
+ "S82": {
+  "bg": {
+   "k": "fall",
+   "pal": "hs",
+   "seed": 65,
+   "sp": 0.6,
+   "dens": [
+    0.3,
+    0.8
+   ]
+  },
+  "pip": {
+   "x": 0.6,
+   "y": 0.55,
+   "s": 0.75,
+   "pose": "peek",
+   "look": "dark"
+  },
+  "texts": [
+   {
+    "t": "amber + dim",
+    "st": "note",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S83": {
+  "bg": {
+   "k": "fall",
+   "pal": "hs",
+   "part": "crystal",
+   "seed": 66,
+   "pn": 22
+  },
+  "pip": {
+   "x": 0.3,
+   "y": 0.6,
+   "s": 0.6,
+   "pose": "float"
+  },
+  "texts": [
+   {
+    "t": "AMMONIUM HYDROSULFIDE",
+    "st": "big",
+    "slot": "t",
+    "size": 70
+   }
+  ],
+  "gauge": {
+   "st": "tape",
+   "depth": "LAYER 2",
+   "slot": "b"
+  }
+ },
+ "S84": {
+  "bg": {
+   "k": "wash",
+   "c1": "#8F5A26",
+   "c2": "#2A1408"
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.58,
+   "s": 1.3,
+   "pose": "cringe",
+   "ex": "oops"
+  },
+  "texts": [
+   {
+    "t": "ammo-nium hydro-sul-...",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S85": {
+  "bg": {
+   "k": "fall",
+   "pal": "hs",
+   "seed": 67,
+   "sp": 0.5
+  },
+  "pip": {
+   "x": 0.35,
+   "y": 0.6,
+   "s": 1.3,
+   "pose": "tap",
+   "wrist": "L"
+  },
+  "gauge": {
+   "st": "card",
+   "depth": "40 km",
+   "slot": "tr",
+   "layer": "CRYSTALS"
+  }
+ },
+ "S86": {
+  "bg": {
+   "k": "fall",
+   "pal": "hs",
+   "part": "crystal",
+   "seed": 68,
+   "pn": 40,
+   "ps": 1.5,
+   "sp": 0.8
+  },
+  "texts": [
+   {
+    "t": "tink. tink.",
+    "st": "note",
+    "slot": "b"
+   }
+  ],
+  "props": [
+   {
+    "k": "visor",
+    "x": 0.5,
+    "y": 0.5,
+    "s": 2.6
+   },
+   {
+    "k": "crystal",
+    "x": 0.42,
+    "y": 0.42,
+    "s": 0.8,
+    "r": 20
+   },
+   {
+    "k": "crystal",
+    "x": 0.6,
+    "y": 0.55,
+    "s": 0.6,
+    "r": -30
+   }
+  ]
+ },
+ "S87": {
+  "bg": {
+   "k": "fall",
+   "pal": "water",
+   "seed": 69,
+   "sp": 1.8,
+   "dens": 0.6
+  },
+  "pip": {
+   "x": 0.5,
+   "y": [
+    0.3,
+    0.6
+   ],
+   "s": 0.55,
+   "pose": "spread"
+  },
+  "texts": [
+   {
+    "t": "BLUE-GREY",
+    "st": "sticker",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S88": {
+  "bg": {
+   "k": "fall",
+   "pal": "water",
+   "part": "drop",
+   "seed": 70,
+   "pn": 30
+  },
+  "pip": {
+   "x": 0.4,
+   "y": 0.55,
+   "s": 0.65,
+   "pose": "float"
+  },
+  "texts": [
+   {
+    "t": "WATER ICE + VAPOUR",
+    "st": "big",
+    "slot": "t"
+   }
+  ],
+  "gauge": {
+   "st": "hud",
+   "depth": "LAYER 3",
+   "slot": "b"
+  }
+ },
+ "S89": {
+  "bg": {
+   "k": "fall",
+   "pal": "water",
+   "part": "drop",
+   "seed": 71,
+   "pn": 20,
+   "sp": 0.5
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.55,
+   "s": 0.9,
+   "pose": "cheer"
+  },
+  "texts": [
+   {
+    "t": "REAL WATER!",
+    "st": "stamp",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S90": {
+  "bg": {
+   "k": "wash",
+   "c1": "#6C8CB4",
+   "c2": "#16233C"
+  },
+  "pip": {
+   "x": 0.68,
+   "y": 0.6,
+   "s": 0.9,
+   "pose": "point",
+   "flip": -1
+  },
+  "texts": [
+   {
+    "t": "same as your water bottle",
+    "st": "note",
+    "slot": "br"
+   }
+  ],
+  "props": [
+   {
+    "k": "bub",
+    "x": 0.35,
+    "y": 0.5,
+    "s": 1.6,
+    "v": "face"
+   }
+  ]
+ },
+ "S91": {
+  "bg": {
+   "k": "diagram",
+   "R": 0.42,
+   "cx": 0.5,
+   "depth": 0.07,
+   "hi": "clouds",
+   "ang": -90
+  },
+  "texts": [
+   {
+    "t": "LAYER 3 OF 3",
+    "st": "chip",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S92": {
+  "bg": {
+   "k": "info",
+   "viz": "depthbars",
+   "f1": 1,
+   "f2": 0,
+   "bg": "#0E1A30"
+  },
+  "texts": [
+   {
+    "t": "~71 km: CLOUDS DONE",
+    "st": "big",
+    "slot": "t"
+   }
+  ],
+  "props": [
+   {
+    "k": "x",
+    "x": 0.3,
+    "y": 0.75,
+    "s": 0.8,
+    "c": "#7FD0FF"
+   }
+  ]
+ },
+ "S93": {
+  "bg": {
+   "k": "fall",
+   "pal": "dark",
+   "seed": 72,
+   "sp": 0.8
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.75,
+   "pose": "reachDown",
+   "ex": "worried"
+  },
+  "texts": [
+   {
+    "t": "NO FLOOR",
+    "st": "stamp",
+    "slot": "b"
+   }
+  ]
+ },
+ "S94": {
+  "bg": {
+   "k": "fall",
+   "pal": "dark",
+   "seed": 73,
+   "sp": 0.4,
+   "dens": 0.9
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.6,
+   "pose": "curl",
+   "look": "dark"
+  },
+  "card": {
+   "a": "DARKER, HEAVIER",
+   "b": "the pressure grows",
+   "st": 0
+  }
+ },
+ "S95": {
+  "bg": {
+   "k": "wash",
+   "c1": "#3A2230",
+   "c2": "#07040C"
+  },
+  "pip": {
+   "x": 0.4,
+   "y": 0.6,
+   "s": 1.4,
+   "pose": "tap",
+   "wrist": "L",
+   "look": "dark"
+  },
+  "gauge": {
+   "st": "lcd",
+   "depth": "-- km",
+   "slot": "tr",
+   "layer": "???"
+  }
+ },
+ "S96": {
+  "bg": {
+   "k": "info",
+   "viz": "dial",
+   "needle": [
+    0.5,
+    0.62
+   ],
+   "arc": "#7A4545",
+   "bg": "#140A12"
+  },
+  "texts": [
+   {
+    "t": "needle: looks away",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S97": {
+  "bg": {
+   "k": "fall",
+   "pal": "dark",
+   "seed": 74,
+   "sp": 0.3
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.55,
+   "s": 1.0,
+   "pose": "brace",
+   "look": "dark"
+  },
+  "texts": [
+   {
+    "t": "CREAK",
+    "st": "stamp",
+    "slot": "tr"
+   }
+  ],
+  "dim": 1
+ },
+ "S98": {
+  "bg": {
+   "k": "diagram",
+   "R": 0.42,
+   "cx": 0.62,
+   "depth": [
+    0.1,
+    0.4
+   ],
+   "hi": "ocean",
+   "bg": "#160A12"
+  },
+  "texts": [
+   {
+    "t": "PRESSURE + HEAT",
+    "st": "sticker",
+    "slot": "tl"
+   }
+  ],
+  "label": {
+   "st": "pill",
+   "a": "NASA",
+   "slot": "bl"
+  }
+ },
+ "S99": {
+  "bg": {
+   "k": "wash",
+   "c1": "#5A1E14",
+   "c2": "#07040C"
+  },
+  "texts": [
+   {
+    "t": "CRUSH. MELT. VAPORIZE.",
+    "st": "big",
+    "slot": "c"
+   }
+  ],
+  "props": [
+   {
+    "k": "probe",
+    "x": 0.5,
+    "y": 0.75,
+    "s": 1.0,
+    "a": [
+     0,
+     2.5
+    ]
+   }
+  ]
+ },
+ "S100": {
+  "bg": {
+   "k": "fall",
+   "pal": "dark",
+   "seed": 75,
+   "sp": 0.3
+  },
+  "pip": {
+   "x": 0.42,
+   "y": 0.55,
+   "s": 1.0,
+   "pose": "hold",
+   "hold": "probe"
+  },
+  "texts": [
+   {
+    "t": "TOY PROBE TEST",
+    "st": "chip",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S101": {
+  "bg": {
+   "k": "wash",
+   "c1": "#3A2230",
+   "c2": "#07040C",
+   "cy": 0.7
+  },
+  "texts": [
+   {
+    "t": "SQUISH",
+    "st": "big",
+    "slot": "t"
+   }
+  ],
+  "props": [
+   {
+    "k": "probe",
+    "x": 0.5,
+    "y": 0.6,
+    "s": 2.2,
+    "a": [
+     0,
+     1
+    ]
+   }
+  ]
+ },
+ "S102": {
+  "bg": {
+   "k": "wash",
+   "c1": "#4A2018",
+   "c2": "#07040C",
+   "cy": 0.8
+  },
+  "texts": [
+   {
+    "t": "MELT",
+    "st": "big",
+    "slot": "t"
+   }
+  ],
+  "props": [
+   {
+    "k": "probe",
+    "x": 0.5,
+    "y": 0.65,
+    "s": 2.0,
+    "a": [
+     1,
+     2
+    ]
+   },
+   {
+    "k": "puddle",
+    "x": 0.5,
+    "y": 0.78,
+    "s": [
+     0.5,
+     1.6
+    ]
+   }
+  ]
+ },
+ "S103": {
+  "bg": {
+   "k": "fall",
+   "pal": "dark",
+   "seed": 76,
+   "sp": 0.3
+  },
+  "pip": {
+   "x": 0.3,
+   "y": 0.55,
+   "s": 0.9,
+   "pose": "cringe",
+   "look": "dark"
+  },
+  "texts": [
+   {
+    "t": "POOF",
+    "st": "stamp",
+    "slot": "tr"
+   }
+  ],
+  "props": [
+   {
+    "k": "probe",
+    "x": 0.7,
+    "y": 0.6,
+    "s": 1.2,
+    "a": [
+     2,
+     3
+    ]
+   }
+  ],
+  "dim": 1
+ },
+ "S104": {
+  "bg": {
+   "k": "wash",
+   "c1": "#2A1A28",
+   "c2": "#07040C"
+  },
+  "pip": {
+   "x": 0.6,
+   "y": 0.6,
+   "s": 1.1,
+   "pose": "point",
+   "look": "dark",
+   "ex": "worried"
+  },
+  "texts": [
+   {
+    "t": "COMPLAINT FILED",
+    "st": "stamp",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S105": {
+  "bg": {
+   "k": "fall",
+   "pal": "dark",
+   "seed": 77,
+   "sp": 0.2
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.58,
+   "s": 1.3,
+   "pose": "salute",
+   "look": "dark"
+  },
+  "texts": [
+   {
+    "t": "brave thoughts",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S106": {
+  "bg": {
+   "k": "fall",
+   "pal": "deep",
+   "seed": 78,
+   "sp": 1.2,
+   "dens": [
+    0.8,
+    0.0
+   ]
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.6,
+   "pose": "spread",
+   "ex": "shock"
+  },
+  "texts": [
+   {
+    "t": "THE CLOUD ENDS",
+    "st": "big",
+    "slot": "b"
+   }
+  ]
+ },
+ "S107": {
+  "bg": {
+   "k": "ocean",
+   "view": "surface",
+   "hz": [
+    0.75,
+    0.45
+   ],
+   "sky1": "#120E28",
+   "sky2": "#3A3A80",
+   "sea1": "#5A9AD0",
+   "sea2": "#081840"
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.25,
+   "s": 0.4,
+   "pose": "streamline",
+   "spin": 180
+  },
+  "card": {
+   "a": "THE OCEAN",
+   "b": "below the clouds",
+   "st": 1
+  }
+ },
+ "S108": {
+  "bg": {
+   "k": "ocean",
+   "view": "under",
+   "c1": "#3A7AC8",
+   "c2": "#123A70",
+   "seed": 2,
+   "up": 0.5
+  },
+  "texts": [
+   {
+    "t": "SQUEEZED HYDROGEN",
+    "st": "big",
+    "slot": "t"
+   },
+   {
+    "t": "flows like a liquid",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S109": {
+  "bg": {
+   "k": "diagram",
+   "R": 0.42,
+   "cx": 0.38,
+   "depth": 0.2,
+   "hi": "ocean"
+  },
+  "texts": [
+   {
+    "t": "LARGEST OCEAN IN THE SOLAR SYSTEM",
+    "st": "fact",
+    "slot": "t"
+   }
+  ],
+  "label": {
+   "st": "pill",
+   "a": "NASA",
+   "slot": "br"
+  }
+ },
+ "S110": {
+  "bg": {
+   "k": "ocean",
+   "view": "surface",
+   "hz": 0.4,
+   "sky1": "#0A0A24",
+   "sky2": "#5A4A9A",
+   "sea1": "#7AC8F0",
+   "sea2": "#0A2A60",
+   "line": "#E0FFFF"
+  },
+  "texts": [
+   {
+    "t": "HYDROGEN, NOT WATER",
+    "st": "big",
+    "slot": "b"
+   }
+  ],
+  "props": [
+   {
+    "k": "x",
+    "x": 0.75,
+    "y": 0.25,
+    "s": 0.8
+   }
+  ]
+ },
+ "S111": {
+  "bg": {
+   "k": "ocean",
+   "view": "surface",
+   "hz": 0.55,
+   "sky1": "#141038",
+   "sky2": "#7A5A9A"
+  },
+  "pip": {
+   "x": 0.5,
+   "y": [
+    0.35,
+    0.6
+   ],
+   "s": 0.55,
+   "pose": "streamline",
+   "spin": 180
+  },
+  "texts": [
+   {
+    "t": "no splash",
+    "st": "note",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S112": {
+  "bg": {
+   "k": "ocean",
+   "view": "surface",
+   "hz": 0.5,
+   "sky1": "#1A1440",
+   "sky2": "#E08A60",
+   "sun": [
+    0.8,
+    30
+   ]
+  },
+  "pip": {
+   "x": 0.25,
+   "y": 0.55,
+   "s": 0.45,
+   "pose": "shrug"
+  },
+  "texts": [
+   {
+    "t": "NO SHORE",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S113": {
+  "bg": {
+   "k": "ocean",
+   "view": "under",
+   "seed": 3,
+   "rays": 9
+  },
+  "pip": {
+   "x": [
+    0.3,
+    0.6
+   ],
+   "y": 0.5,
+   "s": 0.8,
+   "pose": "swim"
+  },
+  "texts": [
+   {
+    "t": "breaststroke",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S114": {
+  "bg": {
+   "k": "ocean",
+   "view": "under",
+   "seed": 4,
+   "deep": true,
+   "bn": 12
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.45,
+   "pose": "float",
+   "ex": "tired"
+  },
+  "texts": [
+   {
+    "t": "the ocean: indifferent",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S115": {
+  "bg": {
+   "k": "ocean",
+   "view": "under",
+   "seed": 5,
+   "rot": [
+    0,
+    180
+   ],
+   "bn": 20
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.7,
+   "pose": "tumble",
+   "spin": [
+    0,
+    180
+   ]
+  },
+  "texts": [
+   {
+    "t": "UP? DOWN?",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S116": {
+  "bg": {
+   "k": "ocean",
+   "view": "under",
+   "seed": 6,
+   "bn": 50,
+   "up": 0.6,
+   "bub": "#FFE9A0"
+  },
+  "pip": {
+   "x": 0.3,
+   "y": 0.6,
+   "s": 0.6,
+   "pose": "float"
+  },
+  "texts": [
+   {
+    "t": "glowing bubbles",
+    "st": "note",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S117": {
+  "bg": {
+   "k": "ocean",
+   "view": "under",
+   "seed": 7,
+   "bn": 10,
+   "c1": "#2A6AB0"
+  },
+  "pip": {
+   "x": 0.3,
+   "y": 0.55,
+   "s": 0.8,
+   "pose": "wave"
+  },
+  "texts": [
+   {
+    "t": "very polite",
+    "st": "note",
+    "slot": "br"
+   }
+  ],
+  "props": [
+   {
+    "k": "bub",
+    "x": 0.68,
+    "y": 0.45,
+    "s": 1.8,
+    "v": "face"
+   }
+  ]
+ },
+ "S118": {
+  "bg": {
+   "k": "ocean",
+   "view": "under",
+   "seed": 8,
+   "deep": true,
+   "c1": "#0A2A50",
+   "c3": "#02040E"
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.78,
+   "s": 0.4,
+   "pose": "pointUp"
+  },
+  "texts": [
+   {
+    "t": "sky used to be up there",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S119": {
+  "bg": {
+   "k": "ocean",
+   "view": "under",
+   "seed": 9,
+   "deep": true,
+   "c2": "#0A1A40",
+   "c3": "#000208",
+   "bn": 8,
+   "rays": 3
+  },
+  "pip": {
+   "x": 0.5,
+   "y": [
+    0.3,
+    0.6
+   ],
+   "s": 0.35,
+   "pose": "streamline",
+   "spin": 180
+  },
+  "texts": [
+   {
+    "t": "DEEPER",
+    "st": "big",
+    "slot": "b"
+   }
+  ]
+ },
+ "S120": {
+  "bg": {
+   "k": "metal",
+   "field": false,
+   "arcs": 0,
+   "seed": 1,
+   "rot": [
+    -30,
+    10
+   ]
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.5,
+   "pose": "peek",
+   "ex": "shock"
+  },
+  "texts": [
+   {
+    "t": "SHINING LIKE METAL",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S121": {
+  "bg": {
+   "k": "diagram",
+   "R": 0.42,
+   "cx": 0.5,
+   "depth": [
+    0.3,
+    0.5
+   ],
+   "hi": "metal",
+   "ang": -130
+  },
+  "texts": [
+   {
+    "t": "~HALFWAY TO THE CENTRE",
+    "st": "chip",
+    "slot": "tl"
+   }
+  ],
+  "card": {
+   "a": "METALLIC HYDROGEN",
+   "b": "perhaps halfway down",
+   "st": 3
+  }
+ },
+ "S122": {
+  "bg": {
+   "k": "metal",
+   "field": false,
+   "arcs": 1,
+   "seed": 2,
+   "m2": "#9AB0D8"
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.55,
+   "s": 0.7,
+   "pose": "float"
+  },
+  "texts": [
+   {
+    "t": "IT CHANGES AGAIN",
+    "st": "big",
+    "slot": "b"
+   }
+  ]
+ },
+ "S123": {
+  "bg": {
+   "k": "metal",
+   "field": false,
+   "arcs": 3,
+   "seed": 3,
+   "rot": 10
+  },
+  "texts": [
+   {
+    "t": "CONDUCTS ELECTRICITY",
+    "st": "fact",
+    "slot": "t"
+   }
+  ],
+  "props": [
+   {
+    "k": "bolt",
+    "x": 0.5,
+    "y": 0.5,
+    "s": 2.0
+   }
+  ]
+ },
+ "S124": {
+  "bg": {
+   "k": "metal",
+   "field": false,
+   "arcs": 6,
+   "seed": 4,
+   "rot": -40
+  },
+  "texts": [
+   {
+    "t": "LIKE A METAL - NASA",
+    "st": "big",
+    "slot": "b"
+   }
+  ]
+ },
+ "S125": {
+  "bg": {
+   "k": "metal",
+   "field": false,
+   "arcs": 0,
+   "seed": 5,
+   "m1": "#4A5262",
+   "m3": "#B0B8C8"
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.55,
+   "s": 0.9,
+   "pose": "stand",
+   "look": "dark"
+  },
+  "texts": [
+   {
+    "t": "METALLIC HYDROGEN",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S126": {
+  "bg": {
+   "k": "metal",
+   "field": false,
+   "arcs": 0,
+   "seed": 6,
+   "rot": 30,
+   "m2": "#E0E6F0"
+  },
+  "texts": [
+   {
+    "t": "silver. heavy. smug.",
+    "st": "note",
+    "slot": "b"
+   }
+  ],
+  "props": [
+   {
+    "k": "eyes",
+    "x": 0.5,
+    "y": 0.45,
+    "s": 2.0
+   }
+  ]
+ },
+ "S127": {
+  "bg": {
+   "k": "info",
+   "viz": "clock",
+   "turns": [
+    0,
+    3
+   ],
+   "sector": 0.41,
+   "R": 0.28,
+   "cx": 0.7
+  },
+  "texts": [
+   {
+    "t": "+ THE SPIN",
+    "st": "big",
+    "slot": "ml"
+   }
+  ]
+ },
+ "S128": {
+  "bg": {
+   "k": "metal",
+   "arcs": 2,
+   "seed": 7,
+   "fx": 0.5,
+   "fy": 0.5
+  },
+  "texts": [
+   {
+    "t": "SPIN + METAL = DYNAMO",
+    "st": "big",
+    "slot": "t"
+   }
+  ],
+  "props": [
+   {
+    "k": "jup",
+    "x": 0.5,
+    "y": 0.5,
+    "s": 1.6,
+    "r": [
+     0,
+     180
+    ]
+   }
+  ]
+ },
+ "S129": {
+  "bg": {
+   "k": "space",
+   "jr": 0.25,
+   "seed": 61
+  },
+  "texts": [
+   {
+    "t": "MAGNETIC FIELD",
+    "st": "sticker",
+    "slot": "b"
+   }
+  ],
+  "props": [
+   {
+    "k": "ring",
+    "x": 0.5,
+    "y": 0.5,
+    "s": [
+     2.0,
+     3.6
+    ],
+    "c": "#7FE8FF"
+   },
+   {
+    "k": "ring",
+    "x": 0.5,
+    "y": 0.5,
+    "s": [
+     3.0,
+     5.0
+    ],
+    "c": "#7FE8FF",
+    "o": 0.6
+   }
+  ]
+ },
+ "S130": {
+  "bg": {
+   "k": "info",
+   "viz": "dial",
+   "needle": [
+    0.1,
+    0.55
+   ],
+   "arc": "#7FE8FF"
+  },
+  "texts": [
+   {
+    "t": "16x",
+    "st": "num",
+    "slot": "t",
+    "size": 170
+   }
+  ]
+ },
+ "S131": {
+  "bg": {
+   "k": "info",
+   "viz": "dial",
+   "needle": [
+    0.55,
+    0.98
+   ],
+   "arc": "#7FE8FF",
+   "bg": "#0A1428"
+  },
+  "texts": [
+   {
+    "t": "TO 54x EARTH'S",
+    "st": "big",
+    "slot": "t"
+   }
+  ],
+  "label": {
+   "st": "pill",
+   "a": "NASA",
+   "slot": "br"
+  }
+ },
+ "S132": {
+  "bg": {
+   "k": "metal",
+   "field": false,
+   "arcs": 2,
+   "seed": 8
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.55,
+   "s": 1.1,
+   "pose": "spread",
+   "ex": "shock"
+  },
+  "texts": [
+   {
+    "t": "CRACKLE",
+    "st": "stamp",
+    "slot": "tr"
+   }
+  ],
+  "fx": [
+   {
+    "k": "sparks",
+    "n": 14,
+    "c": "#9FF4FF",
+    "x": 160
+   }
+  ]
+ },
+ "S133": {
+  "bg": {
+   "k": "wash",
+   "c1": "#2A4A6A",
+   "c2": "#05040E"
+  },
+  "texts": [
+   {
+    "t": "ROULETTE",
+    "st": "sticker",
+    "slot": "b"
+   }
+  ],
+  "props": [
+   {
+    "k": "compass",
+    "x": 0.5,
+    "y": 0.5,
+    "s": 3.0,
+    "v": "spin"
+   }
+  ]
+ },
+ "S134": {
+  "bg": {
+   "k": "limb",
+   "R": 0.6,
+   "cy": 1.5,
+   "seed": 62,
+   "sky": "#03081A",
+   "glow": "#7FFFB0"
+  },
+  "texts": [
+   {
+    "t": "AURORA",
+    "st": "big",
+    "slot": "t"
+   }
+  ],
+  "fx": [
+   {
+    "k": "rings",
+    "n": 5,
+    "c": "#7FFFB0",
+    "x": 600,
+    "o": 0.5
+   }
+  ]
+ },
+ "S135": {
+  "bg": {
+   "k": "metal",
+   "field": false,
+   "arcs": 0,
+   "seed": 9,
+   "rot": 60
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.55,
+   "s": 0.9,
+   "pose": "shrug",
+   "look": "dark",
+   "ex": "oops"
+  },
+  "texts": [
+   {
+    "t": "shiny (except you)",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S136": {
+  "bg": {
+   "k": "wash",
+   "c1": "#1E3A5A",
+   "c2": "#05040E"
+  },
+  "pip": {
+   "x": 0.3,
+   "y": 0.6,
+   "s": 1.0,
+   "pose": "cringe"
+  },
+  "texts": [
+   {
+    "t": "points at: you",
+    "st": "note",
+    "slot": "tr"
+   }
+  ],
+  "props": [
+   {
+    "k": "compass",
+    "x": 0.72,
+    "y": 0.45,
+    "s": 1.8,
+    "a": 235
+   }
+  ]
+ },
+ "S137": {
+  "bg": {
+   "k": "metal",
+   "field": true,
+   "arcs": 1,
+   "seed": 10,
+   "fx": 0.5,
+   "fy": 1.0
+  },
+  "pip": {
+   "x": 0.5,
+   "y": [
+    0.3,
+    0.5
+   ],
+   "s": 0.5,
+   "pose": "reachDown"
+  },
+  "texts": [
+   {
+    "t": "SURELY A FLOOR?",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S138": {
+  "bg": {
+   "k": "core",
+   "glow": 0.4,
+   "floor": [
+    0,
+    0.8
+   ]
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.45,
+   "s": 0.6,
+   "pose": "reachDown"
+  },
+  "card": {
+   "a": "THE BOTTOM",
+   "b": "surely a floor",
+   "st": 0
+  }
+ },
+ "S139": {
+  "bg": {
+   "k": "space",
+   "jr": 0.4,
+   "jx": 0.65,
+   "seed": 63
+  },
+  "texts": [
+   {
+    "t": "JUNO FOUND SOMETHING",
+    "st": "fact",
+    "slot": "b"
+   }
+  ],
+  "props": [
+   {
+    "k": "probe",
+    "x": [
+     0.15,
+     0.35
+    ],
+    "y": 0.35,
+    "s": 1.2,
+    "r": [
+     -10,
+     10
+    ]
+   }
+  ]
+ },
+ "S140": {
+  "bg": {
+   "k": "space",
+   "jr": 0.3,
+   "jx": 0.5,
+   "seed": 64
+  },
+  "texts": [
+   {
+    "t": "MEASURED FROM ORBIT",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ],
+  "props": [
+   {
+    "k": "probe",
+    "x": 0.5,
+    "y": 0.5,
+    "s": 0.8
+   },
+   {
+    "k": "ring",
+    "x": 0.5,
+    "y": 0.5,
+    "s": 3.2,
+    "c": "#FFB347"
+   }
+  ],
+  "cam": {
+   "r": [
+    0,
+    20
+   ]
+  }
+ },
+ "S141": {
+  "bg": {
+   "k": "diagram",
+   "R": 0.42,
+   "cx": 0.5,
+   "depth": [
+    0.5,
+    0.95
+   ],
+   "hi": "core",
+   "ang": -20
+  },
+  "texts": [
+   {
+    "t": "FUZZY CORE",
+    "st": "big",
+    "slot": "t"
+   },
+   {
+    "t": "partly dissolved",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S142": {
+  "bg": {
+   "k": "core",
+   "glow": 0.8,
+   "floor": 0,
+   "gy": 0.5
+  },
+  "texts": [
+   {
+    "t": "NOT A SOLID FLOOR",
+    "st": "big",
+    "slot": "t"
+   }
+  ],
+  "props": [
+   {
+    "k": "x",
+    "x": 0.5,
+    "y": 0.75,
+    "s": 1.4
+   }
+  ]
+ },
+ "S143": {
+  "bg": {
+   "k": "core",
+   "glow": 0.5,
+   "floor": 0.9
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.55,
+   "s": 0.8,
+   "pose": "reachDown",
+   "ex": "happy"
+  },
+  "texts": [
+   {
+    "t": "one small step...",
+    "st": "note",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S144": {
+  "bg": {
+   "k": "core",
+   "glow": 0.6,
+   "floor": [
+    0.9,
+    0.0
+   ]
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.6,
+   "s": 0.85,
+   "pose": "flail",
+   "ex": "shock"
+  },
+  "texts": [
+   {
+    "t": "FADING",
+    "st": "stamp",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S145": {
+  "bg": {
+   "k": "core",
+   "glow": 0.7,
+   "floor": [
+    0.7,
+    0.0
+   ],
+   "gx": 0.3
+  },
+  "pip": {
+   "x": 0.6,
+   "y": 0.55,
+   "s": 0.75,
+   "pose": "stomp"
+  },
+  "texts": [
+   {
+    "t": "AGAIN?!",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S146": {
+  "bg": {
+   "k": "wash",
+   "c1": "#B44A5A",
+   "c2": "#120820"
+  },
+  "pip": {
+   "x": 0.4,
+   "y": 0.6,
+   "s": 1.4,
+   "pose": "tap",
+   "wrist": "L"
+  },
+  "gauge": {
+   "st": "dial",
+   "depth": "DEEP",
+   "slot": "mr",
+   "fill": 0.9
+  }
+ },
+ "S147": {
+  "bg": {
+   "k": "core",
+   "glow": 0.6,
+   "gy": 0.7
+  },
+  "texts": [
+   {
+    "t": "GROUND: STILL NONE",
+    "st": "stamp",
+    "slot": "b"
+   }
+  ],
+  "gauge": {
+   "st": "lcd",
+   "depth": "DEPTH: ???",
+   "slot": "c",
+   "ground": "STILL NONE",
+   "layer": "CORE"
+  }
+ },
+ "S148": {
+  "bg": {
+   "k": "core",
+   "glow": 0.75,
+   "gy": 0.85
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.4,
+   "s": 0.5,
+   "pose": "float"
+  },
+  "texts": [
+   {
+    "t": "NOT FALLING ONTO ANYTHING",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S149": {
+  "bg": {
+   "k": "core",
+   "glow": [
+    0.6,
+    1.0
+   ],
+   "gx": 0.5,
+   "gy": 0.55
+  },
+  "pip": {
+   "x": 0.5,
+   "y": [
+    0.4,
+    0.55
+   ],
+   "s": [
+    0.6,
+    0.4
+   ],
+   "pose": "float",
+   "ex": "tired"
+  },
+  "texts": [
+   {
+    "t": "sinking into glow",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S150": {
+  "bg": {
+   "k": "core",
+   "glow": 1.0,
+   "c0": "#FFFFFF",
+   "c1": "#FFE2B8",
+   "c2": "#C88AB0"
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.55,
+   "s": 0.45,
+   "pose": "sit"
+  },
+  "texts": [
+   {
+    "t": "quiet + bright",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S151": {
+  "bg": {
+   "k": "core",
+   "glow": 0.9,
+   "floor": 0.0,
+   "c1": "#FFC878"
+  },
+  "pip": {
+   "x": 0.35,
+   "y": 0.55,
+   "s": 0.7,
+   "pose": "point"
+  },
+  "texts": [
+   {
+    "t": "EXTREMELY NOT A FLOOR",
+    "st": "big",
+    "slot": "t"
+   }
+  ],
+  "props": [
+   {
+    "k": "x",
+    "x": 0.7,
+    "y": 0.8,
+    "s": 1.2,
+    "c": "#FF8A3D"
+   }
+  ]
+ },
+ "S152": {
+  "bg": {
+   "k": "wash",
+   "c1": "#FFFFFF",
+   "c2": "#FFD08A"
+  },
+  "texts": [
+   {
+    "t": "WAKE UP",
+    "st": "big",
+    "slot": "b"
+   }
+  ],
+  "props": [
+   {
+    "k": "alarm",
+    "x": 0.5,
+    "y": 0.5,
+    "s": [
+     0.8,
+     1.6
+    ]
+   }
+  ]
+ },
+ "S153": {
+  "bg": {
+   "k": "roof",
+   "dawn": 0.2,
+   "jx": 0.68,
+   "jy": 0.3,
+   "gap": 70,
+   "seed": 1
+  },
+  "card": {
+   "a": "BACK TO REALITY",
+   "b": "no spacesuit needed",
+   "st": 0
+  }
+ },
+ "S154": {
+  "bg": {
+   "k": "roof",
+   "dawn": 0.3,
+   "parapet": true,
+   "seed": 2,
+   "hz": 0.78
+  },
+  "pip": {
+   "x": 0.3,
+   "y": 0.72,
+   "s": 0.7,
+   "pose": "stand",
+   "helmet": 0,
+   "pack": 0
+  },
+  "texts": [
+   {
+    "t": "a rooftop",
+    "st": "note",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S155": {
+  "bg": {
+   "k": "roof",
+   "dawn": [
+    0.3,
+    0.5
+   ],
+   "seed": 3
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.72,
+   "s": 0.6,
+   "pose": "cool",
+   "helmet": 0,
+   "pack": 0,
+   "ex": "happy"
+  },
+  "texts": [
+   {
+    "t": "BEFORE SUNRISE",
+    "st": "sticker",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S156": {
+  "bg": {
+   "k": "roof",
+   "dawn": 0.45,
+   "jx": 0.6,
+   "jy": 0.28,
+   "jb": 1.6,
+   "seed": 4
+  },
+  "pip": {
+   "x": 0.25,
+   "y": 0.75,
+   "s": 0.6,
+   "pose": "pointUp",
+   "helmet": 0,
+   "pack": 0
+  },
+  "texts": [
+   {
+    "t": "THAT'S JUPITER",
+    "st": "big",
+    "slot": "b"
+   }
+  ]
+ },
+ "S157": {
+  "bg": {
+   "k": "info",
+   "viz": "none",
+   "bg": "#10123A"
+  },
+  "texts": [
+   {
+    "t": "15",
+    "st": "num",
+    "slot": "c",
+    "size": 260
+   },
+   {
+    "t": "NOVEMBER",
+    "st": "chip",
+    "slot": "b"
+   }
+  ]
+ },
+ "S158": {
+  "bg": {
+   "k": "info",
+   "viz": "none",
+   "bg": "#1A1440"
+  },
+  "texts": [
+   {
+    "t": "16",
+    "st": "num",
+    "slot": "c",
+    "size": 260
+   },
+   {
+    "t": "NOVEMBER",
+    "st": "chip",
+    "slot": "t"
+   }
+  ]
+ },
+ "S159": {
+  "bg": {
+   "k": "roof",
+   "dawn": 0.55,
+   "jx": 0.72,
+   "jy": 0.32,
+   "seed": 5
+  },
+  "texts": [
+   {
+    "t": "LOOK SOUTHEAST",
+    "st": "big",
+    "slot": "t"
+   },
+   {
+    "t": "NASA",
+    "st": "chip",
+    "slot": "bl"
+   }
+  ],
+  "props": [
+   {
+    "k": "arrow",
+    "x": 0.55,
+    "y": 0.42,
+    "s": 0.9,
+    "r": -15
+   }
+  ]
+ },
+ "S160": {
+  "bg": {
+   "k": "roof",
+   "dawn": 0.5,
+   "jx": 0.45,
+   "jy": 0.4,
+   "gap": [
+    40,
+    120
+   ],
+   "jb": 1.4,
+   "seed": 6,
+   "bh": 0.6
+  },
+  "texts": [
+   {
+    "t": "1.2 DEGREES APART",
+    "st": "big",
+    "slot": "t"
+   }
+  ],
+  "props": [
+   {
+    "k": "jup",
+    "x": 0.12,
+    "y": 0.18,
+    "s": 0.4
+   },
+   {
+    "k": "mars",
+    "x": 0.2,
+    "y": 0.18,
+    "s": 0.5
+   }
+  ]
+ },
+ "S161": {
+  "bg": {
+   "k": "roof",
+   "dawn": 0.6,
+   "jx": 0.4,
+   "jy": 0.3,
+   "gap": 160,
+   "moons": true,
+   "mr": 48,
+   "seed": 7
+  },
+  "texts": [
+   {
+    "t": "ABOUT 2 FULL MOONS WIDE",
+    "st": "sticker",
+    "slot": "b"
+   }
+  ]
+ },
+ "S162": {
+  "bg": {
+   "k": "roof",
+   "dawn": 0.55,
+   "jx": 0.5,
+   "jy": 0.35,
+   "jb": 2.0,
+   "gap": 110,
+   "seed": 8
+  },
+  "texts": [
+   {
+    "t": "BRIGHTER = JUPITER",
+    "st": "chip",
+    "slot": "tl"
+   }
+  ],
+  "props": [
+   {
+    "k": "pin",
+    "x": 0.5,
+    "y": 0.3,
+    "s": 0.8
+   }
+  ]
+ },
+ "S163": {
+  "bg": {
+   "k": "roof",
+   "dawn": 0.55,
+   "jx": 0.4,
+   "jy": 0.35,
+   "gap": 180,
+   "seed": 9
+  },
+  "texts": [
+   {
+    "t": "the red one = Mars",
+    "st": "note",
+    "slot": "br"
+   }
+  ],
+  "props": [
+   {
+    "k": "mars",
+    "x": 0.8,
+    "y": 0.2,
+    "s": 1.0
+   }
+  ]
+ },
+ "S164": {
+  "bg": {
+   "k": "roof",
+   "dawn": 0.6,
+   "parapet": true,
+   "seed": 10
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.72,
+   "s": 0.8,
+   "pose": "shrug",
+   "helmet": 0,
+   "pack": 0,
+   "ex": "oops"
+  },
+  "texts": [
+   {
+    "t": "DON'T MIX THEM UP",
+    "st": "stamp",
+    "slot": "t"
+   }
+  ]
+ },
+ "S165": {
+  "bg": {
+   "k": "roof",
+   "dawn": 0.7,
+   "parapet": true,
+   "seed": 11,
+   "jx": 0.75
+  },
+  "pip": {
+   "x": 0.35,
+   "y": 0.72,
+   "s": 0.7,
+   "pose": "lean",
+   "helmet": 0,
+   "pack": 0,
+   "ex": "happy"
+  },
+  "texts": [
+   {
+    "t": "no spacesuit. no falling.",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S166": {
+  "bg": {
+   "k": "wash",
+   "c1": "#2A2250",
+   "c2": "#070818"
+  },
+  "texts": [
+   {
+    "t": "ALARM: 15 NOV",
+    "st": "big",
+    "slot": "t"
+   }
+  ],
+  "props": [
+   {
+    "k": "alarm",
+    "x": 0.35,
+    "y": 0.5,
+    "s": 1.6,
+    "r": [
+     -6,
+     6
+    ]
+   },
+   {
+    "k": "phone",
+    "x": 0.68,
+    "y": 0.5,
+    "s": 1.6
+   }
+  ]
+ },
+ "S167": {
+  "bg": {
+   "k": "space",
+   "jr": null,
+   "seed": 65,
+   "moons": [
+    [
+     0.2,
+     0.5,
+     60
+    ],
+    [
+     0.5,
+     0.5,
+     40
+    ],
+    [
+     0.8,
+     0.5,
+     50
+    ]
+   ]
+  },
+  "texts": [
+   {
+    "t": "WHICH PLANET WOULD YOU PICK?",
+    "st": "big",
+    "slot": "t"
+   },
+   {
+    "t": "comment below",
+    "st": "note",
+    "slot": "b"
+   }
+  ],
+  "props": [
+   {
+    "k": "jup",
+    "x": 0.5,
+    "y": 0.5,
+    "s": 1.0
+   },
+   {
+    "k": "mars",
+    "x": 0.2,
+    "y": 0.5,
+    "s": 1.3
+   }
+  ]
+ },
+ "S168": {
+  "bg": {
+   "k": "roof",
+   "dawn": 0.85,
+   "parapet": true,
+   "seed": 12
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.72,
+   "s": 0.7,
+   "pose": "wave",
+   "helmet": 0,
+   "pack": 0
+  },
+  "texts": [
+   {
+    "t": "TOMORROW: A NEW WHAT IF",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S169": {
+  "bg": {
+   "k": "limb",
+   "R": 0.7,
+   "cy": 1.7,
+   "seed": 66
+  },
+  "end": 1
+ }
+}

@@ -1,0 +1,306 @@
+{
+ "slug": "jupiterfall",
+ "title": "WHAT IF YOU FELL INTO JUPITER? (SHORT)",
+ "fps": 30,
+ "total": 1332,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 61,
+   "t0": 0,
+   "t1": 61,
+   "line": "You just stepped out above Jupiter."
+  },
+  {
+   "shot": "S2",
+   "a": 61,
+   "b": 112,
+   "t0": 0,
+   "t1": 51,
+   "line": "There is no ground to catch you."
+  },
+  {
+   "shot": "S3",
+   "a": 112,
+   "b": 204,
+   "t0": 0,
+   "t1": 92,
+   "line": "NASA says Jupiter has no true surface."
+  },
+  {
+   "shot": "S4",
+   "a": 204,
+   "b": 314,
+   "t0": 0,
+   "t1": 110,
+   "line": "First, three cloud layers, ammonia ice on top."
+  },
+  {
+   "shot": "S5",
+   "a": 314,
+   "b": 430,
+   "t0": 0,
+   "t1": 116,
+   "line": "Then winds up to five hundred thirty-nine kilometres an hour."
+  },
+  {
+   "shot": "S6",
+   "a": 430,
+   "b": 492,
+   "t0": 0,
+   "t1": 62,
+   "line": "The Great Red Spot swings past,"
+  },
+  {
+   "shot": "S7",
+   "a": 492,
+   "b": 537,
+   "t0": 0,
+   "t1": 45,
+   "line": "twice as wide as Earth."
+  },
+  {
+   "shot": "S8",
+   "a": 537,
+   "b": 658,
+   "t0": 0,
+   "t1": 121,
+   "line": "Below the clouds, the sky turns into an ocean of hydrogen,"
+  },
+  {
+   "shot": "S9",
+   "a": 658,
+   "b": 730,
+   "t0": 0,
+   "t1": 72,
+   "line": "the biggest ocean in the solar system."
+  },
+  {
+   "shot": "S10",
+   "a": 730,
+   "b": 826,
+   "t0": 0,
+   "t1": 96,
+   "line": "Deeper, metallic hydrogen sparks like a dynamo."
+  },
+  {
+   "shot": "S11",
+   "a": 826,
+   "b": 924,
+   "t0": 0,
+   "t1": 98,
+   "line": "And the core is fuzzy, so still no floor."
+  },
+  {
+   "shot": "S12",
+   "a": 924,
+   "b": 977,
+   "t0": 0,
+   "t1": 53,
+   "line": "Want to see Jupiter for real?"
+  },
+  {
+   "shot": "S13",
+   "a": 977,
+   "b": 1036,
+   "t0": 0,
+   "t1": 59,
+   "line": "Look southeast before sunrise"
+  },
+  {
+   "shot": "S14",
+   "a": 1036,
+   "b": 1156,
+   "t0": 0,
+   "t1": 120,
+   "line": "on the fifteenth and sixteenth of November, beside Mars."
+  },
+  {
+   "shot": "S15",
+   "a": 1156,
+   "b": 1209,
+   "t0": 0,
+   "t1": 53,
+   "line": "The full fall is on the channel."
+  },
+  {
+   "shot": "S16",
+   "a": 1209,
+   "b": 1269,
+   "t0": 0,
+   "t1": 60,
+   "line": "You step back inside the hatch."
+  },
+  {
+   "shot": "S17",
+   "a": 1269,
+   "b": 1332,
+   "t0": 0,
+   "t1": 63,
+   "line": ""
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "",
+   "key": 38,
+   "len": 61,
+   "first": 0,
+   "line": "You just stepped out above Jupiter.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "",
+   "key": 32,
+   "len": 51,
+   "first": 61,
+   "line": "There is no ground to catch you.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "",
+   "key": 57,
+   "len": 92,
+   "first": 112,
+   "line": "NASA says Jupiter has no true surface.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "",
+   "key": 68,
+   "len": 110,
+   "first": 204,
+   "line": "First, three cloud layers, ammonia ice on top.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "",
+   "key": 72,
+   "len": 116,
+   "first": 314,
+   "line": "Then winds up to five hundred thirty-nine kilometres an hour.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "",
+   "key": 38,
+   "len": 62,
+   "first": 430,
+   "line": "The Great Red Spot swings past,",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "",
+   "key": 28,
+   "len": 45,
+   "first": 492,
+   "line": "twice as wide as Earth.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "",
+   "key": 75,
+   "len": 121,
+   "first": 537,
+   "line": "Below the clouds, the sky turns into an ocean of hydrogen,",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "",
+   "key": 45,
+   "len": 72,
+   "first": 658,
+   "line": "the biggest ocean in the solar system.",
+   "note": "ch0"
+  },
+  {
+   "id": "S10",
+   "size": "",
+   "key": 60,
+   "len": 96,
+   "first": 730,
+   "line": "Deeper, metallic hydrogen sparks like a dynamo.",
+   "note": "ch0"
+  },
+  {
+   "id": "S11",
+   "size": "",
+   "key": 61,
+   "len": 98,
+   "first": 826,
+   "line": "And the core is fuzzy, so still no floor.",
+   "note": "ch0"
+  },
+  {
+   "id": "S12",
+   "size": "",
+   "key": 33,
+   "len": 53,
+   "first": 924,
+   "line": "Want to see Jupiter for real?",
+   "note": "ch0"
+  },
+  {
+   "id": "S13",
+   "size": "",
+   "key": 37,
+   "len": 59,
+   "first": 977,
+   "line": "Look southeast before sunrise",
+   "note": "ch0"
+  },
+  {
+   "id": "S14",
+   "size": "",
+   "key": 74,
+   "len": 120,
+   "first": 1036,
+   "line": "on the fifteenth and sixteenth of November, beside Mars.",
+   "note": "ch0"
+  },
+  {
+   "id": "S15",
+   "size": "",
+   "key": 33,
+   "len": 53,
+   "first": 1156,
+   "line": "The full fall is on the channel.",
+   "note": "ch0"
+  },
+  {
+   "id": "S16",
+   "size": "",
+   "key": 37,
+   "len": 60,
+   "first": 1209,
+   "line": "You step back inside the hatch.",
+   "note": "ch0"
+  },
+  {
+   "id": "S17",
+   "size": "",
+   "key": 39,
+   "len": 63,
+   "first": 1269,
+   "line": "",
+   "note": "ch0"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "jupiterfall/short-voice.wav",
+  "voiceVol": 0.9,
+  "sfxVol": 0.5,
+  "musicVol": 0.3
+ }
+}

@@ -1,0 +1,515 @@
+{
+ "S1": {
+  "bg": {
+   "k": "limb",
+   "R": 1.5,
+   "cx": 0.5,
+   "cy": [
+    1.25,
+    1.15
+   ],
+   "seed": 3,
+   "spot": {
+    "u": 0.1,
+    "v": -0.6,
+    "s": 0.5
+   }
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.3,
+   "s": 0.75,
+   "pose": "step",
+   "wrist": "L"
+  },
+  "texts": [
+   {
+    "t": "JUPITER HAS NO GROUND",
+    "st": "big",
+    "slot": "t2"
+   }
+  ],
+  "props": [
+   {
+    "k": "hull",
+    "x": 0.5,
+    "y": 0.16,
+    "s": 0.8,
+    "a": 1
+   }
+  ]
+ },
+ "S2": {
+  "bg": {
+   "k": "limb",
+   "R": 1.2,
+   "cy": 1.2,
+   "seed": 5,
+   "rot": 8
+  },
+  "pip": {
+   "x": [
+    0.5,
+    0.5
+   ],
+   "y": [
+    0.3,
+    0.5
+   ],
+   "s": 0.6,
+   "pose": "spread",
+   "spin": [
+    0,
+    30
+   ]
+  },
+  "texts": [
+   {
+    "t": "GROUND: NONE",
+    "st": "stamp",
+    "slot": "t"
+   }
+  ],
+  "props": [
+   {
+    "k": "hull",
+    "x": 0.5,
+    "y": [
+     0.08,
+     -0.05
+    ],
+    "s": 0.6,
+    "a": 1
+   }
+  ]
+ },
+ "S3": {
+  "bg": {
+   "k": "space",
+   "jr": 0.25,
+   "jx": 0.5,
+   "jy": 0.55,
+   "seed": 11,
+   "spot": {
+    "u": 0.2,
+    "v": 0.3,
+    "s": 0.8
+   }
+  },
+  "texts": [
+   {
+    "t": "NO TRUE SURFACE",
+    "st": "big",
+    "slot": "t"
+   },
+   {
+    "t": "NASA",
+    "st": "chip",
+    "slot": "b"
+   }
+  ]
+ },
+ "S4": {
+  "bg": {
+   "k": "fall",
+   "pal": "amm",
+   "part": "flake",
+   "seed": 32,
+   "pn": 24
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.75,
+   "pose": "float",
+   "wrist": "L"
+  },
+  "texts": [
+   {
+    "t": "3 CLOUD LAYERS",
+    "st": "big",
+    "slot": "t"
+   },
+   {
+    "t": "ammonia ice on top",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S5": {
+  "bg": {
+   "k": "fall",
+   "pal": "amm",
+   "seed": 43,
+   "rot": 90,
+   "sp": 5
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.75,
+   "pose": "tumble",
+   "spin": [
+    0,
+    300
+   ]
+  },
+  "texts": [
+   {
+    "t": "539 km/h WINDS",
+    "st": "big",
+    "slot": "t"
+   }
+  ],
+  "fx": [
+   {
+    "k": "streaks",
+    "a": 0,
+    "n": 14,
+    "c": "#FFFFFF",
+    "sp": 4
+   }
+  ]
+ },
+ "S6": {
+  "bg": {
+   "k": "grs",
+   "cx": 0.5,
+   "cy": 0.5,
+   "sc": 0.6,
+   "seed": 52,
+   "rot": [
+    0,
+    15
+   ]
+  },
+  "pip": {
+   "x": [
+    0.2,
+    0.75
+   ],
+   "y": 0.25,
+   "s": 0.4,
+   "pose": "streamline",
+   "spin": [
+    0,
+    200
+   ]
+  },
+  "texts": [
+   {
+    "t": "THE GREAT RED SPOT",
+    "st": "big",
+    "slot": "b"
+   }
+  ]
+ },
+ "S7": {
+  "bg": {
+   "k": "info",
+   "viz": "compare",
+   "er": 0.11,
+   "two": true
+  },
+  "texts": [
+   {
+    "t": "2x EARTH WIDE",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S8": {
+  "bg": {
+   "k": "ocean",
+   "view": "surface",
+   "hz": [
+    0.7,
+    0.4
+   ],
+   "sky1": "#120E28",
+   "sky2": "#5A4A9A",
+   "sea1": "#6AB8E8",
+   "sea2": "#081840"
+  },
+  "pip": {
+   "x": 0.5,
+   "y": [
+    0.2,
+    0.45
+   ],
+   "s": 0.5,
+   "pose": "streamline",
+   "spin": 180
+  },
+  "texts": [
+   {
+    "t": "AN OCEAN OF HYDROGEN",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S9": {
+  "bg": {
+   "k": "ocean",
+   "view": "under",
+   "seed": 3,
+   "rays": 9
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.55,
+   "s": 0.8,
+   "pose": "swim"
+  },
+  "texts": [
+   {
+    "t": "BIGGEST OCEAN IN THE SOLAR SYSTEM",
+    "st": "fact",
+    "slot": "t"
+   }
+  ]
+ },
+ "S10": {
+  "bg": {
+   "k": "metal",
+   "arcs": 4,
+   "seed": 7,
+   "fx": 0.5,
+   "fy": 0.5
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.55,
+   "s": 0.8,
+   "pose": "spread",
+   "ex": "shock"
+  },
+  "texts": [
+   {
+    "t": "METALLIC HYDROGEN",
+    "st": "big",
+    "slot": "t"
+   },
+   {
+    "t": "a dynamo",
+    "st": "note",
+    "slot": "b"
+   }
+  ],
+  "fx": [
+   {
+    "k": "sparks",
+    "n": 12,
+    "c": "#9FF4FF",
+    "x": 150
+   }
+  ]
+ },
+ "S11": {
+  "bg": {
+   "k": "core",
+   "glow": 0.7,
+   "floor": [
+    0.9,
+    0
+   ]
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.55,
+   "s": 0.8,
+   "pose": "reachDown"
+  },
+  "texts": [
+   {
+    "t": "FUZZY CORE",
+    "st": "big",
+    "slot": "t"
+   },
+   {
+    "t": "still no floor",
+    "st": "stamp",
+    "slot": "b"
+   }
+  ]
+ },
+ "S12": {
+  "bg": {
+   "k": "roof",
+   "dawn": 0.3,
+   "jx": 0.6,
+   "jy": 0.3,
+   "seed": 2,
+   "parapet": true,
+   "hz": 0.8
+  },
+  "pip": {
+   "x": 0.35,
+   "y": 0.78,
+   "s": 0.8,
+   "pose": "pointUp",
+   "helmet": 0,
+   "pack": 0
+  },
+  "texts": [
+   {
+    "t": "SEE IT FOR REAL",
+    "st": "big",
+    "slot": "b2"
+   }
+  ]
+ },
+ "S13": {
+  "bg": {
+   "k": "roof",
+   "dawn": 0.5,
+   "jx": 0.65,
+   "jy": 0.28,
+   "seed": 5
+  },
+  "texts": [
+   {
+    "t": "LOOK SOUTHEAST",
+    "st": "big",
+    "slot": "b2"
+   }
+  ],
+  "props": [
+   {
+    "k": "arrow",
+    "x": 0.4,
+    "y": 0.42,
+    "s": 0.8,
+    "r": -30
+   }
+  ]
+ },
+ "S14": {
+  "bg": {
+   "k": "roof",
+   "dawn": 0.6,
+   "jx": 0.4,
+   "jy": 0.3,
+   "gap": [
+    60,
+    130
+   ],
+   "jb": 1.4,
+   "seed": 6
+  },
+  "texts": [
+   {
+    "t": "15-16 NOV",
+    "st": "num",
+    "slot": "c",
+    "size": 150
+   },
+   {
+    "t": "JUPITER + MARS",
+    "st": "chip",
+    "slot": "b2"
+   }
+  ]
+ },
+ "S15": {
+  "bg": {
+   "k": "limb",
+   "R": 0.42,
+   "cx": 0.5,
+   "cy": 0.45,
+   "seed": 20,
+   "flow": 0.5
+  },
+  "texts": [
+   {
+    "t": "FULL FALL ON THE CHANNEL",
+    "st": "sticker",
+    "slot": "b2"
+   }
+  ]
+ },
+ "S16": {
+  "bg": {
+   "k": "limb",
+   "R": 1.5,
+   "cx": 0.5,
+   "cy": [
+    1.15,
+    1.25
+   ],
+   "seed": 3,
+   "spot": {
+    "u": 0.1,
+    "v": -0.6,
+    "s": 0.5
+   }
+  },
+  "pip": {
+   "x": 0.5,
+   "y": [
+    0.45,
+    0.3
+   ],
+   "s": 0.75,
+   "pose": "wave",
+   "wrist": "L"
+  },
+  "texts": [
+   {
+    "t": "back inside",
+    "st": "note",
+    "slot": "b2"
+   }
+  ],
+  "props": [
+   {
+    "k": "hull",
+    "x": 0.5,
+    "y": 0.16,
+    "s": 0.8,
+    "a": 1
+   }
+  ]
+ },
+ "S17": {
+  "bg": {
+   "k": "limb",
+   "R": 1.5,
+   "cx": 0.5,
+   "cy": 1.25,
+   "seed": 3,
+   "spot": {
+    "u": 0.1,
+    "v": -0.6,
+    "s": 0.5
+   }
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.3,
+   "s": 0.75,
+   "pose": "step",
+   "wrist": "L"
+  },
+  "texts": [
+   {
+    "t": "JUPITER HAS NO GROUND",
+    "st": "big",
+    "slot": "t2",
+    "at": 40
+   }
+  ],
+  "props": [
+   {
+    "k": "hull",
+    "x": 0.5,
+    "y": 0.16,
+    "s": 0.8,
+    "a": 1
+   }
+  ]
+ }
+}

@@ -1,0 +1,2890 @@
+{
+ "slug": "jupiterfall",
+ "title": "WHAT IF YOU FELL INTO JUPITER?",
+ "fps": 30,
+ "total": 12769,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 63,
+   "t0": 0,
+   "t1": 63,
+   "line": "You just stepped out above Jupiter."
+  },
+  {
+   "shot": "S2",
+   "a": 63,
+   "b": 126,
+   "t0": 0,
+   "t1": 63,
+   "line": "There is no ground to catch you."
+  },
+  {
+   "shot": "S3",
+   "a": 126,
+   "b": 213,
+   "t0": 0,
+   "t1": 87,
+   "line": "NASA says Jupiter doesn't have a true surface."
+  },
+  {
+   "shot": "S4",
+   "a": 213,
+   "b": 293,
+   "t0": 0,
+   "t1": 80,
+   "line": "So you fall through three layers of cloud,"
+  },
+  {
+   "shot": "S5",
+   "a": 293,
+   "b": 368,
+   "t0": 0,
+   "t1": 75,
+   "line": "and then the sky turns into an ocean."
+  },
+  {
+   "shot": "S6",
+   "a": 368,
+   "b": 459,
+   "t0": 0,
+   "t1": 91,
+   "line": "Your wrist gauge reads zero kilometres deep."
+  },
+  {
+   "shot": "S7",
+   "a": 459,
+   "b": 537,
+   "t0": 0,
+   "t1": 78,
+   "line": "It also reads: ground, none."
+  },
+  {
+   "shot": "S8",
+   "a": 537,
+   "b": 594,
+   "t0": 0,
+   "t1": 57,
+   "line": "Great. Love that for us."
+  },
+  {
+   "shot": "S9",
+   "a": 594,
+   "b": 683,
+   "t0": 0,
+   "t1": 89,
+   "line": "Okay, deep breath. Let's do this properly."
+  },
+  {
+   "shot": "S10",
+   "a": 683,
+   "b": 786,
+   "t0": 0,
+   "t1": 103,
+   "line": "This is what happens when you fall into Jupiter."
+  },
+  {
+   "shot": "S11",
+   "a": 786,
+   "b": 860,
+   "t0": 0,
+   "t1": 74,
+   "line": "First, a size check before the drop."
+  },
+  {
+   "shot": "S12",
+   "a": 860,
+   "b": 934,
+   "t0": 0,
+   "t1": 74,
+   "line": "Jupiter is eleven times wider than Earth."
+  },
+  {
+   "shot": "S13",
+   "a": 934,
+   "b": 1013,
+   "t0": 0,
+   "t1": 79,
+   "line": "Its radius is sixty-nine thousand,"
+  },
+  {
+   "shot": "S14",
+   "a": 1013,
+   "b": 1070,
+   "t0": 0,
+   "t1": 57,
+   "line": "nine hundred eleven kilometres."
+  },
+  {
+   "shot": "S15",
+   "a": 1070,
+   "b": 1138,
+   "t0": 0,
+   "t1": 68,
+   "line": "NASA says to picture Earth as a grape"
+  },
+  {
+   "shot": "S16",
+   "a": 1138,
+   "b": 1194,
+   "t0": 0,
+   "t1": 56,
+   "line": "and Jupiter as a basketball."
+  },
+  {
+   "shot": "S17",
+   "a": 1194,
+   "b": 1297,
+   "t0": 0,
+   "t1": 103,
+   "line": "You are holding both, and your arms have notes."
+  },
+  {
+   "shot": "S18",
+   "a": 1297,
+   "b": 1342,
+   "t0": 0,
+   "t1": 45,
+   "line": "If Jupiter were hollow,"
+  },
+  {
+   "shot": "S19",
+   "a": 1342,
+   "b": 1433,
+   "t0": 0,
+   "t1": 91,
+   "line": "about one thousand Earths would fit inside."
+  },
+  {
+   "shot": "S20",
+   "a": 1433,
+   "b": 1486,
+   "t0": 0,
+   "t1": 53,
+   "line": "That is a lot of grapes."
+  },
+  {
+   "shot": "S21",
+   "a": 1486,
+   "b": 1571,
+   "t0": 0,
+   "t1": 85,
+   "line": "Gently, you let the grape float away."
+  },
+  {
+   "shot": "S22",
+   "a": 1571,
+   "b": 1650,
+   "t0": 0,
+   "t1": 79,
+   "line": "The basketball stays, for the principle."
+  },
+  {
+   "shot": "S23",
+   "a": 1650,
+   "b": 1737,
+   "t0": 0,
+   "t1": 87,
+   "line": "Because now the planet starts moving under you."
+  },
+  {
+   "shot": "S24",
+   "a": 1737,
+   "b": 1836,
+   "t0": 0,
+   "t1": 99,
+   "line": "Jupiter spins fast. Very fast."
+  },
+  {
+   "shot": "S25",
+   "a": 1836,
+   "b": 1941,
+   "t0": 0,
+   "t1": 105,
+   "line": "A day on Jupiter lasts nine point nine hours."
+  },
+  {
+   "shot": "S26",
+   "a": 1941,
+   "b": 2007,
+   "t0": 0,
+   "t1": 66,
+   "line": "That is the shortest day of any planet"
+  },
+  {
+   "shot": "S27",
+   "a": 2007,
+   "b": 2065,
+   "t0": 0,
+   "t1": 58,
+   "line": "in the solar system, says NASA."
+  },
+  {
+   "shot": "S28",
+   "a": 2065,
+   "b": 2150,
+   "t0": 0,
+   "t1": 85,
+   "line": "So the whole planet spins like a turntable,"
+  },
+  {
+   "shot": "S29",
+   "a": 2150,
+   "b": 2220,
+   "t0": 0,
+   "t1": 70,
+   "line": "and the clouds race under your boots."
+  },
+  {
+   "shot": "S30",
+   "a": 2220,
+   "b": 2301,
+   "t0": 0,
+   "t1": 81,
+   "line": "Look closely and you will see stripes."
+  },
+  {
+   "shot": "S31",
+   "a": 2301,
+   "b": 2366,
+   "t0": 0,
+   "t1": 65,
+   "line": "The dark stripes are called belts."
+  },
+  {
+   "shot": "S32",
+   "a": 2366,
+   "b": 2433,
+   "t0": 0,
+   "t1": 67,
+   "line": "The light stripes are called zones."
+  },
+  {
+   "shot": "S33",
+   "a": 2433,
+   "b": 2489,
+   "t0": 0,
+   "t1": 56,
+   "line": "And they flow in opposite directions,"
+  },
+  {
+   "shot": "S34",
+   "a": 2489,
+   "b": 2561,
+   "t0": 0,
+   "t1": 72,
+   "line": "like traffic lanes that hate each other."
+  },
+  {
+   "shot": "S35",
+   "a": 2561,
+   "b": 2623,
+   "t0": 0,
+   "t1": 62,
+   "line": "You wave at a belt going left."
+  },
+  {
+   "shot": "S36",
+   "a": 2623,
+   "b": 2692,
+   "t0": 0,
+   "t1": 69,
+   "line": "A zone goes right and ignores you."
+  },
+  {
+   "shot": "S37",
+   "a": 2692,
+   "b": 2791,
+   "t0": 0,
+   "t1": 99,
+   "line": "Time to stop waving and start falling."
+  },
+  {
+   "shot": "S38",
+   "a": 2791,
+   "b": 2870,
+   "t0": 0,
+   "t1": 79,
+   "line": "Layer one: the top of the clouds."
+  },
+  {
+   "shot": "S39",
+   "a": 2870,
+   "b": 2935,
+   "t0": 0,
+   "t1": 65,
+   "line": "This one is ammonia ice,"
+  },
+  {
+   "shot": "S40",
+   "a": 2935,
+   "b": 2984,
+   "t0": 0,
+   "t1": 49,
+   "line": "pale and frosty."
+  },
+  {
+   "shot": "S41",
+   "a": 2984,
+   "b": 3081,
+   "t0": 0,
+   "t1": 97,
+   "line": "You sink in, and the world turns white."
+  },
+  {
+   "shot": "S42",
+   "a": 3081,
+   "b": 3164,
+   "t0": 0,
+   "t1": 83,
+   "line": "A cloud crystal drifts by and judges you."
+  },
+  {
+   "shot": "S43",
+   "a": 3164,
+   "b": 3254,
+   "t0": 0,
+   "t1": 90,
+   "line": "Your gauge ticks over. Depth is rising."
+  },
+  {
+   "shot": "S44",
+   "a": 3254,
+   "b": 3335,
+   "t0": 0,
+   "t1": 81,
+   "line": "NASA says Jupiter has three cloud layers,"
+  },
+  {
+   "shot": "S45",
+   "a": 3335,
+   "b": 3436,
+   "t0": 0,
+   "t1": 101,
+   "line": "and together they span about seventy-one kilometres."
+  },
+  {
+   "shot": "S46",
+   "a": 3436,
+   "b": 3512,
+   "t0": 0,
+   "t1": 76,
+   "line": "That is the whole stack, top to bottom."
+  },
+  {
+   "shot": "S47",
+   "a": 3512,
+   "b": 3597,
+   "t0": 0,
+   "t1": 85,
+   "line": "So this frosty floor is only the first."
+  },
+  {
+   "shot": "S48",
+   "a": 3597,
+   "b": 3703,
+   "t0": 0,
+   "t1": 106,
+   "line": "Nothing under you. Nothing over you. Just white."
+  },
+  {
+   "shot": "S49",
+   "a": 3703,
+   "b": 3771,
+   "t0": 0,
+   "t1": 68,
+   "line": "Then something shoves you sideways."
+  },
+  {
+   "shot": "S50",
+   "a": 3771,
+   "b": 3837,
+   "t0": 0,
+   "t1": 66,
+   "line": "The wind has noticed you."
+  },
+  {
+   "shot": "S51",
+   "a": 3837,
+   "b": 3898,
+   "t0": 0,
+   "t1": 61,
+   "line": "The winds up here are no joke."
+  },
+  {
+   "shot": "S52",
+   "a": 3898,
+   "b": 3981,
+   "t0": 0,
+   "t1": 83,
+   "line": "NASA measures winds up to five hundred thirty-nine"
+  },
+  {
+   "shot": "S53",
+   "a": 3981,
+   "b": 4051,
+   "t0": 0,
+   "t1": 70,
+   "line": "kilometres an hour, at the equator."
+  },
+  {
+   "shot": "S54",
+   "a": 4051,
+   "b": 4117,
+   "t0": 0,
+   "t1": 66,
+   "line": "Your gauge flashes a wind warning."
+  },
+  {
+   "shot": "S55",
+   "a": 4117,
+   "b": 4176,
+   "t0": 0,
+   "t1": 59,
+   "line": "You tumble head over boots."
+  },
+  {
+   "shot": "S56",
+   "a": 4176,
+   "b": 4277,
+   "t0": 0,
+   "t1": 101,
+   "line": "Your helmet camera shows sky, sky, and sleeve."
+  },
+  {
+   "shot": "S57",
+   "a": 4277,
+   "b": 4345,
+   "t0": 0,
+   "t1": 68,
+   "line": "Sideways is now the main direction."
+  },
+  {
+   "shot": "S58",
+   "a": 4345,
+   "b": 4416,
+   "t0": 0,
+   "t1": 71,
+   "line": "You wave a tiny flag to claim the planet."
+  },
+  {
+   "shot": "S59",
+   "a": 4416,
+   "b": 4484,
+   "t0": 0,
+   "t1": 68,
+   "line": "The wind claims the flag instead."
+  },
+  {
+   "shot": "S60",
+   "a": 4484,
+   "b": 4529,
+   "t0": 0,
+   "t1": 45,
+   "line": "Then it claims your scarf."
+  },
+  {
+   "shot": "S61",
+   "a": 4529,
+   "b": 4605,
+   "t0": 0,
+   "t1": 76,
+   "line": "You grab the scarf and it grabs back."
+  },
+  {
+   "shot": "S62",
+   "a": 4605,
+   "b": 4681,
+   "t0": 0,
+   "t1": 76,
+   "line": "It does not push you. It carries you."
+  },
+  {
+   "shot": "S63",
+   "a": 4681,
+   "b": 4774,
+   "t0": 0,
+   "t1": 93,
+   "line": "Somewhere, a flag is still flying away."
+  },
+  {
+   "shot": "S64",
+   "a": 4774,
+   "b": 4888,
+   "t0": 0,
+   "t1": 114,
+   "line": "Hold your helmet. Something enormous is coming."
+  },
+  {
+   "shot": "S65",
+   "a": 4888,
+   "b": 4978,
+   "t0": 0,
+   "t1": 90,
+   "line": "That enormous thing is the Great Red Spot."
+  },
+  {
+   "shot": "S66",
+   "a": 4978,
+   "b": 5059,
+   "t0": 0,
+   "t1": 81,
+   "line": "It is a storm twice as wide as Earth."
+  },
+  {
+   "shot": "S67",
+   "a": 5059,
+   "b": 5147,
+   "t0": 0,
+   "t1": 88,
+   "line": "People have watched it for more than three hundred years."
+  },
+  {
+   "shot": "S68",
+   "a": 5147,
+   "b": 5215,
+   "t0": 0,
+   "t1": 68,
+   "line": "Juno's gravity data says it reaches"
+  },
+  {
+   "shot": "S69",
+   "a": 5215,
+   "b": 5284,
+   "t0": 0,
+   "t1": 69,
+   "line": "about five hundred kilometres deep."
+  },
+  {
+   "shot": "S70",
+   "a": 5284,
+   "b": 5359,
+   "t0": 0,
+   "t1": 75,
+   "line": "So this is no surface swirl."
+  },
+  {
+   "shot": "S71",
+   "a": 5359,
+   "b": 5425,
+   "t0": 0,
+   "t1": 66,
+   "line": "It is a storm with a basement."
+  },
+  {
+   "shot": "S72",
+   "a": 5425,
+   "b": 5471,
+   "t0": 0,
+   "t1": 46,
+   "line": "You spiral around its edge"
+  },
+  {
+   "shot": "S73",
+   "a": 5471,
+   "b": 5523,
+   "t0": 0,
+   "t1": 52,
+   "line": "like a coin in a funnel."
+  },
+  {
+   "shot": "S74",
+   "a": 5523,
+   "b": 5584,
+   "t0": 0,
+   "t1": 61,
+   "line": "Here is Earth, for scale."
+  },
+  {
+   "shot": "S75",
+   "a": 5584,
+   "b": 5649,
+   "t0": 0,
+   "t1": 65,
+   "line": "Two of them would fit across the storm."
+  },
+  {
+   "shot": "S76",
+   "a": 5649,
+   "b": 5695,
+   "t0": 0,
+   "t1": 46,
+   "line": "You wave at Earth."
+  },
+  {
+   "shot": "S77",
+   "a": 5695,
+   "b": 5749,
+   "t0": 0,
+   "t1": 54,
+   "line": "It does not wave back."
+  },
+  {
+   "shot": "S78",
+   "a": 5749,
+   "b": 5800,
+   "t0": 0,
+   "t1": 51,
+   "line": "Three hundred years of weather."
+  },
+  {
+   "shot": "S79",
+   "a": 5800,
+   "b": 5864,
+   "t0": 0,
+   "t1": 64,
+   "line": "You are only visiting for one afternoon."
+  },
+  {
+   "shot": "S80",
+   "a": 5864,
+   "b": 5940,
+   "t0": 0,
+   "t1": 76,
+   "line": "Time to peel away and drop lower."
+  },
+  {
+   "shot": "S81",
+   "a": 5940,
+   "b": 6022,
+   "t0": 0,
+   "t1": 82,
+   "line": "You peel away from the storm and keep dropping."
+  },
+  {
+   "shot": "S82",
+   "a": 6022,
+   "b": 6099,
+   "t0": 0,
+   "t1": 77,
+   "line": "The light turns amber and dim."
+  },
+  {
+   "shot": "S83",
+   "a": 6099,
+   "b": 6207,
+   "t0": 0,
+   "t1": 108,
+   "line": "Layer two: ammonium hydrosulfide crystals."
+  },
+  {
+   "shot": "S84",
+   "a": 6207,
+   "b": 6263,
+   "t0": 0,
+   "t1": 56,
+   "line": "Try saying that with a helmet on."
+  },
+  {
+   "shot": "S85",
+   "a": 6263,
+   "b": 6320,
+   "t0": 0,
+   "t1": 57,
+   "line": "Your gauge swaps its label."
+  },
+  {
+   "shot": "S86",
+   "a": 6320,
+   "b": 6390,
+   "t0": 0,
+   "t1": 70,
+   "line": "The crystals tinkle against your visor."
+  },
+  {
+   "shot": "S87",
+   "a": 6390,
+   "b": 6475,
+   "t0": 0,
+   "t1": 85,
+   "line": "Down again, and the world goes blue-grey."
+  },
+  {
+   "shot": "S88",
+   "a": 6475,
+   "b": 6573,
+   "t0": 0,
+   "t1": 98,
+   "line": "Layer three: water ice and water vapour."
+  },
+  {
+   "shot": "S89",
+   "a": 6573,
+   "b": 6672,
+   "t0": 0,
+   "t1": 99,
+   "line": "Real water! Finally, something familiar."
+  },
+  {
+   "shot": "S90",
+   "a": 6672,
+   "b": 6742,
+   "t0": 0,
+   "t1": 70,
+   "line": "It is the same stuff as your water bottle."
+  },
+  {
+   "shot": "S91",
+   "a": 6742,
+   "b": 6814,
+   "t0": 0,
+   "t1": 72,
+   "line": "That is the third and last cloud layer."
+  },
+  {
+   "shot": "S92",
+   "a": 6814,
+   "b": 6907,
+   "t0": 0,
+   "t1": 93,
+   "line": "About seventy-one kilometres, and the clouds are done."
+  },
+  {
+   "shot": "S93",
+   "a": 6907,
+   "b": 7003,
+   "t0": 0,
+   "t1": 96,
+   "line": "You expected a floor. There is none."
+  },
+  {
+   "shot": "S94",
+   "a": 7003,
+   "b": 7070,
+   "t0": 0,
+   "t1": 67,
+   "line": "It gets darker, and it gets heavier."
+  },
+  {
+   "shot": "S95",
+   "a": 7070,
+   "b": 7138,
+   "t0": 0,
+   "t1": 68,
+   "line": "Your gauge has stopped showing numbers."
+  },
+  {
+   "shot": "S96",
+   "a": 7138,
+   "b": 7209,
+   "t0": 0,
+   "t1": 71,
+   "line": "Its needle just shakes and looks away."
+  },
+  {
+   "shot": "S97",
+   "a": 7209,
+   "b": 7263,
+   "t0": 0,
+   "t1": 54,
+   "line": "Your suit starts to creak."
+  },
+  {
+   "shot": "S98",
+   "a": 7263,
+   "b": 7354,
+   "t0": 0,
+   "t1": 91,
+   "line": "NASA says the pressures and temperatures deep inside Jupiter"
+  },
+  {
+   "shot": "S99",
+   "a": 7354,
+   "b": 7447,
+   "t0": 0,
+   "t1": 93,
+   "line": "crush, melt and vaporize spacecraft."
+  },
+  {
+   "shot": "S100",
+   "a": 7447,
+   "b": 7539,
+   "t0": 0,
+   "t1": 92,
+   "line": "So you bring a toy probe, to test the theory."
+  },
+  {
+   "shot": "S101",
+   "a": 7539,
+   "b": 7621,
+   "t0": 0,
+   "t1": 82,
+   "line": "First, it squishes flat like a pancake."
+  },
+  {
+   "shot": "S102",
+   "a": 7621,
+   "b": 7684,
+   "t0": 0,
+   "t1": 63,
+   "line": "Then it melts into a puddle."
+  },
+  {
+   "shot": "S103",
+   "a": 7684,
+   "b": 7775,
+   "t0": 0,
+   "t1": 91,
+   "line": "Then it vanishes, and your suit creaks louder."
+  },
+  {
+   "shot": "S104",
+   "a": 7775,
+   "b": 7853,
+   "t0": 0,
+   "t1": 78,
+   "line": "Your suit would like a word with management."
+  },
+  {
+   "shot": "S105",
+   "a": 7853,
+   "b": 7927,
+   "t0": 0,
+   "t1": 74,
+   "line": "You pat the helmet. Brave thoughts."
+  },
+  {
+   "shot": "S106",
+   "a": 7927,
+   "b": 8021,
+   "t0": 0,
+   "t1": 94,
+   "line": "Then the cloud around you simply ends."
+  },
+  {
+   "shot": "S107",
+   "a": 8021,
+   "b": 8115,
+   "t0": 0,
+   "t1": 94,
+   "line": "Below the clouds, the sky becomes an ocean."
+  },
+  {
+   "shot": "S108",
+   "a": 8115,
+   "b": 8224,
+   "t0": 0,
+   "t1": 109,
+   "line": "Hydrogen, squeezed until it flows like a liquid."
+  },
+  {
+   "shot": "S109",
+   "a": 8224,
+   "b": 8327,
+   "t0": 0,
+   "t1": 103,
+   "line": "NASA says it is the largest ocean in the solar system,"
+  },
+  {
+   "shot": "S110",
+   "a": 8327,
+   "b": 8412,
+   "t0": 0,
+   "t1": 85,
+   "line": "and it is made of hydrogen, not water."
+  },
+  {
+   "shot": "S111",
+   "a": 8412,
+   "b": 8473,
+   "t0": 0,
+   "t1": 61,
+   "line": "You slip in without a splash."
+  },
+  {
+   "shot": "S112",
+   "a": 8473,
+   "b": 8573,
+   "t0": 0,
+   "t1": 100,
+   "line": "No beach. No boat. No shore at all."
+  },
+  {
+   "shot": "S113",
+   "a": 8573,
+   "b": 8661,
+   "t0": 0,
+   "t1": 88,
+   "line": "You try a breaststroke, because why not."
+  },
+  {
+   "shot": "S114",
+   "a": 8661,
+   "b": 8718,
+   "t0": 0,
+   "t1": 57,
+   "line": "The ocean does not care."
+  },
+  {
+   "shot": "S115",
+   "a": 8718,
+   "b": 8795,
+   "t0": 0,
+   "t1": 77,
+   "line": "Up and down stop meaning anything."
+  },
+  {
+   "shot": "S116",
+   "a": 8795,
+   "b": 8870,
+   "t0": 0,
+   "t1": 75,
+   "line": "You float past glowing bubbles of light."
+  },
+  {
+   "shot": "S117",
+   "a": 8870,
+   "b": 8955,
+   "t0": 0,
+   "t1": 85,
+   "line": "You wave at a bubble. It is polite."
+  },
+  {
+   "shot": "S118",
+   "a": 8955,
+   "b": 9035,
+   "t0": 0,
+   "t1": 80,
+   "line": "Somewhere far above, there used to be sky."
+  },
+  {
+   "shot": "S119",
+   "a": 9035,
+   "b": 9093,
+   "t0": 0,
+   "t1": 58,
+   "line": "And deeper still, the ocean"
+  },
+  {
+   "shot": "S120",
+   "a": 9093,
+   "b": 9164,
+   "t0": 0,
+   "t1": 71,
+   "line": "starts to shine like metal."
+  },
+  {
+   "shot": "S121",
+   "a": 9164,
+   "b": 9216,
+   "t0": 0,
+   "t1": 52,
+   "line": "Perhaps halfway to the centre,"
+  },
+  {
+   "shot": "S122",
+   "a": 9216,
+   "b": 9275,
+   "t0": 0,
+   "t1": 59,
+   "line": "the hydrogen changes again."
+  },
+  {
+   "shot": "S123",
+   "a": 9275,
+   "b": 9327,
+   "t0": 0,
+   "t1": 52,
+   "line": "NASA says it starts to conduct"
+  },
+  {
+   "shot": "S124",
+   "a": 9327,
+   "b": 9377,
+   "t0": 0,
+   "t1": 50,
+   "line": "electricity like a metal."
+  },
+  {
+   "shot": "S125",
+   "a": 9377,
+   "b": 9447,
+   "t0": 0,
+   "t1": 70,
+   "line": "Metallic hydrogen. Silver,"
+  },
+  {
+   "shot": "S126",
+   "a": 9447,
+   "b": 9509,
+   "t0": 0,
+   "t1": 62,
+   "line": "heavy, and a little smug."
+  },
+  {
+   "shot": "S127",
+   "a": 9509,
+   "b": 9582,
+   "t0": 0,
+   "t1": 73,
+   "line": "Now add the spin from before."
+  },
+  {
+   "shot": "S128",
+   "a": 9582,
+   "b": 9692,
+   "t0": 0,
+   "t1": 110,
+   "line": "A spinning ball of conducting liquid acts like a dynamo,"
+  },
+  {
+   "shot": "S129",
+   "a": 9692,
+   "b": 9769,
+   "t0": 0,
+   "t1": 77,
+   "line": "and a dynamo makes a magnetic field."
+  },
+  {
+   "shot": "S130",
+   "a": 9769,
+   "b": 9838,
+   "t0": 0,
+   "t1": 69,
+   "line": "Jupiter's is sixteen to fifty-four"
+  },
+  {
+   "shot": "S131",
+   "a": 9838,
+   "b": 9888,
+   "t0": 0,
+   "t1": 50,
+   "line": "times as powerful as Earth's."
+  },
+  {
+   "shot": "S132",
+   "a": 9888,
+   "b": 9950,
+   "t0": 0,
+   "t1": 62,
+   "line": "Sparks crackle off your gloves."
+  },
+  {
+   "shot": "S133",
+   "a": 9950,
+   "b": 10044,
+   "t0": 0,
+   "t1": 94,
+   "line": "Your compass needle spins like a roulette wheel."
+  },
+  {
+   "shot": "S134",
+   "a": 10044,
+   "b": 10155,
+   "t0": 0,
+   "t1": 111,
+   "line": "Far above, the polar sky glows with aurora."
+  },
+  {
+   "shot": "S135",
+   "a": 10155,
+   "b": 10237,
+   "t0": 0,
+   "t1": 82,
+   "line": "Everything around you is shiny, except you."
+  },
+  {
+   "shot": "S136",
+   "a": 10237,
+   "b": 10314,
+   "t0": 0,
+   "t1": 77,
+   "line": "The compass gives up and just points at you."
+  },
+  {
+   "shot": "S137",
+   "a": 10314,
+   "b": 10428,
+   "t0": 0,
+   "t1": 114,
+   "line": "Almost there, surely. Surely there is a floor."
+  },
+  {
+   "shot": "S138",
+   "a": 10428,
+   "b": 10520,
+   "t0": 0,
+   "t1": 92,
+   "line": "Surely, at the bottom, there is a floor."
+  },
+  {
+   "shot": "S139",
+   "a": 10520,
+   "b": 10603,
+   "t0": 0,
+   "t1": 83,
+   "line": "NASA says Juno found something odd."
+  },
+  {
+   "shot": "S140",
+   "a": 10603,
+   "b": 10697,
+   "t0": 0,
+   "t1": 94,
+   "line": "Juno is the spacecraft that measured it, from orbit."
+  },
+  {
+   "shot": "S141",
+   "a": 10697,
+   "b": 10788,
+   "t0": 0,
+   "t1": 91,
+   "line": "The core is fuzzy, and partly dissolved."
+  },
+  {
+   "shot": "S142",
+   "a": 10788,
+   "b": 10839,
+   "t0": 0,
+   "t1": 51,
+   "line": "It is not a solid floor."
+  },
+  {
+   "shot": "S143",
+   "a": 10839,
+   "b": 10907,
+   "t0": 0,
+   "t1": 68,
+   "line": "You reach out a boot to stand on it."
+  },
+  {
+   "shot": "S144",
+   "a": 10907,
+   "b": 10968,
+   "t0": 0,
+   "t1": 61,
+   "line": "The floor fades as you touch it."
+  },
+  {
+   "shot": "S145",
+   "a": 10968,
+   "b": 11039,
+   "t0": 0,
+   "t1": 71,
+   "line": "You try again. It fades again."
+  },
+  {
+   "shot": "S146",
+   "a": 11039,
+   "b": 11087,
+   "t0": 0,
+   "t1": 48,
+   "line": "Your gauge shows depth,"
+  },
+  {
+   "shot": "S147",
+   "a": 11087,
+   "b": 11183,
+   "t0": 0,
+   "t1": 96,
+   "line": "and under that, ground: still none."
+  },
+  {
+   "shot": "S148",
+   "a": 11183,
+   "b": 11251,
+   "t0": 0,
+   "t1": 68,
+   "line": "So you are not falling onto the bottom."
+  },
+  {
+   "shot": "S149",
+   "a": 11251,
+   "b": 11327,
+   "t0": 0,
+   "t1": 76,
+   "line": "You are just sinking into a soft glow."
+  },
+  {
+   "shot": "S150",
+   "a": 11327,
+   "b": 11375,
+   "t0": 0,
+   "t1": 48,
+   "line": "It is quiet and bright,"
+  },
+  {
+   "shot": "S151",
+   "a": 11375,
+   "b": 11430,
+   "t0": 0,
+   "t1": 55,
+   "line": "and extremely not a floor."
+  },
+  {
+   "shot": "S152",
+   "a": 11430,
+   "b": 11516,
+   "t0": 0,
+   "t1": 86,
+   "line": "Which means it is time to wake up."
+  },
+  {
+   "shot": "S153",
+   "a": 11516,
+   "b": 11579,
+   "t0": 0,
+   "t1": 63,
+   "line": "And now, back to reality."
+  },
+  {
+   "shot": "S154",
+   "a": 11579,
+   "b": 11626,
+   "t0": 0,
+   "t1": 47,
+   "line": "You are on a rooftop,"
+  },
+  {
+   "shot": "S155",
+   "a": 11626,
+   "b": 11700,
+   "t0": 0,
+   "t1": 74,
+   "line": "wide awake, before sunrise."
+  },
+  {
+   "shot": "S156",
+   "a": 11700,
+   "b": 11766,
+   "t0": 0,
+   "t1": 66,
+   "line": "You can see Jupiter yourself."
+  },
+  {
+   "shot": "S157",
+   "a": 11766,
+   "b": 11816,
+   "t0": 0,
+   "t1": 50,
+   "line": "On the mornings of the fifteenth"
+  },
+  {
+   "shot": "S158",
+   "a": 11816,
+   "b": 11870,
+   "t0": 0,
+   "t1": 54,
+   "line": "and sixteenth of November,"
+  },
+  {
+   "shot": "S159",
+   "a": 11870,
+   "b": 11955,
+   "t0": 0,
+   "t1": 85,
+   "line": "look southeast before sunrise, says NASA."
+  },
+  {
+   "shot": "S160",
+   "a": 11955,
+   "b": 12058,
+   "t0": 0,
+   "t1": 103,
+   "line": "Jupiter and Mars will sit one point two degrees apart."
+  },
+  {
+   "shot": "S161",
+   "a": 12058,
+   "b": 12177,
+   "t0": 0,
+   "t1": 119,
+   "line": "That is a little more than two full Moons side by side."
+  },
+  {
+   "shot": "S162",
+   "a": 12177,
+   "b": 12235,
+   "t0": 0,
+   "t1": 58,
+   "line": "Jupiter is the brighter point."
+  },
+  {
+   "shot": "S163",
+   "a": 12235,
+   "b": 12283,
+   "t0": 0,
+   "t1": 48,
+   "line": "Mars is the other one."
+  },
+  {
+   "shot": "S164",
+   "a": 12283,
+   "b": 12329,
+   "t0": 0,
+   "t1": 46,
+   "line": "Do not mix them up."
+  },
+  {
+   "shot": "S165",
+   "a": 12329,
+   "b": 12425,
+   "t0": 0,
+   "t1": 96,
+   "line": "No spacesuit needed, and no falling required."
+  },
+  {
+   "shot": "S166",
+   "a": 12425,
+   "b": 12487,
+   "t0": 0,
+   "t1": 62,
+   "line": "Set an alarm for the fifteenth."
+  },
+  {
+   "shot": "S167",
+   "a": 12487,
+   "b": 12594,
+   "t0": 0,
+   "t1": 107,
+   "line": "If you could fall into one planet, which would you pick?"
+  },
+  {
+   "shot": "S168",
+   "a": 12594,
+   "b": 12668,
+   "t0": 0,
+   "t1": 74,
+   "line": "Tomorrow: a new what if."
+  },
+  {
+   "shot": "S169",
+   "a": 12668,
+   "b": 12769,
+   "t0": 0,
+   "t1": 101,
+   "line": ""
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "",
+   "key": 39,
+   "len": 63,
+   "first": 0,
+   "line": "You just stepped out above Jupiter.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "",
+   "key": 39,
+   "len": 63,
+   "first": 63,
+   "line": "There is no ground to catch you.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "",
+   "key": 54,
+   "len": 87,
+   "first": 126,
+   "line": "NASA says Jupiter doesn't have a true surface.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "",
+   "key": 50,
+   "len": 80,
+   "first": 213,
+   "line": "So you fall through three layers of cloud,",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "",
+   "key": 46,
+   "len": 75,
+   "first": 293,
+   "line": "and then the sky turns into an ocean.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "",
+   "key": 56,
+   "len": 91,
+   "first": 368,
+   "line": "Your wrist gauge reads zero kilometres deep.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "",
+   "key": 48,
+   "len": 78,
+   "first": 459,
+   "line": "It also reads: ground, none.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "",
+   "key": 35,
+   "len": 57,
+   "first": 537,
+   "line": "Great. Love that for us.",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "",
+   "key": 55,
+   "len": 89,
+   "first": 594,
+   "line": "Okay, deep breath. Let's do this properly.",
+   "note": "ch0"
+  },
+  {
+   "id": "S10",
+   "size": "",
+   "key": 64,
+   "len": 103,
+   "first": 683,
+   "line": "This is what happens when you fall into Jupiter.",
+   "note": "ch0"
+  },
+  {
+   "id": "S11",
+   "size": "",
+   "key": 46,
+   "len": 74,
+   "first": 786,
+   "line": "First, a size check before the drop.",
+   "note": "ch1"
+  },
+  {
+   "id": "S12",
+   "size": "",
+   "key": 46,
+   "len": 74,
+   "first": 860,
+   "line": "Jupiter is eleven times wider than Earth.",
+   "note": "ch1"
+  },
+  {
+   "id": "S13",
+   "size": "",
+   "key": 49,
+   "len": 79,
+   "first": 934,
+   "line": "Its radius is sixty-nine thousand,",
+   "note": "ch1"
+  },
+  {
+   "id": "S14",
+   "size": "",
+   "key": 35,
+   "len": 57,
+   "first": 1013,
+   "line": "nine hundred eleven kilometres.",
+   "note": "ch1"
+  },
+  {
+   "id": "S15",
+   "size": "",
+   "key": 42,
+   "len": 68,
+   "first": 1070,
+   "line": "NASA says to picture Earth as a grape",
+   "note": "ch1"
+  },
+  {
+   "id": "S16",
+   "size": "",
+   "key": 35,
+   "len": 56,
+   "first": 1138,
+   "line": "and Jupiter as a basketball.",
+   "note": "ch1"
+  },
+  {
+   "id": "S17",
+   "size": "",
+   "key": 64,
+   "len": 103,
+   "first": 1194,
+   "line": "You are holding both, and your arms have notes.",
+   "note": "ch1"
+  },
+  {
+   "id": "S18",
+   "size": "",
+   "key": 28,
+   "len": 45,
+   "first": 1297,
+   "line": "If Jupiter were hollow,",
+   "note": "ch1"
+  },
+  {
+   "id": "S19",
+   "size": "",
+   "key": 56,
+   "len": 91,
+   "first": 1342,
+   "line": "about one thousand Earths would fit inside.",
+   "note": "ch1"
+  },
+  {
+   "id": "S20",
+   "size": "",
+   "key": 33,
+   "len": 53,
+   "first": 1433,
+   "line": "That is a lot of grapes.",
+   "note": "ch1"
+  },
+  {
+   "id": "S21",
+   "size": "",
+   "key": 53,
+   "len": 85,
+   "first": 1486,
+   "line": "Gently, you let the grape float away.",
+   "note": "ch1"
+  },
+  {
+   "id": "S22",
+   "size": "",
+   "key": 49,
+   "len": 79,
+   "first": 1571,
+   "line": "The basketball stays, for the principle.",
+   "note": "ch1"
+  },
+  {
+   "id": "S23",
+   "size": "",
+   "key": 54,
+   "len": 87,
+   "first": 1650,
+   "line": "Because now the planet starts moving under you.",
+   "note": "ch1"
+  },
+  {
+   "id": "S24",
+   "size": "",
+   "key": 61,
+   "len": 99,
+   "first": 1737,
+   "line": "Jupiter spins fast. Very fast.",
+   "note": "ch1"
+  },
+  {
+   "id": "S25",
+   "size": "",
+   "key": 65,
+   "len": 105,
+   "first": 1836,
+   "line": "A day on Jupiter lasts nine point nine hours.",
+   "note": "ch2"
+  },
+  {
+   "id": "S26",
+   "size": "",
+   "key": 41,
+   "len": 66,
+   "first": 1941,
+   "line": "That is the shortest day of any planet",
+   "note": "ch2"
+  },
+  {
+   "id": "S27",
+   "size": "",
+   "key": 36,
+   "len": 58,
+   "first": 2007,
+   "line": "in the solar system, says NASA.",
+   "note": "ch2"
+  },
+  {
+   "id": "S28",
+   "size": "",
+   "key": 53,
+   "len": 85,
+   "first": 2065,
+   "line": "So the whole planet spins like a turntable,",
+   "note": "ch2"
+  },
+  {
+   "id": "S29",
+   "size": "",
+   "key": 43,
+   "len": 70,
+   "first": 2150,
+   "line": "and the clouds race under your boots.",
+   "note": "ch2"
+  },
+  {
+   "id": "S30",
+   "size": "",
+   "key": 50,
+   "len": 81,
+   "first": 2220,
+   "line": "Look closely and you will see stripes.",
+   "note": "ch2"
+  },
+  {
+   "id": "S31",
+   "size": "",
+   "key": 40,
+   "len": 65,
+   "first": 2301,
+   "line": "The dark stripes are called belts.",
+   "note": "ch2"
+  },
+  {
+   "id": "S32",
+   "size": "",
+   "key": 42,
+   "len": 67,
+   "first": 2366,
+   "line": "The light stripes are called zones.",
+   "note": "ch2"
+  },
+  {
+   "id": "S33",
+   "size": "",
+   "key": 35,
+   "len": 56,
+   "first": 2433,
+   "line": "And they flow in opposite directions,",
+   "note": "ch2"
+  },
+  {
+   "id": "S34",
+   "size": "",
+   "key": 45,
+   "len": 72,
+   "first": 2489,
+   "line": "like traffic lanes that hate each other.",
+   "note": "ch2"
+  },
+  {
+   "id": "S35",
+   "size": "",
+   "key": 38,
+   "len": 62,
+   "first": 2561,
+   "line": "You wave at a belt going left.",
+   "note": "ch2"
+  },
+  {
+   "id": "S36",
+   "size": "",
+   "key": 43,
+   "len": 69,
+   "first": 2623,
+   "line": "A zone goes right and ignores you.",
+   "note": "ch2"
+  },
+  {
+   "id": "S37",
+   "size": "",
+   "key": 61,
+   "len": 99,
+   "first": 2692,
+   "line": "Time to stop waving and start falling.",
+   "note": "ch2"
+  },
+  {
+   "id": "S38",
+   "size": "",
+   "key": 49,
+   "len": 79,
+   "first": 2791,
+   "line": "Layer one: the top of the clouds.",
+   "note": "ch3"
+  },
+  {
+   "id": "S39",
+   "size": "",
+   "key": 40,
+   "len": 65,
+   "first": 2870,
+   "line": "This one is ammonia ice,",
+   "note": "ch3"
+  },
+  {
+   "id": "S40",
+   "size": "",
+   "key": 30,
+   "len": 49,
+   "first": 2935,
+   "line": "pale and frosty.",
+   "note": "ch3"
+  },
+  {
+   "id": "S41",
+   "size": "",
+   "key": 60,
+   "len": 97,
+   "first": 2984,
+   "line": "You sink in, and the world turns white.",
+   "note": "ch3"
+  },
+  {
+   "id": "S42",
+   "size": "",
+   "key": 51,
+   "len": 83,
+   "first": 3081,
+   "line": "A cloud crystal drifts by and judges you.",
+   "note": "ch3"
+  },
+  {
+   "id": "S43",
+   "size": "",
+   "key": 56,
+   "len": 90,
+   "first": 3164,
+   "line": "Your gauge ticks over. Depth is rising.",
+   "note": "ch3"
+  },
+  {
+   "id": "S44",
+   "size": "",
+   "key": 50,
+   "len": 81,
+   "first": 3254,
+   "line": "NASA says Jupiter has three cloud layers,",
+   "note": "ch3"
+  },
+  {
+   "id": "S45",
+   "size": "",
+   "key": 63,
+   "len": 101,
+   "first": 3335,
+   "line": "and together they span about seventy-one kilometres.",
+   "note": "ch3"
+  },
+  {
+   "id": "S46",
+   "size": "",
+   "key": 47,
+   "len": 76,
+   "first": 3436,
+   "line": "That is the whole stack, top to bottom.",
+   "note": "ch3"
+  },
+  {
+   "id": "S47",
+   "size": "",
+   "key": 53,
+   "len": 85,
+   "first": 3512,
+   "line": "So this frosty floor is only the first.",
+   "note": "ch3"
+  },
+  {
+   "id": "S48",
+   "size": "",
+   "key": 66,
+   "len": 106,
+   "first": 3597,
+   "line": "Nothing under you. Nothing over you. Just white.",
+   "note": "ch3"
+  },
+  {
+   "id": "S49",
+   "size": "",
+   "key": 42,
+   "len": 68,
+   "first": 3703,
+   "line": "Then something shoves you sideways.",
+   "note": "ch3"
+  },
+  {
+   "id": "S50",
+   "size": "",
+   "key": 41,
+   "len": 66,
+   "first": 3771,
+   "line": "The wind has noticed you.",
+   "note": "ch3"
+  },
+  {
+   "id": "S51",
+   "size": "",
+   "key": 38,
+   "len": 61,
+   "first": 3837,
+   "line": "The winds up here are no joke.",
+   "note": "ch4"
+  },
+  {
+   "id": "S52",
+   "size": "",
+   "key": 51,
+   "len": 83,
+   "first": 3898,
+   "line": "NASA measures winds up to five hundred thirty-nine",
+   "note": "ch4"
+  },
+  {
+   "id": "S53",
+   "size": "",
+   "key": 43,
+   "len": 70,
+   "first": 3981,
+   "line": "kilometres an hour, at the equator.",
+   "note": "ch4"
+  },
+  {
+   "id": "S54",
+   "size": "",
+   "key": 41,
+   "len": 66,
+   "first": 4051,
+   "line": "Your gauge flashes a wind warning.",
+   "note": "ch4"
+  },
+  {
+   "id": "S55",
+   "size": "",
+   "key": 37,
+   "len": 59,
+   "first": 4117,
+   "line": "You tumble head over boots.",
+   "note": "ch4"
+  },
+  {
+   "id": "S56",
+   "size": "",
+   "key": 63,
+   "len": 101,
+   "first": 4176,
+   "line": "Your helmet camera shows sky, sky, and sleeve.",
+   "note": "ch4"
+  },
+  {
+   "id": "S57",
+   "size": "",
+   "key": 42,
+   "len": 68,
+   "first": 4277,
+   "line": "Sideways is now the main direction.",
+   "note": "ch4"
+  },
+  {
+   "id": "S58",
+   "size": "",
+   "key": 44,
+   "len": 71,
+   "first": 4345,
+   "line": "You wave a tiny flag to claim the planet.",
+   "note": "ch4"
+  },
+  {
+   "id": "S59",
+   "size": "",
+   "key": 42,
+   "len": 68,
+   "first": 4416,
+   "line": "The wind claims the flag instead.",
+   "note": "ch4"
+  },
+  {
+   "id": "S60",
+   "size": "",
+   "key": 28,
+   "len": 45,
+   "first": 4484,
+   "line": "Then it claims your scarf.",
+   "note": "ch4"
+  },
+  {
+   "id": "S61",
+   "size": "",
+   "key": 47,
+   "len": 76,
+   "first": 4529,
+   "line": "You grab the scarf and it grabs back.",
+   "note": "ch4"
+  },
+  {
+   "id": "S62",
+   "size": "",
+   "key": 47,
+   "len": 76,
+   "first": 4605,
+   "line": "It does not push you. It carries you.",
+   "note": "ch4"
+  },
+  {
+   "id": "S63",
+   "size": "",
+   "key": 58,
+   "len": 93,
+   "first": 4681,
+   "line": "Somewhere, a flag is still flying away.",
+   "note": "ch4"
+  },
+  {
+   "id": "S64",
+   "size": "",
+   "key": 71,
+   "len": 114,
+   "first": 4774,
+   "line": "Hold your helmet. Something enormous is coming.",
+   "note": "ch4"
+  },
+  {
+   "id": "S65",
+   "size": "",
+   "key": 56,
+   "len": 90,
+   "first": 4888,
+   "line": "That enormous thing is the Great Red Spot.",
+   "note": "ch5"
+  },
+  {
+   "id": "S66",
+   "size": "",
+   "key": 50,
+   "len": 81,
+   "first": 4978,
+   "line": "It is a storm twice as wide as Earth.",
+   "note": "ch5"
+  },
+  {
+   "id": "S67",
+   "size": "",
+   "key": 55,
+   "len": 88,
+   "first": 5059,
+   "line": "People have watched it for more than three hundred years.",
+   "note": "ch5"
+  },
+  {
+   "id": "S68",
+   "size": "",
+   "key": 42,
+   "len": 68,
+   "first": 5147,
+   "line": "Juno's gravity data says it reaches",
+   "note": "ch5"
+  },
+  {
+   "id": "S69",
+   "size": "",
+   "key": 43,
+   "len": 69,
+   "first": 5215,
+   "line": "about five hundred kilometres deep.",
+   "note": "ch5"
+  },
+  {
+   "id": "S70",
+   "size": "",
+   "key": 46,
+   "len": 75,
+   "first": 5284,
+   "line": "So this is no surface swirl.",
+   "note": "ch5"
+  },
+  {
+   "id": "S71",
+   "size": "",
+   "key": 41,
+   "len": 66,
+   "first": 5359,
+   "line": "It is a storm with a basement.",
+   "note": "ch5"
+  },
+  {
+   "id": "S72",
+   "size": "",
+   "key": 29,
+   "len": 46,
+   "first": 5425,
+   "line": "You spiral around its edge",
+   "note": "ch5"
+  },
+  {
+   "id": "S73",
+   "size": "",
+   "key": 32,
+   "len": 52,
+   "first": 5471,
+   "line": "like a coin in a funnel.",
+   "note": "ch5"
+  },
+  {
+   "id": "S74",
+   "size": "",
+   "key": 38,
+   "len": 61,
+   "first": 5523,
+   "line": "Here is Earth, for scale.",
+   "note": "ch5"
+  },
+  {
+   "id": "S75",
+   "size": "",
+   "key": 40,
+   "len": 65,
+   "first": 5584,
+   "line": "Two of them would fit across the storm.",
+   "note": "ch5"
+  },
+  {
+   "id": "S76",
+   "size": "",
+   "key": 29,
+   "len": 46,
+   "first": 5649,
+   "line": "You wave at Earth.",
+   "note": "ch5"
+  },
+  {
+   "id": "S77",
+   "size": "",
+   "key": 33,
+   "len": 54,
+   "first": 5695,
+   "line": "It does not wave back.",
+   "note": "ch5"
+  },
+  {
+   "id": "S78",
+   "size": "",
+   "key": 32,
+   "len": 51,
+   "first": 5749,
+   "line": "Three hundred years of weather.",
+   "note": "ch5"
+  },
+  {
+   "id": "S79",
+   "size": "",
+   "key": 40,
+   "len": 64,
+   "first": 5800,
+   "line": "You are only visiting for one afternoon.",
+   "note": "ch5"
+  },
+  {
+   "id": "S80",
+   "size": "",
+   "key": 47,
+   "len": 76,
+   "first": 5864,
+   "line": "Time to peel away and drop lower.",
+   "note": "ch5"
+  },
+  {
+   "id": "S81",
+   "size": "",
+   "key": 51,
+   "len": 82,
+   "first": 5940,
+   "line": "You peel away from the storm and keep dropping.",
+   "note": "ch6"
+  },
+  {
+   "id": "S82",
+   "size": "",
+   "key": 48,
+   "len": 77,
+   "first": 6022,
+   "line": "The light turns amber and dim.",
+   "note": "ch6"
+  },
+  {
+   "id": "S83",
+   "size": "",
+   "key": 67,
+   "len": 108,
+   "first": 6099,
+   "line": "Layer two: ammonium hydrosulfide crystals.",
+   "note": "ch6"
+  },
+  {
+   "id": "S84",
+   "size": "",
+   "key": 35,
+   "len": 56,
+   "first": 6207,
+   "line": "Try saying that with a helmet on.",
+   "note": "ch6"
+  },
+  {
+   "id": "S85",
+   "size": "",
+   "key": 35,
+   "len": 57,
+   "first": 6263,
+   "line": "Your gauge swaps its label.",
+   "note": "ch6"
+  },
+  {
+   "id": "S86",
+   "size": "",
+   "key": 43,
+   "len": 70,
+   "first": 6320,
+   "line": "The crystals tinkle against your visor.",
+   "note": "ch6"
+  },
+  {
+   "id": "S87",
+   "size": "",
+   "key": 53,
+   "len": 85,
+   "first": 6390,
+   "line": "Down again, and the world goes blue-grey.",
+   "note": "ch6"
+  },
+  {
+   "id": "S88",
+   "size": "",
+   "key": 61,
+   "len": 98,
+   "first": 6475,
+   "line": "Layer three: water ice and water vapour.",
+   "note": "ch6"
+  },
+  {
+   "id": "S89",
+   "size": "",
+   "key": 61,
+   "len": 99,
+   "first": 6573,
+   "line": "Real water! Finally, something familiar.",
+   "note": "ch6"
+  },
+  {
+   "id": "S90",
+   "size": "",
+   "key": 43,
+   "len": 70,
+   "first": 6672,
+   "line": "It is the same stuff as your water bottle.",
+   "note": "ch6"
+  },
+  {
+   "id": "S91",
+   "size": "",
+   "key": 45,
+   "len": 72,
+   "first": 6742,
+   "line": "That is the third and last cloud layer.",
+   "note": "ch6"
+  },
+  {
+   "id": "S92",
+   "size": "",
+   "key": 58,
+   "len": 93,
+   "first": 6814,
+   "line": "About seventy-one kilometres, and the clouds are done.",
+   "note": "ch6"
+  },
+  {
+   "id": "S93",
+   "size": "",
+   "key": 60,
+   "len": 96,
+   "first": 6907,
+   "line": "You expected a floor. There is none.",
+   "note": "ch6"
+  },
+  {
+   "id": "S94",
+   "size": "",
+   "key": 42,
+   "len": 67,
+   "first": 7003,
+   "line": "It gets darker, and it gets heavier.",
+   "note": "ch7"
+  },
+  {
+   "id": "S95",
+   "size": "",
+   "key": 42,
+   "len": 68,
+   "first": 7070,
+   "line": "Your gauge has stopped showing numbers.",
+   "note": "ch7"
+  },
+  {
+   "id": "S96",
+   "size": "",
+   "key": 44,
+   "len": 71,
+   "first": 7138,
+   "line": "Its needle just shakes and looks away.",
+   "note": "ch7"
+  },
+  {
+   "id": "S97",
+   "size": "",
+   "key": 33,
+   "len": 54,
+   "first": 7209,
+   "line": "Your suit starts to creak.",
+   "note": "ch7"
+  },
+  {
+   "id": "S98",
+   "size": "",
+   "key": 56,
+   "len": 91,
+   "first": 7263,
+   "line": "NASA says the pressures and temperatures deep inside Jupiter",
+   "note": "ch7"
+  },
+  {
+   "id": "S99",
+   "size": "",
+   "key": 58,
+   "len": 93,
+   "first": 7354,
+   "line": "crush, melt and vaporize spacecraft.",
+   "note": "ch7"
+  },
+  {
+   "id": "S100",
+   "size": "",
+   "key": 57,
+   "len": 92,
+   "first": 7447,
+   "line": "So you bring a toy probe, to test the theory.",
+   "note": "ch7"
+  },
+  {
+   "id": "S101",
+   "size": "",
+   "key": 51,
+   "len": 82,
+   "first": 7539,
+   "line": "First, it squishes flat like a pancake.",
+   "note": "ch7"
+  },
+  {
+   "id": "S102",
+   "size": "",
+   "key": 39,
+   "len": 63,
+   "first": 7621,
+   "line": "Then it melts into a puddle.",
+   "note": "ch7"
+  },
+  {
+   "id": "S103",
+   "size": "",
+   "key": 56,
+   "len": 91,
+   "first": 7684,
+   "line": "Then it vanishes, and your suit creaks louder.",
+   "note": "ch7"
+  },
+  {
+   "id": "S104",
+   "size": "",
+   "key": 48,
+   "len": 78,
+   "first": 7775,
+   "line": "Your suit would like a word with management.",
+   "note": "ch7"
+  },
+  {
+   "id": "S105",
+   "size": "",
+   "key": 46,
+   "len": 74,
+   "first": 7853,
+   "line": "You pat the helmet. Brave thoughts.",
+   "note": "ch7"
+  },
+  {
+   "id": "S106",
+   "size": "",
+   "key": 58,
+   "len": 94,
+   "first": 7927,
+   "line": "Then the cloud around you simply ends.",
+   "note": "ch7"
+  },
+  {
+   "id": "S107",
+   "size": "",
+   "key": 58,
+   "len": 94,
+   "first": 8021,
+   "line": "Below the clouds, the sky becomes an ocean.",
+   "note": "ch8"
+  },
+  {
+   "id": "S108",
+   "size": "",
+   "key": 68,
+   "len": 109,
+   "first": 8115,
+   "line": "Hydrogen, squeezed until it flows like a liquid.",
+   "note": "ch8"
+  },
+  {
+   "id": "S109",
+   "size": "",
+   "key": 64,
+   "len": 103,
+   "first": 8224,
+   "line": "NASA says it is the largest ocean in the solar system,",
+   "note": "ch8"
+  },
+  {
+   "id": "S110",
+   "size": "",
+   "key": 53,
+   "len": 85,
+   "first": 8327,
+   "line": "and it is made of hydrogen, not water.",
+   "note": "ch8"
+  },
+  {
+   "id": "S111",
+   "size": "",
+   "key": 38,
+   "len": 61,
+   "first": 8412,
+   "line": "You slip in without a splash.",
+   "note": "ch8"
+  },
+  {
+   "id": "S112",
+   "size": "",
+   "key": 62,
+   "len": 100,
+   "first": 8473,
+   "line": "No beach. No boat. No shore at all.",
+   "note": "ch8"
+  },
+  {
+   "id": "S113",
+   "size": "",
+   "key": 55,
+   "len": 88,
+   "first": 8573,
+   "line": "You try a breaststroke, because why not.",
+   "note": "ch8"
+  },
+  {
+   "id": "S114",
+   "size": "",
+   "key": 35,
+   "len": 57,
+   "first": 8661,
+   "line": "The ocean does not care.",
+   "note": "ch8"
+  },
+  {
+   "id": "S115",
+   "size": "",
+   "key": 48,
+   "len": 77,
+   "first": 8718,
+   "line": "Up and down stop meaning anything.",
+   "note": "ch8"
+  },
+  {
+   "id": "S116",
+   "size": "",
+   "key": 46,
+   "len": 75,
+   "first": 8795,
+   "line": "You float past glowing bubbles of light.",
+   "note": "ch8"
+  },
+  {
+   "id": "S117",
+   "size": "",
+   "key": 53,
+   "len": 85,
+   "first": 8870,
+   "line": "You wave at a bubble. It is polite.",
+   "note": "ch8"
+  },
+  {
+   "id": "S118",
+   "size": "",
+   "key": 50,
+   "len": 80,
+   "first": 8955,
+   "line": "Somewhere far above, there used to be sky.",
+   "note": "ch8"
+  },
+  {
+   "id": "S119",
+   "size": "",
+   "key": 36,
+   "len": 58,
+   "first": 9035,
+   "line": "And deeper still, the ocean",
+   "note": "ch8"
+  },
+  {
+   "id": "S120",
+   "size": "",
+   "key": 44,
+   "len": 71,
+   "first": 9093,
+   "line": "starts to shine like metal.",
+   "note": "ch8"
+  },
+  {
+   "id": "S121",
+   "size": "",
+   "key": 32,
+   "len": 52,
+   "first": 9164,
+   "line": "Perhaps halfway to the centre,",
+   "note": "ch9"
+  },
+  {
+   "id": "S122",
+   "size": "",
+   "key": 37,
+   "len": 59,
+   "first": 9216,
+   "line": "the hydrogen changes again.",
+   "note": "ch9"
+  },
+  {
+   "id": "S123",
+   "size": "",
+   "key": 32,
+   "len": 52,
+   "first": 9275,
+   "line": "NASA says it starts to conduct",
+   "note": "ch9"
+  },
+  {
+   "id": "S124",
+   "size": "",
+   "key": 31,
+   "len": 50,
+   "first": 9327,
+   "line": "electricity like a metal.",
+   "note": "ch9"
+  },
+  {
+   "id": "S125",
+   "size": "",
+   "key": 43,
+   "len": 70,
+   "first": 9377,
+   "line": "Metallic hydrogen. Silver,",
+   "note": "ch9"
+  },
+  {
+   "id": "S126",
+   "size": "",
+   "key": 38,
+   "len": 62,
+   "first": 9447,
+   "line": "heavy, and a little smug.",
+   "note": "ch9"
+  },
+  {
+   "id": "S127",
+   "size": "",
+   "key": 45,
+   "len": 73,
+   "first": 9509,
+   "line": "Now add the spin from before.",
+   "note": "ch9"
+  },
+  {
+   "id": "S128",
+   "size": "",
+   "key": 68,
+   "len": 110,
+   "first": 9582,
+   "line": "A spinning ball of conducting liquid acts like a dynamo,",
+   "note": "ch9"
+  },
+  {
+   "id": "S129",
+   "size": "",
+   "key": 48,
+   "len": 77,
+   "first": 9692,
+   "line": "and a dynamo makes a magnetic field.",
+   "note": "ch9"
+  },
+  {
+   "id": "S130",
+   "size": "",
+   "key": 43,
+   "len": 69,
+   "first": 9769,
+   "line": "Jupiter's is sixteen to fifty-four",
+   "note": "ch9"
+  },
+  {
+   "id": "S131",
+   "size": "",
+   "key": 31,
+   "len": 50,
+   "first": 9838,
+   "line": "times as powerful as Earth's.",
+   "note": "ch9"
+  },
+  {
+   "id": "S132",
+   "size": "",
+   "key": 38,
+   "len": 62,
+   "first": 9888,
+   "line": "Sparks crackle off your gloves.",
+   "note": "ch9"
+  },
+  {
+   "id": "S133",
+   "size": "",
+   "key": 58,
+   "len": 94,
+   "first": 9950,
+   "line": "Your compass needle spins like a roulette wheel.",
+   "note": "ch9"
+  },
+  {
+   "id": "S134",
+   "size": "",
+   "key": 69,
+   "len": 111,
+   "first": 10044,
+   "line": "Far above, the polar sky glows with aurora.",
+   "note": "ch9"
+  },
+  {
+   "id": "S135",
+   "size": "",
+   "key": 51,
+   "len": 82,
+   "first": 10155,
+   "line": "Everything around you is shiny, except you.",
+   "note": "ch9"
+  },
+  {
+   "id": "S136",
+   "size": "",
+   "key": 48,
+   "len": 77,
+   "first": 10237,
+   "line": "The compass gives up and just points at you.",
+   "note": "ch9"
+  },
+  {
+   "id": "S137",
+   "size": "",
+   "key": 71,
+   "len": 114,
+   "first": 10314,
+   "line": "Almost there, surely. Surely there is a floor.",
+   "note": "ch9"
+  },
+  {
+   "id": "S138",
+   "size": "",
+   "key": 57,
+   "len": 92,
+   "first": 10428,
+   "line": "Surely, at the bottom, there is a floor.",
+   "note": "ch10"
+  },
+  {
+   "id": "S139",
+   "size": "",
+   "key": 51,
+   "len": 83,
+   "first": 10520,
+   "line": "NASA says Juno found something odd.",
+   "note": "ch10"
+  },
+  {
+   "id": "S140",
+   "size": "",
+   "key": 58,
+   "len": 94,
+   "first": 10603,
+   "line": "Juno is the spacecraft that measured it, from orbit.",
+   "note": "ch10"
+  },
+  {
+   "id": "S141",
+   "size": "",
+   "key": 56,
+   "len": 91,
+   "first": 10697,
+   "line": "The core is fuzzy, and partly dissolved.",
+   "note": "ch10"
+  },
+  {
+   "id": "S142",
+   "size": "",
+   "key": 32,
+   "len": 51,
+   "first": 10788,
+   "line": "It is not a solid floor.",
+   "note": "ch10"
+  },
+  {
+   "id": "S143",
+   "size": "",
+   "key": 42,
+   "len": 68,
+   "first": 10839,
+   "line": "You reach out a boot to stand on it.",
+   "note": "ch10"
+  },
+  {
+   "id": "S144",
+   "size": "",
+   "key": 38,
+   "len": 61,
+   "first": 10907,
+   "line": "The floor fades as you touch it.",
+   "note": "ch10"
+  },
+  {
+   "id": "S145",
+   "size": "",
+   "key": 44,
+   "len": 71,
+   "first": 10968,
+   "line": "You try again. It fades again.",
+   "note": "ch10"
+  },
+  {
+   "id": "S146",
+   "size": "",
+   "key": 30,
+   "len": 48,
+   "first": 11039,
+   "line": "Your gauge shows depth,",
+   "note": "ch10"
+  },
+  {
+   "id": "S147",
+   "size": "",
+   "key": 60,
+   "len": 96,
+   "first": 11087,
+   "line": "and under that, ground: still none.",
+   "note": "ch10"
+  },
+  {
+   "id": "S148",
+   "size": "",
+   "key": 42,
+   "len": 68,
+   "first": 11183,
+   "line": "So you are not falling onto the bottom.",
+   "note": "ch10"
+  },
+  {
+   "id": "S149",
+   "size": "",
+   "key": 47,
+   "len": 76,
+   "first": 11251,
+   "line": "You are just sinking into a soft glow.",
+   "note": "ch10"
+  },
+  {
+   "id": "S150",
+   "size": "",
+   "key": 30,
+   "len": 48,
+   "first": 11327,
+   "line": "It is quiet and bright,",
+   "note": "ch10"
+  },
+  {
+   "id": "S151",
+   "size": "",
+   "key": 34,
+   "len": 55,
+   "first": 11375,
+   "line": "and extremely not a floor.",
+   "note": "ch10"
+  },
+  {
+   "id": "S152",
+   "size": "",
+   "key": 53,
+   "len": 86,
+   "first": 11430,
+   "line": "Which means it is time to wake up.",
+   "note": "ch10"
+  },
+  {
+   "id": "S153",
+   "size": "",
+   "key": 39,
+   "len": 63,
+   "first": 11516,
+   "line": "And now, back to reality.",
+   "note": "ch11"
+  },
+  {
+   "id": "S154",
+   "size": "",
+   "key": 29,
+   "len": 47,
+   "first": 11579,
+   "line": "You are on a rooftop,",
+   "note": "ch11"
+  },
+  {
+   "id": "S155",
+   "size": "",
+   "key": 46,
+   "len": 74,
+   "first": 11626,
+   "line": "wide awake, before sunrise.",
+   "note": "ch11"
+  },
+  {
+   "id": "S156",
+   "size": "",
+   "key": 41,
+   "len": 66,
+   "first": 11700,
+   "line": "You can see Jupiter yourself.",
+   "note": "ch11"
+  },
+  {
+   "id": "S157",
+   "size": "",
+   "key": 31,
+   "len": 50,
+   "first": 11766,
+   "line": "On the mornings of the fifteenth",
+   "note": "ch11"
+  },
+  {
+   "id": "S158",
+   "size": "",
+   "key": 33,
+   "len": 54,
+   "first": 11816,
+   "line": "and sixteenth of November,",
+   "note": "ch11"
+  },
+  {
+   "id": "S159",
+   "size": "",
+   "key": 53,
+   "len": 85,
+   "first": 11870,
+   "line": "look southeast before sunrise, says NASA.",
+   "note": "ch11"
+  },
+  {
+   "id": "S160",
+   "size": "",
+   "key": 64,
+   "len": 103,
+   "first": 11955,
+   "line": "Jupiter and Mars will sit one point two degrees apart.",
+   "note": "ch11"
+  },
+  {
+   "id": "S161",
+   "size": "",
+   "key": 74,
+   "len": 119,
+   "first": 12058,
+   "line": "That is a little more than two full Moons side by side.",
+   "note": "ch11"
+  },
+  {
+   "id": "S162",
+   "size": "",
+   "key": 36,
+   "len": 58,
+   "first": 12177,
+   "line": "Jupiter is the brighter point.",
+   "note": "ch11"
+  },
+  {
+   "id": "S163",
+   "size": "",
+   "key": 30,
+   "len": 48,
+   "first": 12235,
+   "line": "Mars is the other one.",
+   "note": "ch11"
+  },
+  {
+   "id": "S164",
+   "size": "",
+   "key": 29,
+   "len": 46,
+   "first": 12283,
+   "line": "Do not mix them up.",
+   "note": "ch11"
+  },
+  {
+   "id": "S165",
+   "size": "",
+   "key": 60,
+   "len": 96,
+   "first": 12329,
+   "line": "No spacesuit needed, and no falling required.",
+   "note": "ch11"
+  },
+  {
+   "id": "S166",
+   "size": "",
+   "key": 38,
+   "len": 62,
+   "first": 12425,
+   "line": "Set an alarm for the fifteenth.",
+   "note": "ch11"
+  },
+  {
+   "id": "S167",
+   "size": "",
+   "key": 66,
+   "len": 107,
+   "first": 12487,
+   "line": "If you could fall into one planet, which would you pick?",
+   "note": "ch11"
+  },
+  {
+   "id": "S168",
+   "size": "",
+   "key": 46,
+   "len": 74,
+   "first": 12594,
+   "line": "Tomorrow: a new what if.",
+   "note": "ch11"
+  },
+  {
+   "id": "S169",
+   "size": "",
+   "key": 63,
+   "len": 101,
+   "first": 12668,
+   "line": "",
+   "note": "ch11"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "jupiterfall/voice.wav",
+  "voiceVol": 0.9,
+  "sfxVol": 0.5,
+  "musicVol": 0.3
+ }
+}
