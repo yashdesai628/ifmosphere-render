@@ -1,0 +1,376 @@
+{
+ "slug": "marsyear",
+ "title": "WHAT IF YOU LIVED ON MARS FOR A YEAR? (SHORT)",
+ "fps": 30,
+ "total": 1447,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 81,
+   "t0": 0,
+   "t1": 81,
+   "line": "Four people just spent 378 days"
+  },
+  {
+   "shot": "S2",
+   "a": 81,
+   "b": 139,
+   "t0": 0,
+   "t1": 58,
+   "line": "sealed inside a fake Mars."
+  },
+  {
+   "shot": "S3",
+   "a": 139,
+   "b": 218,
+   "t0": 0,
+   "t1": 79,
+   "line": "It's a 3D-printed habitat in Houston."
+  },
+  {
+   "shot": "S4",
+   "a": 218,
+   "b": 296,
+   "t0": 0,
+   "t1": 78,
+   "line": "No windows. No live calls home."
+  },
+  {
+   "shot": "S5",
+   "a": 296,
+   "b": 388,
+   "t0": 0,
+   "t1": 92,
+   "line": "Every message takes up to twenty-two minutes each way."
+  },
+  {
+   "shot": "S6",
+   "a": 388,
+   "b": 461,
+   "t0": 0,
+   "t1": 73,
+   "line": "So every chat becomes a slow postcard."
+  },
+  {
+   "shot": "S7",
+   "a": 461,
+   "b": 518,
+   "t0": 0,
+   "t1": 57,
+   "line": "From inside, the crew flew a drone"
+  },
+  {
+   "shot": "S8",
+   "a": 518,
+   "b": 553,
+   "t0": 0,
+   "t1": 35,
+   "line": "and drove a rover,"
+  },
+  {
+   "shot": "S9",
+   "a": 553,
+   "b": 608,
+   "t0": 0,
+   "t1": 55,
+   "line": "hunting for interesting rocks."
+  },
+  {
+   "shot": "S10",
+   "a": 608,
+   "b": 665,
+   "t0": 0,
+   "t1": 57,
+   "line": "They grew hydroponic vegetables,"
+  },
+  {
+   "shot": "S11",
+   "a": 665,
+   "b": 756,
+   "t0": 0,
+   "t1": 91,
+   "line": "and tested seeds in simulated Martian soil."
+  },
+  {
+   "shot": "S12",
+   "a": 756,
+   "b": 820,
+   "t0": 0,
+   "t1": 64,
+   "line": "Spicer kept every system running."
+  },
+  {
+   "shot": "S13",
+   "a": 820,
+   "b": 879,
+   "t0": 0,
+   "t1": 59,
+   "line": "Ellis organised health samples."
+  },
+  {
+   "shot": "S14",
+   "a": 879,
+   "b": 989,
+   "t0": 0,
+   "t1": 110,
+   "line": "Spicer was surprised how little he missed news and social media."
+  },
+  {
+   "shot": "S15",
+   "a": 989,
+   "b": 1058,
+   "t0": 0,
+   "t1": 69,
+   "line": "Ellis had three teammates to rely on."
+  },
+  {
+   "shot": "S16",
+   "a": 1058,
+   "b": 1150,
+   "t0": 0,
+   "t1": 92,
+   "line": "On the thirty-first of October, twenty twenty-six,"
+  },
+  {
+   "shot": "S17",
+   "a": 1150,
+   "b": 1187,
+   "t0": 0,
+   "t1": 37,
+   "line": "the hatch opened."
+  },
+  {
+   "shot": "S18",
+   "a": 1187,
+   "b": 1286,
+   "t0": 0,
+   "t1": 99,
+   "line": "Their first time outdoors in 378 days."
+  },
+  {
+   "shot": "S19",
+   "a": 1286,
+   "b": 1341,
+   "t0": 0,
+   "t1": 55,
+   "line": "The full year is on the channel."
+  },
+  {
+   "shot": "S20",
+   "a": 1341,
+   "b": 1402,
+   "t0": 0,
+   "t1": 61,
+   "line": "Tomorrow: a new what if."
+  },
+  {
+   "shot": "S21",
+   "a": 1402,
+   "b": 1447,
+   "t0": 0,
+   "t1": 45,
+   "line": ""
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "medium",
+   "key": 50,
+   "len": 81,
+   "first": 0,
+   "line": "Four people just spent 378 days",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "wide",
+   "key": 36,
+   "len": 58,
+   "first": 81,
+   "line": "sealed inside a fake Mars.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "wide",
+   "key": 49,
+   "len": 79,
+   "first": 139,
+   "line": "It's a 3D-printed habitat in Houston.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "medium",
+   "key": 48,
+   "len": 78,
+   "first": 218,
+   "line": "No windows. No live calls home.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "wide",
+   "key": 57,
+   "len": 92,
+   "first": 296,
+   "line": "Every message takes up to twenty-two minutes each way.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "medium",
+   "key": 45,
+   "len": 73,
+   "first": 388,
+   "line": "So every chat becomes a slow postcard.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "medium",
+   "key": 35,
+   "len": 57,
+   "first": 461,
+   "line": "From inside, the crew flew a drone",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "medium",
+   "key": 22,
+   "len": 35,
+   "first": 518,
+   "line": "and drove a rover,",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "close",
+   "key": 34,
+   "len": 55,
+   "first": 553,
+   "line": "hunting for interesting rocks.",
+   "note": "ch0"
+  },
+  {
+   "id": "S10",
+   "size": "medium",
+   "key": 35,
+   "len": 57,
+   "first": 608,
+   "line": "They grew hydroponic vegetables,",
+   "note": "ch0"
+  },
+  {
+   "id": "S11",
+   "size": "medium",
+   "key": 56,
+   "len": 91,
+   "first": 665,
+   "line": "and tested seeds in simulated Martian soil.",
+   "note": "ch0"
+  },
+  {
+   "id": "S12",
+   "size": "medium",
+   "key": 40,
+   "len": 64,
+   "first": 756,
+   "line": "Spicer kept every system running.",
+   "note": "ch0"
+  },
+  {
+   "id": "S13",
+   "size": "medium",
+   "key": 37,
+   "len": 59,
+   "first": 820,
+   "line": "Ellis organised health samples.",
+   "note": "ch0"
+  },
+  {
+   "id": "S14",
+   "size": "medium",
+   "key": 68,
+   "len": 110,
+   "first": 879,
+   "line": "Spicer was surprised how little he missed news and social media.",
+   "note": "ch0"
+  },
+  {
+   "id": "S15",
+   "size": "wide",
+   "key": 43,
+   "len": 69,
+   "first": 989,
+   "line": "Ellis had three teammates to rely on.",
+   "note": "ch0"
+  },
+  {
+   "id": "S16",
+   "size": "wide",
+   "key": 57,
+   "len": 92,
+   "first": 1058,
+   "line": "On the thirty-first of October, twenty twenty-six,",
+   "note": "ch0"
+  },
+  {
+   "id": "S17",
+   "size": "medium",
+   "key": 23,
+   "len": 37,
+   "first": 1150,
+   "line": "the hatch opened.",
+   "note": "ch0"
+  },
+  {
+   "id": "S18",
+   "size": "wide",
+   "key": 61,
+   "len": 99,
+   "first": 1187,
+   "line": "Their first time outdoors in 378 days.",
+   "note": "ch0"
+  },
+  {
+   "id": "S19",
+   "size": "close",
+   "key": 34,
+   "len": 55,
+   "first": 1286,
+   "line": "The full year is on the channel.",
+   "note": "ch0"
+  },
+  {
+   "id": "S20",
+   "size": "medium",
+   "key": 38,
+   "len": 61,
+   "first": 1341,
+   "line": "Tomorrow: a new what if.",
+   "note": "ch0"
+  },
+  {
+   "id": "S21",
+   "size": "medium",
+   "key": 28,
+   "len": 45,
+   "first": 1402,
+   "line": "",
+   "note": "ch0"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "marsyear/short-voice.wav",
+  "sfx": "marsyear/short-sfx.wav",
+  "music": "marsyear/short-music.wav",
+  "voiceVol": 0.85,
+  "sfxVol": 0.2368,
+  "musicVol": 0.089
+ }
+}

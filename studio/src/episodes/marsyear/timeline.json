@@ -1,0 +1,3249 @@
+{
+ "slug": "marsyear",
+ "title": "WHAT IF YOU LIVED ON MARS FOR A YEAR?",
+ "fps": 30,
+ "total": 12654,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 76,
+   "t0": 0,
+   "t1": 76,
+   "line": "Four people just spent 378 days"
+  },
+  {
+   "shot": "S2",
+   "a": 76,
+   "b": 135,
+   "t0": 0,
+   "t1": 59,
+   "line": "sealed inside a fake Mars."
+  },
+  {
+   "shot": "S3",
+   "a": 135,
+   "b": 163,
+   "t0": 0,
+   "t1": 28,
+   "line": "No windows."
+  },
+  {
+   "shot": "S4",
+   "a": 163,
+   "b": 208,
+   "t0": 0,
+   "t1": 45,
+   "line": "No live calls home."
+  },
+  {
+   "shot": "S5",
+   "a": 208,
+   "b": 301,
+   "t0": 0,
+   "t1": 93,
+   "line": "Every message takes up to twenty-two minutes each way."
+  },
+  {
+   "shot": "S6",
+   "a": 301,
+   "b": 323,
+   "t0": 0,
+   "t1": 22,
+   "line": "Here's what a year"
+  },
+  {
+   "shot": "S7",
+   "a": 323,
+   "b": 363,
+   "t0": 0,
+   "t1": 40,
+   "line": "like that does to you."
+  },
+  {
+   "shot": "S8",
+   "a": 363,
+   "b": 441,
+   "t0": 0,
+   "t1": 78,
+   "line": "Day one. The hatch seals behind you."
+  },
+  {
+   "shot": "S9",
+   "a": 441,
+   "b": 505,
+   "t0": 0,
+   "t1": 64,
+   "line": "A calendar on the wall starts counting,"
+  },
+  {
+   "shot": "S10",
+   "a": 505,
+   "b": 528,
+   "t0": 0,
+   "t1": 23,
+   "line": "and it won't stop"
+  },
+  {
+   "shot": "S11",
+   "a": 528,
+   "b": 572,
+   "t0": 0,
+   "t1": 44,
+   "line": "for a very long time."
+  },
+  {
+   "shot": "S12",
+   "a": 572,
+   "b": 666,
+   "t0": 0,
+   "t1": 94,
+   "line": "What if you lived on Mars for a year?"
+  },
+  {
+   "shot": "S13",
+   "a": 666,
+   "b": 713,
+   "t0": 0,
+   "t1": 47,
+   "line": "First, the address."
+  },
+  {
+   "shot": "S14",
+   "a": 713,
+   "b": 765,
+   "t0": 0,
+   "t1": 52,
+   "line": "It's a 3D-printed habitat"
+  },
+  {
+   "shot": "S15",
+   "a": 765,
+   "b": 853,
+   "t0": 0,
+   "t1": 88,
+   "line": "at NASA's Johnson Space Center, in Houston."
+  },
+  {
+   "shot": "S16",
+   "a": 853,
+   "b": 922,
+   "t0": 0,
+   "t1": 69,
+   "line": "Its name is Mars Dune Alpha."
+  },
+  {
+   "shot": "S17",
+   "a": 922,
+   "b": 985,
+   "t0": 0,
+   "t1": 63,
+   "line": "Roughly seventeen hundred square feet,"
+  },
+  {
+   "shot": "S18",
+   "a": 985,
+   "b": 1063,
+   "t0": 0,
+   "t1": 78,
+   "line": "with every wall printed layer by layer."
+  },
+  {
+   "shot": "S19",
+   "a": 1063,
+   "b": 1141,
+   "t0": 0,
+   "t1": 78,
+   "line": "That's a small house with no front door."
+  },
+  {
+   "shot": "S20",
+   "a": 1141,
+   "b": 1186,
+   "t0": 0,
+   "t1": 45,
+   "line": "Four volunteers walked in"
+  },
+  {
+   "shot": "S21",
+   "a": 1186,
+   "b": 1279,
+   "t0": 0,
+   "t1": 93,
+   "line": "on the nineteenth of October, twenty twenty-five."
+  },
+  {
+   "shot": "S22",
+   "a": 1279,
+   "b": 1362,
+   "t0": 0,
+   "t1": 83,
+   "line": "Ross Elder, the commander and a test pilot."
+  },
+  {
+   "shot": "S23",
+   "a": 1362,
+   "b": 1430,
+   "t0": 0,
+   "t1": 68,
+   "line": "Ellen Ellis, the medical officer."
+  },
+  {
+   "shot": "S24",
+   "a": 1430,
+   "b": 1500,
+   "t0": 0,
+   "t1": 70,
+   "line": "James Spicer, the flight engineer."
+  },
+  {
+   "shot": "S25",
+   "a": 1500,
+   "b": 1585,
+   "t0": 0,
+   "t1": 85,
+   "line": "And Matthew Montgomery, the science officer."
+  },
+  {
+   "shot": "S26",
+   "a": 1585,
+   "b": 1620,
+   "t0": 0,
+   "t1": 35,
+   "line": "You're along for the ride,"
+  },
+  {
+   "shot": "S27",
+   "a": 1620,
+   "b": 1685,
+   "t0": 0,
+   "t1": 65,
+   "line": "in a very small orange jumpsuit."
+  },
+  {
+   "shot": "S28",
+   "a": 1685,
+   "b": 1732,
+   "t0": 0,
+   "t1": 47,
+   "line": "Time for a quick tour."
+  },
+  {
+   "shot": "S29",
+   "a": 1732,
+   "b": 1802,
+   "t0": 0,
+   "t1": 70,
+   "line": "Kitchen, bunks, garden, gym."
+  },
+  {
+   "shot": "S30",
+   "a": 1802,
+   "b": 1871,
+   "t0": 0,
+   "t1": 69,
+   "line": "Spot what's missing from the floor plan."
+  },
+  {
+   "shot": "S31",
+   "a": 1871,
+   "b": 1933,
+   "t0": 0,
+   "t1": 62,
+   "line": "Windows. Zero of them."
+  },
+  {
+   "shot": "S32",
+   "a": 1933,
+   "b": 2035,
+   "t0": 0,
+   "t1": 102,
+   "line": "Which makes the phone situation interesting."
+  },
+  {
+   "shot": "S33",
+   "a": 2035,
+   "b": 2098,
+   "t0": 0,
+   "t1": 63,
+   "line": "No windows means no sunrise."
+  },
+  {
+   "shot": "S34",
+   "a": 2098,
+   "b": 2132,
+   "t0": 0,
+   "t1": 34,
+   "line": "No weather check."
+  },
+  {
+   "shot": "S35",
+   "a": 2132,
+   "b": 2180,
+   "t0": 0,
+   "t1": 48,
+   "line": "No peeking at the street."
+  },
+  {
+   "shot": "S36",
+   "a": 2180,
+   "b": 2231,
+   "t0": 0,
+   "t1": 51,
+   "line": "No outside sounds either."
+  },
+  {
+   "shot": "S37",
+   "a": 2231,
+   "b": 2286,
+   "t0": 0,
+   "t1": 55,
+   "line": "No traffic, no birds."
+  },
+  {
+   "shot": "S38",
+   "a": 2286,
+   "b": 2375,
+   "t0": 0,
+   "t1": 89,
+   "line": "And no real-time calls with family and friends."
+  },
+  {
+   "shot": "S39",
+   "a": 2375,
+   "b": 2413,
+   "t0": 0,
+   "t1": 38,
+   "line": "A message from here takes"
+  },
+  {
+   "shot": "S40",
+   "a": 2413,
+   "b": 2478,
+   "t0": 0,
+   "t1": 65,
+   "line": "up to twenty-two minutes each way."
+  },
+  {
+   "shot": "S41",
+   "a": 2478,
+   "b": 2552,
+   "t0": 0,
+   "t1": 74,
+   "line": "So you text your mum: how's the dog?"
+  },
+  {
+   "shot": "S42",
+   "a": 2552,
+   "b": 2584,
+   "t0": 0,
+   "t1": 32,
+   "line": "Then you wait."
+  },
+  {
+   "shot": "S43",
+   "a": 2584,
+   "b": 2621,
+   "t0": 0,
+   "t1": 37,
+   "line": "You make a snack."
+  },
+  {
+   "shot": "S44",
+   "a": 2621,
+   "b": 2657,
+   "t0": 0,
+   "t1": 36,
+   "line": "You wait some more."
+  },
+  {
+   "shot": "S45",
+   "a": 2657,
+   "b": 2745,
+   "t0": 0,
+   "t1": 88,
+   "line": "You rearrange the spice jars. Still waiting."
+  },
+  {
+   "shot": "S46",
+   "a": 2745,
+   "b": 2795,
+   "t0": 0,
+   "t1": 50,
+   "line": "By the time her answer lands,"
+  },
+  {
+   "shot": "S47",
+   "a": 2795,
+   "b": 2856,
+   "t0": 0,
+   "t1": 61,
+   "line": "you've thought of a few more questions."
+  },
+  {
+   "shot": "S48",
+   "a": 2856,
+   "b": 2929,
+   "t0": 0,
+   "t1": 73,
+   "line": "You send them all. Now she waits."
+  },
+  {
+   "shot": "S49",
+   "a": 2929,
+   "b": 2971,
+   "t0": 0,
+   "t1": 42,
+   "line": "It's less a conversation,"
+  },
+  {
+   "shot": "S50",
+   "a": 2971,
+   "b": 3027,
+   "t0": 0,
+   "t1": 56,
+   "line": "more a very slow postcard."
+  },
+  {
+   "shot": "S51",
+   "a": 3027,
+   "b": 3102,
+   "t0": 0,
+   "t1": 75,
+   "line": "But waiting isn't the hardest part of the day."
+  },
+  {
+   "shot": "S52",
+   "a": 3102,
+   "b": 3216,
+   "t0": 0,
+   "t1": 114,
+   "line": "Next up: stepping outside. Sort of."
+  },
+  {
+   "shot": "S53",
+   "a": 3216,
+   "b": 3247,
+   "t0": 0,
+   "t1": 31,
+   "line": "Every so often,"
+  },
+  {
+   "shot": "S54",
+   "a": 3247,
+   "b": 3310,
+   "t0": 0,
+   "t1": 63,
+   "line": "the crew heads out for a Marswalk."
+  },
+  {
+   "shot": "S55",
+   "a": 3310,
+   "b": 3397,
+   "t0": 0,
+   "t1": 87,
+   "line": "It's simulated, but the suits are very real work."
+  },
+  {
+   "shot": "S56",
+   "a": 3397,
+   "b": 3451,
+   "t0": 0,
+   "t1": 54,
+   "line": "First, you get suited up."
+  },
+  {
+   "shot": "S57",
+   "a": 3451,
+   "b": 3509,
+   "t0": 0,
+   "t1": 58,
+   "line": "Preparing the suits takes time."
+  },
+  {
+   "shot": "S58",
+   "a": 3509,
+   "b": 3561,
+   "t0": 0,
+   "t1": 52,
+   "line": "Then come the airlock steps,"
+  },
+  {
+   "shot": "S59",
+   "a": 3561,
+   "b": 3623,
+   "t0": 0,
+   "t1": 62,
+   "line": "one careful move after another."
+  },
+  {
+   "shot": "S60",
+   "a": 3623,
+   "b": 3707,
+   "t0": 0,
+   "t1": 84,
+   "line": "Then long traverses across the sandy terrain."
+  },
+  {
+   "shot": "S61",
+   "a": 3707,
+   "b": 3786,
+   "t0": 0,
+   "t1": 79,
+   "line": "Elder said all of it took time and stamina."
+  },
+  {
+   "shot": "S62",
+   "a": 3786,
+   "b": 3848,
+   "t0": 0,
+   "t1": 62,
+   "line": "So the crew looked after the basics."
+  },
+  {
+   "shot": "S63",
+   "a": 3848,
+   "b": 3950,
+   "t0": 0,
+   "t1": 102,
+   "line": "Good nutrition. Regular exercise. Proper rest."
+  },
+  {
+   "shot": "S64",
+   "a": 3950,
+   "b": 4002,
+   "t0": 0,
+   "t1": 52,
+   "line": "Stamina is something you build,"
+  },
+  {
+   "shot": "S65",
+   "a": 4002,
+   "b": 4049,
+   "t0": 0,
+   "t1": 47,
+   "line": "not something you wish for."
+  },
+  {
+   "shot": "S66",
+   "a": 4049,
+   "b": 4159,
+   "t0": 0,
+   "t1": 110,
+   "line": "You trudge through the sand. Slowly. Bravely."
+  },
+  {
+   "shot": "S67",
+   "a": 4159,
+   "b": 4230,
+   "t0": 0,
+   "t1": 71,
+   "line": "Your legs would like a word with management."
+  },
+  {
+   "shot": "S68",
+   "a": 4230,
+   "b": 4301,
+   "t0": 0,
+   "t1": 71,
+   "line": "Walking on Mars is mostly walking."
+  },
+  {
+   "shot": "S69",
+   "a": 4301,
+   "b": 4396,
+   "t0": 0,
+   "t1": 95,
+   "line": "Good thing not every job needs legs."
+  },
+  {
+   "shot": "S70",
+   "a": 4396,
+   "b": 4476,
+   "t0": 0,
+   "t1": 80,
+   "line": "Some of the exploring never leaves the building."
+  },
+  {
+   "shot": "S71",
+   "a": 4476,
+   "b": 4556,
+   "t0": 0,
+   "t1": 80,
+   "line": "From inside, the crew remotely flew a drone,"
+  },
+  {
+   "shot": "S72",
+   "a": 4556,
+   "b": 4597,
+   "t0": 0,
+   "t1": 41,
+   "line": "and drove a rover."
+  },
+  {
+   "shot": "S73",
+   "a": 4597,
+   "b": 4663,
+   "t0": 0,
+   "t1": 66,
+   "line": "Both went out to survey the terrain."
+  },
+  {
+   "shot": "S74",
+   "a": 4663,
+   "b": 4695,
+   "t0": 0,
+   "t1": 32,
+   "line": "They hunted for rocks"
+  },
+  {
+   "shot": "S75",
+   "a": 4695,
+   "b": 4761,
+   "t0": 0,
+   "t1": 66,
+   "line": "worth identifying, or collecting."
+  },
+  {
+   "shot": "S76",
+   "a": 4761,
+   "b": 4854,
+   "t0": 0,
+   "t1": 93,
+   "line": "You grip the controller. Your tongue sticks out."
+  },
+  {
+   "shot": "S77",
+   "a": 4854,
+   "b": 4901,
+   "t0": 0,
+   "t1": 47,
+   "line": "Elder, the test pilot,"
+  },
+  {
+   "shot": "S78",
+   "a": 4901,
+   "b": 5004,
+   "t0": 0,
+   "t1": 103,
+   "line": "called flying the drone \"uncannily similar\" to flying."
+  },
+  {
+   "shot": "S79",
+   "a": 5004,
+   "b": 5115,
+   "t0": 0,
+   "t1": 111,
+   "line": "Your rover rolls forward. Then turns left. Slowly."
+  },
+  {
+   "shot": "S80",
+   "a": 5115,
+   "b": 5174,
+   "t0": 0,
+   "t1": 59,
+   "line": "Like a very polite shopping cart."
+  },
+  {
+   "shot": "S81",
+   "a": 5174,
+   "b": 5259,
+   "t0": 0,
+   "t1": 85,
+   "line": "It scoops up a rock. You name it Kevin."
+  },
+  {
+   "shot": "S82",
+   "a": 5259,
+   "b": 5297,
+   "t0": 0,
+   "t1": 38,
+   "line": "But every robot trip"
+  },
+  {
+   "shot": "S83",
+   "a": 5297,
+   "b": 5351,
+   "t0": 0,
+   "t1": 54,
+   "line": "needs a base that doesn't break."
+  },
+  {
+   "shot": "S84",
+   "a": 5351,
+   "b": 5447,
+   "t0": 0,
+   "t1": 96,
+   "line": "And somebody has to keep the base running."
+  },
+  {
+   "shot": "S85",
+   "a": 5447,
+   "b": 5545,
+   "t0": 0,
+   "t1": 98,
+   "line": "That somebody is James Spicer, the flight engineer."
+  },
+  {
+   "shot": "S86",
+   "a": 5545,
+   "b": 5615,
+   "t0": 0,
+   "t1": 70,
+   "line": "His job: keep the systems running."
+  },
+  {
+   "shot": "S87",
+   "a": 5615,
+   "b": 5691,
+   "t0": 0,
+   "t1": 76,
+   "line": "The crew also tracked their consumables."
+  },
+  {
+   "shot": "S88",
+   "a": 5691,
+   "b": 5746,
+   "t0": 0,
+   "t1": 55,
+   "line": "That's everything you use up,"
+  },
+  {
+   "shot": "S89",
+   "a": 5746,
+   "b": 5821,
+   "t0": 0,
+   "t1": 75,
+   "line": "from dish soap to respirator filters."
+  },
+  {
+   "shot": "S90",
+   "a": 5821,
+   "b": 5896,
+   "t0": 0,
+   "t1": 75,
+   "line": "Everyone was careful with food and water."
+  },
+  {
+   "shot": "S91",
+   "a": 5896,
+   "b": 5927,
+   "t0": 0,
+   "t1": 31,
+   "line": "Spicer compared it"
+  },
+  {
+   "shot": "S92",
+   "a": 5927,
+   "b": 6000,
+   "t0": 0,
+   "t1": 73,
+   "line": "to living on a submarine, or a boat."
+  },
+  {
+   "shot": "S93",
+   "a": 6000,
+   "b": 6074,
+   "t0": 0,
+   "t1": 74,
+   "line": "So you count the dish soap like it's treasure."
+  },
+  {
+   "shot": "S94",
+   "a": 6074,
+   "b": 6120,
+   "t0": 0,
+   "t1": 46,
+   "line": "You tick the clipboard."
+  },
+  {
+   "shot": "S95",
+   "a": 6120,
+   "b": 6165,
+   "t0": 0,
+   "t1": 45,
+   "line": "Then you tick it again."
+  },
+  {
+   "shot": "S96",
+   "a": 6165,
+   "b": 6275,
+   "t0": 0,
+   "t1": 110,
+   "line": "Pip's rule: whoever finishes the soap, announces it."
+  },
+  {
+   "shot": "S97",
+   "a": 6275,
+   "b": 6364,
+   "t0": 0,
+   "t1": 89,
+   "line": "Speaking of things you can't run out of, food."
+  },
+  {
+   "shot": "S98",
+   "a": 6364,
+   "b": 6444,
+   "t0": 0,
+   "t1": 80,
+   "line": "Luckily, you grow some."
+  },
+  {
+   "shot": "S99",
+   "a": 6444,
+   "b": 6489,
+   "t0": 0,
+   "t1": 45,
+   "line": "Welcome to the garden."
+  },
+  {
+   "shot": "S100",
+   "a": 6489,
+   "b": 6585,
+   "t0": 0,
+   "t1": 96,
+   "line": "Montgomery, the science officer, works the crops."
+  },
+  {
+   "shot": "S101",
+   "a": 6585,
+   "b": 6653,
+   "t0": 0,
+   "t1": 68,
+   "line": "They grew hydroponic vegetables."
+  },
+  {
+   "shot": "S102",
+   "a": 6653,
+   "b": 6739,
+   "t0": 0,
+   "t1": 86,
+   "line": "That's plants with roots in water, not soil."
+  },
+  {
+   "shot": "S103",
+   "a": 6739,
+   "b": 6850,
+   "t0": 0,
+   "t1": 111,
+   "line": "Pink lights. Tidy pipes. Leafy green hopes."
+  },
+  {
+   "shot": "S104",
+   "a": 6850,
+   "b": 6934,
+   "t0": 0,
+   "t1": 84,
+   "line": "There was also a seed-germination experiment."
+  },
+  {
+   "shot": "S105",
+   "a": 6934,
+   "b": 6999,
+   "t0": 0,
+   "t1": 65,
+   "line": "Seeds in simulated Martian soil,"
+  },
+  {
+   "shot": "S106",
+   "a": 6999,
+   "b": 7042,
+   "t0": 0,
+   "t1": 43,
+   "line": "next to a control."
+  },
+  {
+   "shot": "S107",
+   "a": 7042,
+   "b": 7101,
+   "t0": 0,
+   "t1": 59,
+   "line": "A control is just ordinary soil,"
+  },
+  {
+   "shot": "S108",
+   "a": 7101,
+   "b": 7143,
+   "t0": 0,
+   "t1": 42,
+   "line": "so you can compare."
+  },
+  {
+   "shot": "S109",
+   "a": 7143,
+   "b": 7193,
+   "t0": 0,
+   "t1": 50,
+   "line": "You water both rows."
+  },
+  {
+   "shot": "S110",
+   "a": 7193,
+   "b": 7251,
+   "t0": 0,
+   "t1": 58,
+   "line": "You whisper encouragement to one."
+  },
+  {
+   "shot": "S111",
+   "a": 7251,
+   "b": 7298,
+   "t0": 0,
+   "t1": 47,
+   "line": "That's not in the protocol."
+  },
+  {
+   "shot": "S112",
+   "a": 7298,
+   "b": 7392,
+   "t0": 0,
+   "t1": 94,
+   "line": "Harvest day arrives. Everyone gathers round."
+  },
+  {
+   "shot": "S113",
+   "a": 7392,
+   "b": 7463,
+   "t0": 0,
+   "t1": 71,
+   "line": "Your vegetable is, let's say, compact."
+  },
+  {
+   "shot": "S114",
+   "a": 7463,
+   "b": 7522,
+   "t0": 0,
+   "t1": 59,
+   "line": "You divide it into four portions."
+  },
+  {
+   "shot": "S115",
+   "a": 7522,
+   "b": 7587,
+   "t0": 0,
+   "t1": 65,
+   "line": "Equal. Very scientific."
+  },
+  {
+   "shot": "S116",
+   "a": 7587,
+   "b": 7619,
+   "t0": 0,
+   "t1": 32,
+   "line": "What sprouts best"
+  },
+  {
+   "shot": "S117",
+   "a": 7619,
+   "b": 7682,
+   "t0": 0,
+   "t1": 63,
+   "line": "is exactly what the data is for."
+  },
+  {
+   "shot": "S118",
+   "a": 7682,
+   "b": 7724,
+   "t0": 0,
+   "t1": 42,
+   "line": "Gardening is a workout,"
+  },
+  {
+   "shot": "S119",
+   "a": 7724,
+   "b": 7804,
+   "t0": 0,
+   "t1": 80,
+   "line": "but it's not the whole workout."
+  },
+  {
+   "shot": "S120",
+   "a": 7804,
+   "b": 7870,
+   "t0": 0,
+   "t1": 66,
+   "line": "Staying healthy is a daily job."
+  },
+  {
+   "shot": "S121",
+   "a": 7870,
+   "b": 7934,
+   "t0": 0,
+   "t1": 64,
+   "line": "There's a stationary bike in the habitat."
+  },
+  {
+   "shot": "S122",
+   "a": 7934,
+   "b": 8021,
+   "t0": 0,
+   "t1": 87,
+   "line": "You pedal hard and arrive absolutely nowhere."
+  },
+  {
+   "shot": "S123",
+   "a": 8021,
+   "b": 8052,
+   "t0": 0,
+   "t1": 31,
+   "line": "Very Mars."
+  },
+  {
+   "shot": "S124",
+   "a": 8052,
+   "b": 8114,
+   "t0": 0,
+   "t1": 62,
+   "line": "Ellen Ellis, the medical officer,"
+  },
+  {
+   "shot": "S125",
+   "a": 8114,
+   "b": 8167,
+   "t0": 0,
+   "t1": 53,
+   "line": "looks after the crew's health."
+  },
+  {
+   "shot": "S126",
+   "a": 8167,
+   "b": 8239,
+   "t0": 0,
+   "t1": 72,
+   "line": "She organised biological sample collections"
+  },
+  {
+   "shot": "S127",
+   "a": 8239,
+   "b": 8279,
+   "t0": 0,
+   "t1": 40,
+   "line": "for health research."
+  },
+  {
+   "shot": "S128",
+   "a": 8279,
+   "b": 8331,
+   "t0": 0,
+   "t1": 52,
+   "line": "That means tubes and labels,"
+  },
+  {
+   "shot": "S129",
+   "a": 8331,
+   "b": 8397,
+   "t0": 0,
+   "t1": 66,
+   "line": "and a very patient medical officer."
+  },
+  {
+   "shot": "S130",
+   "a": 8397,
+   "b": 8509,
+   "t0": 0,
+   "t1": 112,
+   "line": "Every sample helps researchers understand a year inside."
+  },
+  {
+   "shot": "S131",
+   "a": 8509,
+   "b": 8601,
+   "t0": 0,
+   "t1": 92,
+   "line": "You roll up a sleeve. You smile bravely."
+  },
+  {
+   "shot": "S132",
+   "a": 8601,
+   "b": 8645,
+   "t0": 0,
+   "t1": 44,
+   "line": "Your body is covered."
+  },
+  {
+   "shot": "S133",
+   "a": 8645,
+   "b": 8733,
+   "t0": 0,
+   "t1": 88,
+   "line": "Your head is the open question."
+  },
+  {
+   "shot": "S134",
+   "a": 8733,
+   "b": 8822,
+   "t0": 0,
+   "t1": 89,
+   "line": "A year with no windows. How's your head?"
+  },
+  {
+   "shot": "S135",
+   "a": 8822,
+   "b": 8909,
+   "t0": 0,
+   "t1": 87,
+   "line": "No constant news. No endless scrolling."
+  },
+  {
+   "shot": "S136",
+   "a": 8909,
+   "b": 8992,
+   "t0": 0,
+   "t1": 83,
+   "line": "Spicer was surprised by how little he missed it."
+  },
+  {
+   "shot": "S137",
+   "a": 8992,
+   "b": 9091,
+   "t0": 0,
+   "t1": 99,
+   "line": "News and social media, gone, and life went on."
+  },
+  {
+   "shot": "S138",
+   "a": 9091,
+   "b": 9131,
+   "t0": 0,
+   "t1": 40,
+   "line": "What filled the gap?"
+  },
+  {
+   "shot": "S139",
+   "a": 9131,
+   "b": 9213,
+   "t0": 0,
+   "t1": 82,
+   "line": "Stories and jokes around the kitchen table."
+  },
+  {
+   "shot": "S140",
+   "a": 9213,
+   "b": 9276,
+   "t0": 0,
+   "t1": 63,
+   "line": "Somebody tells the same joke again."
+  },
+  {
+   "shot": "S141",
+   "a": 9276,
+   "b": 9316,
+   "t0": 0,
+   "t1": 40,
+   "line": "You laugh anyway."
+  },
+  {
+   "shot": "S142",
+   "a": 9316,
+   "b": 9401,
+   "t0": 0,
+   "t1": 85,
+   "line": "Ellis said most days she didn't feel isolated."
+  },
+  {
+   "shot": "S143",
+   "a": 9401,
+   "b": 9460,
+   "t0": 0,
+   "t1": 59,
+   "line": "She had three teammates to rely on."
+  },
+  {
+   "shot": "S144",
+   "a": 9460,
+   "b": 9524,
+   "t0": 0,
+   "t1": 64,
+   "line": "Four people. One table."
+  },
+  {
+   "shot": "S145",
+   "a": 9524,
+   "b": 9581,
+   "t0": 0,
+   "t1": 57,
+   "line": "One very long conversation."
+  },
+  {
+   "shot": "S146",
+   "a": 9581,
+   "b": 9660,
+   "t0": 0,
+   "t1": 79,
+   "line": "You check the wall calendar. Still counting."
+  },
+  {
+   "shot": "S147",
+   "a": 9660,
+   "b": 9779,
+   "t0": 0,
+   "t1": 119,
+   "line": "Meanwhile, the world outside kept right on moving."
+  },
+  {
+   "shot": "S148",
+   "a": 9779,
+   "b": 9830,
+   "t0": 0,
+   "t1": 51,
+   "line": "And what a world it was."
+  },
+  {
+   "shot": "S149",
+   "a": 9830,
+   "b": 9883,
+   "t0": 0,
+   "t1": 53,
+   "line": "While the crew stayed inside,"
+  },
+  {
+   "shot": "S150",
+   "a": 9883,
+   "b": 9961,
+   "t0": 0,
+   "t1": 78,
+   "line": "astronaut Jack Hathaway was in orbit."
+  },
+  {
+   "shot": "S151",
+   "a": 9961,
+   "b": 10074,
+   "t0": 0,
+   "t1": 113,
+   "line": "He completed a 237-day mission on the space station."
+  },
+  {
+   "shot": "S152",
+   "a": 10074,
+   "b": 10105,
+   "t0": 0,
+   "t1": 31,
+   "line": "At the same time,"
+  },
+  {
+   "shot": "S153",
+   "a": 10105,
+   "b": 10194,
+   "t0": 0,
+   "t1": 89,
+   "line": "the Artemis II astronauts flew around the Moon."
+  },
+  {
+   "shot": "S154",
+   "a": 10194,
+   "b": 10222,
+   "t0": 0,
+   "t1": 28,
+   "line": "They set the record"
+  },
+  {
+   "shot": "S155",
+   "a": 10222,
+   "b": 10296,
+   "t0": 0,
+   "t1": 74,
+   "line": "for the farthest humans have travelled from Earth."
+  },
+  {
+   "shot": "S156",
+   "a": 10296,
+   "b": 10346,
+   "t0": 0,
+   "t1": 50,
+   "line": "That's according to NASA."
+  },
+  {
+   "shot": "S157",
+   "a": 10346,
+   "b": 10399,
+   "t0": 0,
+   "t1": 53,
+   "line": "Picture it as a split screen."
+  },
+  {
+   "shot": "S158",
+   "a": 10399,
+   "b": 10479,
+   "t0": 0,
+   "t1": 80,
+   "line": "On the left, a tiny habitat in Houston."
+  },
+  {
+   "shot": "S159",
+   "a": 10479,
+   "b": 10546,
+   "t0": 0,
+   "t1": 67,
+   "line": "On the right, a trip around the Moon."
+  },
+  {
+   "shot": "S160",
+   "a": 10546,
+   "b": 10625,
+   "t0": 0,
+   "t1": 79,
+   "line": "The farthest you've travelled this week is the garden."
+  },
+  {
+   "shot": "S161",
+   "a": 10625,
+   "b": 10663,
+   "t0": 0,
+   "t1": 38,
+   "line": "And back at the habitat,"
+  },
+  {
+   "shot": "S162",
+   "a": 10663,
+   "b": 10744,
+   "t0": 0,
+   "t1": 81,
+   "line": "the calendar is nearly full."
+  },
+  {
+   "shot": "S163",
+   "a": 10744,
+   "b": 10808,
+   "t0": 0,
+   "t1": 64,
+   "line": "Then, finally, the last morning."
+  },
+  {
+   "shot": "S164",
+   "a": 10808,
+   "b": 10896,
+   "t0": 0,
+   "t1": 88,
+   "line": "On the thirty-first of October, twenty twenty-six,"
+  },
+  {
+   "shot": "S165",
+   "a": 10896,
+   "b": 10940,
+   "t0": 0,
+   "t1": 44,
+   "line": "the crew stepped out."
+  },
+  {
+   "shot": "S166",
+   "a": 10940,
+   "b": 10999,
+   "t0": 0,
+   "t1": 59,
+   "line": "Three hundred seventy-eight days,"
+  },
+  {
+   "shot": "S167",
+   "a": 10999,
+   "b": 11070,
+   "t0": 0,
+   "t1": 71,
+   "line": "and this was their first time outdoors."
+  },
+  {
+   "shot": "S168",
+   "a": 11070,
+   "b": 11139,
+   "t0": 0,
+   "t1": 69,
+   "line": "Family and friends were there to welcome them."
+  },
+  {
+   "shot": "S169",
+   "a": 11139,
+   "b": 11222,
+   "t0": 0,
+   "t1": 83,
+   "line": "The calendar hits day three hundred seventy-eight."
+  },
+  {
+   "shot": "S170",
+   "a": 11222,
+   "b": 11271,
+   "t0": 0,
+   "t1": 49,
+   "line": "Pip squints at the sun."
+  },
+  {
+   "shot": "S171",
+   "a": 11271,
+   "b": 11348,
+   "t0": 0,
+   "t1": 77,
+   "line": "It's very bright. It's very sun."
+  },
+  {
+   "shot": "S172",
+   "a": 11348,
+   "b": 11420,
+   "t0": 0,
+   "t1": 72,
+   "line": "There's wind. Actual wind."
+  },
+  {
+   "shot": "S173",
+   "a": 11420,
+   "b": 11513,
+   "t0": 0,
+   "t1": 93,
+   "line": "You even hear a distant lawnmower. Beautiful."
+  },
+  {
+   "shot": "S174",
+   "a": 11513,
+   "b": 11551,
+   "t0": 0,
+   "t1": 38,
+   "line": "Then come the hugs."
+  },
+  {
+   "shot": "S175",
+   "a": 11551,
+   "b": 11635,
+   "t0": 0,
+   "t1": 84,
+   "line": "A year of waiting, and no delay at all."
+  },
+  {
+   "shot": "S176",
+   "a": 11635,
+   "b": 11743,
+   "t0": 0,
+   "t1": 108,
+   "line": "But why live in a fake Mars in the first place?"
+  },
+  {
+   "shot": "S177",
+   "a": 11743,
+   "b": 11794,
+   "t0": 0,
+   "t1": 51,
+   "line": "Because the real Mars is far,"
+  },
+  {
+   "shot": "S178",
+   "a": 11794,
+   "b": 11868,
+   "t0": 0,
+   "t1": 74,
+   "line": "and real crews will need answers first."
+  },
+  {
+   "shot": "S179",
+   "a": 11868,
+   "b": 11938,
+   "t0": 0,
+   "t1": 70,
+   "line": "Everything the crew did becomes data."
+  },
+  {
+   "shot": "S180",
+   "a": 11938,
+   "b": 11997,
+   "t0": 0,
+   "t1": 59,
+   "line": "Data for future Mars crews."
+  },
+  {
+   "shot": "S181",
+   "a": 11997,
+   "b": 12069,
+   "t0": 0,
+   "t1": 72,
+   "line": "And for NASA's Moon Base planning, too."
+  },
+  {
+   "shot": "S182",
+   "a": 12069,
+   "b": 12155,
+   "t0": 0,
+   "t1": 86,
+   "line": "Sara Whiting calls this \"the now moment.\""
+  },
+  {
+   "shot": "S183",
+   "a": 12155,
+   "b": 12204,
+   "t0": 0,
+   "t1": 49,
+   "line": "The first mission like this ended"
+  },
+  {
+   "shot": "S184",
+   "a": 12204,
+   "b": 12281,
+   "t0": 0,
+   "t1": 77,
+   "line": "on the sixth of July, twenty twenty-four."
+  },
+  {
+   "shot": "S185",
+   "a": 12281,
+   "b": 12383,
+   "t0": 0,
+   "t1": 102,
+   "line": "Now a second crew has added their 378 days."
+  },
+  {
+   "shot": "S186",
+   "a": 12383,
+   "b": 12423,
+   "t0": 0,
+   "t1": 40,
+   "line": "Could you last a year?"
+  },
+  {
+   "shot": "S187",
+   "a": 12423,
+   "b": 12476,
+   "t0": 0,
+   "t1": 53,
+   "line": "Tell us what you'd miss first."
+  },
+  {
+   "shot": "S188",
+   "a": 12476,
+   "b": 12531,
+   "t0": 0,
+   "t1": 55,
+   "line": "Tomorrow: a new what if."
+  },
+  {
+   "shot": "S189",
+   "a": 12531,
+   "b": 12592,
+   "t0": 0,
+   "t1": 61,
+   "line": ""
+  },
+  {
+   "shot": "S190",
+   "a": 12592,
+   "b": 12654,
+   "t0": 0,
+   "t1": 62,
+   "line": ""
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "medium",
+   "key": 47,
+   "len": 76,
+   "first": 0,
+   "line": "Four people just spent 378 days",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "wide",
+   "key": 37,
+   "len": 59,
+   "first": 76,
+   "line": "sealed inside a fake Mars.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "close",
+   "key": 17,
+   "len": 28,
+   "first": 135,
+   "line": "No windows.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "medium",
+   "key": 28,
+   "len": 45,
+   "first": 163,
+   "line": "No live calls home.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "wide",
+   "key": 58,
+   "len": 93,
+   "first": 208,
+   "line": "Every message takes up to twenty-two minutes each way.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "wide",
+   "key": 14,
+   "len": 22,
+   "first": 301,
+   "line": "Here's what a year",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "medium",
+   "key": 25,
+   "len": 40,
+   "first": 323,
+   "line": "like that does to you.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "medium",
+   "key": 48,
+   "len": 78,
+   "first": 363,
+   "line": "Day one. The hatch seals behind you.",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "medium",
+   "key": 40,
+   "len": 64,
+   "first": 441,
+   "line": "A calendar on the wall starts counting,",
+   "note": "ch0"
+  },
+  {
+   "id": "S10",
+   "size": "wide",
+   "key": 14,
+   "len": 23,
+   "first": 505,
+   "line": "and it won't stop",
+   "note": "ch0"
+  },
+  {
+   "id": "S11",
+   "size": "wide",
+   "key": 27,
+   "len": 44,
+   "first": 528,
+   "line": "for a very long time.",
+   "note": "ch0"
+  },
+  {
+   "id": "S12",
+   "size": "title",
+   "key": 58,
+   "len": 94,
+   "first": 572,
+   "line": "What if you lived on Mars for a year?",
+   "note": "ch0"
+  },
+  {
+   "id": "S13",
+   "size": "wide",
+   "key": 29,
+   "len": 47,
+   "first": 666,
+   "line": "First, the address.",
+   "note": "ch1"
+  },
+  {
+   "id": "S14",
+   "size": "wide",
+   "key": 32,
+   "len": 52,
+   "first": 713,
+   "line": "It's a 3D-printed habitat",
+   "note": "ch1"
+  },
+  {
+   "id": "S15",
+   "size": "wide",
+   "key": 55,
+   "len": 88,
+   "first": 765,
+   "line": "at NASA's Johnson Space Center, in Houston.",
+   "note": "ch1"
+  },
+  {
+   "id": "S16",
+   "size": "medium",
+   "key": 43,
+   "len": 69,
+   "first": 853,
+   "line": "Its name is Mars Dune Alpha.",
+   "note": "ch1"
+  },
+  {
+   "id": "S17",
+   "size": "wide",
+   "key": 39,
+   "len": 63,
+   "first": 922,
+   "line": "Roughly seventeen hundred square feet,",
+   "note": "ch1"
+  },
+  {
+   "id": "S18",
+   "size": "close",
+   "key": 48,
+   "len": 78,
+   "first": 985,
+   "line": "with every wall printed layer by layer.",
+   "note": "ch1"
+  },
+  {
+   "id": "S19",
+   "size": "wide",
+   "key": 48,
+   "len": 78,
+   "first": 1063,
+   "line": "That's a small house with no front door.",
+   "note": "ch1"
+  },
+  {
+   "id": "S20",
+   "size": "wide",
+   "key": 28,
+   "len": 45,
+   "first": 1141,
+   "line": "Four volunteers walked in",
+   "note": "ch1"
+  },
+  {
+   "id": "S21",
+   "size": "wide",
+   "key": 58,
+   "len": 93,
+   "first": 1186,
+   "line": "on the nineteenth of October, twenty twenty-five.",
+   "note": "ch1"
+  },
+  {
+   "id": "S22",
+   "size": "medium",
+   "key": 51,
+   "len": 83,
+   "first": 1279,
+   "line": "Ross Elder, the commander and a test pilot.",
+   "note": "ch1"
+  },
+  {
+   "id": "S23",
+   "size": "medium",
+   "key": 42,
+   "len": 68,
+   "first": 1362,
+   "line": "Ellen Ellis, the medical officer.",
+   "note": "ch1"
+  },
+  {
+   "id": "S24",
+   "size": "medium",
+   "key": 43,
+   "len": 70,
+   "first": 1430,
+   "line": "James Spicer, the flight engineer.",
+   "note": "ch1"
+  },
+  {
+   "id": "S25",
+   "size": "medium",
+   "key": 53,
+   "len": 85,
+   "first": 1500,
+   "line": "And Matthew Montgomery, the science officer.",
+   "note": "ch1"
+  },
+  {
+   "id": "S26",
+   "size": "wide",
+   "key": 22,
+   "len": 35,
+   "first": 1585,
+   "line": "You're along for the ride,",
+   "note": "ch1"
+  },
+  {
+   "id": "S27",
+   "size": "close",
+   "key": 40,
+   "len": 65,
+   "first": 1620,
+   "line": "in a very small orange jumpsuit.",
+   "note": "ch1"
+  },
+  {
+   "id": "S28",
+   "size": "wide",
+   "key": 29,
+   "len": 47,
+   "first": 1685,
+   "line": "Time for a quick tour.",
+   "note": "ch1"
+  },
+  {
+   "id": "S29",
+   "size": "wide",
+   "key": 43,
+   "len": 70,
+   "first": 1732,
+   "line": "Kitchen, bunks, garden, gym.",
+   "note": "ch1"
+  },
+  {
+   "id": "S30",
+   "size": "medium",
+   "key": 43,
+   "len": 69,
+   "first": 1802,
+   "line": "Spot what's missing from the floor plan.",
+   "note": "ch1"
+  },
+  {
+   "id": "S31",
+   "size": "medium",
+   "key": 38,
+   "len": 62,
+   "first": 1871,
+   "line": "Windows. Zero of them.",
+   "note": "ch1"
+  },
+  {
+   "id": "S32",
+   "size": "medium",
+   "key": 63,
+   "len": 102,
+   "first": 1933,
+   "line": "Which makes the phone situation interesting.",
+   "note": "ch1"
+  },
+  {
+   "id": "S33",
+   "size": "medium",
+   "key": 36,
+   "len": 63,
+   "first": 2035,
+   "line": "No windows means no sunrise.",
+   "note": "ch2"
+  },
+  {
+   "id": "S34",
+   "size": "medium",
+   "key": 21,
+   "len": 34,
+   "first": 2098,
+   "line": "No weather check.",
+   "note": "ch2"
+  },
+  {
+   "id": "S35",
+   "size": "medium",
+   "key": 30,
+   "len": 48,
+   "first": 2132,
+   "line": "No peeking at the street.",
+   "note": "ch2"
+  },
+  {
+   "id": "S36",
+   "size": "close",
+   "key": 32,
+   "len": 51,
+   "first": 2180,
+   "line": "No outside sounds either.",
+   "note": "ch2"
+  },
+  {
+   "id": "S37",
+   "size": "medium",
+   "key": 34,
+   "len": 55,
+   "first": 2231,
+   "line": "No traffic, no birds.",
+   "note": "ch2"
+  },
+  {
+   "id": "S38",
+   "size": "medium",
+   "key": 55,
+   "len": 89,
+   "first": 2286,
+   "line": "And no real-time calls with family and friends.",
+   "note": "ch2"
+  },
+  {
+   "id": "S39",
+   "size": "wide",
+   "key": 24,
+   "len": 38,
+   "first": 2375,
+   "line": "A message from here takes",
+   "note": "ch2"
+  },
+  {
+   "id": "S40",
+   "size": "wide",
+   "key": 40,
+   "len": 65,
+   "first": 2413,
+   "line": "up to twenty-two minutes each way.",
+   "note": "ch2"
+  },
+  {
+   "id": "S41",
+   "size": "medium",
+   "key": 46,
+   "len": 74,
+   "first": 2478,
+   "line": "So you text your mum: how's the dog?",
+   "note": "ch2"
+  },
+  {
+   "id": "S42",
+   "size": "medium",
+   "key": 20,
+   "len": 32,
+   "first": 2552,
+   "line": "Then you wait.",
+   "note": "ch2"
+  },
+  {
+   "id": "S43",
+   "size": "medium",
+   "key": 23,
+   "len": 37,
+   "first": 2584,
+   "line": "You make a snack.",
+   "note": "ch2"
+  },
+  {
+   "id": "S44",
+   "size": "medium",
+   "key": 22,
+   "len": 36,
+   "first": 2621,
+   "line": "You wait some more.",
+   "note": "ch2"
+  },
+  {
+   "id": "S45",
+   "size": "close",
+   "key": 55,
+   "len": 88,
+   "first": 2657,
+   "line": "You rearrange the spice jars. Still waiting.",
+   "note": "ch2"
+  },
+  {
+   "id": "S46",
+   "size": "medium",
+   "key": 31,
+   "len": 50,
+   "first": 2745,
+   "line": "By the time her answer lands,",
+   "note": "ch2"
+  },
+  {
+   "id": "S47",
+   "size": "medium",
+   "key": 38,
+   "len": 61,
+   "first": 2795,
+   "line": "you've thought of a few more questions.",
+   "note": "ch2"
+  },
+  {
+   "id": "S48",
+   "size": "wide",
+   "key": 45,
+   "len": 73,
+   "first": 2856,
+   "line": "You send them all. Now she waits.",
+   "note": "ch2"
+  },
+  {
+   "id": "S49",
+   "size": "wide",
+   "key": 26,
+   "len": 42,
+   "first": 2929,
+   "line": "It's less a conversation,",
+   "note": "ch2"
+  },
+  {
+   "id": "S50",
+   "size": "medium",
+   "key": 35,
+   "len": 56,
+   "first": 2971,
+   "line": "more a very slow postcard.",
+   "note": "ch2"
+  },
+  {
+   "id": "S51",
+   "size": "medium",
+   "key": 46,
+   "len": 75,
+   "first": 3027,
+   "line": "But waiting isn't the hardest part of the day.",
+   "note": "ch2"
+  },
+  {
+   "id": "S52",
+   "size": "medium",
+   "key": 71,
+   "len": 114,
+   "first": 3102,
+   "line": "Next up: stepping outside. Sort of.",
+   "note": "ch2"
+  },
+  {
+   "id": "S53",
+   "size": "medium",
+   "key": 19,
+   "len": 31,
+   "first": 3216,
+   "line": "Every so often,",
+   "note": "ch3"
+  },
+  {
+   "id": "S54",
+   "size": "wide",
+   "key": 39,
+   "len": 63,
+   "first": 3247,
+   "line": "the crew heads out for a Marswalk.",
+   "note": "ch3"
+  },
+  {
+   "id": "S55",
+   "size": "medium",
+   "key": 54,
+   "len": 87,
+   "first": 3310,
+   "line": "It's simulated, but the suits are very real work.",
+   "note": "ch3"
+  },
+  {
+   "id": "S56",
+   "size": "close",
+   "key": 33,
+   "len": 54,
+   "first": 3397,
+   "line": "First, you get suited up.",
+   "note": "ch3"
+  },
+  {
+   "id": "S57",
+   "size": "medium",
+   "key": 36,
+   "len": 58,
+   "first": 3451,
+   "line": "Preparing the suits takes time.",
+   "note": "ch3"
+  },
+  {
+   "id": "S58",
+   "size": "medium",
+   "key": 32,
+   "len": 52,
+   "first": 3509,
+   "line": "Then come the airlock steps,",
+   "note": "ch3"
+  },
+  {
+   "id": "S59",
+   "size": "medium",
+   "key": 38,
+   "len": 62,
+   "first": 3561,
+   "line": "one careful move after another.",
+   "note": "ch3"
+  },
+  {
+   "id": "S60",
+   "size": "wide",
+   "key": 52,
+   "len": 84,
+   "first": 3623,
+   "line": "Then long traverses across the sandy terrain.",
+   "note": "ch3"
+  },
+  {
+   "id": "S61",
+   "size": "medium",
+   "key": 49,
+   "len": 79,
+   "first": 3707,
+   "line": "Elder said all of it took time and stamina.",
+   "note": "ch3"
+  },
+  {
+   "id": "S62",
+   "size": "wide",
+   "key": 38,
+   "len": 62,
+   "first": 3786,
+   "line": "So the crew looked after the basics.",
+   "note": "ch3"
+  },
+  {
+   "id": "S63",
+   "size": "wide",
+   "key": 63,
+   "len": 102,
+   "first": 3848,
+   "line": "Good nutrition. Regular exercise. Proper rest.",
+   "note": "ch3"
+  },
+  {
+   "id": "S64",
+   "size": "medium",
+   "key": 32,
+   "len": 52,
+   "first": 3950,
+   "line": "Stamina is something you build,",
+   "note": "ch3"
+  },
+  {
+   "id": "S65",
+   "size": "medium",
+   "key": 29,
+   "len": 47,
+   "first": 4002,
+   "line": "not something you wish for.",
+   "note": "ch3"
+  },
+  {
+   "id": "S66",
+   "size": "wide",
+   "key": 68,
+   "len": 110,
+   "first": 4049,
+   "line": "You trudge through the sand. Slowly. Bravely.",
+   "note": "ch3"
+  },
+  {
+   "id": "S67",
+   "size": "close",
+   "key": 44,
+   "len": 71,
+   "first": 4159,
+   "line": "Your legs would like a word with management.",
+   "note": "ch3"
+  },
+  {
+   "id": "S68",
+   "size": "wide",
+   "key": 44,
+   "len": 71,
+   "first": 4230,
+   "line": "Walking on Mars is mostly walking.",
+   "note": "ch3"
+  },
+  {
+   "id": "S69",
+   "size": "medium",
+   "key": 59,
+   "len": 95,
+   "first": 4301,
+   "line": "Good thing not every job needs legs.",
+   "note": "ch3"
+  },
+  {
+   "id": "S70",
+   "size": "wide",
+   "key": 36,
+   "len": 80,
+   "first": 4396,
+   "line": "Some of the exploring never leaves the building.",
+   "note": "ch4"
+  },
+  {
+   "id": "S71",
+   "size": "wide",
+   "key": 50,
+   "len": 80,
+   "first": 4476,
+   "line": "From inside, the crew remotely flew a drone,",
+   "note": "ch4"
+  },
+  {
+   "id": "S72",
+   "size": "medium",
+   "key": 25,
+   "len": 41,
+   "first": 4556,
+   "line": "and drove a rover.",
+   "note": "ch4"
+  },
+  {
+   "id": "S73",
+   "size": "wide",
+   "key": 41,
+   "len": 66,
+   "first": 4597,
+   "line": "Both went out to survey the terrain.",
+   "note": "ch4"
+  },
+  {
+   "id": "S74",
+   "size": "medium",
+   "key": 20,
+   "len": 32,
+   "first": 4663,
+   "line": "They hunted for rocks",
+   "note": "ch4"
+  },
+  {
+   "id": "S75",
+   "size": "close",
+   "key": 41,
+   "len": 66,
+   "first": 4695,
+   "line": "worth identifying, or collecting.",
+   "note": "ch4"
+  },
+  {
+   "id": "S76",
+   "size": "close",
+   "key": 58,
+   "len": 93,
+   "first": 4761,
+   "line": "You grip the controller. Your tongue sticks out.",
+   "note": "ch4"
+  },
+  {
+   "id": "S77",
+   "size": "medium",
+   "key": 29,
+   "len": 47,
+   "first": 4854,
+   "line": "Elder, the test pilot,",
+   "note": "ch4"
+  },
+  {
+   "id": "S78",
+   "size": "medium",
+   "key": 64,
+   "len": 103,
+   "first": 4901,
+   "line": "called flying the drone \"uncannily similar\" to flying.",
+   "note": "ch4"
+  },
+  {
+   "id": "S79",
+   "size": "medium",
+   "key": 69,
+   "len": 111,
+   "first": 5004,
+   "line": "Your rover rolls forward. Then turns left. Slowly.",
+   "note": "ch4"
+  },
+  {
+   "id": "S80",
+   "size": "medium",
+   "key": 37,
+   "len": 59,
+   "first": 5115,
+   "line": "Like a very polite shopping cart.",
+   "note": "ch4"
+  },
+  {
+   "id": "S81",
+   "size": "close",
+   "key": 53,
+   "len": 85,
+   "first": 5174,
+   "line": "It scoops up a rock. You name it Kevin.",
+   "note": "ch4"
+  },
+  {
+   "id": "S82",
+   "size": "medium",
+   "key": 24,
+   "len": 38,
+   "first": 5259,
+   "line": "But every robot trip",
+   "note": "ch4"
+  },
+  {
+   "id": "S83",
+   "size": "medium",
+   "key": 33,
+   "len": 54,
+   "first": 5297,
+   "line": "needs a base that doesn't break.",
+   "note": "ch4"
+  },
+  {
+   "id": "S84",
+   "size": "medium",
+   "key": 60,
+   "len": 96,
+   "first": 5351,
+   "line": "And somebody has to keep the base running.",
+   "note": "ch4"
+  },
+  {
+   "id": "S85",
+   "size": "medium",
+   "key": 36,
+   "len": 98,
+   "first": 5447,
+   "line": "That somebody is James Spicer, the flight engineer.",
+   "note": "ch5"
+  },
+  {
+   "id": "S86",
+   "size": "medium",
+   "key": 43,
+   "len": 70,
+   "first": 5545,
+   "line": "His job: keep the systems running.",
+   "note": "ch5"
+  },
+  {
+   "id": "S87",
+   "size": "medium",
+   "key": 47,
+   "len": 76,
+   "first": 5615,
+   "line": "The crew also tracked their consumables.",
+   "note": "ch5"
+  },
+  {
+   "id": "S88",
+   "size": "wide",
+   "key": 34,
+   "len": 55,
+   "first": 5691,
+   "line": "That's everything you use up,",
+   "note": "ch5"
+  },
+  {
+   "id": "S89",
+   "size": "wide",
+   "key": 46,
+   "len": 75,
+   "first": 5746,
+   "line": "from dish soap to respirator filters.",
+   "note": "ch5"
+  },
+  {
+   "id": "S90",
+   "size": "wide",
+   "key": 46,
+   "len": 75,
+   "first": 5821,
+   "line": "Everyone was careful with food and water.",
+   "note": "ch5"
+  },
+  {
+   "id": "S91",
+   "size": "medium",
+   "key": 19,
+   "len": 31,
+   "first": 5896,
+   "line": "Spicer compared it",
+   "note": "ch5"
+  },
+  {
+   "id": "S92",
+   "size": "wide",
+   "key": 45,
+   "len": 73,
+   "first": 5927,
+   "line": "to living on a submarine, or a boat.",
+   "note": "ch5"
+  },
+  {
+   "id": "S93",
+   "size": "close",
+   "key": 46,
+   "len": 74,
+   "first": 6000,
+   "line": "So you count the dish soap like it's treasure.",
+   "note": "ch5"
+  },
+  {
+   "id": "S94",
+   "size": "close",
+   "key": 29,
+   "len": 46,
+   "first": 6074,
+   "line": "You tick the clipboard.",
+   "note": "ch5"
+  },
+  {
+   "id": "S95",
+   "size": "close",
+   "key": 28,
+   "len": 45,
+   "first": 6120,
+   "line": "Then you tick it again.",
+   "note": "ch5"
+  },
+  {
+   "id": "S96",
+   "size": "medium",
+   "key": 68,
+   "len": 110,
+   "first": 6165,
+   "line": "Pip's rule: whoever finishes the soap, announces it.",
+   "note": "ch5"
+  },
+  {
+   "id": "S97",
+   "size": "medium",
+   "key": 55,
+   "len": 89,
+   "first": 6275,
+   "line": "Speaking of things you can't run out of, food.",
+   "note": "ch5"
+  },
+  {
+   "id": "S98",
+   "size": "medium",
+   "key": 50,
+   "len": 80,
+   "first": 6364,
+   "line": "Luckily, you grow some.",
+   "note": "ch5"
+  },
+  {
+   "id": "S99",
+   "size": "wide",
+   "key": 28,
+   "len": 45,
+   "first": 6444,
+   "line": "Welcome to the garden.",
+   "note": "ch6"
+  },
+  {
+   "id": "S100",
+   "size": "medium",
+   "key": 60,
+   "len": 96,
+   "first": 6489,
+   "line": "Montgomery, the science officer, works the crops.",
+   "note": "ch6"
+  },
+  {
+   "id": "S101",
+   "size": "close",
+   "key": 42,
+   "len": 68,
+   "first": 6585,
+   "line": "They grew hydroponic vegetables.",
+   "note": "ch6"
+  },
+  {
+   "id": "S102",
+   "size": "close",
+   "key": 53,
+   "len": 86,
+   "first": 6653,
+   "line": "That's plants with roots in water, not soil.",
+   "note": "ch6"
+  },
+  {
+   "id": "S103",
+   "size": "wide",
+   "key": 69,
+   "len": 111,
+   "first": 6739,
+   "line": "Pink lights. Tidy pipes. Leafy green hopes.",
+   "note": "ch6"
+  },
+  {
+   "id": "S104",
+   "size": "medium",
+   "key": 52,
+   "len": 84,
+   "first": 6850,
+   "line": "There was also a seed-germination experiment.",
+   "note": "ch6"
+  },
+  {
+   "id": "S105",
+   "size": "close",
+   "key": 40,
+   "len": 65,
+   "first": 6934,
+   "line": "Seeds in simulated Martian soil,",
+   "note": "ch6"
+  },
+  {
+   "id": "S106",
+   "size": "medium",
+   "key": 27,
+   "len": 43,
+   "first": 6999,
+   "line": "next to a control.",
+   "note": "ch6"
+  },
+  {
+   "id": "S107",
+   "size": "close",
+   "key": 37,
+   "len": 59,
+   "first": 7042,
+   "line": "A control is just ordinary soil,",
+   "note": "ch6"
+  },
+  {
+   "id": "S108",
+   "size": "medium",
+   "key": 26,
+   "len": 42,
+   "first": 7101,
+   "line": "so you can compare.",
+   "note": "ch6"
+  },
+  {
+   "id": "S109",
+   "size": "medium",
+   "key": 31,
+   "len": 50,
+   "first": 7143,
+   "line": "You water both rows.",
+   "note": "ch6"
+  },
+  {
+   "id": "S110",
+   "size": "close",
+   "key": 36,
+   "len": 58,
+   "first": 7193,
+   "line": "You whisper encouragement to one.",
+   "note": "ch6"
+  },
+  {
+   "id": "S111",
+   "size": "medium",
+   "key": 29,
+   "len": 47,
+   "first": 7251,
+   "line": "That's not in the protocol.",
+   "note": "ch6"
+  },
+  {
+   "id": "S112",
+   "size": "wide",
+   "key": 58,
+   "len": 94,
+   "first": 7298,
+   "line": "Harvest day arrives. Everyone gathers round.",
+   "note": "ch6"
+  },
+  {
+   "id": "S113",
+   "size": "close",
+   "key": 44,
+   "len": 71,
+   "first": 7392,
+   "line": "Your vegetable is, let's say, compact.",
+   "note": "ch6"
+  },
+  {
+   "id": "S114",
+   "size": "medium",
+   "key": 37,
+   "len": 59,
+   "first": 7463,
+   "line": "You divide it into four portions.",
+   "note": "ch6"
+  },
+  {
+   "id": "S115",
+   "size": "wide",
+   "key": 40,
+   "len": 65,
+   "first": 7522,
+   "line": "Equal. Very scientific.",
+   "note": "ch6"
+  },
+  {
+   "id": "S116",
+   "size": "wide",
+   "key": 20,
+   "len": 32,
+   "first": 7587,
+   "line": "What sprouts best",
+   "note": "ch6"
+  },
+  {
+   "id": "S117",
+   "size": "medium",
+   "key": 39,
+   "len": 63,
+   "first": 7619,
+   "line": "is exactly what the data is for.",
+   "note": "ch6"
+  },
+  {
+   "id": "S118",
+   "size": "medium",
+   "key": 26,
+   "len": 42,
+   "first": 7682,
+   "line": "Gardening is a workout,",
+   "note": "ch6"
+  },
+  {
+   "id": "S119",
+   "size": "medium",
+   "key": 50,
+   "len": 80,
+   "first": 7724,
+   "line": "but it's not the whole workout.",
+   "note": "ch6"
+  },
+  {
+   "id": "S120",
+   "size": "wide",
+   "key": 36,
+   "len": 66,
+   "first": 7804,
+   "line": "Staying healthy is a daily job.",
+   "note": "ch7"
+  },
+  {
+   "id": "S121",
+   "size": "medium",
+   "key": 40,
+   "len": 64,
+   "first": 7870,
+   "line": "There's a stationary bike in the habitat.",
+   "note": "ch7"
+  },
+  {
+   "id": "S122",
+   "size": "medium",
+   "key": 54,
+   "len": 87,
+   "first": 7934,
+   "line": "You pedal hard and arrive absolutely nowhere.",
+   "note": "ch7"
+  },
+  {
+   "id": "S123",
+   "size": "close",
+   "key": 19,
+   "len": 31,
+   "first": 8021,
+   "line": "Very Mars.",
+   "note": "ch7"
+  },
+  {
+   "id": "S124",
+   "size": "medium",
+   "key": 38,
+   "len": 62,
+   "first": 8052,
+   "line": "Ellen Ellis, the medical officer,",
+   "note": "ch7"
+  },
+  {
+   "id": "S125",
+   "size": "medium",
+   "key": 33,
+   "len": 53,
+   "first": 8114,
+   "line": "looks after the crew's health.",
+   "note": "ch7"
+  },
+  {
+   "id": "S126",
+   "size": "medium",
+   "key": 45,
+   "len": 72,
+   "first": 8167,
+   "line": "She organised biological sample collections",
+   "note": "ch7"
+  },
+  {
+   "id": "S127",
+   "size": "close",
+   "key": 25,
+   "len": 40,
+   "first": 8239,
+   "line": "for health research.",
+   "note": "ch7"
+  },
+  {
+   "id": "S128",
+   "size": "close",
+   "key": 32,
+   "len": 52,
+   "first": 8279,
+   "line": "That means tubes and labels,",
+   "note": "ch7"
+  },
+  {
+   "id": "S129",
+   "size": "medium",
+   "key": 41,
+   "len": 66,
+   "first": 8331,
+   "line": "and a very patient medical officer.",
+   "note": "ch7"
+  },
+  {
+   "id": "S130",
+   "size": "wide",
+   "key": 69,
+   "len": 112,
+   "first": 8397,
+   "line": "Every sample helps researchers understand a year inside.",
+   "note": "ch7"
+  },
+  {
+   "id": "S131",
+   "size": "close",
+   "key": 57,
+   "len": 92,
+   "first": 8509,
+   "line": "You roll up a sleeve. You smile bravely.",
+   "note": "ch7"
+  },
+  {
+   "id": "S132",
+   "size": "medium",
+   "key": 27,
+   "len": 44,
+   "first": 8601,
+   "line": "Your body is covered.",
+   "note": "ch7"
+  },
+  {
+   "id": "S133",
+   "size": "medium",
+   "key": 55,
+   "len": 88,
+   "first": 8645,
+   "line": "Your head is the open question.",
+   "note": "ch7"
+  },
+  {
+   "id": "S134",
+   "size": "medium",
+   "key": 36,
+   "len": 89,
+   "first": 8733,
+   "line": "A year with no windows. How's your head?",
+   "note": "ch8"
+  },
+  {
+   "id": "S135",
+   "size": "medium",
+   "key": 54,
+   "len": 87,
+   "first": 8822,
+   "line": "No constant news. No endless scrolling.",
+   "note": "ch8"
+  },
+  {
+   "id": "S136",
+   "size": "medium",
+   "key": 51,
+   "len": 83,
+   "first": 8909,
+   "line": "Spicer was surprised by how little he missed it.",
+   "note": "ch8"
+  },
+  {
+   "id": "S137",
+   "size": "medium",
+   "key": 61,
+   "len": 99,
+   "first": 8992,
+   "line": "News and social media, gone, and life went on.",
+   "note": "ch8"
+  },
+  {
+   "id": "S138",
+   "size": "close",
+   "key": 25,
+   "len": 40,
+   "first": 9091,
+   "line": "What filled the gap?",
+   "note": "ch8"
+  },
+  {
+   "id": "S139",
+   "size": "wide",
+   "key": 51,
+   "len": 82,
+   "first": 9131,
+   "line": "Stories and jokes around the kitchen table.",
+   "note": "ch8"
+  },
+  {
+   "id": "S140",
+   "size": "medium",
+   "key": 39,
+   "len": 63,
+   "first": 9213,
+   "line": "Somebody tells the same joke again.",
+   "note": "ch8"
+  },
+  {
+   "id": "S141",
+   "size": "close",
+   "key": 25,
+   "len": 40,
+   "first": 9276,
+   "line": "You laugh anyway.",
+   "note": "ch8"
+  },
+  {
+   "id": "S142",
+   "size": "medium",
+   "key": 53,
+   "len": 85,
+   "first": 9316,
+   "line": "Ellis said most days she didn't feel isolated.",
+   "note": "ch8"
+  },
+  {
+   "id": "S143",
+   "size": "wide",
+   "key": 37,
+   "len": 59,
+   "first": 9401,
+   "line": "She had three teammates to rely on.",
+   "note": "ch8"
+  },
+  {
+   "id": "S144",
+   "size": "wide",
+   "key": 40,
+   "len": 64,
+   "first": 9460,
+   "line": "Four people. One table.",
+   "note": "ch8"
+  },
+  {
+   "id": "S145",
+   "size": "medium",
+   "key": 35,
+   "len": 57,
+   "first": 9524,
+   "line": "One very long conversation.",
+   "note": "ch8"
+  },
+  {
+   "id": "S146",
+   "size": "medium",
+   "key": 49,
+   "len": 79,
+   "first": 9581,
+   "line": "You check the wall calendar. Still counting.",
+   "note": "ch8"
+  },
+  {
+   "id": "S147",
+   "size": "wide",
+   "key": 74,
+   "len": 119,
+   "first": 9660,
+   "line": "Meanwhile, the world outside kept right on moving.",
+   "note": "ch8"
+  },
+  {
+   "id": "S148",
+   "size": "wide",
+   "key": 32,
+   "len": 51,
+   "first": 9779,
+   "line": "And what a world it was.",
+   "note": "ch9"
+  },
+  {
+   "id": "S149",
+   "size": "medium",
+   "key": 33,
+   "len": 53,
+   "first": 9830,
+   "line": "While the crew stayed inside,",
+   "note": "ch9"
+  },
+  {
+   "id": "S150",
+   "size": "wide",
+   "key": 48,
+   "len": 78,
+   "first": 9883,
+   "line": "astronaut Jack Hathaway was in orbit.",
+   "note": "ch9"
+  },
+  {
+   "id": "S151",
+   "size": "wide",
+   "key": 70,
+   "len": 113,
+   "first": 9961,
+   "line": "He completed a 237-day mission on the space station.",
+   "note": "ch9"
+  },
+  {
+   "id": "S152",
+   "size": "wide",
+   "key": 19,
+   "len": 31,
+   "first": 10074,
+   "line": "At the same time,",
+   "note": "ch9"
+  },
+  {
+   "id": "S153",
+   "size": "wide",
+   "key": 55,
+   "len": 89,
+   "first": 10105,
+   "line": "the Artemis II astronauts flew around the Moon.",
+   "note": "ch9"
+  },
+  {
+   "id": "S154",
+   "size": "wide",
+   "key": 17,
+   "len": 28,
+   "first": 10194,
+   "line": "They set the record",
+   "note": "ch9"
+  },
+  {
+   "id": "S155",
+   "size": "wide",
+   "key": 46,
+   "len": 74,
+   "first": 10222,
+   "line": "for the farthest humans have travelled from Earth.",
+   "note": "ch9"
+  },
+  {
+   "id": "S156",
+   "size": "medium",
+   "key": 31,
+   "len": 50,
+   "first": 10296,
+   "line": "That's according to NASA.",
+   "note": "ch9"
+  },
+  {
+   "id": "S157",
+   "size": "wide",
+   "key": 33,
+   "len": 53,
+   "first": 10346,
+   "line": "Picture it as a split screen.",
+   "note": "ch9"
+  },
+  {
+   "id": "S158",
+   "size": "wide",
+   "key": 50,
+   "len": 80,
+   "first": 10399,
+   "line": "On the left, a tiny habitat in Houston.",
+   "note": "ch9"
+  },
+  {
+   "id": "S159",
+   "size": "wide",
+   "key": 42,
+   "len": 67,
+   "first": 10479,
+   "line": "On the right, a trip around the Moon.",
+   "note": "ch9"
+  },
+  {
+   "id": "S160",
+   "size": "medium",
+   "key": 49,
+   "len": 79,
+   "first": 10546,
+   "line": "The farthest you've travelled this week is the garden.",
+   "note": "ch9"
+  },
+  {
+   "id": "S161",
+   "size": "medium",
+   "key": 24,
+   "len": 38,
+   "first": 10625,
+   "line": "And back at the habitat,",
+   "note": "ch9"
+  },
+  {
+   "id": "S162",
+   "size": "wide",
+   "key": 50,
+   "len": 81,
+   "first": 10663,
+   "line": "the calendar is nearly full.",
+   "note": "ch9"
+  },
+  {
+   "id": "S163",
+   "size": "medium",
+   "key": 36,
+   "len": 64,
+   "first": 10744,
+   "line": "Then, finally, the last morning.",
+   "note": "ch10"
+  },
+  {
+   "id": "S164",
+   "size": "wide",
+   "key": 55,
+   "len": 88,
+   "first": 10808,
+   "line": "On the thirty-first of October, twenty twenty-six,",
+   "note": "ch10"
+  },
+  {
+   "id": "S165",
+   "size": "wide",
+   "key": 27,
+   "len": 44,
+   "first": 10896,
+   "line": "the crew stepped out.",
+   "note": "ch10"
+  },
+  {
+   "id": "S166",
+   "size": "wide",
+   "key": 37,
+   "len": 59,
+   "first": 10940,
+   "line": "Three hundred seventy-eight days,",
+   "note": "ch10"
+  },
+  {
+   "id": "S167",
+   "size": "wide",
+   "key": 44,
+   "len": 71,
+   "first": 10999,
+   "line": "and this was their first time outdoors.",
+   "note": "ch10"
+  },
+  {
+   "id": "S168",
+   "size": "wide",
+   "key": 43,
+   "len": 69,
+   "first": 11070,
+   "line": "Family and friends were there to welcome them.",
+   "note": "ch10"
+  },
+  {
+   "id": "S169",
+   "size": "close",
+   "key": 51,
+   "len": 83,
+   "first": 11139,
+   "line": "The calendar hits day three hundred seventy-eight.",
+   "note": "ch10"
+  },
+  {
+   "id": "S170",
+   "size": "close",
+   "key": 30,
+   "len": 49,
+   "first": 11222,
+   "line": "Pip squints at the sun.",
+   "note": "ch10"
+  },
+  {
+   "id": "S171",
+   "size": "medium",
+   "key": 48,
+   "len": 77,
+   "first": 11271,
+   "line": "It's very bright. It's very sun.",
+   "note": "ch10"
+  },
+  {
+   "id": "S172",
+   "size": "wide",
+   "key": 45,
+   "len": 72,
+   "first": 11348,
+   "line": "There's wind. Actual wind.",
+   "note": "ch10"
+  },
+  {
+   "id": "S173",
+   "size": "wide",
+   "key": 58,
+   "len": 93,
+   "first": 11420,
+   "line": "You even hear a distant lawnmower. Beautiful.",
+   "note": "ch10"
+  },
+  {
+   "id": "S174",
+   "size": "medium",
+   "key": 24,
+   "len": 38,
+   "first": 11513,
+   "line": "Then come the hugs.",
+   "note": "ch10"
+  },
+  {
+   "id": "S175",
+   "size": "medium",
+   "key": 52,
+   "len": 84,
+   "first": 11551,
+   "line": "A year of waiting, and no delay at all.",
+   "note": "ch10"
+  },
+  {
+   "id": "S176",
+   "size": "wide",
+   "key": 67,
+   "len": 108,
+   "first": 11635,
+   "line": "But why live in a fake Mars in the first place?",
+   "note": "ch10"
+  },
+  {
+   "id": "S177",
+   "size": "wide",
+   "key": 32,
+   "len": 51,
+   "first": 11743,
+   "line": "Because the real Mars is far,",
+   "note": "ch11"
+  },
+  {
+   "id": "S178",
+   "size": "wide",
+   "key": 46,
+   "len": 74,
+   "first": 11794,
+   "line": "and real crews will need answers first.",
+   "note": "ch11"
+  },
+  {
+   "id": "S179",
+   "size": "medium",
+   "key": 43,
+   "len": 70,
+   "first": 11868,
+   "line": "Everything the crew did becomes data.",
+   "note": "ch11"
+  },
+  {
+   "id": "S180",
+   "size": "wide",
+   "key": 37,
+   "len": 59,
+   "first": 11938,
+   "line": "Data for future Mars crews.",
+   "note": "ch11"
+  },
+  {
+   "id": "S181",
+   "size": "wide",
+   "key": 45,
+   "len": 72,
+   "first": 11997,
+   "line": "And for NASA's Moon Base planning, too.",
+   "note": "ch11"
+  },
+  {
+   "id": "S182",
+   "size": "medium",
+   "key": 53,
+   "len": 86,
+   "first": 12069,
+   "line": "Sara Whiting calls this \"the now moment.\"",
+   "note": "ch11"
+  },
+  {
+   "id": "S183",
+   "size": "wide",
+   "key": 30,
+   "len": 49,
+   "first": 12155,
+   "line": "The first mission like this ended",
+   "note": "ch11"
+  },
+  {
+   "id": "S184",
+   "size": "wide",
+   "key": 48,
+   "len": 77,
+   "first": 12204,
+   "line": "on the sixth of July, twenty twenty-four.",
+   "note": "ch11"
+  },
+  {
+   "id": "S185",
+   "size": "wide",
+   "key": 63,
+   "len": 102,
+   "first": 12281,
+   "line": "Now a second crew has added their 378 days.",
+   "note": "ch11"
+  },
+  {
+   "id": "S186",
+   "size": "medium",
+   "key": 25,
+   "len": 40,
+   "first": 12383,
+   "line": "Could you last a year?",
+   "note": "ch11"
+  },
+  {
+   "id": "S187",
+   "size": "medium",
+   "key": 33,
+   "len": 53,
+   "first": 12423,
+   "line": "Tell us what you'd miss first.",
+   "note": "ch11"
+  },
+  {
+   "id": "S188",
+   "size": "wide",
+   "key": 34,
+   "len": 55,
+   "first": 12476,
+   "line": "Tomorrow: a new what if.",
+   "note": "ch11"
+  },
+  {
+   "id": "S189",
+   "size": "wide",
+   "key": 38,
+   "len": 61,
+   "first": 12531,
+   "line": "",
+   "note": "ch11"
+  },
+  {
+   "id": "S190",
+   "size": "end",
+   "key": 38,
+   "len": 62,
+   "first": 12592,
+   "line": "",
+   "note": "ch11"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "marsyear/voice.wav",
+  "sfx": "marsyear/sfx.wav",
+  "music": "marsyear/music.wav",
+  "voiceVol": 0.85,
+  "sfxVol": 0.3269,
+  "musicVol": 0.0911
+ }
+}

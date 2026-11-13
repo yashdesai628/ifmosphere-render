@@ -1,0 +1,686 @@
+{
+ "S1": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "hook",
+   "px": 1181.3,
+   "pal": 0,
+   "add": [
+    {
+     "k": "hatch",
+     "x": 1375,
+     "y": 405,
+     "r": 155,
+     "v": "red",
+     "txt": "SEALED"
+    },
+    {
+     "k": "cal",
+     "x": 1672,
+     "y": 250,
+     "w": 200,
+     "h": 185,
+     "st": "cal",
+     "day": 1
+    },
+    {
+     "k": "nowin",
+     "x": 1672,
+     "y": 465,
+     "v": 0,
+     "w": 200
+    }
+   ],
+   "hide": [
+    "hatch"
+   ],
+   "glow": 0.75
+  },
+  "pip": {
+   "x": 0.32,
+   "y": 0.77,
+   "s": 1.12,
+   "pose": "peek",
+   "ex": "shock"
+  },
+  "texts": [
+   {
+    "t": "378 DAYS.\nNO WINDOWS.",
+    "st": "big",
+    "slot": "t",
+    "at": -7,
+    "hl": "378 DAYS"
+   }
+  ]
+ },
+ "S2": {
+  "sz": "wide",
+  "bg": {
+   "k": "houston",
+   "v": 1,
+   "hi": 6
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.7,
+   "s": 1.1,
+   "pose": "shrug",
+   "ex": "worried"
+  },
+  "texts": [
+   {
+    "t": "SEALED INSIDE\nA FAKE MARS",
+    "st": "stamp",
+    "slot": "t"
+   }
+  ]
+ },
+ "S3": {
+  "sz": "wide",
+  "bg": {
+   "k": "houston",
+   "v": 0
+  },
+  "pip": {
+   "x": 0.26,
+   "y": 0.68,
+   "s": 0.95,
+   "pose": "wave",
+   "ex": "happy"
+  },
+  "texts": [
+   {
+    "t": "3D-PRINTED IN HOUSTON",
+    "st": "big",
+    "slot": "t"
+   },
+   {
+    "t": "~1,700 SQ FT \u00b7 NASA",
+    "st": "fact",
+    "slot": "b"
+   }
+  ]
+ },
+ "S4": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "lounge",
+   "px": 1246.2,
+   "pal": 4,
+   "add": [
+    {
+     "k": "nowin",
+     "x": 1550,
+     "y": 300,
+     "v": 3,
+     "w": 320
+    }
+   ]
+  },
+  "pip": {
+   "x": 0.45,
+   "y": 0.67,
+   "s": 1.2,
+   "pose": "cringe",
+   "hold": "phone",
+   "ex": "oops"
+  },
+  "props": [
+   {
+    "k": "x",
+    "x": 0.56,
+    "y": 0.54,
+    "s": 1.2
+   }
+  ],
+  "texts": [
+   {
+    "t": "NO LIVE CALLS HOME",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S5": {
+  "sz": "wide",
+  "bg": {
+   "k": "info",
+   "viz": "delay",
+   "m": [
+    0.05,
+    0.95
+   ]
+  },
+  "texts": [
+   {
+    "t": "UP TO 22 MIN\nEACH WAY",
+    "st": "big",
+    "slot": "t",
+    "hl": "22 MIN"
+   },
+   {
+    "t": "NASA CHAPEA",
+    "st": "chip",
+    "slot": "b"
+   }
+  ]
+ },
+ "S6": {
+  "sz": "medium",
+  "bg": {
+   "k": "info",
+   "viz": "chat",
+   "to": "MUM",
+   "n": [
+    1,
+    2
+   ],
+   "msgs": [
+    {
+     "f": "me",
+     "t": "HOW'S THE DOG?"
+    },
+    {
+     "f": "them",
+     "t": "HE'S GOOD!"
+    }
+   ]
+  },
+  "props": [
+   {
+    "k": "dog",
+    "x": 0.78,
+    "y": 0.72,
+    "s": 1.3
+   }
+  ],
+  "texts": [
+   {
+    "t": "A VERY SLOW POSTCARD",
+    "st": "sticker",
+    "slot": "b"
+   }
+  ]
+ },
+ "S7": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "ops",
+   "px": 1146.2,
+   "pal": 0
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.67,
+   "s": 1.22,
+   "pose": "drive",
+   "hold": "ctrl",
+   "ex": "smug"
+  },
+  "texts": [
+   {
+    "t": "DRONE FLOWN\nFROM INSIDE",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S8": {
+  "sz": "medium",
+  "bg": {
+   "k": "yard",
+   "pal": 0,
+   "rig": true,
+   "seed": 12
+  },
+  "props": [
+   {
+    "k": "rover",
+    "x": [
+     0.25,
+     0.72
+    ],
+    "y": 0.65,
+    "s": 1.5,
+    "a": 1.6
+   }
+  ],
+  "texts": [
+   {
+    "t": "AND DROVE A ROVER",
+    "st": "chip",
+    "slot": "t"
+   }
+  ]
+ },
+ "S9": {
+  "sz": "close",
+  "bg": {
+   "k": "yard",
+   "pal": 2,
+   "hz": 0.45,
+   "seed": 18
+  },
+  "props": [
+   {
+    "k": "rock",
+    "x": 0.5,
+    "y": 0.58,
+    "s": 2.0,
+    "v": "face"
+   },
+   {
+    "k": "ring",
+    "x": 0.5,
+    "y": 0.58,
+    "s": 1.6
+   }
+  ],
+  "texts": [
+   {
+    "t": "ROCK HUNTING",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S10": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "garden",
+   "px": 596.2,
+   "pal": 1,
+   "glow": 0.95
+  },
+  "crew": [
+   {
+    "who": "monty",
+    "x": 0.35,
+    "y": 0.67,
+    "s": 1.15,
+    "pose": "point",
+    "hold": "veg"
+   }
+  ],
+  "pip": {
+   "x": 0.7,
+   "y": 0.68,
+   "s": 1.05,
+   "pose": "cheer",
+   "flip": -1
+  },
+  "texts": [
+   {
+    "t": "HYDROPONIC VEGGIES",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S11": {
+  "sz": "medium",
+  "bg": {
+   "k": "wash",
+   "c1": "#6E2E1E",
+   "c2": "#1A0C08"
+  },
+  "props": [
+   {
+    "k": "pot",
+    "x": 0.3,
+    "y": 0.54,
+    "s": 1.7,
+    "v": "mars",
+    "a": [
+     0.2,
+     0.6
+    ]
+   },
+   {
+    "k": "pot",
+    "x": 0.7,
+    "y": 0.54,
+    "s": 1.7,
+    "v": "ctrl",
+    "a": [
+     0.4,
+     0.95
+    ]
+   }
+  ],
+  "texts": [
+   {
+    "t": "MARS SOIL VS CONTROL",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S12": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "work",
+   "px": 216.2,
+   "pal": 2
+  },
+  "crew": [
+   {
+    "who": "spicer",
+    "x": 0.5,
+    "y": 0.67,
+    "s": 1.25,
+    "pose": "reach",
+    "hold": "wrench"
+   }
+  ],
+  "wid": {
+   "st": "led",
+   "day": 190,
+   "slot": "b"
+  },
+  "texts": [
+   {
+    "t": "SPICER \u00b7 SYSTEMS",
+    "st": "chip",
+    "slot": "t"
+   }
+  ]
+ },
+ "S13": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "med",
+   "px": 1446.2,
+   "pal": 1
+  },
+  "crew": [
+   {
+    "who": "ellis",
+    "x": 0.45,
+    "y": 0.67,
+    "s": 1.25,
+    "pose": "hold",
+    "hold": "tube",
+    "ex": "happy"
+   }
+  ],
+  "texts": [
+   {
+    "t": "ELLIS \u00b7 HEALTH SAMPLES",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S14": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "lounge",
+   "px": 196.2,
+   "pal": 5
+  },
+  "crew": [
+   {
+    "who": "spicer",
+    "x": 0.44,
+    "y": 0.67,
+    "s": 1.2,
+    "pose": "sip",
+    "hold": "mug",
+    "ex": "happy"
+   }
+  ],
+  "props": [
+   {
+    "k": "phone",
+    "x": 0.76,
+    "y": 0.52,
+    "s": 1.1,
+    "v": "wait"
+   },
+   {
+    "k": "x",
+    "x": 0.76,
+    "y": 0.52,
+    "s": 1.0
+   }
+  ],
+  "texts": [
+   {
+    "t": "BARELY MISSED\nSOCIAL MEDIA",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S15": {
+  "sz": "wide",
+  "bg": {
+   "k": "room",
+   "r": "kitchen",
+   "px": 1446.2,
+   "pal": 0,
+   "hide": [
+    "cal"
+   ]
+  },
+  "crew": [
+   {
+    "who": "elder",
+    "x": 0.22,
+    "y": 0.66,
+    "s": 0.95,
+    "pose": "hug"
+   },
+   {
+    "who": "ellis",
+    "x": 0.48,
+    "y": 0.66,
+    "s": 0.95,
+    "pose": "cheer"
+   },
+   {
+    "who": "monty",
+    "x": 0.76,
+    "y": 0.66,
+    "s": 0.95,
+    "pose": "hug",
+    "flip": -1
+   }
+  ],
+  "wid": {
+   "st": "flip",
+   "day": 340,
+   "slot": "b"
+  },
+  "texts": [
+   {
+    "t": "3 TEAMMATES TO RELY ON",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S16": {
+  "sz": "wide",
+  "bg": {
+   "k": "info",
+   "viz": "timeline",
+   "m": [
+    0.8,
+    1.0
+   ]
+  },
+  "texts": [
+   {
+    "t": "31 OCT 2026",
+    "st": "num",
+    "slot": "t",
+    "size": 140
+   }
+  ]
+ },
+ "S17": {
+  "sz": "medium",
+  "bg": {
+   "k": "out",
+   "bld": 0.5,
+   "hatch": [
+    0.0,
+    1.0
+   ],
+   "glare": 0.18
+  },
+  "texts": [
+   {
+    "t": "HATCH OPENED!",
+    "st": "stamp",
+    "slot": "t"
+   }
+  ]
+ },
+ "S18": {
+  "sz": "wide",
+  "bg": {
+   "k": "out",
+   "crowd": 6,
+   "trees": true,
+   "glare": 0.2,
+   "banner": "DAY 378"
+  },
+  "pip": {
+   "x": 0.45,
+   "y": 0.68,
+   "s": 1.2,
+   "pose": "cheer",
+   "ex": "happy"
+  },
+  "texts": [
+   {
+    "t": "FIRST TIME OUTDOORS\nIN 378 DAYS",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S19": {
+  "sz": "close",
+  "bg": {
+   "k": "info",
+   "viz": "burst",
+   "cx": 0.5,
+   "cy": 0.55
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.68,
+   "s": 1.3,
+   "pose": "wave2",
+   "ex": "happy"
+  },
+  "texts": [
+   {
+    "t": "FULL YEAR ON CHANNEL",
+    "st": "sticker",
+    "slot": "t"
+   },
+   {
+    "t": "IFMOSPHERE",
+    "st": "chip",
+    "slot": "b"
+   }
+  ]
+ },
+ "S20": {
+  "sz": "medium",
+  "bg": {
+   "k": "out",
+   "bld": 0.5,
+   "hatch": 1.0,
+   "trees": true
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.68,
+   "s": 1.2,
+   "pose": "wave",
+   "ex": "happy"
+  },
+  "texts": [
+   {
+    "t": "TOMORROW:\nA NEW WHAT IF",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S21": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "hook",
+   "px": 1181.3,
+   "pal": 0,
+   "add": [
+    {
+     "k": "hatch",
+     "x": 1375,
+     "y": 405,
+     "r": 155,
+     "v": "red",
+     "txt": "SEALED",
+     "open": [
+      0.85,
+      0.0
+     ]
+    },
+    {
+     "k": "cal",
+     "x": 1672,
+     "y": 250,
+     "w": 200,
+     "h": 185,
+     "st": "cal",
+     "day": 1
+    },
+    {
+     "k": "nowin",
+     "x": 1672,
+     "y": 465,
+     "v": 0,
+     "w": 200
+    }
+   ],
+   "hide": [
+    "hatch"
+   ],
+   "glow": 0.75
+  },
+  "pip": {
+   "x": [
+    0.5,
+    0.32
+   ],
+   "y": 0.77,
+   "s": 1.12,
+   "pose": "peek",
+   "ex": "shock"
+  },
+  "texts": [
+   {
+    "t": "378 DAYS.\nNO WINDOWS.",
+    "st": "big",
+    "slot": "t",
+    "at": 16,
+    "hl": "378 DAYS"
+   }
+  ]
+ }
+}

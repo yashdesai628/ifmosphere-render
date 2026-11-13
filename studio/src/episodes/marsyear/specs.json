@@ -1,0 +1,6100 @@
+{
+ "S1": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "hook",
+   "px": 424.8,
+   "pal": 0,
+   "add": [
+    {
+     "k": "hatch",
+     "x": 1500,
+     "y": 480,
+     "r": 215,
+     "v": "red",
+     "txt": "SEALED"
+    },
+    {
+     "k": "cal",
+     "x": 1020,
+     "y": 265,
+     "w": 340,
+     "h": 290,
+     "st": "cal",
+     "day": 1
+    },
+    {
+     "k": "nowin",
+     "x": 2020,
+     "y": 290,
+     "v": 0,
+     "w": 320
+    }
+   ],
+   "hide": [
+    "hatch"
+   ],
+   "glow": 0.7
+  },
+  "pip": {
+   "x": 0.32,
+   "y": 0.72,
+   "s": 0.84,
+   "pose": "peek",
+   "ex": "shock"
+  },
+  "texts": [
+   {
+    "t": "378 DAYS. NO WINDOWS.",
+    "st": "big",
+    "slot": "t",
+    "at": -7,
+    "hl": "378 DAYS"
+   }
+  ]
+ },
+ "S2": {
+  "sz": "wide",
+  "bg": {
+   "k": "houston",
+   "v": 1,
+   "hi": 6
+  },
+  "pip": {
+   "x": 0.84,
+   "y": 0.72,
+   "s": 0.52,
+   "pose": "wave",
+   "flip": -1,
+   "ex": "worried"
+  },
+  "props": [
+   {
+    "k": "badge",
+    "x": 0.5,
+    "y": 0.25,
+    "s": 1.2,
+    "v": "FAKE MARS"
+   }
+  ],
+  "texts": [
+   {
+    "t": "SEALED INSIDE A FAKE MARS",
+    "st": "sticker",
+    "slot": "b"
+   }
+  ]
+ },
+ "S3": {
+  "sz": "close",
+  "bg": {
+   "k": "room",
+   "r": "hook",
+   "px": 759.6,
+   "pal": 2,
+   "add": [
+    {
+     "k": "nowin",
+     "x": 2050,
+     "y": 270,
+     "v": 4,
+     "w": 380
+    }
+   ],
+   "glow": 0.4
+  },
+  "cam": {
+   "z": [
+    1.0,
+    1.12
+   ]
+  },
+  "pip": {
+   "x": 0.32,
+   "y": 0.68,
+   "s": 0.9,
+   "pose": "peer",
+   "ex": "worried"
+  },
+  "texts": [
+   {
+    "t": "ZERO WINDOWS",
+    "st": "stamp",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S4": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "bunk",
+   "px": 444.0,
+   "pal": 4,
+   "add": [
+    {
+     "k": "nowin",
+     "x": 1150,
+     "y": 260,
+     "v": 1,
+     "w": 300
+    }
+   ],
+   "dark": 0.25
+  },
+  "pip": {
+   "x": 0.38,
+   "y": 0.66,
+   "s": 0.84,
+   "pose": "cringe",
+   "hold": "phone",
+   "ex": "oops"
+  },
+  "props": [
+   {
+    "k": "x",
+    "x": 0.45,
+    "y": 0.44,
+    "s": 0.8
+   }
+  ],
+  "texts": [
+   {
+    "t": "NO LIVE CALLS HOME",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S5": {
+  "sz": "wide",
+  "bg": {
+   "k": "info",
+   "viz": "delay",
+   "m": [
+    0.05,
+    0.95
+   ]
+  },
+  "texts": [
+   {
+    "t": "UP TO 22 MIN EACH WAY - NASA",
+    "st": "fact",
+    "slot": "t"
+   },
+   {
+    "t": "EVERY MESSAGE DELAYS",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S6": {
+  "sz": "wide",
+  "bg": {
+   "k": "room",
+   "r": "hall",
+   "px": 590.0,
+   "pal": 1,
+   "add": [
+    {
+     "k": "cal",
+     "x": 1020,
+     "y": 220,
+     "w": 300,
+     "h": 200,
+     "st": "flip",
+     "day": 1
+    }
+   ]
+  },
+  "cam": {
+   "z": [
+    1.0,
+    0.94
+   ]
+  },
+  "pip": {
+   "x": 0.62,
+   "y": 0.67,
+   "s": 0.72,
+   "pose": "sip",
+   "hold": "mug",
+   "ex": "neutral"
+  },
+  "texts": [
+   {
+    "t": "HERE'S WHAT A YEAR...",
+    "st": "chip",
+    "slot": "b"
+   }
+  ]
+ },
+ "S7": {
+  "sz": "medium",
+  "bg": {
+   "k": "info",
+   "viz": "dots",
+   "fill": [
+    0.0,
+    0.12
+   ]
+  },
+  "pip": {
+   "x": 0.18,
+   "y": 0.72,
+   "s": 0.75,
+   "pose": "think",
+   "ex": "worried"
+  },
+  "texts": [
+   {
+    "t": "DOES TO YOU",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S8": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "hook",
+   "px": 540.0,
+   "pal": 2,
+   "mir": true,
+   "add": [
+    {
+     "k": "nowin",
+     "x": 1020,
+     "y": 300,
+     "v": 5,
+     "w": 340
+    }
+   ],
+   "red": true
+  },
+  "cam": {
+   "z": [
+    1.08,
+    1.0
+   ]
+  },
+  "pip": {
+   "x": 0.66,
+   "y": 0.66,
+   "s": 0.85,
+   "pose": "brace",
+   "flip": -1,
+   "ex": "shock"
+  },
+  "texts": [
+   {
+    "t": "DAY 1: HATCH SEALED",
+    "st": "stamp",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S9": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "kitchen",
+   "px": 540.0,
+   "pal": 0,
+   "add": [
+    {
+     "k": "cal",
+     "x": 1500,
+     "y": 220,
+     "w": 420,
+     "h": 220,
+     "st": "led",
+     "day": [
+      1,
+      7
+     ]
+    }
+   ],
+   "hide": [
+    "cal"
+   ]
+  },
+  "pip": {
+   "x": 0.28,
+   "y": 0.67,
+   "s": 0.82,
+   "pose": "pointUp",
+   "ex": "neutral"
+  },
+  "texts": [
+   {
+    "t": "DAY 1 \u2192",
+    "st": "num",
+    "slot": "br",
+    "size": 110
+   }
+  ]
+ },
+ "S10": {
+  "sz": "wide",
+  "bg": {
+   "k": "info",
+   "viz": "dots",
+   "fill": [
+    0.05,
+    0.45
+   ]
+  },
+  "wid": {
+   "st": "chain",
+   "day": 1,
+   "day2": 90,
+   "slot": "tr"
+  },
+  "texts": [
+   {
+    "t": "AND IT WON'T STOP",
+    "st": "sticker",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S11": {
+  "sz": "wide",
+  "bg": {
+   "k": "info",
+   "viz": "timeline",
+   "m": [
+    0.0,
+    0.5
+   ]
+  },
+  "pip": {
+   "x": 0.18,
+   "y": 0.74,
+   "s": 0.68,
+   "pose": "wait",
+   "flip": 1
+  },
+  "props": [
+   {
+    "k": "hourglass",
+    "x": 0.84,
+    "y": 0.34,
+    "s": 1.1,
+    "a": [
+     0.1,
+     0.9
+    ]
+   }
+  ],
+  "texts": [
+   {
+    "t": "A VERY LONG TIME",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S12": {
+  "sz": "title",
+  "bg": {
+   "k": "info",
+   "viz": "burst",
+   "cx": 0.5,
+   "cy": 0.48
+  },
+  "pip": {
+   "x": 0.16,
+   "y": 0.78,
+   "s": 0.64,
+   "pose": "shrug",
+   "ex": "oops"
+  },
+  "props": [
+   {
+    "k": "mars",
+    "x": 0.86,
+    "y": 0.78,
+    "s": 1.3
+   }
+  ],
+  "title": 1
+ },
+ "S13": {
+  "sz": "wide",
+  "bg": {
+   "k": "houston",
+   "v": 2,
+   "pin": [
+    0.0,
+    1.0
+   ]
+  },
+  "card": {
+   "a": "WHERE YOU LIVE",
+   "b": "MARS DUNE ALPHA \u00b7 HOUSTON",
+   "st": 1
+  },
+  "texts": [
+   {
+    "t": "HOUSTON, TEXAS",
+    "st": "chip",
+    "slot": "br"
+   }
+  ]
+ },
+ "S14": {
+  "sz": "wide",
+  "bg": {
+   "k": "houston",
+   "v": 1,
+   "hi": 0
+  },
+  "cam": {
+   "z": [
+    0.96,
+    1.04
+   ]
+  },
+  "texts": [
+   {
+    "t": "3D-PRINTED HABITAT",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S15": {
+  "sz": "wide",
+  "bg": {
+   "k": "houston",
+   "v": 0
+  },
+  "pip": {
+   "x": 0.24,
+   "y": 0.72,
+   "s": 0.6,
+   "pose": "wave",
+   "ex": "happy"
+  },
+  "label": {
+   "st": "tag",
+   "a": "NASA JSC",
+   "b": "HOUSTON, TX",
+   "slot": "tl"
+  }
+ },
+ "S16": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "hall",
+   "px": 590.0,
+   "pal": 1,
+   "add": [
+    {
+     "k": "nowin",
+     "x": 2100,
+     "y": 260,
+     "v": 2,
+     "w": 320
+    }
+   ]
+  },
+  "pip": {
+   "x": 0.45,
+   "y": 0.67,
+   "s": 0.8,
+   "pose": "point",
+   "ex": "smug"
+  },
+  "label": {
+   "st": "ribbon",
+   "a": "MARS DUNE ALPHA",
+   "b": "SIMULATED HABITAT",
+   "slot": "t"
+  }
+ },
+ "S17": {
+  "sz": "wide",
+  "bg": {
+   "k": "info",
+   "viz": "plan",
+   "hi": 0
+  },
+  "texts": [
+   {
+    "t": "~1,700 SQ FT",
+    "st": "big",
+    "slot": "t",
+    "hl": "1,700"
+   },
+   {
+    "t": "NASA CHAPEA HABITAT",
+    "st": "fact",
+    "slot": "b"
+   }
+  ]
+ },
+ "S18": {
+  "sz": "close",
+  "bg": {
+   "k": "room",
+   "r": "work",
+   "px": -360.0,
+   "pal": 2,
+   "add": [
+    {
+     "k": "nowin",
+     "x": 960,
+     "y": 250,
+     "v": 3,
+     "w": 300
+    }
+   ]
+  },
+  "cam": {
+   "z": [
+    1.0,
+    1.15
+   ]
+  },
+  "pip": {
+   "x": 0.7,
+   "y": 0.67,
+   "s": 0.88,
+   "pose": "peer",
+   "flip": -1
+  },
+  "texts": [
+   {
+    "t": "PRINTED LAYER BY LAYER",
+    "st": "note",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S19": {
+  "sz": "wide",
+  "bg": {
+   "k": "houston",
+   "v": 1,
+   "hi": 6
+  },
+  "props": [
+   {
+    "k": "x",
+    "x": 0.83,
+    "y": 0.45,
+    "s": 1.1
+   }
+  ],
+  "texts": [
+   {
+    "t": "SMALL HOUSE",
+    "st": "big",
+    "slot": "t"
+   },
+   {
+    "t": "NO FRONT DOOR",
+    "st": "stamp",
+    "slot": "br"
+   }
+  ]
+ },
+ "S20": {
+  "sz": "wide",
+  "bg": {
+   "k": "room",
+   "r": "hook",
+   "px": 540.0,
+   "pal": 0,
+   "add": [
+    {
+     "k": "cal",
+     "x": 1980,
+     "y": 240,
+     "w": 320,
+     "h": 240,
+     "st": "chalk",
+     "day": 1
+    }
+   ]
+  },
+  "crew": [
+   {
+    "who": "elder",
+    "x": [
+     0.18,
+     0.25
+    ],
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "step"
+   },
+   {
+    "who": "ellis",
+    "x": [
+     0.34,
+     0.41
+    ],
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "step",
+    "ph": 1
+   },
+   {
+    "who": "spicer",
+    "x": [
+     0.52,
+     0.59
+    ],
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "step",
+    "ph": 2
+   },
+   {
+    "who": "monty",
+    "x": [
+     0.68,
+     0.75
+    ],
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "step",
+    "ph": 3
+   }
+  ],
+  "texts": [
+   {
+    "t": "4 VOLUNTEERS",
+    "st": "chip",
+    "slot": "t"
+   }
+  ]
+ },
+ "S21": {
+  "sz": "wide",
+  "bg": {
+   "k": "info",
+   "viz": "timeline",
+   "m": [
+    0.0,
+    0.08
+   ]
+  },
+  "texts": [
+   {
+    "t": "19 OCT 2025",
+    "st": "num",
+    "slot": "t",
+    "size": 140
+   },
+   {
+    "t": "INGRESS DATE \u00b7 NASA",
+    "st": "fact",
+    "slot": "b"
+   }
+  ]
+ },
+ "S22": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "ops",
+   "px": -160.0,
+   "pal": 0
+  },
+  "crew": [
+   {
+    "who": "elder",
+    "x": 0.46,
+    "y": 0.66,
+    "s": 0.88,
+    "pose": "salute"
+   }
+  ],
+  "pip": {
+   "x": 0.76,
+   "y": 0.68,
+   "s": 0.72,
+   "pose": "wave",
+   "flip": -1
+  },
+  "label": {
+   "st": "lower",
+   "a": "ROSS ELDER",
+   "b": "COMMANDER & TEST PILOT",
+   "slot": "bl"
+  }
+ },
+ "S23": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "med",
+   "px": 140.0,
+   "pal": 1
+  },
+  "crew": [
+   {
+    "who": "ellis",
+    "x": 0.48,
+    "y": 0.66,
+    "s": 0.88,
+    "pose": "hold",
+    "hold": "tube",
+    "ex": "happy"
+   }
+  ],
+  "label": {
+   "st": "lower",
+   "a": "ELLEN ELLIS",
+   "b": "MEDICAL OFFICER",
+   "slot": "bl"
+  }
+ },
+ "S24": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "work",
+   "px": 440.0,
+   "pal": 3
+  },
+  "crew": [
+   {
+    "who": "spicer",
+    "x": 0.48,
+    "y": 0.66,
+    "s": 0.88,
+    "pose": "cool",
+    "hold": "wrench"
+   }
+  ],
+  "label": {
+   "st": "lower",
+   "a": "JAMES SPICER",
+   "b": "FLIGHT ENGINEER",
+   "slot": "bl"
+  }
+ },
+ "S25": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "garden",
+   "px": -60.0,
+   "pal": 1
+  },
+  "crew": [
+   {
+    "who": "monty",
+    "x": 0.48,
+    "y": 0.66,
+    "s": 0.88,
+    "pose": "point",
+    "hold": "veg",
+    "ex": "happy"
+   }
+  ],
+  "label": {
+   "st": "lower",
+   "a": "MATTHEW MONTGOMERY",
+   "b": "SCIENCE OFFICER",
+   "slot": "bl"
+  }
+ },
+ "S26": {
+  "sz": "wide",
+  "bg": {
+   "k": "room",
+   "r": "hall",
+   "px": 590.0,
+   "pal": 4
+  },
+  "crew": [
+   {
+    "who": "elder",
+    "x": 0.2,
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "stand"
+   },
+   {
+    "who": "ellis",
+    "x": 0.36,
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "wave"
+   },
+   {
+    "who": "spicer",
+    "x": 0.52,
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "stand"
+   },
+   {
+    "who": "monty",
+    "x": 0.68,
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "stand"
+   }
+  ],
+  "pip": {
+   "x": [
+    0.92,
+    0.82
+   ],
+   "y": 0.69,
+   "s": 0.64,
+   "pose": "step",
+   "flip": -1
+  },
+  "texts": [
+   {
+    "t": "PLUS YOU",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S27": {
+  "sz": "close",
+  "bg": {
+   "k": "info",
+   "viz": "burst",
+   "cx": 0.5,
+   "cy": 0.55
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.72,
+   "s": 1.35,
+   "pose": "cool",
+   "ex": "smug"
+  },
+  "texts": [
+   {
+    "t": "SMALL ORANGE JUMPSUIT",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S28": {
+  "sz": "wide",
+  "bg": {
+   "k": "info",
+   "viz": "plan",
+   "dot": [
+    0.0,
+    0.22
+   ]
+  },
+  "texts": [
+   {
+    "t": "QUICK TOUR",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S29": {
+  "sz": "wide",
+  "bg": {
+   "k": "info",
+   "viz": "plan",
+   "dot": [
+    0.22,
+    0.88
+   ]
+  },
+  "texts": [
+   {
+    "t": "KITCHEN \u00b7 BUNKS \u00b7 GARDEN \u00b7 GYM",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S30": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "kitchen",
+   "px": 1348.0,
+   "pal": 1,
+   "add": [
+    {
+     "k": "cal",
+     "x": 2000,
+     "y": 160,
+     "w": 280,
+     "h": 240,
+     "st": "sticky",
+     "day": 5
+    }
+   ],
+   "hide": [
+    "cal"
+   ]
+  },
+  "pip": {
+   "x": 0.32,
+   "y": 0.66,
+   "s": 0.82,
+   "pose": "think",
+   "ex": "worried"
+  },
+  "props": [
+   {
+    "k": "qm",
+    "x": 0.44,
+    "y": 0.38,
+    "s": 0.9
+   }
+  ],
+  "texts": [
+   {
+    "t": "WHAT'S MISSING?",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S31": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "lounge",
+   "px": 190.0,
+   "pal": 2,
+   "add": [
+    {
+     "k": "nowin",
+     "x": 1550,
+     "y": 240,
+     "v": 3,
+     "w": 380
+    }
+   ]
+  },
+  "cam": {
+   "z": [
+    1.0,
+    1.12
+   ]
+  },
+  "texts": [
+   {
+    "t": "0 WINDOWS",
+    "st": "num",
+    "slot": "t",
+    "size": 160
+   }
+  ]
+ },
+ "S32": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "bunk",
+   "px": 540.0,
+   "pal": 3
+  },
+  "pip": {
+   "x": 0.68,
+   "y": 0.67,
+   "s": 0.82,
+   "pose": "tap",
+   "flip": -1,
+   "hold": "phone",
+   "ex": "oops"
+  },
+  "props": [
+   {
+    "k": "dots",
+    "x": 0.54,
+    "y": 0.38,
+    "s": 0.9
+   }
+  ],
+  "texts": [
+   {
+    "t": "PHONE SITUATION...",
+    "st": "note",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S33": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "bunk",
+   "px": -140.0,
+   "pal": 4,
+   "add": [
+    {
+     "k": "nowin",
+     "x": 1240,
+     "y": 240,
+     "v": 0,
+     "w": 300
+    }
+   ],
+   "dark": 0.4
+  },
+  "card": {
+   "a": "NO WINDOWS",
+   "b": "NO LIVE CALLS HOME",
+   "st": 3
+  },
+  "props": [
+   {
+    "k": "sun",
+    "x": 0.2,
+    "y": 0.35,
+    "s": 0.75
+   },
+   {
+    "k": "x",
+    "x": 0.2,
+    "y": 0.35,
+    "s": 0.9
+   }
+  ],
+  "texts": [
+   {
+    "t": "NO SUNRISE",
+    "st": "sticker",
+    "slot": "bl"
+   }
+  ]
+ },
+ "S34": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "hall",
+   "px": 40.0,
+   "pal": 2
+  },
+  "pip": {
+   "x": 0.32,
+   "y": 0.67,
+   "s": 0.82,
+   "pose": "hold",
+   "hold": "phone",
+   "ex": "worried"
+  },
+  "props": [
+   {
+    "k": "cloud",
+    "x": 0.68,
+    "y": 0.36,
+    "s": 1.2
+   },
+   {
+    "k": "x",
+    "x": 0.68,
+    "y": 0.36,
+    "s": 0.9
+   }
+  ],
+  "texts": [
+   {
+    "t": "NO WEATHER CHECK",
+    "st": "stamp",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S35": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "lounge",
+   "px": 94.0,
+   "pal": 0,
+   "add": [
+    {
+     "k": "poster",
+     "x": 1150,
+     "y": 260,
+     "v": "forest",
+     "txt": "window (poster)"
+    }
+   ]
+  },
+  "pip": {
+   "x": 0.3,
+   "y": 0.67,
+   "s": 0.84,
+   "pose": "peer",
+   "ex": "tired"
+  },
+  "texts": [
+   {
+    "t": "NO PEEKING AT THE STREET",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S36": {
+  "sz": "close",
+  "bg": {
+   "k": "room",
+   "r": "bunk",
+   "px": -564.0,
+   "pal": 4,
+   "dark": 0.3
+  },
+  "pip": {
+   "x": 0.56,
+   "y": 0.67,
+   "s": 0.92,
+   "pose": "think",
+   "flip": -1,
+   "ex": "neutral"
+  },
+  "texts": [
+   {
+    "t": "NO OUTSIDE SOUNDS",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S37": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "kitchen",
+   "px": 1694.0,
+   "pal": 5,
+   "hide": [
+    "cal"
+   ]
+  },
+  "props": [
+   {
+    "k": "badge",
+    "x": 0.26,
+    "y": 0.4,
+    "s": 1.1,
+    "v": "TRAFFIC"
+   },
+   {
+    "k": "x",
+    "x": 0.26,
+    "y": 0.4,
+    "s": 0.8
+   },
+   {
+    "k": "badge",
+    "x": 0.74,
+    "y": 0.4,
+    "s": 1.1,
+    "v": "BIRDS"
+   },
+   {
+    "k": "x",
+    "x": 0.74,
+    "y": 0.4,
+    "s": 0.8
+   }
+  ],
+  "texts": [
+   {
+    "t": "JUST HABITAT HUM",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S38": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "lounge",
+   "px": 790.0,
+   "pal": 0
+  },
+  "crew": [
+   {
+    "who": "ellis",
+    "x": 0.32,
+    "y": 0.66,
+    "s": 0.78,
+    "pose": "shrug",
+    "hold": "phone"
+   }
+  ],
+  "pip": {
+   "x": 0.68,
+   "y": 0.67,
+   "s": 0.78,
+   "pose": "cringe",
+   "flip": -1,
+   "hold": "phone"
+  },
+  "props": [
+   {
+    "k": "x",
+    "x": 0.5,
+    "y": 0.48,
+    "s": 0.9
+   }
+  ],
+  "texts": [
+   {
+    "t": "NO REAL-TIME CALLS",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S39": {
+  "sz": "wide",
+  "bg": {
+   "k": "info",
+   "viz": "delay",
+   "m": [
+    0.0,
+    0.45
+   ]
+  },
+  "texts": [
+   {
+    "t": "MESSAGE SENT...",
+    "st": "chip",
+    "slot": "t"
+   }
+  ]
+ },
+ "S40": {
+  "sz": "wide",
+  "bg": {
+   "k": "info",
+   "viz": "delay",
+   "m": [
+    0.45,
+    1.0
+   ]
+  },
+  "texts": [
+   {
+    "t": "UP TO 22 MIN EACH WAY - NASA",
+    "st": "fact",
+    "slot": "t"
+   },
+   {
+    "t": "EVERY SINGLE MESSAGE",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S41": {
+  "sz": "medium",
+  "bg": {
+   "k": "info",
+   "viz": "chat",
+   "to": "MUM",
+   "n": 1,
+   "msgs": [
+    {
+     "f": "me",
+     "t": "HOW'S THE DOG?"
+    }
+   ]
+  },
+  "props": [
+   {
+    "k": "dog",
+    "x": 0.84,
+    "y": 0.76,
+    "s": 1.2
+   }
+  ],
+  "texts": [
+   {
+    "t": "TEXTING HOME",
+    "st": "chip",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S42": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "bunk",
+   "px": 732.0,
+   "pal": 2,
+   "add": [
+    {
+     "k": "cal",
+     "x": 1900,
+     "y": 240,
+     "w": 260,
+     "h": 260,
+     "st": "sticky",
+     "day": 28
+    }
+   ]
+  },
+  "pip": {
+   "x": 0.32,
+   "y": 0.67,
+   "s": 0.85,
+   "pose": "wait",
+   "hold": "phone",
+   "ex": "tired"
+  },
+  "props": [
+   {
+    "k": "hourglass",
+    "x": 0.52,
+    "y": 0.45,
+    "s": 1.0,
+    "a": [
+     0.0,
+     0.5
+    ]
+   }
+  ],
+  "texts": [
+   {
+    "t": "THEN YOU WAIT",
+    "st": "stamp",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S43": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "kitchen",
+   "px": -630.0,
+   "pal": 3,
+   "hide": [
+    "cal"
+   ]
+  },
+  "pip": {
+   "x": 0.58,
+   "y": 0.67,
+   "s": 0.85,
+   "pose": "hold",
+   "flip": -1,
+   "ex": "neutral"
+  },
+  "props": [
+   {
+    "k": "plate",
+    "x": 0.44,
+    "y": 0.52,
+    "s": 1.0,
+    "v": "veg"
+   }
+  ],
+  "texts": [
+   {
+    "t": "MAKE A SNACK",
+    "st": "sticker",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S44": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "lounge",
+   "px": -460.0,
+   "pal": 1
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.68,
+   "s": 0.82,
+   "pose": "sit",
+   "ex": "tired"
+  },
+  "props": [
+   {
+    "k": "hourglass",
+    "x": 0.76,
+    "y": 0.44,
+    "s": 1.1,
+    "a": [
+     0.4,
+     0.9
+    ]
+   }
+  ],
+  "texts": [
+   {
+    "t": "WAIT SOME MORE",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S45": {
+  "sz": "close",
+  "bg": {
+   "k": "room",
+   "r": "kitchen",
+   "px": 1020.0,
+   "pal": 0,
+   "mir": true,
+   "hide": [
+    "cal"
+   ]
+  },
+  "cam": {
+   "z": [
+    1.0,
+    1.15
+   ]
+  },
+  "pip": {
+   "x": 0.36,
+   "y": 0.67,
+   "s": 0.86,
+   "pose": "reach",
+   "ex": "tired"
+  },
+  "props": [
+   {
+    "k": "zzz",
+    "x": 0.44,
+    "y": 0.36,
+    "s": 0.9
+   }
+  ],
+  "texts": [
+   {
+    "t": "SPICE JARS: ALPHABETICAL",
+    "st": "note",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S46": {
+  "sz": "medium",
+  "bg": {
+   "k": "info",
+   "viz": "chat",
+   "to": "MUM",
+   "n": 2,
+   "msgs": [
+    {
+     "f": "me",
+     "t": "HOW'S THE DOG?"
+    },
+    {
+     "f": "them",
+     "t": "HE'S GOOD!"
+    }
+   ]
+  },
+  "props": [
+   {
+    "k": "dog",
+    "x": 0.84,
+    "y": 0.76,
+    "s": 1.25
+   },
+   {
+    "k": "heart",
+    "x": 0.84,
+    "y": 0.58,
+    "s": 0.7
+   }
+  ],
+  "texts": [
+   {
+    "t": "ANSWER LANDS!",
+    "st": "chip",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S47": {
+  "sz": "medium",
+  "bg": {
+   "k": "info",
+   "viz": "chat",
+   "to": "MUM",
+   "n": 4,
+   "msgs": [
+    {
+     "f": "me",
+     "t": "HOW'S THE DOG?"
+    },
+    {
+     "f": "them",
+     "t": "HE'S GOOD!"
+    },
+    {
+     "f": "me",
+     "t": "WHAT ABOUT DINNER?"
+    },
+    {
+     "f": "me",
+     "t": "AND THE WEATHER?"
+    }
+   ]
+  },
+  "texts": [
+   {
+    "t": "3 MORE QUESTIONS",
+    "st": "sticker",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S48": {
+  "sz": "wide",
+  "bg": {
+   "k": "info",
+   "viz": "delay",
+   "m": [
+    0.2,
+    0.95
+   ],
+   "m2": [
+    0.0,
+    0.5
+   ]
+  },
+  "texts": [
+   {
+    "t": "NOW SHE WAITS",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S49": {
+  "sz": "wide",
+  "bg": {
+   "k": "split",
+   "a": {
+    "k": "room",
+    "r": "bunk",
+    "px": 540.0,
+    "pal": 0
+   },
+   "b": {
+    "k": "info",
+    "viz": "delay",
+    "m": [
+     0.2,
+     0.8
+    ]
+   }
+  },
+  "texts": [
+   {
+    "t": "LESS A CONVERSATION",
+    "st": "chip",
+    "slot": "t"
+   }
+  ]
+ },
+ "S50": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "lounge",
+   "px": 790.0,
+   "pal": 5
+  },
+  "props": [
+   {
+    "k": "msg",
+    "x": [
+     0.2,
+     0.78
+    ],
+    "y": 0.45,
+    "s": 1.8
+   }
+  ],
+  "texts": [
+   {
+    "t": "A VERY SLOW POSTCARD",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S51": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "airlock",
+   "px": 590.0,
+   "pal": 2,
+   "add": [
+    {
+     "k": "cal",
+     "x": 2100,
+     "y": 220,
+     "w": 320,
+     "h": 200,
+     "st": "led",
+     "day": 52
+    }
+   ]
+  },
+  "pip": {
+   "x": 0.28,
+   "y": 0.67,
+   "s": 0.82,
+   "pose": "think",
+   "ex": "worried"
+  },
+  "texts": [
+   {
+    "t": "NOT THE HARDEST PART",
+    "st": "note",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S52": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "airlock",
+   "px": -260.0,
+   "pal": 0,
+   "add": [
+    {
+     "k": "hatch",
+     "x": 700,
+     "y": 420,
+     "r": 190,
+     "v": "amber",
+     "txt": "AIRLOCK",
+     "open": [
+      0.0,
+      0.75
+     ]
+    }
+   ],
+   "hide": [
+    "hatch"
+   ]
+  },
+  "pip": {
+   "x": 0.62,
+   "y": 0.67,
+   "s": 0.84,
+   "pose": "point",
+   "flip": -1,
+   "ex": "happy"
+  },
+  "texts": [
+   {
+    "t": "STEPPING OUTSIDE. SORT OF.",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S53": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "airlock",
+   "px": 590.0,
+   "pal": 0
+  },
+  "card": {
+   "a": "MARSWALKS",
+   "b": "SUITS \u00b7 AIRLOCK \u00b7 LONG WALKS",
+   "st": 1
+  },
+  "pip": {
+   "x": 0.75,
+   "y": 0.67,
+   "s": 0.78,
+   "pose": "stand"
+  }
+ },
+ "S54": {
+  "sz": "wide",
+  "bg": {
+   "k": "yard",
+   "pal": 0,
+   "rig": true,
+   "flag": [
+    0.82,
+    0.66
+   ],
+   "seed": 7
+  },
+  "crew": [
+   {
+    "who": "elder",
+    "x": [
+     0.22,
+     0.28
+    ],
+    "y": 0.67,
+    "s": 0.76,
+    "pose": "trudge",
+    "suit": 1
+   },
+   {
+    "who": "spicer",
+    "x": [
+     0.44,
+     0.5
+    ],
+    "y": 0.67,
+    "s": 0.76,
+    "pose": "trudge",
+    "suit": 1,
+    "ph": 1
+   }
+  ],
+  "pip": {
+   "x": [
+    0.62,
+    0.68
+   ],
+   "y": 0.68,
+   "s": 0.68,
+   "pose": "trudge",
+   "suit": 1,
+   "ph": 2
+  },
+  "label": {
+   "st": "pill",
+   "a": "SIMULATED MARSWALK",
+   "slot": "t"
+  }
+ },
+ "S55": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "airlock",
+   "px": 590.0,
+   "pal": 3
+  },
+  "pip": {
+   "x": 0.32,
+   "y": 0.67,
+   "s": 0.86,
+   "pose": "hold2",
+   "hold": "helmet",
+   "ex": "tired"
+  },
+  "texts": [
+   {
+    "t": "VERY REAL WORK",
+    "st": "stamp",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S56": {
+  "sz": "close",
+  "bg": {
+   "k": "room",
+   "r": "airlock",
+   "px": 1290.0,
+   "pal": 1
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.66,
+   "s": 0.94,
+   "pose": "cool",
+   "suit": 1
+  },
+  "texts": [
+   {
+    "t": "SUIT UP",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S57": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "airlock",
+   "px": 590.0,
+   "pal": 4,
+   "add": [
+    {
+     "k": "cal",
+     "x": 1020,
+     "y": 220,
+     "w": 320,
+     "h": 220,
+     "st": "screen",
+     "day": 75,
+     "sub": "SUIT PREP"
+    }
+   ]
+  },
+  "crew": [
+   {
+    "who": "spicer",
+    "x": 0.42,
+    "y": 0.67,
+    "s": 0.8,
+    "pose": "tap",
+    "suit": 1
+   }
+  ],
+  "pip": {
+   "x": 0.64,
+   "y": 0.67,
+   "s": 0.8,
+   "pose": "wait",
+   "flip": -1,
+   "suit": 1
+  },
+  "texts": [
+   {
+    "t": "PREP TAKES TIME",
+    "st": "note",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S58": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "airlock",
+   "px": -260.0,
+   "pal": 2,
+   "add": [
+    {
+     "k": "hatch",
+     "x": 700,
+     "y": 420,
+     "r": 190,
+     "v": "green",
+     "txt": "EGRESS",
+     "open": [
+      0.2,
+      0.9
+     ]
+    }
+   ],
+   "hide": [
+    "hatch"
+   ]
+  },
+  "pip": {
+   "x": [
+    0.48,
+    0.36
+   ],
+   "y": 0.67,
+   "s": 0.84,
+   "pose": "step",
+   "flip": -1,
+   "suit": 1
+  },
+  "texts": [
+   {
+    "t": "AIRLOCK STEPS",
+    "st": "chip",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S59": {
+  "sz": "medium",
+  "bg": {
+   "k": "yard",
+   "pal": 1,
+   "rig": true,
+   "seed": 12
+  },
+  "pip": {
+   "x": [
+    0.38,
+    0.48
+   ],
+   "y": 0.68,
+   "s": 0.88,
+   "pose": "step",
+   "suit": 1,
+   "ex": "worried"
+  },
+  "texts": [
+   {
+    "t": "ONE CAREFUL MOVE",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S60": {
+  "sz": "wide",
+  "bg": {
+   "k": "yard",
+   "pal": 0,
+   "px": [
+    0,
+    360
+   ],
+   "trail": [
+    2,
+    12
+   ],
+   "rig": true,
+   "seed": 18
+  },
+  "crew": [
+   {
+    "who": "elder",
+    "x": [
+     0.35,
+     0.46
+    ],
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "trudge",
+    "suit": 1
+   }
+  ],
+  "pip": {
+   "x": [
+    0.55,
+    0.66
+   ],
+   "y": 0.67,
+   "s": 0.66,
+   "pose": "trudge",
+   "suit": 1,
+   "ph": 1
+  },
+  "texts": [
+   {
+    "t": "LONG TRAVERSES",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S61": {
+  "sz": "medium",
+  "bg": {
+   "k": "yard",
+   "pal": 2,
+   "rig": false,
+   "seed": 22
+  },
+  "crew": [
+   {
+    "who": "elder",
+    "x": 0.48,
+    "y": 0.67,
+    "s": 0.88,
+    "pose": "collapse",
+    "suit": 1
+   }
+  ],
+  "props": [
+   {
+    "k": "sweat",
+    "x": 0.56,
+    "y": 0.42,
+    "s": 0.9
+   }
+  ],
+  "texts": [
+   {
+    "t": "TIME & STAMINA - ELDER",
+    "st": "fact",
+    "slot": "t"
+   }
+  ]
+ },
+ "S62": {
+  "sz": "wide",
+  "bg": {
+   "k": "room",
+   "r": "kitchen",
+   "px": 790.0,
+   "pal": 0,
+   "add": [
+    {
+     "k": "cal",
+     "x": 1150,
+     "y": 200,
+     "w": 260,
+     "h": 220,
+     "st": "cal",
+     "day": 88
+    }
+   ],
+   "hide": [
+    "cal"
+   ]
+  },
+  "crew": [
+   {
+    "who": "elder",
+    "x": 0.34,
+    "y": 0.66,
+    "s": 0.74,
+    "pose": "sit"
+   },
+   {
+    "who": "ellis",
+    "x": 0.66,
+    "y": 0.66,
+    "s": 0.74,
+    "pose": "sit",
+    "flip": -1
+   }
+  ],
+  "pip": {
+   "x": 0.5,
+   "y": 0.67,
+   "s": 0.72,
+   "pose": "cheer"
+  },
+  "texts": [
+   {
+    "t": "LOOK AFTER THE BASICS",
+    "st": "chip",
+    "slot": "t"
+   }
+  ]
+ },
+ "S63": {
+  "sz": "wide",
+  "bg": {
+   "k": "split",
+   "a": {
+    "k": "room",
+    "r": "kitchen",
+    "px": 790.0,
+    "pal": 1
+   },
+   "b": {
+    "k": "room",
+    "r": "gym",
+    "px": -440.0,
+    "pal": 2
+   }
+  },
+  "texts": [
+   {
+    "t": "NUTRITION \u00b7 EXERCISE \u00b7 REST",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S64": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "gym",
+   "px": -440.0,
+   "pal": 1
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.61,
+   "s": 0.78,
+   "pose": "pedal"
+  },
+  "wid": {
+   "st": "bar",
+   "day": 96,
+   "slot": "b"
+  },
+  "texts": [
+   {
+    "t": "BUILD STAMINA",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S65": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "gym",
+   "px": 190.0,
+   "pal": 3
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.66,
+   "s": 0.88,
+   "pose": "cheer",
+   "hold": "bar",
+   "ex": "smug"
+  },
+  "texts": [
+   {
+    "t": "EARN IT",
+    "st": "stamp",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S66": {
+  "sz": "wide",
+  "bg": {
+   "k": "yard",
+   "pal": 1,
+   "px": [
+    50,
+    500
+   ],
+   "dust": 0.14,
+   "rig": true,
+   "seed": 31
+  },
+  "pip": {
+   "x": [
+    0.3,
+    0.55
+   ],
+   "y": 0.68,
+   "s": 0.85,
+   "pose": "trudge",
+   "suit": 1
+  },
+  "texts": [
+   {
+    "t": "SLOWLY. BRAVELY.",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S67": {
+  "sz": "close",
+  "bg": {
+   "k": "yard",
+   "pal": 2,
+   "hz": 0.44,
+   "rig": true,
+   "seed": 34
+  },
+  "cam": {
+   "z": [
+    1.0,
+    1.12
+   ]
+  },
+  "pip": {
+   "x": 0.45,
+   "y": 0.7,
+   "s": 0.92,
+   "pose": "collapse",
+   "suit": 1
+  },
+  "props": [
+   {
+    "k": "bubble",
+    "x": 0.66,
+    "y": 0.42,
+    "s": 1.0,
+    "v": "MY LEGS!"
+   }
+  ],
+  "texts": [
+   {
+    "t": "WORD WITH MANAGEMENT",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S68": {
+  "sz": "wide",
+  "bg": {
+   "k": "yard",
+   "pal": 0,
+   "px": [
+    0,
+    480
+   ],
+   "trail": 14,
+   "rig": false,
+   "seed": 41
+  },
+  "pip": {
+   "x": [
+    0.6,
+    0.72
+   ],
+   "y": 0.66,
+   "s": 0.64,
+   "pose": "trudge",
+   "suit": 1
+  },
+  "texts": [
+   {
+    "t": "MOSTLY WALKING",
+    "st": "plain",
+    "slot": "t"
+   }
+  ]
+ },
+ "S69": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "ops",
+   "px": 740.0,
+   "pal": 0
+  },
+  "pip": {
+   "x": 0.3,
+   "y": 0.68,
+   "s": 0.78,
+   "pose": "sit",
+   "hold": "mug",
+   "ex": "smug"
+  },
+  "props": [
+   {
+    "k": "drone",
+    "x": 0.68,
+    "y": 0.4,
+    "s": 0.8
+   },
+   {
+    "k": "rover",
+    "x": 0.74,
+    "y": 0.74,
+    "s": 0.8
+   }
+  ],
+  "texts": [
+   {
+    "t": "NOT EVERY JOB NEEDS LEGS",
+    "st": "chip",
+    "slot": "t"
+   }
+  ]
+ },
+ "S70": {
+  "sz": "wide",
+  "bg": {
+   "k": "room",
+   "r": "ops",
+   "px": 440.0,
+   "pal": 0
+  },
+  "card": {
+   "a": "ROBOTS",
+   "b": "DRONE & ROVER FLOWN FROM INSIDE",
+   "st": 2
+  },
+  "crew": [
+   {
+    "who": "elder",
+    "x": 0.32,
+    "y": 0.66,
+    "s": 0.76,
+    "pose": "drive",
+    "hold": "ctrl"
+   }
+  ],
+  "pip": {
+   "x": 0.68,
+   "y": 0.67,
+   "s": 0.76,
+   "pose": "point",
+   "flip": -1
+  }
+ },
+ "S71": {
+  "sz": "wide",
+  "bg": {
+   "k": "split",
+   "a": {
+    "k": "room",
+    "r": "ops",
+    "px": 490.0,
+    "pal": 1
+   },
+   "b": {
+    "k": "yard",
+    "pal": 0,
+    "rig": true,
+    "seed": 50
+   }
+  },
+  "pip": {
+   "x": 0.24,
+   "y": 0.68,
+   "s": 0.75,
+   "pose": "drive",
+   "hold": "ctrl"
+  },
+  "props": [
+   {
+    "k": "drone",
+    "x": 0.76,
+    "y": [
+     0.46,
+     0.34
+    ],
+    "s": 1.2
+   }
+  ],
+  "label": {
+   "st": "tag",
+   "a": "DRONE",
+   "b": "FLOWN FROM INSIDE",
+   "slot": "tr"
+  }
+ },
+ "S72": {
+  "sz": "medium",
+  "bg": {
+   "k": "yard",
+   "pal": 1,
+   "rig": true,
+   "seed": 55
+  },
+  "props": [
+   {
+    "k": "rover",
+    "x": [
+     0.25,
+     0.72
+    ],
+    "y": 0.68,
+    "s": 1.35,
+    "a": 1.5
+   }
+  ],
+  "texts": [
+   {
+    "t": "AND DROVE A ROVER",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S73": {
+  "sz": "wide",
+  "bg": {
+   "k": "yard",
+   "pal": 0,
+   "px": [
+    0,
+    320
+   ],
+   "rig": true,
+   "seed": 58
+  },
+  "props": [
+   {
+    "k": "drone",
+    "x": [
+     0.3,
+     0.65
+    ],
+    "y": 0.32,
+    "s": 1.0
+   },
+   {
+    "k": "rover",
+    "x": [
+     0.2,
+     0.52
+    ],
+    "y": 0.72,
+    "s": 1.1,
+    "a": 1.2
+   }
+  ],
+  "texts": [
+   {
+    "t": "SURVEY THE TERRAIN",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S74": {
+  "sz": "medium",
+  "bg": {
+   "k": "yard",
+   "pal": 2,
+   "hz": 0.38,
+   "rocks": 14,
+   "seed": 61
+  },
+  "props": [
+   {
+    "k": "rover",
+    "x": 0.34,
+    "y": 0.72,
+    "s": 1.2
+   },
+   {
+    "k": "rock",
+    "x": 0.72,
+    "y": 0.74,
+    "s": 1.1
+   }
+  ],
+  "texts": [
+   {
+    "t": "HUNTING FOR ROCKS",
+    "st": "chip",
+    "slot": "t"
+   }
+  ]
+ },
+ "S75": {
+  "sz": "close",
+  "bg": {
+   "k": "yard",
+   "pal": 0,
+   "hz": 0.35,
+   "seed": 64
+  },
+  "cam": {
+   "z": [
+    1.0,
+    1.15
+   ]
+  },
+  "props": [
+   {
+    "k": "rock",
+    "x": 0.5,
+    "y": 0.65,
+    "s": 1.6
+   },
+   {
+    "k": "ring",
+    "x": 0.5,
+    "y": 0.65,
+    "s": 1.3
+   }
+  ],
+  "texts": [
+   {
+    "t": "IDENTIFY & COLLECT",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S76": {
+  "sz": "close",
+  "bg": {
+   "k": "info",
+   "viz": "burst",
+   "cx": 0.5,
+   "cy": 0.55
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.7,
+   "s": 1.3,
+   "pose": "drive",
+   "hold": "ctrl",
+   "ex": "smug"
+  },
+  "texts": [
+   {
+    "t": "TONGUE OUT = MAX FOCUS",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S77": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "ops",
+   "px": 904.0,
+   "pal": 1
+  },
+  "crew": [
+   {
+    "who": "elder",
+    "x": 0.42,
+    "y": 0.67,
+    "s": 0.88,
+    "pose": "drive",
+    "hold": "ctrl"
+   }
+  ],
+  "label": {
+   "st": "lower",
+   "a": "ELDER \u00b7 TEST PILOT",
+   "b": "DRONE OPERATOR",
+   "slot": "bl"
+  }
+ },
+ "S78": {
+  "sz": "medium",
+  "bg": {
+   "k": "yard",
+   "pal": 1,
+   "rig": true,
+   "seed": 70
+  },
+  "fx": [
+   {
+    "k": "streaks",
+    "a": -15,
+    "n": 14,
+    "sp": 2.5
+   }
+  ],
+  "props": [
+   {
+    "k": "drone",
+    "x": [
+     0.22,
+     0.78
+    ],
+    "y": [
+     0.55,
+     0.38
+    ],
+    "s": 1.35
+   }
+  ],
+  "texts": [
+   {
+    "t": "\"UNCANNILY SIMILAR TO FLYING\" - ELDER",
+    "st": "fact",
+    "slot": "t"
+   }
+  ]
+ },
+ "S79": {
+  "sz": "medium",
+  "bg": {
+   "k": "yard",
+   "pal": 0,
+   "rig": true,
+   "seed": 74
+  },
+  "props": [
+   {
+    "k": "rover",
+    "x": [
+     0.35,
+     0.52
+    ],
+    "y": 0.68,
+    "s": 1.3,
+    "a": 0.4
+   },
+   {
+    "k": "arrow",
+    "x": 0.7,
+    "y": 0.62,
+    "s": 0.8,
+    "r": 0
+   }
+  ],
+  "texts": [
+   {
+    "t": "FORWARD... LEFT... SLOWLY",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S80": {
+  "sz": "medium",
+  "bg": {
+   "k": "yard",
+   "pal": 2,
+   "rig": true,
+   "seed": 78
+  },
+  "props": [
+   {
+    "k": "rover",
+    "x": 0.45,
+    "y": 0.68,
+    "s": 1.25,
+    "a": 0.3
+   },
+   {
+    "k": "badge",
+    "x": 0.72,
+    "y": 0.48,
+    "s": 1.0,
+    "v": "POLITE CART"
+   }
+  ],
+  "texts": [
+   {
+    "t": "VERY POLITE SHOPPING CART",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S81": {
+  "sz": "close",
+  "bg": {
+   "k": "info",
+   "viz": "burst",
+   "cx": 0.5,
+   "cy": 0.55
+  },
+  "pip": {
+   "x": 0.34,
+   "y": 0.7,
+   "s": 0.92,
+   "pose": "hug",
+   "ex": "happy"
+  },
+  "props": [
+   {
+    "k": "rock",
+    "x": 0.64,
+    "y": 0.6,
+    "s": 1.85,
+    "v": "face"
+   },
+   {
+    "k": "heart",
+    "x": 0.64,
+    "y": 0.36,
+    "s": 0.8
+   }
+  ],
+  "texts": [
+   {
+    "t": "MEET KEVIN",
+    "st": "stamp",
+    "slot": "t"
+   }
+  ]
+ },
+ "S82": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "ops",
+   "px": -340.0,
+   "pal": 3,
+   "add": [
+    {
+     "k": "cal",
+     "x": 1250,
+     "y": 220,
+     "w": 320,
+     "h": 200,
+     "st": "led",
+     "day": 140
+    }
+   ],
+   "red": true
+  },
+  "pip": {
+   "x": 0.7,
+   "y": 0.67,
+   "s": 0.8,
+   "pose": "point",
+   "flip": -1,
+   "ex": "worried"
+  },
+  "texts": [
+   {
+    "t": "BASE CHECK",
+    "st": "chip",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S83": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "work",
+   "px": -440.0,
+   "pal": 2
+  },
+  "fx": [
+   {
+    "k": "rings",
+    "n": 4,
+    "c": "#FFB347",
+    "x": 240
+   }
+  ],
+  "texts": [
+   {
+    "t": "THAT DOESN'T BREAK",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S84": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "work",
+   "px": 440.0,
+   "pal": 0
+  },
+  "crew": [
+   {
+    "who": "spicer",
+    "x": 0.48,
+    "y": 0.66,
+    "s": 0.88,
+    "pose": "stand",
+    "hold": "wrench"
+   }
+  ],
+  "label": {
+   "st": "pill",
+   "a": "FLIGHT ENGINEER ON DUTY",
+   "slot": "t"
+  }
+ },
+ "S85": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "work",
+   "px": -440.0,
+   "pal": 1
+  },
+  "card": {
+   "a": "MAINTENANCE",
+   "b": "KEEP THE SYSTEMS RUNNING",
+   "st": 3
+  },
+  "crew": [
+   {
+    "who": "spicer",
+    "x": 0.36,
+    "y": 0.66,
+    "s": 0.82,
+    "pose": "salute",
+    "hold": "wrench"
+   }
+  ],
+  "pip": {
+   "x": 0.68,
+   "y": 0.67,
+   "s": 0.76,
+   "pose": "salute",
+   "flip": -1
+  }
+ },
+ "S86": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "work",
+   "px": -536.0,
+   "pal": 3,
+   "add": [
+    {
+     "k": "pipes",
+     "x": 520,
+     "w": 760,
+     "a": 2
+    }
+   ]
+  },
+  "crew": [
+   {
+    "who": "spicer",
+    "x": 0.34,
+    "y": 0.66,
+    "s": 0.86,
+    "pose": "reach",
+    "hold": "wrench"
+   }
+  ],
+  "texts": [
+   {
+    "t": "SYSTEMS RUNNING",
+    "st": "chip",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S87": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "work",
+   "px": 1090.0,
+   "pal": 0
+  },
+  "pip": {
+   "x": 0.32,
+   "y": 0.67,
+   "s": 0.84,
+   "pose": "tap",
+   "hold": "clip"
+  },
+  "texts": [
+   {
+    "t": "TRACKING CONSUMABLES",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S88": {
+  "sz": "wide",
+  "bg": {
+   "k": "room",
+   "r": "work",
+   "px": 1690.0,
+   "pal": 4
+  },
+  "pip": {
+   "x": 0.28,
+   "y": 0.68,
+   "s": 0.78,
+   "pose": "shrug",
+   "ex": "worried"
+  },
+  "props": [
+   {
+    "k": "soap",
+    "x": 0.54,
+    "y": 0.45,
+    "s": 1.1
+   },
+   {
+    "k": "filter",
+    "x": 0.74,
+    "y": 0.45,
+    "s": 1.1
+   }
+  ],
+  "texts": [
+   {
+    "t": "EVERYTHING YOU USE UP",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S89": {
+  "sz": "wide",
+  "bg": {
+   "k": "split",
+   "a": {
+    "k": "wash",
+    "c1": "#2A6A62",
+    "c2": "#0E2422"
+   },
+   "b": {
+    "k": "wash",
+    "c1": "#4A5A78",
+    "c2": "#141A28"
+   }
+  },
+  "props": [
+   {
+    "k": "soap",
+    "x": 0.25,
+    "y": 0.54,
+    "s": 1.7
+   },
+   {
+    "k": "filter",
+    "x": 0.75,
+    "y": 0.54,
+    "s": 1.7
+   }
+  ],
+  "texts": [
+   {
+    "t": "DISH SOAP \u00b7 RESPIRATOR FILTERS",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S90": {
+  "sz": "wide",
+  "bg": {
+   "k": "room",
+   "r": "kitchen",
+   "px": 790.0,
+   "pal": 1,
+   "add": [
+    {
+     "k": "table",
+     "x": 1750,
+     "w": 640,
+     "v": "cups"
+    }
+   ],
+   "hide": [
+    "cal"
+   ]
+  },
+  "crew": [
+   {
+    "who": "ellis",
+    "x": 0.34,
+    "y": 0.66,
+    "s": 0.76,
+    "pose": "sip",
+    "hold": "mug"
+   },
+   {
+    "who": "spicer",
+    "x": 0.66,
+    "y": 0.66,
+    "s": 0.76,
+    "pose": "hold",
+    "flip": -1
+   }
+  ],
+  "texts": [
+   {
+    "t": "CAREFUL WITH FOOD & WATER",
+    "st": "fact",
+    "slot": "t"
+   }
+  ]
+ },
+ "S91": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "work",
+   "px": 440.0,
+   "pal": 2
+  },
+  "crew": [
+   {
+    "who": "spicer",
+    "x": 0.5,
+    "y": 0.66,
+    "s": 0.86,
+    "pose": "think"
+   }
+  ],
+  "label": {
+   "st": "tag",
+   "a": "SPICER'S ANALOGY",
+   "b": "FLIGHT ENGINEER",
+   "slot": "tl"
+  }
+ },
+ "S92": {
+  "sz": "wide",
+  "bg": {
+   "k": "wash",
+   "c1": "#1A4A6A",
+   "c2": "#091826"
+  },
+  "fx": [
+   {
+    "k": "bubbles",
+    "n": 18,
+    "c": "#A8E8FF",
+    "sp": 1.4
+   }
+  ],
+  "props": [
+   {
+    "k": "badge",
+    "x": 0.5,
+    "y": 0.52,
+    "s": 1.5,
+    "v": "SUBMARINE"
+   },
+   {
+    "k": "visor",
+    "x": 0.5,
+    "y": 0.52,
+    "s": 1.6
+   }
+  ],
+  "texts": [
+   {
+    "t": "LIKE A SUBMARINE OR BOAT",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S93": {
+  "sz": "close",
+  "bg": {
+   "k": "info",
+   "viz": "burst",
+   "cx": 0.5,
+   "cy": 0.55
+  },
+  "pip": {
+   "x": 0.45,
+   "y": 0.7,
+   "s": 1.0,
+   "pose": "hold2",
+   "hold": "soap",
+   "ex": "happy"
+  },
+  "props": [
+   {
+    "k": "star",
+    "x": 0.66,
+    "y": 0.45,
+    "s": 1.1
+   }
+  ],
+  "texts": [
+   {
+    "t": "LIQUID TREASURE",
+    "st": "stamp",
+    "slot": "t"
+   }
+  ]
+ },
+ "S94": {
+  "sz": "close",
+  "bg": {
+   "k": "room",
+   "r": "work",
+   "px": 994.0,
+   "pal": 5
+  },
+  "pip": {
+   "x": 0.32,
+   "y": 0.68,
+   "s": 0.9,
+   "pose": "tap",
+   "hold": "clip"
+  },
+  "props": [
+   {
+    "k": "check",
+    "x": 0.68,
+    "y": 0.48,
+    "s": 1.2
+   }
+  ],
+  "texts": [
+   {
+    "t": "TICK!",
+    "st": "sticker",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S95": {
+  "sz": "close",
+  "bg": {
+   "k": "room",
+   "r": "work",
+   "px": 1186.0,
+   "pal": 1,
+   "mir": true
+  },
+  "cam": {
+   "z": [
+    1.0,
+    1.15
+   ]
+  },
+  "props": [
+   {
+    "k": "clip",
+    "x": 0.5,
+    "y": 0.54,
+    "s": 1.85,
+    "a": 5
+   }
+  ],
+  "texts": [
+   {
+    "t": "TICK AGAIN!",
+    "st": "stamp",
+    "slot": "t"
+   }
+  ]
+ },
+ "S96": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "kitchen",
+   "px": -591.6,
+   "pal": 0,
+   "hide": [
+    "cal"
+   ]
+  },
+  "pip": {
+   "x": 0.34,
+   "y": 0.67,
+   "s": 0.84,
+   "pose": "pointUp",
+   "hold": "soap",
+   "ex": "shock"
+  },
+  "props": [
+   {
+    "k": "bubble",
+    "x": 0.64,
+    "y": 0.42,
+    "s": 1.25,
+    "v": "SOAP IS OUT!"
+   }
+  ],
+  "label": {
+   "st": "ribbon",
+   "a": "PIP'S RULE",
+   "b": "MANDATORY ANNOUNCEMENT",
+   "slot": "t"
+  }
+ },
+ "S97": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "kitchen",
+   "px": 60.0,
+   "pal": 2,
+   "add": [
+    {
+     "k": "cal",
+     "x": 1560,
+     "y": 210,
+     "w": 320,
+     "h": 220,
+     "st": "chalk",
+     "day": 175
+    }
+   ],
+   "hide": [
+    "cal"
+   ]
+  },
+  "pip": {
+   "x": 0.32,
+   "y": 0.67,
+   "s": 0.82,
+   "pose": "shrug",
+   "ex": "worried"
+  },
+  "texts": [
+   {
+    "t": "CAN'T RUN OUT OF FOOD",
+    "st": "note",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S98": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "garden",
+   "px": -660.0,
+   "pal": 1,
+   "glow": 0.9
+  },
+  "pip": {
+   "x": 0.72,
+   "y": 0.67,
+   "s": 0.82,
+   "pose": "wave2",
+   "flip": -1,
+   "ex": "happy"
+  },
+  "texts": [
+   {
+    "t": "LUCKILY, YOU GROW SOME",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S99": {
+  "sz": "wide",
+  "bg": {
+   "k": "room",
+   "r": "garden",
+   "px": -60.0,
+   "pal": 0,
+   "glow": 0.95
+  },
+  "card": {
+   "a": "THE GARDEN",
+   "b": "HYDROPONICS & MARTIAN SOIL",
+   "st": 1
+  },
+  "pip": {
+   "x": 0.24,
+   "y": 0.67,
+   "s": 0.78,
+   "pose": "cheer"
+  }
+ },
+ "S100": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "garden",
+   "px": -60.0,
+   "pal": 1,
+   "glow": 0.9
+  },
+  "crew": [
+   {
+    "who": "monty",
+    "x": 0.42,
+    "y": 0.66,
+    "s": 0.86,
+    "pose": "point",
+    "hold": "veg"
+   }
+  ],
+  "label": {
+   "st": "lower",
+   "a": "MATTHEW MONTGOMERY",
+   "b": "SCIENCE OFFICER \u00b7 CROPS",
+   "slot": "bl"
+  }
+ },
+ "S101": {
+  "sz": "close",
+  "bg": {
+   "k": "room",
+   "r": "garden",
+   "px": 540.0,
+   "pal": 0,
+   "glow": 0.95
+  },
+  "cam": {
+   "z": [
+    1.0,
+    1.12
+   ]
+  },
+  "pip": {
+   "x": 0.26,
+   "y": 0.67,
+   "s": 0.84,
+   "pose": "point",
+   "ex": "happy"
+  },
+  "texts": [
+   {
+    "t": "HYDROPONIC VEGETABLES",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S102": {
+  "sz": "close",
+  "bg": {
+   "k": "wash",
+   "c1": "#1E4A5A",
+   "c2": "#0A1C24"
+  },
+  "fx": [
+   {
+    "k": "bubbles",
+    "n": 16,
+    "c": "#7FE8FF",
+    "sp": 1.2
+   }
+  ],
+  "props": [
+   {
+    "k": "sprout",
+    "x": 0.5,
+    "y": 0.56,
+    "s": 2.2
+   }
+  ],
+  "texts": [
+   {
+    "t": "ROOTS IN WATER, NOT SOIL",
+    "st": "fact",
+    "slot": "t"
+   }
+  ]
+ },
+ "S103": {
+  "sz": "wide",
+  "bg": {
+   "k": "room",
+   "r": "garden",
+   "px": -60.0,
+   "pal": 3,
+   "glow": 1.0
+  },
+  "wid": {
+   "st": "sticky",
+   "day": 204,
+   "slot": "tr"
+  },
+  "texts": [
+   {
+    "t": "PINK LIGHTS \u00b7 TIDY PIPES",
+    "st": "note",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S104": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "garden",
+   "px": 1190.0,
+   "pal": 2
+  },
+  "props": [
+   {
+    "k": "pot",
+    "x": 0.36,
+    "y": 0.48,
+    "s": 1.35,
+    "v": "mars",
+    "a": 0.4
+   },
+   {
+    "k": "pot",
+    "x": 0.64,
+    "y": 0.48,
+    "s": 1.35,
+    "v": "ctrl",
+    "a": 0.7
+   }
+  ],
+  "texts": [
+   {
+    "t": "SEED-GERMINATION EXPERIMENT",
+    "st": "chip",
+    "slot": "t"
+   }
+  ]
+ },
+ "S105": {
+  "sz": "close",
+  "bg": {
+   "k": "wash",
+   "c1": "#7A3222",
+   "c2": "#240E08"
+  },
+  "props": [
+   {
+    "k": "pot",
+    "x": 0.5,
+    "y": 0.58,
+    "s": 2.1,
+    "v": "mars",
+    "a": [
+     0.1,
+     0.55
+    ]
+   }
+  ],
+  "texts": [
+   {
+    "t": "SIMULATED MARTIAN SOIL",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S106": {
+  "sz": "medium",
+  "bg": {
+   "k": "wash",
+   "c1": "#3A4A2E",
+   "c2": "#141A0E"
+  },
+  "props": [
+   {
+    "k": "pot",
+    "x": 0.34,
+    "y": 0.56,
+    "s": 1.7,
+    "v": "mars",
+    "a": 0.5
+   },
+   {
+    "k": "pot",
+    "x": 0.66,
+    "y": 0.56,
+    "s": 1.7,
+    "v": "ctrl",
+    "a": 0.85
+   }
+  ],
+  "texts": [
+   {
+    "t": "VS. A CONTROL",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S107": {
+  "sz": "close",
+  "bg": {
+   "k": "room",
+   "r": "garden",
+   "px": 1790.0,
+   "pal": 5
+  },
+  "props": [
+   {
+    "k": "pot",
+    "x": 0.5,
+    "y": 0.54,
+    "s": 1.9,
+    "v": "ctrl",
+    "a": [
+     0.3,
+     0.95
+    ]
+   }
+  ],
+  "texts": [
+   {
+    "t": "CONTROL = ORDINARY SOIL",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S108": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "garden",
+   "px": 1190.0,
+   "pal": 0
+  },
+  "crew": [
+   {
+    "who": "monty",
+    "x": 0.36,
+    "y": 0.66,
+    "s": 0.84,
+    "pose": "weigh",
+    "hold": "clip"
+   }
+  ],
+  "props": [
+   {
+    "k": "pot",
+    "x": 0.62,
+    "y": 0.5,
+    "s": 1.2,
+    "v": "mars",
+    "a": 0.5
+   },
+   {
+    "k": "pot",
+    "x": 0.78,
+    "y": 0.5,
+    "s": 1.2,
+    "v": "ctrl",
+    "a": 0.85
+   }
+  ],
+  "texts": [
+   {
+    "t": "COMPARE SPROUTS",
+    "st": "chip",
+    "slot": "t"
+   }
+  ]
+ },
+ "S109": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "garden",
+   "px": 1790.0,
+   "pal": 1
+  },
+  "pip": {
+   "x": 0.32,
+   "y": 0.67,
+   "s": 0.84,
+   "pose": "reach",
+   "ex": "happy"
+  },
+  "fx": [
+   {
+    "k": "bubbles",
+    "n": 12,
+    "c": "#7FE8FF",
+    "sp": 1.5
+   }
+  ],
+  "texts": [
+   {
+    "t": "WATER BOTH ROWS",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S110": {
+  "sz": "close",
+  "bg": {
+   "k": "info",
+   "viz": "burst",
+   "cx": 0.5,
+   "cy": 0.55
+  },
+  "pip": {
+   "x": 0.35,
+   "y": 0.7,
+   "s": 0.96,
+   "pose": "lean",
+   "ex": "smug"
+  },
+  "props": [
+   {
+    "k": "pot",
+    "x": 0.62,
+    "y": 0.6,
+    "s": 1.5,
+    "v": "mars",
+    "a": 0.55
+   },
+   {
+    "k": "bubble",
+    "x": 0.62,
+    "y": 0.36,
+    "s": 1.0,
+    "v": "grow little buddy"
+   }
+  ],
+  "texts": [
+   {
+    "t": "WHISPER ENCOURAGEMENT",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S111": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "garden",
+   "px": 540.0,
+   "pal": 4
+  },
+  "crew": [
+   {
+    "who": "monty",
+    "x": 0.64,
+    "y": 0.66,
+    "s": 0.86,
+    "pose": "shrug",
+    "flip": -1,
+    "ex": "oops"
+   }
+  ],
+  "props": [
+   {
+    "k": "qm",
+    "x": 0.44,
+    "y": 0.42,
+    "s": 1.0
+   }
+  ],
+  "texts": [
+   {
+    "t": "NOT IN THE PROTOCOL",
+    "st": "stamp",
+    "slot": "t"
+   }
+  ]
+ },
+ "S112": {
+  "sz": "wide",
+  "bg": {
+   "k": "room",
+   "r": "garden",
+   "px": 1190.0,
+   "pal": 0
+  },
+  "crew": [
+   {
+    "who": "elder",
+    "x": 0.2,
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "cheer"
+   },
+   {
+    "who": "ellis",
+    "x": 0.36,
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "cheer"
+   },
+   {
+    "who": "monty",
+    "x": 0.78,
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "cheer",
+    "flip": -1
+   }
+  ],
+  "pip": {
+   "x": 0.56,
+   "y": 0.68,
+   "s": 0.72,
+   "pose": "pointUp",
+   "ex": "happy"
+  },
+  "wid": {
+   "st": "flip",
+   "day": 228,
+   "slot": "tr"
+  },
+  "texts": [
+   {
+    "t": "HARVEST DAY!",
+    "st": "big",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S113": {
+  "sz": "close",
+  "bg": {
+   "k": "wash",
+   "c1": "#2A1812",
+   "c2": "#0E0806"
+  },
+  "cam": {
+   "z": [
+    1.0,
+    1.18
+   ]
+  },
+  "props": [
+   {
+    "k": "plate",
+    "x": 0.5,
+    "y": 0.6,
+    "s": 2.2,
+    "v": "veg"
+   }
+  ],
+  "texts": [
+   {
+    "t": "COMPACT",
+    "st": "stamp",
+    "slot": "t"
+   }
+  ]
+ },
+ "S114": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "kitchen",
+   "px": 790.0,
+   "pal": 1,
+   "hide": [
+    "cal"
+   ]
+  },
+  "pip": {
+   "x": 0.42,
+   "y": 0.67,
+   "s": 0.82,
+   "pose": "weigh",
+   "ex": "smug"
+  },
+  "props": [
+   {
+    "k": "veg",
+    "x": 0.64,
+    "y": 0.52,
+    "s": 0.8
+   }
+  ],
+  "texts": [
+   {
+    "t": "4 EQUAL PORTIONS",
+    "st": "chip",
+    "slot": "t"
+   }
+  ]
+ },
+ "S115": {
+  "sz": "wide",
+  "bg": {
+   "k": "room",
+   "r": "kitchen",
+   "px": 790.0,
+   "pal": 3,
+   "hide": [
+    "cal"
+   ]
+  },
+  "crew": [
+   {
+    "who": "elder",
+    "x": 0.22,
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "hold",
+    "hold": "veg",
+    "ex": "smug"
+   },
+   {
+    "who": "ellis",
+    "x": 0.4,
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "hold",
+    "hold": "veg",
+    "ex": "happy"
+   },
+   {
+    "who": "spicer",
+    "x": 0.58,
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "hold",
+    "hold": "veg",
+    "ex": "smug"
+   },
+   {
+    "who": "monty",
+    "x": 0.76,
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "hold",
+    "hold": "veg",
+    "ex": "happy"
+   }
+  ],
+  "texts": [
+   {
+    "t": "VERY SCIENTIFIC",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S116": {
+  "sz": "wide",
+  "bg": {
+   "k": "split",
+   "a": {
+    "k": "wash",
+    "c1": "#7A3222",
+    "c2": "#240E08"
+   },
+   "b": {
+    "k": "wash",
+    "c1": "#2E5A32",
+    "c2": "#0C1C0E"
+   }
+  },
+  "props": [
+   {
+    "k": "pot",
+    "x": 0.25,
+    "y": 0.56,
+    "s": 1.6,
+    "v": "mars",
+    "a": 0.45
+   },
+   {
+    "k": "pot",
+    "x": 0.75,
+    "y": 0.56,
+    "s": 1.6,
+    "v": "ctrl",
+    "a": 0.95
+   }
+  ],
+  "texts": [
+   {
+    "t": "WHAT SPROUTS BEST",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S117": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "garden",
+   "px": 1190.0,
+   "pal": 2
+  },
+  "crew": [
+   {
+    "who": "monty",
+    "x": 0.45,
+    "y": 0.66,
+    "s": 0.86,
+    "pose": "type",
+    "hold": "tablet"
+   }
+  ],
+  "texts": [
+   {
+    "t": "DATA FOR FUTURE CROPS",
+    "st": "fact",
+    "slot": "t"
+   }
+  ]
+ },
+ "S118": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "garden",
+   "px": -660.0,
+   "pal": 0
+  },
+  "pip": {
+   "x": 0.45,
+   "y": 0.67,
+   "s": 0.84,
+   "pose": "carry",
+   "hold": "veg",
+   "ex": "tired"
+  },
+  "texts": [
+   {
+    "t": "GARDEN WORKOUT",
+    "st": "chip",
+    "slot": "t"
+   }
+  ]
+ },
+ "S119": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "gym",
+   "px": -440.0,
+   "pal": 2
+  },
+  "pip": {
+   "x": 0.75,
+   "y": 0.67,
+   "s": 0.82,
+   "pose": "peek",
+   "flip": -1
+  },
+  "texts": [
+   {
+    "t": "NOT THE WHOLE WORKOUT",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S120": {
+  "sz": "wide",
+  "bg": {
+   "k": "room",
+   "r": "gym",
+   "px": 190.0,
+   "pal": 0
+  },
+  "card": {
+   "a": "STAYING HEALTHY",
+   "b": "BIKE \u00b7 SAMPLES \u00b7 REST",
+   "st": 2
+  },
+  "pip": {
+   "x": 0.32,
+   "y": 0.67,
+   "s": 0.82,
+   "pose": "cheer"
+  },
+  "wid": {
+   "st": "bar",
+   "day": 255,
+   "slot": "t"
+  }
+ },
+ "S121": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "gym",
+   "px": -440.0,
+   "pal": 1
+  },
+  "cam": {
+   "z": [
+    1.0,
+    1.08
+   ]
+  },
+  "pip": {
+   "x": 0.72,
+   "y": 0.67,
+   "s": 0.82,
+   "pose": "point",
+   "flip": -1
+  },
+  "texts": [
+   {
+    "t": "STATIONARY BIKE",
+    "st": "chip",
+    "slot": "t"
+   }
+  ]
+ },
+ "S122": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "gym",
+   "px": -440.0,
+   "pal": 3
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.61,
+   "s": 0.78,
+   "pose": "pedal",
+   "ex": "tired"
+  },
+  "props": [
+   {
+    "k": "sweat",
+    "x": 0.58,
+    "y": 0.34,
+    "s": 0.9
+   }
+  ],
+  "texts": [
+   {
+    "t": "0 KM TRAVELLED",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S123": {
+  "sz": "close",
+  "bg": {
+   "k": "info",
+   "viz": "burst",
+   "cx": 0.5,
+   "cy": 0.55
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.72,
+   "s": 1.15,
+   "pose": "collapse",
+   "ex": "dizzy"
+  },
+  "texts": [
+   {
+    "t": "VERY MARS",
+    "st": "stamp",
+    "slot": "t"
+   }
+  ]
+ },
+ "S124": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "med",
+   "px": -540.0,
+   "pal": 0
+  },
+  "crew": [
+   {
+    "who": "ellis",
+    "x": 0.5,
+    "y": 0.66,
+    "s": 0.88,
+    "pose": "stand",
+    "ex": "happy"
+   }
+  ],
+  "label": {
+   "st": "lower",
+   "a": "ELLEN ELLIS",
+   "b": "MEDICAL OFFICER",
+   "slot": "bl"
+  }
+ },
+ "S125": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "med",
+   "px": 140.0,
+   "pal": 1
+  },
+  "crew": [
+   {
+    "who": "ellis",
+    "x": 0.36,
+    "y": 0.66,
+    "s": 0.82,
+    "pose": "type",
+    "hold": "tablet"
+   }
+  ],
+  "pip": {
+   "x": 0.66,
+   "y": 0.67,
+   "s": 0.8,
+   "pose": "stand",
+   "flip": -1
+  },
+  "props": [
+   {
+    "k": "heart",
+    "x": 0.5,
+    "y": 0.42,
+    "s": 0.8
+   }
+  ],
+  "texts": [
+   {
+    "t": "CREW'S HEALTH",
+    "st": "chip",
+    "slot": "t"
+   }
+  ]
+ },
+ "S126": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "med",
+   "px": 790.0,
+   "pal": 2
+  },
+  "crew": [
+   {
+    "who": "ellis",
+    "x": 0.36,
+    "y": 0.66,
+    "s": 0.86,
+    "pose": "hold",
+    "hold": "tube"
+   }
+  ],
+  "texts": [
+   {
+    "t": "BIOLOGICAL SAMPLES",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S127": {
+  "sz": "close",
+  "bg": {
+   "k": "room",
+   "r": "med",
+   "px": 790.0,
+   "pal": 4
+  },
+  "cam": {
+   "z": [
+    1.05,
+    1.16
+   ]
+  },
+  "texts": [
+   {
+    "t": "FOR HEALTH RESEARCH",
+    "st": "fact",
+    "slot": "t"
+   }
+  ]
+ },
+ "S128": {
+  "sz": "close",
+  "bg": {
+   "k": "wash",
+   "c1": "#182A38",
+   "c2": "#081018"
+  },
+  "props": [
+   {
+    "k": "tube",
+    "x": 0.34,
+    "y": 0.56,
+    "s": 1.5,
+    "c": "#E5484D"
+   },
+   {
+    "k": "tube",
+    "x": 0.5,
+    "y": 0.56,
+    "s": 1.5,
+    "c": "#FFB43A"
+   },
+   {
+    "k": "tube",
+    "x": 0.66,
+    "y": 0.56,
+    "s": 1.5,
+    "c": "#78D07A"
+   }
+  ],
+  "texts": [
+   {
+    "t": "TUBES & LABELS",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S129": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "med",
+   "px": 1440.0,
+   "pal": 5
+  },
+  "crew": [
+   {
+    "who": "ellis",
+    "x": 0.42,
+    "y": 0.66,
+    "s": 0.84,
+    "pose": "stand",
+    "ex": "happy"
+   }
+  ],
+  "pip": {
+   "x": 0.68,
+   "y": 0.67,
+   "s": 0.8,
+   "pose": "peek",
+   "flip": -1,
+   "ex": "worried"
+  },
+  "texts": [
+   {
+    "t": "VERY PATIENT DOCTOR",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S130": {
+  "sz": "wide",
+  "bg": {
+   "k": "info",
+   "viz": "dots",
+   "fill": [
+    0.55,
+    0.72
+   ]
+  },
+  "props": [
+   {
+    "k": "tube",
+    "x": 0.84,
+    "y": 0.72,
+    "s": 1.25
+   }
+  ],
+  "texts": [
+   {
+    "t": "RESEARCHING A YEAR INSIDE",
+    "st": "fact",
+    "slot": "t"
+   }
+  ]
+ },
+ "S131": {
+  "sz": "close",
+  "bg": {
+   "k": "room",
+   "r": "med",
+   "px": 140.0,
+   "pal": 0
+  },
+  "pip": {
+   "x": 0.45,
+   "y": 0.68,
+   "s": 0.92,
+   "pose": "cringe",
+   "ex": "happy"
+  },
+  "crew": [
+   {
+    "who": "ellis",
+    "x": 0.7,
+    "y": 0.67,
+    "s": 0.86,
+    "pose": "reach",
+    "flip": -1,
+    "hold": "tube"
+   }
+  ],
+  "texts": [
+   {
+    "t": "SMILE BRAVELY",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S132": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "med",
+   "px": -540.0,
+   "pal": 3
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.67,
+   "s": 0.88,
+   "pose": "cool",
+   "ex": "cool"
+  },
+  "props": [
+   {
+    "k": "check",
+    "x": 0.68,
+    "y": 0.44,
+    "s": 0.9
+   }
+  ],
+  "texts": [
+   {
+    "t": "BODY: COVERED",
+    "st": "stamp",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S133": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "bunk",
+   "px": -140.0,
+   "pal": 4,
+   "dark": 0.35
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.68,
+   "s": 0.86,
+   "pose": "think",
+   "ex": "worried"
+  },
+  "props": [
+   {
+    "k": "qm",
+    "x": 0.62,
+    "y": 0.4,
+    "s": 1.1
+   }
+  ],
+  "texts": [
+   {
+    "t": "YOUR HEAD: OPEN QUESTION",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S134": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "bunk",
+   "px": 540.0,
+   "pal": 2,
+   "add": [
+    {
+     "k": "nowin",
+     "x": 1900,
+     "y": 240,
+     "v": 1,
+     "w": 320
+    }
+   ]
+  },
+  "card": {
+   "a": "THE MIND",
+   "b": "NEWS OFF \u00b7 TEAMMATES ON",
+   "st": 3
+  },
+  "pip": {
+   "x": 0.32,
+   "y": 0.67,
+   "s": 0.84,
+   "pose": "think"
+  }
+ },
+ "S135": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "lounge",
+   "px": -460.0,
+   "pal": 4
+  },
+  "props": [
+   {
+    "k": "phone",
+    "x": 0.5,
+    "y": 0.54,
+    "s": 1.5,
+    "v": "wait"
+   },
+   {
+    "k": "x",
+    "x": 0.5,
+    "y": 0.54,
+    "s": 1.3
+   }
+  ],
+  "texts": [
+   {
+    "t": "NO ENDLESS SCROLLING",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S136": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "lounge",
+   "px": -460.0,
+   "pal": 1
+  },
+  "crew": [
+   {
+    "who": "spicer",
+    "x": 0.48,
+    "y": 0.67,
+    "s": 0.88,
+    "pose": "sip",
+    "hold": "mug",
+    "ex": "happy"
+   }
+  ],
+  "texts": [
+   {
+    "t": "BARELY MISSED IT",
+    "st": "sticker",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S137": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "lounge",
+   "px": 790.0,
+   "pal": 0
+  },
+  "crew": [
+   {
+    "who": "spicer",
+    "x": 0.38,
+    "y": 0.66,
+    "s": 0.82,
+    "pose": "cheer"
+   }
+  ],
+  "pip": {
+   "x": 0.64,
+   "y": 0.67,
+   "s": 0.82,
+   "pose": "cheer",
+   "flip": -1
+  },
+  "texts": [
+   {
+    "t": "LIFE WENT ON",
+    "st": "chip",
+    "slot": "t"
+   }
+  ]
+ },
+ "S138": {
+  "sz": "close",
+  "bg": {
+   "k": "info",
+   "viz": "burst",
+   "cx": 0.5,
+   "cy": 0.55
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.7,
+   "s": 1.05,
+   "pose": "shrug"
+  },
+  "props": [
+   {
+    "k": "qm",
+    "x": 0.25,
+    "y": 0.45,
+    "s": 1.0
+   },
+   {
+    "k": "qm",
+    "x": 0.75,
+    "y": 0.45,
+    "s": 1.0
+   }
+  ],
+  "texts": [
+   {
+    "t": "WHAT FILLED THE GAP?",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S139": {
+  "sz": "wide",
+  "bg": {
+   "k": "room",
+   "r": "kitchen",
+   "px": 790.0,
+   "pal": 1,
+   "add": [
+    {
+     "k": "table",
+     "x": 1750,
+     "w": 640,
+     "v": "cards"
+    }
+   ],
+   "hide": [
+    "cal"
+   ]
+  },
+  "crew": [
+   {
+    "who": "elder",
+    "x": 0.24,
+    "y": 0.66,
+    "s": 0.74,
+    "pose": "sit",
+    "ex": "happy"
+   },
+   {
+    "who": "ellis",
+    "x": 0.4,
+    "y": 0.66,
+    "s": 0.74,
+    "pose": "sit",
+    "ex": "happy"
+   },
+   {
+    "who": "spicer",
+    "x": 0.62,
+    "y": 0.66,
+    "s": 0.74,
+    "pose": "sit",
+    "flip": -1,
+    "ex": "happy"
+   },
+   {
+    "who": "monty",
+    "x": 0.78,
+    "y": 0.66,
+    "s": 0.74,
+    "pose": "sit",
+    "flip": -1,
+    "ex": "happy"
+   }
+  ],
+  "texts": [
+   {
+    "t": "STORIES & JOKES",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S140": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "kitchen",
+   "px": 790.0,
+   "pal": 3,
+   "mir": true,
+   "hide": [
+    "cal"
+   ]
+  },
+  "crew": [
+   {
+    "who": "elder",
+    "x": 0.36,
+    "y": 0.66,
+    "s": 0.84,
+    "pose": "point",
+    "ex": "smug"
+   }
+  ],
+  "pip": {
+   "x": 0.68,
+   "y": 0.67,
+   "s": 0.8,
+   "pose": "lean",
+   "flip": -1,
+   "ex": "happy"
+  },
+  "props": [
+   {
+    "k": "bubble",
+    "x": 0.52,
+    "y": 0.38,
+    "s": 1.0,
+    "v": "SO KEVIN SAYS..."
+   }
+  ],
+  "texts": [
+   {
+    "t": "THE SAME JOKE AGAIN",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S141": {
+  "sz": "close",
+  "bg": {
+   "k": "info",
+   "viz": "burst",
+   "cx": 0.5,
+   "cy": 0.55
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.68,
+   "s": 1.1,
+   "pose": "cheer",
+   "ex": "happy"
+  },
+  "texts": [
+   {
+    "t": "LAUGH ANYWAY",
+    "st": "stamp",
+    "slot": "t"
+   }
+  ]
+ },
+ "S142": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "lounge",
+   "px": 190.0,
+   "pal": 5
+  },
+  "crew": [
+   {
+    "who": "ellis",
+    "x": 0.46,
+    "y": 0.66,
+    "s": 0.86,
+    "pose": "wave",
+    "ex": "happy"
+   }
+  ],
+  "props": [
+   {
+    "k": "heart",
+    "x": 0.62,
+    "y": 0.42,
+    "s": 0.9
+   }
+  ],
+  "texts": [
+   {
+    "t": "RARELY FELT ISOLATED - ELLIS",
+    "st": "fact",
+    "slot": "t"
+   }
+  ]
+ },
+ "S143": {
+  "sz": "wide",
+  "bg": {
+   "k": "room",
+   "r": "hall",
+   "px": 590.0,
+   "pal": 0
+  },
+  "crew": [
+   {
+    "who": "elder",
+    "x": 0.22,
+    "y": 0.66,
+    "s": 0.74,
+    "pose": "hug"
+   },
+   {
+    "who": "ellis",
+    "x": 0.42,
+    "y": 0.66,
+    "s": 0.74,
+    "pose": "hug"
+   },
+   {
+    "who": "spicer",
+    "x": 0.62,
+    "y": 0.66,
+    "s": 0.74,
+    "pose": "hug",
+    "flip": -1
+   },
+   {
+    "who": "monty",
+    "x": 0.8,
+    "y": 0.66,
+    "s": 0.74,
+    "pose": "hug",
+    "flip": -1
+   }
+  ],
+  "texts": [
+   {
+    "t": "THREE TEAMMATES TO RELY ON",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S144": {
+  "sz": "wide",
+  "bg": {
+   "k": "room",
+   "r": "kitchen",
+   "px": 790.0,
+   "pal": 2,
+   "add": [
+    {
+     "k": "table",
+     "x": 1750,
+     "w": 640,
+     "v": "cups"
+    }
+   ],
+   "hide": [
+    "cal"
+   ]
+  },
+  "crew": [
+   {
+    "who": "elder",
+    "x": 0.2,
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "sit"
+   },
+   {
+    "who": "ellis",
+    "x": 0.4,
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "sit"
+   },
+   {
+    "who": "spicer",
+    "x": 0.6,
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "sit",
+    "flip": -1
+   },
+   {
+    "who": "monty",
+    "x": 0.8,
+    "y": 0.66,
+    "s": 0.72,
+    "pose": "sit",
+    "flip": -1
+   }
+  ],
+  "texts": [
+   {
+    "t": "4 PEOPLE \u00b7 1 TABLE",
+    "st": "chip",
+    "slot": "t"
+   }
+  ]
+ },
+ "S145": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "kitchen",
+   "px": 790.0,
+   "pal": 1,
+   "hide": [
+    "cal"
+   ],
+   "glow": 0.9
+  },
+  "props": [
+   {
+    "k": "steam",
+    "x": 0.42,
+    "y": 0.48,
+    "s": 1.1
+   },
+   {
+    "k": "steam",
+    "x": 0.58,
+    "y": 0.48,
+    "s": 1.1
+   }
+  ],
+  "texts": [
+   {
+    "t": "ONE VERY LONG CONVERSATION",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S146": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "hall",
+   "px": 590.0,
+   "pal": 0
+  },
+  "pip": {
+   "x": 0.3,
+   "y": 0.67,
+   "s": 0.82,
+   "pose": "pointUp",
+   "ex": "neutral"
+  },
+  "wid": {
+   "st": "chain",
+   "day": 310,
+   "day2": 320,
+   "slot": "tr"
+  },
+  "texts": [
+   {
+    "t": "STILL COUNTING",
+    "st": "sticker",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S147": {
+  "sz": "wide",
+  "bg": {
+   "k": "space",
+   "iss": true,
+   "e": [
+    0.35,
+    0.55,
+    0.28
+   ],
+   "m": [
+    0.85,
+    0.25,
+    0.08
+   ]
+  },
+  "texts": [
+   {
+    "t": "OUTSIDE KEPT MOVING",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S148": {
+  "sz": "wide",
+  "bg": {
+   "k": "space",
+   "e": [
+    0.36,
+    0.58,
+    0.3
+   ],
+   "m": [
+    0.84,
+    0.3,
+    0.09
+   ]
+  },
+  "card": {
+   "a": "MEANWHILE, OUTSIDE",
+   "b": "THE SPACE STATION \u00b7 THE MOON",
+   "st": 1
+  }
+ },
+ "S149": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "bunk",
+   "px": 540.0,
+   "pal": 4,
+   "add": [
+    {
+     "k": "nowin",
+     "x": 1980,
+     "y": 240,
+     "v": 5,
+     "w": 320
+    }
+   ],
+   "dark": 0.25
+  },
+  "pip": {
+   "x": 0.45,
+   "y": 0.67,
+   "s": 0.84,
+   "pose": "sit",
+   "ex": "neutral"
+  },
+  "texts": [
+   {
+    "t": "CREW STAYED INSIDE",
+    "st": "chip",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S150": {
+  "sz": "wide",
+  "bg": {
+   "k": "space",
+   "iss": true,
+   "e": [
+    0.28,
+    0.64,
+    0.32
+   ],
+   "m": [
+    0.86,
+    0.24,
+    0.07
+   ]
+  },
+  "props": [
+   {
+    "k": "iss",
+    "x": 0.62,
+    "y": 0.36,
+    "s": 1.15
+   }
+  ],
+  "label": {
+   "st": "lower",
+   "a": "JACK HATHAWAY",
+   "b": "ASTRONAUT IN ORBIT",
+   "slot": "bl"
+  }
+ },
+ "S151": {
+  "sz": "wide",
+  "bg": {
+   "k": "space",
+   "iss": true,
+   "e": [
+    0.22,
+    0.6,
+    0.28
+   ],
+   "m": [
+    0.84,
+    0.24,
+    0.06
+   ]
+  },
+  "cam": {
+   "z": [
+    1.0,
+    1.08
+   ]
+  },
+  "texts": [
+   {
+    "t": "237 DAYS ON ISS - NASA",
+    "st": "fact",
+    "slot": "t"
+   }
+  ]
+ },
+ "S152": {
+  "sz": "wide",
+  "bg": {
+   "k": "space",
+   "e": [
+    0.2,
+    0.65,
+    0.24
+   ],
+   "m": [
+    0.78,
+    0.32,
+    0.1
+   ],
+   "loop": true,
+   "prog": [
+    0.0,
+    0.3
+   ]
+  },
+  "texts": [
+   {
+    "t": "AT THE SAME TIME",
+    "st": "chip",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S153": {
+  "sz": "wide",
+  "bg": {
+   "k": "space",
+   "e": [
+    0.18,
+    0.65,
+    0.22
+   ],
+   "m": [
+    0.76,
+    0.35,
+    0.12
+   ],
+   "loop": true,
+   "prog": [
+    0.3,
+    0.85
+   ]
+  },
+  "texts": [
+   {
+    "t": "ARTEMIS II AROUND THE MOON",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S154": {
+  "sz": "wide",
+  "bg": {
+   "k": "space",
+   "e": [
+    0.16,
+    0.7,
+    0.18
+   ],
+   "m": [
+    0.82,
+    0.28,
+    0.12
+   ],
+   "loop": true,
+   "prog": 0.7
+  },
+  "texts": [
+   {
+    "t": "NEW DISTANCE RECORD",
+    "st": "stamp",
+    "slot": "t"
+   }
+  ]
+ },
+ "S155": {
+  "sz": "wide",
+  "bg": {
+   "k": "space",
+   "e": [
+    0.14,
+    0.74,
+    0.14
+   ],
+   "m": [
+    0.86,
+    0.24,
+    0.1
+   ],
+   "loop": true,
+   "prog": 0.92
+  },
+  "texts": [
+   {
+    "t": "FARTHEST HUMANS FROM EARTH",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S156": {
+  "sz": "medium",
+  "bg": {
+   "k": "space",
+   "e": [
+    0.3,
+    0.58,
+    0.24
+   ],
+   "m": [
+    0.78,
+    0.34,
+    0.1
+   ]
+  },
+  "fx": [
+   {
+    "k": "embers",
+    "n": 14,
+    "c": "#FFE27A"
+   }
+  ],
+  "texts": [
+   {
+    "t": "ACCORDING TO NASA",
+    "st": "fact",
+    "slot": "t"
+   }
+  ]
+ },
+ "S157": {
+  "sz": "wide",
+  "bg": {
+   "k": "split",
+   "a": {
+    "k": "houston",
+    "v": 1,
+    "hi": 0
+   },
+   "b": {
+    "k": "space",
+    "e": [
+     0.22,
+     0.6,
+     0.18
+    ],
+    "m": [
+     0.78,
+     0.34,
+     0.1
+    ],
+    "loop": true,
+    "prog": 0.6
+   }
+  },
+  "texts": [
+   {
+    "t": "SPLIT SCREEN",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S158": {
+  "sz": "wide",
+  "bg": {
+   "k": "split",
+   "a": {
+    "k": "houston",
+    "v": 0
+   },
+   "b": {
+    "k": "space",
+    "e": [
+     0.22,
+     0.6,
+     0.18
+    ],
+    "m": [
+     0.78,
+     0.34,
+     0.1
+    ]
+   }
+  },
+  "texts": [
+   {
+    "t": "LEFT: TINY HABITAT IN HOUSTON",
+    "st": "note",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S159": {
+  "sz": "wide",
+  "bg": {
+   "k": "split",
+   "a": {
+    "k": "room",
+    "r": "hook",
+    "px": 1020,
+    "pal": 0
+   },
+   "b": {
+    "k": "space",
+    "e": [
+     0.2,
+     0.6,
+     0.18
+    ],
+    "m": [
+     0.78,
+     0.34,
+     0.1
+    ],
+    "loop": true,
+    "prog": [
+     0.4,
+     0.9
+    ]
+   }
+  },
+  "texts": [
+   {
+    "t": "RIGHT: TRIP AROUND THE MOON",
+    "st": "note",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S160": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "garden",
+   "px": -660.0,
+   "pal": 1
+  },
+  "pip": {
+   "x": [
+    0.28,
+    0.5
+   ],
+   "y": 0.67,
+   "s": 0.82,
+   "pose": "trudge",
+   "hold": "veg"
+  },
+  "texts": [
+   {
+    "t": "FARTHEST WALK: THE GARDEN",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S161": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "hall",
+   "px": 590.0,
+   "pal": 0
+  },
+  "pip": {
+   "x": 0.32,
+   "y": 0.67,
+   "s": 0.82,
+   "pose": "pointUp"
+  },
+  "wid": {
+   "st": "bar",
+   "day": 374,
+   "slot": "tr"
+  },
+  "texts": [
+   {
+    "t": "BACK AT THE HABITAT",
+    "st": "chip",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S162": {
+  "sz": "wide",
+  "bg": {
+   "k": "info",
+   "viz": "dots",
+   "fill": [
+    0.92,
+    0.995
+   ]
+  },
+  "texts": [
+   {
+    "t": "ALMOST FULL",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S163": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "hook",
+   "px": 540.0,
+   "pal": 1,
+   "add": [
+    {
+     "k": "cal",
+     "x": 1020,
+     "y": 220,
+     "w": 320,
+     "h": 220,
+     "st": "flip",
+     "day": 378
+    }
+   ],
+   "glow": 0.9
+  },
+  "card": {
+   "a": "DAY 378",
+   "b": "31 OCTOBER 2026",
+   "st": 0
+  },
+  "pip": {
+   "x": 0.7,
+   "y": 0.67,
+   "s": 0.82,
+   "pose": "stand",
+   "flip": -1
+  }
+ },
+ "S164": {
+  "sz": "wide",
+  "bg": {
+   "k": "info",
+   "viz": "timeline",
+   "m": [
+    0.82,
+    1.0
+   ]
+  },
+  "texts": [
+   {
+    "t": "31 OCT 2026",
+    "st": "num",
+    "slot": "t",
+    "size": 140
+   },
+   {
+    "t": "EGRESS \u00b7 NASA",
+    "st": "chip",
+    "slot": "br"
+   }
+  ]
+ },
+ "S165": {
+  "sz": "wide",
+  "bg": {
+   "k": "out",
+   "bld": 0.35,
+   "hatch": [
+    0.0,
+    1.0
+   ],
+   "glare": 0.18,
+   "trees": true,
+   "road": true
+  },
+  "crew": [
+   {
+    "who": "elder",
+    "x": [
+     0.35,
+     0.52
+    ],
+    "y": 0.67,
+    "s": 0.78,
+    "pose": "step"
+   }
+  ],
+  "pip": {
+   "x": [
+    0.38,
+    0.62
+   ],
+   "y": 0.68,
+   "s": 0.72,
+   "pose": "cheer"
+  },
+  "texts": [
+   {
+    "t": "THE CREW STEPPED OUT",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S166": {
+  "sz": "wide",
+  "bg": {
+   "k": "info",
+   "viz": "dots",
+   "fill": [
+    0.98,
+    1.0
+   ]
+  },
+  "texts": [
+   {
+    "t": "378",
+    "st": "num",
+    "slot": "c",
+    "size": 210
+   },
+   {
+    "t": "DAYS COMPLETE",
+    "st": "stamp",
+    "slot": "b"
+   }
+  ]
+ },
+ "S167": {
+  "sz": "wide",
+  "bg": {
+   "k": "out",
+   "bld": 0.2,
+   "hatch": 1.0,
+   "trees": true,
+   "road": true
+  },
+  "crew": [
+   {
+    "who": "elder",
+    "x": 0.44,
+    "y": 0.67,
+    "s": 0.74,
+    "pose": "cheer"
+   },
+   {
+    "who": "ellis",
+    "x": 0.56,
+    "y": 0.67,
+    "s": 0.74,
+    "pose": "wave"
+   },
+   {
+    "who": "spicer",
+    "x": 0.68,
+    "y": 0.67,
+    "s": 0.74,
+    "pose": "cheer"
+   },
+   {
+    "who": "monty",
+    "x": 0.8,
+    "y": 0.67,
+    "s": 0.74,
+    "pose": "wave"
+   }
+  ],
+  "texts": [
+   {
+    "t": "FIRST TIME OUTDOORS",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S168": {
+  "sz": "wide",
+  "bg": {
+   "k": "out",
+   "crowd": 10,
+   "banner": "WELCOME BACK!",
+   "trees": true
+  },
+  "texts": [
+   {
+    "t": "FAMILY & FRIENDS WELCOMED THEM",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S169": {
+  "sz": "close",
+  "bg": {
+   "k": "info",
+   "viz": "burst",
+   "cx": 0.5,
+   "cy": 0.55
+  },
+  "fx": [
+   {
+    "k": "embers",
+    "n": 16,
+    "c": "#FFE27A"
+   }
+  ],
+  "wid": {
+   "st": "cal",
+   "day": 378,
+   "slot": "c"
+  },
+  "texts": [
+   {
+    "t": "DAY 378!",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S170": {
+  "sz": "close",
+  "bg": {
+   "k": "out",
+   "glare": [
+    0.1,
+    0.4
+   ],
+   "sx": 0.75,
+   "sy": 0.22
+  },
+  "pip": {
+   "x": 0.42,
+   "y": 0.7,
+   "s": 1.15,
+   "pose": "squint"
+  },
+  "texts": [
+   {
+    "t": "PIP SQUINTS AT THE SUN",
+    "st": "note",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S171": {
+  "sz": "medium",
+  "bg": {
+   "k": "out",
+   "glare": [
+    0.35,
+    0.6
+   ],
+   "sx": 0.5,
+   "sy": 0.26
+  },
+  "pip": {
+   "x": 0.32,
+   "y": 0.69,
+   "s": 0.9,
+   "pose": "squint",
+   "ex": "shock"
+  },
+  "props": [
+   {
+    "k": "sun",
+    "x": 0.68,
+    "y": 0.42,
+    "s": 1.4
+   }
+  ],
+  "texts": [
+   {
+    "t": "VERY BRIGHT. VERY SUN.",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S172": {
+  "sz": "wide",
+  "bg": {
+   "k": "out",
+   "glare": 0.08,
+   "trees": true
+  },
+  "fx": [
+   {
+    "k": "streaks",
+    "a": -5,
+    "n": 16,
+    "sp": 1.8
+   }
+  ],
+  "pip": {
+   "x": 0.42,
+   "y": 0.68,
+   "s": 0.84,
+   "pose": "cheer",
+   "ex": "happy"
+  },
+  "texts": [
+   {
+    "t": "ACTUAL WIND!",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S173": {
+  "sz": "wide",
+  "bg": {
+   "k": "out",
+   "trees": true,
+   "road": false
+  },
+  "props": [
+   {
+    "k": "lawnmower",
+    "x": [
+     0.76,
+     0.68
+    ],
+    "y": 0.66,
+    "s": 0.9
+   }
+  ],
+  "pip": {
+   "x": 0.26,
+   "y": 0.68,
+   "s": 0.84,
+   "pose": "stand",
+   "ex": "happy"
+  },
+  "texts": [
+   {
+    "t": "DISTANT LAWNMOWER. BEAUTIFUL.",
+    "st": "note",
+    "slot": "t"
+   }
+  ]
+ },
+ "S174": {
+  "sz": "medium",
+  "bg": {
+   "k": "out",
+   "crowd": 6,
+   "trees": true
+  },
+  "pip": {
+   "x": 0.38,
+   "y": 0.68,
+   "s": 0.86,
+   "pose": "hug",
+   "ex": "happy"
+  },
+  "crew": [
+   {
+    "who": "ellis",
+    "x": 0.52,
+    "y": 0.68,
+    "s": 0.86,
+    "pose": "hug",
+    "flip": -1,
+    "ex": "happy"
+   }
+  ],
+  "texts": [
+   {
+    "t": "HUGS!",
+    "st": "stamp",
+    "slot": "t"
+   }
+  ]
+ },
+ "S175": {
+  "sz": "medium",
+  "bg": {
+   "k": "out",
+   "crowd": 8,
+   "banner": "378 DAYS!"
+  },
+  "props": [
+   {
+    "k": "check",
+    "x": 0.78,
+    "y": 0.44,
+    "s": 1.1
+   }
+  ],
+  "texts": [
+   {
+    "t": "ZERO DELAY",
+    "st": "chip",
+    "slot": "tl"
+   }
+  ]
+ },
+ "S176": {
+  "sz": "wide",
+  "bg": {
+   "k": "space",
+   "e": [
+    0.22,
+    0.62,
+    0.22
+   ],
+   "m": [
+    0.46,
+    0.42,
+    0.06
+   ]
+  },
+  "props": [
+   {
+    "k": "mars",
+    "x": 0.8,
+    "y": 0.5,
+    "s": 1.4
+   },
+   {
+    "k": "qm",
+    "x": 0.8,
+    "y": 0.28,
+    "s": 0.9
+   }
+  ],
+  "texts": [
+   {
+    "t": "WHY LIVE IN A FAKE MARS?",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S177": {
+  "sz": "wide",
+  "bg": {
+   "k": "space",
+   "e": [
+    0.18,
+    0.65,
+    0.16
+   ],
+   "m": [
+    0.36,
+    0.48,
+    0.05
+   ]
+  },
+  "card": {
+   "a": "WHY IT MATTERS",
+   "b": "DATA FOR THE NEXT CREWS",
+   "st": 2
+  },
+  "props": [
+   {
+    "k": "mars",
+    "x": 0.84,
+    "y": 0.45,
+    "s": 1.35
+   }
+  ]
+ },
+ "S178": {
+  "sz": "wide",
+  "bg": {
+   "k": "space",
+   "e": [
+    0.18,
+    0.64,
+    0.18
+   ],
+   "m": [
+    0.36,
+    0.5,
+    0.05
+   ]
+  },
+  "props": [
+   {
+    "k": "ship",
+    "x": [
+     0.32,
+     0.66
+    ],
+    "y": [
+     0.6,
+     0.44
+    ],
+    "s": 0.9,
+    "r": 55
+   },
+   {
+    "k": "mars",
+    "x": 0.84,
+    "y": 0.4,
+    "s": 1.4
+   }
+  ],
+  "texts": [
+   {
+    "t": "REAL CREWS NEED ANSWERS",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S179": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "ops",
+   "px": 490.0,
+   "pal": 1
+  },
+  "crew": [
+   {
+    "who": "monty",
+    "x": 0.34,
+    "y": 0.66,
+    "s": 0.78,
+    "pose": "type",
+    "hold": "tablet"
+   },
+   {
+    "who": "ellis",
+    "x": 0.66,
+    "y": 0.66,
+    "s": 0.78,
+    "pose": "point",
+    "flip": -1,
+    "hold": "clip"
+   }
+  ],
+  "texts": [
+   {
+    "t": "EVERYTHING BECOMES DATA",
+    "st": "chip",
+    "slot": "t"
+   }
+  ]
+ },
+ "S180": {
+  "sz": "wide",
+  "bg": {
+   "k": "wash",
+   "c1": "#8A3A22",
+   "c2": "#1A0C08"
+  },
+  "pip": {
+   "x": 0.32,
+   "y": 0.7,
+   "s": 0.84,
+   "pose": "salute",
+   "suit": 1
+  },
+  "props": [
+   {
+    "k": "mars",
+    "x": 0.72,
+    "y": 0.52,
+    "s": 1.8
+   }
+  ],
+  "texts": [
+   {
+    "t": "FOR FUTURE MARS CREWS",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S181": {
+  "sz": "wide",
+  "bg": {
+   "k": "space",
+   "e": [
+    0.18,
+    0.7,
+    0.18
+   ],
+   "m": [
+    0.7,
+    0.44,
+    0.22
+   ]
+  },
+  "props": [
+   {
+    "k": "ship",
+    "x": 0.54,
+    "y": [
+     0.56,
+     0.44
+    ],
+    "s": 0.85,
+    "r": 35
+   }
+  ],
+  "texts": [
+   {
+    "t": "NASA'S MOON BASE PLANNING",
+    "st": "fact",
+    "slot": "t"
+   }
+  ]
+ },
+ "S182": {
+  "sz": "medium",
+  "bg": {
+   "k": "info",
+   "viz": "burst",
+   "cx": 0.5,
+   "cy": 0.55
+  },
+  "pip": {
+   "x": 0.75,
+   "y": 0.7,
+   "s": 0.85,
+   "pose": "pointUp",
+   "flip": -1
+  },
+  "label": {
+   "st": "ribbon",
+   "a": "SARA WHITING \u00b7 NASA",
+   "b": "CHAPEA PROJECT",
+   "slot": "tl"
+  },
+  "texts": [
+   {
+    "t": "\"THE NOW MOMENT\"",
+    "st": "big",
+    "slot": "b"
+   }
+  ]
+ },
+ "S183": {
+  "sz": "wide",
+  "bg": {
+   "k": "info",
+   "viz": "timeline",
+   "m": [
+    0.0,
+    0.25
+   ],
+   "first": true
+  },
+  "texts": [
+   {
+    "t": "FIRST MISSION LIKE THIS",
+    "st": "chip",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S184": {
+  "sz": "wide",
+  "bg": {
+   "k": "info",
+   "viz": "timeline",
+   "m": 0.25,
+   "first": true
+  },
+  "texts": [
+   {
+    "t": "ENDED 6 JULY 2024",
+    "st": "stamp",
+    "slot": "tr"
+   }
+  ]
+ },
+ "S185": {
+  "sz": "wide",
+  "bg": {
+   "k": "info",
+   "viz": "timeline",
+   "m": [
+    0.25,
+    1.0
+   ],
+   "first": true
+  },
+  "texts": [
+   {
+    "t": "+378 DAYS ADDED",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S186": {
+  "sz": "medium",
+  "bg": {
+   "k": "room",
+   "r": "hook",
+   "px": 540.0,
+   "pal": 0,
+   "add": [
+    {
+     "k": "cal",
+     "x": 1980,
+     "y": 220,
+     "w": 320,
+     "h": 220,
+     "st": "screen",
+     "day": 378,
+     "sub": "COMPLETE"
+    }
+   ]
+  },
+  "pip": {
+   "x": 0.45,
+   "y": 0.67,
+   "s": 0.88,
+   "pose": "shrug",
+   "ex": "smug"
+  },
+  "texts": [
+   {
+    "t": "COULD YOU LAST A YEAR?",
+    "st": "big",
+    "slot": "t"
+   }
+  ]
+ },
+ "S187": {
+  "sz": "medium",
+  "bg": {
+   "k": "out",
+   "bld": 0.24,
+   "hatch": 1.0,
+   "trees": true
+  },
+  "pip": {
+   "x": 0.56,
+   "y": 0.68,
+   "s": 0.9,
+   "pose": "point",
+   "ex": "happy"
+  },
+  "texts": [
+   {
+    "t": "WHAT YOU'D MISS FIRST",
+    "st": "sticker",
+    "slot": "t"
+   }
+  ]
+ },
+ "S188": {
+  "sz": "wide",
+  "bg": {
+   "k": "out",
+   "trees": true,
+   "sx": 0.78,
+   "sy": 0.18,
+   "glare": 0.12
+  },
+  "pip": {
+   "x": 0.5,
+   "y": 0.68,
+   "s": 0.88,
+   "pose": "wave2",
+   "ex": "happy"
+  },
+  "texts": [
+   {
+    "t": "TOMORROW: A NEW WHAT IF",
+    "st": "chip",
+    "slot": "t"
+   }
+  ]
+ },
+ "S189": {
+  "sz": "wide",
+  "bg": {
+   "k": "out",
+   "crowd": 6,
+   "banner": "IFMOSPHERE",
+   "trees": true
+  },
+  "pip": {
+   "x": 0.24,
+   "y": 0.68,
+   "s": 0.82,
+   "pose": "wave"
+  },
+  "texts": [
+   {
+    "t": "COMMENT WHAT YOU'D MISS",
+    "st": "note",
+    "slot": "b"
+   }
+  ]
+ },
+ "S190": {
+  "sz": "end",
+  "bg": {
+   "k": "wash",
+   "c1": "#6E3220",
+   "c2": "#1A0C08"
+  },
+  "end": 1
+ }
+}

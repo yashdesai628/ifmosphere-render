@@ -1,0 +1,52 @@
+{
+  "id": "Marsyear",
+  "slug": "marsyear",
+  "channel": "Ifmosphere",
+  "tagline": "Step into the what if.",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "topic": "What if you lived on Mars for a year?",
+  "title": [
+    "WHAT IF YOU",
+    "LIVED ON MARS FOR A YEAR?"
+  ],
+  "accent": "MARS",
+  "science": [
+    {
+      "claim": "Four crew volunteers spent 378 days inside Mars Dune Alpha, entering on 19 October 2025 and stepping out on 31 October 2026.",
+      "working": "CHAPEA Mission 2 habitat simulation duration reported directly by NASA as 378 days from ingress on 19 Oct 2025 to egress on 31 Oct 2026.",
+      "source": "https://www.nasa.gov/centers-and-facilities/johnson/chapea-mission-2-crew-reflects-after-378-days-on-simulated-mars/"
+    },
+    {
+      "claim": "Mars Dune Alpha is a roughly 1,700-square-foot 3D-printed habitat at NASA's Johnson Space Center in Houston, with zero windows.",
+      "working": "Direct NASA facility specification for CHAPEA's Mars Dune Alpha habitat.",
+      "source": "https://www.nasa.gov/centers-and-facilities/johnson/chapea-mission-2-crew-reflects-after-378-days-on-simulated-mars/"
+    },
+    {
+      "claim": "Crew members were Ross Elder (commander, test pilot), Ellen Ellis (medical officer), James Spicer (flight engineer), and Matthew Montgomery (science officer).",
+      "working": "CHAPEA Mission 2 crew roster and assigned roles from NASA.",
+      "source": "https://www.nasa.gov/centers-and-facilities/johnson/chapea-mission-2-crew-reflects-after-378-days-on-simulated-mars/"
+    },
+    {
+      "claim": "Communication delays between the habitat and outside took up to 22 minutes each way.",
+      "working": "Simulated one-way Earth-Mars light-time communication delay up to 22 minutes each way.",
+      "source": "https://www.nasa.gov/centers-and-facilities/johnson/chapea-mission-2-crew-reflects-after-378-days-on-simulated-mars/"
+    },
+    {
+      "claim": "Crew operations included simulated Marswalks, remotely flying a drone and driving a rover from inside, tracking consumables, hydroponic vegetables, seed-germination experiments in simulated Martian soil vs control, stationary bike exercise, and biological sample collections.",
+      "working": "Operational activities and observations reported by the CHAPEA Mission 2 crew and NASA.",
+      "source": "https://www.nasa.gov/centers-and-facilities/johnson/chapea-mission-2-crew-reflects-after-378-days-on-simulated-mars/"
+    },
+    {
+      "claim": "While CHAPEA Mission 2 was inside, astronaut Jack Hathaway completed a 237-day mission on the International Space Station, and Artemis II astronauts flew around the Moon and set the record for the farthest humans have travelled from Earth.",
+      "working": "Parallel human spaceflight milestones noted in NASA's CHAPEA Mission 2 reflection article.",
+      "source": "https://www.nasa.gov/centers-and-facilities/johnson/chapea-mission-2-crew-reflects-after-378-days-on-simulated-mars/"
+    },
+    {
+      "claim": "The first CHAPEA mission ended on 6 July 2024; NASA's Sara Whiting described the data as supporting future Mars crews and Moon Base planning ('the now moment').",
+      "working": "CHAPEA Mission 1 completion date and program context from NASA.",
+      "source": "https://www.nasa.gov/centers-and-facilities/johnson/chapea-mission-2-crew-reflects-after-378-days-on-simulated-mars/"
+    }
+  ]
+}
