@@ -1,0 +1,8 @@
+[
+  {
+    "file": "episodes/jump/sets-inner.tsx",
+    "sha256": "0678a690ab6caccc5541fbea253f11e3074d1186d50ad882566d5f8f9cf6c3c9",
+    "rules": ["look-override", "pip-variant"],
+    "note": "Grandfathered: the published Jump film's Apollo-suit shot (BulkySuitHero) recolours LOOKS.pip into a white suit. Not allowed in new episodes: a suit is an overlay drawn with <PipLocal> on top of <Pip>. The exemption ends if this file changes."
+  }
+]

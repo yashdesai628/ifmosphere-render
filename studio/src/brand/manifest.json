@@ -1,0 +1,18 @@
+{
+  "reference": "Film 2 Jump (posted 9 Nov 2026), Pip = engine Hero + LOOKS.pipHood",
+  "files": {
+    "src/Root.tsx": "773b49329fb4d9eb0a167a4a0d4bf492f66b3b3c4823397c8c2d3ffd04ad984f",
+    "src/brand/Pip.tsx": "9f2a1d08046d3af75154e23433e264c9ee4bab7f53ccc6544e257f663e79f382",
+    "src/brand/README.md": "564baf3dbbb955e7148c696f5337ab62e44b0a66a7cb98c9934e77015a192286",
+    "src/brand/ReferenceSheet.tsx": "52cde2044c716960271a7434d5e35ca554ba7dbf5e8bb8a22dab997af7996de9",
+    "src/brand/index.ts": "73365eb105235fb341f61025c2aefbd33342faab9c9231701f3e16b2f2c02232",
+    "src/brand/kit.tsx": "1582118cd44ad966141b176de5e0186e623c6b38f431b49145b76e7e043fe11a",
+    "src/brand/legacy-allow.json": "ccfb605ee44fec744ff5f93417eaa654190fce65673dd57c53f0de6b1b093078",
+    "src/brand/pip-neutral.png": "6d86db5df1ab4b65356d15d67c38781dd0ac6f7d35cc29a2b9e050f426e1ce69",
+    "src/brand/style.ts": "aef61ec98551233f286354bbc7d07bccec3d1391df56aeb85adc7491a064a539",
+    "src/engine/fonts.ts": "0d10ad628d4db784528b080b58dd986347c2c6524e227572a066989bef3b65a6",
+    "src/engine/kit.tsx": "8f82194358603baacd2f59ba5c507ee5d1769c42164d0497ab9282d2da50f6d4",
+    "src/engine/rig.tsx": "fac118746caa230d218728f1f9377228799a5a7b8ed953a1df6b019080640bb8",
+    "src/engine/ui.tsx": "42922c8c171db2a839d3c559c2df17517b65a43f657224d3a9aafd69375416a1"
+  }
+}

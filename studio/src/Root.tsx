@@ -4,6 +4,7 @@ import './engine/fonts';
 import { STUDIO } from './studio.config';
 import { EPISODES } from './episodes';
 import { CastSheet } from './CastSheet';
+import { ReferenceSheet, PipCheck, SHEET_W, SHEET_H } from './brand/ReferenceSheet';
 
 // Every episode gets two compositions: <Id> (the film) and <Id>Board (one frame per shot, at its key frame, for the
 // storyboard). Cast renders the cast sheet.
@@ -23,6 +24,9 @@ export const Root: React.FC = () => {
         );
       })}
       <Composition id="Cast" component={CastSheet} durationInFrames={1} {...common} />
+      {/* the locked brand: reference sheet + the neutral still check_style.py compares */}
+      <Composition id="BrandSheet" component={ReferenceSheet} durationInFrames={1} fps={STUDIO.fps} width={SHEET_W} height={SHEET_H} />
+      <Composition id="BrandPipCheck" component={PipCheck} durationInFrames={1} fps={STUDIO.fps} width={600} height={700} />
     </>
   );
 };
