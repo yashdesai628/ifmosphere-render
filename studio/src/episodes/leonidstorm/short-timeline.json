@@ -1,0 +1,342 @@
+{
+ "slug": "leonidstorm",
+ "title": "WHAT IF YOU WATCHED 144,000 METEORS IN ONE HOUR?",
+ "fps": 30,
+ "total": 1392,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 80,
+   "t0": 0,
+   "t1": 80,
+   "line": "Forty shooting stars. Every second."
+  },
+  {
+   "shot": "S2",
+   "a": 80,
+   "b": 120,
+   "t0": 0,
+   "t1": 40,
+   "line": "For a whole hour."
+  },
+  {
+   "shot": "S3",
+   "a": 120,
+   "b": 254,
+   "t0": 0,
+   "t1": 134,
+   "line": "Nineteen sixty-six. Thirteen people, one mountain in Arizona."
+  },
+  {
+   "shot": "S4",
+   "a": 254,
+   "b": 344,
+   "t0": 0,
+   "t1": 90,
+   "line": "One hundred forty-four thousand meteors in an hour."
+  },
+  {
+   "shot": "S5",
+   "a": 344,
+   "b": 372,
+   "t0": 0,
+   "t1": 28,
+   "line": "They ducked."
+  },
+  {
+   "shot": "S6",
+   "a": 372,
+   "b": 450,
+   "t0": 0,
+   "t1": 78,
+   "line": "It comes from a comet. Tempel-Tuttle."
+  },
+  {
+   "shot": "S7",
+   "a": 450,
+   "b": 516,
+   "t0": 0,
+   "t1": 66,
+   "line": "It leaves a river of dust behind it."
+  },
+  {
+   "shot": "S8",
+   "a": 516,
+   "b": 600,
+   "t0": 0,
+   "t1": 84,
+   "line": "Once a year, Earth drives through the edge."
+  },
+  {
+   "shot": "S9",
+   "a": 600,
+   "b": 678,
+   "t0": 0,
+   "t1": 78,
+   "line": "Hit a fresh clump, and the sky opens."
+  },
+  {
+   "shot": "S10",
+   "a": 678,
+   "b": 778,
+   "t0": 0,
+   "t1": 100,
+   "line": "Facing us, they strike at forty-five miles a second."
+  },
+  {
+   "shot": "S11",
+   "a": 778,
+   "b": 855,
+   "t0": 0,
+   "t1": 77,
+   "line": "Ten thousand New Yorkers came to watch it."
+  },
+  {
+   "shot": "S12",
+   "a": 855,
+   "b": 890,
+   "t0": 0,
+   "t1": 35,
+   "line": "It was cloudy."
+  },
+  {
+   "shot": "S13",
+   "a": 890,
+   "b": 949,
+   "t0": 0,
+   "t1": 59,
+   "line": "This week the Leonids are back."
+  },
+  {
+   "shot": "S14",
+   "a": 949,
+   "b": 1003,
+   "t0": 0,
+   "t1": 54,
+   "line": "But the dust is thin this year."
+  },
+  {
+   "shot": "S15",
+   "a": 1003,
+   "b": 1057,
+   "t0": 0,
+   "t1": 54,
+   "line": "Fifteen an hour, at best."
+  },
+  {
+   "shot": "S16",
+   "a": 1057,
+   "b": 1143,
+   "t0": 0,
+   "t1": 86,
+   "line": "So look before dawn, after the Moon sets."
+  },
+  {
+   "shot": "S17",
+   "a": 1143,
+   "b": 1219,
+   "t0": 0,
+   "t1": 76,
+   "line": "The next big burst: twenty thirty-four."
+  },
+  {
+   "shot": "S18",
+   "a": 1219,
+   "b": 1322,
+   "t0": 0,
+   "t1": 103,
+   "line": "Full film on the channel. Tomorrow: another what if."
+  },
+  {
+   "shot": "S19",
+   "a": 1322,
+   "b": 1392,
+   "t0": 0,
+   "t1": 70,
+   "line": "Forty. Every second."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "med",
+   "key": 50,
+   "len": 80,
+   "first": 0,
+   "line": "Forty shooting stars. Every second.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "close",
+   "key": 25,
+   "len": 40,
+   "first": 80,
+   "line": "For a whole hour.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "wide",
+   "key": 83,
+   "len": 134,
+   "first": 120,
+   "line": "Nineteen sixty-six. Thirteen people, one mountain in Arizona.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "high",
+   "key": 56,
+   "len": 90,
+   "first": 254,
+   "line": "One hundred forty-four thousand meteors in an hour.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "low",
+   "key": 17,
+   "len": 28,
+   "first": 344,
+   "line": "They ducked.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "wide",
+   "key": 48,
+   "len": 78,
+   "first": 372,
+   "line": "It comes from a comet. Tempel-Tuttle.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "pan",
+   "key": 41,
+   "len": 66,
+   "first": 450,
+   "line": "It leaves a river of dust behind it.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "insert",
+   "key": 52,
+   "len": 84,
+   "first": 516,
+   "line": "Once a year, Earth drives through the edge.",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "pullout",
+   "key": 48,
+   "len": 78,
+   "first": 600,
+   "line": "Hit a fresh clump, and the sky opens.",
+   "note": "ch0"
+  },
+  {
+   "id": "S10",
+   "size": "low",
+   "key": 62,
+   "len": 100,
+   "first": 678,
+   "line": "Facing us, they strike at forty-five miles a second.",
+   "note": "ch0"
+  },
+  {
+   "id": "S11",
+   "size": "med",
+   "key": 48,
+   "len": 77,
+   "first": 778,
+   "line": "Ten thousand New Yorkers came to watch it.",
+   "note": "ch0"
+  },
+  {
+   "id": "S12",
+   "size": "close",
+   "key": 22,
+   "len": 35,
+   "first": 855,
+   "line": "It was cloudy.",
+   "note": "ch0"
+  },
+  {
+   "id": "S13",
+   "size": "wide",
+   "key": 37,
+   "len": 59,
+   "first": 890,
+   "line": "This week the Leonids are back.",
+   "note": "ch0"
+  },
+  {
+   "id": "S14",
+   "size": "high",
+   "key": 33,
+   "len": 54,
+   "first": 949,
+   "line": "But the dust is thin this year.",
+   "note": "ch0"
+  },
+  {
+   "id": "S15",
+   "size": "med",
+   "key": 33,
+   "len": 54,
+   "first": 1003,
+   "line": "Fifteen an hour, at best.",
+   "note": "ch0"
+  },
+  {
+   "id": "S16",
+   "size": "tilt",
+   "key": 53,
+   "len": 86,
+   "first": 1057,
+   "line": "So look before dawn, after the Moon sets.",
+   "note": "ch0"
+  },
+  {
+   "id": "S17",
+   "size": "insert",
+   "key": 47,
+   "len": 76,
+   "first": 1143,
+   "line": "The next big burst: twenty thirty-four.",
+   "note": "ch0"
+  },
+  {
+   "id": "S18",
+   "size": "close",
+   "key": 64,
+   "len": 103,
+   "first": 1219,
+   "line": "Full film on the channel. Tomorrow: another what if.",
+   "note": "ch0"
+  },
+  {
+   "id": "S19",
+   "size": "med",
+   "key": 43,
+   "len": 70,
+   "first": 1322,
+   "line": "Forty. Every second.",
+   "note": "ch0"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "leonidstorm/short-voice.wav",
+  "sfx": "leonidstorm/short-sfx.wav",
+  "music": "leonidstorm/short-music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}

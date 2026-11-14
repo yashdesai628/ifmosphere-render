@@ -1,0 +1,7537 @@
+{
+ "slug": "leonidstorm",
+ "id": "Leonidstorm",
+ "title": [
+  "WHAT IF YOU WATCHED",
+  "144,000 METEORS IN ONE HOUR?"
+ ],
+ "accent": [
+  "144,000"
+ ],
+ "voice": {
+  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.44,
+   "similarity_boost": 0.8,
+   "style": 0.36,
+   "use_speaker_boost": true,
+   "speed": 0.98
+  }
+ },
+ "short_vo": {
+  "stability": 0.42,
+  "style": 0.4,
+  "speed": 1.03
+ },
+ "short_music": {
+  "mood": "tense",
+  "energy": 0.75
+ },
+ "mix": {
+  "music_under": 17,
+  "sfx_under": 7,
+  "duck_db": 6
+ },
+ "sets": {
+  "hill": "Night hilltop observing field, Jump treatment. far: SpaceBackdrop #080614 with dense stars and a faint Milky Way band; mid: two layered dark ridge silhouettes with a pale rim line; near: GroundPlane of dry grass with pale rim and two dark outlined rocks. setp.rate 0..1 = meteor density: thin cream/gold streaks with a bloom head, 40-140 px long, all radiating from a radiant point near (0.5, 0.1), count round(rate*55) alive at once, each on its own phase so nothing visibly repeats; at rate 0 none, at 0.05 one rare streak. setp.tint 'cold' (default) | 'dawn' (warm orange horizon glow) | 'red'. setp.sickle 1 draws the backwards-question-mark Leo Sickle in bright dots at the radiant.",
+  "summit": "Mountain observatory (Kitt Peak / Table Mountain style): the hill set plus a pale-rimmed dome silhouette with an open slit on the left, a telescope tube pointing up through it, a small lit window with warm Glow, a dirt access road in the mid ground. setp.rate as hill. setp.tint cold|dawn.",
+  "town1833": "1833 New England night. far: stars with meteors by setp.rate (same streak rule as hill); mid: row of dark rooftops with chimneys and a church spire, three warm lit windows (Glow); near: cobbled street GroundPlane, one lantern post with warm bloom. setp.rate 0..1.",
+  "space": "Deep-space diagram scene: SpaceBackdrop with slow rays. setp.view: 'comet' = small dark rock with a bright coma and two tails (white-blue ion tail straight, pale yellow dust tail curved) travelling right with a Sun glow far left; 'trail' = a wide translucent dotted dust band curving across the frame with Earth (small blue-green disc, pale rim) crossing it at the centre; 'orbits' = Sun glow centre, thin dashed cream ellipses for Earth's orbit and the comet's long oval orbit, Jupiter as a gold disc on a wider ring; 'far' = tiny Sun, a huge dark gap, the comet as a pin-prick far out past a Saturn ring. setp.t 0..1 animates the main body along its path.",
+  "atmos": "Edge of Earth's atmosphere seen from the side: curved planet limb along the bottom (deep blue disc, pale rim), a thin cyan atmosphere glow band above it, stars above. setp.rate meteors enter from the upper right as bright streaks that flare and vanish at the glow band, with a small bloom flash. setp.speed 0..1 streak length.",
+  "city": "Night Central Park, 1966. far: skyline silhouettes with many warm lit windows; mid: park lawn GroundPlane with hundreds of tiny warm dots (lanterns/flashlights, no figures) and a few bare tree silhouettes; sky: setp.clouds 0..1 = thick flat dark-grey outlined cloud banks sliding over the stars (0 clear, 1 total overcast).",
+  "garden": "Present-day back garden before dawn, 2026. far: deep sky fading to a thin dawn-orange horizon, stars, Leo's Sickle, Mars (small red disc) and Jupiter (small gold disc) side by side with bloom; mid: dark fence line and a house roof edge; near: frosty GroundPlane with pale rim, a patio chair. setp.rate 0..0.1 rare streaks. setp.frost 1 adds sparkle dots on the ground.",
+  "void": "Plain deep-navy SpaceBackdrop stage with slow light rays and almost no stars, for big numbers, bars and diagrams. setp.glow 'gold'|'cyan'|'red' tints the rays."
+ },
+ "props": {
+  "counter": "Big flat panel, 4 px dark outline, dark #1E1B2E face, cream flip digits in FONTS.title with thousands separators, label in FONTS.ui underneath. pp.from and pp.to: the number counts up from->to across the shot (ease-out); pp.label text; pp.color gold|red|cyan.",
+  "clock": "Round analogue clock face, cream disc, 4 px dark outline, ticks, one hand. pp.from..pp.to in minutes: the hand sweeps; pp.glow true adds a gold bloom.",
+  "umbrella": "Big flat umbrella, hood-teal #2FB7A6 panels with dark outline, mustard handle; tiny gold sparks bounce off the canopy when pp.hit is true. Held above Pip as an overlay (pip.held).",
+  "telescope": "Small tripod telescope: dark tube, mustard ring, three outlined legs, soft rim light.",
+  "thermos": "Mustard thermos flask with a dark cap and a little steam curl (Glow).",
+  "blanket": "Overlay for PipLocal: checked mustard-and-dark blanket draped over Pip's shoulders, sits below the head, never covers the face.",
+  "clipboard": "Flat clipboard with cream sheet; pp.marks = number of tally strokes drawn on in sequence; dark outline.",
+  "bar": "Horizontal progress bar with 4 px outline, filled with pp.color (gold|red|cyan) to pp.frac of its width over the shot; pp.label above in FONTS.ui.",
+  "chair": "Fold-out lawn chair, dark frame, teal canvas, outlined, a soft rim.",
+  "sign": "Hand-painted sign on a post, cream board, dark outline, pp.text in FONTS.hand (max 12 chars).",
+  "earth": "Small Earth disc, blue-green with simple outlined continents, pale rim, subtle atmosphere glow. pp.tilt degrees.",
+  "dust": "Cloud of small cream dots of dust drifting slowly with a faint bloom; pp.density 0..1.",
+  "stopwatch": "Round outlined stopwatch, cream face, red button on top; pp.from..pp.to seconds: hand sweeps and the digits count.",
+  "headlamp": "Overlay for PipLocal: tiny headlamp strap on the hood with a warm beam cone (Glow, 0.25 opacity) pointing up-right.",
+  "jupiter": "Gold-and-cream banded Jupiter disc with dark outline, pale rim, bloom; pp.s scale; subtle band drift.",
+  "calendar": "Wall calendar card, cream page, 4 px dark outline, big year in FONTS.title from pp.year; page flips once with a settle when p passes 0.3 if pp.flip."
+ },
+ "actions": {
+  "lookup": "Pip tilts head back (headTilt up), arms hang loose, small sway; eyes lift at p 0.2.",
+  "duck": "Pip drops into a crouch with both arms raised over the head at p 0.15 and holds with a small tremble.",
+  "spin": "Pip turns one slow full rotation (yaw/spin) across the shot while looking up.",
+  "flinch": "A quick squash and lean away at p 0.2 with arms up, then settles back by p 0.7.",
+  "pointup": "Pip's arm swings up to point at the sky at p 0.2 with a small overshoot."
+ },
+ "sfx_new": {},
+ "chapters": [
+  {
+   "n": 0,
+   "title": "COLD OPEN",
+   "sub": "",
+   "music": {
+    "mood": "tense",
+    "energy": 0.8
+   },
+   "vo": {
+    "stability": 0.42,
+    "style": 0.4,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "roof_wind",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 1,
+   "title": "THE RULES",
+   "sub": "One hour. One sky.",
+   "music": {
+    "mood": "playful",
+    "energy": 0.4
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.34,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "room_tone",
+    "gain": 0.04
+   }
+  },
+  {
+   "n": 2,
+   "title": "THE FIRST MINUTE",
+   "sub": "Rain, then hail, then storm",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.6
+   },
+   "vo": {
+    "stability": 0.44,
+    "style": 0.34,
+    "speed": 0.97
+   },
+   "bed": {
+    "clip": "roof_wind",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 3,
+   "title": "THE COUNT",
+   "sub": "Forty a second",
+   "music": {
+    "mood": "tense",
+    "energy": 0.7
+   },
+   "vo": {
+    "stability": 0.42,
+    "style": 0.4,
+    "speed": 1.02
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.04
+   }
+  },
+  {
+   "n": 4,
+   "title": "WHERE IT COMES FROM",
+   "sub": "A river of rubble",
+   "music": {
+    "mood": "mystery",
+    "energy": 0.45
+   },
+   "vo": {
+    "stability": 0.48,
+    "style": 0.3,
+    "speed": 0.96
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 5,
+   "title": "THE NIGHT NEW YORK LOOKED UP",
+   "sub": "1966",
+   "music": {
+    "mood": "playful",
+    "energy": 0.5
+   },
+   "vo": {
+    "stability": 0.4,
+    "style": 0.45,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "room_tone",
+    "gain": 0.04
+   }
+  },
+  {
+   "n": 6,
+   "title": "THE TWIST",
+   "sub": "This year is different",
+   "music": {
+    "mood": "quiet",
+    "energy": 0.25
+   },
+   "vo": {
+    "stability": 0.48,
+    "style": 0.3,
+    "speed": 0.95
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.04
+   }
+  },
+  {
+   "n": 7,
+   "title": "THIS WEEK",
+   "sub": "What you will really see",
+   "music": {
+    "mood": "warm",
+    "energy": 0.45
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.34,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "roof_wind",
+    "gain": 0.04
+   }
+  },
+  {
+   "n": 8,
+   "title": "THE NEXT STORM",
+   "sub": "Mark your calendar",
+   "music": {
+    "mood": "triumph",
+    "energy": 0.8
+   },
+   "vo": {
+    "stability": 0.44,
+    "style": 0.38,
+    "speed": 0.98
+   },
+   "bed": {
+    "clip": "roof_wind",
+    "gain": 0.05
+   }
+  }
+ ],
+ "film": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "wide",
+   "vo": "Forty shooting stars.",
+   "dir": "low, hushed awe; stress 'Forty'",
+   "set": "summit",
+   "setp": {
+    "rate": 0.95
+   },
+   "cam": [
+    [
+     0.474,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.504,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "40 PER SECOND"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "meteor_streak",
+     "at": 0.1,
+     "gain": 0.5
+    },
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "med",
+   "vo": "Every. Single. Second.",
+   "dir": "slow, three hits",
+   "set": "summit",
+   "setp": {
+    "rate": 1.0
+   },
+   "cam": [
+    [
+     0.507,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.493,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.7,
+     "y": 0.32,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 40,
+      "label": "METEORS / SEC",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "EVERY SECOND",
+     "value": "40"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "drone_hit",
+     "word": "Second",
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "close",
+   "vo": "For a whole hour.",
+   "dir": "beat, then steady",
+   "set": "summit",
+   "setp": {
+    "rate": 1.0
+   },
+   "cam": [
+    [
+     0.402,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.631,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.25,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 60,
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cream",
+     "text": "ONE HOUR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "clock_back",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "wide",
+   "vo": "One hundred forty-four thousand streaks of fire.",
+   "dir": "building; stress 'thousand'",
+   "set": "atmos",
+   "setp": {
+    "rate": 1.0,
+    "speed": 0.9
+   },
+   "cam": [
+    [
+     0.521,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.534,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.5,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 144000,
+      "label": "IN ONE HOUR",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "144,000 FIRES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fireball_roar",
+     "at": 0.1,
+     "gain": 0.25
+    },
+    {
+     "clip": "title_boom",
+     "word": "thousand",
+     "gain": 0.65
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "high",
+   "vo": "That is what thirteen people saw, from one mountain in Arizona.",
+   "dir": "matter-of-fact; stress 'thirteen'",
+   "set": "summit",
+   "setp": {
+    "rate": 0.7
+   },
+   "cam": [
+    [
+     0.451,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.361,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "side"
+   },
+   "props": [
+    {
+     "k": "telescope",
+     "x": 0.72,
+     "y": 0.62,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "KITT PEAK, ARIZONA 1966"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "step",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 0,
+   "size": "low",
+   "vo": "In nineteen sixty-six.",
+   "dir": "simple",
+   "set": "summit",
+   "setp": {
+    "rate": 0.5
+   },
+   "cam": [
+    [
+     0.514,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.693,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "sideL",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.3,
+     "y": 0.28,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "year": 1966,
+      "flip": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tl",
+     "color": "cyan",
+     "text": "NOVEMBER 1966"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "paper_land",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 0,
+   "size": "med",
+   "vo": "And they ducked.",
+   "dir": "flat, then a laugh in the voice",
+   "set": "hill",
+   "setp": {
+    "rate": 0.9
+   },
+   "cam": [
+    [
+     0.477,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.499,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "crouch",
+    "act": "duck"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "gasp",
+     "at": 0.1,
+     "gain": 0.35
+    },
+    {
+     "clip": "laugh",
+     "at": 0.5,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 0,
+   "size": "wide",
+   "vo": "This week, those same meteors are back.",
+   "dir": "turn; lighter",
+   "set": "garden",
+   "setp": {
+    "rate": 0.1
+   },
+   "cam": [
+    [
+     0.548,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.455,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "threeQuarter",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "sky",
+     "text": "NOV 17-18 2026"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 0,
+   "size": "close",
+   "vo": "You will be lucky to see fifteen an hour.",
+   "dir": "dry understatement; stress 'fifteen'",
+   "set": "garden",
+   "setp": {
+    "rate": 0.05
+   },
+   "cam": [
+    [
+     0.372,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.643,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tl",
+     "color": "red",
+     "label": "THIS YEAR",
+     "value": "15/HR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "switch_off",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "So what if you had been standing there, in sixty-six?",
+   "dir": "curious, leaning in",
+   "set": "summit",
+   "setp": {
+    "rate": 0.8
+   },
+   "cam": [
+    [
+     0.457,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.493,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.6,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "ch": 0,
+   "size": "wide",
+   "vo": "What if the sky just let go?",
+   "dir": "hushed; stress 'let go'",
+   "set": "hill",
+   "setp": {
+    "rate": 1.0,
+    "sickle": 1.0
+   },
+   "cam": [
+    [
+     0.478,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.5,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "crouch",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "jump",
+    "expr2": "happy",
+    "at2": 0.6
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "mid",
+     "color": "gold",
+     "text": "THE SKY LET GO"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "clip": "meteor_streak",
+     "at": 0.3,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "ch": 1,
+   "size": "med",
+   "vo": "Here are the rules.",
+   "dir": "bright, brisk",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.477,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.504,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "RULES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "ch": 1,
+   "size": "wide",
+   "vo": "You stand on a dark hill, far from any city.",
+   "dir": "easy",
+   "set": "hill",
+   "setp": {
+    "rate": 0.0
+   },
+   "cam": [
+    [
+     0.465,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.469,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "side",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "FAR FROM THE LIGHTS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "step",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "ch": 1,
+   "size": "high",
+   "vo": "The sky is perfectly clear.",
+   "dir": "calm",
+   "set": "hill",
+   "setp": {
+    "rate": 0.03,
+    "sickle": 1.0
+   },
+   "cam": [
+    [
+     0.505,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.362,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "CLOUDS",
+     "value": "ZERO"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "ch": 1,
+   "size": "low",
+   "vo": "The Moon is gone.",
+   "dir": "small beat",
+   "set": "hill",
+   "setp": {
+    "rate": 0.03
+   },
+   "cam": [
+    [
+     0.508,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.669,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cream",
+     "text": "NO MOON"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "switch_off",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "ch": 1,
+   "size": "close",
+   "vo": "You have exactly one hour.",
+   "dir": "firm; stress 'one hour'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.363,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.632,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "threeQuarter",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 60
+     }
+    }
+   ],
+   "text": [],
+   "sfx": [
+    {
+     "clip": "clock_back",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "ch": 1,
+   "size": "med",
+   "vo": "And you get a thermos of something hot.",
+   "dir": "warm humour",
+   "set": "hill",
+   "setp": {
+    "rate": 0.03
+   },
+   "cam": [
+    [
+     0.54,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.47,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "hold",
+    "held": "thermos"
+   },
+   "props": [
+    {
+     "k": "thermos",
+     "x": 0.62,
+     "y": 0.58,
+     "s": 1.0,
+     "z": "back"
+    },
+    {
+     "k": "chair",
+     "x": 0.2,
+     "y": 0.68,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "tr",
+     "color": "gold",
+     "text": "HOT CHOCOLATE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "water_pour",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "ch": 1,
+   "size": "insert",
+   "vo": "Your only job is to keep your eyes open.",
+   "dir": "wry; stress 'only'",
+   "set": "hill",
+   "setp": {
+    "rate": 0.03
+   },
+   "cam": [
+    [
+     0.601,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.46,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "front",
+    "expr2": "shock",
+    "at2": 0.6
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cream",
+     "text": "EYES OPEN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "gulp",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "ch": 1,
+   "size": "close",
+   "vo": "Because blinking, tonight, means missing something.",
+   "dir": "comic; stress 'missing'",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.409,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.628,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "BLINK",
+     "value": "MISS ONE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.3
+    },
+    {
+     "clip": "laugh",
+     "at": 0.6,
+     "gain": 0.15
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "ch": 1,
+   "size": "pan",
+   "vo": "And here is the catch.",
+   "dir": "low, a hook",
+   "set": "hill",
+   "setp": {
+    "rate": 0.2
+   },
+   "cam": [
+    [
+     0.308,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.503,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.6,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tl",
+     "color": "orange",
+     "text": "THE CATCH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "ch": 1,
+   "size": "wide",
+   "vo": "This only happens when the Earth drives through something.",
+   "dir": "building",
+   "set": "space",
+   "setp": {
+    "view": "trail",
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.541,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.535,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "drone_hum",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "ch": 1,
+   "size": "med",
+   "vo": "And nobody can book it in advance.",
+   "dir": "slightly ominous",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.532,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.54,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NO BOOKINGS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "ch": 2,
+   "size": "wide",
+   "vo": "Minute one. A single streak crosses the sky.",
+   "dir": "hushed",
+   "set": "hill",
+   "setp": {
+    "rate": 0.08
+   },
+   "cam": [
+    [
+     0.511,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.472,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tl",
+     "color": "cyan",
+     "text": "MINUTE 1"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "meteor_streak",
+     "at": 0.4,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "ch": 2,
+   "size": "med",
+   "vo": "Then another.",
+   "dir": "soft",
+   "set": "hill",
+   "setp": {
+    "rate": 0.2
+   },
+   "cam": [
+    [
+     0.46,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.48,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "meteor_streak",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "ch": 2,
+   "size": "high",
+   "vo": "Then three at once.",
+   "dir": "quickening",
+   "set": "hill",
+   "setp": {
+    "rate": 0.35
+   },
+   "cam": [
+    [
+     0.528,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.406,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "threeQuarter",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "3 AT ONCE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "meteor_streak",
+     "at": 0.1,
+     "gain": 0.35
+    },
+    {
+     "clip": "meteor_streak",
+     "at": 0.55,
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "ch": 2,
+   "size": "close",
+   "vo": "You stop counting, because you cannot keep up.",
+   "dir": "amused, losing count",
+   "set": "hill",
+   "setp": {
+    "rate": 0.55
+   },
+   "cam": [
+    [
+     0.445,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.646,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "props": [
+    {
+     "k": "clipboard",
+     "x": 0.75,
+     "y": 0.5,
+     "s": 1.0,
+     "z": "front",
+     "p": {
+      "marks": 14
+     }
+    }
+   ],
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "ch": 2,
+   "size": "low",
+   "vo": "One astronomer called it a rain of meteors.",
+   "dir": "reading it aloud; stress 'rain'",
+   "set": "summit",
+   "setp": {
+    "rate": 0.5
+   },
+   "cam": [
+    [
+     0.54,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.73,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "side",
+    "expr": "happy",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "TABLE MOUNTAIN, CALIFORNIA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "roof_wind",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S28",
+   "ch": 2,
+   "size": "wide",
+   "vo": "That turned into a hail of meteors.",
+   "dir": "a notch more intense",
+   "set": "summit",
+   "setp": {
+    "rate": 0.7
+   },
+   "cam": [
+    [
+     0.487,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.48,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "fireball_roar",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S29",
+   "ch": 2,
+   "size": "med",
+   "vo": "And then a storm.",
+   "dir": "slow; stress 'storm'",
+   "set": "summit",
+   "setp": {
+    "rate": 1.0
+   },
+   "cam": [
+    [
+     0.484,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.489,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "crouch",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "STORM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "fireball_roar",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S30",
+   "ch": 2,
+   "size": "close",
+   "vo": "Too many to count, by ten to four in the morning.",
+   "dir": "awe; stress 'too many'",
+   "set": "hill",
+   "setp": {
+    "rate": 1.0,
+    "tint": "dawn"
+   },
+   "cam": [
+    [
+     0.351,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.581,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "AT 3",
+     "value": "50 AM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S31",
+   "ch": 2,
+   "size": "insert",
+   "vo": "He said they instinctively shielded their faces.",
+   "dir": "dry, a smile",
+   "set": "hill",
+   "setp": {
+    "rate": 1.0
+   },
+   "cam": [
+    [
+     0.565,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.422,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "front",
+    "act": "flinch"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SHIELDED THEIR FACES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "gasp",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S32",
+   "ch": 2,
+   "size": "wide",
+   "vo": "From pieces of dust. High above.",
+   "dir": "gentle correction",
+   "set": "atmos",
+   "setp": {
+    "rate": 0.6,
+    "speed": 0.4
+   },
+   "cam": [
+    [
+     0.525,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.473,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "float",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "HIGH ABOVE YOU"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S33",
+   "ch": 2,
+   "size": "high",
+   "vo": "Each one slams into the air at forty-five miles a second.",
+   "dir": "urgent; stress 'forty-five'",
+   "set": "atmos",
+   "setp": {
+    "rate": 0.8,
+    "speed": 1.0
+   },
+   "cam": [
+    [
+     0.49,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.432,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.7,
+    "pose": "side",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "orange",
+     "text": "45 MILES/SEC"
+    },
+    {
+     "kind": "pill",
+     "slot": "bl",
+     "color": "orange",
+     "label": "72 KM/S",
+     "value": "FASTEST"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "meteor_streak",
+     "at": 0.1,
+     "gain": 0.35
+    },
+    {
+     "clip": "fireball_roar",
+     "at": 0.5,
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "id": "S34",
+   "ch": 2,
+   "size": "med",
+   "vo": "That is seventy-two kilometres every second.",
+   "dir": "clear",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.484,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.537,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.62,
+     "y": 0.34,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 1.0,
+      "color": "gold",
+      "label": "LEONID SPEED"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "KM PER SECOND",
+     "value": "72"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S35",
+   "ch": 2,
+   "size": "wide",
+   "vo": "Because the Leonids come at us head-on.",
+   "dir": "explaining; stress 'head-on'",
+   "set": "space",
+   "setp": {
+    "view": "orbits",
+    "t": 0.3
+   },
+   "cam": [
+    [
+     0.519,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.525,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "HEAD-ON, OPPOSITE WAY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S36",
+   "ch": 2,
+   "size": "pan",
+   "vo": "Earth goes one way. The dust goes the other.",
+   "dir": "two hands, a clap on 'other'",
+   "set": "space",
+   "setp": {
+    "view": "trail",
+    "t": 0.2
+   },
+   "cam": [
+    [
+     0.334,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.522,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "earth",
+     "x": 0.2,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "tilt": 20
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tl",
+     "color": "sky",
+     "text": "EARTH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "land",
+     "at": 0.7,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S37",
+   "ch": 2,
+   "size": "low",
+   "vo": "Nothing on Earth moves that fast.",
+   "dir": "flat awe",
+   "set": "atmos",
+   "setp": {
+    "rate": 0.5,
+    "speed": 1.0
+   },
+   "cam": [
+    [
+     0.456,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.714,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "time_snap",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S38",
+   "ch": 2,
+   "size": "pullout",
+   "vo": "Bright streaks. Long glowing trails.",
+   "dir": "dreamy",
+   "set": "hill",
+   "setp": {
+    "rate": 0.6,
+    "tint": "cold"
+   },
+   "cam": [
+    [
+     0.481,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.503,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "dust",
+     "x": 0.5,
+     "y": 0.2,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "density": 0.5
+     }
+    }
+   ],
+   "text": [],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S39",
+   "ch": 2,
+   "size": "panr",
+   "vo": "Some leave long-lasting trails behind them.",
+   "dir": "wistful",
+   "set": "hill",
+   "setp": {
+    "rate": 0.45
+   },
+   "cam": [
+    [
+     0.654,
+     0.5,
+     1.3
+    ],
+    [
+     0.3,
+     0.538,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.6,
+    "pose": "side",
+    "expr": "happy",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "LONG-LASTING TRAILS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S40",
+   "ch": 2,
+   "size": "high",
+   "vo": "And you are standing under all of it, with a flask.",
+   "dir": "humour",
+   "set": "hill",
+   "setp": {
+    "rate": 0.7
+   },
+   "cam": [
+    [
+     0.487,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.37,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "hold",
+    "held": "thermos"
+   },
+   "props": [
+    {
+     "k": "thermos",
+     "x": 0.6,
+     "y": 0.6,
+     "s": 0.9,
+     "z": "back"
+    }
+   ],
+   "text": [],
+   "sfx": [
+    {
+     "clip": "water_pour",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S41",
+   "ch": 2,
+   "size": "med",
+   "vo": "Hang on. How many is that, really?",
+   "dir": "pivot; curious",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.522,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.464,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "think"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "DO THE MATHS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S42",
+   "ch": 3,
+   "size": "med",
+   "vo": "Forty a second is two thousand four hundred a minute.",
+   "dir": "steady, counting; stress 'two thousand four hundred'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.504,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.484,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.7,
+     "y": 0.32,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 2400,
+      "label": "PER MINUTE",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "PER MINUTE",
+     "value": "2,400"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S43",
+   "ch": 3,
+   "size": "close",
+   "vo": "Keep that up for an hour.",
+   "dir": "beat",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.403,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.625,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.25,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 60,
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cream",
+     "text": "KEEP IT UP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "clock_back",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S44",
+   "ch": 3,
+   "size": "insert",
+   "vo": "And you reach one hundred forty-four thousand.",
+   "dir": "landing, a little breathless",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.563,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.443,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "cheer",
+    "expr2": "happy",
+    "at2": 0.6
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.6,
+     "y": 0.45,
+     "s": 1.3,
+     "z": "back",
+     "p": {
+      "from": 2400,
+      "to": 144000,
+      "label": "IN ONE HOUR",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "144,000"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.5,
+     "gain": 0.4
+    },
+    {
+     "clip": "counter_tick",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S45",
+   "ch": 3,
+   "size": "wide",
+   "vo": "That was the peak, as seen from Kitt Peak, Arizona.",
+   "dir": "informative",
+   "set": "summit",
+   "setp": {
+    "rate": 1.0
+   },
+   "cam": [
+    [
+     0.532,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.476,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.7,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "side"
+   },
+   "props": [
+    {
+     "k": "telescope",
+     "x": 0.25,
+     "y": 0.6,
+     "s": 1.1,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SOURCE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "step",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S46",
+   "ch": 3,
+   "size": "low",
+   "vo": "Thirteen amateur astronomers counted it.",
+   "dir": "admiring",
+   "set": "summit",
+   "setp": {
+    "rate": 0.9
+   },
+   "cam": [
+    [
+     0.52,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.655,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "threeQuarterL",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "props": [
+    {
+     "k": "clipboard",
+     "x": 0.72,
+     "y": 0.6,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "marks": 13
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "OBSERVERS",
+     "value": "13"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S47",
+   "ch": 3,
+   "size": "pan",
+   "vo": "With their eyes. And clickers. And coffee.",
+   "dir": "comic list, quick",
+   "set": "summit",
+   "setp": {
+    "rate": 0.85
+   },
+   "cam": [
+    [
+     0.305,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.463,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "thermos",
+     "x": 0.4,
+     "y": 0.6,
+     "s": 0.9,
+     "z": "back"
+    },
+    {
+     "k": "stopwatch",
+     "x": 0.8,
+     "y": 0.35,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 10
+     }
+    }
+   ],
+   "text": [],
+   "sfx": [
+    {
+     "clip": "clink",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S48",
+   "ch": 3,
+   "size": "med",
+   "vo": "Now compare it with a normal year.",
+   "dir": "level; stress 'normal'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.475,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.503,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S49",
+   "ch": 3,
+   "size": "close",
+   "vo": "Fifteen an hour, in a really good sky.",
+   "dir": "deflating",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.364,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.648,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "front",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.65,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "frac": 0.1,
+      "color": "red",
+      "label": "15 PER HOUR"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "GOOD YEAR",
+     "value": "15/HR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "switch_off",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S50",
+   "ch": 3,
+   "size": "med",
+   "vo": "So the storm outran a normal year by a lot.",
+   "dir": "building; stress 'a lot'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.506,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.511,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.5,
+     "y": 0.28,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "frac": 1.0,
+      "color": "gold",
+      "label": "1966 STORM"
+     }
+    },
+    {
+     "k": "bar",
+     "x": 0.5,
+     "y": 0.5,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "frac": 0.02,
+      "color": "red",
+      "label": "NORMAL YEAR"
+     }
+    }
+   ],
+   "text": [],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S51",
+   "ch": 3,
+   "size": "insert",
+   "vo": "That is nine thousand six hundred times more.",
+   "dir": "slow, each word lands",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.56,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.438,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "9,600x MORE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S52",
+   "ch": 3,
+   "size": "high",
+   "vo": "One storm hour equals four hundred days of this year's best sky.",
+   "dir": "stress 'four hundred days'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.542,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.381,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.6,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.25,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "year": 2026,
+      "flip": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "DAYS OF SKY",
+     "value": "400"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "clock_back",
+     "at": 0.2,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S53",
+   "ch": 3,
+   "size": "low",
+   "vo": "A year and a bit of waiting, squeezed into sixty minutes.",
+   "dir": "amazed",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.453,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.703,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.7,
+     "y": 0.28,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 60
+     }
+    }
+   ],
+   "text": [],
+   "sfx": [
+    {
+     "clip": "time_snap",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S54",
+   "ch": 3,
+   "size": "close",
+   "vo": "By the numbers, you could not blink.",
+   "dir": "tight comic",
+   "set": "hill",
+   "setp": {
+    "rate": 1.0
+   },
+   "cam": [
+    [
+     0.383,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.622,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "DO NOT BLINK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "gulp",
+     "at": 0.3,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S55",
+   "ch": 3,
+   "size": "insert",
+   "vo": "You would be seeing a meteor in every blink of the eye.",
+   "dir": "mock-serious",
+   "set": "hill",
+   "setp": {
+    "rate": 1.0
+   },
+   "cam": [
+    [
+     0.598,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.497,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S56",
+   "ch": 3,
+   "size": "wide",
+   "vo": "So where does all this stuff come from?",
+   "dir": "question that opens the next chapter",
+   "set": "space",
+   "setp": {
+    "view": "comet"
+   },
+   "cam": [
+    [
+     0.53,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.487,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "sky",
+     "text": "ORIGIN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S57",
+   "ch": 4,
+   "size": "wide",
+   "vo": "A comet. Its name is Tempel-Tuttle.",
+   "dir": "fond, storytelling",
+   "set": "space",
+   "setp": {
+    "view": "comet",
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.487,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.452,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cream",
+     "text": "TEMPEL-TUTTLE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S58",
+   "ch": 4,
+   "size": "pan",
+   "vo": "It loops around the Sun once every thirty-three years.",
+   "dir": "steady",
+   "set": "space",
+   "setp": {
+    "view": "orbits",
+    "t": 0.2
+   },
+   "cam": [
+    [
+     0.332,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.46,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "ORBIT",
+     "value": "33 YEARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "clock_back",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S59",
+   "ch": 4,
+   "size": "close",
+   "vo": "Thirty-three and a third, to be fair.",
+   "dir": "small correction, smug",
+   "set": "space",
+   "setp": {
+    "view": "orbits",
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.433,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.605,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "float",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tl",
+     "color": "cream",
+     "text": "33.3 YEARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S60",
+   "ch": 4,
+   "size": "tilt",
+   "vo": "Each time it swings close to the Sun, it sheds.",
+   "dir": "knowing",
+   "set": "space",
+   "setp": {
+    "view": "comet",
+    "t": 0.8
+   },
+   "cam": [
+    [
+     0.475,
+     0.8,
+     1.3
+    ],
+    [
+     0.5,
+     0.201,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "float",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SHEDS DUST"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hum",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S61",
+   "ch": 4,
+   "size": "insert",
+   "vo": "Dust. Grit. Crumbs of ice.",
+   "dir": "list; short",
+   "set": "space",
+   "setp": {
+    "view": "comet",
+    "t": 0.9
+   },
+   "cam": [
+    [
+     0.582,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.454,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.6,
+    "pose": "float",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "dust",
+     "x": 0.5,
+     "y": 0.4,
+     "s": 1.4,
+     "z": "back",
+     "p": {
+      "density": 0.8
+     }
+    }
+   ],
+   "text": [],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S62",
+   "ch": 4,
+   "size": "panr",
+   "vo": "Like a river of rubble left behind it.",
+   "dir": "images; stress 'river'",
+   "set": "space",
+   "setp": {
+    "view": "trail",
+    "t": 0.3
+   },
+   "cam": [
+    [
+     0.677,
+     0.5,
+     1.3
+    ],
+    [
+     0.3,
+     0.464,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "RIVER OF RUBBLE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S63",
+   "ch": 4,
+   "size": "wide",
+   "vo": "The trail stays in space for centuries.",
+   "dir": "slow",
+   "set": "space",
+   "setp": {
+    "view": "trail",
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.503,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.46,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "float",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "roof_wind",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S64",
+   "ch": 4,
+   "size": "high",
+   "vo": "And once a year, the Earth drives straight through the edge of it.",
+   "dir": "stress 'drives straight through'",
+   "set": "space",
+   "setp": {
+    "view": "trail",
+    "t": 0.8
+   },
+   "cam": [
+    [
+     0.481,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.351,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "earth",
+     "x": 0.4,
+     "y": 0.45,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "tilt": -10
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "sky",
+     "text": "NOVEMBER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "meteor_streak",
+     "at": 0.4,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S65",
+   "ch": 4,
+   "size": "low",
+   "vo": "Thin edge: a trickle of meteors.",
+   "dir": "calm",
+   "set": "space",
+   "setp": {
+    "view": "trail",
+    "t": 0.85
+   },
+   "cam": [
+    [
+     0.454,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.663,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "float",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "EDGE",
+     "value": "A TRICKLE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S66",
+   "ch": 4,
+   "size": "pullout",
+   "vo": "But a direct hit on a fresh clump?",
+   "dir": "slow build, a raised eyebrow",
+   "set": "space",
+   "setp": {
+    "view": "trail",
+    "t": 0.95
+   },
+   "cam": [
+    [
+     0.457,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.503,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "DIRECT HIT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S67",
+   "ch": 4,
+   "size": "wide",
+   "vo": "That is when the sky opens.",
+   "dir": "hushed; payoff",
+   "set": "hill",
+   "setp": {
+    "rate": 1.0,
+    "tint": "dawn"
+   },
+   "cam": [
+    [
+     0.469,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.472,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "fireball_roar",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "space_swell",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S68",
+   "ch": 4,
+   "size": "med",
+   "vo": "A storm needs fresh debris, thrown out within the last few centuries.",
+   "dir": "explanatory, clear",
+   "set": "space",
+   "setp": {
+    "view": "trail",
+    "t": 0.6
+   },
+   "cam": [
+    [
+     0.538,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.545,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "float",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "FRESH DUST = STORM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S69",
+   "ch": 4,
+   "size": "insert",
+   "vo": "The comet last passed the Sun in nineteen ninety-eight.",
+   "dir": "fact, tidy",
+   "set": "space",
+   "setp": {
+    "view": "orbits",
+    "t": 0.7
+   },
+   "cam": [
+    [
+     0.642,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.488,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "float",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.3,
+     "y": 0.35,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "year": 1998
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "LAST VISIT",
+     "value": "1998"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "paper_land",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S70",
+   "ch": 4,
+   "size": "pan",
+   "vo": "The sky lit up in ninety-nine, oh-one, and oh-two.",
+   "dir": "building list",
+   "set": "hill",
+   "setp": {
+    "rate": 0.8
+   },
+   "cam": [
+    [
+     0.267,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.499,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.6,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tl",
+     "color": "gold",
+     "text": "1999 2001 2002"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "crowd_cheer",
+     "at": 0.5,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S71",
+   "ch": 4,
+   "size": "close",
+   "vo": "A few thousand an hour, at best.",
+   "dir": "'only' in the voice, wry",
+   "set": "hill",
+   "setp": {
+    "rate": 0.6
+   },
+   "cam": [
+    [
+     0.44,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.618,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "PEAK RATE",
+     "value": "SEVERAL 1,000/HR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S72",
+   "ch": 4,
+   "size": "panr",
+   "vo": "Then the dust ran thin, year after year.",
+   "dir": "fading",
+   "set": "hill",
+   "setp": {
+    "rate": 0.2
+   },
+   "cam": [
+    [
+     0.73,
+     0.5,
+     1.3
+    ],
+    [
+     0.3,
+     0.545,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "THIN FOR YEARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "switch_off",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S73",
+   "ch": 4,
+   "size": "wide",
+   "vo": "And back in eighteen thirty-three, it did the same thing.",
+   "dir": "bridge to history",
+   "set": "town1833",
+   "setp": {
+    "rate": 0.6
+   },
+   "cam": [
+    [
+     0.498,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.512,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "orange",
+     "text": "1833"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "roof_wind",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S74",
+   "ch": 4,
+   "size": "med",
+   "vo": "Tens of thousands an hour, they say.",
+   "dir": "stress 'tens of thousands'",
+   "set": "town1833",
+   "setp": {
+    "rate": 1.0
+   },
+   "cam": [
+    [
+     0.486,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.513,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.6,
+    "pose": "threeQuarter",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "1833",
+     "value": "TENS OF 1000s/HR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fireball_roar",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S75",
+   "ch": 4,
+   "size": "close",
+   "vo": "It must have looked like the sky was falling.",
+   "dir": "subdued",
+   "set": "town1833",
+   "setp": {
+    "rate": 1.0
+   },
+   "cam": [
+    [
+     0.36,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.636,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "sign",
+     "x": 0.75,
+     "y": 0.55,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "THE END?"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "1833 LEONID STORM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "gasp",
+     "at": 0.2,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S76",
+   "ch": 4,
+   "size": "low",
+   "vo": "Just comet dust, hitting the air at tremendous speed.",
+   "dir": "wry",
+   "set": "town1833",
+   "setp": {
+    "rate": 0.9
+   },
+   "cam": [
+    [
+     0.528,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.732,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.5,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S77",
+   "ch": 5,
+   "size": "wide",
+   "vo": "Which brings us back to nineteen sixty-six.",
+   "dir": "bridge",
+   "set": "city",
+   "setp": {
+    "clouds": 0.0
+   },
+   "cam": [
+    [
+     0.464,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.492,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "side"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tl",
+     "color": "cyan",
+     "text": "1966"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "paper_land",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S78",
+   "ch": 5,
+   "size": "med",
+   "vo": "Scientists had done their sums.",
+   "dir": "quick, proud",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.498,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.466,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "props": [
+    {
+     "k": "clipboard",
+     "x": 0.7,
+     "y": 0.5,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "marks": 8
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "DR. K. FRANKLIN, HAYDEN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S79",
+   "ch": 5,
+   "size": "pan",
+   "vo": "The comet was in the same place as in eighteen thirty-three.",
+   "dir": "explain",
+   "set": "space",
+   "setp": {
+    "view": "orbits",
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.343,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.47,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "clock_back",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S80",
+   "ch": 5,
+   "size": "high",
+   "vo": "So a big shower might be coming.",
+   "dir": "careful; 'might'",
+   "set": "city",
+   "setp": {
+    "clouds": 0.0
+   },
+   "cam": [
+    [
+     0.519,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.369,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S81",
+   "ch": 5,
+   "size": "low",
+   "vo": "New York planned a meteor party.",
+   "dir": "bright",
+   "set": "city",
+   "setp": {
+    "clouds": 0.0
+   },
+   "cam": [
+    [
+     0.502,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.737,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "orange",
+     "text": "METEOR PARTY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "crowd_cheer",
+     "at": 0.2,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S82",
+   "ch": 5,
+   "size": "panr",
+   "vo": "Midnight. Central Park. The Great Lawn.",
+   "dir": "brisk, three beats",
+   "set": "city",
+   "setp": {
+    "clouds": 0.0
+   },
+   "cam": [
+    [
+     0.658,
+     0.5,
+     1.3
+    ],
+    [
+     0.3,
+     0.451,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.6,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "GREAT LAWN, MIDNIGHT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "clink",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S83",
+   "ch": 5,
+   "size": "wide",
+   "vo": "Ten thousand people turned up.",
+   "dir": "amazed; stress 'ten thousand'",
+   "set": "city",
+   "setp": {
+    "clouds": 0.2
+   },
+   "cam": [
+    [
+     0.489,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.52,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "TURNED UP",
+     "value": "10,000"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "crowd_cheer",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S84",
+   "ch": 5,
+   "size": "med",
+   "vo": "And the sky was completely clouded over.",
+   "dir": "drop; deadpan",
+   "set": "city",
+   "setp": {
+    "clouds": 1.0
+   },
+   "cam": [
+    [
+     0.51,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.475,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "stand",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "CLOUDED OUT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "blackout_static",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S85",
+   "ch": 5,
+   "size": "close",
+   "vo": "Ten thousand people looked up and saw... grey.",
+   "dir": "flat comedy",
+   "set": "city",
+   "setp": {
+    "clouds": 1.0
+   },
+   "cam": [
+    [
+     0.405,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.601,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "METEORS SEEN",
+     "value": "0"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.5,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S86",
+   "ch": 5,
+   "size": "pan",
+   "vo": "Meanwhile, out west, skies were clear.",
+   "dir": "switch; bright",
+   "set": "hill",
+   "setp": {
+    "rate": 0.5
+   },
+   "cam": [
+    [
+     0.335,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.46,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.65,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "CENTRAL & WESTERN US"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S87",
+   "ch": 5,
+   "size": "wide",
+   "vo": "In Texas, one person saw them fall like a gigantic umbrella.",
+   "dir": "amused; stress 'umbrella'",
+   "set": "hill",
+   "setp": {
+    "rate": 1.0
+   },
+   "cam": [
+    [
+     0.467,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.507,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp",
+    "held": "umbrella"
+   },
+   "props": [
+    {
+     "k": "umbrella",
+     "x": 0.5,
+     "y": 0.2,
+     "s": 1.2,
+     "z": "front",
+     "p": {
+      "hit": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "tl",
+     "color": "cream",
+     "text": "MISSION, TEXAS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "meteor_streak",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S88",
+   "ch": 5,
+   "size": "tilt",
+   "vo": "Right out of the head of Leo, the Lion.",
+   "dir": "storytelling",
+   "set": "hill",
+   "setp": {
+    "rate": 1.0,
+    "sickle": 1.0
+   },
+   "cam": [
+    [
+     0.533,
+     0.8,
+     1.3
+    ],
+    [
+     0.5,
+     0.223,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "LEO THE LION"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S89",
+   "ch": 5,
+   "size": "insert",
+   "vo": "You, with a real umbrella, would still get wet.",
+   "dir": "gag; stress 'wet'",
+   "set": "hill",
+   "setp": {
+    "rate": 1.0
+   },
+   "cam": [
+    [
+     0.601,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.401,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "front",
+    "act": "flinch",
+    "held": "umbrella"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.5,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S90",
+   "ch": 5,
+   "size": "med",
+   "vo": "So you'd better pray for clear skies.",
+   "dir": "wink",
+   "set": "hill",
+   "setp": {
+    "rate": 0.7
+   },
+   "cam": [
+    [
+     0.487,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.462,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "SKY",
+     "value": "CLEAR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S91",
+   "ch": 5,
+   "size": "high",
+   "vo": "Because the whole show depends on one thing.",
+   "dir": "setting up the twist",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.454,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.449,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "ONE THING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S92",
+   "ch": 6,
+   "size": "med",
+   "vo": "So, here is the catch for this year.",
+   "dir": "low, honest",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.452,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.496,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "2026"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S93",
+   "ch": 6,
+   "size": "wide",
+   "vo": "Right now, Tempel-Tuttle is past Saturn.",
+   "dir": "fact; stress 'past Saturn'",
+   "set": "space",
+   "setp": {
+    "view": "far",
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.54,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.55,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "FROM THE SUN",
+     "value": "1.79B KM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S94",
+   "ch": 6,
+   "size": "pullout",
+   "vo": "About one billion seven hundred ninety million kilometres from the Sun.",
+   "dir": "slow, awed",
+   "set": "space",
+   "setp": {
+    "view": "far",
+    "t": 0.7
+   },
+   "cam": [
+    [
+     0.516,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.488,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cream",
+     "text": "1.79B KM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S95",
+   "ch": 6,
+   "size": "pan",
+   "vo": "It is slowly crawling back toward the Sun.",
+   "dir": "gentle",
+   "set": "space",
+   "setp": {
+    "view": "orbits",
+    "t": 0.9
+   },
+   "cam": [
+    [
+     0.343,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.537,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tl",
+     "color": "gold",
+     "text": "COMING BACK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "clock_back",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S96",
+   "ch": 6,
+   "size": "high",
+   "vo": "But the part of the trail Earth crosses this week?",
+   "dir": "building; question 'why/what'",
+   "set": "space",
+   "setp": {
+    "view": "trail",
+    "t": 0.4
+   },
+   "cam": [
+    [
+     0.496,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.352,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "float",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S97",
+   "ch": 6,
+   "size": "low",
+   "vo": "Almost empty.",
+   "dir": "quiet, final",
+   "set": "space",
+   "setp": {
+    "view": "trail",
+    "t": 0.6
+   },
+   "cam": [
+    [
+     0.471,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.685,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.6,
+    "pose": "float",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "ALMOST EMPTY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "switch_off",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S98",
+   "ch": 6,
+   "size": "close",
+   "vo": "Just a few scattered crumbs, loose for a thousand years or two.",
+   "dir": "soft melancholy",
+   "set": "space",
+   "setp": {
+    "view": "trail",
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.403,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.57,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "dust",
+     "x": 0.5,
+     "y": 0.4,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "density": 0.1
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "OLD, SCATTERED CRUMBS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "room_tone",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S99",
+   "ch": 6,
+   "size": "wide",
+   "vo": "So no storm. Not this week.",
+   "dir": "firm, kind",
+   "set": "hill",
+   "setp": {
+    "rate": 0.05
+   },
+   "cam": [
+    [
+     0.511,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.536,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "STORM",
+     "value": "NO"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S100",
+   "ch": 6,
+   "size": "med",
+   "vo": "Experts expect long stretches of nothing at all.",
+   "dir": "honest; stress 'nothing'",
+   "set": "hill",
+   "setp": {
+    "rate": 0.0
+   },
+   "cam": [
+    [
+     0.467,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.474,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "side",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "LONG STRETCHES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "room_tone",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S101",
+   "ch": 6,
+   "size": "pullout",
+   "vo": "Which makes the next question the real one.",
+   "dir": "pivot, hopeful",
+   "set": "garden",
+   "setp": {
+    "rate": 0.05
+   },
+   "cam": [
+    [
+     0.455,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.465,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "sky",
+     "text": "WHAT WILL YOU SEE?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S102",
+   "ch": 7,
+   "size": "wide",
+   "vo": "So what will you actually see?",
+   "dir": "brisk, friendly",
+   "set": "garden",
+   "setp": {
+    "rate": 0.05,
+    "frost": 1.0
+   },
+   "cam": [
+    [
+     0.488,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.506,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "roof_wind",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S103",
+   "ch": 7,
+   "size": "high",
+   "vo": "The Leonids peak on the seventeenth and eighteenth of November.",
+   "dir": "clear",
+   "set": "garden",
+   "setp": {
+    "rate": 0.08
+   },
+   "cam": [
+    [
+     0.474,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.365,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.6,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.78,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "year": 2026
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tl",
+     "color": "gold",
+     "text": "NOV 17-18"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "paper_land",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S104",
+   "ch": 7,
+   "size": "med",
+   "vo": "The IMO puts the peak at quarter to midnight UTC, the seventeenth.",
+   "dir": "clean read",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.538,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.479,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 45
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "PEAK (IMO)",
+     "value": "23"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S105",
+   "ch": 7,
+   "size": "pan",
+   "vo": "NASA says: look before dawn, after the Moon sets.",
+   "dir": "stress 'before dawn'",
+   "set": "garden",
+   "setp": {
+    "rate": 0.1,
+    "tint": "dawn"
+   },
+   "cam": [
+    [
+     0.322,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.52,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "roof_wind",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S106",
+   "ch": 7,
+   "size": "tilt",
+   "vo": "Leo climbs higher after midnight.",
+   "dir": "soft",
+   "set": "garden",
+   "setp": {
+    "rate": 0.1,
+    "sickle": 1.0
+   },
+   "cam": [
+    [
+     0.535,
+     0.8,
+     1.3
+    ],
+    [
+     0.5,
+     0.209,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "LEO RISES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S107",
+   "ch": 7,
+   "size": "close",
+   "vo": "Up to fifteen an hour, if everything goes right.",
+   "dir": "honest, a half smile",
+   "set": "garden",
+   "setp": {
+    "rate": 0.15
+   },
+   "cam": [
+    [
+     0.372,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.617,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "BEST CASE",
+     "value": "~15/HR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S108",
+   "ch": 7,
+   "size": "low",
+   "vo": "Most people will see fewer.",
+   "dir": "a nod",
+   "set": "garden",
+   "setp": {
+    "rate": 0.05
+   },
+   "cam": [
+    [
+     0.502,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.722,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.6,
+    "pose": "stand",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "switch_off",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S109",
+   "ch": 7,
+   "size": "wide",
+   "vo": "But look at who is next to them.",
+   "dir": "lift; a nudge",
+   "set": "garden",
+   "setp": {
+    "rate": 0.05,
+    "tint": "dawn"
+   },
+   "cam": [
+    [
+     0.456,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.504,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "orange",
+     "text": "BONUS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S110",
+   "ch": 7,
+   "size": "pan",
+   "vo": "On the fifteenth and sixteenth, Mars and Jupiter sit side by side.",
+   "dir": "brisk delight",
+   "set": "garden",
+   "setp": {
+    "rate": 0.05,
+    "tint": "dawn"
+   },
+   "cam": [
+    [
+     0.278,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.53,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "jupiter",
+     "x": 0.7,
+     "y": 0.22,
+     "s": 0.7,
+     "z": "back",
+     "p": {
+      "s": 0.7
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "NOV 15-16",
+     "value": "MARS + JUPITER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S111",
+   "ch": 7,
+   "size": "insert",
+   "vo": "Only one point two degrees apart.",
+   "dir": "clear number",
+   "set": "garden",
+   "setp": {
+    "rate": 0.05
+   },
+   "cam": [
+    [
+     0.567,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.467,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "APART",
+     "value": "1.2 DEG"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S112",
+   "ch": 7,
+   "size": "med",
+   "vo": "That is about two Moons wide.",
+   "dir": "comparison",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.47,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.531,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "2 MOONS WIDE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S113",
+   "ch": 7,
+   "size": "high",
+   "vo": "Find a dark spot, and give your eyes half an hour.",
+   "dir": "practical, gentle",
+   "set": "hill",
+   "setp": {
+    "rate": 0.05
+   },
+   "cam": [
+    [
+     0.481,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.413,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "stopwatch",
+     "x": 0.25,
+     "y": 0.35,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 30
+     }
+    },
+    {
+     "k": "chair",
+     "x": 0.78,
+     "y": 0.68,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "EYES ADJUST",
+     "value": "30 MIN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "clock_back",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S114",
+   "ch": 7,
+   "size": "med",
+   "vo": "Bring a blanket. A flask. A friend.",
+   "dir": "warm list",
+   "set": "hill",
+   "setp": {
+    "rate": 0.08
+   },
+   "cam": [
+    [
+     0.481,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.502,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "hold",
+    "over": "blanket",
+    "held": "thermos"
+   },
+   "props": [
+    {
+     "k": "thermos",
+     "x": 0.65,
+     "y": 0.6,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "BLANKET, FLASK, FRIEND"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "clink",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S115",
+   "ch": 7,
+   "size": "pullout",
+   "vo": "And look at as much of the sky as you can.",
+   "dir": "soft",
+   "set": "hill",
+   "setp": {
+    "rate": 0.1
+   },
+   "cam": [
+    [
+     0.461,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.486,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "act": "spin"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "roof_wind",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S116",
+   "ch": 7,
+   "size": "close",
+   "vo": "One streak is plenty. It is the fastest thing you will ever see.",
+   "dir": "fond, wry",
+   "set": "hill",
+   "setp": {
+    "rate": 0.12
+   },
+   "cam": [
+    [
+     0.386,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.615,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "threeQuarter",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "meteor_streak",
+     "at": 0.4,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "S117",
+   "ch": 7,
+   "size": "low",
+   "vo": "Forty-five miles a second, remember.",
+   "dir": "callback",
+   "set": "atmos",
+   "setp": {
+    "rate": 0.3,
+    "speed": 1.0
+   },
+   "cam": [
+    [
+     0.54,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.679,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "orange",
+     "label": "SPEED",
+     "value": "45 MI/S"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fireball_roar",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S118",
+   "ch": 8,
+   "size": "wide",
+   "vo": "So when does the sky let go again?",
+   "dir": "anticipation; stress 'again'",
+   "set": "hill",
+   "setp": {
+    "rate": 0.3
+   },
+   "cam": [
+    [
+     0.542,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.547,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S119",
+   "ch": 8,
+   "size": "pan",
+   "vo": "Not for a while, sadly.",
+   "dir": "soft; a shrug",
+   "set": "space",
+   "setp": {
+    "view": "orbits",
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.271,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.497,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "float",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "switch_off",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S120",
+   "ch": 8,
+   "size": "high",
+   "vo": "In twenty twenty-nine, Jupiter is expected to nudge the comet off course.",
+   "dir": "stress 'Jupiter'",
+   "set": "space",
+   "setp": {
+    "view": "orbits",
+    "t": 0.7
+   },
+   "cam": [
+    [
+     0.491,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.406,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "jupiter",
+     "x": 0.8,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "s": 1.0
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tl",
+     "color": "gold",
+     "text": "2029"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S121",
+   "ch": 8,
+   "size": "med",
+   "vo": "After that, a repeat of the great storm is basically off the table.",
+   "dir": "regretful",
+   "set": "space",
+   "setp": {
+    "view": "orbits",
+    "t": 0.95
+   },
+   "cam": [
+    [
+     0.517,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.502,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "float",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NO MORE GREAT STORMS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S122",
+   "ch": 8,
+   "size": "close",
+   "vo": "Basically. Not quite.",
+   "dir": "hopeful turn",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.432,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.599,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S123",
+   "ch": 8,
+   "size": "wide",
+   "vo": "One French expert forecast a big burst in twenty thirty-four.",
+   "dir": "bright",
+   "set": "hill",
+   "setp": {
+    "rate": 0.5
+   },
+   "cam": [
+    [
+     0.546,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.516,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.75,
+     "y": 0.32,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "year": 2034,
+      "flip": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "2034"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S124",
+   "ch": 8,
+   "size": "low",
+   "vo": "Up to two thousand an hour.",
+   "dir": "building",
+   "set": "hill",
+   "setp": {
+    "rate": 0.75
+   },
+   "cam": [
+    [
+     0.481,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.698,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "cheer",
+    "expr2": "happy",
+    "at2": 0.6
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "FORECAST",
+     "value": "2,000/HR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "crowd_cheer",
+     "at": 0.3,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S125",
+   "ch": 8,
+   "size": "med",
+   "vo": "That is eight years from now.",
+   "dir": "soft marvel",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.485,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.536,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 30
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cream",
+     "text": "8 YEARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "clock_back",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S126",
+   "ch": 8,
+   "size": "pan",
+   "vo": "Not a storm like sixty-six, but a sky with hail in it.",
+   "dir": "soft",
+   "set": "hill",
+   "setp": {
+    "rate": 0.85
+   },
+   "cam": [
+    [
+     0.33,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.507,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "fireball_roar",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S127",
+   "ch": 8,
+   "size": "wide",
+   "vo": "So, back to that mountain in Arizona.",
+   "dir": "callback beat",
+   "set": "summit",
+   "setp": {
+    "rate": 1.0
+   },
+   "cam": [
+    [
+     0.487,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.545,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "KITT PEAK, 1966"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S128",
+   "ch": 8,
+   "size": "pullout",
+   "vo": "Forty meteors a second, and you are the one standing under them.",
+   "dir": "full circle; stress 'you'",
+   "set": "summit",
+   "setp": {
+    "rate": 1.0,
+    "tint": "dawn"
+   },
+   "cam": [
+    [
+     0.473,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.481,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "pointUp",
+    "expr2": "happy",
+    "at2": 0.6
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "40 PER SECOND"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.35
+    },
+    {
+     "clip": "fireball_roar",
+     "at": 0.55,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "id": "S129",
+   "ch": 8,
+   "size": "high",
+   "vo": "You would never need to ask what the sky is made of again.",
+   "dir": "warm; a laugh at the end",
+   "set": "hill",
+   "setp": {
+    "rate": 1.0,
+    "sickle": 1.0
+   },
+   "cam": [
+    [
+     0.531,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.358,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "crowd_cheer",
+     "at": 0.5,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S130",
+   "ch": 8,
+   "size": "close",
+   "vo": "You would know it falls.",
+   "dir": "soft, a little awe",
+   "set": "hill",
+   "setp": {
+    "rate": 1.0
+   },
+   "cam": [
+    [
+     0.35,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.649,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S131",
+   "ch": 8,
+   "size": "med",
+   "vo": "Which night would you pick: eighteen thirty-three, or sixty-six?",
+   "dir": "inviting; stress 'which night'",
+   "set": "hill",
+   "setp": {
+    "rate": 0.6
+   },
+   "cam": [
+    [
+     0.459,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.498,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "COMMENT BELOW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S132",
+   "ch": 8,
+   "size": "wide",
+   "vo": "Tomorrow: another what if, another piece of the sky.",
+   "dir": "lifted, a promise; stress 'Tomorrow'",
+   "set": "hill",
+   "setp": {
+    "rate": 0.4,
+    "tint": "dawn"
+   },
+   "cam": [
+    [
+     0.511,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.491,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "TOMORROW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  }
+ ],
+ "short": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "med",
+   "vo": "Forty shooting stars. Every second.",
+   "dir": "low, hushed; stress 'Forty'",
+   "set": "summit",
+   "setp": {
+    "rate": 1.0
+   },
+   "cam": [
+    [
+     0.474,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.504,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "40/SECOND"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "meteor_streak",
+     "at": 0.1,
+     "gain": 0.5
+    },
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "close",
+   "vo": "For a whole hour.",
+   "dir": "beat",
+   "set": "summit",
+   "setp": {
+    "rate": 1.0
+   },
+   "cam": [
+    [
+     0.407,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.593,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.25,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 60,
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "ONE HOUR",
+     "value": "144,000"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "clock_back",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "wide",
+   "vo": "Nineteen sixty-six. Thirteen people, one mountain in Arizona.",
+   "dir": "matter-of-fact",
+   "set": "summit",
+   "setp": {
+    "rate": 0.8
+   },
+   "cam": [
+    [
+     0.502,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.531,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "side"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "cyan",
+     "text": "1966 - 13 OBSERVERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "step",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "high",
+   "vo": "One hundred forty-four thousand meteors in an hour.",
+   "dir": "building",
+   "set": "hill",
+   "setp": {
+    "rate": 1.0
+   },
+   "cam": [
+    [
+     0.521,
+     0.3,
+     1.04
+    ],
+    [
+     0.5,
+     0.434,
+     1.19
+    ]
+   ],
+   "pip": {
+    "x": 0.6,
+    "pose": "threeQuarter",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.5,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 144000,
+      "label": "METEORS",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "144,000"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "low",
+   "vo": "They ducked.",
+   "dir": "flat, a laugh",
+   "set": "hill",
+   "setp": {
+    "rate": 0.9
+   },
+   "cam": [
+    [
+     0.451,
+     0.75,
+     1.14
+    ],
+    [
+     0.5,
+     0.661,
+     1.28
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "crouch",
+    "act": "duck"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cream",
+     "text": "DUCKED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "gasp",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 0,
+   "size": "wide",
+   "vo": "It comes from a comet. Tempel-Tuttle.",
+   "dir": "storytelling",
+   "set": "space",
+   "setp": {
+    "view": "comet",
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.514,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.493,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "top",
+     "color": "cream",
+     "text": "COMET TEMPEL-TUTTLE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 0,
+   "size": "pan",
+   "vo": "It leaves a river of dust behind it.",
+   "dir": "images",
+   "set": "space",
+   "setp": {
+    "view": "trail",
+    "t": 0.4
+   },
+   "cam": [
+    [
+     0.277,
+     0.5,
+     1.23
+    ],
+    [
+     0.7,
+     0.499,
+     1.23
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "float",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "sky",
+     "text": "RIVER OF DUST"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hum",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 0,
+   "size": "insert",
+   "vo": "Once a year, Earth drives through the edge.",
+   "dir": "stress 'edge'",
+   "set": "space",
+   "setp": {
+    "view": "trail",
+    "t": 0.8
+   },
+   "cam": [
+    [
+     0.648,
+     0.45,
+     1.9
+    ],
+    [
+     0.55,
+     0.405,
+     1.71
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "float",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "earth",
+     "x": 0.5,
+     "y": 0.45,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "tilt": 0
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "top",
+     "color": "cyan",
+     "label": "EVERY NOV",
+     "value": "EDGE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "meteor_streak",
+     "at": 0.4,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "Hit a fresh clump, and the sky opens.",
+   "dir": "payoff",
+   "set": "hill",
+   "setp": {
+    "rate": 1.0,
+    "tint": "dawn"
+   },
+   "cam": [
+    [
+     0.472,
+     0.5,
+     1.52
+    ],
+    [
+     0.5,
+     0.543,
+     0.95
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "SKY OPENS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fireball_roar",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 0,
+   "size": "low",
+   "vo": "Facing us, they strike at forty-five miles a second.",
+   "dir": "urgent",
+   "set": "atmos",
+   "setp": {
+    "rate": 0.8,
+    "speed": 1.0
+   },
+   "cam": [
+    [
+     0.457,
+     0.75,
+     1.14
+    ],
+    [
+     0.5,
+     0.693,
+     1.28
+    ]
+   ],
+   "pip": {
+    "x": 0.65,
+    "pose": "side",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "top",
+     "color": "orange",
+     "label": "45 MILES/SEC",
+     "value": "FAST"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "meteor_streak",
+     "at": 0.1,
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "ch": 0,
+   "size": "med",
+   "vo": "Ten thousand New Yorkers came to watch it.",
+   "dir": "amused",
+   "set": "city",
+   "setp": {
+    "clouds": 0.2
+   },
+   "cam": [
+    [
+     0.478,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.5,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "top",
+     "color": "gold",
+     "label": "10,000",
+     "value": "CAME"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "crowd_cheer",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "ch": 0,
+   "size": "close",
+   "vo": "It was cloudy.",
+   "dir": "deadpan",
+   "set": "city",
+   "setp": {
+    "clouds": 1.0
+   },
+   "cam": [
+    [
+     0.377,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.604,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "CLOUDED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "blackout_static",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "ch": 0,
+   "size": "wide",
+   "vo": "This week the Leonids are back.",
+   "dir": "bright turn",
+   "set": "garden",
+   "setp": {
+    "rate": 0.1
+   },
+   "cam": [
+    [
+     0.465,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.469,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "sky",
+     "text": "NOV 17-18"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "ch": 0,
+   "size": "high",
+   "vo": "But the dust is thin this year.",
+   "dir": "honest",
+   "set": "space",
+   "setp": {
+    "view": "far",
+    "t": 0.6
+   },
+   "cam": [
+    [
+     0.505,
+     0.3,
+     1.04
+    ],
+    [
+     0.5,
+     0.362,
+     1.19
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "float",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "top",
+     "color": "cream",
+     "text": "COMET FAR FROM THE SUN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "switch_off",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "ch": 0,
+   "size": "med",
+   "vo": "Fifteen an hour, at best.",
+   "dir": "dry",
+   "set": "garden",
+   "setp": {
+    "rate": 0.05
+   },
+   "cam": [
+    [
+     0.508,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.469,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "top",
+     "color": "red",
+     "label": "THIS WEEK",
+     "value": "15/HR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "ch": 0,
+   "size": "tilt",
+   "vo": "So look before dawn, after the Moon sets.",
+   "dir": "practical",
+   "set": "garden",
+   "setp": {
+    "rate": 0.12,
+    "tint": "dawn"
+   },
+   "cam": [
+    [
+     0.463,
+     0.8,
+     1.23
+    ],
+    [
+     0.5,
+     0.282,
+     1.23
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "top",
+     "color": "cream",
+     "text": "BEFORE DAWN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "roof_wind",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "ch": 0,
+   "size": "insert",
+   "vo": "The next big burst: twenty thirty-four.",
+   "dir": "hopeful",
+   "set": "hill",
+   "setp": {
+    "rate": 0.6
+   },
+   "cam": [
+    [
+     0.64,
+     0.45,
+     1.9
+    ],
+    [
+     0.55,
+     0.42,
+     1.71
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.5,
+     "y": 0.45,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "year": 2034,
+      "flip": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "top",
+     "color": "gold",
+     "label": "NEXT BURST",
+     "value": "2034"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "ch": 0,
+   "size": "close",
+   "vo": "Full film on the channel. Tomorrow: another what if.",
+   "dir": "friendly",
+   "set": "hill",
+   "setp": {
+    "rate": 0.9
+   },
+   "cam": [
+    [
+     0.401,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.61,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "gold",
+     "text": "TOMORROW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "ch": 0,
+   "size": "med",
+   "vo": "Forty. Every second.",
+   "dir": "punch; echo of the first line",
+   "set": "summit",
+   "setp": {
+    "rate": 1.0
+   },
+   "cam": [
+    [
+     0.509,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.528,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "40/SECOND"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "meteor_streak",
+     "at": 0.1,
+     "gain": 0.5
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  }
+ ]
+}
