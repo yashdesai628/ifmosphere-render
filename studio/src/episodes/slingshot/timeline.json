@@ -1,0 +1,1838 @@
+{
+ "slug": "slingshot",
+ "title": "WHAT IF YOU USED EARTH AS A SLINGSHOT TO MARS?",
+ "fps": 30,
+ "total": 7257,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 53,
+   "t0": 0,
+   "t1": 53,
+   "line": "Six hundred fifty miles up."
+  },
+  {
+   "shot": "S2",
+   "a": 53,
+   "b": 87,
+   "t0": 0,
+   "t1": 34,
+   "line": "Engine on."
+  },
+  {
+   "shot": "S3",
+   "a": 87,
+   "b": 119,
+   "t0": 0,
+   "t1": 32,
+   "line": "For nine minutes."
+  },
+  {
+   "shot": "S4",
+   "a": 119,
+   "b": 173,
+   "t0": 0,
+   "t1": 54,
+   "line": "And Earth throws you at Mars."
+  },
+  {
+   "shot": "S5",
+   "a": 173,
+   "b": 262,
+   "t0": 0,
+   "t1": 89,
+   "line": "No rocket big enough. Just a planet's pull."
+  },
+  {
+   "shot": "S6",
+   "a": 262,
+   "b": 336,
+   "t0": 0,
+   "t1": 74,
+   "line": "NASA did it twice. In two days."
+  },
+  {
+   "shot": "S7",
+   "a": 336,
+   "b": 382,
+   "t0": 0,
+   "t1": 46,
+   "line": "So what if you were riding along?"
+  },
+  {
+   "shot": "S8",
+   "a": 382,
+   "b": 465,
+   "t0": 0,
+   "t1": 83,
+   "line": "What if Earth were your slingshot?"
+  },
+  {
+   "shot": "S9",
+   "a": 465,
+   "b": 508,
+   "t0": 0,
+   "t1": 43,
+   "line": "Here are the rules."
+  },
+  {
+   "shot": "S10",
+   "a": 508,
+   "b": 579,
+   "t0": 0,
+   "t1": 71,
+   "line": "You are one of two small spacecraft."
+  },
+  {
+   "shot": "S11",
+   "a": 579,
+   "b": 628,
+   "t0": 0,
+   "t1": 49,
+   "line": "Your target is Mars."
+  },
+  {
+   "shot": "S12",
+   "a": 628,
+   "b": 684,
+   "t0": 0,
+   "t1": 56,
+   "line": "You cannot just point and go."
+  },
+  {
+   "shot": "S13",
+   "a": 684,
+   "b": 749,
+   "t0": 0,
+   "t1": 65,
+   "line": "You need Earth to do the heavy lifting."
+  },
+  {
+   "shot": "S14",
+   "a": 749,
+   "b": 801,
+   "t0": 0,
+   "t1": 52,
+   "line": "And you have one shot at it."
+  },
+  {
+   "shot": "S15",
+   "a": 801,
+   "b": 882,
+   "t0": 0,
+   "t1": 81,
+   "line": "Miss the window, and Mars waits two years."
+  },
+  {
+   "shot": "S16",
+   "a": 882,
+   "b": 936,
+   "t0": 0,
+   "t1": 54,
+   "line": "Or does it?"
+  },
+  {
+   "shot": "S17",
+   "a": 936,
+   "b": 1011,
+   "t0": 0,
+   "t1": 75,
+   "line": "November thirteenth, twenty twenty-five."
+  },
+  {
+   "shot": "S18",
+   "a": 1011,
+   "b": 1066,
+   "t0": 0,
+   "t1": 55,
+   "line": "You lift off from Cape Canaveral."
+  },
+  {
+   "shot": "S19",
+   "a": 1066,
+   "b": 1108,
+   "t0": 0,
+   "t1": 42,
+   "line": "A perfect launch."
+  },
+  {
+   "shot": "S20",
+   "a": 1108,
+   "b": 1155,
+   "t0": 0,
+   "t1": 47,
+   "line": "There is just one problem."
+  },
+  {
+   "shot": "S21",
+   "a": 1155,
+   "b": 1239,
+   "t0": 0,
+   "t1": 84,
+   "line": "Earth and Mars are on opposite sides of the Sun."
+  },
+  {
+   "shot": "S22",
+   "a": 1239,
+   "b": 1304,
+   "t0": 0,
+   "t1": 65,
+   "line": "Wrong side. Wrong time."
+  },
+  {
+   "shot": "S23",
+   "a": 1304,
+   "b": 1366,
+   "t0": 0,
+   "t1": 62,
+   "line": "A direct flight would take forever."
+  },
+  {
+   "shot": "S24",
+   "a": 1366,
+   "b": 1415,
+   "t0": 0,
+   "t1": 49,
+   "line": "So you do something clever."
+  },
+  {
+   "shot": "S25",
+   "a": 1415,
+   "b": 1474,
+   "t0": 0,
+   "t1": 59,
+   "line": "You do not head for Mars at all."
+  },
+  {
+   "shot": "S26",
+   "a": 1474,
+   "b": 1580,
+   "t0": 0,
+   "t1": 106,
+   "line": "You head for a spot in space, near home."
+  },
+  {
+   "shot": "S27",
+   "a": 1580,
+   "b": 1651,
+   "t0": 0,
+   "t1": 71,
+   "line": "It sits about a million miles from Earth."
+  },
+  {
+   "shot": "S28",
+   "a": 1651,
+   "b": 1699,
+   "t0": 0,
+   "t1": 48,
+   "line": "Straight away from the Sun."
+  },
+  {
+   "shot": "S29",
+   "a": 1699,
+   "b": 1775,
+   "t0": 0,
+   "t1": 76,
+   "line": "Scientists call it Lagrange point two."
+  },
+  {
+   "shot": "S30",
+   "a": 1775,
+   "b": 1836,
+   "t0": 0,
+   "t1": 61,
+   "line": "A gravitational balancing point."
+  },
+  {
+   "shot": "S31",
+   "a": 1836,
+   "b": 1916,
+   "t0": 0,
+   "t1": 80,
+   "line": "Nothing pulls you in. Nothing pushes you out."
+  },
+  {
+   "shot": "S32",
+   "a": 1916,
+   "b": 1980,
+   "t0": 0,
+   "t1": 64,
+   "line": "So you drift. In a loop."
+  },
+  {
+   "shot": "S33",
+   "a": 1980,
+   "b": 2048,
+   "t0": 0,
+   "t1": 68,
+   "line": "A kidney-bean-shaped loop, to be exact."
+  },
+  {
+   "shot": "S34",
+   "a": 2048,
+   "b": 2092,
+   "t0": 0,
+   "t1": 44,
+   "line": "The first of its kind."
+  },
+  {
+   "shot": "S35",
+   "a": 2092,
+   "b": 2155,
+   "t0": 0,
+   "t1": 63,
+   "line": "You are parked. You are not stuck."
+  },
+  {
+   "shot": "S36",
+   "a": 2155,
+   "b": 2251,
+   "t0": 0,
+   "t1": 96,
+   "line": "And Earth is still close enough to find."
+  },
+  {
+   "shot": "S37",
+   "a": 2251,
+   "b": 2285,
+   "t0": 0,
+   "t1": 34,
+   "line": "Now you wait."
+  },
+  {
+   "shot": "S38",
+   "a": 2285,
+   "b": 2353,
+   "t0": 0,
+   "t1": 68,
+   "line": "A whole year, going in circles."
+  },
+  {
+   "shot": "S39",
+   "a": 2353,
+   "b": 2417,
+   "t0": 0,
+   "t1": 64,
+   "line": "No sightseeing. Just loops."
+  },
+  {
+   "shot": "S40",
+   "a": 2417,
+   "b": 2470,
+   "t0": 0,
+   "t1": 53,
+   "line": "You do take a few measurements."
+  },
+  {
+   "shot": "S41",
+   "a": 2470,
+   "b": 2569,
+   "t0": 0,
+   "t1": 99,
+   "line": "Out here, you fly through Earth's long magnetic tail."
+  },
+  {
+   "shot": "S42",
+   "a": 2569,
+   "b": 2653,
+   "t0": 0,
+   "t1": 84,
+   "line": "The solar wind stretches it out like a windsock."
+  },
+  {
+   "shot": "S43",
+   "a": 2653,
+   "b": 2725,
+   "t0": 0,
+   "t1": 72,
+   "line": "Then, one day, the timing is right."
+  },
+  {
+   "shot": "S44",
+   "a": 2725,
+   "b": 2814,
+   "t0": 0,
+   "t1": 89,
+   "line": "Mars has moved to the same side of the Sun as Earth."
+  },
+  {
+   "shot": "S45",
+   "a": 2814,
+   "b": 2877,
+   "t0": 0,
+   "t1": 63,
+   "line": "So you turn around and head home."
+  },
+  {
+   "shot": "S46",
+   "a": 2877,
+   "b": 2970,
+   "t0": 0,
+   "t1": 93,
+   "line": "Not to land. To skim past."
+  },
+  {
+   "shot": "S47",
+   "a": 2970,
+   "b": 3048,
+   "t0": 0,
+   "t1": 78,
+   "line": "November seventh, twenty twenty-six."
+  },
+  {
+   "shot": "S48",
+   "a": 3048,
+   "b": 3115,
+   "t0": 0,
+   "t1": 67,
+   "line": "Mission control holds its breath."
+  },
+  {
+   "shot": "S49",
+   "a": 3115,
+   "b": 3212,
+   "t0": 0,
+   "t1": 97,
+   "line": "At five in the morning, Eastern time, you arrive."
+  },
+  {
+   "shot": "S50",
+   "a": 3212,
+   "b": 3280,
+   "t0": 0,
+   "t1": 68,
+   "line": "One thousand miles above the ground."
+  },
+  {
+   "shot": "S51",
+   "a": 3280,
+   "b": 3348,
+   "t0": 0,
+   "t1": 68,
+   "line": "Close enough to feel Earth's pull."
+  },
+  {
+   "shot": "S52",
+   "a": 3348,
+   "b": 3395,
+   "t0": 0,
+   "t1": 47,
+   "line": "Now the engine fires."
+  },
+  {
+   "shot": "S53",
+   "a": 3395,
+   "b": 3451,
+   "t0": 0,
+   "t1": 56,
+   "line": "This is the burn that commits you."
+  },
+  {
+   "shot": "S54",
+   "a": 3451,
+   "b": 3516,
+   "t0": 0,
+   "t1": 65,
+   "line": "Trans-Mars injection, they call it."
+  },
+  {
+   "shot": "S55",
+   "a": 3516,
+   "b": 3563,
+   "t0": 0,
+   "t1": 47,
+   "line": "Nine minutes of thrust."
+  },
+  {
+   "shot": "S56",
+   "a": 3563,
+   "b": 3628,
+   "t0": 0,
+   "t1": 65,
+   "line": "Earth's gravity bends your path."
+  },
+  {
+   "shot": "S57",
+   "a": 3628,
+   "b": 3735,
+   "t0": 0,
+   "t1": 107,
+   "line": "The engine adds a push, right where gravity is strongest."
+  },
+  {
+   "shot": "S58",
+   "a": 3735,
+   "b": 3793,
+   "t0": 0,
+   "t1": 58,
+   "line": "Two forces, working as one."
+  },
+  {
+   "shot": "S59",
+   "a": 3793,
+   "b": 3842,
+   "t0": 0,
+   "t1": 49,
+   "line": "And then the thrust ends."
+  },
+  {
+   "shot": "S60",
+   "a": 3842,
+   "b": 3894,
+   "t0": 0,
+   "t1": 52,
+   "line": "You are on your way to Mars."
+  },
+  {
+   "shot": "S61",
+   "a": 3894,
+   "b": 3944,
+   "t0": 0,
+   "t1": 50,
+   "line": "Mission control erupts."
+  },
+  {
+   "shot": "S62",
+   "a": 3944,
+   "b": 4043,
+   "t0": 0,
+   "t1": 99,
+   "line": "Nobody at NASA had ever done this before."
+  },
+  {
+   "shot": "S63",
+   "a": 4043,
+   "b": 4106,
+   "t0": 0,
+   "t1": 63,
+   "line": "But remember, you are one of two."
+  },
+  {
+   "shot": "S64",
+   "a": 4106,
+   "b": 4169,
+   "t0": 0,
+   "t1": 63,
+   "line": "Your twin is still coming round."
+  },
+  {
+   "shot": "S65",
+   "a": 4169,
+   "b": 4237,
+   "t0": 0,
+   "t1": 68,
+   "line": "Two days later, same plan."
+  },
+  {
+   "shot": "S66",
+   "a": 4237,
+   "b": 4314,
+   "t0": 0,
+   "t1": 77,
+   "line": "Monday, around six in the morning, Eastern."
+  },
+  {
+   "shot": "S67",
+   "a": 4314,
+   "b": 4369,
+   "t0": 0,
+   "t1": 55,
+   "line": "This time, even closer."
+  },
+  {
+   "shot": "S68",
+   "a": 4369,
+   "b": 4426,
+   "t0": 0,
+   "t1": 57,
+   "line": "Six hundred fifty miles up."
+  },
+  {
+   "shot": "S69",
+   "a": 4426,
+   "b": 4474,
+   "t0": 0,
+   "t1": 48,
+   "line": "Another nine-minute burn."
+  },
+  {
+   "shot": "S70",
+   "a": 4474,
+   "b": 4509,
+   "t0": 0,
+   "t1": 35,
+   "line": "Flawless again."
+  },
+  {
+   "shot": "S71",
+   "a": 4509,
+   "b": 4611,
+   "t0": 0,
+   "t1": 102,
+   "line": "Two spacecraft. Two flybys. Two days."
+  },
+  {
+   "shot": "S72",
+   "a": 4611,
+   "b": 4659,
+   "t0": 0,
+   "t1": 48,
+   "line": "A new way to reach Mars."
+  },
+  {
+   "shot": "S73",
+   "a": 4659,
+   "b": 4719,
+   "t0": 0,
+   "t1": 60,
+   "line": "You can launch almost any time."
+  },
+  {
+   "shot": "S74",
+   "a": 4719,
+   "b": 4788,
+   "t0": 0,
+   "t1": 69,
+   "line": "Then park, wait, and slingshot."
+  },
+  {
+   "shot": "S75",
+   "a": 4788,
+   "b": 4912,
+   "t0": 0,
+   "t1": 124,
+   "line": "No more waiting for the planets to line up every two years."
+  },
+  {
+   "shot": "S76",
+   "a": 4912,
+   "b": 4963,
+   "t0": 0,
+   "t1": 51,
+   "line": "Now comes the quiet part."
+  },
+  {
+   "shot": "S77",
+   "a": 4963,
+   "b": 5005,
+   "t0": 0,
+   "t1": 42,
+   "line": "Ten months of coasting."
+  },
+  {
+   "shot": "S78",
+   "a": 5005,
+   "b": 5120,
+   "t0": 0,
+   "t1": 115,
+   "line": "No engine. No drama. Just falling toward Mars."
+  },
+  {
+   "shot": "S79",
+   "a": 5120,
+   "b": 5172,
+   "t0": 0,
+   "t1": 52,
+   "line": "You still work on the way."
+  },
+  {
+   "shot": "S80",
+   "a": 5172,
+   "b": 5262,
+   "t0": 0,
+   "t1": 90,
+   "line": "The solar wind is changing between here and Mars."
+  },
+  {
+   "shot": "S81",
+   "a": 5262,
+   "b": 5351,
+   "t0": 0,
+   "t1": 89,
+   "line": "A stream of particles, a million miles an hour."
+  },
+  {
+   "shot": "S82",
+   "a": 5351,
+   "b": 5431,
+   "t0": 0,
+   "t1": 80,
+   "line": "A few small nudges keep you on course."
+  },
+  {
+   "shot": "S83",
+   "a": 5431,
+   "b": 5490,
+   "t0": 0,
+   "t1": 59,
+   "line": "Each one has to be precise."
+  },
+  {
+   "shot": "S84",
+   "a": 5490,
+   "b": 5566,
+   "t0": 0,
+   "t1": 76,
+   "line": "Because Mars will not wait."
+  },
+  {
+   "shot": "S85",
+   "a": 5566,
+   "b": 5642,
+   "t0": 0,
+   "t1": 76,
+   "line": "September seventh, twenty twenty-seven."
+  },
+  {
+   "shot": "S86",
+   "a": 5642,
+   "b": 5685,
+   "t0": 0,
+   "t1": 43,
+   "line": "Mars fills the window."
+  },
+  {
+   "shot": "S87",
+   "a": 5685,
+   "b": 5725,
+   "t0": 0,
+   "t1": 40,
+   "line": "Now you have to slow down."
+  },
+  {
+   "shot": "S88",
+   "a": 5725,
+   "b": 5800,
+   "t0": 0,
+   "t1": 75,
+   "line": "Another burn. About eleven minutes."
+  },
+  {
+   "shot": "S89",
+   "a": 5800,
+   "b": 5872,
+   "t0": 0,
+   "t1": 72,
+   "line": "Get it wrong, and you sail straight past."
+  },
+  {
+   "shot": "S90",
+   "a": 5872,
+   "b": 5937,
+   "t0": 0,
+   "t1": 65,
+   "line": "Get it right, and Mars catches you."
+  },
+  {
+   "shot": "S91",
+   "a": 5937,
+   "b": 6013,
+   "t0": 0,
+   "t1": 76,
+   "line": "Your twin does the same, two days later."
+  },
+  {
+   "shot": "S92",
+   "a": 6013,
+   "b": 6098,
+   "t0": 0,
+   "t1": 85,
+   "line": "Two small craft, circling the Red Planet."
+  },
+  {
+   "shot": "S93",
+   "a": 6098,
+   "b": 6154,
+   "t0": 0,
+   "t1": 56,
+   "line": "Then the real work begins."
+  },
+  {
+   "shot": "S94",
+   "a": 6154,
+   "b": 6262,
+   "t0": 0,
+   "t1": 108,
+   "line": "Science starts around June twenty twenty-eight."
+  },
+  {
+   "shot": "S95",
+   "a": 6262,
+   "b": 6330,
+   "t0": 0,
+   "t1": 68,
+   "line": "So what is the mission actually for?"
+  },
+  {
+   "shot": "S96",
+   "a": 6330,
+   "b": 6392,
+   "t0": 0,
+   "t1": 62,
+   "line": "Mars used to have a thick atmosphere."
+  },
+  {
+   "shot": "S97",
+   "a": 6392,
+   "b": 6460,
+   "t0": 0,
+   "t1": 68,
+   "line": "The solar wind may have stripped it away."
+  },
+  {
+   "shot": "S98",
+   "a": 6460,
+   "b": 6544,
+   "t0": 0,
+   "t1": 84,
+   "line": "Two spacecraft, in two places, at once."
+  },
+  {
+   "shot": "S99",
+   "a": 6544,
+   "b": 6631,
+   "t0": 0,
+   "t1": 87,
+   "line": "One out near the wind. One close to the planet."
+  },
+  {
+   "shot": "S100",
+   "a": 6631,
+   "b": 6703,
+   "t0": 0,
+   "t1": 72,
+   "line": "Watching Mars respond in real time."
+  },
+  {
+   "shot": "S101",
+   "a": 6703,
+   "b": 6781,
+   "t0": 0,
+   "t1": 78,
+   "line": "That helps us plan for the first humans there."
+  },
+  {
+   "shot": "S102",
+   "a": 6781,
+   "b": 6829,
+   "t0": 0,
+   "t1": 48,
+   "line": "So back to that moment."
+  },
+  {
+   "shot": "S103",
+   "a": 6829,
+   "b": 6921,
+   "t0": 0,
+   "t1": 92,
+   "line": "Engine on. Nine minutes. Earth's pull."
+  },
+  {
+   "shot": "S104",
+   "a": 6921,
+   "b": 6981,
+   "t0": 0,
+   "t1": 60,
+   "line": "And a planet you have never visited."
+  },
+  {
+   "shot": "S105",
+   "a": 6981,
+   "b": 7066,
+   "t0": 0,
+   "t1": 85,
+   "line": "Earth gave you a push. Mars is next."
+  },
+  {
+   "shot": "S106",
+   "a": 7066,
+   "b": 7122,
+   "t0": 0,
+   "t1": 56,
+   "line": "Would you have taken the slingshot?"
+  },
+  {
+   "shot": "S107",
+   "a": 7122,
+   "b": 7257,
+   "t0": 0,
+   "t1": 135,
+   "line": "Tomorrow: another what if, another piece of the sky."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 33,
+   "len": 53,
+   "first": 0,
+   "line": "Six hundred fifty miles up.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "close",
+   "key": 21,
+   "len": 34,
+   "first": 53,
+   "line": "Engine on.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "med",
+   "key": 20,
+   "len": 32,
+   "first": 87,
+   "line": "For nine minutes.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "pullout",
+   "key": 33,
+   "len": 54,
+   "first": 119,
+   "line": "And Earth throws you at Mars.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "high",
+   "key": 55,
+   "len": 89,
+   "first": 173,
+   "line": "No rocket big enough. Just a planet's pull.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "med",
+   "key": 46,
+   "len": 74,
+   "first": 262,
+   "line": "NASA did it twice. In two days.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "pullout",
+   "key": 29,
+   "len": 46,
+   "first": 336,
+   "line": "So what if you were riding along?",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "wide",
+   "key": 51,
+   "len": 83,
+   "first": 382,
+   "line": "What if Earth were your slingshot?",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "pullout",
+   "key": 27,
+   "len": 43,
+   "first": 465,
+   "line": "Here are the rules.",
+   "note": "ch1"
+  },
+  {
+   "id": "S10",
+   "size": "wide",
+   "key": 44,
+   "len": 71,
+   "first": 508,
+   "line": "You are one of two small spacecraft.",
+   "note": "ch1"
+  },
+  {
+   "id": "S11",
+   "size": "high",
+   "key": 30,
+   "len": 49,
+   "first": 579,
+   "line": "Your target is Mars.",
+   "note": "ch1"
+  },
+  {
+   "id": "S12",
+   "size": "low",
+   "key": 35,
+   "len": 56,
+   "first": 628,
+   "line": "You cannot just point and go.",
+   "note": "ch1"
+  },
+  {
+   "id": "S13",
+   "size": "med",
+   "key": 40,
+   "len": 65,
+   "first": 684,
+   "line": "You need Earth to do the heavy lifting.",
+   "note": "ch1"
+  },
+  {
+   "id": "S14",
+   "size": "close",
+   "key": 32,
+   "len": 52,
+   "first": 749,
+   "line": "And you have one shot at it.",
+   "note": "ch1"
+  },
+  {
+   "id": "S15",
+   "size": "pan",
+   "key": 50,
+   "len": 81,
+   "first": 801,
+   "line": "Miss the window, and Mars waits two years.",
+   "note": "ch1"
+  },
+  {
+   "id": "S16",
+   "size": "insert",
+   "key": 33,
+   "len": 54,
+   "first": 882,
+   "line": "Or does it?",
+   "note": "ch1"
+  },
+  {
+   "id": "S17",
+   "size": "wide",
+   "key": 46,
+   "len": 75,
+   "first": 936,
+   "line": "November thirteenth, twenty twenty-five.",
+   "note": "ch2"
+  },
+  {
+   "id": "S18",
+   "size": "low",
+   "key": 34,
+   "len": 55,
+   "first": 1011,
+   "line": "You lift off from Cape Canaveral.",
+   "note": "ch2"
+  },
+  {
+   "id": "S19",
+   "size": "high",
+   "key": 26,
+   "len": 42,
+   "first": 1066,
+   "line": "A perfect launch.",
+   "note": "ch2"
+  },
+  {
+   "id": "S20",
+   "size": "pullout",
+   "key": 29,
+   "len": 47,
+   "first": 1108,
+   "line": "There is just one problem.",
+   "note": "ch2"
+  },
+  {
+   "id": "S21",
+   "size": "wide",
+   "key": 52,
+   "len": 84,
+   "first": 1155,
+   "line": "Earth and Mars are on opposite sides of the Sun.",
+   "note": "ch2"
+  },
+  {
+   "id": "S22",
+   "size": "close",
+   "key": 40,
+   "len": 65,
+   "first": 1239,
+   "line": "Wrong side. Wrong time.",
+   "note": "ch2"
+  },
+  {
+   "id": "S23",
+   "size": "tilt",
+   "key": 38,
+   "len": 62,
+   "first": 1304,
+   "line": "A direct flight would take forever.",
+   "note": "ch2"
+  },
+  {
+   "id": "S24",
+   "size": "med",
+   "key": 30,
+   "len": 49,
+   "first": 1366,
+   "line": "So you do something clever.",
+   "note": "ch2"
+  },
+  {
+   "id": "S25",
+   "size": "low",
+   "key": 37,
+   "len": 59,
+   "first": 1415,
+   "line": "You do not head for Mars at all.",
+   "note": "ch2"
+  },
+  {
+   "id": "S26",
+   "size": "pan",
+   "key": 66,
+   "len": 106,
+   "first": 1474,
+   "line": "You head for a spot in space, near home.",
+   "note": "ch2"
+  },
+  {
+   "id": "S27",
+   "size": "wide",
+   "key": 44,
+   "len": 71,
+   "first": 1580,
+   "line": "It sits about a million miles from Earth.",
+   "note": "ch3"
+  },
+  {
+   "id": "S28",
+   "size": "panr",
+   "key": 30,
+   "len": 48,
+   "first": 1651,
+   "line": "Straight away from the Sun.",
+   "note": "ch3"
+  },
+  {
+   "id": "S29",
+   "size": "insert",
+   "key": 47,
+   "len": 76,
+   "first": 1699,
+   "line": "Scientists call it Lagrange point two.",
+   "note": "ch3"
+  },
+  {
+   "id": "S30",
+   "size": "high",
+   "key": 38,
+   "len": 61,
+   "first": 1775,
+   "line": "A gravitational balancing point.",
+   "note": "ch3"
+  },
+  {
+   "id": "S31",
+   "size": "low",
+   "key": 50,
+   "len": 80,
+   "first": 1836,
+   "line": "Nothing pulls you in. Nothing pushes you out.",
+   "note": "ch3"
+  },
+  {
+   "id": "S32",
+   "size": "med",
+   "key": 40,
+   "len": 64,
+   "first": 1916,
+   "line": "So you drift. In a loop.",
+   "note": "ch3"
+  },
+  {
+   "id": "S33",
+   "size": "close",
+   "key": 42,
+   "len": 68,
+   "first": 1980,
+   "line": "A kidney-bean-shaped loop, to be exact.",
+   "note": "ch3"
+  },
+  {
+   "id": "S34",
+   "size": "pullout",
+   "key": 27,
+   "len": 44,
+   "first": 2048,
+   "line": "The first of its kind.",
+   "note": "ch3"
+  },
+  {
+   "id": "S35",
+   "size": "wide",
+   "key": 39,
+   "len": 63,
+   "first": 2092,
+   "line": "You are parked. You are not stuck.",
+   "note": "ch3"
+  },
+  {
+   "id": "S36",
+   "size": "insert",
+   "key": 60,
+   "len": 96,
+   "first": 2155,
+   "line": "And Earth is still close enough to find.",
+   "note": "ch3"
+  },
+  {
+   "id": "S37",
+   "size": "wide",
+   "key": 21,
+   "len": 34,
+   "first": 2251,
+   "line": "Now you wait.",
+   "note": "ch4"
+  },
+  {
+   "id": "S38",
+   "size": "high",
+   "key": 42,
+   "len": 68,
+   "first": 2285,
+   "line": "A whole year, going in circles.",
+   "note": "ch4"
+  },
+  {
+   "id": "S39",
+   "size": "low",
+   "key": 40,
+   "len": 64,
+   "first": 2353,
+   "line": "No sightseeing. Just loops.",
+   "note": "ch4"
+  },
+  {
+   "id": "S40",
+   "size": "med",
+   "key": 33,
+   "len": 53,
+   "first": 2417,
+   "line": "You do take a few measurements.",
+   "note": "ch4"
+  },
+  {
+   "id": "S41",
+   "size": "pan",
+   "key": 61,
+   "len": 99,
+   "first": 2470,
+   "line": "Out here, you fly through Earth's long magnetic tail.",
+   "note": "ch4"
+  },
+  {
+   "id": "S42",
+   "size": "tilt",
+   "key": 52,
+   "len": 84,
+   "first": 2569,
+   "line": "The solar wind stretches it out like a windsock.",
+   "note": "ch4"
+  },
+  {
+   "id": "S43",
+   "size": "wide",
+   "key": 45,
+   "len": 72,
+   "first": 2653,
+   "line": "Then, one day, the timing is right.",
+   "note": "ch4"
+  },
+  {
+   "id": "S44",
+   "size": "insert",
+   "key": 55,
+   "len": 89,
+   "first": 2725,
+   "line": "Mars has moved to the same side of the Sun as Earth.",
+   "note": "ch4"
+  },
+  {
+   "id": "S45",
+   "size": "panr",
+   "key": 39,
+   "len": 63,
+   "first": 2814,
+   "line": "So you turn around and head home.",
+   "note": "ch4"
+  },
+  {
+   "id": "S46",
+   "size": "low",
+   "key": 58,
+   "len": 93,
+   "first": 2877,
+   "line": "Not to land. To skim past.",
+   "note": "ch4"
+  },
+  {
+   "id": "S47",
+   "size": "wide",
+   "key": 48,
+   "len": 78,
+   "first": 2970,
+   "line": "November seventh, twenty twenty-six.",
+   "note": "ch5"
+  },
+  {
+   "id": "S48",
+   "size": "med",
+   "key": 42,
+   "len": 67,
+   "first": 3048,
+   "line": "Mission control holds its breath.",
+   "note": "ch5"
+  },
+  {
+   "id": "S49",
+   "size": "high",
+   "key": 60,
+   "len": 97,
+   "first": 3115,
+   "line": "At five in the morning, Eastern time, you arrive.",
+   "note": "ch5"
+  },
+  {
+   "id": "S50",
+   "size": "low",
+   "key": 42,
+   "len": 68,
+   "first": 3212,
+   "line": "One thousand miles above the ground.",
+   "note": "ch5"
+  },
+  {
+   "id": "S51",
+   "size": "close",
+   "key": 42,
+   "len": 68,
+   "first": 3280,
+   "line": "Close enough to feel Earth's pull.",
+   "note": "ch5"
+  },
+  {
+   "id": "S52",
+   "size": "insert",
+   "key": 29,
+   "len": 47,
+   "first": 3348,
+   "line": "Now the engine fires.",
+   "note": "ch5"
+  },
+  {
+   "id": "S53",
+   "size": "pan",
+   "key": 35,
+   "len": 56,
+   "first": 3395,
+   "line": "This is the burn that commits you.",
+   "note": "ch5"
+  },
+  {
+   "id": "S54",
+   "size": "med",
+   "key": 40,
+   "len": 65,
+   "first": 3451,
+   "line": "Trans-Mars injection, they call it.",
+   "note": "ch5"
+  },
+  {
+   "id": "S55",
+   "size": "wide",
+   "key": 29,
+   "len": 47,
+   "first": 3516,
+   "line": "Nine minutes of thrust.",
+   "note": "ch5"
+  },
+  {
+   "id": "S56",
+   "size": "tilt",
+   "key": 40,
+   "len": 65,
+   "first": 3563,
+   "line": "Earth's gravity bends your path.",
+   "note": "ch5"
+  },
+  {
+   "id": "S57",
+   "size": "insert",
+   "key": 66,
+   "len": 107,
+   "first": 3628,
+   "line": "The engine adds a push, right where gravity is strongest.",
+   "note": "ch5"
+  },
+  {
+   "id": "S58",
+   "size": "high",
+   "key": 36,
+   "len": 58,
+   "first": 3735,
+   "line": "Two forces, working as one.",
+   "note": "ch5"
+  },
+  {
+   "id": "S59",
+   "size": "low",
+   "key": 30,
+   "len": 49,
+   "first": 3793,
+   "line": "And then the thrust ends.",
+   "note": "ch5"
+  },
+  {
+   "id": "S60",
+   "size": "pullout",
+   "key": 32,
+   "len": 52,
+   "first": 3842,
+   "line": "You are on your way to Mars.",
+   "note": "ch5"
+  },
+  {
+   "id": "S61",
+   "size": "med",
+   "key": 31,
+   "len": 50,
+   "first": 3894,
+   "line": "Mission control erupts.",
+   "note": "ch5"
+  },
+  {
+   "id": "S62",
+   "size": "close",
+   "key": 61,
+   "len": 99,
+   "first": 3944,
+   "line": "Nobody at NASA had ever done this before.",
+   "note": "ch5"
+  },
+  {
+   "id": "S63",
+   "size": "wide",
+   "key": 39,
+   "len": 63,
+   "first": 4043,
+   "line": "But remember, you are one of two.",
+   "note": "ch6"
+  },
+  {
+   "id": "S64",
+   "size": "pan",
+   "key": 39,
+   "len": 63,
+   "first": 4106,
+   "line": "Your twin is still coming round.",
+   "note": "ch6"
+  },
+  {
+   "id": "S65",
+   "size": "med",
+   "key": 42,
+   "len": 68,
+   "first": 4169,
+   "line": "Two days later, same plan.",
+   "note": "ch6"
+  },
+  {
+   "id": "S66",
+   "size": "high",
+   "key": 48,
+   "len": 77,
+   "first": 4237,
+   "line": "Monday, around six in the morning, Eastern.",
+   "note": "ch6"
+  },
+  {
+   "id": "S67",
+   "size": "low",
+   "key": 34,
+   "len": 55,
+   "first": 4314,
+   "line": "This time, even closer.",
+   "note": "ch6"
+  },
+  {
+   "id": "S68",
+   "size": "close",
+   "key": 35,
+   "len": 57,
+   "first": 4369,
+   "line": "Six hundred fifty miles up.",
+   "note": "ch6"
+  },
+  {
+   "id": "S69",
+   "size": "insert",
+   "key": 30,
+   "len": 48,
+   "first": 4426,
+   "line": "Another nine-minute burn.",
+   "note": "ch6"
+  },
+  {
+   "id": "S70",
+   "size": "pullout",
+   "key": 22,
+   "len": 35,
+   "first": 4474,
+   "line": "Flawless again.",
+   "note": "ch6"
+  },
+  {
+   "id": "S71",
+   "size": "med",
+   "key": 63,
+   "len": 102,
+   "first": 4509,
+   "line": "Two spacecraft. Two flybys. Two days.",
+   "note": "ch6"
+  },
+  {
+   "id": "S72",
+   "size": "wide",
+   "key": 30,
+   "len": 48,
+   "first": 4611,
+   "line": "A new way to reach Mars.",
+   "note": "ch6"
+  },
+  {
+   "id": "S73",
+   "size": "low",
+   "key": 37,
+   "len": 60,
+   "first": 4659,
+   "line": "You can launch almost any time.",
+   "note": "ch6"
+  },
+  {
+   "id": "S74",
+   "size": "pan",
+   "key": 43,
+   "len": 69,
+   "first": 4719,
+   "line": "Then park, wait, and slingshot.",
+   "note": "ch6"
+  },
+  {
+   "id": "S75",
+   "size": "high",
+   "key": 77,
+   "len": 124,
+   "first": 4788,
+   "line": "No more waiting for the planets to line up every two years.",
+   "note": "ch6"
+  },
+  {
+   "id": "S76",
+   "size": "wide",
+   "key": 32,
+   "len": 51,
+   "first": 4912,
+   "line": "Now comes the quiet part.",
+   "note": "ch7"
+  },
+  {
+   "id": "S77",
+   "size": "med",
+   "key": 26,
+   "len": 42,
+   "first": 4963,
+   "line": "Ten months of coasting.",
+   "note": "ch7"
+  },
+  {
+   "id": "S78",
+   "size": "pan",
+   "key": 71,
+   "len": 115,
+   "first": 5005,
+   "line": "No engine. No drama. Just falling toward Mars.",
+   "note": "ch7"
+  },
+  {
+   "id": "S79",
+   "size": "insert",
+   "key": 32,
+   "len": 52,
+   "first": 5120,
+   "line": "You still work on the way.",
+   "note": "ch7"
+  },
+  {
+   "id": "S80",
+   "size": "low",
+   "key": 56,
+   "len": 90,
+   "first": 5172,
+   "line": "The solar wind is changing between here and Mars.",
+   "note": "ch7"
+  },
+  {
+   "id": "S81",
+   "size": "close",
+   "key": 55,
+   "len": 89,
+   "first": 5262,
+   "line": "A stream of particles, a million miles an hour.",
+   "note": "ch7"
+  },
+  {
+   "id": "S82",
+   "size": "high",
+   "key": 50,
+   "len": 80,
+   "first": 5351,
+   "line": "A few small nudges keep you on course.",
+   "note": "ch7"
+  },
+  {
+   "id": "S83",
+   "size": "tilt",
+   "key": 37,
+   "len": 59,
+   "first": 5431,
+   "line": "Each one has to be precise.",
+   "note": "ch7"
+  },
+  {
+   "id": "S84",
+   "size": "insert",
+   "key": 47,
+   "len": 76,
+   "first": 5490,
+   "line": "Because Mars will not wait.",
+   "note": "ch7"
+  },
+  {
+   "id": "S85",
+   "size": "wide",
+   "key": 47,
+   "len": 76,
+   "first": 5566,
+   "line": "September seventh, twenty twenty-seven.",
+   "note": "ch8"
+  },
+  {
+   "id": "S86",
+   "size": "pullout",
+   "key": 27,
+   "len": 43,
+   "first": 5642,
+   "line": "Mars fills the window.",
+   "note": "ch8"
+  },
+  {
+   "id": "S87",
+   "size": "low",
+   "key": 25,
+   "len": 40,
+   "first": 5685,
+   "line": "Now you have to slow down.",
+   "note": "ch8"
+  },
+  {
+   "id": "S88",
+   "size": "med",
+   "key": 46,
+   "len": 75,
+   "first": 5725,
+   "line": "Another burn. About eleven minutes.",
+   "note": "ch8"
+  },
+  {
+   "id": "S89",
+   "size": "close",
+   "key": 45,
+   "len": 72,
+   "first": 5800,
+   "line": "Get it wrong, and you sail straight past.",
+   "note": "ch8"
+  },
+  {
+   "id": "S90",
+   "size": "insert",
+   "key": 40,
+   "len": 65,
+   "first": 5872,
+   "line": "Get it right, and Mars catches you.",
+   "note": "ch8"
+  },
+  {
+   "id": "S91",
+   "size": "pan",
+   "key": 47,
+   "len": 76,
+   "first": 5937,
+   "line": "Your twin does the same, two days later.",
+   "note": "ch8"
+  },
+  {
+   "id": "S92",
+   "size": "wide",
+   "key": 53,
+   "len": 85,
+   "first": 6013,
+   "line": "Two small craft, circling the Red Planet.",
+   "note": "ch8"
+  },
+  {
+   "id": "S93",
+   "size": "med",
+   "key": 35,
+   "len": 56,
+   "first": 6098,
+   "line": "Then the real work begins.",
+   "note": "ch8"
+  },
+  {
+   "id": "S94",
+   "size": "close",
+   "key": 67,
+   "len": 108,
+   "first": 6154,
+   "line": "Science starts around June twenty twenty-eight.",
+   "note": "ch8"
+  },
+  {
+   "id": "S95",
+   "size": "wide",
+   "key": 42,
+   "len": 68,
+   "first": 6262,
+   "line": "So what is the mission actually for?",
+   "note": "ch9"
+  },
+  {
+   "id": "S96",
+   "size": "high",
+   "key": 38,
+   "len": 62,
+   "first": 6330,
+   "line": "Mars used to have a thick atmosphere.",
+   "note": "ch9"
+  },
+  {
+   "id": "S97",
+   "size": "low",
+   "key": 42,
+   "len": 68,
+   "first": 6392,
+   "line": "The solar wind may have stripped it away.",
+   "note": "ch9"
+  },
+  {
+   "id": "S98",
+   "size": "med",
+   "key": 52,
+   "len": 84,
+   "first": 6460,
+   "line": "Two spacecraft, in two places, at once.",
+   "note": "ch9"
+  },
+  {
+   "id": "S99",
+   "size": "pan",
+   "key": 54,
+   "len": 87,
+   "first": 6544,
+   "line": "One out near the wind. One close to the planet.",
+   "note": "ch9"
+  },
+  {
+   "id": "S100",
+   "size": "insert",
+   "key": 45,
+   "len": 72,
+   "first": 6631,
+   "line": "Watching Mars respond in real time.",
+   "note": "ch9"
+  },
+  {
+   "id": "S101",
+   "size": "close",
+   "key": 48,
+   "len": 78,
+   "first": 6703,
+   "line": "That helps us plan for the first humans there.",
+   "note": "ch9"
+  },
+  {
+   "id": "S102",
+   "size": "wide",
+   "key": 30,
+   "len": 48,
+   "first": 6781,
+   "line": "So back to that moment.",
+   "note": "ch9"
+  },
+  {
+   "id": "S103",
+   "size": "pullout",
+   "key": 57,
+   "len": 92,
+   "first": 6829,
+   "line": "Engine on. Nine minutes. Earth's pull.",
+   "note": "ch9"
+  },
+  {
+   "id": "S104",
+   "size": "high",
+   "key": 37,
+   "len": 60,
+   "first": 6921,
+   "line": "And a planet you have never visited.",
+   "note": "ch9"
+  },
+  {
+   "id": "S105",
+   "size": "med",
+   "key": 53,
+   "len": 85,
+   "first": 6981,
+   "line": "Earth gave you a push. Mars is next.",
+   "note": "ch9"
+  },
+  {
+   "id": "S106",
+   "size": "close",
+   "key": 35,
+   "len": 56,
+   "first": 7066,
+   "line": "Would you have taken the slingshot?",
+   "note": "ch9"
+  },
+  {
+   "id": "S107",
+   "size": "wide",
+   "key": 84,
+   "len": 135,
+   "first": 7122,
+   "line": "Tomorrow: another what if, another piece of the sky.",
+   "note": "ch9"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "slingshot/voice.wav",
+  "sfx": "slingshot/sfx.wav",
+  "music": "slingshot/music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}

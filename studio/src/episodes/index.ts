@@ -11,4 +11,5 @@ import { jupiterfall, jupiterfallShort } from './jupiterfall';
 import { marsyear, marsyearShort } from './marsyear';
 
 import { leonidstorm, leonidstormShort } from './leonidstorm';
-export const EPISODES = [rewind, copyPaste, reaction, meteor, starcatcher, jump, jumpShort, lightday, lightdayShort, closermoon, closermoonShort, jupiterfall, jupiterfallShort, marsyear, marsyearShort, leonidstorm, leonidstormShort];
+import { slingshot, slingshotShort } from './slingshot';
+export const EPISODES = [rewind, copyPaste, reaction, meteor, starcatcher, jump, jumpShort, lightday, lightdayShort, closermoon, closermoonShort, jupiterfall, jupiterfallShort, marsyear, marsyearShort, leonidstorm, leonidstormShort, slingshot, slingshotShort];

@@ -1,0 +1,291 @@
+{
+ "slug": "slingshot",
+ "title": "WHAT IF YOU USED EARTH AS A SLINGSHOT TO MARS?",
+ "fps": 30,
+ "total": 1247,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 86,
+   "t0": 0,
+   "t1": 86,
+   "line": "Six hundred fifty miles up. Engine on."
+  },
+  {
+   "shot": "S2",
+   "a": 86,
+   "b": 172,
+   "t0": 0,
+   "t1": 86,
+   "line": "Nine minutes later, Earth throws you at Mars."
+  },
+  {
+   "shot": "S3",
+   "a": 172,
+   "b": 276,
+   "t0": 0,
+   "t1": 104,
+   "line": "NASA's twin ESCAPADE probes just did it. Twice."
+  },
+  {
+   "shot": "S4",
+   "a": 276,
+   "b": 354,
+   "t0": 0,
+   "t1": 78,
+   "line": "They launched in November twenty twenty-five."
+  },
+  {
+   "shot": "S5",
+   "a": 354,
+   "b": 422,
+   "t0": 0,
+   "t1": 68,
+   "line": "But Mars was on the far side of the Sun."
+  },
+  {
+   "shot": "S6",
+   "a": 422,
+   "b": 486,
+   "t0": 0,
+   "t1": 64,
+   "line": "So they parked a million miles away."
+  },
+  {
+   "shot": "S7",
+   "a": 486,
+   "b": 560,
+   "t0": 0,
+   "t1": 74,
+   "line": "Looping in a kidney-bean path for a year."
+  },
+  {
+   "shot": "S8",
+   "a": 560,
+   "b": 617,
+   "t0": 0,
+   "t1": 57,
+   "line": "Then Earth and Mars lined up."
+  },
+  {
+   "shot": "S9",
+   "a": 617,
+   "b": 691,
+   "t0": 0,
+   "t1": 74,
+   "line": "One burn. Gravity does the rest."
+  },
+  {
+   "shot": "S10",
+   "a": 691,
+   "b": 740,
+   "t0": 0,
+   "t1": 49,
+   "line": "First time NASA has done it."
+  },
+  {
+   "shot": "S11",
+   "a": 740,
+   "b": 785,
+   "t0": 0,
+   "t1": 45,
+   "line": "Ten months of coasting."
+  },
+  {
+   "shot": "S12",
+   "a": 785,
+   "b": 874,
+   "t0": 0,
+   "t1": 89,
+   "line": "Then another burn, eleven minutes, to catch Mars."
+  },
+  {
+   "shot": "S13",
+   "a": 874,
+   "b": 963,
+   "t0": 0,
+   "t1": 89,
+   "line": "Arrival: September seventh, twenty twenty-seven."
+  },
+  {
+   "shot": "S14",
+   "a": 963,
+   "b": 1053,
+   "t0": 0,
+   "t1": 90,
+   "line": "The goal: see how the solar wind strips Mars."
+  },
+  {
+   "shot": "S15",
+   "a": 1053,
+   "b": 1153,
+   "t0": 0,
+   "t1": 100,
+   "line": "Full film on the channel. Tomorrow: another what if."
+  },
+  {
+   "shot": "S16",
+   "a": 1153,
+   "b": 1247,
+   "t0": 0,
+   "t1": 94,
+   "line": "Six hundred fifty miles. Engine on."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "med",
+   "key": 53,
+   "len": 86,
+   "first": 0,
+   "line": "Six hundred fifty miles up. Engine on.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "wide",
+   "key": 53,
+   "len": 86,
+   "first": 86,
+   "line": "Nine minutes later, Earth throws you at Mars.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "close",
+   "key": 64,
+   "len": 104,
+   "first": 172,
+   "line": "NASA's twin ESCAPADE probes just did it. Twice.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "low",
+   "key": 48,
+   "len": 78,
+   "first": 276,
+   "line": "They launched in November twenty twenty-five.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "high",
+   "key": 42,
+   "len": 68,
+   "first": 354,
+   "line": "But Mars was on the far side of the Sun.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "wide",
+   "key": 40,
+   "len": 64,
+   "first": 422,
+   "line": "So they parked a million miles away.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "insert",
+   "key": 46,
+   "len": 74,
+   "first": 486,
+   "line": "Looping in a kidney-bean path for a year.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "pullout",
+   "key": 35,
+   "len": 57,
+   "first": 560,
+   "line": "Then Earth and Mars lined up.",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "low",
+   "key": 46,
+   "len": 74,
+   "first": 617,
+   "line": "One burn. Gravity does the rest.",
+   "note": "ch0"
+  },
+  {
+   "id": "S10",
+   "size": "close",
+   "key": 30,
+   "len": 49,
+   "first": 691,
+   "line": "First time NASA has done it.",
+   "note": "ch0"
+  },
+  {
+   "id": "S11",
+   "size": "pan",
+   "key": 28,
+   "len": 45,
+   "first": 740,
+   "line": "Ten months of coasting.",
+   "note": "ch0"
+  },
+  {
+   "id": "S12",
+   "size": "med",
+   "key": 55,
+   "len": 89,
+   "first": 785,
+   "line": "Then another burn, eleven minutes, to catch Mars.",
+   "note": "ch0"
+  },
+  {
+   "id": "S13",
+   "size": "insert",
+   "key": 55,
+   "len": 89,
+   "first": 874,
+   "line": "Arrival: September seventh, twenty twenty-seven.",
+   "note": "ch0"
+  },
+  {
+   "id": "S14",
+   "size": "tilt",
+   "key": 56,
+   "len": 90,
+   "first": 963,
+   "line": "The goal: see how the solar wind strips Mars.",
+   "note": "ch0"
+  },
+  {
+   "id": "S15",
+   "size": "wide",
+   "key": 62,
+   "len": 100,
+   "first": 1053,
+   "line": "Full film on the channel. Tomorrow: another what if.",
+   "note": "ch0"
+  },
+  {
+   "id": "S16",
+   "size": "med",
+   "key": 58,
+   "len": 94,
+   "first": 1153,
+   "line": "Six hundred fifty miles. Engine on.",
+   "note": "ch0"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "slingshot/short-voice.wav",
+  "sfx": "slingshot/short-sfx.wav",
+  "music": "slingshot/short-music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}
