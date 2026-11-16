@@ -1,0 +1,257 @@
+{
+ "slug": "ship42",
+ "title": "WHAT IF YOU RODE STARSHIP AROUND EARTH 14 TIMES?",
+ "fps": 30,
+ "total": 1171,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 49,
+   "t0": 0,
+   "t1": 49,
+   "line": "You just fell out of orbit."
+  },
+  {
+   "shot": "S2",
+   "a": 49,
+   "b": 107,
+   "t0": 0,
+   "t1": 58,
+   "line": "Two steel arms are waiting."
+  },
+  {
+   "shot": "S3",
+   "a": 107,
+   "b": 195,
+   "t0": 0,
+   "t1": 88,
+   "line": "Twenty-two and a half hours ago, you left this tower."
+  },
+  {
+   "shot": "S4",
+   "a": 195,
+   "b": 298,
+   "t0": 0,
+   "t1": 103,
+   "line": "Thirty-three engines. Twelve million pounds of fuel."
+  },
+  {
+   "shot": "S5",
+   "a": 298,
+   "b": 372,
+   "t0": 0,
+   "t1": 74,
+   "line": "The booster aborts. You keep going."
+  },
+  {
+   "shot": "S6",
+   "a": 372,
+   "b": 452,
+   "t0": 0,
+   "t1": 80,
+   "line": "Then twenty-six satellites pop out of your belly."
+  },
+  {
+   "shot": "S7",
+   "a": 452,
+   "b": 556,
+   "t0": 0,
+   "t1": 104,
+   "line": "Fourteen laps. Twenty-six thousand kilometres an hour."
+  },
+  {
+   "shot": "S8",
+   "a": 556,
+   "b": 644,
+   "t0": 0,
+   "t1": 88,
+   "line": "One tile on your belly was put there by MrBeast."
+  },
+  {
+   "shot": "S9",
+   "a": 644,
+   "b": 744,
+   "t0": 0,
+   "t1": 100,
+   "line": "Ten-second burn. Then plasma on every edge."
+  },
+  {
+   "shot": "S10",
+   "a": 744,
+   "b": 810,
+   "t0": 0,
+   "t1": 66,
+   "line": "No wheels. No parachute."
+  },
+  {
+   "shot": "S11",
+   "a": 810,
+   "b": 880,
+   "t0": 0,
+   "t1": 70,
+   "line": "You hover. Right between the arms."
+  },
+  {
+   "shot": "S12",
+   "a": 880,
+   "b": 949,
+   "t0": 0,
+   "t1": 69,
+   "line": "The arms close. You are caught."
+  },
+  {
+   "shot": "S13",
+   "a": 949,
+   "b": 1049,
+   "t0": 0,
+   "t1": 100,
+   "line": "A ship has never been caught before. Until Saturday."
+  },
+  {
+   "shot": "S14",
+   "a": 1049,
+   "b": 1171,
+   "t0": 0,
+   "t1": 122,
+   "line": "Full film on the channel. Tomorrow: another what if."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 30,
+   "len": 49,
+   "first": 0,
+   "line": "You just fell out of orbit.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "med",
+   "key": 36,
+   "len": 58,
+   "first": 49,
+   "line": "Two steel arms are waiting.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "high",
+   "key": 55,
+   "len": 88,
+   "first": 107,
+   "line": "Twenty-two and a half hours ago, you left this tower.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "low",
+   "key": 64,
+   "len": 103,
+   "first": 195,
+   "line": "Thirty-three engines. Twelve million pounds of fuel.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "med",
+   "key": 46,
+   "len": 74,
+   "first": 298,
+   "line": "The booster aborts. You keep going.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "close",
+   "key": 50,
+   "len": 80,
+   "first": 372,
+   "line": "Then twenty-six satellites pop out of your belly.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "wide",
+   "key": 64,
+   "len": 104,
+   "first": 452,
+   "line": "Fourteen laps. Twenty-six thousand kilometres an hour.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "insert",
+   "key": 55,
+   "len": 88,
+   "first": 556,
+   "line": "One tile on your belly was put there by MrBeast.",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "close",
+   "key": 62,
+   "len": 100,
+   "first": 644,
+   "line": "Ten-second burn. Then plasma on every edge.",
+   "note": "ch0"
+  },
+  {
+   "id": "S10",
+   "size": "pullout",
+   "key": 41,
+   "len": 66,
+   "first": 744,
+   "line": "No wheels. No parachute.",
+   "note": "ch0"
+  },
+  {
+   "id": "S11",
+   "size": "low",
+   "key": 43,
+   "len": 70,
+   "first": 810,
+   "line": "You hover. Right between the arms.",
+   "note": "ch0"
+  },
+  {
+   "id": "S12",
+   "size": "wide",
+   "key": 43,
+   "len": 69,
+   "first": 880,
+   "line": "The arms close. You are caught.",
+   "note": "ch0"
+  },
+  {
+   "id": "S13",
+   "size": "high",
+   "key": 62,
+   "len": 100,
+   "first": 949,
+   "line": "A ship has never been caught before. Until Saturday.",
+   "note": "ch0"
+  },
+  {
+   "id": "S14",
+   "size": "med",
+   "key": 76,
+   "len": 122,
+   "first": 1049,
+   "line": "Full film on the channel. Tomorrow: another what if.",
+   "note": "ch0"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "ship42/short-voice.wav",
+  "sfx": "ship42/short-sfx.wav",
+  "music": "ship42/short-music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}

@@ -1,0 +1,1735 @@
+{
+ "slug": "ship42",
+ "title": "WHAT IF YOU RODE STARSHIP AROUND EARTH 14 TIMES?",
+ "fps": 30,
+ "total": 8114,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 84,
+   "t0": 0,
+   "t1": 84,
+   "line": "Twenty-two hours ago, you left this tower."
+  },
+  {
+   "shot": "S2",
+   "a": 84,
+   "b": 134,
+   "t0": 0,
+   "t1": 50,
+   "line": "Now you are falling back at it."
+  },
+  {
+   "shot": "S3",
+   "a": 134,
+   "b": 185,
+   "t0": 0,
+   "t1": 51,
+   "line": "Plasma on every edge."
+  },
+  {
+   "shot": "S4",
+   "a": 185,
+   "b": 248,
+   "t0": 0,
+   "t1": 63,
+   "line": "And two steel arms are waiting."
+  },
+  {
+   "shot": "S5",
+   "a": 248,
+   "b": 351,
+   "t0": 0,
+   "t1": 103,
+   "line": "No landing legs. No parachute. Just a catch."
+  },
+  {
+   "shot": "S6",
+   "a": 351,
+   "b": 433,
+   "t0": 0,
+   "t1": 82,
+   "line": "SpaceX did it on Saturday the fourteenth."
+  },
+  {
+   "shot": "S7",
+   "a": 433,
+   "b": 494,
+   "t0": 0,
+   "t1": 61,
+   "line": "So what if you rode it all the way?"
+  },
+  {
+   "shot": "S8",
+   "a": 494,
+   "b": 623,
+   "t0": 0,
+   "t1": 129,
+   "line": "What if you rode Starship around Earth fourteen times?"
+  },
+  {
+   "shot": "S9",
+   "a": 623,
+   "b": 665,
+   "t0": 0,
+   "t1": 42,
+   "line": "Here are the rules."
+  },
+  {
+   "shot": "S10",
+   "a": 665,
+   "b": 769,
+   "t0": 0,
+   "t1": 104,
+   "line": "You ride Ship forty-two, the top half of Starship."
+  },
+  {
+   "shot": "S11",
+   "a": 769,
+   "b": 867,
+   "t0": 0,
+   "t1": 98,
+   "line": "Its partner, Booster twenty-two, does the heavy lifting."
+  },
+  {
+   "shot": "S12",
+   "a": 867,
+   "b": 945,
+   "t0": 0,
+   "t1": 78,
+   "line": "Together they are forty-one stories tall."
+  },
+  {
+   "shot": "S13",
+   "a": 945,
+   "b": 1030,
+   "t0": 0,
+   "t1": 85,
+   "line": "You will be on board for twenty-two and a half hours."
+  },
+  {
+   "shot": "S14",
+   "a": 1030,
+   "b": 1111,
+   "t0": 0,
+   "t1": 81,
+   "line": "The catch at the end has never been tried on a ship."
+  },
+  {
+   "shot": "S15",
+   "a": 1111,
+   "b": 1222,
+   "t0": 0,
+   "t1": 111,
+   "line": "Buckle up. Friday, thirteenth of November."
+  },
+  {
+   "shot": "S16",
+   "a": 1222,
+   "b": 1309,
+   "t0": 0,
+   "t1": 87,
+   "line": "Four forty-seven in the afternoon, Texas time."
+  },
+  {
+   "shot": "S17",
+   "a": 1309,
+   "b": 1393,
+   "t0": 0,
+   "t1": 84,
+   "line": "Twelve million pounds of fuel sit under your feet."
+  },
+  {
+   "shot": "S18",
+   "a": 1393,
+   "b": 1464,
+   "t0": 0,
+   "t1": 71,
+   "line": "Liquid oxygen. Liquid methane."
+  },
+  {
+   "shot": "S19",
+   "a": 1464,
+   "b": 1536,
+   "t0": 0,
+   "t1": 72,
+   "line": "Thirty-three engines wake up beneath you."
+  },
+  {
+   "shot": "S20",
+   "a": 1536,
+   "b": 1574,
+   "t0": 0,
+   "t1": 38,
+   "line": "And you rise."
+  },
+  {
+   "shot": "S21",
+   "a": 1574,
+   "b": 1652,
+   "t0": 0,
+   "t1": 78,
+   "line": "A forty-one-story megarocket, climbing."
+  },
+  {
+   "shot": "S22",
+   "a": 1652,
+   "b": 1738,
+   "t0": 0,
+   "t1": 86,
+   "line": "Faster. Higher. The sky goes dark."
+  },
+  {
+   "shot": "S23",
+   "a": 1738,
+   "b": 1805,
+   "t0": 0,
+   "t1": 67,
+   "line": "Minutes in, the stack comes apart."
+  },
+  {
+   "shot": "S24",
+   "a": 1805,
+   "b": 1881,
+   "t0": 0,
+   "t1": 76,
+   "line": "One of the booster's engines may have dropped out."
+  },
+  {
+   "shot": "S25",
+   "a": 1881,
+   "b": 2005,
+   "t0": 0,
+   "t1": 124,
+   "line": "You keep climbing. Six engines. All good."
+  },
+  {
+   "shot": "S26",
+   "a": 2005,
+   "b": 2071,
+   "t0": 0,
+   "t1": 66,
+   "line": "Below you, the booster turns for home."
+  },
+  {
+   "shot": "S27",
+   "a": 2071,
+   "b": 2146,
+   "t0": 0,
+   "t1": 75,
+   "line": "It plans to land in the same arms you will."
+  },
+  {
+   "shot": "S28",
+   "a": 2146,
+   "b": 2241,
+   "t0": 0,
+   "t1": 95,
+   "line": "SpaceX has caught a booster three times before."
+  },
+  {
+   "shot": "S29",
+   "a": 2241,
+   "b": 2295,
+   "t0": 0,
+   "t1": 54,
+   "line": "This time, an alarm goes off."
+  },
+  {
+   "shot": "S30",
+   "a": 2295,
+   "b": 2388,
+   "t0": 0,
+   "t1": 93,
+   "line": "Low fuel mass. The burn ended early."
+  },
+  {
+   "shot": "S31",
+   "a": 2388,
+   "b": 2452,
+   "t0": 0,
+   "t1": 64,
+   "line": "The booster checks its own position."
+  },
+  {
+   "shot": "S32",
+   "a": 2452,
+   "b": 2503,
+   "t0": 0,
+   "t1": 51,
+   "line": "It is not where it should be."
+  },
+  {
+   "shot": "S33",
+   "a": 2503,
+   "b": 2593,
+   "t0": 0,
+   "t1": 90,
+   "line": "So it aborts itself. Out over the Gulf."
+  },
+  {
+   "shot": "S34",
+   "a": 2593,
+   "b": 2672,
+   "t0": 0,
+   "t1": 79,
+   "line": "One half of the dream goes into the water."
+  },
+  {
+   "shot": "S35",
+   "a": 2672,
+   "b": 2745,
+   "t0": 0,
+   "t1": 73,
+   "line": "Now it is all on you."
+  },
+  {
+   "shot": "S36",
+   "a": 2745,
+   "b": 2852,
+   "t0": 0,
+   "t1": 107,
+   "line": "Twenty-six minutes after liftoff, one engine relights."
+  },
+  {
+   "shot": "S37",
+   "a": 2852,
+   "b": 2893,
+   "t0": 0,
+   "t1": 41,
+   "line": "For twenty seconds."
+  },
+  {
+   "shot": "S38",
+   "a": 2893,
+   "b": 2982,
+   "t0": 0,
+   "t1": 89,
+   "line": "And the engine goes quiet. You are in orbit."
+  },
+  {
+   "shot": "S39",
+   "a": 2982,
+   "b": 3069,
+   "t0": 0,
+   "t1": 87,
+   "line": "Only the second time Starship has ever done this."
+  },
+  {
+   "shot": "S40",
+   "a": 3069,
+   "b": 3144,
+   "t0": 0,
+   "t1": 75,
+   "line": "Two hundred seventy-five kilometres up."
+  },
+  {
+   "shot": "S41",
+   "a": 3144,
+   "b": 3212,
+   "t0": 0,
+   "t1": 68,
+   "line": "You are carrying twenty-six passengers."
+  },
+  {
+   "shot": "S42",
+   "a": 3212,
+   "b": 3307,
+   "t0": 0,
+   "t1": 95,
+   "line": "Starlink satellites, stacked like a pez dispenser."
+  },
+  {
+   "shot": "S43",
+   "a": 3307,
+   "b": 3355,
+   "t0": 0,
+   "t1": 48,
+   "line": "Pop. Pop. Pop."
+  },
+  {
+   "shot": "S44",
+   "a": 3355,
+   "b": 3413,
+   "t0": 0,
+   "t1": 58,
+   "line": "Twelve gone in the first hour."
+  },
+  {
+   "shot": "S45",
+   "a": 3413,
+   "b": 3478,
+   "t0": 0,
+   "t1": 65,
+   "line": "One of them turns its camera back at you."
+  },
+  {
+   "shot": "S46",
+   "a": 3478,
+   "b": 3570,
+   "t0": 0,
+   "t1": 92,
+   "line": "It is checking your heat shield, tile by tile."
+  },
+  {
+   "shot": "S47",
+   "a": 3570,
+   "b": 3640,
+   "t0": 0,
+   "t1": 70,
+   "line": "One tile was installed by MrBeast."
+  },
+  {
+   "shot": "S48",
+   "a": 3640,
+   "b": 3681,
+   "t0": 0,
+   "t1": 41,
+   "line": "No pressure, tile."
+  },
+  {
+   "shot": "S49",
+   "a": 3681,
+   "b": 3771,
+   "t0": 0,
+   "t1": 90,
+   "line": "At the one hour seventeen mark, the last one leaves."
+  },
+  {
+   "shot": "S50",
+   "a": 3771,
+   "b": 3889,
+   "t0": 0,
+   "t1": 118,
+   "line": "But your day is not over. You still have to get down."
+  },
+  {
+   "shot": "S51",
+   "a": 3889,
+   "b": 3954,
+   "t0": 0,
+   "t1": 65,
+   "line": "Now you coast. And coast."
+  },
+  {
+   "shot": "S52",
+   "a": 3954,
+   "b": 4021,
+   "t0": 0,
+   "t1": 67,
+   "line": "Twenty-six thousand kilometres an hour."
+  },
+  {
+   "shot": "S53",
+   "a": 4021,
+   "b": 4104,
+   "t0": 0,
+   "t1": 83,
+   "line": "About ninety-six minutes to circle the planet."
+  },
+  {
+   "shot": "S54",
+   "a": 4104,
+   "b": 4174,
+   "t0": 0,
+   "t1": 70,
+   "line": "Lap three. Lap four. Southeast Asia, then the Indian Ocean."
+  },
+  {
+   "shot": "S54",
+   "a": 4174,
+   "b": 4244,
+   "t0": 70,
+   "t1": 140,
+   "line": "Lap three. Lap four. Southeast Asia, then the Indian Ocean."
+  },
+  {
+   "shot": "S55",
+   "a": 4244,
+   "b": 4319,
+   "t0": 0,
+   "t1": 75,
+   "line": "You see a sunrise on every single lap."
+  },
+  {
+   "shot": "S56",
+   "a": 4319,
+   "b": 4415,
+   "t0": 0,
+   "t1": 96,
+   "line": "Seven hours in, mission control gets a choice."
+  },
+  {
+   "shot": "S57",
+   "a": 4415,
+   "b": 4502,
+   "t0": 0,
+   "t1": 87,
+   "line": "Bring you down early, in the ocean off Chile?"
+  },
+  {
+   "shot": "S58",
+   "a": 4502,
+   "b": 4542,
+   "t0": 0,
+   "t1": 40,
+   "line": "Or let you stay?"
+  },
+  {
+   "shot": "S59",
+   "a": 4542,
+   "b": 4611,
+   "t0": 0,
+   "t1": 69,
+   "line": "Go. You stay in space."
+  },
+  {
+   "shot": "S60",
+   "a": 4611,
+   "b": 4722,
+   "t0": 0,
+   "t1": 111,
+   "line": "Lap ten. Lap eleven. Longest Starship flight ever."
+  },
+  {
+   "shot": "S61",
+   "a": 4722,
+   "b": 4841,
+   "t0": 0,
+   "t1": 119,
+   "line": "Heat shield data comes back clean. The heat shield is fine."
+  },
+  {
+   "shot": "S62",
+   "a": 4841,
+   "b": 4925,
+   "t0": 0,
+   "t1": 84,
+   "line": "Hour twenty. The last go or no-go."
+  },
+  {
+   "shot": "S63",
+   "a": 4925,
+   "b": 5034,
+   "t0": 0,
+   "t1": 109,
+   "line": "Every team polls go. Even the tower."
+  },
+  {
+   "shot": "S64",
+   "a": 5034,
+   "b": 5140,
+   "t0": 0,
+   "t1": 106,
+   "line": "Three twenty-three in the afternoon. The deorbit burn."
+  },
+  {
+   "shot": "S65",
+   "a": 5140,
+   "b": 5209,
+   "t0": 0,
+   "t1": 69,
+   "line": "Ten seconds. One engine."
+  },
+  {
+   "shot": "S66",
+   "a": 5209,
+   "b": 5286,
+   "t0": 0,
+   "t1": 77,
+   "line": "That is all it takes to fall out of the sky."
+  },
+  {
+   "shot": "S67",
+   "a": 5286,
+   "b": 5336,
+   "t0": 0,
+   "t1": 50,
+   "line": "The air starts to bite."
+  },
+  {
+   "shot": "S68",
+   "a": 5336,
+   "b": 5389,
+   "t0": 0,
+   "t1": 53,
+   "line": "Your leading edges glow."
+  },
+  {
+   "shot": "S69",
+   "a": 5389,
+   "b": 5473,
+   "t0": 0,
+   "t1": 84,
+   "line": "Orange. Then pink. Then white."
+  },
+  {
+   "shot": "S70",
+   "a": 5473,
+   "b": 5562,
+   "t0": 0,
+   "t1": 89,
+   "line": "Heat-shield tiles stand between you and the fire."
+  },
+  {
+   "shot": "S71",
+   "a": 5562,
+   "b": 5632,
+   "t0": 0,
+   "t1": 70,
+   "line": "You cannot see out. You cannot steer."
+  },
+  {
+   "shot": "S72",
+   "a": 5632,
+   "b": 5741,
+   "t0": 0,
+   "t1": 109,
+   "line": "The ship does it for you. Flaps, flipping, falling."
+  },
+  {
+   "shot": "S73",
+   "a": 5741,
+   "b": 5783,
+   "t0": 0,
+   "t1": 42,
+   "line": "Then the plasma fades."
+  },
+  {
+   "shot": "S74",
+   "a": 5783,
+   "b": 5870,
+   "t0": 0,
+   "t1": 87,
+   "line": "Texas is below you. And so is the tower."
+  },
+  {
+   "shot": "S75",
+   "a": 5870,
+   "b": 5958,
+   "t0": 0,
+   "t1": 88,
+   "line": "Now the hard part. You have to land on your tail."
+  },
+  {
+   "shot": "S76",
+   "a": 5958,
+   "b": 6053,
+   "t0": 0,
+   "t1": 95,
+   "line": "The engines relight. The ship flips upright."
+  },
+  {
+   "shot": "S77",
+   "a": 6053,
+   "b": 6157,
+   "t0": 0,
+   "t1": 104,
+   "line": "Dust rolls out from the pad like a storm."
+  },
+  {
+   "shot": "S78",
+   "a": 6157,
+   "b": 6208,
+   "t0": 0,
+   "t1": 51,
+   "line": "The arms open wide."
+  },
+  {
+   "shot": "S79",
+   "a": 6208,
+   "b": 6283,
+   "t0": 0,
+   "t1": 75,
+   "line": "You are falling toward two steel rails."
+  },
+  {
+   "shot": "S80",
+   "a": 6283,
+   "b": 6357,
+   "t0": 0,
+   "t1": 74,
+   "line": "The engine slows you almost to a stop."
+  },
+  {
+   "shot": "S81",
+   "a": 6357,
+   "b": 6432,
+   "t0": 0,
+   "t1": 75,
+   "line": "A hover. Right between the arms."
+  },
+  {
+   "shot": "S82",
+   "a": 6432,
+   "b": 6473,
+   "t0": 0,
+   "t1": 41,
+   "line": "The arms close."
+  },
+  {
+   "shot": "S83",
+   "a": 6473,
+   "b": 6509,
+   "t0": 0,
+   "t1": 36,
+   "line": "Engines off."
+  },
+  {
+   "shot": "S84",
+   "a": 6509,
+   "b": 6593,
+   "t0": 0,
+   "t1": 84,
+   "line": "Four-twenty in the afternoon, eastern time."
+  },
+  {
+   "shot": "S85",
+   "a": 6593,
+   "b": 6668,
+   "t0": 0,
+   "t1": 75,
+   "line": "Twenty-two and a half hours after you left."
+  },
+  {
+   "shot": "S86",
+   "a": 6668,
+   "b": 6743,
+   "t0": 0,
+   "t1": 75,
+   "line": "You flew around Earth fourteen times."
+  },
+  {
+   "shot": "S87",
+   "a": 6743,
+   "b": 6821,
+   "t0": 0,
+   "t1": 78,
+   "line": "And you are standing exactly where you started."
+  },
+  {
+   "shot": "S88",
+   "a": 6821,
+   "b": 6919,
+   "t0": 0,
+   "t1": 98,
+   "line": "The commentator called it the holy grail of spaceflight."
+  },
+  {
+   "shot": "S89",
+   "a": 6919,
+   "b": 7029,
+   "t0": 0,
+   "t1": 110,
+   "line": "Plummeting through fire, snatched out of the air by steel."
+  },
+  {
+   "shot": "S90",
+   "a": 7029,
+   "b": 7113,
+   "t0": 0,
+   "t1": 84,
+   "line": "The booster was caught three times. The ship, never. Until today."
+  },
+  {
+   "shot": "S90",
+   "a": 7113,
+   "b": 7198,
+   "t0": 84,
+   "t1": 169,
+   "line": "The booster was caught three times. The ship, never. Until today."
+  },
+  {
+   "shot": "S91",
+   "a": 7198,
+   "b": 7276,
+   "t0": 0,
+   "t1": 78,
+   "line": "The ship flies higher and comes in faster."
+  },
+  {
+   "shot": "S92",
+   "a": 7276,
+   "b": 7342,
+   "t0": 0,
+   "t1": 66,
+   "line": "That is why it was the tougher target."
+  },
+  {
+   "shot": "S93",
+   "a": 7342,
+   "b": 7431,
+   "t0": 0,
+   "t1": 89,
+   "line": "A rocket you can catch is a rocket you can reuse."
+  },
+  {
+   "shot": "S94",
+   "a": 7431,
+   "b": 7501,
+   "t0": 0,
+   "t1": 70,
+   "line": "And reuse makes spaceflight cheaper."
+  },
+  {
+   "shot": "S95",
+   "a": 7501,
+   "b": 7594,
+   "t0": 0,
+   "t1": 93,
+   "line": "NASA is counting on it for its Artemis astronauts."
+  },
+  {
+   "shot": "S96",
+   "a": 7594,
+   "b": 7685,
+   "t0": 0,
+   "t1": 91,
+   "line": "Starship will practise docking with Orion next year."
+  },
+  {
+   "shot": "S97",
+   "a": 7685,
+   "b": 7754,
+   "t0": 0,
+   "t1": 69,
+   "line": "So the next time you look up, remember."
+  },
+  {
+   "shot": "S98",
+   "a": 7754,
+   "b": 7856,
+   "t0": 0,
+   "t1": 102,
+   "line": "Something huge can fall from the sky and be caught like a cup."
+  },
+  {
+   "shot": "S99",
+   "a": 7856,
+   "b": 7979,
+   "t0": 0,
+   "t1": 123,
+   "line": "Which part scared you most: the launch, the plasma, or the catch?"
+  },
+  {
+   "shot": "S100",
+   "a": 7979,
+   "b": 8114,
+   "t0": 0,
+   "t1": 135,
+   "line": "Tomorrow: another what if, another piece of the sky."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 52,
+   "len": 84,
+   "first": 0,
+   "line": "Twenty-two hours ago, you left this tower.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "med",
+   "key": 31,
+   "len": 50,
+   "first": 84,
+   "line": "Now you are falling back at it.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "close",
+   "key": 32,
+   "len": 51,
+   "first": 134,
+   "line": "Plasma on every edge.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "pullout",
+   "key": 39,
+   "len": 63,
+   "first": 185,
+   "line": "And two steel arms are waiting.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "high",
+   "key": 64,
+   "len": 103,
+   "first": 248,
+   "line": "No landing legs. No parachute. Just a catch.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "med",
+   "key": 51,
+   "len": 82,
+   "first": 351,
+   "line": "SpaceX did it on Saturday the fourteenth.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "pullout",
+   "key": 38,
+   "len": 61,
+   "first": 433,
+   "line": "So what if you rode it all the way?",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "wide",
+   "key": 80,
+   "len": 129,
+   "first": 494,
+   "line": "What if you rode Starship around Earth fourteen times?",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "pullout",
+   "key": 26,
+   "len": 42,
+   "first": 623,
+   "line": "Here are the rules.",
+   "note": "ch1"
+  },
+  {
+   "id": "S10",
+   "size": "wide",
+   "key": 64,
+   "len": 104,
+   "first": 665,
+   "line": "You ride Ship forty-two, the top half of Starship.",
+   "note": "ch1"
+  },
+  {
+   "id": "S11",
+   "size": "med",
+   "key": 61,
+   "len": 98,
+   "first": 769,
+   "line": "Its partner, Booster twenty-two, does the heavy lifting.",
+   "note": "ch1"
+  },
+  {
+   "id": "S12",
+   "size": "low",
+   "key": 48,
+   "len": 78,
+   "first": 867,
+   "line": "Together they are forty-one stories tall.",
+   "note": "ch1"
+  },
+  {
+   "id": "S13",
+   "size": "insert",
+   "key": 53,
+   "len": 85,
+   "first": 945,
+   "line": "You will be on board for twenty-two and a half hours.",
+   "note": "ch1"
+  },
+  {
+   "id": "S14",
+   "size": "high",
+   "key": 50,
+   "len": 81,
+   "first": 1030,
+   "line": "The catch at the end has never been tried on a ship.",
+   "note": "ch1"
+  },
+  {
+   "id": "S15",
+   "size": "panr",
+   "key": 69,
+   "len": 111,
+   "first": 1111,
+   "line": "Buckle up. Friday, thirteenth of November.",
+   "note": "ch1"
+  },
+  {
+   "id": "S16",
+   "size": "pan",
+   "key": 54,
+   "len": 87,
+   "first": 1222,
+   "line": "Four forty-seven in the afternoon, Texas time.",
+   "note": "ch2"
+  },
+  {
+   "id": "S17",
+   "size": "low",
+   "key": 52,
+   "len": 84,
+   "first": 1309,
+   "line": "Twelve million pounds of fuel sit under your feet.",
+   "note": "ch2"
+  },
+  {
+   "id": "S18",
+   "size": "insert",
+   "key": 44,
+   "len": 71,
+   "first": 1393,
+   "line": "Liquid oxygen. Liquid methane.",
+   "note": "ch2"
+  },
+  {
+   "id": "S19",
+   "size": "close",
+   "key": 45,
+   "len": 72,
+   "first": 1464,
+   "line": "Thirty-three engines wake up beneath you.",
+   "note": "ch2"
+  },
+  {
+   "id": "S20",
+   "size": "high",
+   "key": 24,
+   "len": 38,
+   "first": 1536,
+   "line": "And you rise.",
+   "note": "ch2"
+  },
+  {
+   "id": "S21",
+   "size": "tilt",
+   "key": 48,
+   "len": 78,
+   "first": 1574,
+   "line": "A forty-one-story megarocket, climbing.",
+   "note": "ch2"
+  },
+  {
+   "id": "S22",
+   "size": "wide",
+   "key": 53,
+   "len": 86,
+   "first": 1652,
+   "line": "Faster. Higher. The sky goes dark.",
+   "note": "ch2"
+  },
+  {
+   "id": "S23",
+   "size": "med",
+   "key": 42,
+   "len": 67,
+   "first": 1738,
+   "line": "Minutes in, the stack comes apart.",
+   "note": "ch2"
+  },
+  {
+   "id": "S24",
+   "size": "insert",
+   "key": 47,
+   "len": 76,
+   "first": 1805,
+   "line": "One of the booster's engines may have dropped out.",
+   "note": "ch2"
+  },
+  {
+   "id": "S25",
+   "size": "high",
+   "key": 77,
+   "len": 124,
+   "first": 1881,
+   "line": "You keep climbing. Six engines. All good.",
+   "note": "ch2"
+  },
+  {
+   "id": "S26",
+   "size": "low",
+   "key": 41,
+   "len": 66,
+   "first": 2005,
+   "line": "Below you, the booster turns for home.",
+   "note": "ch3"
+  },
+  {
+   "id": "S27",
+   "size": "pan",
+   "key": 46,
+   "len": 75,
+   "first": 2071,
+   "line": "It plans to land in the same arms you will.",
+   "note": "ch3"
+  },
+  {
+   "id": "S28",
+   "size": "med",
+   "key": 59,
+   "len": 95,
+   "first": 2146,
+   "line": "SpaceX has caught a booster three times before.",
+   "note": "ch3"
+  },
+  {
+   "id": "S29",
+   "size": "close",
+   "key": 33,
+   "len": 54,
+   "first": 2241,
+   "line": "This time, an alarm goes off.",
+   "note": "ch3"
+  },
+  {
+   "id": "S30",
+   "size": "insert",
+   "key": 58,
+   "len": 93,
+   "first": 2295,
+   "line": "Low fuel mass. The burn ended early.",
+   "note": "ch3"
+  },
+  {
+   "id": "S31",
+   "size": "tilt",
+   "key": 40,
+   "len": 64,
+   "first": 2388,
+   "line": "The booster checks its own position.",
+   "note": "ch3"
+  },
+  {
+   "id": "S32",
+   "size": "close",
+   "key": 32,
+   "len": 51,
+   "first": 2452,
+   "line": "It is not where it should be.",
+   "note": "ch3"
+  },
+  {
+   "id": "S33",
+   "size": "wide",
+   "key": 56,
+   "len": 90,
+   "first": 2503,
+   "line": "So it aborts itself. Out over the Gulf.",
+   "note": "ch3"
+  },
+  {
+   "id": "S34",
+   "size": "pullout",
+   "key": 49,
+   "len": 79,
+   "first": 2593,
+   "line": "One half of the dream goes into the water.",
+   "note": "ch3"
+  },
+  {
+   "id": "S35",
+   "size": "med",
+   "key": 45,
+   "len": 73,
+   "first": 2672,
+   "line": "Now it is all on you.",
+   "note": "ch3"
+  },
+  {
+   "id": "S36",
+   "size": "wide",
+   "key": 66,
+   "len": 107,
+   "first": 2745,
+   "line": "Twenty-six minutes after liftoff, one engine relights.",
+   "note": "ch4"
+  },
+  {
+   "id": "S37",
+   "size": "close",
+   "key": 25,
+   "len": 41,
+   "first": 2852,
+   "line": "For twenty seconds.",
+   "note": "ch4"
+  },
+  {
+   "id": "S38",
+   "size": "pullout",
+   "key": 55,
+   "len": 89,
+   "first": 2893,
+   "line": "And the engine goes quiet. You are in orbit.",
+   "note": "ch4"
+  },
+  {
+   "id": "S39",
+   "size": "high",
+   "key": 54,
+   "len": 87,
+   "first": 2982,
+   "line": "Only the second time Starship has ever done this.",
+   "note": "ch4"
+  },
+  {
+   "id": "S40",
+   "size": "low",
+   "key": 46,
+   "len": 75,
+   "first": 3069,
+   "line": "Two hundred seventy-five kilometres up.",
+   "note": "ch4"
+  },
+  {
+   "id": "S41",
+   "size": "insert",
+   "key": 42,
+   "len": 68,
+   "first": 3144,
+   "line": "You are carrying twenty-six passengers.",
+   "note": "ch4"
+  },
+  {
+   "id": "S42",
+   "size": "close",
+   "key": 59,
+   "len": 95,
+   "first": 3212,
+   "line": "Starlink satellites, stacked like a pez dispenser.",
+   "note": "ch4"
+  },
+  {
+   "id": "S43",
+   "size": "med",
+   "key": 30,
+   "len": 48,
+   "first": 3307,
+   "line": "Pop. Pop. Pop.",
+   "note": "ch4"
+  },
+  {
+   "id": "S44",
+   "size": "pan",
+   "key": 36,
+   "len": 58,
+   "first": 3355,
+   "line": "Twelve gone in the first hour.",
+   "note": "ch4"
+  },
+  {
+   "id": "S45",
+   "size": "tilt",
+   "key": 40,
+   "len": 65,
+   "first": 3413,
+   "line": "One of them turns its camera back at you.",
+   "note": "ch4"
+  },
+  {
+   "id": "S46",
+   "size": "insert",
+   "key": 57,
+   "len": 92,
+   "first": 3478,
+   "line": "It is checking your heat shield, tile by tile.",
+   "note": "ch4"
+  },
+  {
+   "id": "S47",
+   "size": "close",
+   "key": 43,
+   "len": 70,
+   "first": 3570,
+   "line": "One tile was installed by MrBeast.",
+   "note": "ch4"
+  },
+  {
+   "id": "S48",
+   "size": "med",
+   "key": 25,
+   "len": 41,
+   "first": 3640,
+   "line": "No pressure, tile.",
+   "note": "ch4"
+  },
+  {
+   "id": "S49",
+   "size": "wide",
+   "key": 56,
+   "len": 90,
+   "first": 3681,
+   "line": "At the one hour seventeen mark, the last one leaves.",
+   "note": "ch4"
+  },
+  {
+   "id": "S50",
+   "size": "pullout",
+   "key": 73,
+   "len": 118,
+   "first": 3771,
+   "line": "But your day is not over. You still have to get down.",
+   "note": "ch4"
+  },
+  {
+   "id": "S51",
+   "size": "wide",
+   "key": 40,
+   "len": 65,
+   "first": 3889,
+   "line": "Now you coast. And coast.",
+   "note": "ch5"
+  },
+  {
+   "id": "S52",
+   "size": "low",
+   "key": 42,
+   "len": 67,
+   "first": 3954,
+   "line": "Twenty-six thousand kilometres an hour.",
+   "note": "ch5"
+  },
+  {
+   "id": "S53",
+   "size": "high",
+   "key": 51,
+   "len": 83,
+   "first": 4021,
+   "line": "About ninety-six minutes to circle the planet.",
+   "note": "ch5"
+  },
+  {
+   "id": "S54",
+   "size": "pan",
+   "key": 87,
+   "len": 140,
+   "first": 4104,
+   "line": "Lap three. Lap four. Southeast Asia, then the Indian Ocean.",
+   "note": "ch5"
+  },
+  {
+   "id": "S55",
+   "size": "tilt",
+   "key": 46,
+   "len": 75,
+   "first": 4244,
+   "line": "You see a sunrise on every single lap.",
+   "note": "ch5"
+  },
+  {
+   "id": "S56",
+   "size": "med",
+   "key": 60,
+   "len": 96,
+   "first": 4319,
+   "line": "Seven hours in, mission control gets a choice.",
+   "note": "ch5"
+  },
+  {
+   "id": "S57",
+   "size": "insert",
+   "key": 54,
+   "len": 87,
+   "first": 4415,
+   "line": "Bring you down early, in the ocean off Chile?",
+   "note": "ch5"
+  },
+  {
+   "id": "S58",
+   "size": "close",
+   "key": 25,
+   "len": 40,
+   "first": 4502,
+   "line": "Or let you stay?",
+   "note": "ch5"
+  },
+  {
+   "id": "S59",
+   "size": "med",
+   "key": 43,
+   "len": 69,
+   "first": 4542,
+   "line": "Go. You stay in space.",
+   "note": "ch5"
+  },
+  {
+   "id": "S60",
+   "size": "wide",
+   "key": 69,
+   "len": 111,
+   "first": 4611,
+   "line": "Lap ten. Lap eleven. Longest Starship flight ever.",
+   "note": "ch5"
+  },
+  {
+   "id": "S61",
+   "size": "pan",
+   "key": 74,
+   "len": 119,
+   "first": 4722,
+   "line": "Heat shield data comes back clean. The heat shield is fine.",
+   "note": "ch5"
+  },
+  {
+   "id": "S62",
+   "size": "insert",
+   "key": 52,
+   "len": 84,
+   "first": 4841,
+   "line": "Hour twenty. The last go or no-go.",
+   "note": "ch5"
+  },
+  {
+   "id": "S63",
+   "size": "med",
+   "key": 68,
+   "len": 109,
+   "first": 4925,
+   "line": "Every team polls go. Even the tower.",
+   "note": "ch5"
+  },
+  {
+   "id": "S64",
+   "size": "wide",
+   "key": 66,
+   "len": 106,
+   "first": 5034,
+   "line": "Three twenty-three in the afternoon. The deorbit burn.",
+   "note": "ch6"
+  },
+  {
+   "id": "S65",
+   "size": "close",
+   "key": 43,
+   "len": 69,
+   "first": 5140,
+   "line": "Ten seconds. One engine.",
+   "note": "ch6"
+  },
+  {
+   "id": "S66",
+   "size": "high",
+   "key": 48,
+   "len": 77,
+   "first": 5209,
+   "line": "That is all it takes to fall out of the sky.",
+   "note": "ch6"
+  },
+  {
+   "id": "S67",
+   "size": "low",
+   "key": 31,
+   "len": 50,
+   "first": 5286,
+   "line": "The air starts to bite.",
+   "note": "ch6"
+  },
+  {
+   "id": "S68",
+   "size": "insert",
+   "key": 33,
+   "len": 53,
+   "first": 5336,
+   "line": "Your leading edges glow.",
+   "note": "ch6"
+  },
+  {
+   "id": "S69",
+   "size": "close",
+   "key": 52,
+   "len": 84,
+   "first": 5389,
+   "line": "Orange. Then pink. Then white.",
+   "note": "ch6"
+  },
+  {
+   "id": "S70",
+   "size": "pullout",
+   "key": 55,
+   "len": 89,
+   "first": 5473,
+   "line": "Heat-shield tiles stand between you and the fire.",
+   "note": "ch6"
+  },
+  {
+   "id": "S71",
+   "size": "med",
+   "key": 43,
+   "len": 70,
+   "first": 5562,
+   "line": "You cannot see out. You cannot steer.",
+   "note": "ch6"
+  },
+  {
+   "id": "S72",
+   "size": "pan",
+   "key": 68,
+   "len": 109,
+   "first": 5632,
+   "line": "The ship does it for you. Flaps, flipping, falling.",
+   "note": "ch6"
+  },
+  {
+   "id": "S73",
+   "size": "tilt",
+   "key": 26,
+   "len": 42,
+   "first": 5741,
+   "line": "Then the plasma fades.",
+   "note": "ch6"
+  },
+  {
+   "id": "S74",
+   "size": "panr",
+   "key": 54,
+   "len": 87,
+   "first": 5783,
+   "line": "Texas is below you. And so is the tower.",
+   "note": "ch6"
+  },
+  {
+   "id": "S75",
+   "size": "wide",
+   "key": 55,
+   "len": 88,
+   "first": 5870,
+   "line": "Now the hard part. You have to land on your tail.",
+   "note": "ch6"
+  },
+  {
+   "id": "S76",
+   "size": "low",
+   "key": 59,
+   "len": 95,
+   "first": 5958,
+   "line": "The engines relight. The ship flips upright.",
+   "note": "ch6"
+  },
+  {
+   "id": "S77",
+   "size": "high",
+   "key": 64,
+   "len": 104,
+   "first": 6053,
+   "line": "Dust rolls out from the pad like a storm.",
+   "note": "ch6"
+  },
+  {
+   "id": "S78",
+   "size": "pullout",
+   "key": 32,
+   "len": 51,
+   "first": 6157,
+   "line": "The arms open wide.",
+   "note": "ch7"
+  },
+  {
+   "id": "S79",
+   "size": "med",
+   "key": 46,
+   "len": 75,
+   "first": 6208,
+   "line": "You are falling toward two steel rails.",
+   "note": "ch7"
+  },
+  {
+   "id": "S80",
+   "size": "insert",
+   "key": 46,
+   "len": 74,
+   "first": 6283,
+   "line": "The engine slows you almost to a stop.",
+   "note": "ch7"
+  },
+  {
+   "id": "S81",
+   "size": "close",
+   "key": 46,
+   "len": 75,
+   "first": 6357,
+   "line": "A hover. Right between the arms.",
+   "note": "ch7"
+  },
+  {
+   "id": "S82",
+   "size": "low",
+   "key": 25,
+   "len": 41,
+   "first": 6432,
+   "line": "The arms close.",
+   "note": "ch7"
+  },
+  {
+   "id": "S83",
+   "size": "wide",
+   "key": 22,
+   "len": 36,
+   "first": 6473,
+   "line": "Engines off.",
+   "note": "ch7"
+  },
+  {
+   "id": "S84",
+   "size": "pullout",
+   "key": 52,
+   "len": 84,
+   "first": 6509,
+   "line": "Four-twenty in the afternoon, eastern time.",
+   "note": "ch7"
+  },
+  {
+   "id": "S85",
+   "size": "high",
+   "key": 46,
+   "len": 75,
+   "first": 6593,
+   "line": "Twenty-two and a half hours after you left.",
+   "note": "ch7"
+  },
+  {
+   "id": "S86",
+   "size": "wide",
+   "key": 46,
+   "len": 75,
+   "first": 6668,
+   "line": "You flew around Earth fourteen times.",
+   "note": "ch7"
+  },
+  {
+   "id": "S87",
+   "size": "med",
+   "key": 48,
+   "len": 78,
+   "first": 6743,
+   "line": "And you are standing exactly where you started.",
+   "note": "ch7"
+  },
+  {
+   "id": "S88",
+   "size": "pan",
+   "key": 61,
+   "len": 98,
+   "first": 6821,
+   "line": "The commentator called it the holy grail of spaceflight.",
+   "note": "ch7"
+  },
+  {
+   "id": "S89",
+   "size": "tilt",
+   "key": 68,
+   "len": 110,
+   "first": 6919,
+   "line": "Plummeting through fire, snatched out of the air by steel.",
+   "note": "ch7"
+  },
+  {
+   "id": "S90",
+   "size": "insert",
+   "key": 105,
+   "len": 169,
+   "first": 7029,
+   "line": "The booster was caught three times. The ship, never. Until today.",
+   "note": "ch7"
+  },
+  {
+   "id": "S91",
+   "size": "med",
+   "key": 48,
+   "len": 78,
+   "first": 7198,
+   "line": "The ship flies higher and comes in faster.",
+   "note": "ch8"
+  },
+  {
+   "id": "S92",
+   "size": "close",
+   "key": 41,
+   "len": 66,
+   "first": 7276,
+   "line": "That is why it was the tougher target.",
+   "note": "ch8"
+  },
+  {
+   "id": "S93",
+   "size": "wide",
+   "key": 55,
+   "len": 89,
+   "first": 7342,
+   "line": "A rocket you can catch is a rocket you can reuse.",
+   "note": "ch8"
+  },
+  {
+   "id": "S94",
+   "size": "pullout",
+   "key": 43,
+   "len": 70,
+   "first": 7431,
+   "line": "And reuse makes spaceflight cheaper.",
+   "note": "ch8"
+  },
+  {
+   "id": "S95",
+   "size": "high",
+   "key": 58,
+   "len": 93,
+   "first": 7501,
+   "line": "NASA is counting on it for its Artemis astronauts.",
+   "note": "ch8"
+  },
+  {
+   "id": "S96",
+   "size": "pan",
+   "key": 56,
+   "len": 91,
+   "first": 7594,
+   "line": "Starship will practise docking with Orion next year.",
+   "note": "ch8"
+  },
+  {
+   "id": "S97",
+   "size": "tilt",
+   "key": 43,
+   "len": 69,
+   "first": 7685,
+   "line": "So the next time you look up, remember.",
+   "note": "ch8"
+  },
+  {
+   "id": "S98",
+   "size": "wide",
+   "key": 63,
+   "len": 102,
+   "first": 7754,
+   "line": "Something huge can fall from the sky and be caught like a cup.",
+   "note": "ch8"
+  },
+  {
+   "id": "S99",
+   "size": "med",
+   "key": 76,
+   "len": 123,
+   "first": 7856,
+   "line": "Which part scared you most: the launch, the plasma, or the catch?",
+   "note": "ch8"
+  },
+  {
+   "id": "S100",
+   "size": "pullout",
+   "key": 84,
+   "len": 135,
+   "first": 7979,
+   "line": "Tomorrow: another what if, another piece of the sky.",
+   "note": "ch8"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "ship42/voice.wav",
+  "sfx": "ship42/sfx.wav",
+  "music": "ship42/music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}
