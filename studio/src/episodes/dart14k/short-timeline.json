@@ -1,0 +1,248 @@
+{
+ "slug": "dart14k",
+ "title": "WHAT IF YOU HIT AN ASTEROID AT 14,000 MPH?",
+ "fps": 30,
+ "total": 1237,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 89,
+   "t0": 0,
+   "t1": 89,
+   "line": "You are flying at fourteen thousand miles an hour."
+  },
+  {
+   "shot": "S2",
+   "a": 89,
+   "b": 159,
+   "t0": 0,
+   "t1": 70,
+   "line": "There are no brakes. Only a rock."
+  },
+  {
+   "shot": "S3",
+   "a": 159,
+   "b": 186,
+   "t0": 0,
+   "t1": 27,
+   "line": "Contact."
+  },
+  {
+   "shot": "S4",
+   "a": 186,
+   "b": 290,
+   "t0": 0,
+   "t1": 104,
+   "line": "You are NASA's DART. Five hundred eighty kilograms."
+  },
+  {
+   "shot": "S5",
+   "a": 290,
+   "b": 403,
+   "t0": 0,
+   "t1": 113,
+   "line": "Your target is a moon, one hundred fifty-one metres wide."
+  },
+  {
+   "shot": "S6",
+   "a": 403,
+   "b": 505,
+   "t0": 0,
+   "t1": 102,
+   "line": "You hit it on purpose, on the twenty-sixth of September."
+  },
+  {
+   "shot": "S7",
+   "a": 505,
+   "b": 610,
+   "t0": 0,
+   "t1": 105,
+   "line": "And that shoved the moon's orbit shorter by thirty-three minutes."
+  },
+  {
+   "shot": "S8",
+   "a": 610,
+   "b": 697,
+   "t0": 0,
+   "t1": 87,
+   "line": "First time humans moved an asteroid's orbit."
+  },
+  {
+   "shot": "S9",
+   "a": 697,
+   "b": 799,
+   "t0": 0,
+   "t1": 102,
+   "line": "Now Europe's Hera is there, looking at the crash site."
+  },
+  {
+   "shot": "S10",
+   "a": 799,
+   "b": 886,
+   "t0": 0,
+   "t1": 87,
+   "line": "It just found a side of Didymos nobody has seen."
+  },
+  {
+   "shot": "S11",
+   "a": 886,
+   "b": 1015,
+   "t0": 0,
+   "t1": 129,
+   "line": "Boulders. Craters. Grooves. Maybe scars from your crash."
+  },
+  {
+   "shot": "S12",
+   "a": 1015,
+   "b": 1099,
+   "t0": 0,
+   "t1": 84,
+   "line": "That is how we learn to push a killer rock away."
+  },
+  {
+   "shot": "S13",
+   "a": 1099,
+   "b": 1168,
+   "t0": 0,
+   "t1": 69,
+   "line": "Full film on the channel. Tomorrow: what if you flew into the Sun?"
+  },
+  {
+   "shot": "S13",
+   "a": 1168,
+   "b": 1237,
+   "t0": 69,
+   "t1": 138,
+   "line": "Full film on the channel. Tomorrow: what if you flew into the Sun?"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 55,
+   "len": 89,
+   "first": 0,
+   "line": "You are flying at fourteen thousand miles an hour.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "close",
+   "key": 43,
+   "len": 70,
+   "first": 89,
+   "line": "There are no brakes. Only a rock.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "med",
+   "key": 17,
+   "len": 27,
+   "first": 159,
+   "line": "Contact.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "insert",
+   "key": 64,
+   "len": 104,
+   "first": 186,
+   "line": "You are NASA's DART. Five hundred eighty kilograms.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "high",
+   "key": 70,
+   "len": 113,
+   "first": 290,
+   "line": "Your target is a moon, one hundred fifty-one metres wide.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "low",
+   "key": 63,
+   "len": 102,
+   "first": 403,
+   "line": "You hit it on purpose, on the twenty-sixth of September.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "wide",
+   "key": 65,
+   "len": 105,
+   "first": 505,
+   "line": "And that shoved the moon's orbit shorter by thirty-three minutes.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "pullout",
+   "key": 54,
+   "len": 87,
+   "first": 610,
+   "line": "First time humans moved an asteroid's orbit.",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "tilt",
+   "key": 63,
+   "len": 102,
+   "first": 697,
+   "line": "Now Europe's Hera is there, looking at the crash site.",
+   "note": "ch0"
+  },
+  {
+   "id": "S10",
+   "size": "low",
+   "key": 54,
+   "len": 87,
+   "first": 799,
+   "line": "It just found a side of Didymos nobody has seen.",
+   "note": "ch0"
+  },
+  {
+   "id": "S11",
+   "size": "med",
+   "key": 80,
+   "len": 129,
+   "first": 886,
+   "line": "Boulders. Craters. Grooves. Maybe scars from your crash.",
+   "note": "ch0"
+  },
+  {
+   "id": "S12",
+   "size": "med",
+   "key": 52,
+   "len": 84,
+   "first": 1015,
+   "line": "That is how we learn to push a killer rock away.",
+   "note": "ch0"
+  },
+  {
+   "id": "S13",
+   "size": "wide",
+   "key": 86,
+   "len": 138,
+   "first": 1099,
+   "line": "Full film on the channel. Tomorrow: what if you flew into the Sun?",
+   "note": "ch0"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "dart14k/short-voice.wav",
+  "sfx": "dart14k/short-sfx.wav",
+  "music": "dart14k/short-music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}

@@ -1,0 +1,5833 @@
+{
+ "slug": "dart14k",
+ "id": "Dart14k",
+ "title": [
+  "WHAT IF YOU HIT AN ASTEROID",
+  "AT 14,000 MPH?"
+ ],
+ "accent": [
+  "14,000 MPH"
+ ],
+ "voice": {
+  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.44,
+   "similarity_boost": 0.8,
+   "style": 0.36,
+   "use_speaker_boost": true,
+   "speed": 0.99
+  }
+ },
+ "short_vo": {
+  "stability": 0.42,
+  "style": 0.4,
+  "speed": 1.03
+ },
+ "short_music": {
+  "mood": "mystery",
+  "energy": 0.85
+ },
+ "mix": {
+  "music_under": 17,
+  "sfx_under": 7,
+  "duck_db": 6
+ },
+ "sets": {
+  "launch": "Vandenberg launch pad at night. far: SpaceBackdrop #0A0A1E with first stars; mid: a tall white-silver rocket on a dark gantry with floodlight bloom; near: dark GroundPlane with pale rim. setp.t 0..1 = liftoff (0 on the pad, 1 gone up with a long orange flame and smoke); setp.tint 'night'.",
+  "cruise": "Deep space in motion. SpaceBackdrop #0A0A1E with star streaks flowing past; a tiny bright dot ahead that grows with setp.t 0..1 (0 = a speck, 1 = a big grey rock filling the right third); faint cream dotted trajectory line from the left edge to the dot; setp.glow 'gold'|'cyan'.",
+  "binary": "The Didymos pair. far: SpaceBackdrop with sparse stars; mid: a big lumpy grey asteroid (Didymos, 780 m) with a clear ridge around its equator, boulders and craters, pale rim light from the left; a much smaller grey moonlet (Dimorphos, 151 m) orbiting it. setp.t 0..1 = moonlet position along its orbit; setp.zoom 0..1 = closeness (0 both small, 1 filling the frame); setp.dart 0..1 = a tiny spacecraft approaching Dimorphos from the left (1 = touching).",
+  "impact": "Impact close-up. A grey boulder-strewn asteroid surface fills the lower half; at setp.t 0 a small spacecraft with two gold solar panels streaks in from the left; 0.4 white-gold flash; then a cone of dust and rocks sprays up and out to the right with long tail streaks. setp.t 0..1 = the sequence; setp.debris 0..1 = amount of ejecta.",
+  "orbitdiag": "Top-down orbit diagram. Deep-navy backdrop; the big asteroid Didymos as a grey disc at centre, a thin cream orbit ring around it with the small moonlet dot; a second, slightly smaller gold ring for the new orbit. setp.t 0..1 = moonlet moves round; setp.shift 0..1 = the cream ring shrinks to the gold ring with an arrow; setp.glow 0|1 = gold glow on the new ring.",
+  "hera": "Hera surveying Didymos. far: SpaceBackdrop; mid: a huge grey lumpy asteroid with ridge, boulders, craters and groove patterns filling the right two thirds; near: a small ESA spacecraft (white body, two blue-grey solar panels, a small camera eye) on the left. setp.t 0..1 = spacecraft drifts closer; setp.side 0|1 = 0 shows the side DART saw (smooth with ridge), 1 shows the new side (boulders, craters, grooves); setp.scan 0..1 = a cyan scan line sweeps across.",
+  "ops": "Mission operations room. far: wall of dark screens with glowing cream trajectory curves; mid: rows of desks, headset lamps, no faces; near: carpet GroundPlane with pale rim. setp.tension 0..1 = number of screens flashing amber; setp.ok 1 turns all screens green with a soft pulse.",
+  "earthview": "Earth and a danger rock. Deep-navy space; a blue Earth with pale rim at left; a cream dotted path with a grey asteroid approaching from the right; setp.t 0..1 = asteroid distance (1 near Earth); setp.nudge 0..1 = a small spacecraft hits it and the dotted path bends away from Earth.",
+  "void": "Plain deep-navy SpaceBackdrop stage with slow light rays and almost no stars, for big numbers, bars and diagrams. setp.glow 'gold'|'cyan'|'red' tints the rays."
+ },
+ "props": {
+  "dart": "Small DART spacecraft icon: a small boxy silver body with two long gold solar-array wings, a tiny camera eye on the front, 4 px dark outline, soft rim light; pp.flame true adds a thin blue thruster glow; pp.s scale.",
+  "hera": "Small ESA Hera icon: white boxy body, two blue-grey solar panels, a small camera eye; 4 px outline; pp.s scale.",
+  "rock": "Small lumpy grey asteroid icon with craters, 4 px outline, pale rim; pp.moon true adds a smaller rock circling it; pp.label text beneath.",
+  "counter": "Big flat panel, 4 px dark outline, dark #1E1B2E face, cream flip digits in FONTS.title with thousands separators, label in FONTS.ui underneath. pp.from and pp.to: the number counts from->to across the shot (ease-out); pp.label text; pp.color gold|red|cyan.",
+  "clock": "Round analogue clock face, cream disc, 4 px dark outline, ticks, one hand. pp.from..pp.to in hours: the hand sweeps; pp.glow true adds a gold bloom.",
+  "stopwatch": "Round outlined stopwatch, cream face, red button on top; pp.from..pp.to minutes: hand sweeps and digits count.",
+  "bar": "Horizontal progress bar with 4 px outline, filled with pp.color (gold|red|cyan) to pp.frac of its width over the shot; pp.label above in FONTS.ui.",
+  "arrow": "Thick outlined curved arrow, pp.color gold|cyan|red, draws on across the shot.",
+  "flag": "Small green check mark badge in a round outlined cream disc with a tiny sparkle; or red cross when pp.bad true.",
+  "sign": "Hand-painted sign on a post, cream board, dark outline, pp.text in FONTS.hand (max 12 chars).",
+  "calendar": "Small wall calendar page, cream with a red top strip, 4 px outline; pp.text the date in FONTS.title (max 8 chars)."
+ },
+ "actions": {
+  "lookup": "Pip tilts head back (headTilt up), arms hang loose, small sway; eyes lift at p 0.2.",
+  "duck": "Pip drops into a crouch with both arms raised over the head at p 0.15 and holds with a small tremble.",
+  "spin": "Pip turns one slow full rotation (yaw/spin) across the shot while looking up.",
+  "flinch": "A quick squash and lean away at p 0.2 with arms up, then settles back by p 0.7.",
+  "pointup": "Pip's arm swings up to point at the sky at p 0.2 with a small overshoot."
+ },
+ "sfx_new": {},
+ "chapters": [
+  {
+   "n": 0,
+   "title": "COLD OPEN",
+   "sub": "",
+   "music": {
+    "mood": "tense",
+    "energy": 0.9
+   },
+   "vo": {
+    "stability": 0.4,
+    "style": 0.36,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 1,
+   "title": "THE RULES",
+   "sub": "One shot. No brakes.",
+   "music": {
+    "mood": "playful",
+    "energy": 0.4
+   },
+   "vo": {
+    "stability": 0.47,
+    "style": 0.36,
+    "speed": 1.04
+   },
+   "bed": {
+    "clip": "room_tone",
+    "gain": 0.04
+   }
+  },
+  {
+   "n": 2,
+   "title": "LAUNCH",
+   "sub": "November 2021",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.55
+   },
+   "vo": {
+    "stability": 0.48,
+    "style": 0.36,
+    "speed": 0.97
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 3,
+   "title": "THE APPROACH",
+   "sub": "A speck, then a world",
+   "music": {
+    "mood": "tense",
+    "energy": 0.7
+   },
+   "vo": {
+    "stability": 0.42,
+    "style": 0.36,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 4,
+   "title": "IMPACT",
+   "sub": "26 September 2022",
+   "music": {
+    "mood": "triumph",
+    "energy": 0.95
+   },
+   "vo": {
+    "stability": 0.4,
+    "style": 0.36,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 5,
+   "title": "THE RESULT",
+   "sub": "Thirty-three minutes",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.6
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.36,
+    "speed": 0.98
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 6,
+   "title": "THE OTHER SIDE",
+   "sub": "Hera arrives",
+   "music": {
+    "mood": "mystery",
+    "energy": 0.5
+   },
+   "vo": {
+    "stability": 0.47,
+    "style": 0.36,
+    "speed": 0.97
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 7,
+   "title": "WHY IT MATTERS",
+   "sub": "A repeatable shield",
+   "music": {
+    "mood": "warm",
+    "energy": 0.55
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.36,
+    "speed": 0.98
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  }
+ ],
+ "film": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "wide",
+   "vo": "Fourteen thousand miles an hour. One rock. No brakes.",
+   "dir": "low, urgent; stress 'fourteen thousand'",
+   "set": "binary",
+   "setp": {
+    "t": 0.3,
+    "zoom": 0.4,
+    "dart": 0.7
+   },
+   "cam": [
+    [
+     0.474,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.504,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "orange",
+     "text": "14,000 MPH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "word": "fourteen",
+     "gain": 0.35
+    },
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "med",
+   "vo": "You are the spacecraft.",
+   "dir": "clipped; stress 'you'",
+   "set": "cruise",
+   "setp": {
+    "t": 0.6,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.507,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.493,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "dart",
+     "x": 0.6,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "flame": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "YOU = DART"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "insert",
+   "vo": "Five hundred eighty kilograms. Smaller than a car.",
+   "dir": "wry; stress 'smaller'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.602,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.481,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.65,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 580,
+      "label": "KILOGRAMS",
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "MASS",
+     "value": "580 KG"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "close",
+   "vo": "Your target is a moonlet one hundred fifty-one metres wide.",
+   "dir": "building; stress 'one hundred fifty-one'",
+   "set": "binary",
+   "setp": {
+    "t": 0.5,
+    "zoom": 0.7,
+    "dart": 0.85
+   },
+   "cam": [
+    [
+     0.421,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.634,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "TARGET",
+     "value": "151 M"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "Hit it, and you change the sky.",
+   "dir": "tense; stress 'change'",
+   "set": "impact",
+   "setp": {
+    "t": 0.4,
+    "debris": 0.3
+   },
+   "cam": [
+    [
+     0.451,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.461,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "crouch",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "jump"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "CHANGE THE SKY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fireball_roar",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 0,
+   "size": "low",
+   "vo": "Miss, and you are just a very fast rock.",
+   "dir": "dry; stress 'miss'",
+   "set": "cruise",
+   "setp": {
+    "t": 0.9,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.514,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.693,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "dart",
+     "x": 0.4,
+     "y": 0.5,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "flame": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NO SECOND TRY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 0,
+   "size": "med",
+   "vo": "This really happened. NASA did it on the twenty-sixth of September.",
+   "dir": "proud; stress 'really'",
+   "set": "ops",
+   "setp": {
+    "ok": 1.0,
+    "tension": 0.2
+   },
+   "cam": [
+    [
+     0.477,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.499,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "DART IMPACT",
+     "value": "26 SEP 2022"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "crowd_cheer",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 0,
+   "size": "wide",
+   "vo": "So what if you rode that spacecraft into an asteroid?",
+   "dir": "hushed; stress 'rode'",
+   "set": "binary",
+   "setp": {
+    "t": 0.1,
+    "zoom": 0.2,
+    "dart": 0.3
+   },
+   "cam": [
+    [
+     0.548,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.455,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "mid",
+     "color": "gold",
+     "text": "RIDE IT IN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.05,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 1,
+   "size": "pullout",
+   "vo": "Here are the rules.",
+   "dir": "bright, brisk",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.472,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.543,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "RULES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 1,
+   "size": "med",
+   "vo": "You can steer a little. You can never stop.",
+   "dir": "easy; stress 'never'",
+   "set": "cruise",
+   "setp": {
+    "t": 0.2,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.457,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.493,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "dart",
+     "x": 0.65,
+     "y": 0.45,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "flame": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "STEER YES. BRAKE NO."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "step",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "ch": 1,
+   "size": "pullout",
+   "vo": "There are two asteroids, not one.",
+   "dir": "matter-of-fact; stress 'two'",
+   "set": "binary",
+   "setp": {
+    "t": 0.0,
+    "zoom": 0.1,
+    "dart": 0.0
+   },
+   "cam": [
+    [
+     0.478,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.5,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "ASTEROIDS",
+     "value": "2"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "ch": 1,
+   "size": "high",
+   "vo": "Didymos is the big one. Seven hundred eighty metres.",
+   "dir": "calm; stress 'seven hundred eighty'",
+   "set": "binary",
+   "setp": {
+    "t": 0.2,
+    "zoom": 0.5,
+    "dart": 0.0
+   },
+   "cam": [
+    [
+     0.477,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.404,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "rock",
+     "x": 0.3,
+     "y": 0.4,
+     "s": 1.4,
+     "z": "back",
+     "p": {
+      "label": "DIDYMOS"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "DIDYMOS",
+     "value": "780 M"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "ch": 1,
+   "size": "insert",
+   "vo": "Dimorphos is its little moon. You are aiming at the moon.",
+   "dir": "amused; stress 'moon'",
+   "set": "binary",
+   "setp": {
+    "t": 0.55,
+    "zoom": 0.4,
+    "dart": 0.0
+   },
+   "cam": [
+    [
+     0.565,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.419,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "rock",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 0.7,
+     "z": "back",
+     "p": {
+      "label": "DIMORPHOS"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "orange",
+     "label": "DIMORPHOS",
+     "value": "151 M"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "ch": 1,
+   "size": "wide",
+   "vo": "They sit only about one kilometre apart.",
+   "dir": "wide-eyed; stress 'one kilometre'",
+   "set": "orbitdiag",
+   "setp": {
+    "t": 0.1,
+    "shift": 0.0,
+    "glow": 0.0
+   },
+   "cam": [
+    [
+     0.505,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.462,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "GAP",
+     "value": "~1 KM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "ch": 1,
+   "size": "high",
+   "vo": "The moon circles the big rock, over and over.",
+   "dir": "soft; stress 'over and over'",
+   "set": "orbitdiag",
+   "setp": {
+    "t": 0.7,
+    "shift": 0.0,
+    "glow": 0.0
+   },
+   "cam": [
+    [
+     0.508,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.369,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "side",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "ONE LOOP = ONE ORBIT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "room_tone",
+     "at": 0.0,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "ch": 1,
+   "size": "med",
+   "vo": "Your goal is simple. Make that loop shorter.",
+   "dir": "clear; stress 'shorter'",
+   "set": "orbitdiag",
+   "setp": {
+    "t": 0.4,
+    "shift": 0.3,
+    "glow": 0.0
+   },
+   "cam": [
+    [
+     0.463,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.532,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "arrow",
+     "x": 0.55,
+     "y": 0.5,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "SHORTER LOOP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "ch": 1,
+   "size": "close",
+   "vo": "By crashing into it. On purpose.",
+   "dir": "deadpan; stress 'on purpose'",
+   "set": "impact",
+   "setp": {
+    "t": 0.2,
+    "debris": 0.1
+   },
+   "cam": [
+    [
+     0.44,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.57,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "ON PURPOSE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.3,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "ch": 1,
+   "size": "low",
+   "vo": "Nobody had ever tried it. Now, you go.",
+   "dir": "a beat; stress 'ever'",
+   "set": "launch",
+   "setp": {
+    "t": 0.0,
+    "tint": "night"
+   },
+   "cam": [
+    [
+     0.501,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.71,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "crouch",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "jump"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "FIRST EVER TEST"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "ch": 2,
+   "size": "wide",
+   "vo": "First, you need a ride.",
+   "dir": "light; stress 'ride'",
+   "set": "launch",
+   "setp": {
+    "t": 0.0,
+    "tint": "night"
+   },
+   "cam": [
+    [
+     0.509,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.528,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "RIDE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "room_tone",
+     "at": 0.0,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "ch": 2,
+   "size": "high",
+   "vo": "A Falcon Nine rocket, on the twenty-third of November, twenty twenty-one.",
+   "dir": "matter-of-fact; stress 'Falcon Nine'",
+   "set": "launch",
+   "setp": {
+    "t": 0.1,
+    "tint": "night"
+   },
+   "cam": [
+    [
+     0.508,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.403,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.25,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "23 NOV"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "LAUNCH",
+     "value": "23 NOV 2021"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "step",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "ch": 2,
+   "size": "med",
+   "vo": "Ten twenty-one at night, from California.",
+   "dir": "clipped; stress 'California'",
+   "set": "launch",
+   "setp": {
+    "t": 0.2,
+    "tint": "night"
+   },
+   "cam": [
+    [
+     0.541,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.535,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "VANDENBERG",
+     "value": "10"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hum",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "ch": 2,
+   "size": "low",
+   "vo": "Three. Two. One.",
+   "dir": "tight, building",
+   "set": "launch",
+   "setp": {
+    "t": 0.35,
+    "tint": "night"
+   },
+   "cam": [
+    [
+     0.532,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.74,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "crouch",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "jump"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "3 . 2 . 1"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "counter_tick",
+     "at": 0.4,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "ch": 2,
+   "size": "pullout",
+   "vo": "And you rise.",
+   "dir": "soft then hit; stress 'rise'",
+   "set": "launch",
+   "setp": {
+    "t": 0.8,
+    "tint": "night"
+   },
+   "cam": [
+    [
+     0.511,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.472,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "orange",
+     "text": "LIFTOFF"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fireball_roar",
+     "at": 0.0,
+     "gain": 0.5
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "ch": 2,
+   "size": "wide",
+   "vo": "Then the rocket lets go. You are alone.",
+   "dir": "quiet; stress 'alone'",
+   "set": "cruise",
+   "setp": {
+    "t": 0.1,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.46,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.48,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "float",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "dart",
+     "x": 0.5,
+     "y": 0.45,
+     "s": 0.7,
+     "z": "back",
+     "p": {
+      "flame": false
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "ALONE IN SPACE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "ch": 2,
+   "size": "close",
+   "vo": "Your wings unfold. Gold, glittering, enormous.",
+   "dir": "awe; stress 'unfold'",
+   "set": "cruise",
+   "setp": {
+    "t": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.428,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.606,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "props": [
+    {
+     "k": "dart",
+     "x": 0.55,
+     "y": 0.4,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "flame": false
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "SOLAR WINGS OUT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "message_whoosh",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "ch": 2,
+   "size": "insert",
+   "vo": "There is a long way to go.",
+   "dir": "gentle; stress 'long'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.645,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.496,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.3,
+     "y": 0.35,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 10
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "TEN MONTHS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "clock_back",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "ch": 2,
+   "size": "pan",
+   "vo": "Ten months of nothing but stars.",
+   "dir": "wonder; stress 'nothing'",
+   "set": "cruise",
+   "setp": {
+    "t": 0.35,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.34,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.53,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "tired",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "MONTH 1 ... MONTH 10"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "room_tone",
+     "at": 0.0,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S28",
+   "ch": 2,
+   "size": "close",
+   "vo": "Your calendar flips. And flips. And flips.",
+   "dir": "comedic rhythm; stress 'flips'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.387,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.58,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.3,
+     "y": 0.35,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "text": "SEP"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SEP 2022"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    },
+    {
+     "clip": "pop",
+     "at": 0.4,
+     "gain": 0.25
+    },
+    {
+     "clip": "pop",
+     "at": 0.7,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S29",
+   "ch": 2,
+   "size": "tilt",
+   "vo": "Then something appears ahead. A speck.",
+   "dir": "hushed; stress 'speck'",
+   "set": "cruise",
+   "setp": {
+    "t": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.484,
+     0.8,
+     1.3
+    ],
+    [
+     0.5,
+     0.239,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "threeQuarter",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tl",
+     "color": "gold",
+     "text": "SPECK AHEAD"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.3,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S30",
+   "ch": 2,
+   "size": "med",
+   "vo": "That speck is home. Your target.",
+   "dir": "building; stress 'target'",
+   "set": "cruise",
+   "setp": {
+    "t": 0.7,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.451,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.481,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "TARGET"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S31",
+   "ch": 3,
+   "size": "wide",
+   "vo": "It is September, twenty twenty-two. The speck grows.",
+   "dir": "tense; stress 'grows'",
+   "set": "cruise",
+   "setp": {
+    "t": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.465,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.472,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "orange",
+     "label": "DATE",
+     "value": "SEP 2022"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hum",
+     "at": 0.0,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S32",
+   "ch": 3,
+   "size": "high",
+   "vo": "Now it is two rocks. A big one and a small one.",
+   "dir": "clinical; stress 'two'",
+   "set": "binary",
+   "setp": {
+    "t": 0.3,
+    "zoom": 0.25,
+    "dart": 0.2
+   },
+   "cam": [
+    [
+     0.525,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.373,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "TWO ROCKS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S33",
+   "ch": 3,
+   "size": "insert",
+   "vo": "Your camera locks onto the small one.",
+   "dir": "clipped; stress 'locks'",
+   "set": "binary",
+   "setp": {
+    "t": 0.35,
+    "zoom": 0.4,
+    "dart": 0.35
+   },
+   "cam": [
+    [
+     0.59,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.482,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tl",
+     "color": "red",
+     "text": "LOCK ON"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S34",
+   "ch": 3,
+   "size": "med",
+   "vo": "The last seconds are all yours.",
+   "dir": "a warning; stress 'no one'",
+   "set": "ops",
+   "setp": {
+    "ok": 0.0,
+    "tension": 0.5
+   },
+   "cam": [
+    [
+     0.484,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.537,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "LAST SECONDS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S35",
+   "ch": 3,
+   "size": "pan",
+   "vo": "Home is a very long way behind you.",
+   "dir": "matter-of-fact; stress 'millions'",
+   "set": "ops",
+   "setp": {
+    "ok": 0.0,
+    "tension": 0.7
+   },
+   "cam": [
+    [
+     0.319,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.525,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "side",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "FAR FROM HOME"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "room_tone",
+     "at": 0.0,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S36",
+   "ch": 3,
+   "size": "close",
+   "vo": "Every correction is yours to make, alone.",
+   "dir": "quiet intensity; stress 'alone'",
+   "set": "binary",
+   "setp": {
+    "t": 0.45,
+    "zoom": 0.5,
+    "dart": 0.5
+   },
+   "cam": [
+    [
+     0.434,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.622,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "dart",
+     "x": 0.4,
+     "y": 0.4,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "flame": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SELF-STEERING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.15,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S37",
+   "ch": 3,
+   "size": "panr",
+   "vo": "One bad nudge, and you sail past.",
+   "dir": "tense; stress 'sail past'",
+   "set": "cruise",
+   "setp": {
+    "t": 0.85,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.656,
+     0.5,
+     1.3
+    ],
+    [
+     0.3,
+     0.514,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "arrow",
+     "x": 0.55,
+     "y": 0.55,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "color": "red"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "ONE MISS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S38",
+   "ch": 3,
+   "size": "low",
+   "vo": "The moon fills your view. A hundred and fifty-one metres of boulders.",
+   "dir": "awe; stress 'boulders'",
+   "set": "binary",
+   "setp": {
+    "t": 0.55,
+    "zoom": 0.8,
+    "dart": 0.8
+   },
+   "cam": [
+    [
+     0.481,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.703,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "orange",
+     "label": "SIZE",
+     "value": "151 M"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S39",
+   "ch": 3,
+   "size": "tilt",
+   "vo": "You can see the shadows now. Every crater.",
+   "dir": "hushed; stress 'crater'",
+   "set": "binary",
+   "setp": {
+    "t": 0.6,
+    "zoom": 0.9,
+    "dart": 0.88
+   },
+   "cam": [
+    [
+     0.454,
+     0.8,
+     1.3
+    ],
+    [
+     0.5,
+     0.288,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "threeQuarter",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cream",
+     "text": "SHADOWS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hum",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S40",
+   "ch": 3,
+   "size": "med",
+   "vo": "You are going six point one kilometres every second.",
+   "dir": "building; stress 'every second'",
+   "set": "binary",
+   "setp": {
+    "t": 0.65,
+    "zoom": 0.95,
+    "dart": 0.93
+   },
+   "cam": [
+    [
+     0.487,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.47,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "crouch",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "jump"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.65,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 6.1,
+      "label": "KM PER SECOND",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "orange",
+     "label": "SPEED",
+     "value": "6.1 KM/S"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S41",
+   "ch": 3,
+   "size": "insert",
+   "vo": "That is more than twenty-one thousand kilometres an hour.",
+   "dir": "wide-eyed; stress 'twenty-one thousand'",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.622,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.414,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.5,
+     "y": 0.4,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "frac": 1.0,
+      "color": "red",
+      "label": "21,960 KM/H"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "KM/H",
+     "value": "21,960"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S42",
+   "ch": 3,
+   "size": "close",
+   "vo": "Fourteen thousand miles an hour, if you like miles.",
+   "dir": "dry; stress 'miles'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.404,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.584,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "MPH",
+     "value": "14,000"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.3,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S43",
+   "ch": 3,
+   "size": "low",
+   "vo": "Ten seconds out. The ground is a wall of rock.",
+   "dir": "clipped; stress 'wall'",
+   "set": "binary",
+   "setp": {
+    "t": 0.7,
+    "zoom": 1.0,
+    "dart": 0.97
+   },
+   "cam": [
+    [
+     0.503,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.725,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "duck"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "10 SEC"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fireball_roar",
+     "at": 0.0,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S44",
+   "ch": 4,
+   "size": "wide",
+   "vo": "Three. Two. One.",
+   "dir": "tight",
+   "set": "impact",
+   "setp": {
+    "t": 0.1,
+    "debris": 0.0
+   },
+   "cam": [
+    [
+     0.463,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.493,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "duck"
+   },
+   "props": [
+    {
+     "k": "dart",
+     "x": 0.2,
+     "y": 0.4,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "flame": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "3 . 2 . 1"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "counter_tick",
+     "at": 0.4,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S45",
+   "ch": 4,
+   "size": "close",
+   "vo": "Contact.",
+   "dir": "a single hit; stress 'contact'",
+   "set": "impact",
+   "setp": {
+    "t": 0.4,
+    "debris": 0.1
+   },
+   "cam": [
+    [
+     0.432,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.576,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "flinch"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "CONTACT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.0,
+     "gain": 0.55
+    },
+    {
+     "clip": "fireball_roar",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "drone_hit",
+     "at": 0.0,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S46",
+   "ch": 4,
+   "size": "med",
+   "vo": "Your five hundred eighty kilograms hit like a hammer made of speed.",
+   "dir": "punchy; stress 'speed'",
+   "set": "impact",
+   "setp": {
+    "t": 0.5,
+    "debris": 0.5
+   },
+   "cam": [
+    [
+     0.52,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.455,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "HIT",
+     "value": "580 KG @ 6.1 KM/S"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fireball_roar",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S47",
+   "ch": 4,
+   "size": "pan",
+   "vo": "Dust and rock fly out into space.",
+   "dir": "wonder; stress 'fly'",
+   "set": "impact",
+   "setp": {
+    "t": 0.7,
+    "debris": 0.8
+   },
+   "cam": [
+    [
+     0.305,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.463,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "expr2": "shock",
+    "at2": 0.6,
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cream",
+     "text": "EJECTA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S48",
+   "ch": 4,
+   "size": "panr",
+   "vo": "A long tail of debris, streaming away from the moon.",
+   "dir": "awe; stress 'tail'",
+   "set": "impact",
+   "setp": {
+    "t": 0.9,
+    "debris": 1.0
+   },
+   "cam": [
+    [
+     0.675,
+     0.5,
+     1.3
+    ],
+    [
+     0.3,
+     0.503,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "side",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "DEBRIS TAIL"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S49",
+   "ch": 4,
+   "size": "high",
+   "vo": "Mission control goes silent.",
+   "dir": "hushed; stress 'silent'",
+   "set": "ops",
+   "setp": {
+    "ok": 0.0,
+    "tension": 0.9
+   },
+   "cam": [
+    [
+     0.464,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.448,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "...SILENCE..."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "room_tone",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S50",
+   "ch": 4,
+   "size": "wide",
+   "vo": "Then the room erupts.",
+   "dir": "release; stress 'erupts'",
+   "set": "ops",
+   "setp": {
+    "ok": 1.0,
+    "tension": 0.2
+   },
+   "cam": [
+    [
+     0.506,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.511,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "IT WORKED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "crowd_cheer",
+     "at": 0.0,
+     "gain": 0.45
+    },
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S51",
+   "ch": 4,
+   "size": "med",
+   "vo": "You hit. But did it move?",
+   "dir": "a question; stress 'move'",
+   "set": "orbitdiag",
+   "setp": {
+    "t": 0.3,
+    "shift": 0.0,
+    "glow": 0.0
+   },
+   "cam": [
+    [
+     0.46,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.488,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "DID IT MOVE?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hum",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S52",
+   "ch": 4,
+   "size": "pullout",
+   "vo": "Nobody can see the moon move. It is too far.",
+   "dir": "explaining; stress 'too far'",
+   "set": "earthview",
+   "setp": {
+    "t": 0.1,
+    "nudge": 0.0
+   },
+   "cam": [
+    [
+     0.542,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.481,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "TOO FAR TO SEE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S53",
+   "ch": 4,
+   "size": "insert",
+   "vo": "So scientists wait, and time its orbit.",
+   "dir": "patient; stress 'time'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.553,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.453,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "stopwatch",
+     "x": 0.3,
+     "y": 0.35,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 60
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "TIME THE LOOP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "clock_back",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S54",
+   "ch": 4,
+   "size": "high",
+   "vo": "Before the hit, one loop took a certain time.",
+   "dir": "calm; stress 'before'",
+   "set": "orbitdiag",
+   "setp": {
+    "t": 0.9,
+    "shift": 0.0,
+    "glow": 0.0
+   },
+   "cam": [
+    [
+     0.483,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.422,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cream",
+     "label": "BEFORE",
+     "value": "ONE LOOP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "room_tone",
+     "at": 0.0,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S55",
+   "ch": 4,
+   "size": "close",
+   "vo": "Now the stopwatch is running again.",
+   "dir": "tense; stress 'again'",
+   "set": "orbitdiag",
+   "setp": {
+    "t": 0.2,
+    "shift": 0.2,
+    "glow": 0.0
+   },
+   "cam": [
+    [
+     0.398,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.647,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "stopwatch",
+     "x": 0.7,
+     "y": 0.35,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 60
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "AFTER",
+     "value": "ONE LOOP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S56",
+   "ch": 4,
+   "size": "low",
+   "vo": "And the answer is coming.",
+   "dir": "a breath; stress 'answer'",
+   "set": "orbitdiag",
+   "setp": {
+    "t": 0.5,
+    "shift": 0.6,
+    "glow": 1.0
+   },
+   "cam": [
+    [
+     0.53,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.687,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "THE ANSWER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S57",
+   "ch": 5,
+   "size": "wide",
+   "vo": "The moon's orbit got shorter by thirty-three minutes.",
+   "dir": "payoff; stress 'thirty-three'",
+   "set": "orbitdiag",
+   "setp": {
+    "t": 0.8,
+    "shift": 1.0,
+    "glow": 1.0
+   },
+   "cam": [
+    [
+     0.487,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.452,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer",
+    "expr2": "shock",
+    "at2": 0.6
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.65,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 33,
+      "label": "MINUTES SHORTER",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "SHORTER BY",
+     "value": "33 MIN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.5
+    },
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S58",
+   "ch": 5,
+   "size": "insert",
+   "vo": "Give or take one minute.",
+   "dir": "dry; stress 'one'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.632,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.41,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cream",
+     "text": "+/- 1 MIN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S59",
+   "ch": 5,
+   "size": "med",
+   "vo": "That was far more than scientists expected.",
+   "dir": "amazed; stress 'far more'",
+   "set": "ops",
+   "setp": {
+    "ok": 1.0,
+    "tension": 0.4
+   },
+   "cam": [
+    [
+     0.533,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.505,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "BIGGER SHOVE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "crowd_cheer",
+     "at": 0.3,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S60",
+   "ch": 5,
+   "size": "close",
+   "vo": "Thirty-three minutes. That is a whole episode of a sitcom.",
+   "dir": "amused; stress 'sitcom'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.375,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.551,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.3,
+     "y": 0.35,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 0.55,
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "SHIFT",
+     "value": "33 MIN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "clock_back",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "laugh",
+     "at": 0.4,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S61",
+   "ch": 5,
+   "size": "pan",
+   "vo": "You shoved a rock, and the rock moved.",
+   "dir": "simple wonder; stress 'moved'",
+   "set": "impact",
+   "setp": {
+    "t": 0.95,
+    "debris": 1.0
+   },
+   "cam": [
+    [
+     0.282,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.504,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "A TOUCH OF PHYSICS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S62",
+   "ch": 5,
+   "size": "pullout",
+   "vo": "No one had ever done that to a world before.",
+   "dir": "hushed; stress 'ever'",
+   "set": "earthview",
+   "setp": {
+    "t": 0.3,
+    "nudge": 0.2
+   },
+   "cam": [
+    [
+     0.477,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.464,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "FIRST",
+     "value": "HUMAN-MOVED ORBIT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S63",
+   "ch": 5,
+   "size": "high",
+   "vo": "The first object in the Solar System we measurably nudged.",
+   "dir": "clear; stress 'first'",
+   "set": "earthview",
+   "setp": {
+    "t": 0.55,
+    "nudge": 0.5
+   },
+   "cam": [
+    [
+     0.503,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.36,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "FIRST EVER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S64",
+   "ch": 5,
+   "size": "med",
+   "vo": "Think about that. A spacecraft smaller than a car.",
+   "dir": "wry; stress 'smaller'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.481,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.451,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "dart",
+     "x": 0.65,
+     "y": 0.4,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "flame": false
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "580 KG"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S65",
+   "ch": 5,
+   "size": "close",
+   "vo": "Moved a rock a hundred and fifty metres wide.",
+   "dir": "punchy; stress 'moved'",
+   "set": "binary",
+   "setp": {
+    "t": 0.9,
+    "zoom": 0.6,
+    "dart": 0.0
+   },
+   "cam": [
+    [
+     0.354,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.563,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "orange",
+     "label": "ROCK",
+     "value": "151 M"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S66",
+   "ch": 5,
+   "size": "wide",
+   "vo": "But the story does not end there.",
+   "dir": "a hook; stress 'not'",
+   "set": "hera",
+   "setp": {
+    "t": 0.1,
+    "side": 0.0,
+    "scan": 0.0
+   },
+   "cam": [
+    [
+     0.457,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.503,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "BUT..."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S67",
+   "ch": 5,
+   "size": "tilt",
+   "vo": "Four years later, a visitor arrives to survey the damage.",
+   "dir": "building; stress 'visitor'",
+   "set": "hera",
+   "setp": {
+    "t": 0.3,
+    "side": 0.0,
+    "scan": 0.2
+   },
+   "cam": [
+    [
+     0.469,
+     0.8,
+     1.3
+    ],
+    [
+     0.5,
+     0.222,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "threeQuarter",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "hera",
+     "x": 0.25,
+     "y": 0.4,
+     "s": 1.1,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "HERA ARRIVES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S68",
+   "ch": 6,
+   "size": "close",
+   "vo": "Meet Hera. A European spacecraft.",
+   "dir": "bright; stress 'Hera'",
+   "set": "hera",
+   "setp": {
+    "t": 0.4,
+    "side": 0.0,
+    "scan": 0.3
+   },
+   "cam": [
+    [
+     0.438,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.645,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "props": [
+    {
+     "k": "hera",
+     "x": 0.25,
+     "y": 0.4,
+     "s": 1.3,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "ESA",
+     "value": "HERA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S69",
+   "ch": 6,
+   "size": "med",
+   "vo": "Its job is a crash site investigation.",
+   "dir": "dry; stress 'crash site'",
+   "set": "hera",
+   "setp": {
+    "t": 0.5,
+    "side": 0.0,
+    "scan": 0.4
+   },
+   "cam": [
+    [
+     0.542,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.538,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cream",
+     "text": "CRASH SITE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S70",
+   "ch": 6,
+   "size": "insert",
+   "vo": "It took two years to get there.",
+   "dir": "easy; stress 'two years'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.567,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.449,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.3,
+     "y": 0.35,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 24
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "JOURNEY",
+     "value": "2 YEARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "clock_back",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S71",
+   "ch": 6,
+   "size": "pullout",
+   "vo": "It sits one hundred ninety-six million kilometres from Earth.",
+   "dir": "wonder; stress 'one hundred ninety-six'",
+   "set": "earthview",
+   "setp": {
+    "t": 0.9,
+    "nudge": 0.0
+   },
+   "cam": [
+    [
+     0.54,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.518,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.65,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 196.8,
+      "label": "MILLION KM",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "FROM EARTH",
+     "value": "196.8M KM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S72",
+   "ch": 6,
+   "size": "high",
+   "vo": "This week it sent back a picture.",
+   "dir": "building; stress 'picture'",
+   "set": "hera",
+   "setp": {
+    "t": 0.6,
+    "side": 0.0,
+    "scan": 0.6
+   },
+   "cam": [
+    [
+     0.53,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.445,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "NEW PICTURE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S73",
+   "ch": 6,
+   "size": "wide",
+   "vo": "It shows Didymos, the big rock, from a side no one had seen.",
+   "dir": "hushed; stress 'no one had seen'",
+   "set": "hera",
+   "setp": {
+    "t": 0.7,
+    "side": 1.0,
+    "scan": 0.8
+   },
+   "cam": [
+    [
+     0.498,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.512,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "A NEW SIDE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S74",
+   "ch": 6,
+   "size": "med",
+   "vo": "DART's camera only ever saw the other face.",
+   "dir": "explaining; stress 'other'",
+   "set": "hera",
+   "setp": {
+    "t": 0.6,
+    "side": 0.0,
+    "scan": 0.0
+   },
+   "cam": [
+    [
+     0.486,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.513,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "side",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "DART SAW THIS SIDE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S75",
+   "ch": 6,
+   "size": "close",
+   "vo": "The first thing the Hera scientists said was wow.",
+   "dir": "amused; stress 'wow'",
+   "set": "ops",
+   "setp": {
+    "ok": 1.0,
+    "tension": 0.3
+   },
+   "cam": [
+    [
+     0.36,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.636,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "\"WOW\""
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.2,
+     "gain": 0.25
+    },
+    {
+     "clip": "crowd_cheer",
+     "at": 0.65,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "S76",
+   "ch": 6,
+   "size": "panr",
+   "vo": "It has the same ridge around its middle.",
+   "dir": "calm; stress 'ridge'",
+   "set": "hera",
+   "setp": {
+    "t": 0.75,
+    "side": 1.0,
+    "scan": 0.5
+   },
+   "cam": [
+    [
+     0.728,
+     0.5,
+     1.3
+    ],
+    [
+     0.3,
+     0.532,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "threeQuarter",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cream",
+     "text": "EQUATOR RIDGE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S77",
+   "ch": 6,
+   "size": "pullout",
+   "vo": "But everything else looks different.",
+   "dir": "wondering; stress 'different'",
+   "set": "hera",
+   "setp": {
+    "t": 0.8,
+    "side": 1.0,
+    "scan": 0.9
+   },
+   "cam": [
+    [
+     0.464,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.492,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "orange",
+     "text": "VERY DIFFERENT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S78",
+   "ch": 6,
+   "size": "low",
+   "vo": "Boulders. Craters. Strange grooves and ridges.",
+   "dir": "listing, quick; stress 'grooves'",
+   "set": "hera",
+   "setp": {
+    "t": 0.9,
+    "side": 1.0,
+    "scan": 1.0
+   },
+   "cam": [
+    [
+     0.498,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.666,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "SEEN",
+     "value": "BOULDERS+CRATERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "pop",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S79",
+   "ch": 6,
+   "size": "tilt",
+   "vo": "Here is the mystery. Did your crash cause some of it?",
+   "dir": "curious; stress 'your crash'",
+   "set": "impact",
+   "setp": {
+    "t": 0.8,
+    "debris": 0.9
+   },
+   "cam": [
+    [
+     0.543,
+     0.8,
+     1.3
+    ],
+    [
+     0.5,
+     0.22,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "YOUR CRASH?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hum",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S80",
+   "ch": 6,
+   "size": "wide",
+   "vo": "The debris you kicked up may have crossed one kilometre of space.",
+   "dir": "explaining; stress 'crossed'",
+   "set": "binary",
+   "setp": {
+    "t": 0.7,
+    "zoom": 0.4,
+    "dart": 0.0
+   },
+   "cam": [
+    [
+     0.519,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.469,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "arrow",
+     "x": 0.5,
+     "y": 0.45,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "DEBRIS TRIP",
+     "value": "~1 KM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S81",
+   "ch": 6,
+   "size": "insert",
+   "vo": "And landed on Didymos. Scarring it.",
+   "dir": "slow; stress 'scarring'",
+   "set": "hera",
+   "setp": {
+    "t": 0.9,
+    "side": 1.0,
+    "scan": 0.6
+   },
+   "cam": [
+    [
+     0.602,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.487,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimL",
+    "act": "duck"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "POSSIBLE SCARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S82",
+   "ch": 6,
+   "size": "high",
+   "vo": "Hera will map every change.",
+   "dir": "resolute; stress 'every'",
+   "set": "hera",
+   "setp": {
+    "t": 0.95,
+    "side": 1.0,
+    "scan": 1.0
+   },
+   "cam": [
+    [
+     0.458,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.351,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "hera",
+     "x": 0.25,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "SYSTEMATIC MAP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S83",
+   "ch": 6,
+   "size": "close",
+   "vo": "Next reveal: the twenty-fifth of November.",
+   "dir": "teasing; stress 'twenty-fifth'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.389,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.62,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.3,
+     "y": 0.35,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "text": "25 NOV"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "NEXT IMAGES",
+     "value": "25 NOV 2026"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S84",
+   "ch": 7,
+   "size": "wide",
+   "vo": "Why does any of this matter?",
+   "dir": "curious, plain; stress 'matter'",
+   "set": "earthview",
+   "setp": {
+    "t": 0.8,
+    "nudge": 0.0
+   },
+   "cam": [
+    [
+     0.51,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.475,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "WHY?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "room_tone",
+     "at": 0.0,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S85",
+   "ch": 7,
+   "size": "med",
+   "vo": "One day, an asteroid might be heading for Earth.",
+   "dir": "serious; stress 'heading'",
+   "set": "earthview",
+   "setp": {
+    "t": 0.95,
+    "nudge": 0.0
+   },
+   "cam": [
+    [
+     0.505,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.501,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "INCOMING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hum",
+     "at": 0.0,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S86",
+   "ch": 7,
+   "size": "pullout",
+   "vo": "A hit like yours could nudge it away.",
+   "dir": "hopeful; stress 'nudge'",
+   "set": "earthview",
+   "setp": {
+    "t": 0.8,
+    "nudge": 1.0
+   },
+   "cam": [
+    [
+     0.535,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.46,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "arrow",
+     "x": 0.55,
+     "y": 0.45,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "NUDGE IT AWAY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.35
+    },
+    {
+     "clip": "ding",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S87",
+   "ch": 7,
+   "size": "insert",
+   "vo": "It is called kinetic impact deflection.",
+   "dir": "clear; stress 'kinetic'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.567,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.457,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "KINETIC IMPACT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S88",
+   "ch": 7,
+   "size": "high",
+   "vo": "DART proved it works once.",
+   "dir": "proud; stress 'once'",
+   "set": "orbitdiag",
+   "setp": {
+    "t": 0.3,
+    "shift": 1.0,
+    "glow": 1.0
+   },
+   "cam": [
+    [
+     0.533,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.373,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "WORKED ONCE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S89",
+   "ch": 7,
+   "size": "low",
+   "vo": "Hera helps scientists make it work every time.",
+   "dir": "earnest; stress 'every time'",
+   "set": "hera",
+   "setp": {
+    "t": 0.5,
+    "side": 1.0,
+    "scan": 0.7
+   },
+   "cam": [
+    [
+     0.501,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.651,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "EVERY TIME"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S90",
+   "ch": 7,
+   "size": "med",
+   "vo": "A one-off demo becomes a dependable shield.",
+   "dir": "rising; stress 'shield'",
+   "set": "earthview",
+   "setp": {
+    "t": 0.5,
+    "nudge": 1.0
+   },
+   "cam": [
+    [
+     0.487,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.462,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.5,
+     "y": 0.45,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 1.0,
+      "color": "gold",
+      "label": "PLANETARY DEFENCE"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "GOAL",
+     "value": "REPEATABLE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S91",
+   "ch": 7,
+   "size": "wide",
+   "vo": "And it all started with a little spacecraft.",
+   "dir": "warm; stress 'little'",
+   "set": "cruise",
+   "setp": {
+    "t": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.454,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.549,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "props": [
+    {
+     "k": "dart",
+     "x": 0.6,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "flame": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "580 KG"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S92",
+   "ch": 7,
+   "size": "pullout",
+   "vo": "Remember that fourteen thousand miles an hour?",
+   "dir": "callback, smiling; stress 'fourteen thousand'",
+   "set": "binary",
+   "setp": {
+    "t": 0.9,
+    "zoom": 0.3,
+    "dart": 0.0
+   },
+   "cam": [
+    [
+     0.452,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.496,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "14,000 MPH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S93",
+   "ch": 7,
+   "size": "high",
+   "vo": "Now you know where it ends. A rock, a shove, a new orbit.",
+   "dir": "satisfied; stress 'new orbit'",
+   "set": "orbitdiag",
+   "setp": {
+    "t": 0.9,
+    "shift": 1.0,
+    "glow": 1.0
+   },
+   "cam": [
+    [
+     0.54,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.45,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NEW ORBIT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S94",
+   "ch": 7,
+   "size": "close",
+   "vo": "Tomorrow: what if you flew straight into the Sun?",
+   "dir": "teasing; stress 'Sun'",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.416,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.588,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "TOMORROW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S95",
+   "ch": 7,
+   "size": "med",
+   "vo": "Which world would you crash into first? Tell me below.",
+   "dir": "friendly; stress 'first'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.543,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.537,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "YOUR PICK?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  }
+ ],
+ "short": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "wide",
+   "vo": "You are flying at fourteen thousand miles an hour.",
+   "dir": "low, urgent; stress 'fourteen thousand'",
+   "set": "binary",
+   "setp": {
+    "t": 0.3,
+    "zoom": 0.8,
+    "dart": 0.9
+   },
+   "cam": [
+    [
+     0.474,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.504,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "orange",
+     "text": "14,000 MPH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "word": "fourteen",
+     "gain": 0.35
+    },
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "close",
+   "vo": "There are no brakes. Only a rock.",
+   "dir": "clipped; stress 'rock'",
+   "set": "binary",
+   "setp": {
+    "t": 0.6,
+    "zoom": 0.95,
+    "dart": 0.96
+   },
+   "cam": [
+    [
+     0.407,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.593,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "act": "duck"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "NO BRAKES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fireball_roar",
+     "at": 0.0,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "med",
+   "vo": "Contact.",
+   "dir": "a single hit",
+   "set": "impact",
+   "setp": {
+    "t": 0.4,
+    "debris": 0.3
+   },
+   "cam": [
+    [
+     0.502,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.531,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "flinch"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "CONTACT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.0,
+     "gain": 0.55
+    },
+    {
+     "clip": "fireball_roar",
+     "at": 0.0,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "insert",
+   "vo": "You are NASA's DART. Five hundred eighty kilograms.",
+   "dir": "proud; stress 'five hundred eighty'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.621,
+     0.45,
+     1.9
+    ],
+    [
+     0.55,
+     0.484,
+     1.71
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "dart",
+     "x": 0.6,
+     "y": 0.35,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "flame": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "DART",
+     "value": "580 KG"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "high",
+   "vo": "Your target is a moon, one hundred fifty-one metres wide.",
+   "dir": "building; stress 'moon'",
+   "set": "binary",
+   "setp": {
+    "t": 0.5,
+    "zoom": 0.5,
+    "dart": 0.4
+   },
+   "cam": [
+    [
+     0.451,
+     0.3,
+     1.04
+    ],
+    [
+     0.5,
+     0.361,
+     1.19
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "MOON",
+     "value": "151 M"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 0,
+   "size": "low",
+   "vo": "You hit it on purpose, on the twenty-sixth of September.",
+   "dir": "wry; stress 'on purpose'",
+   "set": "ops",
+   "setp": {
+    "ok": 1.0,
+    "tension": 0.2
+   },
+   "cam": [
+    [
+     0.514,
+     0.75,
+     1.14
+    ],
+    [
+     0.5,
+     0.693,
+     1.28
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "IMPACT",
+     "value": "26 SEP 2022"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "crowd_cheer",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 0,
+   "size": "wide",
+   "vo": "And that shoved the moon's orbit shorter by thirty-three minutes.",
+   "dir": "payoff; stress 'thirty-three'",
+   "set": "orbitdiag",
+   "setp": {
+    "t": 0.6,
+    "shift": 1.0,
+    "glow": 1.0
+   },
+   "cam": [
+    [
+     0.477,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.499,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "expr2": "shock",
+    "at2": 0.6,
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.65,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 33,
+      "label": "MINUTES",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "SHORTER BY",
+     "value": "33 MIN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.45
+    },
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "First time humans moved an asteroid's orbit.",
+   "dir": "proud; stress 'first'",
+   "set": "earthview",
+   "setp": {
+    "t": 0.5,
+    "nudge": 0.8
+   },
+   "cam": [
+    [
+     0.548,
+     0.5,
+     1.52
+    ],
+    [
+     0.5,
+     0.455,
+     0.95
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "FIRST EVER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 0,
+   "size": "tilt",
+   "vo": "Now Europe's Hera is there, looking at the crash site.",
+   "dir": "building; stress 'Hera'",
+   "set": "hera",
+   "setp": {
+    "t": 0.5,
+    "side": 0.0,
+    "scan": 0.4
+   },
+   "cam": [
+    [
+     0.472,
+     0.8,
+     1.23
+    ],
+    [
+     0.5,
+     0.293,
+     1.23
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "threeQuarter",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "hera",
+     "x": 0.25,
+     "y": 0.4,
+     "s": 1.1,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "ESA",
+     "value": "HERA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 0,
+   "size": "low",
+   "vo": "It just found a side of Didymos nobody has seen.",
+   "dir": "hushed; stress 'nobody'",
+   "set": "hera",
+   "setp": {
+    "t": 0.8,
+    "side": 1.0,
+    "scan": 0.9
+   },
+   "cam": [
+    [
+     0.457,
+     0.75,
+     1.14
+    ],
+    [
+     0.5,
+     0.693,
+     1.28
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "A NEW SIDE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "ch": 0,
+   "size": "med",
+   "vo": "Boulders. Craters. Grooves. Maybe scars from your crash.",
+   "dir": "listing; stress 'scars'",
+   "set": "hera",
+   "setp": {
+    "t": 0.95,
+    "side": 1.0,
+    "scan": 1.0
+   },
+   "cam": [
+    [
+     0.478,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.5,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "top",
+     "color": "cream",
+     "text": "BOULDERS, CRATERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "pop",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "ch": 0,
+   "size": "med",
+   "vo": "That is how we learn to push a killer rock away.",
+   "dir": "rising; stress 'push'",
+   "set": "earthview",
+   "setp": {
+    "t": 0.8,
+    "nudge": 1.0
+   },
+   "cam": [
+    [
+     0.477,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.504,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "arrow",
+     "x": 0.55,
+     "y": 0.45,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "DEFENCE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.35
+    },
+    {
+     "clip": "ding",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "ch": 0,
+   "size": "wide",
+   "vo": "Full film on the channel. Tomorrow: what if you flew into the Sun?",
+   "dir": "friendly; stress 'Sun'",
+   "set": "binary",
+   "setp": {
+    "t": 0.3,
+    "zoom": 0.8,
+    "dart": 0.9
+   },
+   "cam": [
+    [
+     0.465,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.469,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "FULL FILM ON CHANNEL"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  }
+ ]
+}

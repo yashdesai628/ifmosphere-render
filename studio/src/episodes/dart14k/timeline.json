@@ -1,0 +1,1642 @@
+{
+ "slug": "dart14k",
+ "title": "WHAT IF YOU HIT AN ASTEROID AT 14,000 MPH?",
+ "fps": 30,
+ "total": 8103,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 125,
+   "t0": 0,
+   "t1": 125,
+   "line": "Fourteen thousand miles an hour. One rock. No brakes."
+  },
+  {
+   "shot": "S2",
+   "a": 125,
+   "b": 172,
+   "t0": 0,
+   "t1": 47,
+   "line": "You are the spacecraft."
+  },
+  {
+   "shot": "S3",
+   "a": 172,
+   "b": 278,
+   "t0": 0,
+   "t1": 106,
+   "line": "Five hundred eighty kilograms. Smaller than a car."
+  },
+  {
+   "shot": "S4",
+   "a": 278,
+   "b": 389,
+   "t0": 0,
+   "t1": 111,
+   "line": "Your target is a moonlet one hundred fifty-one metres wide."
+  },
+  {
+   "shot": "S5",
+   "a": 389,
+   "b": 456,
+   "t0": 0,
+   "t1": 67,
+   "line": "Hit it, and you change the sky."
+  },
+  {
+   "shot": "S6",
+   "a": 456,
+   "b": 537,
+   "t0": 0,
+   "t1": 81,
+   "line": "Miss, and you are just a very fast rock."
+  },
+  {
+   "shot": "S7",
+   "a": 537,
+   "b": 663,
+   "t0": 0,
+   "t1": 126,
+   "line": "This really happened. NASA did it on the twenty-sixth of September."
+  },
+  {
+   "shot": "S8",
+   "a": 663,
+   "b": 785,
+   "t0": 0,
+   "t1": 122,
+   "line": "So what if you rode that spacecraft into an asteroid?"
+  },
+  {
+   "shot": "S9",
+   "a": 785,
+   "b": 824,
+   "t0": 0,
+   "t1": 39,
+   "line": "Here are the rules."
+  },
+  {
+   "shot": "S10",
+   "a": 824,
+   "b": 900,
+   "t0": 0,
+   "t1": 76,
+   "line": "You can steer a little. You can never stop."
+  },
+  {
+   "shot": "S11",
+   "a": 900,
+   "b": 969,
+   "t0": 0,
+   "t1": 69,
+   "line": "There are two asteroids, not one."
+  },
+  {
+   "shot": "S12",
+   "a": 969,
+   "b": 1067,
+   "t0": 0,
+   "t1": 98,
+   "line": "Didymos is the big one. Seven hundred eighty metres."
+  },
+  {
+   "shot": "S13",
+   "a": 1067,
+   "b": 1178,
+   "t0": 0,
+   "t1": 111,
+   "line": "Dimorphos is its little moon. You are aiming at the moon."
+  },
+  {
+   "shot": "S14",
+   "a": 1178,
+   "b": 1253,
+   "t0": 0,
+   "t1": 75,
+   "line": "They sit only about one kilometre apart."
+  },
+  {
+   "shot": "S15",
+   "a": 1253,
+   "b": 1336,
+   "t0": 0,
+   "t1": 83,
+   "line": "The moon circles the big rock, over and over."
+  },
+  {
+   "shot": "S16",
+   "a": 1336,
+   "b": 1417,
+   "t0": 0,
+   "t1": 81,
+   "line": "Your goal is simple. Make that loop shorter."
+  },
+  {
+   "shot": "S17",
+   "a": 1417,
+   "b": 1483,
+   "t0": 0,
+   "t1": 66,
+   "line": "By crashing into it. On purpose."
+  },
+  {
+   "shot": "S18",
+   "a": 1483,
+   "b": 1587,
+   "t0": 0,
+   "t1": 104,
+   "line": "Nobody had ever tried it. Now, you go."
+  },
+  {
+   "shot": "S19",
+   "a": 1587,
+   "b": 1630,
+   "t0": 0,
+   "t1": 43,
+   "line": "First, you need a ride."
+  },
+  {
+   "shot": "S20",
+   "a": 1630,
+   "b": 1699,
+   "t0": 0,
+   "t1": 69,
+   "line": "A Falcon Nine rocket, on the twenty-third of November, twenty twenty-one."
+  },
+  {
+   "shot": "S20",
+   "a": 1699,
+   "b": 1769,
+   "t0": 69,
+   "t1": 139,
+   "line": "A Falcon Nine rocket, on the twenty-third of November, twenty twenty-one."
+  },
+  {
+   "shot": "S21",
+   "a": 1769,
+   "b": 1838,
+   "t0": 0,
+   "t1": 69,
+   "line": "Ten twenty-one at night, from California."
+  },
+  {
+   "shot": "S22",
+   "a": 1838,
+   "b": 1894,
+   "t0": 0,
+   "t1": 56,
+   "line": "Three. Two. One."
+  },
+  {
+   "shot": "S23",
+   "a": 1894,
+   "b": 1932,
+   "t0": 0,
+   "t1": 38,
+   "line": "And you rise."
+  },
+  {
+   "shot": "S24",
+   "a": 1932,
+   "b": 2012,
+   "t0": 0,
+   "t1": 80,
+   "line": "Then the rocket lets go. You are alone."
+  },
+  {
+   "shot": "S25",
+   "a": 2012,
+   "b": 2125,
+   "t0": 0,
+   "t1": 113,
+   "line": "Your wings unfold. Gold, glittering, enormous."
+  },
+  {
+   "shot": "S26",
+   "a": 2125,
+   "b": 2177,
+   "t0": 0,
+   "t1": 52,
+   "line": "There is a long way to go."
+  },
+  {
+   "shot": "S27",
+   "a": 2177,
+   "b": 2242,
+   "t0": 0,
+   "t1": 65,
+   "line": "Ten months of nothing but stars."
+  },
+  {
+   "shot": "S28",
+   "a": 2242,
+   "b": 2346,
+   "t0": 0,
+   "t1": 104,
+   "line": "Your calendar flips. And flips. And flips."
+  },
+  {
+   "shot": "S29",
+   "a": 2346,
+   "b": 2424,
+   "t0": 0,
+   "t1": 78,
+   "line": "Then something appears ahead. A speck."
+  },
+  {
+   "shot": "S30",
+   "a": 2424,
+   "b": 2529,
+   "t0": 0,
+   "t1": 105,
+   "line": "That speck is home. Your target."
+  },
+  {
+   "shot": "S31",
+   "a": 2529,
+   "b": 2638,
+   "t0": 0,
+   "t1": 109,
+   "line": "It is September, twenty twenty-two. The speck grows."
+  },
+  {
+   "shot": "S32",
+   "a": 2638,
+   "b": 2738,
+   "t0": 0,
+   "t1": 100,
+   "line": "Now it is two rocks. A big one and a small one."
+  },
+  {
+   "shot": "S33",
+   "a": 2738,
+   "b": 2809,
+   "t0": 0,
+   "t1": 71,
+   "line": "Your camera locks onto the small one."
+  },
+  {
+   "shot": "S34",
+   "a": 2809,
+   "b": 2872,
+   "t0": 0,
+   "t1": 63,
+   "line": "The last seconds are all yours."
+  },
+  {
+   "shot": "S35",
+   "a": 2872,
+   "b": 2939,
+   "t0": 0,
+   "t1": 67,
+   "line": "Home is a very long way behind you."
+  },
+  {
+   "shot": "S36",
+   "a": 2939,
+   "b": 3022,
+   "t0": 0,
+   "t1": 83,
+   "line": "Every correction is yours to make, alone."
+  },
+  {
+   "shot": "S37",
+   "a": 3022,
+   "b": 3101,
+   "t0": 0,
+   "t1": 79,
+   "line": "One bad nudge, and you sail past."
+  },
+  {
+   "shot": "S38",
+   "a": 3101,
+   "b": 3234,
+   "t0": 0,
+   "t1": 133,
+   "line": "The moon fills your view. A hundred and fifty-one metres of boulders."
+  },
+  {
+   "shot": "S39",
+   "a": 3234,
+   "b": 3326,
+   "t0": 0,
+   "t1": 92,
+   "line": "You can see the shadows now. Every crater."
+  },
+  {
+   "shot": "S40",
+   "a": 3326,
+   "b": 3431,
+   "t0": 0,
+   "t1": 105,
+   "line": "You are going six point one kilometres every second."
+  },
+  {
+   "shot": "S41",
+   "a": 3431,
+   "b": 3521,
+   "t0": 0,
+   "t1": 90,
+   "line": "That is more than twenty-one thousand kilometres an hour."
+  },
+  {
+   "shot": "S42",
+   "a": 3521,
+   "b": 3610,
+   "t0": 0,
+   "t1": 89,
+   "line": "Fourteen thousand miles an hour, if you like miles."
+  },
+  {
+   "shot": "S43",
+   "a": 3610,
+   "b": 3730,
+   "t0": 0,
+   "t1": 120,
+   "line": "Ten seconds out. The ground is a wall of rock."
+  },
+  {
+   "shot": "S44",
+   "a": 3730,
+   "b": 3793,
+   "t0": 0,
+   "t1": 63,
+   "line": "Three. Two. One."
+  },
+  {
+   "shot": "S45",
+   "a": 3793,
+   "b": 3821,
+   "t0": 0,
+   "t1": 28,
+   "line": "Contact."
+  },
+  {
+   "shot": "S46",
+   "a": 3821,
+   "b": 3939,
+   "t0": 0,
+   "t1": 118,
+   "line": "Your five hundred eighty kilograms hit like a hammer made of speed."
+  },
+  {
+   "shot": "S47",
+   "a": 3939,
+   "b": 4021,
+   "t0": 0,
+   "t1": 82,
+   "line": "Dust and rock fly out into space."
+  },
+  {
+   "shot": "S48",
+   "a": 4021,
+   "b": 4123,
+   "t0": 0,
+   "t1": 102,
+   "line": "A long tail of debris, streaming away from the moon."
+  },
+  {
+   "shot": "S49",
+   "a": 4123,
+   "b": 4184,
+   "t0": 0,
+   "t1": 61,
+   "line": "Mission control goes silent."
+  },
+  {
+   "shot": "S50",
+   "a": 4184,
+   "b": 4226,
+   "t0": 0,
+   "t1": 42,
+   "line": "Then the room erupts."
+  },
+  {
+   "shot": "S51",
+   "a": 4226,
+   "b": 4295,
+   "t0": 0,
+   "t1": 69,
+   "line": "You hit. But did it move?"
+  },
+  {
+   "shot": "S52",
+   "a": 4295,
+   "b": 4388,
+   "t0": 0,
+   "t1": 93,
+   "line": "Nobody can see the moon move. It is too far."
+  },
+  {
+   "shot": "S53",
+   "a": 4388,
+   "b": 4473,
+   "t0": 0,
+   "t1": 85,
+   "line": "So scientists wait, and time its orbit."
+  },
+  {
+   "shot": "S54",
+   "a": 4473,
+   "b": 4569,
+   "t0": 0,
+   "t1": 96,
+   "line": "Before the hit, one loop took a certain time."
+  },
+  {
+   "shot": "S55",
+   "a": 4569,
+   "b": 4632,
+   "t0": 0,
+   "t1": 63,
+   "line": "Now the stopwatch is running again."
+  },
+  {
+   "shot": "S56",
+   "a": 4632,
+   "b": 4704,
+   "t0": 0,
+   "t1": 72,
+   "line": "And the answer is coming."
+  },
+  {
+   "shot": "S57",
+   "a": 4704,
+   "b": 4799,
+   "t0": 0,
+   "t1": 95,
+   "line": "The moon's orbit got shorter by thirty-three minutes."
+  },
+  {
+   "shot": "S58",
+   "a": 4799,
+   "b": 4848,
+   "t0": 0,
+   "t1": 49,
+   "line": "Give or take one minute."
+  },
+  {
+   "shot": "S59",
+   "a": 4848,
+   "b": 4933,
+   "t0": 0,
+   "t1": 85,
+   "line": "That was far more than scientists expected."
+  },
+  {
+   "shot": "S60",
+   "a": 4933,
+   "b": 5051,
+   "t0": 0,
+   "t1": 118,
+   "line": "Thirty-three minutes. That is a whole episode of a sitcom."
+  },
+  {
+   "shot": "S61",
+   "a": 5051,
+   "b": 5123,
+   "t0": 0,
+   "t1": 72,
+   "line": "You shoved a rock, and the rock moved."
+  },
+  {
+   "shot": "S62",
+   "a": 5123,
+   "b": 5208,
+   "t0": 0,
+   "t1": 85,
+   "line": "No one had ever done that to a world before."
+  },
+  {
+   "shot": "S63",
+   "a": 5208,
+   "b": 5314,
+   "t0": 0,
+   "t1": 106,
+   "line": "The first object in the Solar System we measurably nudged."
+  },
+  {
+   "shot": "S64",
+   "a": 5314,
+   "b": 5419,
+   "t0": 0,
+   "t1": 105,
+   "line": "Think about that. A spacecraft smaller than a car."
+  },
+  {
+   "shot": "S65",
+   "a": 5419,
+   "b": 5509,
+   "t0": 0,
+   "t1": 90,
+   "line": "Moved a rock a hundred and fifty metres wide."
+  },
+  {
+   "shot": "S66",
+   "a": 5509,
+   "b": 5568,
+   "t0": 0,
+   "t1": 59,
+   "line": "But the story does not end there."
+  },
+  {
+   "shot": "S67",
+   "a": 5568,
+   "b": 5700,
+   "t0": 0,
+   "t1": 132,
+   "line": "Four years later, a visitor arrives to survey the damage."
+  },
+  {
+   "shot": "S68",
+   "a": 5700,
+   "b": 5785,
+   "t0": 0,
+   "t1": 85,
+   "line": "Meet Hera. A European spacecraft."
+  },
+  {
+   "shot": "S69",
+   "a": 5785,
+   "b": 5859,
+   "t0": 0,
+   "t1": 74,
+   "line": "Its job is a crash site investigation."
+  },
+  {
+   "shot": "S70",
+   "a": 5859,
+   "b": 5916,
+   "t0": 0,
+   "t1": 57,
+   "line": "It took two years to get there."
+  },
+  {
+   "shot": "S71",
+   "a": 5916,
+   "b": 6022,
+   "t0": 0,
+   "t1": 106,
+   "line": "It sits one hundred ninety-six million kilometres from Earth."
+  },
+  {
+   "shot": "S72",
+   "a": 6022,
+   "b": 6085,
+   "t0": 0,
+   "t1": 63,
+   "line": "This week it sent back a picture."
+  },
+  {
+   "shot": "S73",
+   "a": 6085,
+   "b": 6205,
+   "t0": 0,
+   "t1": 120,
+   "line": "It shows Didymos, the big rock, from a side no one had seen."
+  },
+  {
+   "shot": "S74",
+   "a": 6205,
+   "b": 6292,
+   "t0": 0,
+   "t1": 87,
+   "line": "DART's camera only ever saw the other face."
+  },
+  {
+   "shot": "S75",
+   "a": 6292,
+   "b": 6386,
+   "t0": 0,
+   "t1": 94,
+   "line": "The first thing the Hera scientists said was wow."
+  },
+  {
+   "shot": "S76",
+   "a": 6386,
+   "b": 6453,
+   "t0": 0,
+   "t1": 67,
+   "line": "It has the same ridge around its middle."
+  },
+  {
+   "shot": "S77",
+   "a": 6453,
+   "b": 6509,
+   "t0": 0,
+   "t1": 56,
+   "line": "But everything else looks different."
+  },
+  {
+   "shot": "S78",
+   "a": 6509,
+   "b": 6613,
+   "t0": 0,
+   "t1": 104,
+   "line": "Boulders. Craters. Strange grooves and ridges."
+  },
+  {
+   "shot": "S79",
+   "a": 6613,
+   "b": 6715,
+   "t0": 0,
+   "t1": 102,
+   "line": "Here is the mystery. Did your crash cause some of it?"
+  },
+  {
+   "shot": "S80",
+   "a": 6715,
+   "b": 6824,
+   "t0": 0,
+   "t1": 109,
+   "line": "The debris you kicked up may have crossed one kilometre of space."
+  },
+  {
+   "shot": "S81",
+   "a": 6824,
+   "b": 6908,
+   "t0": 0,
+   "t1": 84,
+   "line": "And landed on Didymos. Scarring it."
+  },
+  {
+   "shot": "S82",
+   "a": 6908,
+   "b": 6968,
+   "t0": 0,
+   "t1": 60,
+   "line": "Hera will map every change."
+  },
+  {
+   "shot": "S83",
+   "a": 6968,
+   "b": 7076,
+   "t0": 0,
+   "t1": 108,
+   "line": "Next reveal: the twenty-fifth of November."
+  },
+  {
+   "shot": "S84",
+   "a": 7076,
+   "b": 7133,
+   "t0": 0,
+   "t1": 57,
+   "line": "Why does any of this matter?"
+  },
+  {
+   "shot": "S85",
+   "a": 7133,
+   "b": 7218,
+   "t0": 0,
+   "t1": 85,
+   "line": "One day, an asteroid might be heading for Earth."
+  },
+  {
+   "shot": "S86",
+   "a": 7218,
+   "b": 7290,
+   "t0": 0,
+   "t1": 72,
+   "line": "A hit like yours could nudge it away."
+  },
+  {
+   "shot": "S87",
+   "a": 7290,
+   "b": 7370,
+   "t0": 0,
+   "t1": 80,
+   "line": "It is called kinetic impact deflection."
+  },
+  {
+   "shot": "S88",
+   "a": 7370,
+   "b": 7433,
+   "t0": 0,
+   "t1": 63,
+   "line": "DART proved it works once."
+  },
+  {
+   "shot": "S89",
+   "a": 7433,
+   "b": 7530,
+   "t0": 0,
+   "t1": 97,
+   "line": "Hera helps scientists make it work every time."
+  },
+  {
+   "shot": "S90",
+   "a": 7530,
+   "b": 7612,
+   "t0": 0,
+   "t1": 82,
+   "line": "A one-off demo becomes a dependable shield."
+  },
+  {
+   "shot": "S91",
+   "a": 7612,
+   "b": 7687,
+   "t0": 0,
+   "t1": 75,
+   "line": "And it all started with a little spacecraft."
+  },
+  {
+   "shot": "S92",
+   "a": 7687,
+   "b": 7767,
+   "t0": 0,
+   "t1": 80,
+   "line": "Remember that fourteen thousand miles an hour?"
+  },
+  {
+   "shot": "S93",
+   "a": 7767,
+   "b": 7886,
+   "t0": 0,
+   "t1": 119,
+   "line": "Now you know where it ends. A rock, a shove, a new orbit."
+  },
+  {
+   "shot": "S94",
+   "a": 7886,
+   "b": 7969,
+   "t0": 0,
+   "t1": 83,
+   "line": "Tomorrow: what if you flew straight into the Sun?"
+  },
+  {
+   "shot": "S95",
+   "a": 7969,
+   "b": 8103,
+   "t0": 0,
+   "t1": 134,
+   "line": "Which world would you crash into first? Tell me below."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 78,
+   "len": 125,
+   "first": 0,
+   "line": "Fourteen thousand miles an hour. One rock. No brakes.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "med",
+   "key": 29,
+   "len": 47,
+   "first": 125,
+   "line": "You are the spacecraft.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "insert",
+   "key": 66,
+   "len": 106,
+   "first": 172,
+   "line": "Five hundred eighty kilograms. Smaller than a car.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "close",
+   "key": 69,
+   "len": 111,
+   "first": 278,
+   "line": "Your target is a moonlet one hundred fifty-one metres wide.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "pullout",
+   "key": 42,
+   "len": 67,
+   "first": 389,
+   "line": "Hit it, and you change the sky.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "low",
+   "key": 50,
+   "len": 81,
+   "first": 456,
+   "line": "Miss, and you are just a very fast rock.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "med",
+   "key": 78,
+   "len": 126,
+   "first": 537,
+   "line": "This really happened. NASA did it on the twenty-sixth of September.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "wide",
+   "key": 76,
+   "len": 122,
+   "first": 663,
+   "line": "So what if you rode that spacecraft into an asteroid?",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "pullout",
+   "key": 24,
+   "len": 39,
+   "first": 785,
+   "line": "Here are the rules.",
+   "note": "ch1"
+  },
+  {
+   "id": "S10",
+   "size": "med",
+   "key": 47,
+   "len": 76,
+   "first": 824,
+   "line": "You can steer a little. You can never stop.",
+   "note": "ch1"
+  },
+  {
+   "id": "S11",
+   "size": "pullout",
+   "key": 43,
+   "len": 69,
+   "first": 900,
+   "line": "There are two asteroids, not one.",
+   "note": "ch1"
+  },
+  {
+   "id": "S12",
+   "size": "high",
+   "key": 61,
+   "len": 98,
+   "first": 969,
+   "line": "Didymos is the big one. Seven hundred eighty metres.",
+   "note": "ch1"
+  },
+  {
+   "id": "S13",
+   "size": "insert",
+   "key": 69,
+   "len": 111,
+   "first": 1067,
+   "line": "Dimorphos is its little moon. You are aiming at the moon.",
+   "note": "ch1"
+  },
+  {
+   "id": "S14",
+   "size": "wide",
+   "key": 46,
+   "len": 75,
+   "first": 1178,
+   "line": "They sit only about one kilometre apart.",
+   "note": "ch1"
+  },
+  {
+   "id": "S15",
+   "size": "high",
+   "key": 51,
+   "len": 83,
+   "first": 1253,
+   "line": "The moon circles the big rock, over and over.",
+   "note": "ch1"
+  },
+  {
+   "id": "S16",
+   "size": "med",
+   "key": 50,
+   "len": 81,
+   "first": 1336,
+   "line": "Your goal is simple. Make that loop shorter.",
+   "note": "ch1"
+  },
+  {
+   "id": "S17",
+   "size": "close",
+   "key": 41,
+   "len": 66,
+   "first": 1417,
+   "line": "By crashing into it. On purpose.",
+   "note": "ch1"
+  },
+  {
+   "id": "S18",
+   "size": "low",
+   "key": 64,
+   "len": 104,
+   "first": 1483,
+   "line": "Nobody had ever tried it. Now, you go.",
+   "note": "ch1"
+  },
+  {
+   "id": "S19",
+   "size": "wide",
+   "key": 27,
+   "len": 43,
+   "first": 1587,
+   "line": "First, you need a ride.",
+   "note": "ch2"
+  },
+  {
+   "id": "S20",
+   "size": "high",
+   "key": 86,
+   "len": 139,
+   "first": 1630,
+   "line": "A Falcon Nine rocket, on the twenty-third of November, twenty twenty-one.",
+   "note": "ch2"
+  },
+  {
+   "id": "S21",
+   "size": "med",
+   "key": 43,
+   "len": 69,
+   "first": 1769,
+   "line": "Ten twenty-one at night, from California.",
+   "note": "ch2"
+  },
+  {
+   "id": "S22",
+   "size": "low",
+   "key": 35,
+   "len": 56,
+   "first": 1838,
+   "line": "Three. Two. One.",
+   "note": "ch2"
+  },
+  {
+   "id": "S23",
+   "size": "pullout",
+   "key": 24,
+   "len": 38,
+   "first": 1894,
+   "line": "And you rise.",
+   "note": "ch2"
+  },
+  {
+   "id": "S24",
+   "size": "wide",
+   "key": 50,
+   "len": 80,
+   "first": 1932,
+   "line": "Then the rocket lets go. You are alone.",
+   "note": "ch2"
+  },
+  {
+   "id": "S25",
+   "size": "close",
+   "key": 70,
+   "len": 113,
+   "first": 2012,
+   "line": "Your wings unfold. Gold, glittering, enormous.",
+   "note": "ch2"
+  },
+  {
+   "id": "S26",
+   "size": "insert",
+   "key": 32,
+   "len": 52,
+   "first": 2125,
+   "line": "There is a long way to go.",
+   "note": "ch2"
+  },
+  {
+   "id": "S27",
+   "size": "pan",
+   "key": 40,
+   "len": 65,
+   "first": 2177,
+   "line": "Ten months of nothing but stars.",
+   "note": "ch2"
+  },
+  {
+   "id": "S28",
+   "size": "close",
+   "key": 64,
+   "len": 104,
+   "first": 2242,
+   "line": "Your calendar flips. And flips. And flips.",
+   "note": "ch2"
+  },
+  {
+   "id": "S29",
+   "size": "tilt",
+   "key": 48,
+   "len": 78,
+   "first": 2346,
+   "line": "Then something appears ahead. A speck.",
+   "note": "ch2"
+  },
+  {
+   "id": "S30",
+   "size": "med",
+   "key": 65,
+   "len": 105,
+   "first": 2424,
+   "line": "That speck is home. Your target.",
+   "note": "ch2"
+  },
+  {
+   "id": "S31",
+   "size": "wide",
+   "key": 68,
+   "len": 109,
+   "first": 2529,
+   "line": "It is September, twenty twenty-two. The speck grows.",
+   "note": "ch3"
+  },
+  {
+   "id": "S32",
+   "size": "high",
+   "key": 62,
+   "len": 100,
+   "first": 2638,
+   "line": "Now it is two rocks. A big one and a small one.",
+   "note": "ch3"
+  },
+  {
+   "id": "S33",
+   "size": "insert",
+   "key": 44,
+   "len": 71,
+   "first": 2738,
+   "line": "Your camera locks onto the small one.",
+   "note": "ch3"
+  },
+  {
+   "id": "S34",
+   "size": "med",
+   "key": 39,
+   "len": 63,
+   "first": 2809,
+   "line": "The last seconds are all yours.",
+   "note": "ch3"
+  },
+  {
+   "id": "S35",
+   "size": "pan",
+   "key": 42,
+   "len": 67,
+   "first": 2872,
+   "line": "Home is a very long way behind you.",
+   "note": "ch3"
+  },
+  {
+   "id": "S36",
+   "size": "close",
+   "key": 51,
+   "len": 83,
+   "first": 2939,
+   "line": "Every correction is yours to make, alone.",
+   "note": "ch3"
+  },
+  {
+   "id": "S37",
+   "size": "panr",
+   "key": 49,
+   "len": 79,
+   "first": 3022,
+   "line": "One bad nudge, and you sail past.",
+   "note": "ch3"
+  },
+  {
+   "id": "S38",
+   "size": "low",
+   "key": 82,
+   "len": 133,
+   "first": 3101,
+   "line": "The moon fills your view. A hundred and fifty-one metres of boulders.",
+   "note": "ch3"
+  },
+  {
+   "id": "S39",
+   "size": "tilt",
+   "key": 57,
+   "len": 92,
+   "first": 3234,
+   "line": "You can see the shadows now. Every crater.",
+   "note": "ch3"
+  },
+  {
+   "id": "S40",
+   "size": "med",
+   "key": 65,
+   "len": 105,
+   "first": 3326,
+   "line": "You are going six point one kilometres every second.",
+   "note": "ch3"
+  },
+  {
+   "id": "S41",
+   "size": "insert",
+   "key": 56,
+   "len": 90,
+   "first": 3431,
+   "line": "That is more than twenty-one thousand kilometres an hour.",
+   "note": "ch3"
+  },
+  {
+   "id": "S42",
+   "size": "close",
+   "key": 55,
+   "len": 89,
+   "first": 3521,
+   "line": "Fourteen thousand miles an hour, if you like miles.",
+   "note": "ch3"
+  },
+  {
+   "id": "S43",
+   "size": "low",
+   "key": 74,
+   "len": 120,
+   "first": 3610,
+   "line": "Ten seconds out. The ground is a wall of rock.",
+   "note": "ch3"
+  },
+  {
+   "id": "S44",
+   "size": "wide",
+   "key": 39,
+   "len": 63,
+   "first": 3730,
+   "line": "Three. Two. One.",
+   "note": "ch4"
+  },
+  {
+   "id": "S45",
+   "size": "close",
+   "key": 17,
+   "len": 28,
+   "first": 3793,
+   "line": "Contact.",
+   "note": "ch4"
+  },
+  {
+   "id": "S46",
+   "size": "med",
+   "key": 73,
+   "len": 118,
+   "first": 3821,
+   "line": "Your five hundred eighty kilograms hit like a hammer made of speed.",
+   "note": "ch4"
+  },
+  {
+   "id": "S47",
+   "size": "pan",
+   "key": 51,
+   "len": 82,
+   "first": 3939,
+   "line": "Dust and rock fly out into space.",
+   "note": "ch4"
+  },
+  {
+   "id": "S48",
+   "size": "panr",
+   "key": 63,
+   "len": 102,
+   "first": 4021,
+   "line": "A long tail of debris, streaming away from the moon.",
+   "note": "ch4"
+  },
+  {
+   "id": "S49",
+   "size": "high",
+   "key": 38,
+   "len": 61,
+   "first": 4123,
+   "line": "Mission control goes silent.",
+   "note": "ch4"
+  },
+  {
+   "id": "S50",
+   "size": "wide",
+   "key": 26,
+   "len": 42,
+   "first": 4184,
+   "line": "Then the room erupts.",
+   "note": "ch4"
+  },
+  {
+   "id": "S51",
+   "size": "med",
+   "key": 43,
+   "len": 69,
+   "first": 4226,
+   "line": "You hit. But did it move?",
+   "note": "ch4"
+  },
+  {
+   "id": "S52",
+   "size": "pullout",
+   "key": 58,
+   "len": 93,
+   "first": 4295,
+   "line": "Nobody can see the moon move. It is too far.",
+   "note": "ch4"
+  },
+  {
+   "id": "S53",
+   "size": "insert",
+   "key": 53,
+   "len": 85,
+   "first": 4388,
+   "line": "So scientists wait, and time its orbit.",
+   "note": "ch4"
+  },
+  {
+   "id": "S54",
+   "size": "high",
+   "key": 60,
+   "len": 96,
+   "first": 4473,
+   "line": "Before the hit, one loop took a certain time.",
+   "note": "ch4"
+  },
+  {
+   "id": "S55",
+   "size": "close",
+   "key": 39,
+   "len": 63,
+   "first": 4569,
+   "line": "Now the stopwatch is running again.",
+   "note": "ch4"
+  },
+  {
+   "id": "S56",
+   "size": "low",
+   "key": 45,
+   "len": 72,
+   "first": 4632,
+   "line": "And the answer is coming.",
+   "note": "ch4"
+  },
+  {
+   "id": "S57",
+   "size": "wide",
+   "key": 59,
+   "len": 95,
+   "first": 4704,
+   "line": "The moon's orbit got shorter by thirty-three minutes.",
+   "note": "ch5"
+  },
+  {
+   "id": "S58",
+   "size": "insert",
+   "key": 30,
+   "len": 49,
+   "first": 4799,
+   "line": "Give or take one minute.",
+   "note": "ch5"
+  },
+  {
+   "id": "S59",
+   "size": "med",
+   "key": 53,
+   "len": 85,
+   "first": 4848,
+   "line": "That was far more than scientists expected.",
+   "note": "ch5"
+  },
+  {
+   "id": "S60",
+   "size": "close",
+   "key": 73,
+   "len": 118,
+   "first": 4933,
+   "line": "Thirty-three minutes. That is a whole episode of a sitcom.",
+   "note": "ch5"
+  },
+  {
+   "id": "S61",
+   "size": "pan",
+   "key": 45,
+   "len": 72,
+   "first": 5051,
+   "line": "You shoved a rock, and the rock moved.",
+   "note": "ch5"
+  },
+  {
+   "id": "S62",
+   "size": "pullout",
+   "key": 53,
+   "len": 85,
+   "first": 5123,
+   "line": "No one had ever done that to a world before.",
+   "note": "ch5"
+  },
+  {
+   "id": "S63",
+   "size": "high",
+   "key": 66,
+   "len": 106,
+   "first": 5208,
+   "line": "The first object in the Solar System we measurably nudged.",
+   "note": "ch5"
+  },
+  {
+   "id": "S64",
+   "size": "med",
+   "key": 65,
+   "len": 105,
+   "first": 5314,
+   "line": "Think about that. A spacecraft smaller than a car.",
+   "note": "ch5"
+  },
+  {
+   "id": "S65",
+   "size": "close",
+   "key": 56,
+   "len": 90,
+   "first": 5419,
+   "line": "Moved a rock a hundred and fifty metres wide.",
+   "note": "ch5"
+  },
+  {
+   "id": "S66",
+   "size": "wide",
+   "key": 37,
+   "len": 59,
+   "first": 5509,
+   "line": "But the story does not end there.",
+   "note": "ch5"
+  },
+  {
+   "id": "S67",
+   "size": "tilt",
+   "key": 82,
+   "len": 132,
+   "first": 5568,
+   "line": "Four years later, a visitor arrives to survey the damage.",
+   "note": "ch5"
+  },
+  {
+   "id": "S68",
+   "size": "close",
+   "key": 53,
+   "len": 85,
+   "first": 5700,
+   "line": "Meet Hera. A European spacecraft.",
+   "note": "ch6"
+  },
+  {
+   "id": "S69",
+   "size": "med",
+   "key": 46,
+   "len": 74,
+   "first": 5785,
+   "line": "Its job is a crash site investigation.",
+   "note": "ch6"
+  },
+  {
+   "id": "S70",
+   "size": "insert",
+   "key": 35,
+   "len": 57,
+   "first": 5859,
+   "line": "It took two years to get there.",
+   "note": "ch6"
+  },
+  {
+   "id": "S71",
+   "size": "pullout",
+   "key": 66,
+   "len": 106,
+   "first": 5916,
+   "line": "It sits one hundred ninety-six million kilometres from Earth.",
+   "note": "ch6"
+  },
+  {
+   "id": "S72",
+   "size": "high",
+   "key": 39,
+   "len": 63,
+   "first": 6022,
+   "line": "This week it sent back a picture.",
+   "note": "ch6"
+  },
+  {
+   "id": "S73",
+   "size": "wide",
+   "key": 74,
+   "len": 120,
+   "first": 6085,
+   "line": "It shows Didymos, the big rock, from a side no one had seen.",
+   "note": "ch6"
+  },
+  {
+   "id": "S74",
+   "size": "med",
+   "key": 54,
+   "len": 87,
+   "first": 6205,
+   "line": "DART's camera only ever saw the other face.",
+   "note": "ch6"
+  },
+  {
+   "id": "S75",
+   "size": "close",
+   "key": 58,
+   "len": 94,
+   "first": 6292,
+   "line": "The first thing the Hera scientists said was wow.",
+   "note": "ch6"
+  },
+  {
+   "id": "S76",
+   "size": "panr",
+   "key": 42,
+   "len": 67,
+   "first": 6386,
+   "line": "It has the same ridge around its middle.",
+   "note": "ch6"
+  },
+  {
+   "id": "S77",
+   "size": "pullout",
+   "key": 35,
+   "len": 56,
+   "first": 6453,
+   "line": "But everything else looks different.",
+   "note": "ch6"
+  },
+  {
+   "id": "S78",
+   "size": "low",
+   "key": 64,
+   "len": 104,
+   "first": 6509,
+   "line": "Boulders. Craters. Strange grooves and ridges.",
+   "note": "ch6"
+  },
+  {
+   "id": "S79",
+   "size": "tilt",
+   "key": 63,
+   "len": 102,
+   "first": 6613,
+   "line": "Here is the mystery. Did your crash cause some of it?",
+   "note": "ch6"
+  },
+  {
+   "id": "S80",
+   "size": "wide",
+   "key": 68,
+   "len": 109,
+   "first": 6715,
+   "line": "The debris you kicked up may have crossed one kilometre of space.",
+   "note": "ch6"
+  },
+  {
+   "id": "S81",
+   "size": "insert",
+   "key": 52,
+   "len": 84,
+   "first": 6824,
+   "line": "And landed on Didymos. Scarring it.",
+   "note": "ch6"
+  },
+  {
+   "id": "S82",
+   "size": "high",
+   "key": 37,
+   "len": 60,
+   "first": 6908,
+   "line": "Hera will map every change.",
+   "note": "ch6"
+  },
+  {
+   "id": "S83",
+   "size": "close",
+   "key": 67,
+   "len": 108,
+   "first": 6968,
+   "line": "Next reveal: the twenty-fifth of November.",
+   "note": "ch6"
+  },
+  {
+   "id": "S84",
+   "size": "wide",
+   "key": 35,
+   "len": 57,
+   "first": 7076,
+   "line": "Why does any of this matter?",
+   "note": "ch7"
+  },
+  {
+   "id": "S85",
+   "size": "med",
+   "key": 53,
+   "len": 85,
+   "first": 7133,
+   "line": "One day, an asteroid might be heading for Earth.",
+   "note": "ch7"
+  },
+  {
+   "id": "S86",
+   "size": "pullout",
+   "key": 45,
+   "len": 72,
+   "first": 7218,
+   "line": "A hit like yours could nudge it away.",
+   "note": "ch7"
+  },
+  {
+   "id": "S87",
+   "size": "insert",
+   "key": 50,
+   "len": 80,
+   "first": 7290,
+   "line": "It is called kinetic impact deflection.",
+   "note": "ch7"
+  },
+  {
+   "id": "S88",
+   "size": "high",
+   "key": 39,
+   "len": 63,
+   "first": 7370,
+   "line": "DART proved it works once.",
+   "note": "ch7"
+  },
+  {
+   "id": "S89",
+   "size": "low",
+   "key": 60,
+   "len": 97,
+   "first": 7433,
+   "line": "Hera helps scientists make it work every time.",
+   "note": "ch7"
+  },
+  {
+   "id": "S90",
+   "size": "med",
+   "key": 51,
+   "len": 82,
+   "first": 7530,
+   "line": "A one-off demo becomes a dependable shield.",
+   "note": "ch7"
+  },
+  {
+   "id": "S91",
+   "size": "wide",
+   "key": 46,
+   "len": 75,
+   "first": 7612,
+   "line": "And it all started with a little spacecraft.",
+   "note": "ch7"
+  },
+  {
+   "id": "S92",
+   "size": "pullout",
+   "key": 50,
+   "len": 80,
+   "first": 7687,
+   "line": "Remember that fourteen thousand miles an hour?",
+   "note": "ch7"
+  },
+  {
+   "id": "S93",
+   "size": "high",
+   "key": 74,
+   "len": 119,
+   "first": 7767,
+   "line": "Now you know where it ends. A rock, a shove, a new orbit.",
+   "note": "ch7"
+  },
+  {
+   "id": "S94",
+   "size": "close",
+   "key": 51,
+   "len": 83,
+   "first": 7886,
+   "line": "Tomorrow: what if you flew straight into the Sun?",
+   "note": "ch7"
+  },
+  {
+   "id": "S95",
+   "size": "med",
+   "key": 83,
+   "len": 134,
+   "first": 7969,
+   "line": "Which world would you crash into first? Tell me below.",
+   "note": "ch7"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "dart14k/voice.wav",
+  "sfx": "dart14k/sfx.wav",
+  "music": "dart14k/music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}
