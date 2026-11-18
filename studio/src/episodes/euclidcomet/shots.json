@@ -1,0 +1,6262 @@
+{
+ "slug": "euclidcomet",
+ "id": "EuclidComet",
+ "title": [
+  "WHAT IF YOU RODE A COMET",
+  "1.3 BILLION KM AWAY?"
+ ],
+ "accent": [
+  "1.3 BILLION KM"
+ ],
+ "voice": {
+  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.44,
+   "similarity_boost": 0.8,
+   "style": 0.36,
+   "use_speaker_boost": true,
+   "speed": 0.99
+  }
+ },
+ "short_vo": {
+  "stability": 0.42,
+  "style": 0.4,
+  "speed": 1.03
+ },
+ "short_music": {
+  "mood": "wonder",
+  "energy": 0.85
+ },
+ "mix": {
+  "music_under": 17,
+  "sfx_under": 7,
+  "duck_db": 6
+ },
+ "sets": {
+  "comet": "A comet in deep space. far: SpaceBackdrop #0A0A1E with sparse stars and slow light rays; mid: a dark lumpy grey-brown nucleus with pale ice patches and 4 px outline, with a bright cyan-white fuzzy coma around it and two long tails (a straight blue gas tail and a curved cream dust tail) streaming to the right; pale rim light. setp.t 0..1 = comet drifts left to right across the frame; setp.glow 'cyan'|'gold' tints the coma; setp.jets 0..1 = streams of dust and gas spray from the nucleus.",
+  "surface": "Standing on the comet. near: a dark rough icy ground plane with cream-white ice patches, pale rim line; far: a huge black sky full of stars, a tiny bright Sun at the upper left, the long dust tail arching overhead. setp.t 0..1 = gas jets puff up from cracks in the ground; setp.tint 'dim'|'bright'.",
+  "euclid": "The Euclid space telescope in deep space. far: SpaceBackdrop with many tiny faint galaxies as soft smudges; mid: a boxy ESA telescope with a big round mirror barrel, a flat dark-blue sunshield and a small golden antenna, 4 px outline, pale rim light; setp.t 0..1 = slow drift; setp.stare 0..1 = a faint cyan cone widens from the telescope towards the sky; setp.blink 0|1 = a camera flash.",
+  "frames": "A sequence of telescope image frames. Deep-navy bg; five black square frames (cream 4 px borders) in a row, each speckled with tiny white stars; setp.t 0..1 = frames reveal one by one from left to right; setp.streak 0..1 = a short bright streak appears in each revealed frame at a slightly different spot, shifting along a dotted cream line; setp.fuzz 0..1 = the streak becomes a fuzzy cloud with a small bright dot.",
+  "zoomframe": "One big black telescope frame filling the screen with thousands of tiny stars and faint galaxy smudges; setp.t 0..1 = a small boxed region zooms in; setp.streak 0..1 = a smeared bright streak shows inside the box; setp.fuzz 0|1 = turns into a fuzzy comet dot with a soft halo; setp.ring 0|1 = cream circle highlights it.",
+  "ops": "Quiet office with a glowing monitor. far: wall of dark screens with soft cream charts; mid: a desk with a laptop and coffee mug, dark; near: carpet GroundPlane with pale rim. setp.alert 0..1 = the laptop screen flashes amber with a warning triangle; setp.ok 1 = screen turns green.",
+  "catalog": "A big dark catalogue screen: rows of cream text lines (comet and asteroid names) scrolling upward; setp.t 0..1 = a magnifier sweeps down the rows; setp.match 0|1 = 0 shows a red cross 'NO MATCH' stamp, 1 shows a green check; setp.scroll 0..1 = list scroll speed.",
+  "mpc": "Minor Planet Center alert. Deep-navy bg; a small globe of Earth dotted with cream pins at left, thin cream lines flying from one pin to others across the globe; setp.t 0..1 = alert lines spread to more pins; setp.glow 'cyan'|'gold'.",
+  "orbit": "Top-down comet orbit. Deep-navy bg; a tiny yellow Sun at centre; small coloured planet dots on thin cream rings, outermost Jupiter and Saturn; a huge thin gold ellipse that goes far out beyond them; a bright comet dot on the ellipse. setp.t 0..1 = comet travels along the ellipse; setp.zoom 0..1 = zoom out (0 = inner planets, 1 = whole giant ellipse); setp.mark 0|1 = a pulsing cyan ring on the comet's current position.",
+  "side": "Side view of the Solar System. Deep-navy bg; a flat horizontal cream band with planets and the yellow Sun at left; a comet dot far above the band on a dotted gold line arching over; setp.t 0..1 = the dotted arch draws on; setp.up 0|1 = a cyan arrow points up from the Sun to the comet.",
+  "void": "Plain deep-navy SpaceBackdrop stage with slow light rays and almost no stars, for big numbers, bars and diagrams. setp.glow 'gold'|'cyan'|'red' tints the rays.",
+  "sky": "Looking up. A huge dark sky with the Milky Way band and many stars; near: a dark horizon line with tiny pale rim; setp.t 0..1 = a small fuzzy comet with a faint tail slowly rises; setp.glow 0..1 = brightness."
+ },
+ "props": {
+  "comet": "Small comet icon: a lumpy grey nucleus with a bright cyan coma and a short two-colour tail, 4 px outline; pp.s scale; pp.label text beneath.",
+  "euclid": "Small ESA Euclid icon: boxy grey body with a round telescope barrel, flat dark-blue sunshield, tiny gold antenna; 4 px outline; pp.s scale.",
+  "frame": "Small black square image frame with a cream 4 px border and a few white stars; pp.streak true adds a bright diagonal streak; pp.fuzz true makes it a fuzzy dot; pp.label text beneath.",
+  "counter": "Big flat panel, 4 px dark outline, dark #1E1B2E face, cream flip digits in FONTS.title with thousands separators, label in FONTS.ui underneath. pp.from and pp.to: the number counts from->to across the shot (ease-out); pp.label text; pp.color gold|red|cyan.",
+  "clock": "Round analogue clock face, cream disc, 4 px dark outline, ticks, one hand. pp.from..pp.to in hours: the hand sweeps; pp.glow true adds a gold bloom.",
+  "bar": "Horizontal progress bar with 4 px outline, filled with pp.color (gold|red|cyan) to pp.frac of its width over the shot; pp.label above in FONTS.ui.",
+  "arrow": "Thick outlined curved arrow, pp.color gold|cyan|red, draws on across the shot.",
+  "flag": "Small green check mark badge in a round outlined cream disc with a tiny sparkle; or red cross when pp.bad true.",
+  "calendar": "Small wall calendar page, cream with a red top strip, 4 px outline; pp.text the date in FONTS.title (max 8 chars).",
+  "magnifier": "Outlined magnifying glass with a cream handle and pale glass; pp.s scale; pp.glow true adds a cyan bloom in the lens.",
+  "snowball": "A round white-blue snowball icon with a dark 4 px outline, small pale sparkles; pp.s scale; pp.dirty true adds dark dust specks.",
+  "ring": "Pulsing cyan circle outline, 4 px, soft bloom, that expands and fades each second; pp.s scale."
+ },
+ "actions": {
+  "lookup": "Pip tilts head back (headTilt up), arms hang loose, small sway; eyes lift at p 0.2.",
+  "duck": "Pip drops into a crouch with both arms raised over the head at p 0.15 and holds with a small tremble.",
+  "spin": "Pip turns one slow full rotation (yaw/spin) across the shot while looking up.",
+  "flinch": "A quick squash and lean away at p 0.2 with arms up, then settles back by p 0.7.",
+  "pointup": "Pip's arm swings up to point at the sky at p 0.2 with a small overshoot."
+ },
+ "sfx_new": {},
+ "chapters": [
+  {
+   "n": 0,
+   "title": "COLD OPEN",
+   "sub": "",
+   "music": {
+    "mood": "tense",
+    "energy": 0.9
+   },
+   "vo": {
+    "stability": 0.4,
+    "style": 0.36,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 1,
+   "title": "THE RULES",
+   "sub": "Hold on tight.",
+   "music": {
+    "mood": "playful",
+    "energy": 0.4
+   },
+   "vo": {
+    "stability": 0.47,
+    "style": 0.36,
+    "speed": 1.04
+   },
+   "bed": {
+    "clip": "room_tone",
+    "gain": 0.04
+   }
+  },
+  {
+   "n": 2,
+   "title": "WHAT YOU ARE RIDING",
+   "sub": "A dirty snowball",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.5
+   },
+   "vo": {
+    "stability": 0.48,
+    "style": 0.36,
+    "speed": 0.97
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 3,
+   "title": "THE STREAK",
+   "sub": "September 2026",
+   "music": {
+    "mood": "mystery",
+    "energy": 0.6
+   },
+   "vo": {
+    "stability": 0.44,
+    "style": 0.36,
+    "speed": 0.99
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 4,
+   "title": "THE SOFTWARE",
+   "sub": "One flagged streak",
+   "music": {
+    "mood": "tense",
+    "energy": 0.7
+   },
+   "vo": {
+    "stability": 0.42,
+    "style": 0.36,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 5,
+   "title": "THE CHECK",
+   "sub": "No match",
+   "music": {
+    "mood": "triumph",
+    "energy": 0.8
+   },
+   "vo": {
+    "stability": 0.42,
+    "style": 0.36,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 6,
+   "title": "WHERE YOU ARE",
+   "sub": "Between two giants",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.55
+   },
+   "vo": {
+    "stability": 0.48,
+    "style": 0.36,
+    "speed": 0.96
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 7,
+   "title": "PURE LUCK",
+   "sub": "A happy coincidence",
+   "music": {
+    "mood": "playful",
+    "energy": 0.5
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.36,
+    "speed": 1.02
+   },
+   "bed": {
+    "clip": "room_tone",
+    "gain": 0.04
+   }
+  },
+  {
+   "n": 8,
+   "title": "WHAT'S NEXT",
+   "sub": "A test run",
+   "music": {
+    "mood": "warm",
+    "energy": 0.55
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.36,
+    "speed": 0.98
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  }
+ ],
+ "film": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "wide",
+   "vo": "You are sitting on a comet. Nobody on Earth knew it existed.",
+   "dir": "low, hushed; stress 'nobody'",
+   "set": "comet",
+   "setp": {
+    "t": 0.4,
+    "glow": "cyan",
+    "jets": 0.6
+   },
+   "cam": [
+    [
+     0.474,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.504,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "sideL",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "UNKNOWN COMET"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "drone_hit",
+     "word": "nobody",
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "It is one point three billion kilometres from home.",
+   "dir": "awed; stress 'billion'",
+   "set": "orbit",
+   "setp": {
+    "t": 0.5,
+    "zoom": 1.0,
+    "mark": 1.0
+   },
+   "cam": [
+    [
+     0.507,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.493,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "DISTANCE",
+     "value": "1.3 BILLION KM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "med",
+   "vo": "And a telescope that was not even looking for comets just found you.",
+   "dir": "building; stress 'not even'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.5,
+    "stare": 0.7,
+    "blink": 1.0
+   },
+   "cam": [
+    [
+     0.502,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.531,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "euclid",
+     "x": 0.65,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "EUCLID"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "close",
+   "vo": "A streak. A smudge. Then a brand new world on the map.",
+   "dir": "quick; stress 'brand new'",
+   "set": "zoomframe",
+   "setp": {
+    "t": 0.8,
+    "streak": 1.0,
+    "fuzz": 1.0,
+    "ring": 1.0
+   },
+   "cam": [
+    [
+     0.421,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.634,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "BRAND NEW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.35
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.4,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "high",
+   "vo": "This happened this autumn. ESA's Euclid made the catch.",
+   "dir": "proud; stress 'Euclid'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.7,
+    "stare": 0.4,
+    "blink": 0.0
+   },
+   "cam": [
+    [
+     0.451,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.361,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "FOUND",
+     "value": "SEPT 2026"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 0,
+   "size": "wide",
+   "vo": "So what if you rode that comet?",
+   "dir": "hushed; stress 'rode'",
+   "set": "comet",
+   "setp": {
+    "t": 0.7,
+    "glow": "gold",
+    "jets": 0.3
+   },
+   "cam": [
+    [
+     0.514,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.493,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "mid",
+     "color": "gold",
+     "text": "RIDE IT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.05,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 0,
+   "size": "low",
+   "vo": "You'd be going the long way round.",
+   "dir": "dry; stress 'long'",
+   "set": "orbit",
+   "setp": {
+    "t": 0.2,
+    "zoom": 1.0,
+    "mark": 1.0
+   },
+   "cam": [
+    [
+     0.477,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.699,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "THE LONG WAY ROUND"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.3,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 1,
+   "size": "close",
+   "vo": "Here are the rules.",
+   "dir": "bright, brisk",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.448,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.555,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "RULES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 1,
+   "size": "med",
+   "vo": "You hold on to the comet. You do not let go.",
+   "dir": "easy; stress 'do not'",
+   "set": "surface",
+   "setp": {
+    "t": 0.3,
+    "tint": "dim"
+   },
+   "cam": [
+    [
+     0.472,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.543,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "crouch",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "HOLD ON"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "step",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 1,
+   "size": "close",
+   "vo": "You bring nothing. Space has plenty of room for nothing.",
+   "dir": "wry; stress 'nothing'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.357,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.593,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "BAGS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.3,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "ch": 1,
+   "size": "insert",
+   "vo": "Cold is fine. You're wearing your usual hoodie.",
+   "dir": "deadpan; stress 'hoodie'",
+   "set": "surface",
+   "setp": {
+    "t": 0.6,
+    "tint": "dim"
+   },
+   "cam": [
+    [
+     0.578,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.45,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "COLD"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "ch": 1,
+   "size": "high",
+   "vo": "The trip is long. One lap takes thousands of years.",
+   "dir": "calm; stress 'thousands'",
+   "set": "orbit",
+   "setp": {
+    "t": 0.3,
+    "zoom": 1.0,
+    "mark": 1.0
+   },
+   "cam": [
+    [
+     0.477,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.404,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "ONE LAP",
+     "value": "1000S OF YEARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "room_tone",
+     "at": 0.0,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "ch": 1,
+   "size": "low",
+   "vo": "So pack patience. Lots of patience.",
+   "dir": "light; stress 'patience'",
+   "set": "sky",
+   "setp": {
+    "t": 0.3,
+    "glow": 0.5
+   },
+   "cam": [
+    [
+     0.465,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.669,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "sideL",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "PACK PATIENCE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "ch": 1,
+   "size": "med",
+   "vo": "First, though, meet your ride.",
+   "dir": "bright; stress 'meet'",
+   "set": "comet",
+   "setp": {
+    "t": 0.5,
+    "glow": "cyan",
+    "jets": 0.4
+   },
+   "cam": [
+    [
+     0.505,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.462,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "comet",
+     "x": 0.6,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "YOUR RIDE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "ch": 2,
+   "size": "insert",
+   "vo": "A comet is a dirty snowball. Ice, dust and rock.",
+   "dir": "friendly; stress 'dirty snowball'",
+   "set": "comet",
+   "setp": {
+    "t": 0.2,
+    "glow": "cyan",
+    "jets": 0.2
+   },
+   "cam": [
+    [
+     0.608,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.419,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "snowball",
+     "x": 0.65,
+     "y": 0.4,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "dirty": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "DIRTY SNOWBALL"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "ch": 2,
+   "size": "pullout",
+   "vo": "It is left over from the birth of the Solar System.",
+   "dir": "wondering; stress 'birth'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.463,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.532,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "LEFTOVER BUILDING SITE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "ch": 2,
+   "size": "wide",
+   "vo": "That was about four point six billion years ago.",
+   "dir": "slow; stress 'four point six billion'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.54,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.47,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.65,
+     "y": 0.35,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 4600,
+      "label": "MILLION YEARS",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "AGE",
+     "value": "4.6 BILLION YRS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "ch": 2,
+   "size": "low",
+   "vo": "So you are sitting on something truly ancient.",
+   "dir": "awed; stress 'older'",
+   "set": "surface",
+   "setp": {
+    "t": 0.5,
+    "tint": "dim"
+   },
+   "cam": [
+    [
+     0.501,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.71,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "TRULY ANCIENT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "ch": 2,
+   "size": "high",
+   "vo": "Most comets come from the far edge: the Kuiper Belt or Oort Cloud.",
+   "dir": "explaining; stress 'far edge'",
+   "set": "orbit",
+   "setp": {
+    "t": 0.1,
+    "zoom": 1.0,
+    "mark": 0.0
+   },
+   "cam": [
+    [
+     0.509,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.428,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "threeQuarter",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "HOME",
+     "value": "KUIPER / OORT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "ch": 2,
+   "size": "med",
+   "vo": "Out there it is dark, still and very cold.",
+   "dir": "hushed; stress 'cold'",
+   "set": "sky",
+   "setp": {
+    "t": 0.1,
+    "glow": 0.2
+   },
+   "cam": [
+    [
+     0.508,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.503,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "side",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "DARK. STILL. COLD."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "room_tone",
+     "at": 0.0,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "ch": 2,
+   "size": "close",
+   "vo": "Then the Sun warms a comet, and it wakes up.",
+   "dir": "rising; stress 'wakes up'",
+   "set": "comet",
+   "setp": {
+    "t": 0.5,
+    "glow": "gold",
+    "jets": 1.0
+   },
+   "cam": [
+    [
+     0.441,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.635,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "IT WAKES UP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fireball_roar",
+     "at": 0.1,
+     "gain": 0.25
+    },
+    {
+     "clip": "pop",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "ch": 2,
+   "size": "wide",
+   "vo": "Ice turns to gas. Gas drags dust. A fuzzy cloud blooms around you.",
+   "dir": "vivid; stress 'fuzzy cloud'",
+   "set": "comet",
+   "setp": {
+    "t": 0.6,
+    "glow": "cyan",
+    "jets": 1.0
+   },
+   "cam": [
+    [
+     0.532,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.54,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "FUZZY CLOUD = COMA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    },
+    {
+     "clip": "message_whoosh",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "ch": 2,
+   "size": "insert",
+   "vo": "That cloud is the giveaway. It says this rock is active.",
+   "dir": "clear; stress 'giveaway'",
+   "set": "comet",
+   "setp": {
+    "t": 0.5,
+    "glow": "cyan",
+    "jets": 0.8
+   },
+   "cam": [
+    [
+     0.611,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.422,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "ring",
+     "x": 0.5,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "ACTIVE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "ch": 2,
+   "size": "med",
+   "vo": "Hold that thought. The cloud is how they found you.",
+   "dir": "teasing; stress 'how'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.46,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.48,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "THE CLOUD"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "ch": 2,
+   "size": "pullout",
+   "vo": "But who was looking? Nobody was.",
+   "dir": "playful; stress 'nobody'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.3,
+    "stare": 0.2,
+    "blink": 0.0
+   },
+   "cam": [
+    [
+     0.528,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.506,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NOBODY WAS LOOKING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.3,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "ch": 2,
+   "size": "wide",
+   "vo": "Meet the one who was not looking.",
+   "dir": "bright; stress 'not looking'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.6,
+    "stare": 0.5,
+    "blink": 0.0
+   },
+   "cam": [
+    [
+     0.545,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.546,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "ESA EUCLID"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "ch": 3,
+   "size": "insert",
+   "vo": "Euclid is a European Space Agency telescope.",
+   "dir": "matter-of-fact; stress 'European'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.5,
+    "stare": 0.3,
+    "blink": 0.0
+   },
+   "cam": [
+    [
+     0.64,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.48,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "euclid",
+     "x": 0.65,
+     "y": 0.45,
+     "s": 1.2,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "AGENCY",
+     "value": "ESA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S28",
+   "ch": 3,
+   "size": "high",
+   "vo": "It launched in twenty twenty-three.",
+   "dir": "calm; stress 'twenty twenty-three'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.2,
+    "stare": 0.1,
+    "blink": 0.0
+   },
+   "cam": [
+    [
+     0.487,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.38,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "text": "2023"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "LAUNCHED",
+     "value": "2023"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S29",
+   "ch": 3,
+   "size": "wide",
+   "vo": "Its job is to stare at distant galaxies, slowly and deeply.",
+   "dir": "steady; stress 'stare'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.7,
+    "stare": 1.0,
+    "blink": 0.0
+   },
+   "cam": [
+    [
+     0.484,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.489,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "side",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "STARE DEEP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S30",
+   "ch": 3,
+   "size": "med",
+   "vo": "Long, steady pictures. Nothing fast. Nothing nearby.",
+   "dir": "dry; stress 'nothing fast'",
+   "set": "zoomframe",
+   "setp": {
+    "t": 0.2,
+    "streak": 0.0,
+    "fuzz": 0.0,
+    "ring": 0.0
+   },
+   "cam": [
+    [
+     0.451,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.481,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SLOW AND STEADY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "room_tone",
+     "at": 0.0,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S31",
+   "ch": 3,
+   "size": "low",
+   "vo": "Comets are fast and nearby. So, not its department.",
+   "dir": "wry; stress 'not its department'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.4,
+    "stare": 0.5,
+    "blink": 0.0
+   },
+   "cam": [
+    [
+     0.465,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.672,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "NOT ITS JOB"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.2,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S32",
+   "ch": 3,
+   "size": "insert",
+   "vo": "On the sixteenth of September, Euclid starts taking pictures.",
+   "dir": "building; stress 'sixteenth'",
+   "set": "frames",
+   "setp": {
+    "t": 0.3,
+    "streak": 0.0,
+    "fuzz": 0.0
+   },
+   "cam": [
+    [
+     0.625,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.423,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "text": "16 SEP"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "START",
+     "value": "16 SEPT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S33",
+   "ch": 3,
+   "size": "close",
+   "vo": "It keeps going until the twenty-fourth.",
+   "dir": "even; stress 'twenty-fourth'",
+   "set": "frames",
+   "setp": {
+    "t": 0.6,
+    "streak": 0.0,
+    "fuzz": 0.0
+   },
+   "cam": [
+    [
+     0.39,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.632,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "text": "24 SEP"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "END",
+     "value": "24 SEPT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S34",
+   "ch": 3,
+   "size": "wide",
+   "vo": "That is eight days of galaxies. And one passing stranger.",
+   "dir": "wondering; stress 'stranger'",
+   "set": "frames",
+   "setp": {
+    "t": 0.9,
+    "streak": 0.4,
+    "fuzz": 0.0
+   },
+   "cam": [
+    [
+     0.484,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.537,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.65,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 8,
+      "label": "DAYS",
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "WINDOW",
+     "value": "8 DAYS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S35",
+   "ch": 3,
+   "size": "med",
+   "vo": "That stranger was you. Well, your comet.",
+   "dir": "playful; stress 'you'",
+   "set": "frames",
+   "setp": {
+    "t": 1.0,
+    "streak": 0.8,
+    "fuzz": 0.0
+   },
+   "cam": [
+    [
+     0.519,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.525,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "comet",
+     "x": 0.65,
+     "y": 0.4,
+     "s": 0.8,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "THE STRANGER = YOUR COMET"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S36",
+   "ch": 3,
+   "size": "pan",
+   "vo": "It drifts across the shot like a fly across a window.",
+   "dir": "vivid; stress 'fly'",
+   "set": "frames",
+   "setp": {
+    "t": 1.0,
+    "streak": 1.0,
+    "fuzz": 0.0
+   },
+   "cam": [
+    [
+     0.334,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.522,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "A STREAK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S37",
+   "ch": 3,
+   "size": "high",
+   "vo": "No one is watching live. The pictures just pile up.",
+   "dir": "hushed; stress 'pile up'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.9,
+    "stare": 0.8,
+    "blink": 1.0
+   },
+   "cam": [
+    [
+     0.456,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.414,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "side",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NO ONE WATCHING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "room_tone",
+     "at": 0.0,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S38",
+   "ch": 3,
+   "size": "low",
+   "vo": "Your comet could have slipped by unseen.",
+   "dir": "tense; stress 'unseen'",
+   "set": "frames",
+   "setp": {
+    "t": 1.0,
+    "streak": 0.6,
+    "fuzz": 0.0
+   },
+   "cam": [
+    [
+     0.481,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.703,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "UNSEEN?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S39",
+   "ch": 3,
+   "size": "close",
+   "vo": "Until one person's software notices.",
+   "dir": "building; stress 'software'",
+   "set": "ops",
+   "setp": {
+    "alert": 0.3,
+    "ok": 0.0
+   },
+   "cam": [
+    [
+     0.354,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.638,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "ONE PROGRAM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S40",
+   "ch": 4,
+   "size": "med",
+   "vo": "His name is Mikko P\u00f6ntinen, at the University of Helsinki.",
+   "dir": "warm; stress 'Mikko'",
+   "set": "ops",
+   "setp": {
+    "alert": 0.0,
+    "ok": 0.0
+   },
+   "cam": [
+    [
+     0.487,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.47,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "SCIENTIST",
+     "value": "MIKKO P\u00d6NTINEN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S41",
+   "ch": 4,
+   "size": "insert",
+   "vo": "He wrote a program to watch for small moving things.",
+   "dir": "brisk; stress 'moving'",
+   "set": "ops",
+   "setp": {
+    "alert": 0.1,
+    "ok": 0.0
+   },
+   "cam": [
+    [
+     0.622,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.414,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "HIS PROGRAM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S42",
+   "ch": 4,
+   "size": "high",
+   "vo": "It scans Euclid's pictures for streaks.",
+   "dir": "even; stress 'streaks'",
+   "set": "zoomframe",
+   "setp": {
+    "t": 0.4,
+    "streak": 0.5,
+    "fuzz": 0.0,
+    "ring": 0.0
+   },
+   "cam": [
+    [
+     0.504,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.384,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "magnifier",
+     "x": 0.6,
+     "y": 0.45,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "SCANS FOR STREAKS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S43",
+   "ch": 4,
+   "size": "pan",
+   "vo": "A streak means a fast mover smeared across several frames.",
+   "dir": "explaining; stress 'smeared'",
+   "set": "frames",
+   "setp": {
+    "t": 1.0,
+    "streak": 1.0,
+    "fuzz": 0.0
+   },
+   "cam": [
+    [
+     0.303,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.525,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "STREAK = FAST MOVER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S44",
+   "ch": 4,
+   "size": "close",
+   "vo": "One day, it flags one.",
+   "dir": "a beat; stress 'flags'",
+   "set": "ops",
+   "setp": {
+    "alert": 1.0,
+    "ok": 0.0
+   },
+   "cam": [
+    [
+     0.363,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.593,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "act": "flinch"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "FLAGGED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "pop",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S45",
+   "ch": 4,
+   "size": "med",
+   "vo": "He said, quote, I was excited to see my software flag a streak.",
+   "dir": "quoted, excited; stress 'excited'",
+   "set": "ops",
+   "setp": {
+    "alert": 0.8,
+    "ok": 0.0
+   },
+   "cam": [
+    [
+     0.532,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.476,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "I WAS EXCITED. - MIKKO"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S46",
+   "ch": 4,
+   "size": "low",
+   "vo": "Now the hunt. Where does that streak go next?",
+   "dir": "tense; stress 'hunt'",
+   "set": "zoomframe",
+   "setp": {
+    "t": 0.6,
+    "streak": 1.0,
+    "fuzz": 0.0,
+    "ring": 1.0
+   },
+   "cam": [
+    [
+     0.52,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.655,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "crouch",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "THE HUNT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S47",
+   "ch": 4,
+   "size": "tilt",
+   "vo": "He predicts its position. Then checks the other pictures.",
+   "dir": "methodical; stress 'predicts'",
+   "set": "frames",
+   "setp": {
+    "t": 0.7,
+    "streak": 0.7,
+    "fuzz": 0.0
+   },
+   "cam": [
+    [
+     0.505,
+     0.8,
+     1.3
+    ],
+    [
+     0.5,
+     0.213,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "arrow",
+     "x": 0.5,
+     "y": 0.5,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "PREDICT. THEN CHECK."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "step",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S48",
+   "ch": 4,
+   "size": "wide",
+   "vo": "It shows up again. And again.",
+   "dir": "building; stress 'again'",
+   "set": "frames",
+   "setp": {
+    "t": 1.0,
+    "streak": 1.0,
+    "fuzz": 0.0
+   },
+   "cam": [
+    [
+     0.475,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.503,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "AGAIN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "pop",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S49",
+   "ch": 4,
+   "size": "insert",
+   "vo": "Five separate image sets. Same object. Same path.",
+   "dir": "clear; stress 'five'",
+   "set": "frames",
+   "setp": {
+    "t": 1.0,
+    "streak": 1.0,
+    "fuzz": 0.0
+   },
+   "cam": [
+    [
+     0.564,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.498,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.65,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 5,
+      "label": "IMAGE SETS",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "IMAGE SETS",
+     "value": "5"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S50",
+   "ch": 4,
+   "size": "close",
+   "vo": "That's no glitch. Glitches do not move like that.",
+   "dir": "firm; stress 'no glitch'",
+   "set": "ops",
+   "setp": {
+    "alert": 0.2,
+    "ok": 1.0
+   },
+   "cam": [
+    [
+     0.406,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.611,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "front",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "NOT A GLITCH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S51",
+   "ch": 4,
+   "size": "pullout",
+   "vo": "Then he zooms in on the dot.",
+   "dir": "hushed; stress 'zooms in'",
+   "set": "zoomframe",
+   "setp": {
+    "t": 1.0,
+    "streak": 1.0,
+    "fuzz": 0.0,
+    "ring": 1.0
+   },
+   "cam": [
+    [
+     0.46,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.488,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "ZOOM IN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S52",
+   "ch": 4,
+   "size": "insert",
+   "vo": "And there it is. A fuzzy cloud around it.",
+   "dir": "wonder; stress 'fuzzy cloud'",
+   "set": "zoomframe",
+   "setp": {
+    "t": 1.0,
+    "streak": 1.0,
+    "fuzz": 1.0,
+    "ring": 1.0
+   },
+   "cam": [
+    [
+     0.642,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.431,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "ring",
+     "x": 0.5,
+     "y": 0.45,
+     "s": 1.2,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "FUZZY CLOUD"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S53",
+   "ch": 4,
+   "size": "med",
+   "vo": "Remember the cloud? Here is why it matters.",
+   "dir": "bright; stress 'matters'",
+   "set": "comet",
+   "setp": {
+    "t": 0.5,
+    "glow": "cyan",
+    "jets": 1.0
+   },
+   "cam": [
+    [
+     0.453,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.503,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "REMEMBER?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S54",
+   "ch": 4,
+   "size": "high",
+   "vo": "A plain rock would stay sharp. A fuzzy dot sheds dust and gas.",
+   "dir": "explaining; stress 'sheds'",
+   "set": "comet",
+   "setp": {
+    "t": 0.6,
+    "glow": "cyan",
+    "jets": 1.0
+   },
+   "cam": [
+    [
+     0.483,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.422,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SHEDS DUST AND GAS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fireball_roar",
+     "at": 0.1,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S55",
+   "ch": 4,
+   "size": "low",
+   "vo": "Fuzzy means active. Active means comet.",
+   "dir": "punchy; stress 'comet'",
+   "set": "comet",
+   "setp": {
+    "t": 0.4,
+    "glow": "gold",
+    "jets": 0.8
+   },
+   "cam": [
+    [
+     0.498,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.747,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "FUZZY = COMET"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S56",
+   "ch": 5,
+   "size": "wide",
+   "vo": "But is it new? Or has someone seen you before?",
+   "dir": "curious; stress 'new'",
+   "set": "catalog",
+   "setp": {
+    "t": 0.2,
+    "match": 0.0,
+    "scroll": 0.5
+   },
+   "cam": [
+    [
+     0.53,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.487,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "IS IT NEW?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S57",
+   "ch": 5,
+   "size": "high",
+   "vo": "His team checks the catalogues of known comets and asteroids.",
+   "dir": "methodical; stress 'known'",
+   "set": "catalog",
+   "setp": {
+    "t": 0.5,
+    "match": 0.0,
+    "scroll": 0.8
+   },
+   "cam": [
+    [
+     0.487,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.352,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "magnifier",
+     "x": 0.7,
+     "y": 0.4,
+     "s": 1.1,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "CHECK THE CATALOGUES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S58",
+   "ch": 5,
+   "size": "pan",
+   "vo": "Row after row after row.",
+   "dir": "quick; stress 'row'",
+   "set": "catalog",
+   "setp": {
+    "t": 0.8,
+    "match": 0.0,
+    "scroll": 1.0
+   },
+   "cam": [
+    [
+     0.332,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.46,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "SCANNING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.0,
+     "gain": 0.3
+    },
+    {
+     "clip": "counter_tick",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S59",
+   "ch": 5,
+   "size": "close",
+   "vo": "No match. You are not on any list.",
+   "dir": "a beat; stress 'no match'",
+   "set": "catalog",
+   "setp": {
+    "t": 1.0,
+    "match": 0.0,
+    "scroll": 0.0
+   },
+   "cam": [
+    [
+     0.433,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.605,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "duck"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "bad": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "NO MATCH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S60",
+   "ch": 5,
+   "size": "med",
+   "vo": "That means you are brand new.",
+   "dir": "rising; stress 'brand new'",
+   "set": "catalog",
+   "setp": {
+    "t": 1.0,
+    "match": 1.0,
+    "scroll": 0.0
+   },
+   "cam": [
+    [
+     0.475,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.451,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.2,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "BRAND NEW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S61",
+   "ch": 5,
+   "size": "wide",
+   "vo": "So Mikko reports it to the Minor Planet Center.",
+   "dir": "clear; stress 'report'",
+   "set": "mpc",
+   "setp": {
+    "t": 0.2,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.482,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.504,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "REPORTED TO",
+     "value": "MINOR PLANET CENTER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S62",
+   "ch": 5,
+   "size": "high",
+   "vo": "That's the group that keeps the official list.",
+   "dir": "simple; stress 'official'",
+   "set": "mpc",
+   "setp": {
+    "t": 0.5,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.477,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.364,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "THE OFFICIAL LIST"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S63",
+   "ch": 5,
+   "size": "pullout",
+   "vo": "The alert goes out. Telescopes on the ground can now take a look.",
+   "dir": "building; stress 'ground'",
+   "set": "mpc",
+   "setp": {
+    "t": 0.9,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.503,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.46,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "ALERT SENT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.0,
+     "gain": 0.3
+    },
+    {
+     "clip": "pop",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S64",
+   "ch": 5,
+   "size": "med",
+   "vo": "More eyes. More pictures. More proof.",
+   "dir": "quick; stress 'proof'",
+   "set": "mpc",
+   "setp": {
+    "t": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.481,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.451,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "MORE PROOF"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S65",
+   "ch": 5,
+   "size": "insert",
+   "vo": "On the eighth of October, it is official.",
+   "dir": "triumphant; stress 'official'",
+   "set": "catalog",
+   "setp": {
+    "t": 1.0,
+    "match": 1.0,
+    "scroll": 0.0
+   },
+   "cam": [
+    [
+     0.554,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.413,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "text": "8 OCT"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "CONFIRMED",
+     "value": "8 OCT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "crowd_cheer",
+     "at": 0.3,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S66",
+   "ch": 5,
+   "size": "low",
+   "vo": "It is a comet. And it has a name.",
+   "dir": "proud; stress 'name'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.457,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.703,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "C/2026 S1"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S67",
+   "ch": 5,
+   "size": "close",
+   "vo": "Comet C slash twenty twenty-six S one. Euclid.",
+   "dir": "formal then warm; stress 'Euclid'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.369,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.572,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "C/2026 S1 (EUCLID)"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S68",
+   "ch": 5,
+   "size": "med",
+   "vo": "Euclid's very first new comet.",
+   "dir": "delighted; stress 'first'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.8,
+    "stare": 0.5,
+    "blink": 1.0
+   },
+   "cam": [
+    [
+     0.538,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.545,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "euclid",
+     "x": 0.65,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "FIRST NEW COMET"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "crowd_cheer",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S69",
+   "ch": 6,
+   "size": "wide",
+   "vo": "Now, where exactly are you sitting?",
+   "dir": "curious; stress 'where'",
+   "set": "orbit",
+   "setp": {
+    "t": 0.5,
+    "zoom": 0.5,
+    "mark": 1.0
+   },
+   "cam": [
+    [
+     0.542,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.538,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "WHERE ARE YOU?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S70",
+   "ch": 6,
+   "size": "high",
+   "vo": "About one point three billion kilometres from Earth.",
+   "dir": "steady; stress 'billion'",
+   "set": "orbit",
+   "setp": {
+    "t": 0.5,
+    "zoom": 1.0,
+    "mark": 1.0
+   },
+   "cam": [
+    [
+     0.467,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.399,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.65,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 1300,
+      "label": "MILLION KM",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "FROM EARTH",
+     "value": "1.3 BILLION KM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S71",
+   "ch": 6,
+   "size": "pullout",
+   "vo": "That is roughly between the orbits of Jupiter and Saturn.",
+   "dir": "explaining; stress 'between'",
+   "set": "orbit",
+   "setp": {
+    "t": 0.5,
+    "zoom": 0.8,
+    "mark": 1.0
+   },
+   "cam": [
+    [
+     0.54,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.518,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "threeQuarter",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "BETWEEN JUPITER AND SATURN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S72",
+   "ch": 6,
+   "size": "low",
+   "vo": "Giants on both sides. Nobody around to wave to.",
+   "dir": "wry; stress 'nobody'",
+   "set": "sky",
+   "setp": {
+    "t": 0.4,
+    "glow": 0.6
+   },
+   "cam": [
+    [
+     0.53,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.745,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "GIANTS EITHER SIDE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.3,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S73",
+   "ch": 6,
+   "size": "med",
+   "vo": "But you are not in the planets' flat lane.",
+   "dir": "building; stress 'not'",
+   "set": "side",
+   "setp": {
+    "t": 0.4,
+    "up": 0.0
+   },
+   "cam": [
+    [
+     0.498,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.512,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "OFF THE LANE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S74",
+   "ch": 6,
+   "size": "high",
+   "vo": "The planets circle in one flat plane, like marbles on a table.",
+   "dir": "simple; stress 'flat'",
+   "set": "side",
+   "setp": {
+    "t": 0.2,
+    "up": 0.0
+   },
+   "cam": [
+    [
+     0.486,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.413,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "side",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "PLANETS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "room_tone",
+     "at": 0.0,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S75",
+   "ch": 6,
+   "size": "tilt",
+   "vo": "You are way above it. Straight up from the Sun.",
+   "dir": "amazed; stress 'straight up'",
+   "set": "side",
+   "setp": {
+    "t": 0.8,
+    "up": 1.0
+   },
+   "cam": [
+    [
+     0.46,
+     0.8,
+     1.3
+    ],
+    [
+     0.5,
+     0.286,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "arrow",
+     "x": 0.55,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "POSITION",
+     "value": "STRAIGHT UP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S76",
+   "ch": 6,
+   "size": "pullout",
+   "vo": "Your path arches over the whole Solar System.",
+   "dir": "wondering; stress 'arches'",
+   "set": "side",
+   "setp": {
+    "t": 1.0,
+    "up": 1.0
+   },
+   "cam": [
+    [
+     0.528,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.532,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "ARCHING OVER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S77",
+   "ch": 6,
+   "size": "wide",
+   "vo": "And one lap of that orbit takes thousands of years.",
+   "dir": "slow; stress 'thousands'",
+   "set": "orbit",
+   "setp": {
+    "t": 0.2,
+    "zoom": 1.0,
+    "mark": 1.0
+   },
+   "cam": [
+    [
+     0.464,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.492,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "ONE ORBIT",
+     "value": "1000S OF YEARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S78",
+   "ch": 6,
+   "size": "low",
+   "vo": "Whole civilisations would rise and fall. You would still be on lap one.",
+   "dir": "playful; stress 'first lap'",
+   "set": "orbit",
+   "setp": {
+    "t": 0.4,
+    "zoom": 1.0,
+    "mark": 1.0
+   },
+   "cam": [
+    [
+     0.498,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.666,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "LAP ONE OF A LONG RACE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.3,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S79",
+   "ch": 6,
+   "size": "med",
+   "vo": "Honestly, bring a book. Maybe several libraries.",
+   "dir": "deadpan; stress 'libraries'",
+   "set": "surface",
+   "setp": {
+    "t": 0.5,
+    "tint": "dim"
+   },
+   "cam": [
+    [
+     0.543,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.47,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "BRING A LIBRARY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S80",
+   "ch": 6,
+   "size": "insert",
+   "vo": "You drift. The Sun is a long way back.",
+   "dir": "quiet; stress 'another'",
+   "set": "surface",
+   "setp": {
+    "t": 0.8,
+    "tint": "dim"
+   },
+   "cam": [
+    [
+     0.619,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.419,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "sideL",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "THE SUN IS FAR BEHIND"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "room_tone",
+     "at": 0.0,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S81",
+   "ch": 6,
+   "size": "wide",
+   "vo": "Dust and gas stream out behind you.",
+   "dir": "soft; stress 'always'",
+   "set": "comet",
+   "setp": {
+    "t": 0.5,
+    "glow": "cyan",
+    "jets": 0.5
+   },
+   "cam": [
+    [
+     0.502,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.537,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "DUST + GAS STREAM OUT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S82",
+   "ch": 6,
+   "size": "pullout",
+   "vo": "Out here, you are small, cold, and completely alone.",
+   "dir": "hushed; stress 'alone'",
+   "set": "sky",
+   "setp": {
+    "t": 0.6,
+    "glow": 0.8
+   },
+   "cam": [
+    [
+     0.458,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.451,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cream",
+     "text": "ALONE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S83",
+   "ch": 7,
+   "size": "med",
+   "vo": "Here is the wild part. This find was luck.",
+   "dir": "excited; stress 'luck'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.489,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.52,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "PURE LUCK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S84",
+   "ch": 7,
+   "size": "high",
+   "vo": "Euclid avoids the crowded band where comets and asteroids live.",
+   "dir": "explaining; stress 'avoids'",
+   "set": "side",
+   "setp": {
+    "t": 0.5,
+    "up": 0.0
+   },
+   "cam": [
+    [
+     0.51,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.375,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "AVOIDS THE BUSY BAND"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.2,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S85",
+   "ch": 7,
+   "size": "low",
+   "vo": "That band throws off dust glare. Glare ruins deep pictures.",
+   "dir": "clear; stress 'glare'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.5,
+    "stare": 0.6,
+    "blink": 1.0
+   },
+   "cam": [
+    [
+     0.505,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.701,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "GLARE = BAD"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S86",
+   "ch": 7,
+   "size": "wide",
+   "vo": "But you were not in that band. You were straight up.",
+   "dir": "bright; stress 'straight up'",
+   "set": "side",
+   "setp": {
+    "t": 1.0,
+    "up": 1.0
+   },
+   "cam": [
+    [
+     0.535,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.46,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "YOU WERE STRAIGHT UP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S87",
+   "ch": 7,
+   "size": "insert",
+   "vo": "Also, Euclid works in a step-and-stare style.",
+   "dir": "matter-of-fact; stress 'step-and-stare'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.4,
+    "stare": 0.9,
+    "blink": 1.0
+   },
+   "cam": [
+    [
+     0.567,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.457,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "STYLE",
+     "value": "STEP + STARE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "step",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "step",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S88",
+   "ch": 7,
+   "size": "high",
+   "vo": "It usually visits each patch of sky only once.",
+   "dir": "clear; stress 'once'",
+   "set": "frames",
+   "setp": {
+    "t": 0.3,
+    "streak": 0.0,
+    "fuzz": 0.0
+   },
+   "cam": [
+    [
+     0.533,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.373,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.65,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 1,
+      "label": "VISIT PER PATCH",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "VISITS",
+     "value": "ONCE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S89",
+   "ch": 7,
+   "size": "close",
+   "vo": "So no second look on demand.",
+   "dir": "dry; stress 'no'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.9,
+    "stare": 0.3,
+    "blink": 0.0
+   },
+   "cam": [
+    [
+     0.401,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.551,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NO SECOND LOOK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S90",
+   "ch": 7,
+   "size": "pan",
+   "vo": "Yet it caught you in several images over those days.",
+   "dir": "warm; stress 'caught'",
+   "set": "frames",
+   "setp": {
+    "t": 1.0,
+    "streak": 1.0,
+    "fuzz": 1.0
+   },
+   "cam": [
+    [
+     0.287,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.462,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "CAUGHT ANYWAY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S91",
+   "ch": 7,
+   "size": "med",
+   "vo": "One scientist at ESA called it a happy coincidence.",
+   "dir": "quoting, warm; stress 'happy coincidence'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.454,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.549,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "A HAPPY COINCIDENCE - ESA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.3
+    },
+    {
+     "clip": "crowd_cheer",
+     "at": 0.4,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S92",
+   "ch": 7,
+   "size": "wide",
+   "vo": "The right orbit. The right days. The right software.",
+   "dir": "rhythmic; stress 'right'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.8,
+    "stare": 0.8,
+    "blink": 1.0
+   },
+   "cam": [
+    [
+     0.452,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.496,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "RIGHT PLACE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S93",
+   "ch": 7,
+   "size": "low",
+   "vo": "Miss any one of them and you stay hidden for years.",
+   "dir": "tense; stress 'any one'",
+   "set": "zoomframe",
+   "setp": {
+    "t": 0.5,
+    "streak": 0.2,
+    "fuzz": 0.0,
+    "ring": 0.0
+   },
+   "cam": [
+    [
+     0.54,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.75,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "crouch",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "ANY ONE MISSED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S94",
+   "ch": 8,
+   "size": "med",
+   "vo": "So did Euclid just give humanity a ride-along?",
+   "dir": "curious; stress 'ride-along'",
+   "set": "comet",
+   "setp": {
+    "t": 0.7,
+    "glow": "gold",
+    "jets": 0.5
+   },
+   "cam": [
+    [
+     0.516,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.488,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "A RIDE-ALONG?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S95",
+   "ch": 8,
+   "size": "high",
+   "vo": "Not quite. ESA has a mission called Comet Interceptor.",
+   "dir": "clear; stress 'Comet Interceptor'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.543,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.437,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "FUTURE MISSION",
+     "value": "COMET INTERCEPTOR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S96",
+   "ch": 8,
+   "size": "pullout",
+   "vo": "It will fly to a comet that is still far from the Sun.",
+   "dir": "building; stress 'far'",
+   "set": "orbit",
+   "setp": {
+    "t": 0.6,
+    "zoom": 1.0,
+    "mark": 1.0
+   },
+   "cam": [
+    [
+     0.496,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.452,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "FLY TO A FAR-OUT COMET"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S97",
+   "ch": 8,
+   "size": "med",
+   "vo": "Your comet turned out not to be the right target.",
+   "dir": "honest; stress 'not'",
+   "set": "catalog",
+   "setp": {
+    "t": 1.0,
+    "match": 0.0,
+    "scroll": 0.0
+   },
+   "cam": [
+    [
+     0.471,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.485,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "bad": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "NOT THE TARGET"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S98",
+   "ch": 8,
+   "size": "low",
+   "vo": "But ESA called this a real test case.",
+   "dir": "brighter; stress 'test case'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.503,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.67,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "A TEST CASE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S99",
+   "ch": 8,
+   "size": "wide",
+   "vo": "Spot a comet, alert the world, and coordinate fast.",
+   "dir": "brisk; stress 'coordinate'",
+   "set": "mpc",
+   "setp": {
+    "t": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.511,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.536,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SPOT. ALERT. COORDINATE."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "pop",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S100",
+   "ch": 8,
+   "size": "high",
+   "vo": "Two teams practised that dance on you.",
+   "dir": "fond; stress 'you'",
+   "set": "ops",
+   "setp": {
+    "alert": 0.0,
+    "ok": 1.0
+   },
+   "cam": [
+    [
+     0.467,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.374,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "EUCLID + INTERCEPTOR TEAMS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S101",
+   "ch": 8,
+   "size": "insert",
+   "vo": "One telescope. One program. Five lucky pictures.",
+   "dir": "counting; stress 'five'",
+   "set": "frames",
+   "setp": {
+    "t": 1.0,
+    "streak": 1.0,
+    "fuzz": 1.0
+   },
+   "cam": [
+    [
+     0.555,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.415,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "PICTURES",
+     "value": "5"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S102",
+   "ch": 8,
+   "size": "wide",
+   "vo": "And a brand new comet, one point three billion kilometres away.",
+   "dir": "awed; stress 'brand new'",
+   "set": "comet",
+   "setp": {
+    "t": 0.6,
+    "glow": "cyan",
+    "jets": 0.7
+   },
+   "cam": [
+    [
+     0.488,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.506,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "1.3 BILLION KM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S103",
+   "ch": 8,
+   "size": "pullout",
+   "vo": "Remember the very first line? You are sitting on a comet.",
+   "dir": "callback, smiling; stress 'sitting'",
+   "set": "comet",
+   "setp": {
+    "t": 0.4,
+    "glow": "cyan",
+    "jets": 0.6
+   },
+   "cam": [
+    [
+     0.474,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.465,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "sideL",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "YOU ARE SITTING ON A COMET"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S104",
+   "ch": 8,
+   "size": "high",
+   "vo": "Now you know how a telescope, a coder and luck found you.",
+   "dir": "satisfied; stress 'luck'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.9,
+    "stare": 0.5,
+    "blink": 1.0
+   },
+   "cam": [
+    [
+     0.538,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.379,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "TELESCOPE + CODE + LUCK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S105",
+   "ch": 8,
+   "size": "close",
+   "vo": "Tomorrow: what if the Sun switched off for one hour?",
+   "dir": "teasing; stress 'switched off'",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.422,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.62,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "TOMORROW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S106",
+   "ch": 8,
+   "size": "med",
+   "vo": "Which comet would you ride? Tell me below.",
+   "dir": "friendly; stress 'ride'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.535,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.459,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "YOUR PICK?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  }
+ ],
+ "short": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "wide",
+   "vo": "You are sitting on a comet nobody knew existed.",
+   "dir": "low, hushed; stress 'nobody'",
+   "set": "comet",
+   "setp": {
+    "t": 0.4,
+    "glow": "cyan",
+    "jets": 0.7
+   },
+   "cam": [
+    [
+     0.474,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.504,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "sideL",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "NEW COMET"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.35
+    },
+    {
+     "clip": "drone_hit",
+     "word": "nobody",
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "It is one point three billion kilometres from Earth.",
+   "dir": "awed; stress 'billion'",
+   "set": "orbit",
+   "setp": {
+    "t": 0.5,
+    "zoom": 1.0,
+    "mark": 1.0
+   },
+   "cam": [
+    [
+     0.507,
+     0.5,
+     1.52
+    ],
+    [
+     0.5,
+     0.493,
+     0.95
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "FROM EARTH",
+     "value": "1.3 BILLION KM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "med",
+   "vo": "A telescope built for galaxies just spotted you.",
+   "dir": "building; stress 'galaxies'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.6,
+    "stare": 0.8,
+    "blink": 1.0
+   },
+   "cam": [
+    [
+     0.502,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.531,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "euclid",
+     "x": 0.65,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "ESA",
+     "value": "EUCLID"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "close",
+   "vo": "Its software flagged one streak.",
+   "dir": "quick; stress 'streak'",
+   "set": "zoomframe",
+   "setp": {
+    "t": 0.7,
+    "streak": 1.0,
+    "fuzz": 0.0,
+    "ring": 1.0
+   },
+   "cam": [
+    [
+     0.421,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.634,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "act": "flinch"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "ONE STREAK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "pop",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "high",
+   "vo": "It showed up in five separate image sets.",
+   "dir": "clear; stress 'five'",
+   "set": "frames",
+   "setp": {
+    "t": 1.0,
+    "streak": 1.0,
+    "fuzz": 0.0
+   },
+   "cam": [
+    [
+     0.451,
+     0.3,
+     1.04
+    ],
+    [
+     0.5,
+     0.361,
+     1.19
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "IMAGE SETS",
+     "value": "5"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 0,
+   "size": "insert",
+   "vo": "Around it, a fuzzy cloud of dust and gas.",
+   "dir": "wonder; stress 'fuzzy'",
+   "set": "zoomframe",
+   "setp": {
+    "t": 1.0,
+    "streak": 1.0,
+    "fuzz": 1.0,
+    "ring": 1.0
+   },
+   "cam": [
+    [
+     0.614,
+     0.45,
+     1.9
+    ],
+    [
+     0.55,
+     0.443,
+     1.71
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "FUZZY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 0,
+   "size": "med",
+   "vo": "No match in any catalogue. Brand new.",
+   "dir": "a beat; stress 'brand new'",
+   "set": "catalog",
+   "setp": {
+    "t": 1.0,
+    "match": 0.0,
+    "scroll": 0.0
+   },
+   "cam": [
+    [
+     0.477,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.499,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "duck"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "bad": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "NO MATCH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.5,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 0,
+   "size": "low",
+   "vo": "Confirmed on the eighth of October.",
+   "dir": "proud; stress 'eighth'",
+   "set": "catalog",
+   "setp": {
+    "t": 1.0,
+    "match": 1.0,
+    "scroll": 0.0
+   },
+   "cam": [
+    [
+     0.548,
+     0.75,
+     1.14
+    ],
+    [
+     0.5,
+     0.655,
+     1.28
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "text": "8 OCT"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "CONFIRMED",
+     "value": "8 OCT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "crowd_cheer",
+     "at": 0.3,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 0,
+   "size": "close",
+   "vo": "Meet comet C slash twenty twenty-six S one, Euclid.",
+   "dir": "formal then warm; stress 'Euclid'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.372,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.643,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "C/2026 S1"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "You are between the orbits of Jupiter and Saturn.",
+   "dir": "steady; stress 'between'",
+   "set": "orbit",
+   "setp": {
+    "t": 0.5,
+    "zoom": 0.8,
+    "mark": 1.0
+   },
+   "cam": [
+    [
+     0.457,
+     0.5,
+     1.52
+    ],
+    [
+     0.5,
+     0.493,
+     0.95
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "top",
+     "color": "cream",
+     "text": "JUPITER-SATURN GAP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "ch": 0,
+   "size": "tilt",
+   "vo": "Straight up from the Sun, on an orbit of thousands of years.",
+   "dir": "slow; stress 'thousands'",
+   "set": "side",
+   "setp": {
+    "t": 1.0,
+    "up": 1.0
+   },
+   "cam": [
+    [
+     0.478,
+     0.8,
+     1.23
+    ],
+    [
+     0.5,
+     0.25,
+     1.23
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "arrow",
+     "x": 0.55,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "ONE ORBIT",
+     "value": "1000S OF YEARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "ch": 0,
+   "size": "med",
+   "vo": "Euclid found it by happy coincidence.",
+   "dir": "warm; stress 'coincidence'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.9,
+    "stare": 0.6,
+    "blink": 1.0
+   },
+   "cam": [
+    [
+     0.477,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.504,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "top",
+     "color": "cream",
+     "text": "HAPPY COINCIDENCE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "ch": 0,
+   "size": "wide",
+   "vo": "Full film on the channel. Tomorrow: what if the Sun switched off?",
+   "dir": "friendly; stress 'Sun'",
+   "set": "comet",
+   "setp": {
+    "t": 0.4,
+    "glow": "cyan",
+    "jets": 0.7
+   },
+   "cam": [
+    [
+     0.465,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.469,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "FULL FILM ON CHANNEL"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  }
+ ]
+}

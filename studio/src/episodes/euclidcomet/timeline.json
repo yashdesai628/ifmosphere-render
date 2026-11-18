@@ -1,0 +1,1853 @@
+{
+ "slug": "euclidcomet",
+ "title": "WHAT IF YOU RODE A COMET 1.3 BILLION KM AWAY?",
+ "fps": 30,
+ "total": 10022,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 110,
+   "t0": 0,
+   "t1": 110,
+   "line": "You are sitting on a comet. Nobody on Earth knew it existed."
+  },
+  {
+   "shot": "S2",
+   "a": 110,
+   "b": 197,
+   "t0": 0,
+   "t1": 87,
+   "line": "It is one point three billion kilometres from home."
+  },
+  {
+   "shot": "S3",
+   "a": 197,
+   "b": 308,
+   "t0": 0,
+   "t1": 111,
+   "line": "And a telescope that was not even looking for comets just found you."
+  },
+  {
+   "shot": "S4",
+   "a": 308,
+   "b": 425,
+   "t0": 0,
+   "t1": 117,
+   "line": "A streak. A smudge. Then a brand new world on the map."
+  },
+  {
+   "shot": "S5",
+   "a": 425,
+   "b": 534,
+   "t0": 0,
+   "t1": 109,
+   "line": "This happened this autumn. ESA's Euclid made the catch."
+  },
+  {
+   "shot": "S6",
+   "a": 534,
+   "b": 586,
+   "t0": 0,
+   "t1": 52,
+   "line": "So what if you rode that comet?"
+  },
+  {
+   "shot": "S7",
+   "a": 586,
+   "b": 667,
+   "t0": 0,
+   "t1": 81,
+   "line": "You'd be going the long way round."
+  },
+  {
+   "shot": "S8",
+   "a": 667,
+   "b": 698,
+   "t0": 0,
+   "t1": 31,
+   "line": "Here are the rules."
+  },
+  {
+   "shot": "S9",
+   "a": 698,
+   "b": 789,
+   "t0": 0,
+   "t1": 91,
+   "line": "You hold on to the comet. You do not let go."
+  },
+  {
+   "shot": "S10",
+   "a": 789,
+   "b": 889,
+   "t0": 0,
+   "t1": 100,
+   "line": "You bring nothing. Space has plenty of room for nothing."
+  },
+  {
+   "shot": "S11",
+   "a": 889,
+   "b": 989,
+   "t0": 0,
+   "t1": 100,
+   "line": "Cold is fine. You're wearing your usual hoodie."
+  },
+  {
+   "shot": "S12",
+   "a": 989,
+   "b": 1091,
+   "t0": 0,
+   "t1": 102,
+   "line": "The trip is long. One lap takes thousands of years."
+  },
+  {
+   "shot": "S13",
+   "a": 1091,
+   "b": 1177,
+   "t0": 0,
+   "t1": 86,
+   "line": "So pack patience. Lots of patience."
+  },
+  {
+   "shot": "S14",
+   "a": 1177,
+   "b": 1264,
+   "t0": 0,
+   "t1": 87,
+   "line": "First, though, meet your ride."
+  },
+  {
+   "shot": "S15",
+   "a": 1264,
+   "b": 1379,
+   "t0": 0,
+   "t1": 115,
+   "line": "A comet is a dirty snowball. Ice, dust and rock."
+  },
+  {
+   "shot": "S16",
+   "a": 1379,
+   "b": 1463,
+   "t0": 0,
+   "t1": 84,
+   "line": "It is left over from the birth of the Solar System."
+  },
+  {
+   "shot": "S17",
+   "a": 1463,
+   "b": 1547,
+   "t0": 0,
+   "t1": 84,
+   "line": "That was about four point six billion years ago."
+  },
+  {
+   "shot": "S18",
+   "a": 1547,
+   "b": 1622,
+   "t0": 0,
+   "t1": 75,
+   "line": "So you are sitting on something truly ancient."
+  },
+  {
+   "shot": "S19",
+   "a": 1622,
+   "b": 1750,
+   "t0": 0,
+   "t1": 128,
+   "line": "Most comets come from the far edge: the Kuiper Belt or Oort Cloud."
+  },
+  {
+   "shot": "S20",
+   "a": 1750,
+   "b": 1840,
+   "t0": 0,
+   "t1": 90,
+   "line": "Out there it is dark, still and very cold."
+  },
+  {
+   "shot": "S21",
+   "a": 1840,
+   "b": 1923,
+   "t0": 0,
+   "t1": 83,
+   "line": "Then the Sun warms a comet, and it wakes up."
+  },
+  {
+   "shot": "S22",
+   "a": 1923,
+   "b": 2000,
+   "t0": 0,
+   "t1": 77,
+   "line": "Ice turns to gas. Gas drags dust. A fuzzy cloud blooms around you."
+  },
+  {
+   "shot": "S22",
+   "a": 2000,
+   "b": 2077,
+   "t0": 77,
+   "t1": 154,
+   "line": "Ice turns to gas. Gas drags dust. A fuzzy cloud blooms around you."
+  },
+  {
+   "shot": "S23",
+   "a": 2077,
+   "b": 2187,
+   "t0": 0,
+   "t1": 110,
+   "line": "That cloud is the giveaway. It says this rock is active."
+  },
+  {
+   "shot": "S24",
+   "a": 2187,
+   "b": 2274,
+   "t0": 0,
+   "t1": 87,
+   "line": "Hold that thought. The cloud is how they found you."
+  },
+  {
+   "shot": "S25",
+   "a": 2274,
+   "b": 2342,
+   "t0": 0,
+   "t1": 68,
+   "line": "But who was looking? Nobody was."
+  },
+  {
+   "shot": "S26",
+   "a": 2342,
+   "b": 2421,
+   "t0": 0,
+   "t1": 79,
+   "line": "Meet the one who was not looking."
+  },
+  {
+   "shot": "S27",
+   "a": 2421,
+   "b": 2515,
+   "t0": 0,
+   "t1": 94,
+   "line": "Euclid is a European Space Agency telescope."
+  },
+  {
+   "shot": "S28",
+   "a": 2515,
+   "b": 2581,
+   "t0": 0,
+   "t1": 66,
+   "line": "It launched in twenty twenty-three."
+  },
+  {
+   "shot": "S29",
+   "a": 2581,
+   "b": 2701,
+   "t0": 0,
+   "t1": 120,
+   "line": "Its job is to stare at distant galaxies, slowly and deeply."
+  },
+  {
+   "shot": "S30",
+   "a": 2701,
+   "b": 2822,
+   "t0": 0,
+   "t1": 121,
+   "line": "Long, steady pictures. Nothing fast. Nothing nearby."
+  },
+  {
+   "shot": "S31",
+   "a": 2822,
+   "b": 2931,
+   "t0": 0,
+   "t1": 109,
+   "line": "Comets are fast and nearby. So, not its department."
+  },
+  {
+   "shot": "S32",
+   "a": 2931,
+   "b": 3038,
+   "t0": 0,
+   "t1": 107,
+   "line": "On the sixteenth of September, Euclid starts taking pictures."
+  },
+  {
+   "shot": "S33",
+   "a": 3038,
+   "b": 3103,
+   "t0": 0,
+   "t1": 65,
+   "line": "It keeps going until the twenty-fourth."
+  },
+  {
+   "shot": "S34",
+   "a": 3103,
+   "b": 3218,
+   "t0": 0,
+   "t1": 115,
+   "line": "That is eight days of galaxies. And one passing stranger."
+  },
+  {
+   "shot": "S35",
+   "a": 3218,
+   "b": 3301,
+   "t0": 0,
+   "t1": 83,
+   "line": "That stranger was you. Well, your comet."
+  },
+  {
+   "shot": "S36",
+   "a": 3301,
+   "b": 3391,
+   "t0": 0,
+   "t1": 90,
+   "line": "It drifts across the shot like a fly across a window."
+  },
+  {
+   "shot": "S37",
+   "a": 3391,
+   "b": 3488,
+   "t0": 0,
+   "t1": 97,
+   "line": "No one is watching live. The pictures just pile up."
+  },
+  {
+   "shot": "S38",
+   "a": 3488,
+   "b": 3558,
+   "t0": 0,
+   "t1": 70,
+   "line": "Your comet could have slipped by unseen."
+  },
+  {
+   "shot": "S39",
+   "a": 3558,
+   "b": 3653,
+   "t0": 0,
+   "t1": 95,
+   "line": "Until one person's software notices."
+  },
+  {
+   "shot": "S40",
+   "a": 3653,
+   "b": 3760,
+   "t0": 0,
+   "t1": 107,
+   "line": "His name is Mikko Pöntinen, at the University of Helsinki."
+  },
+  {
+   "shot": "S41",
+   "a": 3760,
+   "b": 3851,
+   "t0": 0,
+   "t1": 91,
+   "line": "He wrote a program to watch for small moving things."
+  },
+  {
+   "shot": "S42",
+   "a": 3851,
+   "b": 3928,
+   "t0": 0,
+   "t1": 77,
+   "line": "It scans Euclid's pictures for streaks."
+  },
+  {
+   "shot": "S43",
+   "a": 3928,
+   "b": 4039,
+   "t0": 0,
+   "t1": 111,
+   "line": "A streak means a fast mover smeared across several frames."
+  },
+  {
+   "shot": "S44",
+   "a": 4039,
+   "b": 4093,
+   "t0": 0,
+   "t1": 54,
+   "line": "One day, it flags one."
+  },
+  {
+   "shot": "S45",
+   "a": 4093,
+   "b": 4218,
+   "t0": 0,
+   "t1": 125,
+   "line": "He said, quote, I was excited to see my software flag a streak."
+  },
+  {
+   "shot": "S46",
+   "a": 4218,
+   "b": 4313,
+   "t0": 0,
+   "t1": 95,
+   "line": "Now the hunt. Where does that streak go next?"
+  },
+  {
+   "shot": "S47",
+   "a": 4313,
+   "b": 4411,
+   "t0": 0,
+   "t1": 98,
+   "line": "He predicts its position. Then checks the other pictures."
+  },
+  {
+   "shot": "S48",
+   "a": 4411,
+   "b": 4475,
+   "t0": 0,
+   "t1": 64,
+   "line": "It shows up again. And again."
+  },
+  {
+   "shot": "S49",
+   "a": 4475,
+   "b": 4599,
+   "t0": 0,
+   "t1": 124,
+   "line": "Five separate image sets. Same object. Same path."
+  },
+  {
+   "shot": "S50",
+   "a": 4599,
+   "b": 4690,
+   "t0": 0,
+   "t1": 91,
+   "line": "That's no glitch. Glitches do not move like that."
+  },
+  {
+   "shot": "S51",
+   "a": 4690,
+   "b": 4749,
+   "t0": 0,
+   "t1": 59,
+   "line": "Then he zooms in on the dot."
+  },
+  {
+   "shot": "S52",
+   "a": 4749,
+   "b": 4841,
+   "t0": 0,
+   "t1": 92,
+   "line": "And there it is. A fuzzy cloud around it."
+  },
+  {
+   "shot": "S53",
+   "a": 4841,
+   "b": 4926,
+   "t0": 0,
+   "t1": 85,
+   "line": "Remember the cloud? Here is why it matters."
+  },
+  {
+   "shot": "S54",
+   "a": 4926,
+   "b": 4994,
+   "t0": 0,
+   "t1": 68,
+   "line": "A plain rock would stay sharp. A fuzzy dot sheds dust and gas."
+  },
+  {
+   "shot": "S54",
+   "a": 4994,
+   "b": 5062,
+   "t0": 68,
+   "t1": 136,
+   "line": "A plain rock would stay sharp. A fuzzy dot sheds dust and gas."
+  },
+  {
+   "shot": "S55",
+   "a": 5062,
+   "b": 5187,
+   "t0": 0,
+   "t1": 125,
+   "line": "Fuzzy means active. Active means comet."
+  },
+  {
+   "shot": "S56",
+   "a": 5187,
+   "b": 5279,
+   "t0": 0,
+   "t1": 92,
+   "line": "But is it new? Or has someone seen you before?"
+  },
+  {
+   "shot": "S57",
+   "a": 5279,
+   "b": 5386,
+   "t0": 0,
+   "t1": 107,
+   "line": "His team checks the catalogues of known comets and asteroids."
+  },
+  {
+   "shot": "S58",
+   "a": 5386,
+   "b": 5442,
+   "t0": 0,
+   "t1": 56,
+   "line": "Row after row after row."
+  },
+  {
+   "shot": "S59",
+   "a": 5442,
+   "b": 5517,
+   "t0": 0,
+   "t1": 75,
+   "line": "No match. You are not on any list."
+  },
+  {
+   "shot": "S60",
+   "a": 5517,
+   "b": 5571,
+   "t0": 0,
+   "t1": 54,
+   "line": "That means you are brand new."
+  },
+  {
+   "shot": "S61",
+   "a": 5571,
+   "b": 5658,
+   "t0": 0,
+   "t1": 87,
+   "line": "So Mikko reports it to the Minor Planet Center."
+  },
+  {
+   "shot": "S62",
+   "a": 5658,
+   "b": 5731,
+   "t0": 0,
+   "t1": 73,
+   "line": "That's the group that keeps the official list."
+  },
+  {
+   "shot": "S63",
+   "a": 5731,
+   "b": 5852,
+   "t0": 0,
+   "t1": 121,
+   "line": "The alert goes out. Telescopes on the ground can now take a look."
+  },
+  {
+   "shot": "S64",
+   "a": 5852,
+   "b": 5949,
+   "t0": 0,
+   "t1": 97,
+   "line": "More eyes. More pictures. More proof."
+  },
+  {
+   "shot": "S65",
+   "a": 5949,
+   "b": 6018,
+   "t0": 0,
+   "t1": 69,
+   "line": "On the eighth of October, it is official."
+  },
+  {
+   "shot": "S66",
+   "a": 6018,
+   "b": 6093,
+   "t0": 0,
+   "t1": 75,
+   "line": "It is a comet. And it has a name."
+  },
+  {
+   "shot": "S67",
+   "a": 6093,
+   "b": 6206,
+   "t0": 0,
+   "t1": 113,
+   "line": "Comet C slash twenty twenty-six S one. Euclid."
+  },
+  {
+   "shot": "S68",
+   "a": 6206,
+   "b": 6293,
+   "t0": 0,
+   "t1": 87,
+   "line": "Euclid's very first new comet."
+  },
+  {
+   "shot": "S69",
+   "a": 6293,
+   "b": 6360,
+   "t0": 0,
+   "t1": 67,
+   "line": "Now, where exactly are you sitting?"
+  },
+  {
+   "shot": "S70",
+   "a": 6360,
+   "b": 6450,
+   "t0": 0,
+   "t1": 90,
+   "line": "About one point three billion kilometres from Earth."
+  },
+  {
+   "shot": "S71",
+   "a": 6450,
+   "b": 6543,
+   "t0": 0,
+   "t1": 93,
+   "line": "That is roughly between the orbits of Jupiter and Saturn."
+  },
+  {
+   "shot": "S72",
+   "a": 6543,
+   "b": 6644,
+   "t0": 0,
+   "t1": 101,
+   "line": "Giants on both sides. Nobody around to wave to."
+  },
+  {
+   "shot": "S73",
+   "a": 6644,
+   "b": 6712,
+   "t0": 0,
+   "t1": 68,
+   "line": "But you are not in the planets' flat lane."
+  },
+  {
+   "shot": "S74",
+   "a": 6712,
+   "b": 6837,
+   "t0": 0,
+   "t1": 125,
+   "line": "The planets circle in one flat plane, like marbles on a table."
+  },
+  {
+   "shot": "S75",
+   "a": 6837,
+   "b": 6925,
+   "t0": 0,
+   "t1": 88,
+   "line": "You are way above it. Straight up from the Sun."
+  },
+  {
+   "shot": "S76",
+   "a": 6925,
+   "b": 7009,
+   "t0": 0,
+   "t1": 84,
+   "line": "Your path arches over the whole Solar System."
+  },
+  {
+   "shot": "S77",
+   "a": 7009,
+   "b": 7109,
+   "t0": 0,
+   "t1": 100,
+   "line": "And one lap of that orbit takes thousands of years."
+  },
+  {
+   "shot": "S78",
+   "a": 7109,
+   "b": 7178,
+   "t0": 0,
+   "t1": 69,
+   "line": "Whole civilisations would rise and fall. You would still be on lap one."
+  },
+  {
+   "shot": "S78",
+   "a": 7178,
+   "b": 7247,
+   "t0": 69,
+   "t1": 138,
+   "line": "Whole civilisations would rise and fall. You would still be on lap one."
+  },
+  {
+   "shot": "S79",
+   "a": 7247,
+   "b": 7349,
+   "t0": 0,
+   "t1": 102,
+   "line": "Honestly, bring a book. Maybe several libraries."
+  },
+  {
+   "shot": "S80",
+   "a": 7349,
+   "b": 7431,
+   "t0": 0,
+   "t1": 82,
+   "line": "You drift. The Sun is a long way back."
+  },
+  {
+   "shot": "S81",
+   "a": 7431,
+   "b": 7505,
+   "t0": 0,
+   "t1": 74,
+   "line": "Dust and gas stream out behind you."
+  },
+  {
+   "shot": "S82",
+   "a": 7505,
+   "b": 7574,
+   "t0": 0,
+   "t1": 69,
+   "line": "Out here, you are small, cold, and completely alone."
+  },
+  {
+   "shot": "S82",
+   "a": 7574,
+   "b": 7644,
+   "t0": 69,
+   "t1": 139,
+   "line": "Out here, you are small, cold, and completely alone."
+  },
+  {
+   "shot": "S83",
+   "a": 7644,
+   "b": 7738,
+   "t0": 0,
+   "t1": 94,
+   "line": "Here is the wild part. This find was luck."
+  },
+  {
+   "shot": "S84",
+   "a": 7738,
+   "b": 7855,
+   "t0": 0,
+   "t1": 117,
+   "line": "Euclid avoids the crowded band where comets and asteroids live."
+  },
+  {
+   "shot": "S85",
+   "a": 7855,
+   "b": 7980,
+   "t0": 0,
+   "t1": 125,
+   "line": "That band throws off dust glare. Glare ruins deep pictures."
+  },
+  {
+   "shot": "S86",
+   "a": 7980,
+   "b": 8069,
+   "t0": 0,
+   "t1": 89,
+   "line": "But you were not in that band. You were straight up."
+  },
+  {
+   "shot": "S87",
+   "a": 8069,
+   "b": 8165,
+   "t0": 0,
+   "t1": 96,
+   "line": "Also, Euclid works in a step-and-stare style."
+  },
+  {
+   "shot": "S88",
+   "a": 8165,
+   "b": 8263,
+   "t0": 0,
+   "t1": 98,
+   "line": "It usually visits each patch of sky only once."
+  },
+  {
+   "shot": "S89",
+   "a": 8263,
+   "b": 8322,
+   "t0": 0,
+   "t1": 59,
+   "line": "So no second look on demand."
+  },
+  {
+   "shot": "S90",
+   "a": 8322,
+   "b": 8415,
+   "t0": 0,
+   "t1": 93,
+   "line": "Yet it caught you in several images over those days."
+  },
+  {
+   "shot": "S91",
+   "a": 8415,
+   "b": 8517,
+   "t0": 0,
+   "t1": 102,
+   "line": "One scientist at ESA called it a happy coincidence."
+  },
+  {
+   "shot": "S92",
+   "a": 8517,
+   "b": 8622,
+   "t0": 0,
+   "t1": 105,
+   "line": "The right orbit. The right days. The right software."
+  },
+  {
+   "shot": "S93",
+   "a": 8622,
+   "b": 8730,
+   "t0": 0,
+   "t1": 108,
+   "line": "Miss any one of them and you stay hidden for years."
+  },
+  {
+   "shot": "S94",
+   "a": 8730,
+   "b": 8820,
+   "t0": 0,
+   "t1": 90,
+   "line": "So did Euclid just give humanity a ride-along?"
+  },
+  {
+   "shot": "S95",
+   "a": 8820,
+   "b": 8941,
+   "t0": 0,
+   "t1": 121,
+   "line": "Not quite. ESA has a mission called Comet Interceptor."
+  },
+  {
+   "shot": "S96",
+   "a": 8941,
+   "b": 9031,
+   "t0": 0,
+   "t1": 90,
+   "line": "It will fly to a comet that is still far from the Sun."
+  },
+  {
+   "shot": "S97",
+   "a": 9031,
+   "b": 9111,
+   "t0": 0,
+   "t1": 80,
+   "line": "Your comet turned out not to be the right target."
+  },
+  {
+   "shot": "S98",
+   "a": 9111,
+   "b": 9194,
+   "t0": 0,
+   "t1": 83,
+   "line": "But ESA called this a real test case."
+  },
+  {
+   "shot": "S99",
+   "a": 9194,
+   "b": 9298,
+   "t0": 0,
+   "t1": 104,
+   "line": "Spot a comet, alert the world, and coordinate fast."
+  },
+  {
+   "shot": "S100",
+   "a": 9298,
+   "b": 9368,
+   "t0": 0,
+   "t1": 70,
+   "line": "Two teams practised that dance on you."
+  },
+  {
+   "shot": "S101",
+   "a": 9368,
+   "b": 9478,
+   "t0": 0,
+   "t1": 110,
+   "line": "One telescope. One program. Five lucky pictures."
+  },
+  {
+   "shot": "S102",
+   "a": 9478,
+   "b": 9593,
+   "t0": 0,
+   "t1": 115,
+   "line": "And a brand new comet, one point three billion kilometres away."
+  },
+  {
+   "shot": "S103",
+   "a": 9593,
+   "b": 9700,
+   "t0": 0,
+   "t1": 107,
+   "line": "Remember the very first line? You are sitting on a comet."
+  },
+  {
+   "shot": "S104",
+   "a": 9700,
+   "b": 9808,
+   "t0": 0,
+   "t1": 108,
+   "line": "Now you know how a telescope, a coder and luck found you."
+  },
+  {
+   "shot": "S105",
+   "a": 9808,
+   "b": 9906,
+   "t0": 0,
+   "t1": 98,
+   "line": "Tomorrow: what if the Sun switched off for one hour?"
+  },
+  {
+   "shot": "S106",
+   "a": 9906,
+   "b": 10022,
+   "t0": 0,
+   "t1": 116,
+   "line": "Which comet would you ride? Tell me below."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 68,
+   "len": 110,
+   "first": 0,
+   "line": "You are sitting on a comet. Nobody on Earth knew it existed.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "pullout",
+   "key": 54,
+   "len": 87,
+   "first": 110,
+   "line": "It is one point three billion kilometres from home.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "med",
+   "key": 69,
+   "len": 111,
+   "first": 197,
+   "line": "And a telescope that was not even looking for comets just found you.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "close",
+   "key": 73,
+   "len": 117,
+   "first": 308,
+   "line": "A streak. A smudge. Then a brand new world on the map.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "high",
+   "key": 68,
+   "len": 109,
+   "first": 425,
+   "line": "This happened this autumn. ESA's Euclid made the catch.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "wide",
+   "key": 32,
+   "len": 52,
+   "first": 534,
+   "line": "So what if you rode that comet?",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "low",
+   "key": 50,
+   "len": 81,
+   "first": 586,
+   "line": "You'd be going the long way round.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "close",
+   "key": 19,
+   "len": 31,
+   "first": 667,
+   "line": "Here are the rules.",
+   "note": "ch1"
+  },
+  {
+   "id": "S9",
+   "size": "med",
+   "key": 56,
+   "len": 91,
+   "first": 698,
+   "line": "You hold on to the comet. You do not let go.",
+   "note": "ch1"
+  },
+  {
+   "id": "S10",
+   "size": "close",
+   "key": 62,
+   "len": 100,
+   "first": 789,
+   "line": "You bring nothing. Space has plenty of room for nothing.",
+   "note": "ch1"
+  },
+  {
+   "id": "S11",
+   "size": "insert",
+   "key": 62,
+   "len": 100,
+   "first": 889,
+   "line": "Cold is fine. You're wearing your usual hoodie.",
+   "note": "ch1"
+  },
+  {
+   "id": "S12",
+   "size": "high",
+   "key": 63,
+   "len": 102,
+   "first": 989,
+   "line": "The trip is long. One lap takes thousands of years.",
+   "note": "ch1"
+  },
+  {
+   "id": "S13",
+   "size": "low",
+   "key": 53,
+   "len": 86,
+   "first": 1091,
+   "line": "So pack patience. Lots of patience.",
+   "note": "ch1"
+  },
+  {
+   "id": "S14",
+   "size": "med",
+   "key": 54,
+   "len": 87,
+   "first": 1177,
+   "line": "First, though, meet your ride.",
+   "note": "ch1"
+  },
+  {
+   "id": "S15",
+   "size": "insert",
+   "key": 71,
+   "len": 115,
+   "first": 1264,
+   "line": "A comet is a dirty snowball. Ice, dust and rock.",
+   "note": "ch2"
+  },
+  {
+   "id": "S16",
+   "size": "pullout",
+   "key": 52,
+   "len": 84,
+   "first": 1379,
+   "line": "It is left over from the birth of the Solar System.",
+   "note": "ch2"
+  },
+  {
+   "id": "S17",
+   "size": "wide",
+   "key": 52,
+   "len": 84,
+   "first": 1463,
+   "line": "That was about four point six billion years ago.",
+   "note": "ch2"
+  },
+  {
+   "id": "S18",
+   "size": "low",
+   "key": 46,
+   "len": 75,
+   "first": 1547,
+   "line": "So you are sitting on something truly ancient.",
+   "note": "ch2"
+  },
+  {
+   "id": "S19",
+   "size": "high",
+   "key": 79,
+   "len": 128,
+   "first": 1622,
+   "line": "Most comets come from the far edge: the Kuiper Belt or Oort Cloud.",
+   "note": "ch2"
+  },
+  {
+   "id": "S20",
+   "size": "med",
+   "key": 56,
+   "len": 90,
+   "first": 1750,
+   "line": "Out there it is dark, still and very cold.",
+   "note": "ch2"
+  },
+  {
+   "id": "S21",
+   "size": "close",
+   "key": 51,
+   "len": 83,
+   "first": 1840,
+   "line": "Then the Sun warms a comet, and it wakes up.",
+   "note": "ch2"
+  },
+  {
+   "id": "S22",
+   "size": "wide",
+   "key": 95,
+   "len": 154,
+   "first": 1923,
+   "line": "Ice turns to gas. Gas drags dust. A fuzzy cloud blooms around you.",
+   "note": "ch2"
+  },
+  {
+   "id": "S23",
+   "size": "insert",
+   "key": 68,
+   "len": 110,
+   "first": 2077,
+   "line": "That cloud is the giveaway. It says this rock is active.",
+   "note": "ch2"
+  },
+  {
+   "id": "S24",
+   "size": "med",
+   "key": 54,
+   "len": 87,
+   "first": 2187,
+   "line": "Hold that thought. The cloud is how they found you.",
+   "note": "ch2"
+  },
+  {
+   "id": "S25",
+   "size": "pullout",
+   "key": 42,
+   "len": 68,
+   "first": 2274,
+   "line": "But who was looking? Nobody was.",
+   "note": "ch2"
+  },
+  {
+   "id": "S26",
+   "size": "wide",
+   "key": 49,
+   "len": 79,
+   "first": 2342,
+   "line": "Meet the one who was not looking.",
+   "note": "ch2"
+  },
+  {
+   "id": "S27",
+   "size": "insert",
+   "key": 58,
+   "len": 94,
+   "first": 2421,
+   "line": "Euclid is a European Space Agency telescope.",
+   "note": "ch3"
+  },
+  {
+   "id": "S28",
+   "size": "high",
+   "key": 41,
+   "len": 66,
+   "first": 2515,
+   "line": "It launched in twenty twenty-three.",
+   "note": "ch3"
+  },
+  {
+   "id": "S29",
+   "size": "wide",
+   "key": 74,
+   "len": 120,
+   "first": 2581,
+   "line": "Its job is to stare at distant galaxies, slowly and deeply.",
+   "note": "ch3"
+  },
+  {
+   "id": "S30",
+   "size": "med",
+   "key": 75,
+   "len": 121,
+   "first": 2701,
+   "line": "Long, steady pictures. Nothing fast. Nothing nearby.",
+   "note": "ch3"
+  },
+  {
+   "id": "S31",
+   "size": "low",
+   "key": 68,
+   "len": 109,
+   "first": 2822,
+   "line": "Comets are fast and nearby. So, not its department.",
+   "note": "ch3"
+  },
+  {
+   "id": "S32",
+   "size": "insert",
+   "key": 66,
+   "len": 107,
+   "first": 2931,
+   "line": "On the sixteenth of September, Euclid starts taking pictures.",
+   "note": "ch3"
+  },
+  {
+   "id": "S33",
+   "size": "close",
+   "key": 40,
+   "len": 65,
+   "first": 3038,
+   "line": "It keeps going until the twenty-fourth.",
+   "note": "ch3"
+  },
+  {
+   "id": "S34",
+   "size": "wide",
+   "key": 71,
+   "len": 115,
+   "first": 3103,
+   "line": "That is eight days of galaxies. And one passing stranger.",
+   "note": "ch3"
+  },
+  {
+   "id": "S35",
+   "size": "med",
+   "key": 51,
+   "len": 83,
+   "first": 3218,
+   "line": "That stranger was you. Well, your comet.",
+   "note": "ch3"
+  },
+  {
+   "id": "S36",
+   "size": "pan",
+   "key": 56,
+   "len": 90,
+   "first": 3301,
+   "line": "It drifts across the shot like a fly across a window.",
+   "note": "ch3"
+  },
+  {
+   "id": "S37",
+   "size": "high",
+   "key": 60,
+   "len": 97,
+   "first": 3391,
+   "line": "No one is watching live. The pictures just pile up.",
+   "note": "ch3"
+  },
+  {
+   "id": "S38",
+   "size": "low",
+   "key": 43,
+   "len": 70,
+   "first": 3488,
+   "line": "Your comet could have slipped by unseen.",
+   "note": "ch3"
+  },
+  {
+   "id": "S39",
+   "size": "close",
+   "key": 59,
+   "len": 95,
+   "first": 3558,
+   "line": "Until one person's software notices.",
+   "note": "ch3"
+  },
+  {
+   "id": "S40",
+   "size": "med",
+   "key": 66,
+   "len": 107,
+   "first": 3653,
+   "line": "His name is Mikko Pöntinen, at the University of Helsinki.",
+   "note": "ch4"
+  },
+  {
+   "id": "S41",
+   "size": "insert",
+   "key": 56,
+   "len": 91,
+   "first": 3760,
+   "line": "He wrote a program to watch for small moving things.",
+   "note": "ch4"
+  },
+  {
+   "id": "S42",
+   "size": "high",
+   "key": 48,
+   "len": 77,
+   "first": 3851,
+   "line": "It scans Euclid's pictures for streaks.",
+   "note": "ch4"
+  },
+  {
+   "id": "S43",
+   "size": "pan",
+   "key": 69,
+   "len": 111,
+   "first": 3928,
+   "line": "A streak means a fast mover smeared across several frames.",
+   "note": "ch4"
+  },
+  {
+   "id": "S44",
+   "size": "close",
+   "key": 33,
+   "len": 54,
+   "first": 4039,
+   "line": "One day, it flags one.",
+   "note": "ch4"
+  },
+  {
+   "id": "S45",
+   "size": "med",
+   "key": 78,
+   "len": 125,
+   "first": 4093,
+   "line": "He said, quote, I was excited to see my software flag a streak.",
+   "note": "ch4"
+  },
+  {
+   "id": "S46",
+   "size": "low",
+   "key": 59,
+   "len": 95,
+   "first": 4218,
+   "line": "Now the hunt. Where does that streak go next?",
+   "note": "ch4"
+  },
+  {
+   "id": "S47",
+   "size": "tilt",
+   "key": 61,
+   "len": 98,
+   "first": 4313,
+   "line": "He predicts its position. Then checks the other pictures.",
+   "note": "ch4"
+  },
+  {
+   "id": "S48",
+   "size": "wide",
+   "key": 40,
+   "len": 64,
+   "first": 4411,
+   "line": "It shows up again. And again.",
+   "note": "ch4"
+  },
+  {
+   "id": "S49",
+   "size": "insert",
+   "key": 77,
+   "len": 124,
+   "first": 4475,
+   "line": "Five separate image sets. Same object. Same path.",
+   "note": "ch4"
+  },
+  {
+   "id": "S50",
+   "size": "close",
+   "key": 56,
+   "len": 91,
+   "first": 4599,
+   "line": "That's no glitch. Glitches do not move like that.",
+   "note": "ch4"
+  },
+  {
+   "id": "S51",
+   "size": "pullout",
+   "key": 37,
+   "len": 59,
+   "first": 4690,
+   "line": "Then he zooms in on the dot.",
+   "note": "ch4"
+  },
+  {
+   "id": "S52",
+   "size": "insert",
+   "key": 57,
+   "len": 92,
+   "first": 4749,
+   "line": "And there it is. A fuzzy cloud around it.",
+   "note": "ch4"
+  },
+  {
+   "id": "S53",
+   "size": "med",
+   "key": 53,
+   "len": 85,
+   "first": 4841,
+   "line": "Remember the cloud? Here is why it matters.",
+   "note": "ch4"
+  },
+  {
+   "id": "S54",
+   "size": "high",
+   "key": 84,
+   "len": 136,
+   "first": 4926,
+   "line": "A plain rock would stay sharp. A fuzzy dot sheds dust and gas.",
+   "note": "ch4"
+  },
+  {
+   "id": "S55",
+   "size": "low",
+   "key": 78,
+   "len": 125,
+   "first": 5062,
+   "line": "Fuzzy means active. Active means comet.",
+   "note": "ch4"
+  },
+  {
+   "id": "S56",
+   "size": "wide",
+   "key": 57,
+   "len": 92,
+   "first": 5187,
+   "line": "But is it new? Or has someone seen you before?",
+   "note": "ch5"
+  },
+  {
+   "id": "S57",
+   "size": "high",
+   "key": 66,
+   "len": 107,
+   "first": 5279,
+   "line": "His team checks the catalogues of known comets and asteroids.",
+   "note": "ch5"
+  },
+  {
+   "id": "S58",
+   "size": "pan",
+   "key": 35,
+   "len": 56,
+   "first": 5386,
+   "line": "Row after row after row.",
+   "note": "ch5"
+  },
+  {
+   "id": "S59",
+   "size": "close",
+   "key": 46,
+   "len": 75,
+   "first": 5442,
+   "line": "No match. You are not on any list.",
+   "note": "ch5"
+  },
+  {
+   "id": "S60",
+   "size": "med",
+   "key": 33,
+   "len": 54,
+   "first": 5517,
+   "line": "That means you are brand new.",
+   "note": "ch5"
+  },
+  {
+   "id": "S61",
+   "size": "wide",
+   "key": 54,
+   "len": 87,
+   "first": 5571,
+   "line": "So Mikko reports it to the Minor Planet Center.",
+   "note": "ch5"
+  },
+  {
+   "id": "S62",
+   "size": "high",
+   "key": 45,
+   "len": 73,
+   "first": 5658,
+   "line": "That's the group that keeps the official list.",
+   "note": "ch5"
+  },
+  {
+   "id": "S63",
+   "size": "pullout",
+   "key": 75,
+   "len": 121,
+   "first": 5731,
+   "line": "The alert goes out. Telescopes on the ground can now take a look.",
+   "note": "ch5"
+  },
+  {
+   "id": "S64",
+   "size": "med",
+   "key": 60,
+   "len": 97,
+   "first": 5852,
+   "line": "More eyes. More pictures. More proof.",
+   "note": "ch5"
+  },
+  {
+   "id": "S65",
+   "size": "insert",
+   "key": 43,
+   "len": 69,
+   "first": 5949,
+   "line": "On the eighth of October, it is official.",
+   "note": "ch5"
+  },
+  {
+   "id": "S66",
+   "size": "low",
+   "key": 46,
+   "len": 75,
+   "first": 6018,
+   "line": "It is a comet. And it has a name.",
+   "note": "ch5"
+  },
+  {
+   "id": "S67",
+   "size": "close",
+   "key": 70,
+   "len": 113,
+   "first": 6093,
+   "line": "Comet C slash twenty twenty-six S one. Euclid.",
+   "note": "ch5"
+  },
+  {
+   "id": "S68",
+   "size": "med",
+   "key": 54,
+   "len": 87,
+   "first": 6206,
+   "line": "Euclid's very first new comet.",
+   "note": "ch5"
+  },
+  {
+   "id": "S69",
+   "size": "wide",
+   "key": 42,
+   "len": 67,
+   "first": 6293,
+   "line": "Now, where exactly are you sitting?",
+   "note": "ch6"
+  },
+  {
+   "id": "S70",
+   "size": "high",
+   "key": 56,
+   "len": 90,
+   "first": 6360,
+   "line": "About one point three billion kilometres from Earth.",
+   "note": "ch6"
+  },
+  {
+   "id": "S71",
+   "size": "pullout",
+   "key": 58,
+   "len": 93,
+   "first": 6450,
+   "line": "That is roughly between the orbits of Jupiter and Saturn.",
+   "note": "ch6"
+  },
+  {
+   "id": "S72",
+   "size": "low",
+   "key": 63,
+   "len": 101,
+   "first": 6543,
+   "line": "Giants on both sides. Nobody around to wave to.",
+   "note": "ch6"
+  },
+  {
+   "id": "S73",
+   "size": "med",
+   "key": 42,
+   "len": 68,
+   "first": 6644,
+   "line": "But you are not in the planets' flat lane.",
+   "note": "ch6"
+  },
+  {
+   "id": "S74",
+   "size": "high",
+   "key": 78,
+   "len": 125,
+   "first": 6712,
+   "line": "The planets circle in one flat plane, like marbles on a table.",
+   "note": "ch6"
+  },
+  {
+   "id": "S75",
+   "size": "tilt",
+   "key": 55,
+   "len": 88,
+   "first": 6837,
+   "line": "You are way above it. Straight up from the Sun.",
+   "note": "ch6"
+  },
+  {
+   "id": "S76",
+   "size": "pullout",
+   "key": 52,
+   "len": 84,
+   "first": 6925,
+   "line": "Your path arches over the whole Solar System.",
+   "note": "ch6"
+  },
+  {
+   "id": "S77",
+   "size": "wide",
+   "key": 62,
+   "len": 100,
+   "first": 7009,
+   "line": "And one lap of that orbit takes thousands of years.",
+   "note": "ch6"
+  },
+  {
+   "id": "S78",
+   "size": "low",
+   "key": 86,
+   "len": 138,
+   "first": 7109,
+   "line": "Whole civilisations would rise and fall. You would still be on lap one.",
+   "note": "ch6"
+  },
+  {
+   "id": "S79",
+   "size": "med",
+   "key": 63,
+   "len": 102,
+   "first": 7247,
+   "line": "Honestly, bring a book. Maybe several libraries.",
+   "note": "ch6"
+  },
+  {
+   "id": "S80",
+   "size": "insert",
+   "key": 51,
+   "len": 82,
+   "first": 7349,
+   "line": "You drift. The Sun is a long way back.",
+   "note": "ch6"
+  },
+  {
+   "id": "S81",
+   "size": "wide",
+   "key": 46,
+   "len": 74,
+   "first": 7431,
+   "line": "Dust and gas stream out behind you.",
+   "note": "ch6"
+  },
+  {
+   "id": "S82",
+   "size": "pullout",
+   "key": 86,
+   "len": 139,
+   "first": 7505,
+   "line": "Out here, you are small, cold, and completely alone.",
+   "note": "ch6"
+  },
+  {
+   "id": "S83",
+   "size": "med",
+   "key": 58,
+   "len": 94,
+   "first": 7644,
+   "line": "Here is the wild part. This find was luck.",
+   "note": "ch7"
+  },
+  {
+   "id": "S84",
+   "size": "high",
+   "key": 73,
+   "len": 117,
+   "first": 7738,
+   "line": "Euclid avoids the crowded band where comets and asteroids live.",
+   "note": "ch7"
+  },
+  {
+   "id": "S85",
+   "size": "low",
+   "key": 78,
+   "len": 125,
+   "first": 7855,
+   "line": "That band throws off dust glare. Glare ruins deep pictures.",
+   "note": "ch7"
+  },
+  {
+   "id": "S86",
+   "size": "wide",
+   "key": 55,
+   "len": 89,
+   "first": 7980,
+   "line": "But you were not in that band. You were straight up.",
+   "note": "ch7"
+  },
+  {
+   "id": "S87",
+   "size": "insert",
+   "key": 60,
+   "len": 96,
+   "first": 8069,
+   "line": "Also, Euclid works in a step-and-stare style.",
+   "note": "ch7"
+  },
+  {
+   "id": "S88",
+   "size": "high",
+   "key": 61,
+   "len": 98,
+   "first": 8165,
+   "line": "It usually visits each patch of sky only once.",
+   "note": "ch7"
+  },
+  {
+   "id": "S89",
+   "size": "close",
+   "key": 37,
+   "len": 59,
+   "first": 8263,
+   "line": "So no second look on demand.",
+   "note": "ch7"
+  },
+  {
+   "id": "S90",
+   "size": "pan",
+   "key": 58,
+   "len": 93,
+   "first": 8322,
+   "line": "Yet it caught you in several images over those days.",
+   "note": "ch7"
+  },
+  {
+   "id": "S91",
+   "size": "med",
+   "key": 63,
+   "len": 102,
+   "first": 8415,
+   "line": "One scientist at ESA called it a happy coincidence.",
+   "note": "ch7"
+  },
+  {
+   "id": "S92",
+   "size": "wide",
+   "key": 65,
+   "len": 105,
+   "first": 8517,
+   "line": "The right orbit. The right days. The right software.",
+   "note": "ch7"
+  },
+  {
+   "id": "S93",
+   "size": "low",
+   "key": 67,
+   "len": 108,
+   "first": 8622,
+   "line": "Miss any one of them and you stay hidden for years.",
+   "note": "ch7"
+  },
+  {
+   "id": "S94",
+   "size": "med",
+   "key": 56,
+   "len": 90,
+   "first": 8730,
+   "line": "So did Euclid just give humanity a ride-along?",
+   "note": "ch8"
+  },
+  {
+   "id": "S95",
+   "size": "high",
+   "key": 75,
+   "len": 121,
+   "first": 8820,
+   "line": "Not quite. ESA has a mission called Comet Interceptor.",
+   "note": "ch8"
+  },
+  {
+   "id": "S96",
+   "size": "pullout",
+   "key": 56,
+   "len": 90,
+   "first": 8941,
+   "line": "It will fly to a comet that is still far from the Sun.",
+   "note": "ch8"
+  },
+  {
+   "id": "S97",
+   "size": "med",
+   "key": 50,
+   "len": 80,
+   "first": 9031,
+   "line": "Your comet turned out not to be the right target.",
+   "note": "ch8"
+  },
+  {
+   "id": "S98",
+   "size": "low",
+   "key": 51,
+   "len": 83,
+   "first": 9111,
+   "line": "But ESA called this a real test case.",
+   "note": "ch8"
+  },
+  {
+   "id": "S99",
+   "size": "wide",
+   "key": 64,
+   "len": 104,
+   "first": 9194,
+   "line": "Spot a comet, alert the world, and coordinate fast.",
+   "note": "ch8"
+  },
+  {
+   "id": "S100",
+   "size": "high",
+   "key": 43,
+   "len": 70,
+   "first": 9298,
+   "line": "Two teams practised that dance on you.",
+   "note": "ch8"
+  },
+  {
+   "id": "S101",
+   "size": "insert",
+   "key": 68,
+   "len": 110,
+   "first": 9368,
+   "line": "One telescope. One program. Five lucky pictures.",
+   "note": "ch8"
+  },
+  {
+   "id": "S102",
+   "size": "wide",
+   "key": 71,
+   "len": 115,
+   "first": 9478,
+   "line": "And a brand new comet, one point three billion kilometres away.",
+   "note": "ch8"
+  },
+  {
+   "id": "S103",
+   "size": "pullout",
+   "key": 66,
+   "len": 107,
+   "first": 9593,
+   "line": "Remember the very first line? You are sitting on a comet.",
+   "note": "ch8"
+  },
+  {
+   "id": "S104",
+   "size": "high",
+   "key": 67,
+   "len": 108,
+   "first": 9700,
+   "line": "Now you know how a telescope, a coder and luck found you.",
+   "note": "ch8"
+  },
+  {
+   "id": "S105",
+   "size": "close",
+   "key": 61,
+   "len": 98,
+   "first": 9808,
+   "line": "Tomorrow: what if the Sun switched off for one hour?",
+   "note": "ch8"
+  },
+  {
+   "id": "S106",
+   "size": "med",
+   "key": 72,
+   "len": 116,
+   "first": 9906,
+   "line": "Which comet would you ride? Tell me below.",
+   "note": "ch8"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "euclidcomet/voice.wav",
+  "sfx": "euclidcomet/sfx.wav",
+  "music": "euclidcomet/music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}

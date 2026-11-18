@@ -1,0 +1,248 @@
+{
+ "slug": "euclidcomet",
+ "title": "WHAT IF YOU RODE A COMET 1.3 BILLION KM AWAY?",
+ "fps": 30,
+ "total": 1144,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 86,
+   "t0": 0,
+   "t1": 86,
+   "line": "You are sitting on a comet nobody knew existed."
+  },
+  {
+   "shot": "S2",
+   "a": 86,
+   "b": 173,
+   "t0": 0,
+   "t1": 87,
+   "line": "It is one point three billion kilometres from Earth."
+  },
+  {
+   "shot": "S3",
+   "a": 173,
+   "b": 265,
+   "t0": 0,
+   "t1": 92,
+   "line": "A telescope built for galaxies just spotted you."
+  },
+  {
+   "shot": "S4",
+   "a": 265,
+   "b": 328,
+   "t0": 0,
+   "t1": 63,
+   "line": "Its software flagged one streak."
+  },
+  {
+   "shot": "S5",
+   "a": 328,
+   "b": 404,
+   "t0": 0,
+   "t1": 76,
+   "line": "It showed up in five separate image sets."
+  },
+  {
+   "shot": "S6",
+   "a": 404,
+   "b": 485,
+   "t0": 0,
+   "t1": 81,
+   "line": "Around it, a fuzzy cloud of dust and gas."
+  },
+  {
+   "shot": "S7",
+   "a": 485,
+   "b": 569,
+   "t0": 0,
+   "t1": 84,
+   "line": "No match in any catalogue. Brand new."
+  },
+  {
+   "shot": "S8",
+   "a": 569,
+   "b": 629,
+   "t0": 0,
+   "t1": 60,
+   "line": "Confirmed on the eighth of October."
+  },
+  {
+   "shot": "S9",
+   "a": 629,
+   "b": 748,
+   "t0": 0,
+   "t1": 119,
+   "line": "Meet comet C slash twenty twenty-six S one, Euclid."
+  },
+  {
+   "shot": "S10",
+   "a": 748,
+   "b": 829,
+   "t0": 0,
+   "t1": 81,
+   "line": "You are between the orbits of Jupiter and Saturn."
+  },
+  {
+   "shot": "S11",
+   "a": 829,
+   "b": 934,
+   "t0": 0,
+   "t1": 105,
+   "line": "Straight up from the Sun, on an orbit of thousands of years."
+  },
+  {
+   "shot": "S12",
+   "a": 934,
+   "b": 1007,
+   "t0": 0,
+   "t1": 73,
+   "line": "Euclid found it by happy coincidence."
+  },
+  {
+   "shot": "S13",
+   "a": 1007,
+   "b": 1075,
+   "t0": 0,
+   "t1": 68,
+   "line": "Full film on the channel. Tomorrow: what if the Sun switched off?"
+  },
+  {
+   "shot": "S13",
+   "a": 1075,
+   "b": 1144,
+   "t0": 68,
+   "t1": 137,
+   "line": "Full film on the channel. Tomorrow: what if the Sun switched off?"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 53,
+   "len": 86,
+   "first": 0,
+   "line": "You are sitting on a comet nobody knew existed.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "pullout",
+   "key": 54,
+   "len": 87,
+   "first": 86,
+   "line": "It is one point three billion kilometres from Earth.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "med",
+   "key": 57,
+   "len": 92,
+   "first": 173,
+   "line": "A telescope built for galaxies just spotted you.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "close",
+   "key": 39,
+   "len": 63,
+   "first": 265,
+   "line": "Its software flagged one streak.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "high",
+   "key": 47,
+   "len": 76,
+   "first": 328,
+   "line": "It showed up in five separate image sets.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "insert",
+   "key": 50,
+   "len": 81,
+   "first": 404,
+   "line": "Around it, a fuzzy cloud of dust and gas.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "med",
+   "key": 52,
+   "len": 84,
+   "first": 485,
+   "line": "No match in any catalogue. Brand new.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "low",
+   "key": 37,
+   "len": 60,
+   "first": 569,
+   "line": "Confirmed on the eighth of October.",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "close",
+   "key": 74,
+   "len": 119,
+   "first": 629,
+   "line": "Meet comet C slash twenty twenty-six S one, Euclid.",
+   "note": "ch0"
+  },
+  {
+   "id": "S10",
+   "size": "pullout",
+   "key": 50,
+   "len": 81,
+   "first": 748,
+   "line": "You are between the orbits of Jupiter and Saturn.",
+   "note": "ch0"
+  },
+  {
+   "id": "S11",
+   "size": "tilt",
+   "key": 65,
+   "len": 105,
+   "first": 829,
+   "line": "Straight up from the Sun, on an orbit of thousands of years.",
+   "note": "ch0"
+  },
+  {
+   "id": "S12",
+   "size": "med",
+   "key": 45,
+   "len": 73,
+   "first": 934,
+   "line": "Euclid found it by happy coincidence.",
+   "note": "ch0"
+  },
+  {
+   "id": "S13",
+   "size": "wide",
+   "key": 85,
+   "len": 137,
+   "first": 1007,
+   "line": "Full film on the channel. Tomorrow: what if the Sun switched off?",
+   "note": "ch0"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "euclidcomet/short-voice.wav",
+  "sfx": "euclidcomet/short-sfx.wav",
+  "music": "euclidcomet/short-music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}
