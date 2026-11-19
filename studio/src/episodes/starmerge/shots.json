@@ -1,0 +1,6367 @@
+{
+ "slug": "starmerge",
+ "id": "StarMerge",
+ "title": [
+  "WHAT IF A STAR 350x THE SUN",
+  "SWALLOWED YOU?"
+ ],
+ "accent": [
+  "350x THE SUN"
+ ],
+ "voice": {
+  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.44,
+   "similarity_boost": 0.8,
+   "style": 0.36,
+   "use_speaker_boost": true,
+   "speed": 0.99
+  }
+ },
+ "short_vo": {
+  "stability": 0.42,
+  "style": 0.4,
+  "speed": 1.03
+ },
+ "short_music": {
+  "mood": "wonder",
+  "energy": 0.85
+ },
+ "mix": {
+  "music_under": 17,
+  "sfx_under": 7,
+  "duck_db": 6
+ },
+ "sets": {
+  "bigstar": "A giant star close up. far: deep-navy SpaceBackdrop with sparse stars; mid: a huge red-orange star filling most of the frame with slow boiling convection cells (darker orange blotches drifting) and a soft dusty red halo, 4 px outline on its limb, pale rim light; setp.t 0..1 = the star slowly pulses and the cells drift; setp.glow 'red'|'gold'|'white' tints the halo; setp.dust 0..1 = brown dust shells thicken around it.",
+  "binary": "Two stars orbiting. Deep-navy bg, thin cream orbit ellipse; centre: a huge red-orange giant star (about 40% of frame height) with soft halo; a tiny bright yellow star on the ellipse; setp.t 0..1 = tiny star travels around the ellipse; setp.close 0..1 = the ellipse shrinks and the tiny star dips toward the giant's surface; setp.trail 0|1 = a gold trail follows the tiny star.",
+  "inside": "Inside the giant's atmosphere. A full-frame swirl of orange, red and amber gas clouds drifting slowly, thick and soupy, with faint glowing streaks; one tiny bright yellow star dot with a gold spiral trail; setp.t 0..1 = the tiny star spirals inward toward the centre (a bright hot glow); setp.heat 0..1 = the gas brightens toward white-gold; setp.drag 0..1 = the spiral trail tightens.",
+  "scale": "Top-down Solar System scale. Deep-navy bg; a tiny yellow Sun at centre with thin cream rings for Mercury, Venus, Earth, Mars drawn as small coloured dots; a huge translucent red-orange disc (the giant star) centred on the Sun; setp.t 0..1 = the red disc grows from Sun-sized to 350x (it swallows the inner rings one by one and passes Mars); setp.mark 0|1 = a pulsing cyan ring on Earth; setp.zoom 0..1 = camera zooms out.",
+  "andromeda": "The Andromeda galaxy. Deep-navy bg; a tilted spiral galaxy with a bright cream-white core, blue-white arms, dark brown dust lanes and a small fuzzy companion galaxy; setp.t 0..1 = slow camera push toward the galaxy's lower-right outskirts; setp.box 0..1 = a white square outline draws around one tiny bright dot at the outskirts; setp.glow 0|1 = the dot pulses.",
+  "curve": "A light curve chart. Deep-navy bg; a dark chart panel with cream axes and faint grid; a gold line: flat, then a slow rise, then a huge spike, then a long slow fade; setp.t 0..1 = the line draws on from left to right; setp.phase 'quiet'|'rise'|'spike'|'fade' = a labelled vertical band highlights that part of the line; setp.zoom 0..1 = zoom into the spike.",
+  "scope": "A space telescope in deep space. far: SpaceBackdrop; mid: a Webb-style telescope with a hexagon-segment gold mirror, a flat layered silver sunshield and a small body, 4 px outline, pale rim light; setp.t 0..1 = slow drift; setp.look 0..1 = a faint cyan cone widens from the mirror toward the sky; setp.blink 0|1 = a camera flash.",
+  "lab": "A bright astronomers' control room. far: wall of dark screens with soft cream charts and a world map; mid: a desk with two laptops, a coffee mug and a sticky note; near: carpet GroundPlane with pale rim; setp.alert 0..1 = a screen flashes amber with a warning triangle; setp.ok 1 = screens turn green.",
+  "timeline": "A horizontal dated timeline. Deep-navy bg; a cream line with year ticks 2018 2023 2024 2025; setp.t 0..1 = a gold marker slides left to right across the line; setp.pins 0..4 = round pins pop up in order (2018, 2023, 2024, 2025); setp.glow 'gold'|'red'.",
+  "bowl": "A kitchen table in a dark room. near: a wooden table plane with pale rim; mid: a big white bowl of thick orange soup with steam; a silver spoon; setp.t 0..1 = the spoon drags slowly through the soup in a widening swirl; setp.steam 0..1 = steam rising.",
+  "blast": "A star blowing off its outer layers. Deep-navy bg; centre: a bright white-gold star core; a ring of orange gas expanding outward, brighter at the top and bottom (poles) and held back around the middle by a brown dust belt; setp.t 0..1 = the gas shell expands; setp.flash 0..1 = a white flash at the start; setp.dust 0..1 = dust belt thickness.",
+  "core": "The centre of a giant star. Full-frame hot white-gold glow fading to orange at the edges, dense swirling gas; setp.t 0..1 = a tiny yellow star dot sinks into the glow and is swallowed (it fades in a bright pulse); setp.shock 0..1 = a ring shock wave radiates outward.",
+  "void": "Plain deep-navy SpaceBackdrop stage with slow light rays and almost no stars, for big numbers, bars and diagrams. setp.glow 'gold'|'cyan'|'red' tints the rays.",
+  "roman": "Sky survey. Deep-navy bg; a huge dark grid of the sky with many tiny faint stars; a sweeping cyan scan band; small gold sparks flash up at random spots; setp.t 0..1 = the scan band sweeps; setp.sparks 0..1 = more gold sparks appear."
+ },
+ "props": {
+  "starbig": "Icon of a giant star: a big red-orange disc with soft glow, darker blotches and a 4 px outline; pp.s scale; pp.label text beneath.",
+  "starsmall": "Icon of a small star: a bright yellow round disc with a soft glow and 4 px outline; pp.s scale; pp.label text beneath.",
+  "counter": "Big flat panel, 4 px dark outline, dark #1E1B2E face, cream flip digits in FONTS.title with thousands separators, label in FONTS.ui underneath. pp.from and pp.to: the number counts from->to across the shot (ease-out); pp.label text; pp.color gold|red|cyan.",
+  "clock": "Round analogue clock face, cream disc, 4 px dark outline, ticks, one hand. pp.from..pp.to in hours: the hand sweeps; pp.glow true adds a gold bloom.",
+  "bar": "Horizontal progress bar with 4 px outline, filled with pp.color (gold|red|cyan) to pp.frac of its width over the shot; pp.label above in FONTS.ui.",
+  "arrow": "Thick outlined curved arrow, pp.color gold|cyan|red, draws on across the shot.",
+  "flag": "Small green check mark badge in a round outlined cream disc with a tiny sparkle; or red cross when pp.bad true.",
+  "calendar": "Small wall calendar page, cream with a red top strip, 4 px outline; pp.text the date in FONTS.title (max 8 chars).",
+  "magnifier": "Outlined magnifying glass with a cream handle and pale glass; pp.s scale; pp.glow true adds a cyan bloom in the lens.",
+  "spoon": "A silver spoon with a dark 4 px outline, tilted; pp.s scale.",
+  "ring": "Pulsing cyan circle outline, 4 px, soft bloom, that expands and fades each second; pp.s scale.",
+  "scale": "Small balance scale icon, cream, 4 px outline, one pan tipped low; pp.s scale; pp.label text beneath."
+ },
+ "actions": {
+  "lookup": "Pip tilts head back (headTilt up), arms hang loose, small sway; eyes lift at p 0.2.",
+  "duck": "Pip drops into a crouch with both arms raised over the head at p 0.15 and holds with a small tremble.",
+  "spin": "Pip turns one slow full rotation (yaw/spin) across the shot while looking up.",
+  "flinch": "A quick squash and lean away at p 0.2 with arms up, then settles back by p 0.7.",
+  "pointup": "Pip's arm swings up to point at the sky at p 0.2 with a small overshoot."
+ },
+ "sfx_new": {},
+ "chapters": [
+  {
+   "n": 0,
+   "title": "COLD OPEN",
+   "sub": "",
+   "music": {
+    "mood": "tense",
+    "energy": 0.9
+   },
+   "vo": {
+    "stability": 0.4,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 1,
+   "title": "THE RULES",
+   "sub": "You are the small one.",
+   "music": {
+    "mood": "playful",
+    "energy": 0.4
+   },
+   "vo": {
+    "stability": 0.47,
+    "style": 0.38,
+    "speed": 1.04
+   },
+   "bed": {
+    "clip": "room_tone",
+    "gain": 0.04
+   }
+  },
+  {
+   "n": 2,
+   "title": "THE GIANT",
+   "sub": "Big Bao",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.55
+   },
+   "vo": {
+    "stability": 0.48,
+    "style": 0.38,
+    "speed": 0.97
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 3,
+   "title": "THE SPOON",
+   "sub": "2018",
+   "music": {
+    "mood": "mystery",
+    "energy": 0.6
+   },
+   "vo": {
+    "stability": 0.44,
+    "style": 0.38,
+    "speed": 0.99
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 4,
+   "title": "SEVEN LAPS",
+   "sub": "A year per lap",
+   "music": {
+    "mood": "tense",
+    "energy": 0.7
+   },
+   "vo": {
+    "stability": 0.42,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 5,
+   "title": "THE ERUPTION",
+   "sub": "17 October 2025",
+   "music": {
+    "mood": "triumph",
+    "energy": 0.95
+   },
+   "vo": {
+    "stability": 0.4,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 6,
+   "title": "THE WATCHERS",
+   "sub": "Telescopes on alert",
+   "music": {
+    "mood": "playful",
+    "energy": 0.5
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.38,
+    "speed": 1.02
+   },
+   "bed": {
+    "clip": "room_tone",
+    "gain": 0.04
+   }
+  },
+  {
+   "n": 7,
+   "title": "THE CORE",
+   "sub": "Webb looks back",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.6
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.38,
+    "speed": 0.97
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 8,
+   "title": "WHAT IT MEANS",
+   "sub": "More are coming",
+   "music": {
+    "mood": "warm",
+    "energy": 0.55
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.38,
+    "speed": 0.98
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  }
+ ],
+ "film": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "wide",
+   "vo": "You are a small star. And a giant star is swallowing you.",
+   "dir": "low, hushed; stress 'swallowing'",
+   "set": "binary",
+   "setp": {
+    "t": 0.9,
+    "close": 1.0,
+    "trail": 1.0
+   },
+   "cam": [
+    [
+     0.474,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.504,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "sideL",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "SWALLOWED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "drone_hit",
+     "word": "swallowing",
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "It weighs seven Suns, and it is three hundred fifty times wider.",
+   "dir": "awed; stress 'three hundred fifty'",
+   "set": "scale",
+   "setp": {
+    "t": 1.0,
+    "mark": 1.0,
+    "zoom": 0.6
+   },
+   "cam": [
+    [
+     0.507,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.493,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "WIDTH",
+     "value": "350x SUN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "med",
+   "vo": "This really happened. Astronomers watched it. The paper came out yesterday.",
+   "dir": "proud; stress 'yesterday'",
+   "set": "andromeda",
+   "setp": {
+    "t": 0.7,
+    "box": 1.0,
+    "glow": 1.0
+   },
+   "cam": [
+    [
+     0.502,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.531,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "NATURE - 18 NOV 2026"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "high",
+   "vo": "It is two and a half million light-years away, in Andromeda.",
+   "dir": "steady; stress 'two and a half million'",
+   "set": "andromeda",
+   "setp": {
+    "t": 0.9,
+    "box": 1.0,
+    "glow": 1.0
+   },
+   "cam": [
+    [
+     0.521,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.434,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "DISTANCE",
+     "value": "2.5 MILLION LY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "low",
+   "vo": "So what if you rode the small star all the way down?",
+   "dir": "hushed; stress 'all the way down'",
+   "set": "inside",
+   "setp": {
+    "t": 0.3,
+    "heat": 0.3,
+    "drag": 0.3
+   },
+   "cam": [
+    [
+     0.451,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.661,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "TO THE CORE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.05,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 1,
+   "size": "wide",
+   "vo": "Here are the rules.",
+   "dir": "bright, brisk",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.514,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.493,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "RULES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 1,
+   "size": "med",
+   "vo": "You are Little Bao. A star a bit smaller than our Sun.",
+   "dir": "friendly; stress 'Little Bao'",
+   "set": "binary",
+   "setp": {
+    "t": 0.15,
+    "close": 0.0,
+    "trail": 0.0
+   },
+   "cam": [
+    [
+     0.477,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.499,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "starsmall",
+     "x": 0.68,
+     "y": 0.38,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "YOU = LITTLE BAO"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 1,
+   "size": "close",
+   "vo": "Your friend is Big Bao. Big is the polite word.",
+   "dir": "wry; stress 'polite'",
+   "set": "binary",
+   "setp": {
+    "t": 0.3,
+    "close": 0.0,
+    "trail": 0.0
+   },
+   "cam": [
+    [
+     0.448,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.555,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "starbig",
+     "x": 0.62,
+     "y": 0.36,
+     "s": 1.3,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "BIG BAO"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.3,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 1,
+   "size": "insert",
+   "vo": "You bring nothing. You are a star. You are the luggage.",
+   "dir": "deadpan; stress 'luggage'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.572,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.493,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "LUGGAGE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 1,
+   "size": "low",
+   "vo": "You do not steer. Physics steers. Physics is not chatty.",
+   "dir": "dry; stress 'not chatty'",
+   "set": "binary",
+   "setp": {
+    "t": 0.5,
+    "close": 0.1,
+    "trail": 1.0
+   },
+   "cam": [
+    [
+     0.457,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.693,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "sideL",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "AUTOPILOT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "ch": 1,
+   "size": "high",
+   "vo": "The trip takes about seven years. Pack snacks.",
+   "dir": "light; stress 'seven years'",
+   "set": "timeline",
+   "setp": {
+    "t": 0.1,
+    "pins": 0.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.478,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.4,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "TRIP",
+     "value": "7 YEARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "ch": 1,
+   "size": "med",
+   "vo": "First, meet the giant you are about to visit.",
+   "dir": "bright; stress 'meet'",
+   "set": "bigstar",
+   "setp": {
+    "t": 0.3,
+    "glow": "gold",
+    "dust": 0.2
+   },
+   "cam": [
+    [
+     0.477,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.504,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "MEET BIG BAO"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "ch": 2,
+   "size": "pullout",
+   "vo": "Big Bao is a red giant. A very, very old star, puffed up.",
+   "dir": "friendly; stress 'puffed up'",
+   "set": "bigstar",
+   "setp": {
+    "t": 0.5,
+    "glow": "red",
+    "dust": 0.3
+   },
+   "cam": [
+    [
+     0.465,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.469,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "starbig",
+     "x": 0.68,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "RED GIANT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "ch": 2,
+   "size": "insert",
+   "vo": "It weighs about seven Suns.",
+   "dir": "clear; stress 'seven'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.605,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.412,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.62,
+     "y": 0.32,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 1,
+      "to": 7,
+      "label": "SUNS OF MASS",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "MASS",
+     "value": "7x SUN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "ch": 2,
+   "size": "high",
+   "vo": "It is three hundred fifty times wider than the Sun.",
+   "dir": "impressed; stress 'three hundred fifty'",
+   "set": "scale",
+   "setp": {
+    "t": 0.5,
+    "mark": 0.0,
+    "zoom": 0.3
+   },
+   "cam": [
+    [
+     0.508,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.369,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 1,
+      "to": 350,
+      "label": "SUN WIDTHS",
+      "color": "red"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "350x WIDER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.6,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "ch": 2,
+   "size": "wide",
+   "vo": "Put it where our Sun is, and its surface would pass Mars.",
+   "dir": "tense; stress 'pass Mars'",
+   "set": "scale",
+   "setp": {
+    "t": 0.75,
+    "mark": 0.0,
+    "zoom": 0.8
+   },
+   "cam": [
+    [
+     0.463,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.532,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "duck"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SURFACE PAST MARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "ch": 2,
+   "size": "low",
+   "vo": "Earth would be inside it. Along with everything you have ever met.",
+   "dir": "wry, quiet; stress 'inside'",
+   "set": "scale",
+   "setp": {
+    "t": 1.0,
+    "mark": 1.0,
+    "zoom": 0.9
+   },
+   "cam": [
+    [
+     0.54,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.67,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "EARTH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "pop",
+     "at": 0.5,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "ch": 2,
+   "size": "close",
+   "vo": "It is also eighteen thousand times brighter than the Sun.",
+   "dir": "awed; stress 'eighteen thousand'",
+   "set": "bigstar",
+   "setp": {
+    "t": 0.8,
+    "glow": "white",
+    "dust": 0.3
+   },
+   "cam": [
+    [
+     0.401,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.61,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.66,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 1,
+      "to": 18000,
+      "label": "SUNS OF LIGHT",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "BRIGHTNESS",
+     "value": "18,000x SUN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "ding",
+     "at": 0.6,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "ch": 2,
+   "size": "insert",
+   "vo": "Next to it, you are a pebble with a glow.",
+   "dir": "wry; stress 'pebble'",
+   "set": "binary",
+   "setp": {
+    "t": 0.4,
+    "close": 0.1,
+    "trail": 0.0
+   },
+   "cam": [
+    [
+     0.609,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.478,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "starsmall",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 0.7,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "YOU"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.3,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "ch": 2,
+   "size": "med",
+   "vo": "And you weigh about seventy percent of the Sun.",
+   "dir": "matter-of-fact; stress 'seventy percent'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.508,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.503,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.55,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 0.7,
+      "color": "cyan",
+      "label": "YOU vs THE SUN"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "YOUR MASS",
+     "value": "0.7x SUN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "ch": 2,
+   "size": "high",
+   "vo": "That is the first time anyone has ever measured you.",
+   "dir": "proud, warm; stress 'first time'",
+   "set": "lab",
+   "setp": {
+    "alert": 0.0,
+    "ok": 1.0
+   },
+   "cam": [
+    [
+     0.541,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.435,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "FIRST ESTIMATE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.35
+    },
+    {
+     "clip": "crowd_cheer",
+     "at": 0.4,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "ch": 2,
+   "size": "pan",
+   "vo": "Scientists found your weight by doing their sums on the dust.",
+   "dir": "curious; stress 'dust'",
+   "set": "bigstar",
+   "setp": {
+    "t": 0.2,
+    "glow": "red",
+    "dust": 0.9
+   },
+   "cam": [
+    [
+     0.332,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.54,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "WEIGHED USING THE DUST"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "ch": 2,
+   "size": "panr",
+   "vo": "You two had been circling quietly for ages. Millennia, even.",
+   "dir": "slow, calm; stress 'millennia'",
+   "set": "binary",
+   "setp": {
+    "t": 0.7,
+    "close": 0.0,
+    "trail": 1.0
+   },
+   "cam": [
+    [
+     0.711,
+     0.5,
+     1.3
+    ],
+    [
+     0.3,
+     0.472,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "sideL",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.62,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 9,
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "ORBITING FOR",
+     "value": "MILLENNIA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "room_tone",
+     "at": 0.0,
+     "gain": 0.2
+    },
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "ch": 2,
+   "size": "tilt",
+   "vo": "Then your orbit dipped, just a little, and everything changed.",
+   "dir": "building; stress 'dipped'",
+   "set": "binary",
+   "setp": {
+    "t": 0.95,
+    "close": 0.35,
+    "trail": 1.0
+   },
+   "cam": [
+    [
+     0.46,
+     0.8,
+     1.3
+    ],
+    [
+     0.5,
+     0.23,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimR",
+    "act": "flinch"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "THEN IT DIPPED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "drone_hit",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "ch": 3,
+   "size": "med",
+   "vo": "Picture a spoon in thick soup.",
+   "dir": "calm; stress 'thick soup'",
+   "set": "bowl",
+   "setp": {
+    "t": 0.2,
+    "steam": 0.6
+   },
+   "cam": [
+    [
+     0.528,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.506,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "spoon",
+     "x": 0.62,
+     "y": 0.35,
+     "s": 1.1,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cream",
+     "text": "THICK SOUP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "ch": 3,
+   "size": "insert",
+   "vo": "Drag it through, and the soup pushes back.",
+   "dir": "gentle; stress 'pushes back'",
+   "set": "bowl",
+   "setp": {
+    "t": 0.7,
+    "steam": 0.8
+   },
+   "cam": [
+    [
+     0.645,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.496,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SOUP PUSHES BACK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "step",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "ch": 3,
+   "size": "close",
+   "vo": "That is you. The giant's outer layers are the soup.",
+   "dir": "bright; stress 'you'",
+   "set": "inside",
+   "setp": {
+    "t": 0.15,
+    "heat": 0.1,
+    "drag": 0.1
+   },
+   "cam": [
+    [
+     0.44,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.63,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "starsmall",
+     "x": 0.68,
+     "y": 0.34,
+     "s": 0.7,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "YOU = THE SPOON"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.2,
+     "gain": 0.25
+    },
+    {
+     "clip": "pop",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S28",
+   "ch": 3,
+   "size": "high",
+   "vo": "In twenty eighteen your orbit starts brushing its outer atmosphere.",
+   "dir": "clear; stress '2018'",
+   "set": "timeline",
+   "setp": {
+    "t": 0.15,
+    "pins": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.487,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.38,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.7,
+     "y": 0.28,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "text": "2018"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "BRUSH WITH A GIANT",
+     "value": "2018"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S29",
+   "ch": 3,
+   "size": "low",
+   "vo": "Drag. Slow, patient drag. Your orbit starts to shrink.",
+   "dir": "tense; stress 'shrink'",
+   "set": "binary",
+   "setp": {
+    "t": 0.6,
+    "close": 0.45,
+    "trail": 1.0
+   },
+   "cam": [
+    [
+     0.484,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.689,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "crouch",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "ORBIT SHRINKING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S30",
+   "ch": 3,
+   "size": "wide",
+   "vo": "And the system begins to glow, very slowly, a little brighter.",
+   "dir": "wondering; stress 'brighter'",
+   "set": "curve",
+   "setp": {
+    "t": 0.45,
+    "phase": "rise",
+    "zoom": 0.0
+   },
+   "cam": [
+    [
+     0.451,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.481,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "SLOW BRIGHTENING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S31",
+   "ch": 3,
+   "size": "med",
+   "vo": "Friction turns your orbital energy into light.",
+   "dir": "explaining; stress 'light'",
+   "set": "inside",
+   "setp": {
+    "t": 0.3,
+    "heat": 0.4,
+    "drag": 0.3
+   },
+   "cam": [
+    [
+     0.465,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.472,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "FRICTION=LIGHT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S32",
+   "ch": 3,
+   "size": "insert",
+   "vo": "A star's version of rubbing your hands to warm them.",
+   "dir": "playful; stress 'rubbing'",
+   "set": "inside",
+   "setp": {
+    "t": 0.4,
+    "heat": 0.5,
+    "drag": 0.4
+   },
+   "cam": [
+    [
+     0.625,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.423,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "RUB HANDS. WARM UP."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.3,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S33",
+   "ch": 3,
+   "size": "pan",
+   "vo": "Nobody on Earth knows yet. But some telescopes are already looking.",
+   "dir": "building; stress 'already looking'",
+   "set": "timeline",
+   "setp": {
+    "t": 0.3,
+    "pins": 2.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.29,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.532,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "NEOWISE - 2023"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S34",
+   "ch": 3,
+   "size": "close",
+   "vo": "In February twenty twenty-three, NASA's NEOWISE flags something odd.",
+   "dir": "clear; stress 'odd'",
+   "set": "curve",
+   "setp": {
+    "t": 0.5,
+    "phase": "quiet",
+    "zoom": 0.0
+   },
+   "cam": [
+    [
+     0.384,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.637,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "magnifier",
+     "x": 0.65,
+     "y": 0.35,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "FLAGGED",
+     "value": "FEB 2023"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "pop",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S35",
+   "ch": 3,
+   "size": "high",
+   "vo": "Before twenty eighteen, the star was steady. Now it is not.",
+   "dir": "puzzled; stress 'not'",
+   "set": "curve",
+   "setp": {
+    "t": 0.6,
+    "phase": "rise",
+    "zoom": 0.2
+   },
+   "cam": [
+    [
+     0.519,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.425,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "STEADY BEFORE 2018"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S36",
+   "ch": 3,
+   "size": "med",
+   "vo": "They keep watching. Which is the whole point of this story.",
+   "dir": "warm; stress 'watching'",
+   "set": "lab",
+   "setp": {
+    "alert": 0.0,
+    "ok": 0.0
+   },
+   "cam": [
+    [
+     0.534,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.522,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "KEEP WATCHING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S37",
+   "ch": 3,
+   "size": "pan",
+   "vo": "By September twenty twenty-four, a survey sees dust pouring off it.",
+   "dir": "clear; stress 'dust'",
+   "set": "bigstar",
+   "setp": {
+    "t": 0.6,
+    "glow": "red",
+    "dust": 0.7
+   },
+   "cam": [
+    [
+     0.256,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.514,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "SEPT 2024",
+     "value": "DUST SEEN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S38",
+   "ch": 3,
+   "size": "low",
+   "vo": "You are leaking material, and it is getting crowded.",
+   "dir": "tense; stress 'crowded'",
+   "set": "bigstar",
+   "setp": {
+    "t": 0.9,
+    "glow": "gold",
+    "dust": 1.0
+   },
+   "cam": [
+    [
+     0.481,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.703,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "duck"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "CROWDED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S39",
+   "ch": 4,
+   "size": "wide",
+   "vo": "Now the lap count. A lap is one trip round the giant.",
+   "dir": "clear; stress 'lap'",
+   "set": "binary",
+   "setp": {
+    "t": 0.2,
+    "close": 0.5,
+    "trail": 1.0
+   },
+   "cam": [
+    [
+     0.454,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.538,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "LAP COUNT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S40",
+   "ch": 4,
+   "size": "med",
+   "vo": "Lap one. You skim the atmosphere. Everything is fine.",
+   "dir": "calm, light; stress 'fine'",
+   "set": "binary",
+   "setp": {
+    "t": 0.4,
+    "close": 0.5,
+    "trail": 1.0
+   },
+   "cam": [
+    [
+     0.487,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.47,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 1,
+      "label": "LAP",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "LAP",
+     "value": "1 OF 7"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S41",
+   "ch": 4,
+   "size": "close",
+   "vo": "Lap three. You are lower. The soup is thicker.",
+   "dir": "building; stress 'thicker'",
+   "set": "binary",
+   "setp": {
+    "t": 0.7,
+    "close": 0.6,
+    "trail": 1.0
+   },
+   "cam": [
+    [
+     0.422,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.564,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 3,
+      "label": "LAP",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "LAP",
+     "value": "3 OF 7"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S42",
+   "ch": 4,
+   "size": "insert",
+   "vo": "Lap five. The gas around you glows orange.",
+   "dir": "tense; stress 'glows'",
+   "set": "inside",
+   "setp": {
+    "t": 0.5,
+    "heat": 0.6,
+    "drag": 0.6
+   },
+   "cam": [
+    [
+     0.604,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.434,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "flinch"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 5,
+      "label": "LAP",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "LAP",
+     "value": "5 OF 7"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "drone_hit",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S43",
+   "ch": 4,
+   "size": "high",
+   "vo": "Each lap takes about a year. Each lap gets tighter.",
+   "dir": "steady; stress 'tighter'",
+   "set": "binary",
+   "setp": {
+    "t": 0.85,
+    "close": 0.75,
+    "trail": 1.0
+   },
+   "cam": [
+    [
+     0.503,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.425,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.6,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 12
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "ONE LAP = ABOUT A YEAR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S44",
+   "ch": 4,
+   "size": "med",
+   "vo": "Other star mergers took thousands of laps to happen.",
+   "dir": "impressed; stress 'thousands'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.463,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.493,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.6,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 3000,
+      "label": "LAPS (OTHERS)",
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "OTHER MERGERS",
+     "value": "1000s OF LAPS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S45",
+   "ch": 4,
+   "size": "insert",
+   "vo": "Yours? About seven. Hold on to your halo.",
+   "dir": "bright; stress 'seven'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.632,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.426,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.6,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 7,
+      "label": "LAPS (YOU)",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "YOURS",
+     "value": "7 LAPS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "pop",
+     "at": 0.6,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S46",
+   "ch": 4,
+   "size": "low",
+   "vo": "The giant's gas drags you in like quicksand made of fire.",
+   "dir": "dramatic; stress 'quicksand'",
+   "set": "inside",
+   "setp": {
+    "t": 0.65,
+    "heat": 0.75,
+    "drag": 0.8
+   },
+   "cam": [
+    [
+     0.52,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.655,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "crouch",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "FIRE QUICKSAND"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "fireball_roar",
+     "at": 0.55,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S47",
+   "ch": 4,
+   "size": "close",
+   "vo": "Lap six. You are almost at the centre.",
+   "dir": "hushed; stress 'six'",
+   "set": "inside",
+   "setp": {
+    "t": 0.8,
+    "heat": 0.85,
+    "drag": 0.9
+   },
+   "cam": [
+    [
+     0.405,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.563,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 6,
+      "label": "LAP",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "LAP",
+     "value": "6 OF 7"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S48",
+   "ch": 4,
+   "size": "pan",
+   "vo": "In July twenty twenty-five, NASA's SPHEREx sees it fade in visible light.",
+   "dir": "clear; stress 'fade'",
+   "set": "timeline",
+   "setp": {
+    "t": 0.7,
+    "pins": 3.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.275,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.503,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "SPHEREx - JULY 2025"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S49",
+   "ch": 4,
+   "size": "high",
+   "vo": "And brighten in infrared. That swap is a loud alarm bell.",
+   "dir": "building; stress 'alarm bell'",
+   "set": "curve",
+   "setp": {
+    "t": 0.7,
+    "phase": "rise",
+    "zoom": 0.4
+   },
+   "cam": [
+    [
+     0.464,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.448,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "VISIBLE DOWN, INFRARED UP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S50",
+   "ch": 4,
+   "size": "tilt",
+   "vo": "Dust is hiding the star's light. Something big is coming.",
+   "dir": "tense; stress 'big'",
+   "set": "bigstar",
+   "setp": {
+    "t": 0.95,
+    "glow": "red",
+    "dust": 1.0
+   },
+   "cam": [
+    [
+     0.506,
+     0.8,
+     1.3
+    ],
+    [
+     0.5,
+     0.261,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "flinch"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "SOMETHING BIG"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S51",
+   "ch": 4,
+   "size": "wide",
+   "vo": "The astronomers do not know when. You know. It is lap seven.",
+   "dir": "dramatic; stress 'lap seven'",
+   "set": "binary",
+   "setp": {
+    "t": 1.0,
+    "close": 0.95,
+    "trail": 1.0
+   },
+   "cam": [
+    [
+     0.46,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.488,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "duck"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 7,
+      "label": "FINAL LAP",
+      "color": "red"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "LAP",
+     "value": "7 OF 7"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "drone_hit",
+     "at": 0.3,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S52",
+   "ch": 5,
+   "size": "close",
+   "vo": "You touch the giant's surface, and the final plunge begins.",
+   "dir": "hushed then fast; stress 'plunge'",
+   "set": "binary",
+   "setp": {
+    "t": 1.0,
+    "close": 1.0,
+    "trail": 1.0
+   },
+   "cam": [
+    [
+     0.442,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.581,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "crouch",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "jump"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "PLUNGE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.4,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S53",
+   "ch": 5,
+   "size": "low",
+   "vo": "Down you go through the gas, faster and faster.",
+   "dir": "fast; stress 'faster'",
+   "set": "inside",
+   "setp": {
+    "t": 0.88,
+    "heat": 0.95,
+    "drag": 1.0
+   },
+   "cam": [
+    [
+     0.453,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.703,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "FASTER AND FASTER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fireball_roar",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S54",
+   "ch": 5,
+   "size": "high",
+   "vo": "Above you, the whole star lights up.",
+   "dir": "awed; stress 'lights up'",
+   "set": "bigstar",
+   "setp": {
+    "t": 1.0,
+    "glow": "white",
+    "dust": 0.4
+   },
+   "cam": [
+    [
+     0.483,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.422,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "THE STAR LIGHTS UP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S55",
+   "ch": 5,
+   "size": "wide",
+   "vo": "Then, on the seventeenth of October twenty twenty-five, it erupts.",
+   "dir": "explosive; stress 'erupts'",
+   "set": "blast",
+   "setp": {
+    "t": 0.3,
+    "flash": 1.0,
+    "dust": 0.4
+   },
+   "cam": [
+    [
+     0.498,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.547,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "flinch"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.7,
+     "y": 0.28,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "text": "17 OCT"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "ERUPTION"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.5
+    },
+    {
+     "clip": "fireball_roar",
+     "at": 0.6,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "S56",
+   "ch": 5,
+   "size": "pullout",
+   "vo": "A flash that fills the sky of a galaxy.",
+   "dir": "awed; stress 'galaxy'",
+   "set": "andromeda",
+   "setp": {
+    "t": 1.0,
+    "box": 1.0,
+    "glow": 1.0
+   },
+   "cam": [
+    [
+     0.53,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.487,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "A FLASH IN ANDROMEDA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S57",
+   "ch": 5,
+   "size": "high",
+   "vo": "In under a month, it brightens about a hundred times.",
+   "dir": "clear; stress 'hundred'",
+   "set": "curve",
+   "setp": {
+    "t": 0.85,
+    "phase": "spike",
+    "zoom": 0.3
+   },
+   "cam": [
+    [
+     0.487,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.352,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 1,
+      "to": 100,
+      "label": "x BRIGHTER",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "BRIGHTER",
+     "value": "~100x IN <1 MONTH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S58",
+   "ch": 5,
+   "size": "insert",
+   "vo": "Someone spots it first. An amateur astronomer, with a flash of luck.",
+   "dir": "warm, amused; stress 'amateur'",
+   "set": "andromeda",
+   "setp": {
+    "t": 0.95,
+    "box": 1.0,
+    "glow": 1.0
+   },
+   "cam": [
+    [
+     0.632,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.41,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "AN AMATEUR SAW IT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "pop",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S59",
+   "ch": 5,
+   "size": "med",
+   "vo": "The team had been watching that very spot for years.",
+   "dir": "proud; stress 'years'",
+   "set": "lab",
+   "setp": {
+    "alert": 1.0,
+    "ok": 0.0
+   },
+   "cam": [
+    [
+     0.533,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.505,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "WATCHING THAT SPOT FOR YEARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S60",
+   "ch": 5,
+   "size": "low",
+   "vo": "Nobody expected a bang in their lifetime. These stars stay calm for ages.",
+   "dir": "amazed; stress 'lifetime'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.475,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.651,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "NOT IN A LIFE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S61",
+   "ch": 5,
+   "size": "close",
+   "vo": "Luck. Patience. And a spreadsheet that never blinked.",
+   "dir": "playful; stress 'never blinked'",
+   "set": "lab",
+   "setp": {
+    "alert": 0.0,
+    "ok": 1.0
+   },
+   "cam": [
+    [
+     0.382,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.604,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "LUCK + PATIENCE + SPREADSHEET"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.3,
+     "gain": 0.25
+    },
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S62",
+   "ch": 5,
+   "size": "pan",
+   "vo": "Now, the race. Every telescope on call wants a look.",
+   "dir": "brisk; stress 'race'",
+   "set": "lab",
+   "setp": {
+    "alert": 1.0,
+    "ok": 0.0
+   },
+   "cam": [
+    [
+     0.277,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.464,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "ALL HANDS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "buzzer",
+     "at": 0.3,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S63",
+   "ch": 6,
+   "size": "med",
+   "vo": "The Zwicky Transient Facility confirms it on the seventeenth.",
+   "dir": "clear; stress 'confirms'",
+   "set": "lab",
+   "setp": {
+    "alert": 0.6,
+    "ok": 0.3
+   },
+   "cam": [
+    [
+     0.503,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.46,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "ZTF",
+     "value": "17 OCT 2025"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S64",
+   "ch": 6,
+   "size": "high",
+   "vo": "In November, NASA's Swift looks. So does Gemini North, in Hawaii.",
+   "dir": "bright; stress 'Hawaii'",
+   "set": "timeline",
+   "setp": {
+    "t": 0.85,
+    "pins": 4.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.481,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.351,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "SWIFT + GEMINI NORTH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "pop",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S65",
+   "ch": 6,
+   "size": "insert",
+   "vo": "Every night, a new spectrum. Every spectrum, a new clue.",
+   "dir": "rhythmic; stress 'clue'",
+   "set": "curve",
+   "setp": {
+    "t": 0.95,
+    "phase": "fade",
+    "zoom": 0.5
+   },
+   "cam": [
+    [
+     0.554,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.413,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "magnifier",
+     "x": 0.65,
+     "y": 0.35,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NEW SPECTRUM. NEW CLUE."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S66",
+   "ch": 6,
+   "size": "wide",
+   "vo": "They all say the same thing: a smaller star fell into a giant.",
+   "dir": "building; stress 'fell into'",
+   "set": "binary",
+   "setp": {
+    "t": 1.0,
+    "close": 1.0,
+    "trail": 1.0
+   },
+   "cam": [
+    [
+     0.457,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.503,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "A STAR FELL IN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S67",
+   "ch": 6,
+   "size": "low",
+   "vo": "But did you escape, or did you merge? Nobody knows yet.",
+   "dir": "tense; stress 'merge'",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.469,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.672,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "bad": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "ESCAPE OR MERGE?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "drone_hit",
+     "at": 0.3,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S68",
+   "ch": 6,
+   "size": "pullout",
+   "vo": "Some pairs survive this dance. They end up in tight, shrunken orbits.",
+   "dir": "clear; stress 'survive'",
+   "set": "binary",
+   "setp": {
+    "t": 0.6,
+    "close": 0.8,
+    "trail": 1.0
+   },
+   "cam": [
+    [
+     0.538,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.545,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "SOME PAIRS",
+     "value": "SURVIVE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S69",
+   "ch": 6,
+   "size": "high",
+   "vo": "So the telescopes need one more clue. A big one.",
+   "dir": "building; stress 'big'",
+   "set": "scope",
+   "setp": {
+    "t": 0.4,
+    "look": 0.6,
+    "blink": 0.0
+   },
+   "cam": [
+    [
+     0.542,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.438,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "ONE MORE CLUE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S70",
+   "ch": 6,
+   "size": "wide",
+   "vo": "Enter the James Webb Space Telescope.",
+   "dir": "grand; stress 'Webb'",
+   "set": "scope",
+   "setp": {
+    "t": 0.7,
+    "look": 0.9,
+    "blink": 1.0
+   },
+   "cam": [
+    [
+     0.467,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.499,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "JAMES WEBB"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S71",
+   "ch": 6,
+   "size": "pan",
+   "vo": "It wants to look at the dust the giant shed over centuries.",
+   "dir": "curious; stress 'centuries'",
+   "set": "bigstar",
+   "setp": {
+    "t": 0.7,
+    "glow": "red",
+    "dust": 1.0
+   },
+   "cam": [
+    [
+     0.34,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.518,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "CENTURIES OF DUST"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S72",
+   "ch": 6,
+   "size": "insert",
+   "vo": "Dust holds the answer. How much dust, how much gas, how much star.",
+   "dir": "explaining; stress 'how much'",
+   "set": "scope",
+   "setp": {
+    "t": 0.8,
+    "look": 1.0,
+    "blink": 1.0
+   },
+   "cam": [
+    [
+     0.63,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.495,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "INFRARED EYES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S73",
+   "ch": 6,
+   "size": "med",
+   "vo": "The date is the twenty-fourth of December. Christmas Eve.",
+   "dir": "warm, amused; stress 'Christmas Eve'",
+   "set": "timeline",
+   "setp": {
+    "t": 1.0,
+    "pins": 4.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.498,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.512,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.7,
+     "y": 0.28,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "text": "24 DEC"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "WEBB LOOKS",
+     "value": "24 DEC 2025"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.35
+    },
+    {
+     "clip": "crowd_cheer",
+     "at": 0.4,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S74",
+   "ch": 6,
+   "size": "close",
+   "vo": "That is forty-seven days after the peak.",
+   "dir": "clear; stress 'forty-seven'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.386,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.613,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.6,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 47,
+      "label": "DAYS AFTER PEAK",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "AFTER THE PEAK",
+     "value": "47 DAYS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S75",
+   "ch": 6,
+   "size": "low",
+   "vo": "The earliest anyone has ever followed up a merger like this.",
+   "dir": "proud; stress 'earliest'",
+   "set": "scope",
+   "setp": {
+    "t": 0.95,
+    "look": 0.7,
+    "blink": 1.0
+   },
+   "cam": [
+    [
+     0.46,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.736,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.2,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "EARLIEST EVER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "crowd_cheer",
+     "at": 0.4,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S76",
+   "ch": 7,
+   "size": "insert",
+   "vo": "What did Webb see? A tiny red-and-white dot, wrapped in dust.",
+   "dir": "hushed; stress 'dust'",
+   "set": "scope",
+   "setp": {
+    "t": 0.5,
+    "look": 1.0,
+    "blink": 0.0
+   },
+   "cam": [
+    [
+     0.628,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.482,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "A TINY RED-AND-WHITE DOT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S77",
+   "ch": 7,
+   "size": "high",
+   "vo": "The scientists ran their computer models over and over.",
+   "dir": "brisk; stress 'over and over'",
+   "set": "lab",
+   "setp": {
+    "alert": 0.0,
+    "ok": 0.0
+   },
+   "cam": [
+    [
+     0.464,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.392,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "SIMULATIONS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "counter_tick",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S78",
+   "ch": 7,
+   "size": "med",
+   "vo": "One model matched Webb's picture of the dust perfectly.",
+   "dir": "satisfied; stress 'matched'",
+   "set": "lab",
+   "setp": {
+    "alert": 0.0,
+    "ok": 1.0
+   },
+   "cam": [
+    [
+     0.498,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.466,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "MODEL",
+     "value": "MATCHED WEBB"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "pop",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S79",
+   "ch": 7,
+   "size": "wide",
+   "vo": "The model said you had enough energy left to flee.",
+   "dir": "tense; stress 'flee'",
+   "set": "binary",
+   "setp": {
+    "t": 1.0,
+    "close": 1.0,
+    "trail": 1.0
+   },
+   "cam": [
+    [
+     0.543,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.47,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "act": "flinch"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "ENOUGH ENERGY TO FLEE?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S80",
+   "ch": 7,
+   "size": "close",
+   "vo": "But a deeper check said no.",
+   "dir": "a beat; stress 'no'",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.419,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.569,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "bad": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "NO."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.6,
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "id": "S81",
+   "ch": 7,
+   "size": "low",
+   "vo": "You were dragged into the giant's core.",
+   "dir": "low, serious; stress 'core'",
+   "set": "core",
+   "setp": {
+    "t": 0.3,
+    "shock": 0.0
+   },
+   "cam": [
+    [
+     0.502,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.737,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "crouch",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "INTO THE CORE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S82",
+   "ch": 7,
+   "size": "high",
+   "vo": "A Columbia scientist said: almost like a bomb inside a living star.",
+   "dir": "quoting; stress 'bomb'",
+   "set": "core",
+   "setp": {
+    "t": 0.7,
+    "shock": 0.6
+   },
+   "cam": [
+    [
+     0.458,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.351,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "act": "duck"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "'A BOMB INSIDE A LIVING STAR'"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fireball_roar",
+     "at": 0.6,
+     "gain": 0.5
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.6,
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "id": "S83",
+   "ch": 7,
+   "size": "med",
+   "vo": "And you? You become part of the giant. One star, instead of two.",
+   "dir": "gentle, awed; stress 'one star'",
+   "set": "core",
+   "setp": {
+    "t": 1.0,
+    "shock": 1.0
+   },
+   "cam": [
+    [
+     0.489,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.52,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "MERGED",
+     "value": "2 STARS TO 1"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.3
+    },
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S84",
+   "ch": 7,
+   "size": "wide",
+   "vo": "The blast threw off about a tenth of the giant's gas.",
+   "dir": "clear; stress 'tenth'",
+   "set": "blast",
+   "setp": {
+    "t": 0.7,
+    "flash": 0.2,
+    "dust": 0.8
+   },
+   "cam": [
+    [
+     0.51,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.475,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.55,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 0.1,
+      "color": "gold",
+      "label": "GIANT'S GAS LOST"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "GAS LOST",
+     "value": "ABOUT 10%"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fireball_roar",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S85",
+   "ch": 7,
+   "size": "pan",
+   "vo": "It flew away at roughly ten times escape speed.",
+   "dir": "amazed; stress 'ten times'",
+   "set": "blast",
+   "setp": {
+    "t": 0.9,
+    "flash": 0.0,
+    "dust": 0.8
+   },
+   "cam": [
+    [
+     0.305,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.501,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 10,
+      "label": "x ESCAPE SPEED",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "SPEED",
+     "value": "10x ESCAPE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "message_whoosh",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S86",
+   "ch": 7,
+   "size": "high",
+   "vo": "Up and down it flew free. Old dust held back the middle.",
+   "dir": "explaining; stress 'middle'",
+   "set": "blast",
+   "setp": {
+    "t": 1.0,
+    "flash": 0.0,
+    "dust": 1.0
+   },
+   "cam": [
+    [
+     0.535,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.36,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "FREE UP/DOWN, HELD AT MIDDLE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S87",
+   "ch": 7,
+   "size": "insert",
+   "vo": "The result looks a bit like a dusty hourglass in the sky.",
+   "dir": "playful; stress 'hourglass'",
+   "set": "blast",
+   "setp": {
+    "t": 1.0,
+    "flash": 0.0,
+    "dust": 0.6
+   },
+   "cam": [
+    [
+     0.567,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.457,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "DUSTY HOURGLASS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S88",
+   "ch": 7,
+   "size": "low",
+   "vo": "You. A star. Gone, in seven years.",
+   "dir": "a beat; stress 'seven years'",
+   "set": "timeline",
+   "setp": {
+    "t": 1.0,
+    "pins": 4.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.533,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.673,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "7 YEARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "drone_hit",
+     "at": 0.4,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S89",
+   "ch": 8,
+   "size": "med",
+   "vo": "So why does this one matter?",
+   "dir": "curious; stress 'matter'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.501,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.451,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "WHY IT MATTERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S90",
+   "ch": 8,
+   "size": "high",
+   "vo": "This is called common envelope evolution.",
+   "dir": "clear; stress 'common envelope'",
+   "set": "inside",
+   "setp": {
+    "t": 0.5,
+    "heat": 0.4,
+    "drag": 0.3
+   },
+   "cam": [
+    [
+     0.487,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.362,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "THE ENVELOPE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S91",
+   "ch": 8,
+   "size": "pullout",
+   "vo": "It is how many tight pairs of stars get made.",
+   "dir": "brisk; stress 'tight pairs'",
+   "set": "binary",
+   "setp": {
+    "t": 0.5,
+    "close": 0.9,
+    "trail": 0.0
+   },
+   "cam": [
+    [
+     0.454,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.549,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "HOW TIGHT PAIRS FORM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S92",
+   "ch": 8,
+   "size": "low",
+   "vo": "Some of those pairs later become neutron stars. Or black holes.",
+   "dir": "awed; stress 'black holes'",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.452,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.696,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "LATER",
+     "value": "NEUTRON STARS, ETC"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S93",
+   "ch": 8,
+   "size": "wide",
+   "vo": "Some send out ripples in space itself. Gravitational waves.",
+   "dir": "wonder; stress 'gravitational waves'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.54,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.55,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "GRAVITATIONAL WAVES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S94",
+   "ch": 8,
+   "size": "med",
+   "vo": "Until now, astronomers had to work backwards from old wreckage.",
+   "dir": "clear; stress 'backwards'",
+   "set": "lab",
+   "setp": {
+    "alert": 0.0,
+    "ok": 0.0
+   },
+   "cam": [
+    [
+     0.516,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.488,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "BEFORE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.1,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S95",
+   "ch": 8,
+   "size": "high",
+   "vo": "With you, they watched it live, before, during and after.",
+   "dir": "proud; stress 'live'",
+   "set": "timeline",
+   "setp": {
+    "t": 1.0,
+    "pins": 4.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.543,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.437,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "WATCHED LIVE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "crowd_cheer",
+     "at": 0.4,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S96",
+   "ch": 8,
+   "size": "pan",
+   "vo": "And it is not over. Bao's fate is still a mystery.",
+   "dir": "honest; stress 'mystery'",
+   "set": "bigstar",
+   "setp": {
+    "t": 0.5,
+    "glow": "red",
+    "dust": 1.0
+   },
+   "cam": [
+    [
+     0.296,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.452,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "BAO'S FATE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    },
+    {
+     "clip": "drone_hit",
+     "at": 0.3,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S97",
+   "ch": 8,
+   "size": "insert",
+   "vo": "Dust hides the new star. It may take years, even decades, to settle.",
+   "dir": "quiet; stress 'decades'",
+   "set": "bigstar",
+   "setp": {
+    "t": 0.8,
+    "glow": "gold",
+    "dust": 1.0
+   },
+   "cam": [
+    [
+     0.571,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.435,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.62,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 12,
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "SETTLING",
+     "value": "YEARS TO DECADES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S98",
+   "ch": 8,
+   "size": "wide",
+   "vo": "Soon there will be more. NASA's Roman telescope starts its surveys.",
+   "dir": "bright; stress 'Roman'",
+   "set": "roman",
+   "setp": {
+    "t": 0.5,
+    "sparks": 0.6
+   },
+   "cam": [
+    [
+     0.503,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.47,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "NASA ROMAN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "pop",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S99",
+   "ch": 8,
+   "size": "high",
+   "vo": "The lead author expects a large influx of similar discoveries.",
+   "dir": "quoting; stress 'influx'",
+   "set": "roman",
+   "setp": {
+    "t": 0.9,
+    "sparks": 1.0
+   },
+   "cam": [
+    [
+     0.511,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.436,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "'A LARGE INFLUX' - KARAMBELKAR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.3
+    },
+    {
+     "clip": "crowd_cheer",
+     "at": 0.4,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S100",
+   "ch": 8,
+   "size": "pullout",
+   "vo": "Remember the first line? A small star, swallowed by a giant.",
+   "dir": "callback, smiling; stress 'swallowing'",
+   "set": "binary",
+   "setp": {
+    "t": 0.95,
+    "close": 1.0,
+    "trail": 1.0
+   },
+   "cam": [
+    [
+     0.467,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.474,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "sideL",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "YOU ARE A SMALL STAR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S101",
+   "ch": 8,
+   "size": "high",
+   "vo": "Now you know how a telescope, a spreadsheet and luck watched it happen.",
+   "dir": "satisfied; stress 'luck'",
+   "set": "andromeda",
+   "setp": {
+    "t": 0.9,
+    "box": 1.0,
+    "glow": 1.0
+   },
+   "cam": [
+    [
+     0.455,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.365,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "TELESCOPES + PATIENCE + LUCK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.2,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S102",
+   "ch": 8,
+   "size": "close",
+   "vo": "Tomorrow: what if the Moon vanished for one night?",
+   "dir": "teasing; stress 'vanished'",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.388,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.606,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "TOMORROW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S103",
+   "ch": 8,
+   "size": "med",
+   "vo": "Would you ride the small star or the giant? Tell me below.",
+   "dir": "friendly; stress 'ride'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.474,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.465,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "YOUR PICK?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  }
+ ],
+ "short": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "wide",
+   "vo": "You are a small star. A giant star is swallowing you.",
+   "dir": "low, hushed; stress 'swallowing'",
+   "set": "binary",
+   "setp": {
+    "t": 0.9,
+    "close": 1.0,
+    "trail": 1.0
+   },
+   "cam": [
+    [
+     0.474,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.504,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "sideL",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "SWALLOWED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.35
+    },
+    {
+     "clip": "drone_hit",
+     "word": "swallowing",
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "It is three hundred fifty times wider than the Sun.",
+   "dir": "awed; stress 'three hundred fifty'",
+   "set": "scale",
+   "setp": {
+    "t": 1.0,
+    "mark": 1.0,
+    "zoom": 0.8
+   },
+   "cam": [
+    [
+     0.507,
+     0.5,
+     1.52
+    ],
+    [
+     0.5,
+     0.493,
+     0.95
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "WIDTH",
+     "value": "350x SUN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "med",
+   "vo": "Its surface would reach past Mars.",
+   "dir": "steady; stress 'Mars'",
+   "set": "scale",
+   "setp": {
+    "t": 0.75,
+    "mark": 0.0,
+    "zoom": 0.6
+   },
+   "cam": [
+    [
+     0.502,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.531,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "top",
+     "color": "cream",
+     "text": "PAST MARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "close",
+   "vo": "You touch it, and the plunge begins.",
+   "dir": "quick; stress 'plunge'",
+   "set": "inside",
+   "setp": {
+    "t": 0.4,
+    "heat": 0.5,
+    "drag": 0.5
+   },
+   "cam": [
+    [
+     0.421,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.634,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "act": "flinch"
+   },
+   "props": [
+    {
+     "k": "starsmall",
+     "x": 0.65,
+     "y": 0.3,
+     "s": 0.6,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "THE PLUNGE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "fireball_roar",
+     "at": 0.3,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "high",
+   "vo": "It takes just seven laps, about seven years.",
+   "dir": "clear; stress 'seven'",
+   "set": "binary",
+   "setp": {
+    "t": 0.8,
+    "close": 0.85,
+    "trail": 1.0
+   },
+   "cam": [
+    [
+     0.451,
+     0.3,
+     1.04
+    ],
+    [
+     0.5,
+     0.361,
+     1.19
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 7,
+      "label": "LAPS",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "LAPS",
+     "value": "7"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 0,
+   "size": "insert",
+   "vo": "Other mergers took thousands of laps.",
+   "dir": "dry; stress 'thousands'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.614,
+     0.45,
+     1.9
+    ],
+    [
+     0.55,
+     0.443,
+     1.71
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "OTHERS",
+     "value": "1000s OF LAPS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 0,
+   "size": "low",
+   "vo": "Then, on seventeen October twenty twenty-five, it erupts.",
+   "dir": "explosive; stress 'erupts'",
+   "set": "blast",
+   "setp": {
+    "t": 0.4,
+    "flash": 1.0,
+    "dust": 0.4
+   },
+   "cam": [
+    [
+     0.477,
+     0.75,
+     1.14
+    ],
+    [
+     0.5,
+     0.699,
+     1.28
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "duck"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "text": "17 OCT"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "ERUPTION"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.5
+    },
+    {
+     "clip": "fireball_roar",
+     "at": 0.6,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 0,
+   "size": "med",
+   "vo": "A hundred times brighter in under a month.",
+   "dir": "amazed; stress 'hundred'",
+   "set": "curve",
+   "setp": {
+    "t": 0.85,
+    "phase": "spike",
+    "zoom": 0.3
+   },
+   "cam": [
+    [
+     0.548,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.455,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "BRIGHTER",
+     "value": "~100x"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "ding",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 0,
+   "size": "high",
+   "vo": "Webb caught the aftermath, forty-seven days later.",
+   "dir": "proud; stress 'forty-seven'",
+   "set": "scope",
+   "setp": {
+    "t": 0.8,
+    "look": 0.9,
+    "blink": 1.0
+   },
+   "cam": [
+    [
+     0.472,
+     0.3,
+     1.04
+    ],
+    [
+     0.5,
+     0.443,
+     1.19
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "WEBB",
+     "value": "47 DAYS LATER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 0,
+   "size": "insert",
+   "vo": "The small star did not escape. It was dragged to the core.",
+   "dir": "serious; stress 'core'",
+   "set": "core",
+   "setp": {
+    "t": 0.7,
+    "shock": 0.5
+   },
+   "cam": [
+    [
+     0.557,
+     0.45,
+     1.9
+    ],
+    [
+     0.55,
+     0.443,
+     1.71
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "crouch",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "NO ESCAPE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "buzzer",
+     "at": 0.55,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "Astronomers watched a stellar merger from start to finish. A first.",
+   "dir": "proud; stress 'first'",
+   "set": "andromeda",
+   "setp": {
+    "t": 0.9,
+    "box": 1.0,
+    "glow": 1.0
+   },
+   "cam": [
+    [
+     0.478,
+     0.5,
+     1.52
+    ],
+    [
+     0.5,
+     0.5,
+     0.95
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "A FIRST - NATURE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "ch": 0,
+   "size": "wide",
+   "vo": "Full film on the channel. Tomorrow: what if the Moon vanished?",
+   "dir": "friendly; stress 'Moon'",
+   "set": "binary",
+   "setp": {
+    "t": 0.95,
+    "close": 1.0,
+    "trail": 1.0
+   },
+   "cam": [
+    [
+     0.477,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.504,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "FULL FILM ON CHANNEL"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  }
+ ]
+}

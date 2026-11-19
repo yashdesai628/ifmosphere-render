@@ -1,0 +1,223 @@
+{
+ "slug": "starmerge",
+ "title": "WHAT IF A STAR 350X THE SUN SWALLOWED YOU?",
+ "fps": 30,
+ "total": 1113,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 109,
+   "t0": 0,
+   "t1": 109,
+   "line": "You are a small star. A giant star is swallowing you."
+  },
+  {
+   "shot": "S2",
+   "a": 109,
+   "b": 195,
+   "t0": 0,
+   "t1": 86,
+   "line": "It is three hundred fifty times wider than the Sun."
+  },
+  {
+   "shot": "S3",
+   "a": 195,
+   "b": 265,
+   "t0": 0,
+   "t1": 70,
+   "line": "Its surface would reach past Mars."
+  },
+  {
+   "shot": "S4",
+   "a": 265,
+   "b": 330,
+   "t0": 0,
+   "t1": 65,
+   "line": "You touch it, and the plunge begins."
+  },
+  {
+   "shot": "S5",
+   "a": 330,
+   "b": 420,
+   "t0": 0,
+   "t1": 90,
+   "line": "It takes just seven laps, about seven years."
+  },
+  {
+   "shot": "S6",
+   "a": 420,
+   "b": 487,
+   "t0": 0,
+   "t1": 67,
+   "line": "Other mergers took thousands of laps."
+  },
+  {
+   "shot": "S7",
+   "a": 487,
+   "b": 593,
+   "t0": 0,
+   "t1": 106,
+   "line": "Then, on seventeen October twenty twenty-five, it erupts."
+  },
+  {
+   "shot": "S8",
+   "a": 593,
+   "b": 661,
+   "t0": 0,
+   "t1": 68,
+   "line": "A hundred times brighter in under a month."
+  },
+  {
+   "shot": "S9",
+   "a": 661,
+   "b": 754,
+   "t0": 0,
+   "t1": 93,
+   "line": "Webb caught the aftermath, forty-seven days later."
+  },
+  {
+   "shot": "S10",
+   "a": 754,
+   "b": 861,
+   "t0": 0,
+   "t1": 107,
+   "line": "The small star did not escape. It was dragged to the core."
+  },
+  {
+   "shot": "S11",
+   "a": 861,
+   "b": 983,
+   "t0": 0,
+   "t1": 122,
+   "line": "Astronomers watched a stellar merger from start to finish. A first."
+  },
+  {
+   "shot": "S12",
+   "a": 983,
+   "b": 1113,
+   "t0": 0,
+   "t1": 130,
+   "line": "Full film on the channel. Tomorrow: what if the Moon vanished?"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 68,
+   "len": 109,
+   "first": 0,
+   "line": "You are a small star. A giant star is swallowing you.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "pullout",
+   "key": 53,
+   "len": 86,
+   "first": 109,
+   "line": "It is three hundred fifty times wider than the Sun.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "med",
+   "key": 43,
+   "len": 70,
+   "first": 195,
+   "line": "Its surface would reach past Mars.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "close",
+   "key": 40,
+   "len": 65,
+   "first": 265,
+   "line": "You touch it, and the plunge begins.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "high",
+   "key": 56,
+   "len": 90,
+   "first": 330,
+   "line": "It takes just seven laps, about seven years.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "insert",
+   "key": 42,
+   "len": 67,
+   "first": 420,
+   "line": "Other mergers took thousands of laps.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "low",
+   "key": 66,
+   "len": 106,
+   "first": 487,
+   "line": "Then, on seventeen October twenty twenty-five, it erupts.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "med",
+   "key": 42,
+   "len": 68,
+   "first": 593,
+   "line": "A hundred times brighter in under a month.",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "high",
+   "key": 58,
+   "len": 93,
+   "first": 661,
+   "line": "Webb caught the aftermath, forty-seven days later.",
+   "note": "ch0"
+  },
+  {
+   "id": "S10",
+   "size": "insert",
+   "key": 66,
+   "len": 107,
+   "first": 754,
+   "line": "The small star did not escape. It was dragged to the core.",
+   "note": "ch0"
+  },
+  {
+   "id": "S11",
+   "size": "pullout",
+   "key": 76,
+   "len": 122,
+   "first": 861,
+   "line": "Astronomers watched a stellar merger from start to finish. A first.",
+   "note": "ch0"
+  },
+  {
+   "id": "S12",
+   "size": "wide",
+   "key": 81,
+   "len": 130,
+   "first": 983,
+   "line": "Full film on the channel. Tomorrow: what if the Moon vanished?",
+   "note": "ch0"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "starmerge/short-voice.wav",
+  "sfx": "starmerge/short-sfx.wav",
+  "music": "starmerge/short-music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}

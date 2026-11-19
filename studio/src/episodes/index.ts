@@ -15,4 +15,5 @@ import { slingshot, slingshotShort } from './slingshot';
 import { ship42, ship42Short } from './ship42';
 import { dart14k, dart14kShort } from './dart14k';
 import { euclidcomet, euclidcometShort } from './euclidcomet';
-export const EPISODES = [rewind, copyPaste, reaction, meteor, starcatcher, jump, jumpShort, lightday, lightdayShort, closermoon, closermoonShort, jupiterfall, jupiterfallShort, marsyear, marsyearShort, leonidstorm, leonidstormShort, slingshot, slingshotShort, ship42, ship42Short, dart14k, dart14kShort, euclidcomet, euclidcometShort];
+import { starmerge, starmergeShort } from './starmerge';
+export const EPISODES = [rewind, copyPaste, reaction, meteor, starcatcher, jump, jumpShort, lightday, lightdayShort, closermoon, closermoonShort, jupiterfall, jupiterfallShort, marsyear, marsyearShort, leonidstorm, leonidstormShort, slingshot, slingshotShort, ship42, ship42Short, dart14k, dart14kShort, euclidcomet, euclidcometShort, starmerge, starmergeShort];

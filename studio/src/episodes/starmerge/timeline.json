@@ -1,0 +1,1890 @@
+{
+ "slug": "starmerge",
+ "title": "WHAT IF A STAR 350X THE SUN SWALLOWED YOU?",
+ "fps": 30,
+ "total": 11087,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 117,
+   "t0": 0,
+   "t1": 117,
+   "line": "You are a small star. And a giant star is swallowing you."
+  },
+  {
+   "shot": "S2",
+   "a": 117,
+   "b": 240,
+   "t0": 0,
+   "t1": 123,
+   "line": "It weighs seven Suns, and it is three hundred fifty times wider."
+  },
+  {
+   "shot": "S3",
+   "a": 240,
+   "b": 313,
+   "t0": 0,
+   "t1": 73,
+   "line": "This really happened. Astronomers watched it. The paper came out yesterday."
+  },
+  {
+   "shot": "S3",
+   "a": 313,
+   "b": 386,
+   "t0": 73,
+   "t1": 146,
+   "line": "This really happened. Astronomers watched it. The paper came out yesterday."
+  },
+  {
+   "shot": "S4",
+   "a": 386,
+   "b": 486,
+   "t0": 0,
+   "t1": 100,
+   "line": "It is two and a half million light-years away, in Andromeda."
+  },
+  {
+   "shot": "S5",
+   "a": 486,
+   "b": 601,
+   "t0": 0,
+   "t1": 115,
+   "line": "So what if you rode the small star all the way down?"
+  },
+  {
+   "shot": "S6",
+   "a": 601,
+   "b": 636,
+   "t0": 0,
+   "t1": 35,
+   "line": "Here are the rules."
+  },
+  {
+   "shot": "S7",
+   "a": 636,
+   "b": 739,
+   "t0": 0,
+   "t1": 103,
+   "line": "You are Little Bao. A star a bit smaller than our Sun."
+  },
+  {
+   "shot": "S8",
+   "a": 739,
+   "b": 836,
+   "t0": 0,
+   "t1": 97,
+   "line": "Your friend is Big Bao. Big is the polite word."
+  },
+  {
+   "shot": "S9",
+   "a": 836,
+   "b": 934,
+   "t0": 0,
+   "t1": 98,
+   "line": "You bring nothing. You are a star. You are the luggage."
+  },
+  {
+   "shot": "S10",
+   "a": 934,
+   "b": 1058,
+   "t0": 0,
+   "t1": 124,
+   "line": "You do not steer. Physics steers. Physics is not chatty."
+  },
+  {
+   "shot": "S11",
+   "a": 1058,
+   "b": 1152,
+   "t0": 0,
+   "t1": 94,
+   "line": "The trip takes about seven years. Pack snacks."
+  },
+  {
+   "shot": "S12",
+   "a": 1152,
+   "b": 1254,
+   "t0": 0,
+   "t1": 102,
+   "line": "First, meet the giant you are about to visit."
+  },
+  {
+   "shot": "S13",
+   "a": 1254,
+   "b": 1322,
+   "t0": 0,
+   "t1": 68,
+   "line": "Big Bao is a red giant. A very, very old star, puffed up."
+  },
+  {
+   "shot": "S13",
+   "a": 1322,
+   "b": 1391,
+   "t0": 68,
+   "t1": 137,
+   "line": "Big Bao is a red giant. A very, very old star, puffed up."
+  },
+  {
+   "shot": "S14",
+   "a": 1391,
+   "b": 1449,
+   "t0": 0,
+   "t1": 58,
+   "line": "It weighs about seven Suns."
+  },
+  {
+   "shot": "S15",
+   "a": 1449,
+   "b": 1536,
+   "t0": 0,
+   "t1": 87,
+   "line": "It is three hundred fifty times wider than the Sun."
+  },
+  {
+   "shot": "S16",
+   "a": 1536,
+   "b": 1647,
+   "t0": 0,
+   "t1": 111,
+   "line": "Put it where our Sun is, and its surface would pass Mars."
+  },
+  {
+   "shot": "S17",
+   "a": 1647,
+   "b": 1760,
+   "t0": 0,
+   "t1": 113,
+   "line": "Earth would be inside it. Along with everything you have ever met."
+  },
+  {
+   "shot": "S18",
+   "a": 1760,
+   "b": 1857,
+   "t0": 0,
+   "t1": 97,
+   "line": "It is also eighteen thousand times brighter than the Sun."
+  },
+  {
+   "shot": "S19",
+   "a": 1857,
+   "b": 1935,
+   "t0": 0,
+   "t1": 78,
+   "line": "Next to it, you are a pebble with a glow."
+  },
+  {
+   "shot": "S20",
+   "a": 1935,
+   "b": 2011,
+   "t0": 0,
+   "t1": 76,
+   "line": "And you weigh about seventy percent of the Sun."
+  },
+  {
+   "shot": "S21",
+   "a": 2011,
+   "b": 2102,
+   "t0": 0,
+   "t1": 91,
+   "line": "That is the first time anyone has ever measured you."
+  },
+  {
+   "shot": "S22",
+   "a": 2102,
+   "b": 2206,
+   "t0": 0,
+   "t1": 104,
+   "line": "Scientists found your weight by doing their sums on the dust."
+  },
+  {
+   "shot": "S23",
+   "a": 2206,
+   "b": 2326,
+   "t0": 0,
+   "t1": 120,
+   "line": "You two had been circling quietly for ages. Millennia, even."
+  },
+  {
+   "shot": "S24",
+   "a": 2326,
+   "b": 2397,
+   "t0": 0,
+   "t1": 71,
+   "line": "Then your orbit dipped, just a little, and everything changed."
+  },
+  {
+   "shot": "S24",
+   "a": 2397,
+   "b": 2469,
+   "t0": 71,
+   "t1": 143,
+   "line": "Then your orbit dipped, just a little, and everything changed."
+  },
+  {
+   "shot": "S25",
+   "a": 2469,
+   "b": 2529,
+   "t0": 0,
+   "t1": 60,
+   "line": "Picture a spoon in thick soup."
+  },
+  {
+   "shot": "S26",
+   "a": 2529,
+   "b": 2610,
+   "t0": 0,
+   "t1": 81,
+   "line": "Drag it through, and the soup pushes back."
+  },
+  {
+   "shot": "S27",
+   "a": 2610,
+   "b": 2709,
+   "t0": 0,
+   "t1": 99,
+   "line": "That is you. The giant's outer layers are the soup."
+  },
+  {
+   "shot": "S28",
+   "a": 2709,
+   "b": 2835,
+   "t0": 0,
+   "t1": 126,
+   "line": "In twenty eighteen your orbit starts brushing its outer atmosphere."
+  },
+  {
+   "shot": "S29",
+   "a": 2835,
+   "b": 2904,
+   "t0": 0,
+   "t1": 69,
+   "line": "Drag. Slow, patient drag. Your orbit starts to shrink."
+  },
+  {
+   "shot": "S29",
+   "a": 2904,
+   "b": 2974,
+   "t0": 69,
+   "t1": 139,
+   "line": "Drag. Slow, patient drag. Your orbit starts to shrink."
+  },
+  {
+   "shot": "S30",
+   "a": 2974,
+   "b": 3088,
+   "t0": 0,
+   "t1": 114,
+   "line": "And the system begins to glow, very slowly, a little brighter."
+  },
+  {
+   "shot": "S31",
+   "a": 3088,
+   "b": 3174,
+   "t0": 0,
+   "t1": 86,
+   "line": "Friction turns your orbital energy into light."
+  },
+  {
+   "shot": "S32",
+   "a": 3174,
+   "b": 3262,
+   "t0": 0,
+   "t1": 88,
+   "line": "A star's version of rubbing your hands to warm them."
+  },
+  {
+   "shot": "S33",
+   "a": 3262,
+   "b": 3379,
+   "t0": 0,
+   "t1": 117,
+   "line": "Nobody on Earth knows yet. But some telescopes are already looking."
+  },
+  {
+   "shot": "S34",
+   "a": 3379,
+   "b": 3450,
+   "t0": 0,
+   "t1": 71,
+   "line": "In February twenty twenty-three, NASA's NEOWISE flags something odd."
+  },
+  {
+   "shot": "S34",
+   "a": 3450,
+   "b": 3521,
+   "t0": 71,
+   "t1": 142,
+   "line": "In February twenty twenty-three, NASA's NEOWISE flags something odd."
+  },
+  {
+   "shot": "S35",
+   "a": 3521,
+   "b": 3637,
+   "t0": 0,
+   "t1": 116,
+   "line": "Before twenty eighteen, the star was steady. Now it is not."
+  },
+  {
+   "shot": "S36",
+   "a": 3637,
+   "b": 3740,
+   "t0": 0,
+   "t1": 103,
+   "line": "They keep watching. Which is the whole point of this story."
+  },
+  {
+   "shot": "S37",
+   "a": 3740,
+   "b": 3867,
+   "t0": 0,
+   "t1": 127,
+   "line": "By September twenty twenty-four, a survey sees dust pouring off it."
+  },
+  {
+   "shot": "S38",
+   "a": 3867,
+   "b": 3978,
+   "t0": 0,
+   "t1": 111,
+   "line": "You are leaking material, and it is getting crowded."
+  },
+  {
+   "shot": "S39",
+   "a": 3978,
+   "b": 4083,
+   "t0": 0,
+   "t1": 105,
+   "line": "Now the lap count. A lap is one trip round the giant."
+  },
+  {
+   "shot": "S40",
+   "a": 4083,
+   "b": 4209,
+   "t0": 0,
+   "t1": 126,
+   "line": "Lap one. You skim the atmosphere. Everything is fine."
+  },
+  {
+   "shot": "S41",
+   "a": 4209,
+   "b": 4309,
+   "t0": 0,
+   "t1": 100,
+   "line": "Lap three. You are lower. The soup is thicker."
+  },
+  {
+   "shot": "S42",
+   "a": 4309,
+   "b": 4403,
+   "t0": 0,
+   "t1": 94,
+   "line": "Lap five. The gas around you glows orange."
+  },
+  {
+   "shot": "S43",
+   "a": 4403,
+   "b": 4505,
+   "t0": 0,
+   "t1": 102,
+   "line": "Each lap takes about a year. Each lap gets tighter."
+  },
+  {
+   "shot": "S44",
+   "a": 4505,
+   "b": 4597,
+   "t0": 0,
+   "t1": 92,
+   "line": "Other star mergers took thousands of laps to happen."
+  },
+  {
+   "shot": "S45",
+   "a": 4597,
+   "b": 4702,
+   "t0": 0,
+   "t1": 105,
+   "line": "Yours? About seven. Hold on to your halo."
+  },
+  {
+   "shot": "S46",
+   "a": 4702,
+   "b": 4810,
+   "t0": 0,
+   "t1": 108,
+   "line": "The giant's gas drags you in like quicksand made of fire."
+  },
+  {
+   "shot": "S47",
+   "a": 4810,
+   "b": 4893,
+   "t0": 0,
+   "t1": 83,
+   "line": "Lap six. You are almost at the centre."
+  },
+  {
+   "shot": "S48",
+   "a": 4893,
+   "b": 4966,
+   "t0": 0,
+   "t1": 73,
+   "line": "In July twenty twenty-five, NASA's SPHEREx sees it fade in visible light."
+  },
+  {
+   "shot": "S48",
+   "a": 4966,
+   "b": 5039,
+   "t0": 73,
+   "t1": 146,
+   "line": "In July twenty twenty-five, NASA's SPHEREx sees it fade in visible light."
+  },
+  {
+   "shot": "S49",
+   "a": 5039,
+   "b": 5160,
+   "t0": 0,
+   "t1": 121,
+   "line": "And brighten in infrared. That swap is a loud alarm bell."
+  },
+  {
+   "shot": "S50",
+   "a": 5160,
+   "b": 5265,
+   "t0": 0,
+   "t1": 105,
+   "line": "Dust is hiding the star's light. Something big is coming."
+  },
+  {
+   "shot": "S51",
+   "a": 5265,
+   "b": 5340,
+   "t0": 0,
+   "t1": 75,
+   "line": "The astronomers do not know when. You know. It is lap seven."
+  },
+  {
+   "shot": "S51",
+   "a": 5340,
+   "b": 5415,
+   "t0": 75,
+   "t1": 150,
+   "line": "The astronomers do not know when. You know. It is lap seven."
+  },
+  {
+   "shot": "S52",
+   "a": 5415,
+   "b": 5529,
+   "t0": 0,
+   "t1": 114,
+   "line": "You touch the giant's surface, and the final plunge begins."
+  },
+  {
+   "shot": "S53",
+   "a": 5529,
+   "b": 5621,
+   "t0": 0,
+   "t1": 92,
+   "line": "Down you go through the gas, faster and faster."
+  },
+  {
+   "shot": "S54",
+   "a": 5621,
+   "b": 5691,
+   "t0": 0,
+   "t1": 70,
+   "line": "Above you, the whole star lights up."
+  },
+  {
+   "shot": "S55",
+   "a": 5691,
+   "b": 5813,
+   "t0": 0,
+   "t1": 122,
+   "line": "Then, on the seventeenth of October twenty twenty-five, it erupts."
+  },
+  {
+   "shot": "S56",
+   "a": 5813,
+   "b": 5897,
+   "t0": 0,
+   "t1": 84,
+   "line": "A flash that fills the sky of a galaxy."
+  },
+  {
+   "shot": "S57",
+   "a": 5897,
+   "b": 5993,
+   "t0": 0,
+   "t1": 96,
+   "line": "In under a month, it brightens about a hundred times."
+  },
+  {
+   "shot": "S58",
+   "a": 5993,
+   "b": 6125,
+   "t0": 0,
+   "t1": 132,
+   "line": "Someone spots it first. An amateur astronomer, with a flash of luck."
+  },
+  {
+   "shot": "S59",
+   "a": 6125,
+   "b": 6213,
+   "t0": 0,
+   "t1": 88,
+   "line": "The team had been watching that very spot for years."
+  },
+  {
+   "shot": "S60",
+   "a": 6213,
+   "b": 6287,
+   "t0": 0,
+   "t1": 74,
+   "line": "Nobody expected a bang in their lifetime. These stars stay calm for ages."
+  },
+  {
+   "shot": "S60",
+   "a": 6287,
+   "b": 6361,
+   "t0": 74,
+   "t1": 148,
+   "line": "Nobody expected a bang in their lifetime. These stars stay calm for ages."
+  },
+  {
+   "shot": "S61",
+   "a": 6361,
+   "b": 6462,
+   "t0": 0,
+   "t1": 101,
+   "line": "Luck. Patience. And a spreadsheet that never blinked."
+  },
+  {
+   "shot": "S62",
+   "a": 6462,
+   "b": 6531,
+   "t0": 0,
+   "t1": 69,
+   "line": "Now, the race. Every telescope on call wants a look."
+  },
+  {
+   "shot": "S62",
+   "a": 6531,
+   "b": 6600,
+   "t0": 69,
+   "t1": 138,
+   "line": "Now, the race. Every telescope on call wants a look."
+  },
+  {
+   "shot": "S63",
+   "a": 6600,
+   "b": 6707,
+   "t0": 0,
+   "t1": 107,
+   "line": "The Zwicky Transient Facility confirms it on the seventeenth."
+  },
+  {
+   "shot": "S64",
+   "a": 6707,
+   "b": 6779,
+   "t0": 0,
+   "t1": 72,
+   "line": "In November, NASA's Swift looks. So does Gemini North, in Hawaii."
+  },
+  {
+   "shot": "S64",
+   "a": 6779,
+   "b": 6851,
+   "t0": 72,
+   "t1": 144,
+   "line": "In November, NASA's Swift looks. So does Gemini North, in Hawaii."
+  },
+  {
+   "shot": "S65",
+   "a": 6851,
+   "b": 6967,
+   "t0": 0,
+   "t1": 116,
+   "line": "Every night, a new spectrum. Every spectrum, a new clue."
+  },
+  {
+   "shot": "S66",
+   "a": 6967,
+   "b": 7088,
+   "t0": 0,
+   "t1": 121,
+   "line": "They all say the same thing: a smaller star fell into a giant."
+  },
+  {
+   "shot": "S67",
+   "a": 7088,
+   "b": 7197,
+   "t0": 0,
+   "t1": 109,
+   "line": "But did you escape, or did you merge? Nobody knows yet."
+  },
+  {
+   "shot": "S68",
+   "a": 7197,
+   "b": 7268,
+   "t0": 0,
+   "t1": 71,
+   "line": "Some pairs survive this dance. They end up in tight, shrunken orbits."
+  },
+  {
+   "shot": "S68",
+   "a": 7268,
+   "b": 7339,
+   "t0": 71,
+   "t1": 142,
+   "line": "Some pairs survive this dance. They end up in tight, shrunken orbits."
+  },
+  {
+   "shot": "S69",
+   "a": 7339,
+   "b": 7443,
+   "t0": 0,
+   "t1": 104,
+   "line": "So the telescopes need one more clue. A big one."
+  },
+  {
+   "shot": "S70",
+   "a": 7443,
+   "b": 7523,
+   "t0": 0,
+   "t1": 80,
+   "line": "Enter the James Webb Space Telescope."
+  },
+  {
+   "shot": "S71",
+   "a": 7523,
+   "b": 7630,
+   "t0": 0,
+   "t1": 107,
+   "line": "It wants to look at the dust the giant shed over centuries."
+  },
+  {
+   "shot": "S72",
+   "a": 7630,
+   "b": 7705,
+   "t0": 0,
+   "t1": 75,
+   "line": "Dust holds the answer. How much dust, how much gas, how much star."
+  },
+  {
+   "shot": "S72",
+   "a": 7705,
+   "b": 7781,
+   "t0": 75,
+   "t1": 151,
+   "line": "Dust holds the answer. How much dust, how much gas, how much star."
+  },
+  {
+   "shot": "S73",
+   "a": 7781,
+   "b": 7888,
+   "t0": 0,
+   "t1": 107,
+   "line": "The date is the twenty-fourth of December. Christmas Eve."
+  },
+  {
+   "shot": "S74",
+   "a": 7888,
+   "b": 7965,
+   "t0": 0,
+   "t1": 77,
+   "line": "That is forty-seven days after the peak."
+  },
+  {
+   "shot": "S75",
+   "a": 7965,
+   "b": 8095,
+   "t0": 0,
+   "t1": 130,
+   "line": "The earliest anyone has ever followed up a merger like this."
+  },
+  {
+   "shot": "S76",
+   "a": 8095,
+   "b": 8228,
+   "t0": 0,
+   "t1": 133,
+   "line": "What did Webb see? A tiny red-and-white dot, wrapped in dust."
+  },
+  {
+   "shot": "S77",
+   "a": 8228,
+   "b": 8333,
+   "t0": 0,
+   "t1": 105,
+   "line": "The scientists ran their computer models over and over."
+  },
+  {
+   "shot": "S78",
+   "a": 8333,
+   "b": 8433,
+   "t0": 0,
+   "t1": 100,
+   "line": "One model matched Webb's picture of the dust perfectly."
+  },
+  {
+   "shot": "S79",
+   "a": 8433,
+   "b": 8517,
+   "t0": 0,
+   "t1": 84,
+   "line": "The model said you had enough energy left to flee."
+  },
+  {
+   "shot": "S80",
+   "a": 8517,
+   "b": 8572,
+   "t0": 0,
+   "t1": 55,
+   "line": "But a deeper check said no."
+  },
+  {
+   "shot": "S81",
+   "a": 8572,
+   "b": 8641,
+   "t0": 0,
+   "t1": 69,
+   "line": "You were dragged into the giant's core."
+  },
+  {
+   "shot": "S82",
+   "a": 8641,
+   "b": 8770,
+   "t0": 0,
+   "t1": 129,
+   "line": "A Columbia scientist said: almost like a bomb inside a living star."
+  },
+  {
+   "shot": "S83",
+   "a": 8770,
+   "b": 8839,
+   "t0": 0,
+   "t1": 69,
+   "line": "And you? You become part of the giant. One star, instead of two."
+  },
+  {
+   "shot": "S83",
+   "a": 8839,
+   "b": 8908,
+   "t0": 69,
+   "t1": 138,
+   "line": "And you? You become part of the giant. One star, instead of two."
+  },
+  {
+   "shot": "S84",
+   "a": 8908,
+   "b": 9004,
+   "t0": 0,
+   "t1": 96,
+   "line": "The blast threw off about a tenth of the giant's gas."
+  },
+  {
+   "shot": "S85",
+   "a": 9004,
+   "b": 9093,
+   "t0": 0,
+   "t1": 89,
+   "line": "It flew away at roughly ten times escape speed."
+  },
+  {
+   "shot": "S86",
+   "a": 9093,
+   "b": 9217,
+   "t0": 0,
+   "t1": 124,
+   "line": "Up and down it flew free. Old dust held back the middle."
+  },
+  {
+   "shot": "S87",
+   "a": 9217,
+   "b": 9317,
+   "t0": 0,
+   "t1": 100,
+   "line": "The result looks a bit like a dusty hourglass in the sky."
+  },
+  {
+   "shot": "S88",
+   "a": 9317,
+   "b": 9442,
+   "t0": 0,
+   "t1": 125,
+   "line": "You. A star. Gone, in seven years."
+  },
+  {
+   "shot": "S89",
+   "a": 9442,
+   "b": 9495,
+   "t0": 0,
+   "t1": 53,
+   "line": "So why does this one matter?"
+  },
+  {
+   "shot": "S90",
+   "a": 9495,
+   "b": 9563,
+   "t0": 0,
+   "t1": 68,
+   "line": "This is called common envelope evolution."
+  },
+  {
+   "shot": "S91",
+   "a": 9563,
+   "b": 9647,
+   "t0": 0,
+   "t1": 84,
+   "line": "It is how many tight pairs of stars get made."
+  },
+  {
+   "shot": "S92",
+   "a": 9647,
+   "b": 9770,
+   "t0": 0,
+   "t1": 123,
+   "line": "Some of those pairs later become neutron stars. Or black holes."
+  },
+  {
+   "shot": "S93",
+   "a": 9770,
+   "b": 9894,
+   "t0": 0,
+   "t1": 124,
+   "line": "Some send out ripples in space itself. Gravitational waves."
+  },
+  {
+   "shot": "S94",
+   "a": 9894,
+   "b": 10002,
+   "t0": 0,
+   "t1": 108,
+   "line": "Until now, astronomers had to work backwards from old wreckage."
+  },
+  {
+   "shot": "S95",
+   "a": 10002,
+   "b": 10115,
+   "t0": 0,
+   "t1": 113,
+   "line": "With you, they watched it live, before, during and after."
+  },
+  {
+   "shot": "S96",
+   "a": 10115,
+   "b": 10215,
+   "t0": 0,
+   "t1": 100,
+   "line": "And it is not over. Bao's fate is still a mystery."
+  },
+  {
+   "shot": "S97",
+   "a": 10215,
+   "b": 10288,
+   "t0": 0,
+   "t1": 73,
+   "line": "Dust hides the new star. It may take years, even decades, to settle."
+  },
+  {
+   "shot": "S97",
+   "a": 10288,
+   "b": 10362,
+   "t0": 73,
+   "t1": 147,
+   "line": "Dust hides the new star. It may take years, even decades, to settle."
+  },
+  {
+   "shot": "S98",
+   "a": 10362,
+   "b": 10490,
+   "t0": 0,
+   "t1": 128,
+   "line": "Soon there will be more. NASA's Roman telescope starts its surveys."
+  },
+  {
+   "shot": "S99",
+   "a": 10490,
+   "b": 10600,
+   "t0": 0,
+   "t1": 110,
+   "line": "The lead author expects a large influx of similar discoveries."
+  },
+  {
+   "shot": "S100",
+   "a": 10600,
+   "b": 10724,
+   "t0": 0,
+   "t1": 124,
+   "line": "Remember the first line? A small star, swallowed by a giant."
+  },
+  {
+   "shot": "S101",
+   "a": 10724,
+   "b": 10844,
+   "t0": 0,
+   "t1": 120,
+   "line": "Now you know how a telescope, a spreadsheet and luck watched it happen."
+  },
+  {
+   "shot": "S102",
+   "a": 10844,
+   "b": 10941,
+   "t0": 0,
+   "t1": 97,
+   "line": "Tomorrow: what if the Moon vanished for one night?"
+  },
+  {
+   "shot": "S103",
+   "a": 10941,
+   "b": 11014,
+   "t0": 0,
+   "t1": 73,
+   "line": "Would you ride the small star or the giant? Tell me below."
+  },
+  {
+   "shot": "S103",
+   "a": 11014,
+   "b": 11087,
+   "t0": 73,
+   "t1": 146,
+   "line": "Would you ride the small star or the giant? Tell me below."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 73,
+   "len": 117,
+   "first": 0,
+   "line": "You are a small star. And a giant star is swallowing you.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "pullout",
+   "key": 76,
+   "len": 123,
+   "first": 117,
+   "line": "It weighs seven Suns, and it is three hundred fifty times wider.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "med",
+   "key": 91,
+   "len": 146,
+   "first": 240,
+   "line": "This really happened. Astronomers watched it. The paper came out yesterday.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "high",
+   "key": 62,
+   "len": 100,
+   "first": 386,
+   "line": "It is two and a half million light-years away, in Andromeda.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "low",
+   "key": 71,
+   "len": 115,
+   "first": 486,
+   "line": "So what if you rode the small star all the way down?",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "wide",
+   "key": 22,
+   "len": 35,
+   "first": 601,
+   "line": "Here are the rules.",
+   "note": "ch1"
+  },
+  {
+   "id": "S7",
+   "size": "med",
+   "key": 64,
+   "len": 103,
+   "first": 636,
+   "line": "You are Little Bao. A star a bit smaller than our Sun.",
+   "note": "ch1"
+  },
+  {
+   "id": "S8",
+   "size": "close",
+   "key": 60,
+   "len": 97,
+   "first": 739,
+   "line": "Your friend is Big Bao. Big is the polite word.",
+   "note": "ch1"
+  },
+  {
+   "id": "S9",
+   "size": "insert",
+   "key": 61,
+   "len": 98,
+   "first": 836,
+   "line": "You bring nothing. You are a star. You are the luggage.",
+   "note": "ch1"
+  },
+  {
+   "id": "S10",
+   "size": "low",
+   "key": 77,
+   "len": 124,
+   "first": 934,
+   "line": "You do not steer. Physics steers. Physics is not chatty.",
+   "note": "ch1"
+  },
+  {
+   "id": "S11",
+   "size": "high",
+   "key": 58,
+   "len": 94,
+   "first": 1058,
+   "line": "The trip takes about seven years. Pack snacks.",
+   "note": "ch1"
+  },
+  {
+   "id": "S12",
+   "size": "med",
+   "key": 63,
+   "len": 102,
+   "first": 1152,
+   "line": "First, meet the giant you are about to visit.",
+   "note": "ch1"
+  },
+  {
+   "id": "S13",
+   "size": "pullout",
+   "key": 85,
+   "len": 137,
+   "first": 1254,
+   "line": "Big Bao is a red giant. A very, very old star, puffed up.",
+   "note": "ch2"
+  },
+  {
+   "id": "S14",
+   "size": "insert",
+   "key": 36,
+   "len": 58,
+   "first": 1391,
+   "line": "It weighs about seven Suns.",
+   "note": "ch2"
+  },
+  {
+   "id": "S15",
+   "size": "high",
+   "key": 54,
+   "len": 87,
+   "first": 1449,
+   "line": "It is three hundred fifty times wider than the Sun.",
+   "note": "ch2"
+  },
+  {
+   "id": "S16",
+   "size": "wide",
+   "key": 69,
+   "len": 111,
+   "first": 1536,
+   "line": "Put it where our Sun is, and its surface would pass Mars.",
+   "note": "ch2"
+  },
+  {
+   "id": "S17",
+   "size": "low",
+   "key": 70,
+   "len": 113,
+   "first": 1647,
+   "line": "Earth would be inside it. Along with everything you have ever met.",
+   "note": "ch2"
+  },
+  {
+   "id": "S18",
+   "size": "close",
+   "key": 60,
+   "len": 97,
+   "first": 1760,
+   "line": "It is also eighteen thousand times brighter than the Sun.",
+   "note": "ch2"
+  },
+  {
+   "id": "S19",
+   "size": "insert",
+   "key": 48,
+   "len": 78,
+   "first": 1857,
+   "line": "Next to it, you are a pebble with a glow.",
+   "note": "ch2"
+  },
+  {
+   "id": "S20",
+   "size": "med",
+   "key": 47,
+   "len": 76,
+   "first": 1935,
+   "line": "And you weigh about seventy percent of the Sun.",
+   "note": "ch2"
+  },
+  {
+   "id": "S21",
+   "size": "high",
+   "key": 56,
+   "len": 91,
+   "first": 2011,
+   "line": "That is the first time anyone has ever measured you.",
+   "note": "ch2"
+  },
+  {
+   "id": "S22",
+   "size": "pan",
+   "key": 64,
+   "len": 104,
+   "first": 2102,
+   "line": "Scientists found your weight by doing their sums on the dust.",
+   "note": "ch2"
+  },
+  {
+   "id": "S23",
+   "size": "panr",
+   "key": 74,
+   "len": 120,
+   "first": 2206,
+   "line": "You two had been circling quietly for ages. Millennia, even.",
+   "note": "ch2"
+  },
+  {
+   "id": "S24",
+   "size": "tilt",
+   "key": 89,
+   "len": 143,
+   "first": 2326,
+   "line": "Then your orbit dipped, just a little, and everything changed.",
+   "note": "ch2"
+  },
+  {
+   "id": "S25",
+   "size": "med",
+   "key": 37,
+   "len": 60,
+   "first": 2469,
+   "line": "Picture a spoon in thick soup.",
+   "note": "ch3"
+  },
+  {
+   "id": "S26",
+   "size": "insert",
+   "key": 50,
+   "len": 81,
+   "first": 2529,
+   "line": "Drag it through, and the soup pushes back.",
+   "note": "ch3"
+  },
+  {
+   "id": "S27",
+   "size": "close",
+   "key": 61,
+   "len": 99,
+   "first": 2610,
+   "line": "That is you. The giant's outer layers are the soup.",
+   "note": "ch3"
+  },
+  {
+   "id": "S28",
+   "size": "high",
+   "key": 78,
+   "len": 126,
+   "first": 2709,
+   "line": "In twenty eighteen your orbit starts brushing its outer atmosphere.",
+   "note": "ch3"
+  },
+  {
+   "id": "S29",
+   "size": "low",
+   "key": 86,
+   "len": 139,
+   "first": 2835,
+   "line": "Drag. Slow, patient drag. Your orbit starts to shrink.",
+   "note": "ch3"
+  },
+  {
+   "id": "S30",
+   "size": "wide",
+   "key": 71,
+   "len": 114,
+   "first": 2974,
+   "line": "And the system begins to glow, very slowly, a little brighter.",
+   "note": "ch3"
+  },
+  {
+   "id": "S31",
+   "size": "med",
+   "key": 53,
+   "len": 86,
+   "first": 3088,
+   "line": "Friction turns your orbital energy into light.",
+   "note": "ch3"
+  },
+  {
+   "id": "S32",
+   "size": "insert",
+   "key": 55,
+   "len": 88,
+   "first": 3174,
+   "line": "A star's version of rubbing your hands to warm them.",
+   "note": "ch3"
+  },
+  {
+   "id": "S33",
+   "size": "pan",
+   "key": 73,
+   "len": 117,
+   "first": 3262,
+   "line": "Nobody on Earth knows yet. But some telescopes are already looking.",
+   "note": "ch3"
+  },
+  {
+   "id": "S34",
+   "size": "close",
+   "key": 88,
+   "len": 142,
+   "first": 3379,
+   "line": "In February twenty twenty-three, NASA's NEOWISE flags something odd.",
+   "note": "ch3"
+  },
+  {
+   "id": "S35",
+   "size": "high",
+   "key": 72,
+   "len": 116,
+   "first": 3521,
+   "line": "Before twenty eighteen, the star was steady. Now it is not.",
+   "note": "ch3"
+  },
+  {
+   "id": "S36",
+   "size": "med",
+   "key": 64,
+   "len": 103,
+   "first": 3637,
+   "line": "They keep watching. Which is the whole point of this story.",
+   "note": "ch3"
+  },
+  {
+   "id": "S37",
+   "size": "pan",
+   "key": 79,
+   "len": 127,
+   "first": 3740,
+   "line": "By September twenty twenty-four, a survey sees dust pouring off it.",
+   "note": "ch3"
+  },
+  {
+   "id": "S38",
+   "size": "low",
+   "key": 69,
+   "len": 111,
+   "first": 3867,
+   "line": "You are leaking material, and it is getting crowded.",
+   "note": "ch3"
+  },
+  {
+   "id": "S39",
+   "size": "wide",
+   "key": 65,
+   "len": 105,
+   "first": 3978,
+   "line": "Now the lap count. A lap is one trip round the giant.",
+   "note": "ch4"
+  },
+  {
+   "id": "S40",
+   "size": "med",
+   "key": 78,
+   "len": 126,
+   "first": 4083,
+   "line": "Lap one. You skim the atmosphere. Everything is fine.",
+   "note": "ch4"
+  },
+  {
+   "id": "S41",
+   "size": "close",
+   "key": 62,
+   "len": 100,
+   "first": 4209,
+   "line": "Lap three. You are lower. The soup is thicker.",
+   "note": "ch4"
+  },
+  {
+   "id": "S42",
+   "size": "insert",
+   "key": 58,
+   "len": 94,
+   "first": 4309,
+   "line": "Lap five. The gas around you glows orange.",
+   "note": "ch4"
+  },
+  {
+   "id": "S43",
+   "size": "high",
+   "key": 63,
+   "len": 102,
+   "first": 4403,
+   "line": "Each lap takes about a year. Each lap gets tighter.",
+   "note": "ch4"
+  },
+  {
+   "id": "S44",
+   "size": "med",
+   "key": 57,
+   "len": 92,
+   "first": 4505,
+   "line": "Other star mergers took thousands of laps to happen.",
+   "note": "ch4"
+  },
+  {
+   "id": "S45",
+   "size": "insert",
+   "key": 65,
+   "len": 105,
+   "first": 4597,
+   "line": "Yours? About seven. Hold on to your halo.",
+   "note": "ch4"
+  },
+  {
+   "id": "S46",
+   "size": "low",
+   "key": 67,
+   "len": 108,
+   "first": 4702,
+   "line": "The giant's gas drags you in like quicksand made of fire.",
+   "note": "ch4"
+  },
+  {
+   "id": "S47",
+   "size": "close",
+   "key": 51,
+   "len": 83,
+   "first": 4810,
+   "line": "Lap six. You are almost at the centre.",
+   "note": "ch4"
+  },
+  {
+   "id": "S48",
+   "size": "pan",
+   "key": 91,
+   "len": 146,
+   "first": 4893,
+   "line": "In July twenty twenty-five, NASA's SPHEREx sees it fade in visible light.",
+   "note": "ch4"
+  },
+  {
+   "id": "S49",
+   "size": "high",
+   "key": 75,
+   "len": 121,
+   "first": 5039,
+   "line": "And brighten in infrared. That swap is a loud alarm bell.",
+   "note": "ch4"
+  },
+  {
+   "id": "S50",
+   "size": "tilt",
+   "key": 65,
+   "len": 105,
+   "first": 5160,
+   "line": "Dust is hiding the star's light. Something big is coming.",
+   "note": "ch4"
+  },
+  {
+   "id": "S51",
+   "size": "wide",
+   "key": 93,
+   "len": 150,
+   "first": 5265,
+   "line": "The astronomers do not know when. You know. It is lap seven.",
+   "note": "ch4"
+  },
+  {
+   "id": "S52",
+   "size": "close",
+   "key": 71,
+   "len": 114,
+   "first": 5415,
+   "line": "You touch the giant's surface, and the final plunge begins.",
+   "note": "ch5"
+  },
+  {
+   "id": "S53",
+   "size": "low",
+   "key": 57,
+   "len": 92,
+   "first": 5529,
+   "line": "Down you go through the gas, faster and faster.",
+   "note": "ch5"
+  },
+  {
+   "id": "S54",
+   "size": "high",
+   "key": 43,
+   "len": 70,
+   "first": 5621,
+   "line": "Above you, the whole star lights up.",
+   "note": "ch5"
+  },
+  {
+   "id": "S55",
+   "size": "wide",
+   "key": 76,
+   "len": 122,
+   "first": 5691,
+   "line": "Then, on the seventeenth of October twenty twenty-five, it erupts.",
+   "note": "ch5"
+  },
+  {
+   "id": "S56",
+   "size": "pullout",
+   "key": 52,
+   "len": 84,
+   "first": 5813,
+   "line": "A flash that fills the sky of a galaxy.",
+   "note": "ch5"
+  },
+  {
+   "id": "S57",
+   "size": "high",
+   "key": 60,
+   "len": 96,
+   "first": 5897,
+   "line": "In under a month, it brightens about a hundred times.",
+   "note": "ch5"
+  },
+  {
+   "id": "S58",
+   "size": "insert",
+   "key": 82,
+   "len": 132,
+   "first": 5993,
+   "line": "Someone spots it first. An amateur astronomer, with a flash of luck.",
+   "note": "ch5"
+  },
+  {
+   "id": "S59",
+   "size": "med",
+   "key": 55,
+   "len": 88,
+   "first": 6125,
+   "line": "The team had been watching that very spot for years.",
+   "note": "ch5"
+  },
+  {
+   "id": "S60",
+   "size": "low",
+   "key": 92,
+   "len": 148,
+   "first": 6213,
+   "line": "Nobody expected a bang in their lifetime. These stars stay calm for ages.",
+   "note": "ch5"
+  },
+  {
+   "id": "S61",
+   "size": "close",
+   "key": 63,
+   "len": 101,
+   "first": 6361,
+   "line": "Luck. Patience. And a spreadsheet that never blinked.",
+   "note": "ch5"
+  },
+  {
+   "id": "S62",
+   "size": "pan",
+   "key": 86,
+   "len": 138,
+   "first": 6462,
+   "line": "Now, the race. Every telescope on call wants a look.",
+   "note": "ch5"
+  },
+  {
+   "id": "S63",
+   "size": "med",
+   "key": 66,
+   "len": 107,
+   "first": 6600,
+   "line": "The Zwicky Transient Facility confirms it on the seventeenth.",
+   "note": "ch6"
+  },
+  {
+   "id": "S64",
+   "size": "high",
+   "key": 89,
+   "len": 144,
+   "first": 6707,
+   "line": "In November, NASA's Swift looks. So does Gemini North, in Hawaii.",
+   "note": "ch6"
+  },
+  {
+   "id": "S65",
+   "size": "insert",
+   "key": 72,
+   "len": 116,
+   "first": 6851,
+   "line": "Every night, a new spectrum. Every spectrum, a new clue.",
+   "note": "ch6"
+  },
+  {
+   "id": "S66",
+   "size": "wide",
+   "key": 75,
+   "len": 121,
+   "first": 6967,
+   "line": "They all say the same thing: a smaller star fell into a giant.",
+   "note": "ch6"
+  },
+  {
+   "id": "S67",
+   "size": "low",
+   "key": 68,
+   "len": 109,
+   "first": 7088,
+   "line": "But did you escape, or did you merge? Nobody knows yet.",
+   "note": "ch6"
+  },
+  {
+   "id": "S68",
+   "size": "pullout",
+   "key": 88,
+   "len": 142,
+   "first": 7197,
+   "line": "Some pairs survive this dance. They end up in tight, shrunken orbits.",
+   "note": "ch6"
+  },
+  {
+   "id": "S69",
+   "size": "high",
+   "key": 64,
+   "len": 104,
+   "first": 7339,
+   "line": "So the telescopes need one more clue. A big one.",
+   "note": "ch6"
+  },
+  {
+   "id": "S70",
+   "size": "wide",
+   "key": 50,
+   "len": 80,
+   "first": 7443,
+   "line": "Enter the James Webb Space Telescope.",
+   "note": "ch6"
+  },
+  {
+   "id": "S71",
+   "size": "pan",
+   "key": 66,
+   "len": 107,
+   "first": 7523,
+   "line": "It wants to look at the dust the giant shed over centuries.",
+   "note": "ch6"
+  },
+  {
+   "id": "S72",
+   "size": "insert",
+   "key": 94,
+   "len": 151,
+   "first": 7630,
+   "line": "Dust holds the answer. How much dust, how much gas, how much star.",
+   "note": "ch6"
+  },
+  {
+   "id": "S73",
+   "size": "med",
+   "key": 66,
+   "len": 107,
+   "first": 7781,
+   "line": "The date is the twenty-fourth of December. Christmas Eve.",
+   "note": "ch6"
+  },
+  {
+   "id": "S74",
+   "size": "close",
+   "key": 48,
+   "len": 77,
+   "first": 7888,
+   "line": "That is forty-seven days after the peak.",
+   "note": "ch6"
+  },
+  {
+   "id": "S75",
+   "size": "low",
+   "key": 81,
+   "len": 130,
+   "first": 7965,
+   "line": "The earliest anyone has ever followed up a merger like this.",
+   "note": "ch6"
+  },
+  {
+   "id": "S76",
+   "size": "insert",
+   "key": 82,
+   "len": 133,
+   "first": 8095,
+   "line": "What did Webb see? A tiny red-and-white dot, wrapped in dust.",
+   "note": "ch7"
+  },
+  {
+   "id": "S77",
+   "size": "high",
+   "key": 65,
+   "len": 105,
+   "first": 8228,
+   "line": "The scientists ran their computer models over and over.",
+   "note": "ch7"
+  },
+  {
+   "id": "S78",
+   "size": "med",
+   "key": 62,
+   "len": 100,
+   "first": 8333,
+   "line": "One model matched Webb's picture of the dust perfectly.",
+   "note": "ch7"
+  },
+  {
+   "id": "S79",
+   "size": "wide",
+   "key": 52,
+   "len": 84,
+   "first": 8433,
+   "line": "The model said you had enough energy left to flee.",
+   "note": "ch7"
+  },
+  {
+   "id": "S80",
+   "size": "close",
+   "key": 34,
+   "len": 55,
+   "first": 8517,
+   "line": "But a deeper check said no.",
+   "note": "ch7"
+  },
+  {
+   "id": "S81",
+   "size": "low",
+   "key": 43,
+   "len": 69,
+   "first": 8572,
+   "line": "You were dragged into the giant's core.",
+   "note": "ch7"
+  },
+  {
+   "id": "S82",
+   "size": "high",
+   "key": 80,
+   "len": 129,
+   "first": 8641,
+   "line": "A Columbia scientist said: almost like a bomb inside a living star.",
+   "note": "ch7"
+  },
+  {
+   "id": "S83",
+   "size": "med",
+   "key": 86,
+   "len": 138,
+   "first": 8770,
+   "line": "And you? You become part of the giant. One star, instead of two.",
+   "note": "ch7"
+  },
+  {
+   "id": "S84",
+   "size": "wide",
+   "key": 60,
+   "len": 96,
+   "first": 8908,
+   "line": "The blast threw off about a tenth of the giant's gas.",
+   "note": "ch7"
+  },
+  {
+   "id": "S85",
+   "size": "pan",
+   "key": 55,
+   "len": 89,
+   "first": 9004,
+   "line": "It flew away at roughly ten times escape speed.",
+   "note": "ch7"
+  },
+  {
+   "id": "S86",
+   "size": "high",
+   "key": 77,
+   "len": 124,
+   "first": 9093,
+   "line": "Up and down it flew free. Old dust held back the middle.",
+   "note": "ch7"
+  },
+  {
+   "id": "S87",
+   "size": "insert",
+   "key": 62,
+   "len": 100,
+   "first": 9217,
+   "line": "The result looks a bit like a dusty hourglass in the sky.",
+   "note": "ch7"
+  },
+  {
+   "id": "S88",
+   "size": "low",
+   "key": 78,
+   "len": 125,
+   "first": 9317,
+   "line": "You. A star. Gone, in seven years.",
+   "note": "ch7"
+  },
+  {
+   "id": "S89",
+   "size": "med",
+   "key": 33,
+   "len": 53,
+   "first": 9442,
+   "line": "So why does this one matter?",
+   "note": "ch8"
+  },
+  {
+   "id": "S90",
+   "size": "high",
+   "key": 42,
+   "len": 68,
+   "first": 9495,
+   "line": "This is called common envelope evolution.",
+   "note": "ch8"
+  },
+  {
+   "id": "S91",
+   "size": "pullout",
+   "key": 52,
+   "len": 84,
+   "first": 9563,
+   "line": "It is how many tight pairs of stars get made.",
+   "note": "ch8"
+  },
+  {
+   "id": "S92",
+   "size": "low",
+   "key": 76,
+   "len": 123,
+   "first": 9647,
+   "line": "Some of those pairs later become neutron stars. Or black holes.",
+   "note": "ch8"
+  },
+  {
+   "id": "S93",
+   "size": "wide",
+   "key": 77,
+   "len": 124,
+   "first": 9770,
+   "line": "Some send out ripples in space itself. Gravitational waves.",
+   "note": "ch8"
+  },
+  {
+   "id": "S94",
+   "size": "med",
+   "key": 67,
+   "len": 108,
+   "first": 9894,
+   "line": "Until now, astronomers had to work backwards from old wreckage.",
+   "note": "ch8"
+  },
+  {
+   "id": "S95",
+   "size": "high",
+   "key": 70,
+   "len": 113,
+   "first": 10002,
+   "line": "With you, they watched it live, before, during and after.",
+   "note": "ch8"
+  },
+  {
+   "id": "S96",
+   "size": "pan",
+   "key": 62,
+   "len": 100,
+   "first": 10115,
+   "line": "And it is not over. Bao's fate is still a mystery.",
+   "note": "ch8"
+  },
+  {
+   "id": "S97",
+   "size": "insert",
+   "key": 91,
+   "len": 147,
+   "first": 10215,
+   "line": "Dust hides the new star. It may take years, even decades, to settle.",
+   "note": "ch8"
+  },
+  {
+   "id": "S98",
+   "size": "wide",
+   "key": 79,
+   "len": 128,
+   "first": 10362,
+   "line": "Soon there will be more. NASA's Roman telescope starts its surveys.",
+   "note": "ch8"
+  },
+  {
+   "id": "S99",
+   "size": "high",
+   "key": 68,
+   "len": 110,
+   "first": 10490,
+   "line": "The lead author expects a large influx of similar discoveries.",
+   "note": "ch8"
+  },
+  {
+   "id": "S100",
+   "size": "pullout",
+   "key": 77,
+   "len": 124,
+   "first": 10600,
+   "line": "Remember the first line? A small star, swallowed by a giant.",
+   "note": "ch8"
+  },
+  {
+   "id": "S101",
+   "size": "high",
+   "key": 74,
+   "len": 120,
+   "first": 10724,
+   "line": "Now you know how a telescope, a spreadsheet and luck watched it happen.",
+   "note": "ch8"
+  },
+  {
+   "id": "S102",
+   "size": "close",
+   "key": 60,
+   "len": 97,
+   "first": 10844,
+   "line": "Tomorrow: what if the Moon vanished for one night?",
+   "note": "ch8"
+  },
+  {
+   "id": "S103",
+   "size": "med",
+   "key": 91,
+   "len": 146,
+   "first": 10941,
+   "line": "Would you ride the small star or the giant? Tell me below.",
+   "note": "ch8"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "starmerge/voice.wav",
+  "sfx": "starmerge/sfx.wav",
+  "music": "starmerge/music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}
