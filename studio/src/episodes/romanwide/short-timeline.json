@@ -1,0 +1,274 @@
+{
+ "slug": "romanwide",
+ "title": "WHAT IF YOUR TELESCOPE SAW 100X MORE SKY?",
+ "fps": 30,
+ "total": 1281,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 96,
+   "t0": 0,
+   "t1": 96,
+   "line": "You hold a camera that sees one hundred Hubbles at once."
+  },
+  {
+   "shot": "S2",
+   "a": 96,
+   "b": 203,
+   "t0": 0,
+   "t1": 107,
+   "line": "Hubble sees this tiny square. Roman sees all of this."
+  },
+  {
+   "shot": "S3",
+   "a": 203,
+   "b": 265,
+   "t0": 0,
+   "t1": 62,
+   "line": "Same two point four metre mirror."
+  },
+  {
+   "shot": "S4",
+   "a": 265,
+   "b": 368,
+   "t0": 0,
+   "t1": 103,
+   "line": "The trick is three mirrors, and a focal length a third as long."
+  },
+  {
+   "shot": "S5",
+   "a": 368,
+   "b": 446,
+   "t0": 0,
+   "t1": 78,
+   "line": "It sees in infrared, like Webb's cousin."
+  },
+  {
+   "shot": "S6",
+   "a": 446,
+   "b": 522,
+   "t0": 0,
+   "t1": 76,
+   "line": "Hubble spent ten years stitching Andromeda."
+  },
+  {
+   "shot": "S7",
+   "a": 522,
+   "b": 578,
+   "t0": 0,
+   "t1": 56,
+   "line": "Roman does it in a few clicks."
+  },
+  {
+   "shot": "S8",
+   "a": 578,
+   "b": 666,
+   "t0": 0,
+   "t1": 88,
+   "line": "NASA says nearly fifteen hundred times faster."
+  },
+  {
+   "shot": "S9",
+   "a": 666,
+   "b": 760,
+   "t0": 0,
+   "t1": 94,
+   "line": "Hubble has seen one tenth of one percent of the sky."
+  },
+  {
+   "shot": "S10",
+   "a": 760,
+   "b": 852,
+   "t0": 0,
+   "t1": 92,
+   "line": "Roman will image fifty times that in five years."
+  },
+  {
+   "shot": "S11",
+   "a": 852,
+   "b": 932,
+   "t0": 0,
+   "t1": 80,
+   "line": "Its first pictures drop on seventh December."
+  },
+  {
+   "shot": "S12",
+   "a": 932,
+   "b": 985,
+   "t0": 0,
+   "t1": 53,
+   "line": "You can even claim one pixel."
+  },
+  {
+   "shot": "S13",
+   "a": 985,
+   "b": 1063,
+   "t0": 0,
+   "t1": 78,
+   "line": "It's named for NASA's first chief astronomer."
+  },
+  {
+   "shot": "S14",
+   "a": 1063,
+   "b": 1159,
+   "t0": 0,
+   "t1": 96,
+   "line": "Tomorrow: what if the Sun blinked out for one minute?"
+  },
+  {
+   "shot": "S15",
+   "a": 1159,
+   "b": 1281,
+   "t0": 0,
+   "t1": 122,
+   "line": "One hundred Hubbles in one shot. Full film on the channel."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 60,
+   "len": 96,
+   "first": 0,
+   "line": "You hold a camera that sees one hundred Hubbles at once.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "pullout",
+   "key": 66,
+   "len": 107,
+   "first": 96,
+   "line": "Hubble sees this tiny square. Roman sees all of this.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "insert",
+   "key": 38,
+   "len": 62,
+   "first": 203,
+   "line": "Same two point four metre mirror.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "high",
+   "key": 64,
+   "len": 103,
+   "first": 265,
+   "line": "The trick is three mirrors, and a focal length a third as long.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "low",
+   "key": 48,
+   "len": 78,
+   "first": 368,
+   "line": "It sees in infrared, like Webb's cousin.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "low",
+   "key": 47,
+   "len": 76,
+   "first": 446,
+   "line": "Hubble spent ten years stitching Andromeda.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "med",
+   "key": 35,
+   "len": 56,
+   "first": 522,
+   "line": "Roman does it in a few clicks.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "insert",
+   "key": 55,
+   "len": 88,
+   "first": 578,
+   "line": "NASA says nearly fifteen hundred times faster.",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "pullout",
+   "key": 58,
+   "len": 94,
+   "first": 666,
+   "line": "Hubble has seen one tenth of one percent of the sky.",
+   "note": "ch0"
+  },
+  {
+   "id": "S10",
+   "size": "wide",
+   "key": 57,
+   "len": 92,
+   "first": 760,
+   "line": "Roman will image fifty times that in five years.",
+   "note": "ch0"
+  },
+  {
+   "id": "S11",
+   "size": "med",
+   "key": 50,
+   "len": 80,
+   "first": 852,
+   "line": "Its first pictures drop on seventh December.",
+   "note": "ch0"
+  },
+  {
+   "id": "S12",
+   "size": "insert",
+   "key": 33,
+   "len": 53,
+   "first": 932,
+   "line": "You can even claim one pixel.",
+   "note": "ch0"
+  },
+  {
+   "id": "S13",
+   "size": "insert",
+   "key": 48,
+   "len": 78,
+   "first": 985,
+   "line": "It's named for NASA's first chief astronomer.",
+   "note": "ch0"
+  },
+  {
+   "id": "S14",
+   "size": "close",
+   "key": 60,
+   "len": 96,
+   "first": 1063,
+   "line": "Tomorrow: what if the Sun blinked out for one minute?",
+   "note": "ch0"
+  },
+  {
+   "id": "S15",
+   "size": "wide",
+   "key": 76,
+   "len": 122,
+   "first": 1159,
+   "line": "One hundred Hubbles in one shot. Full film on the channel.",
+   "note": "ch0"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "romanwide/short-voice.wav",
+  "sfx": "romanwide/short-sfx.wav",
+  "music": "romanwide/short-music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}

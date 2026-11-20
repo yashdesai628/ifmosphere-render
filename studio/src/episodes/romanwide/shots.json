@@ -1,0 +1,6888 @@
+{
+ "slug": "romanwide",
+ "id": "RomanWide",
+ "title": [
+  "WHAT IF YOUR TELESCOPE",
+  "SAW 100x MORE SKY?"
+ ],
+ "accent": [
+  "100x MORE SKY"
+ ],
+ "voice": {
+  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.47,
+   "similarity_boost": 0.8,
+   "style": 0.32,
+   "use_speaker_boost": true,
+   "speed": 0.97
+  }
+ },
+ "short_vo": {
+  "stability": 0.42,
+  "style": 0.4,
+  "speed": 1.03
+ },
+ "short_music": {
+  "mood": "wonder",
+  "energy": 0.85
+ },
+ "mix": {
+  "music_under": 17,
+  "sfx_under": 7,
+  "duck_db": 6
+ },
+ "sets": {
+  "fov": "Andromeda with frames. Deep-navy bg; a big tilted spiral galaxy (cream-white core, blue-white arms, brown dust lanes); setp.hub 0..1 = a tiny white square outline (Hubble's window) draws on near the core; setp.rom 0..1 = a big cyan rectangle (Roman's window, 2:1) draws on and glows around the core; setp.t 0..1 = slow camera push; setp.label 0|1 = small labels HUBBLE / ROMAN appear on the frames.",
+  "grid": "Tiling grid. Deep-navy bg; one big cyan-outlined 2:1 rectangle filled with a 10x10 grid of small white squares (a hundred); setp.fill 0..100 = squares light up gold one by one until that count; setp.zoom 0..1 = camera zooms from one square to the whole rectangle; setp.glow 'gold'|'cyan'.",
+  "moonsky": "Night sky size compare. Deep-navy starry sky over a dark horizon; a pale full Moon disc (about 0.5 degree) with a thin outline; setp.rom 0..1 = a long cyan rectangle drawn beside the Moon, slightly wider than the Moon, 2:1; setp.hub 0..1 = a tiny white square drawn on the Moon's face; setp.t 0..1 = slow pan.",
+  "mirror": "Telescope mirror close up. Deep-navy bg; a big round silver mirror, 4 px outline, hexagonal honeycomb ribs visible in a cutaway on one side, pale rim light and a slow glint sweep; setp.t 0..1 = glint sweeps across; setp.weight 0..1 = a small scale tips from a heavy dark block (Hubble 828 kg) toward a light one (Roman 186 kg); setp.bump 0|1 = a tiny bump on the surface is highlighted by a cyan callout.",
+  "optics": "Light path diagram. Deep-navy bg; a side view of a telescope tube with three curved mirrors (primary, secondary, tertiary) drawn as thick outlined curves and a gold ray bouncing through them to a small detector box; setp.t 0..1 = the gold ray travels; setp.wide 0..1 = the ray fans out into a wide cone; setp.short 0|1 = a cream bracket shows the focal length shrinking to a third.",
+  "skyspeck": "Whole-sky map. Deep-navy bg; a big dark oval all-sky map with faint stars and a thin cream grid; setp.cover 0..1 = a tiny gold patch (0.1 percent, Hubble's total) draws on; setp.rom 0..1 = a growing cyan area fills the map (50 times that patch); setp.t 0..1 = slow camera pull out.",
+  "mosaic": "Photo mosaic being stitched. Deep-navy bg; many small overlapping square photo tiles of a galaxy slowly pasting together into a big oval galaxy image; setp.tiles 0..600 = how many tiles are placed; setp.calendar 0..10 = a small year counter bar fills; setp.glow 0|1 = the finished galaxy glows.",
+  "l2": "Earth to L2 diagram. Deep-navy bg; on the left a small blue Earth with a tiny Moon on a thin ring, on the right a dotted halo-orbit ellipse around a small cyan marker labelled L2, a straight dashed line between; setp.t 0..1 = a tiny telescope icon (gold mirror) travels along the dashed line from Earth to L2; setp.halo 0..1 = it loops on the halo ellipse; setp.sun 0|1 = a warm light from the far left.",
+  "pixelwall": "A wall of pixels. Deep-navy bg; a huge mosaic grid of coloured square pixels of a deep-space image (galaxies as bright smudges); setp.zoom 0..1 = camera zooms into the grid until single pixels are big squares; setp.pick 0..1 = a white selection box drops onto one pixel and it glows gold; setp.card 0|1 = a small trading card flips up beside it.",
+  "stream": "A big screen live stream. Dark auditorium; far: a giant screen showing a starry placeholder with a cyan LIVE dot; mid: rows of silhouette chairs; near: floor plane with pale rim; setp.t 0..1 = the screen brightens; setp.count 0..1 = the countdown on the screen shrinks; setp.cheer 0|1 = silhouettes raise arms.",
+  "zoomwide": "Lens comparison. Deep-navy bg; two outlined camera lenses side by side: a short wide-angle lens on the left (cyan glow) and a long zoom lens on the right (white glow); setp.t 0..1 = left lens emits a wide cyan cone, right lens a thin white beam; setp.pick 'wide'|'zoom' = that lens glows brighter; setp.link 0|1 = a gold arrow links the two.",
+  "lab": "A bright astronomers' control room. far: wall of dark screens with soft cream charts and a world map; mid: a desk with two laptops, a coffee mug and a sticky note; near: carpet GroundPlane with pale rim; setp.alert 0..1 = a screen flashes amber with a warning triangle; setp.ok 1 = screens turn green.",
+  "scope": "A space telescope in deep space. far: SpaceBackdrop; mid: a Webb-style telescope with a hexagon-segment gold mirror, a flat layered silver sunshield and a small body, 4 px outline, pale rim light; setp.t 0..1 = slow drift; setp.look 0..1 = a faint cyan cone widens from the mirror toward the sky; setp.blink 0|1 = a camera flash.",
+  "darkweb": "Cosmic web. Deep-navy bg; a glowing network of cyan filaments with bright galaxy dots at the nodes and dark voids between; setp.t 0..1 = filaments slowly draw on; setp.warp 0..1 = the web bends and drifts outward; setp.glow 'gold'|'cyan'|'violet'.",
+  "planet": "A distant star with a planet. Deep-navy bg; a blinding white star on the left with spiky glare; a small blue-green planet on the right; setp.mask 0..1 = a black circular mask (coronagraph) grows over the star and the glare fades revealing the planet; setp.t 0..1 = slow drift.",
+  "void": "Plain deep-navy SpaceBackdrop stage with slow light rays and almost no stars, for big numbers, bars and diagrams. setp.glow 'gold'|'cyan'|'red' tints the rays."
+ },
+ "props": {
+  "starbig": "Icon of a giant star: a big red-orange disc with soft glow, darker blotches and a 4 px outline; pp.s scale; pp.label text beneath.",
+  "starsmall": "Icon of a small star: a bright yellow round disc with a soft glow and 4 px outline; pp.s scale; pp.label text beneath.",
+  "counter": "Big flat panel, 4 px dark outline, dark #1E1B2E face, cream flip digits in FONTS.title with thousands separators, label in FONTS.ui underneath. pp.from and pp.to: the number counts from->to across the shot (ease-out); pp.label text; pp.color gold|red|cyan.",
+  "clock": "Round analogue clock face, cream disc, 4 px dark outline, ticks, one hand. pp.from..pp.to in hours: the hand sweeps; pp.glow true adds a gold bloom.",
+  "bar": "Horizontal progress bar with 4 px outline, filled with pp.color (gold|red|cyan) to pp.frac of its width over the shot; pp.label above in FONTS.ui.",
+  "arrow": "Thick outlined curved arrow, pp.color gold|cyan|red, draws on across the shot.",
+  "flag": "Small green check mark badge in a round outlined cream disc with a tiny sparkle; or red cross when pp.bad true.",
+  "calendar": "Small wall calendar page, cream with a red top strip, 4 px outline; pp.text the date in FONTS.title (max 8 chars).",
+  "magnifier": "Outlined magnifying glass with a cream handle and pale glass; pp.s scale; pp.glow true adds a cyan bloom in the lens.",
+  "spoon": "A silver spoon with a dark 4 px outline, tilted; pp.s scale.",
+  "ring": "Pulsing cyan circle outline, 4 px, soft bloom, that expands and fades each second; pp.s scale.",
+  "scale": "Small balance scale icon, cream, 4 px outline, one pan tipped low; pp.s scale; pp.label text beneath.",
+  "camera": "Overlay prop: a chunky outlined black digital camera with a big round lens and a gold shutter button, held in front of Pip's chest with both hands; pp.s scale.",
+  "shades": "Overlay prop: dark rounded sunglasses sitting on Pip's face over the eyes, 4 px outline, with a tiny white glint; Pip's head and hood stay visible."
+ },
+ "actions": {
+  "lookup": "Pip tilts head back (headTilt up), arms hang loose, small sway; eyes lift at p 0.2.",
+  "duck": "Pip drops into a crouch with both arms raised over the head at p 0.15 and holds with a small tremble.",
+  "spin": "Pip turns one slow full rotation (yaw/spin) across the shot while looking up.",
+  "flinch": "A quick squash and lean away at p 0.2 with arms up, then settles back by p 0.7.",
+  "pointup": "Pip's arm swings up to point at the sky at p 0.2 with a small overshoot."
+ },
+ "sfx_new": {},
+ "chapters": [
+  {
+   "n": 0,
+   "title": "COLD OPEN",
+   "sub": "",
+   "music": {
+    "mood": "tense",
+    "energy": 0.9
+   },
+   "vo": {
+    "stability": 0.42,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 1,
+   "title": "THE RULES",
+   "sub": "Two windows on the sky.",
+   "music": {
+    "mood": "playful",
+    "energy": 0.4
+   },
+   "vo": {
+    "stability": 0.47,
+    "style": 0.38,
+    "speed": 1.04
+   },
+   "bed": {
+    "clip": "room_tone",
+    "gain": 0.04
+   }
+  },
+  {
+   "n": 2,
+   "title": "THE SQUARE",
+   "sub": "Hubble's window",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.55
+   },
+   "vo": {
+    "stability": 0.48,
+    "style": 0.38,
+    "speed": 0.97
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 3,
+   "title": "SAME MIRROR",
+   "sub": "Different lens",
+   "music": {
+    "mood": "playful",
+    "energy": 0.6
+   },
+   "vo": {
+    "stability": 0.44,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "room_tone",
+    "gain": 0.04
+   }
+  },
+  {
+   "n": 4,
+   "title": "ANDROMEDA",
+   "sub": "Ten years or a few shots",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.7
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.38,
+    "speed": 0.99
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 5,
+   "title": "THE LONG TRIP",
+   "sub": "A million miles out",
+   "music": {
+    "mood": "mystery",
+    "energy": 0.6
+   },
+   "vo": {
+    "stability": 0.44,
+    "style": 0.38,
+    "speed": 0.98
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 6,
+   "title": "THE REVEAL",
+   "sub": "7 December",
+   "music": {
+    "mood": "triumph",
+    "energy": 0.9
+   },
+   "vo": {
+    "stability": 0.4,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 7,
+   "title": "WHAT IT HUNTS",
+   "sub": "Dark energy and new worlds",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.6
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.38,
+    "speed": 0.97
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 8,
+   "title": "WHAT IT MEANS",
+   "sub": "Wide plus zoom",
+   "music": {
+    "mood": "warm",
+    "energy": 0.55
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.38,
+    "speed": 0.98
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  }
+ ],
+ "film": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "wide",
+   "vo": "This tiny square is all Hubble sees in one shot. This is Roman's.",
+   "dir": "hushed then awed; stress 'Roman's'",
+   "set": "fov",
+   "setp": {
+    "hub": 1.0,
+    "rom": 1.0,
+    "label": 1.0,
+    "t": 0.2
+   },
+   "cam": [
+    [
+     0.474,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.504,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "sideL",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "100x MORE SKY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "word": "Roman's",
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "One hundred times the sky. Same mirror. Same sharpness.",
+   "dir": "punchy; stress 'hundred'",
+   "set": "grid",
+   "setp": {
+    "fill": 100.0,
+    "zoom": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.507,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.493,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 1,
+      "to": 100,
+      "label": "HUBBLE FRAMES",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "AREA",
+     "value": "100x"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "ding",
+     "at": 0.8,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "med",
+   "vo": "NASA says the first pictures arrive on seventh December.",
+   "dir": "steady; stress 'seventh December'",
+   "set": "stream",
+   "setp": {
+    "t": 0.8,
+    "count": 0.2
+   },
+   "cam": [
+    [
+     0.502,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.531,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "text": "7 DEC"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "FIRST IMAGES - 7 DEC"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "close",
+   "vo": "So what if you held that camera?",
+   "dir": "playful, leaning in; stress 'you'",
+   "set": "lab",
+   "setp": {
+    "alert": 0.3
+   },
+   "cam": [
+    [
+     0.421,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.634,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "front",
+    "held": "camera"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "YOU HOLD THE CAMERA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "wide",
+   "vo": "Welcome to Ifmosphere. Here are the rules.",
+   "dir": "bright, brisk",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.451,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.461,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "IFMOSPHERE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 1,
+   "size": "med",
+   "vo": "You get two windows onto the sky, side by side.",
+   "dir": "clear; stress 'two'",
+   "set": "zoomwide",
+   "setp": {
+    "t": 0.6,
+    "pick": "wide",
+    "link": 0.0
+   },
+   "cam": [
+    [
+     0.514,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.493,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "RULES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 1,
+   "size": "insert",
+   "vo": "Hubble's window is a sharp little square.",
+   "dir": "fond; stress 'little'",
+   "set": "moonsky",
+   "setp": {
+    "hub": 1.0,
+    "rom": 0.0,
+    "t": 0.2
+   },
+   "cam": [
+    [
+     0.577,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.449,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "threeQuarter",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "HUBBLE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 1,
+   "size": "wide",
+   "vo": "Roman's window is a giant, and it's real.",
+   "dir": "impressed; stress 'giant'",
+   "set": "moonsky",
+   "setp": {
+    "hub": 1.0,
+    "rom": 1.0,
+    "t": 0.6
+   },
+   "cam": [
+    [
+     0.548,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.455,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "ROMAN",
+     "value": "0.8 x 0.4 DEG"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 1,
+   "size": "low",
+   "vo": "The rule is simple. Pick one, and the other waits.",
+   "dir": "wry; stress 'waits'",
+   "set": "zoomwide",
+   "setp": {
+    "t": 0.9,
+    "pick": "zoom",
+    "link": 1.0
+   },
+   "cam": [
+    [
+     0.472,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.743,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "ONE AT A TIME"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 1,
+   "size": "high",
+   "vo": "Here is the catch. You have to understand why the big one works.",
+   "dir": "teasing; stress 'why'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.457,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.393,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "THE CATCH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "ch": 2,
+   "size": "close",
+   "vo": "Start with Hubble. Its patch is zero point zero five six degrees wide.",
+   "dir": "measured; stress 'zero point zero five six'",
+   "set": "fov",
+   "setp": {
+    "hub": 1.0,
+    "rom": 0.0,
+    "label": 1.0,
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.378,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.6,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cream",
+     "label": "HUBBLE",
+     "value": "0.056 DEG"
+    },
+    {
+     "kind": "chip",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "ch": 2,
+   "size": "insert",
+   "vo": "That is a tenth the width of the full Moon.",
+   "dir": "amused; stress 'tenth'",
+   "set": "moonsky",
+   "setp": {
+    "hub": 1.0,
+    "rom": 0.0,
+    "t": 0.9
+   },
+   "cam": [
+    [
+     0.577,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.454,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "threeQuarter",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "MOON"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "ch": 2,
+   "size": "med",
+   "vo": "One shot, sixteen megapixels. Your phone does more.",
+   "dir": "dry; stress 'phone'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.465,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.469,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 16,
+      "label": "MEGAPIXELS",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "HUBBLE CAMERA",
+     "value": "16 MP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "laugh",
+     "at": 0.7,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "ch": 2,
+   "size": "pullout",
+   "vo": "Now aim it at something huge, like the Andromeda galaxy.",
+   "dir": "building; stress 'huge'",
+   "set": "fov",
+   "setp": {
+    "hub": 1.0,
+    "rom": 0.0,
+    "t": 0.9
+   },
+   "cam": [
+    [
+     0.505,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.462,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "ANDROMEDA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "ch": 2,
+   "size": "wide",
+   "vo": "In our sky it spreads three degrees. Six full Moons wide.",
+   "dir": "awed; stress 'six'",
+   "set": "moonsky",
+   "setp": {
+    "hub": 0.0,
+    "rom": 0.0,
+    "t": 0.3
+   },
+   "cam": [
+    [
+     0.508,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.469,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 6,
+      "label": "FULL MOONS WIDE",
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "ANDROMEDA",
+     "value": "3 DEG"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "ding",
+     "at": 0.8,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "ch": 2,
+   "size": "close",
+   "vo": "Hubble covers it a square at a time.",
+   "dir": "patient; stress 'square at a time'",
+   "set": "mosaic",
+   "setp": {
+    "tiles": 40.0,
+    "calendar": 1.0
+   },
+   "cam": [
+    [
+     0.363,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.632,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "side",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "ONE SQUARE AT A TIME"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "ch": 2,
+   "size": "low",
+   "vo": "So Hubble's real answer was to just keep going.",
+   "dir": "wry",
+   "set": "mosaic",
+   "setp": {
+    "tiles": 160.0,
+    "calendar": 3.0
+   },
+   "cam": [
+    [
+     0.54,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.67,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "YEAR 3"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "ch": 2,
+   "size": "high",
+   "vo": "Years of it. More than six hundred overlapping snapshots.",
+   "dir": "tired humour; stress 'six hundred'",
+   "set": "mosaic",
+   "setp": {
+    "tiles": 420.0,
+    "calendar": 7.0
+   },
+   "cam": [
+    [
+     0.501,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.41,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 600,
+      "label": "SNAPSHOTS",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "SNAPSHOTS",
+     "value": "600+"
+    },
+    {
+     "kind": "chip",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "ch": 2,
+   "size": "pullout",
+   "vo": "Over ten years, for one galaxy.",
+   "dir": "flat, sets up the contrast; stress 'ten years'",
+   "set": "mosaic",
+   "setp": {
+    "tiles": 600.0,
+    "calendar": 10.0,
+    "glow": 1.0
+   },
+   "cam": [
+    [
+     0.509,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.528,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 10,
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "10 YEARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "ch": 2,
+   "size": "insert",
+   "vo": "The result is gorgeous. Two point five billion pixels, two hundred million stars.",
+   "dir": "proud; stress 'billion'",
+   "set": "mosaic",
+   "setp": {
+    "tiles": 600.0,
+    "calendar": 10.0,
+    "glow": 1.0
+   },
+   "cam": [
+    [
+     0.608,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.453,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "threeQuarter",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "PIXELS",
+     "value": "2.5 BILLION"
+    },
+    {
+     "kind": "pill",
+     "slot": "bl",
+     "color": "gold",
+     "label": "STARS",
+     "value": "200 MILLION"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "ch": 2,
+   "size": "med",
+   "vo": "But you just spent a decade. Hold that thought.",
+   "dir": "cliffhanger; stress 'decade'",
+   "set": "fov",
+   "setp": {
+    "hub": 1.0,
+    "rom": 0.0,
+    "t": 1.0,
+    "label": 0.0
+   },
+   "cam": [
+    [
+     0.541,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.535,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "A DECADE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "ch": 2,
+   "size": "close",
+   "vo": "Hubble is a zoom champion. In visible and ultraviolet light, nothing sharper exists.",
+   "dir": "proud; stress 'nothing sharper'",
+   "set": "zoomwide",
+   "setp": {
+    "t": 0.7,
+    "pick": "zoom",
+    "link": 0.0
+   },
+   "cam": [
+    [
+     0.432,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.64,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cream",
+     "label": "HUBBLE",
+     "value": "0.04 ARCSEC/PX"
+    },
+    {
+     "kind": "chip",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "ch": 2,
+   "size": "insert",
+   "vo": "Roman sees a tenth of an arcsecond per pixel. Hubble-sharp, in infrared.",
+   "dir": "impressed; stress 'infrared'",
+   "set": "fov",
+   "setp": {
+    "hub": 1.0,
+    "rom": 0.3,
+    "t": 0.7
+   },
+   "cam": [
+    [
+     0.611,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.422,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "threeQuarter",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "ROMAN",
+     "value": "0.1 ARCSEC/PX"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "ch": 2,
+   "size": "low",
+   "vo": "Hubble sees ultraviolet, visible and near-infrared. Roman leans infrared.",
+   "dir": "explaining; stress 'infrared'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.46,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.68,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "ROMAN LEANS INFRARED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "ch": 3,
+   "size": "wide",
+   "vo": "Now switch windows. Roman's camera is the wide one.",
+   "dir": "bright; stress 'wide'",
+   "set": "zoomwide",
+   "setp": {
+    "t": 1.0,
+    "pick": "wide",
+    "link": 0.0
+   },
+   "cam": [
+    [
+     0.528,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.506,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "SWITCH TO ROMAN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "ch": 3,
+   "size": "close",
+   "vo": "Here is the twist. Roman's mirror is the same size as Hubble's.",
+   "dir": "surprised; stress 'same size'",
+   "set": "mirror",
+   "setp": {
+    "t": 0.4,
+    "weight": 0.0,
+    "bump": 0.0
+   },
+   "cam": [
+    [
+     0.445,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.646,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cream",
+     "label": "MIRROR",
+     "value": "2.4 m BOTH"
+    },
+    {
+     "kind": "chip",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "ch": 3,
+   "size": "low",
+   "vo": "Two point four metres across. Almost eight feet.",
+   "dir": "matter-of-fact; stress 'eight'",
+   "set": "mirror",
+   "setp": {
+    "t": 0.8,
+    "weight": 0.0,
+    "bump": 0.0
+   },
+   "cam": [
+    [
+     0.54,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.73,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "threeQuarter",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "7.9 FT ACROSS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S28",
+   "ch": 3,
+   "size": "insert",
+   "vo": "So where does a hundred times the sky come from?",
+   "dir": "curious, open question; stress 'where'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.587,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.43,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "WHERE FROM?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S29",
+   "ch": 3,
+   "size": "high",
+   "vo": "Not from a bigger mirror. From a shorter focal length.",
+   "dir": "explaining; stress 'shorter'",
+   "set": "optics",
+   "setp": {
+    "t": 0.5,
+    "wide": 0.3,
+    "short": 0.0
+   },
+   "cam": [
+    [
+     0.484,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.389,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SHORTER FOCAL LENGTH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S30",
+   "ch": 3,
+   "size": "med",
+   "vo": "Hubble folds light off two mirrors. Roman uses three.",
+   "dir": "teacher voice; stress 'three'",
+   "set": "optics",
+   "setp": {
+    "t": 0.8,
+    "wide": 0.5,
+    "short": 0.0
+   },
+   "cam": [
+    [
+     0.451,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.481,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "ROMAN",
+     "value": "3 MIRRORS"
+    },
+    {
+     "kind": "chip",
+     "slot": "bl",
+     "color": "cream",
+     "text": "HUBBLE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "pop",
+     "at": 0.6,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S31",
+   "ch": 3,
+   "size": "pullout",
+   "vo": "Roman's three mirrors shorten the focal length to a third.",
+   "dir": "impressed; stress 'a third'",
+   "set": "optics",
+   "setp": {
+    "t": 1.0,
+    "wide": 0.9,
+    "short": 1.0
+   },
+   "cam": [
+    [
+     0.465,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.472,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "FOCAL LENGTH",
+     "value": "1/3"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S32",
+   "ch": 3,
+   "size": "wide",
+   "vo": "Shorter focal length, wider view. It's a wide-angle lens in space.",
+   "dir": "bright; stress 'wide-angle'",
+   "set": "zoomwide",
+   "setp": {
+    "t": 1.0,
+    "pick": "wide",
+    "link": 0.0
+   },
+   "cam": [
+    [
+     0.525,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.473,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "WIDE LENS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "message_whoosh",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S33",
+   "ch": 3,
+   "size": "med",
+   "vo": "Hubble is the zoom lens. Roman is the wide one.",
+   "dir": "clear; stress 'zoom' and 'wide'",
+   "set": "zoomwide",
+   "setp": {
+    "t": 1.0,
+    "pick": "zoom",
+    "link": 1.0
+   },
+   "cam": [
+    [
+     0.49,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.532,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "side",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cream",
+     "label": "HUBBLE",
+     "value": "ZOOM"
+    },
+    {
+     "kind": "pill",
+     "slot": "bl",
+     "color": "cyan",
+     "label": "ROMAN",
+     "value": "WIDE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "pop",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S34",
+   "ch": 3,
+   "size": "insert",
+   "vo": "And the mirror itself is the real flex. It weighs four times less.",
+   "dir": "delighted; stress 'four times'",
+   "set": "mirror",
+   "setp": {
+    "t": 0.7,
+    "weight": 1.0,
+    "bump": 0.0
+   },
+   "cam": [
+    [
+     0.584,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.487,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "threeQuarter",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "scale",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "label": "MIRRORS"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "ROMAN",
+     "value": "186 KG"
+    },
+    {
+     "kind": "pill",
+     "slot": "bl",
+     "color": "red",
+     "label": "HUBBLE",
+     "value": "828 KG"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "pop",
+     "at": 0.6,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S35",
+   "ch": 3,
+   "size": "close",
+   "vo": "One eighty-six kilograms against eight twenty-eight. Pip approves.",
+   "dir": "comic; stress 'Pip approves'",
+   "set": "mirror",
+   "setp": {
+    "t": 0.9,
+    "weight": 1.0,
+    "bump": 0.0
+   },
+   "cam": [
+    [
+     0.419,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.625,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "LIGHTER, SAME SIZE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.7,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S36",
+   "ch": 3,
+   "size": "high",
+   "vo": "It is also absurdly smooth. Scale Earth up to that mirror's size.",
+   "dir": "wonder; stress 'smooth'",
+   "set": "mirror",
+   "setp": {
+    "t": 0.5,
+    "weight": 0.0,
+    "bump": 1.0
+   },
+   "cam": [
+    [
+     0.534,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.422,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "SMOOTHNESS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S37",
+   "ch": 3,
+   "size": "insert",
+   "vo": "The biggest bump on it would be a quarter of an inch.",
+   "dir": "awed; stress 'quarter of an inch'",
+   "set": "mirror",
+   "setp": {
+    "t": 1.0,
+    "weight": 0.0,
+    "bump": 1.0
+   },
+   "cam": [
+    [
+     0.556,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.464,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "threeQuarter",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "BUMP",
+     "value": "0.6 cm"
+    },
+    {
+     "kind": "chip",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S38",
+   "ch": 3,
+   "size": "low",
+   "vo": "Hubble's biggest bump, six inches. A speed hump for an ant.",
+   "dir": "wry; stress 'six inches'",
+   "set": "mirror",
+   "setp": {
+    "t": 1.0,
+    "weight": 0.2,
+    "bump": 1.0
+   },
+   "cam": [
+    [
+     0.481,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.703,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "HUBBLE BUMP",
+     "value": "15 cm"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.6,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S39",
+   "ch": 3,
+   "size": "pullout",
+   "vo": "So now you hold the wide window. What do you point it at?",
+   "dir": "teasing; stress 'point'",
+   "set": "fov",
+   "setp": {
+    "hub": 0.0,
+    "rom": 0.0,
+    "t": 0.1
+   },
+   "cam": [
+    [
+     0.454,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.538,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "ROMAN'S TURN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S40",
+   "ch": 3,
+   "size": "med",
+   "vo": "Its mirror wears a silver coat, four hundred nanometres thick.",
+   "dir": "wonder; stress 'silver'",
+   "set": "mirror",
+   "setp": {
+    "t": 0.3,
+    "weight": 0.1,
+    "bump": 0.0
+   },
+   "cam": [
+    [
+     0.487,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.47,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cream",
+     "label": "SILVER COAT",
+     "value": "400 nm"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S41",
+   "ch": 3,
+   "size": "close",
+   "vo": "That is three hundred times thinner than a human hair.",
+   "dir": "amazed; stress 'three hundred'",
+   "set": "mirror",
+   "setp": {
+    "t": 0.6,
+    "weight": 0.1,
+    "bump": 0.0
+   },
+   "cam": [
+    [
+     0.422,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.564,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 1,
+      "to": 300,
+      "label": "TIMES THINNER",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "VS A HAIR",
+     "value": "300x THINNER"
+    },
+    {
+     "kind": "chip",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.7,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S42",
+   "ch": 3,
+   "size": "pullout",
+   "vo": "Do the tiling. A hundred Hubble frames, ten by ten, fill Roman's.",
+   "dir": "playful maths; stress 'ten by ten'",
+   "set": "grid",
+   "setp": {
+    "fill": 100.0,
+    "zoom": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.504,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.484,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "OUR MATHS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "pop",
+     "at": 0.6,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S43",
+   "ch": 4,
+   "size": "wide",
+   "vo": "The same galaxy that cost Hubble ten years.",
+   "dir": "knowing; stress 'ten years'",
+   "set": "fov",
+   "setp": {
+    "hub": 0.0,
+    "rom": 0.0,
+    "t": 0.3
+   },
+   "cam": [
+    [
+     0.503,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.525,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "ANDROMEDA AGAIN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S44",
+   "ch": 4,
+   "size": "med",
+   "vo": "Roman's window covers a huge slab of it at once.",
+   "dir": "building; stress 'slab'",
+   "set": "fov",
+   "setp": {
+    "hub": 0.0,
+    "rom": 0.6,
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.463,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.493,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "ONE SHOT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S45",
+   "ch": 4,
+   "size": "close",
+   "vo": "Click. That's one picture.",
+   "dir": "quick; stress 'Click'",
+   "set": "fov",
+   "setp": {
+    "hub": 0.0,
+    "rom": 1.0,
+    "t": 0.6,
+    "label": 1.0
+   },
+   "cam": [
+    [
+     0.432,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.576,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer",
+    "held": "camera"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "CLICK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "message_whoosh",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S46",
+   "ch": 4,
+   "size": "pullout",
+   "vo": "Nudge the camera, click again. A few pointings and the whole galaxy's done.",
+   "dir": "brisk; stress 'a few'",
+   "set": "fov",
+   "setp": {
+    "hub": 0.0,
+    "rom": 1.0,
+    "t": 0.9,
+    "label": 1.0
+   },
+   "cam": [
+    [
+     0.52,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.455,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 4,
+      "label": "CLICKS",
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "POINTINGS",
+     "value": "A FEW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S47",
+   "ch": 4,
+   "size": "low",
+   "vo": "Where Hubble needed ten years.",
+   "dir": "flat; stress 'ten years'",
+   "set": "mosaic",
+   "setp": {
+    "tiles": 600.0,
+    "calendar": 10.0
+   },
+   "cam": [
+    [
+     0.505,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.663,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 10
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "HUBBLE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S48",
+   "ch": 4,
+   "size": "insert",
+   "vo": "NASA says Roman surveys Andromeda nearly fifteen hundred times faster.",
+   "dir": "amazed; stress 'fifteen hundred'",
+   "set": "grid",
+   "setp": {
+    "fill": 100.0,
+    "zoom": 0.4,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.575,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.453,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "threeQuarter",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 1,
+      "to": 1500,
+      "label": "TIMES FASTER",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "SPEED-UP",
+     "value": "1,500x"
+    },
+    {
+     "kind": "chip",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.6,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S49",
+   "ch": 4,
+   "size": "high",
+   "vo": "A decade becomes about two and a half days.",
+   "dir": "awed; stress 'two and a half days'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.464,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.448,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "DECADE TO DAYS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S50",
+   "ch": 4,
+   "size": "close",
+   "vo": "Quick honesty check. That last number is our maths, not NASA's.",
+   "dir": "honest, quick aside; stress 'my own maths'",
+   "set": "lab",
+   "setp": {
+    "alert": 0.4
+   },
+   "cam": [
+    [
+     0.406,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.611,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cream",
+     "text": "OUR MATHS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S51",
+   "ch": 4,
+   "size": "med",
+   "vo": "Ten years divided by fifteen hundred is roughly two and a half days.",
+   "dir": "dry; stress 'roughly'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.46,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.488,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "10 YRS / 1,500",
+     "value": "~2.4 DAYS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S52",
+   "ch": 4,
+   "size": "pullout",
+   "vo": "Whole sky now. Thirty years of Hubble: one tenth of one percent.",
+   "dir": "sober; stress 'one tenth of one percent'",
+   "set": "skyspeck",
+   "setp": {
+    "cover": 1.0,
+    "rom": 0.0,
+    "t": 0.3
+   },
+   "cam": [
+    [
+     0.542,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.481,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "HUBBLE'S SKY",
+     "value": "0.1%"
+    },
+    {
+     "kind": "chip",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S53",
+   "ch": 4,
+   "size": "wide",
+   "vo": "In five years, Roman images fifty times what Hubble managed in thirty.",
+   "dir": "excited; stress 'fifty times'",
+   "set": "skyspeck",
+   "setp": {
+    "cover": 1.0,
+    "rom": 1.0,
+    "t": 0.9
+   },
+   "cam": [
+    [
+     0.453,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.503,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 1,
+      "to": 50,
+      "label": "TIMES AS MUCH SKY",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "ROMAN 5 YRS",
+     "value": "50x HUBBLE'S 30"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "crowd_cheer",
+     "at": 0.7,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S54",
+   "ch": 4,
+   "size": "close",
+   "vo": "That's the trade. You give up zoom, and you get everything.",
+   "dir": "reflective; stress 'everything'",
+   "set": "zoomwide",
+   "setp": {
+    "t": 1.0,
+    "pick": "wide",
+    "link": 0.0
+   },
+   "cam": [
+    [
+     0.383,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.622,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "side",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "LESS ZOOM, MORE SKY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S55",
+   "ch": 4,
+   "size": "pan",
+   "vo": "But a camera this good has to get to its spot first.",
+   "dir": "cliffhanger; stress 'first'",
+   "set": "l2",
+   "setp": {
+    "t": 0.1,
+    "halo": 0.0,
+    "sun": 1.0
+   },
+   "cam": [
+    [
+     0.298,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.547,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "THE TRIP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S56",
+   "ch": 4,
+   "size": "wide",
+   "vo": "Two point five billion pixels, still only a fraction of Andromeda's stars.",
+   "dir": "awed; stress 'fraction'",
+   "set": "mosaic",
+   "setp": {
+    "tiles": 600.0,
+    "calendar": 10.0,
+    "glow": 1.0
+   },
+   "cam": [
+    [
+     0.53,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.487,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "ONLY A FRACTION"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S57",
+   "ch": 4,
+   "size": "high",
+   "vo": "Imagine what a wider window finds in all that light.",
+   "dir": "dreamy; stress 'wider'",
+   "set": "fov",
+   "setp": {
+    "hub": 0.0,
+    "rom": 0.7,
+    "t": 0.4,
+    "label": 0.0
+   },
+   "cam": [
+    [
+     0.487,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.352,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "WHAT ELSE IS THERE?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S58",
+   "ch": 5,
+   "size": "wide",
+   "vo": "Hubble hugs Earth, about four hundred eighty kilometres up.",
+   "dir": "calm; stress 'hugs'",
+   "set": "l2",
+   "setp": {
+    "t": 0.0,
+    "halo": 0.0,
+    "sun": 1.0
+   },
+   "cam": [
+    [
+     0.532,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.46,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cream",
+     "label": "HUBBLE",
+     "value": "483 KM UP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S59",
+   "ch": 5,
+   "size": "pullout",
+   "vo": "Roman flies a million miles out, to a spot called L two.",
+   "dir": "awed; stress 'million miles'",
+   "set": "l2",
+   "setp": {
+    "t": 0.6,
+    "halo": 0.0,
+    "sun": 1.0
+   },
+   "cam": [
+    [
+     0.533,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.505,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 1500000,
+      "label": "KM FROM EARTH",
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "DISTANCE",
+     "value": "1.5M KM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "space_swell",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S60",
+   "ch": 5,
+   "size": "low",
+   "vo": "It launched on the thirtieth of August, on a Falcon Heavy.",
+   "dir": "proud; stress 'Falcon Heavy'",
+   "set": "scope",
+   "setp": {
+    "t": 0.2,
+    "look": 0.0
+   },
+   "cam": [
+    [
+     0.475,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.651,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "text": "30 AUG"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "LAUNCH - 30 AUG"
+    },
+    {
+     "kind": "chip",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fireball_roar",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S61",
+   "ch": 5,
+   "size": "high",
+   "vo": "Then a three-month trip, alone, through the dark.",
+   "dir": "hushed; stress 'alone'",
+   "set": "l2",
+   "setp": {
+    "t": 0.85,
+    "halo": 0.2,
+    "sun": 1.0
+   },
+   "cam": [
+    [
+     0.482,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.404,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "tired",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "color": "gold",
+      "frac": 1.0,
+      "label": "TRIP TO L2"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "TRIP",
+     "value": "3 MONTHS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S62",
+   "ch": 5,
+   "size": "med",
+   "vo": "At L two, the pull of the Sun and Earth balance.",
+   "dir": "teacher; stress 'balance'",
+   "set": "l2",
+   "setp": {
+    "t": 1.0,
+    "halo": 0.5,
+    "sun": 1.0
+   },
+   "cam": [
+    [
+     0.477,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.464,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SUN + EARTH BALANCE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S63",
+   "ch": 5,
+   "size": "insert",
+   "vo": "It sits cold and steady, far from Earth's glow. Perfect for infrared.",
+   "dir": "warm; stress 'cold'",
+   "set": "l2",
+   "setp": {
+    "t": 1.0,
+    "halo": 1.0,
+    "sun": 0.0
+   },
+   "cam": [
+    [
+     0.603,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.41,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "threeQuarter",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "INFRARED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S64",
+   "ch": 5,
+   "size": "wide",
+   "vo": "Next door is Webb. Roman joins it out there.",
+   "dir": "friendly; stress 'Webb'",
+   "set": "scope",
+   "setp": {
+    "t": 0.7,
+    "look": 0.6
+   },
+   "cam": [
+    [
+     0.481,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.451,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "NEIGHBOUR",
+     "value": "WEBB"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S65",
+   "ch": 5,
+   "size": "close",
+   "vo": "Out there, the telescope switches on piece by piece.",
+   "dir": "curious; stress 'piece by piece'",
+   "set": "scope",
+   "setp": {
+    "t": 0.5,
+    "look": 0.3
+   },
+   "cam": [
+    [
+     0.354,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.563,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "side",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "COMMISSIONING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S66",
+   "ch": 5,
+   "size": "med",
+   "vo": "Cameras, detectors, mirrors. Every one tested and tuned.",
+   "dir": "brisk",
+   "set": "lab",
+   "setp": {
+    "alert": 0.0,
+    "ok": 1.0
+   },
+   "cam": [
+    [
+     0.457,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.503,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SYSTEMS TUNED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "pop",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S67",
+   "ch": 5,
+   "size": "insert",
+   "vo": "Eighteen detectors have to work as one camera.",
+   "dir": "focused; stress 'eighteen'",
+   "set": "grid",
+   "setp": {
+    "fill": 18.0,
+    "zoom": 0.2,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.569,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.422,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 18,
+      "label": "DETECTORS",
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "DETECTORS",
+     "value": "18"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S68",
+   "ch": 5,
+   "size": "high",
+   "vo": "Together they make two hundred eighty-eight megapixels.",
+   "dir": "impressed; stress 'two hundred eighty-eight'",
+   "set": "grid",
+   "setp": {
+    "fill": 60.0,
+    "zoom": 0.6,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.538,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.445,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 16,
+      "to": 288,
+      "label": "MEGAPIXELS",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "CAMERA",
+     "value": "288 MP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.7,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S69",
+   "ch": 5,
+   "size": "low",
+   "vo": "Sixteen for Hubble. Two eighty-eight for Roman.",
+   "dir": "dry; stress 'two eighty-eight'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.542,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.738,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "HUBBLE",
+     "value": "16 MP"
+    },
+    {
+     "kind": "pill",
+     "slot": "bl",
+     "color": "gold",
+     "label": "ROMAN",
+     "value": "288 MP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S70",
+   "ch": 5,
+   "size": "pullout",
+   "vo": "And in each frame, Roman's view is point eight by point four degrees.",
+   "dir": "clear; stress 'point eight'",
+   "set": "moonsky",
+   "setp": {
+    "hub": 1.0,
+    "rom": 1.0,
+    "t": 0.8
+   },
+   "cam": [
+    [
+     0.467,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.499,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "FRAME",
+     "value": "0.8 x 0.4 DEG"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S71",
+   "ch": 5,
+   "size": "wide",
+   "vo": "A shade wider than the full Moon.",
+   "dir": "amused; stress 'wider'",
+   "set": "moonsky",
+   "setp": {
+    "hub": 0.0,
+    "rom": 1.0,
+    "t": 1.0
+   },
+   "cam": [
+    [
+     0.54,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.518,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "WIDER THAN THE MOON"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S72",
+   "ch": 5,
+   "size": "high",
+   "vo": "So the camera works. But what will it show first?",
+   "dir": "cliffhanger; stress 'first'",
+   "set": "stream",
+   "setp": {
+    "t": 0.3,
+    "count": 0.8
+   },
+   "cam": [
+    [
+     0.53,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.445,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "WHAT FIRST?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S73",
+   "ch": 5,
+   "size": "low",
+   "vo": "Parking there costs almost no fuel. The orbit practically holds itself.",
+   "dir": "charmed; stress 'no fuel'",
+   "set": "l2",
+   "setp": {
+    "t": 1.0,
+    "halo": 0.8,
+    "sun": 1.0
+   },
+   "cam": [
+    [
+     0.498,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.712,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "FUEL USED",
+     "value": "VERY LITTLE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S74",
+   "ch": 5,
+   "size": "pullout",
+   "vo": "No Earth glow, no Moon glare, just cold, quiet dark.",
+   "dir": "hushed; stress 'quiet'",
+   "set": "l2",
+   "setp": {
+    "t": 1.0,
+    "halo": 0.3,
+    "sun": 0.0
+   },
+   "cam": [
+    [
+     0.486,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.513,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "COLD AND QUIET"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S75",
+   "ch": 6,
+   "size": "wide",
+   "vo": "NASA is saving that for Monday, seventh December.",
+   "dir": "building; stress 'Monday'",
+   "set": "stream",
+   "setp": {
+    "t": 0.6,
+    "count": 0.5
+   },
+   "cam": [
+    [
+     0.46,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.536,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "text": "7 DEC"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "MON 7 DEC"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S76",
+   "ch": 6,
+   "size": "insert",
+   "vo": "Three thirty in the afternoon, Eastern time.",
+   "dir": "clear; stress 'three thirty'",
+   "set": "stream",
+   "setp": {
+    "t": 0.7,
+    "count": 0.4
+   },
+   "cam": [
+    [
+     0.628,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.482,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 12,
+      "to": 15.5,
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "LIVE",
+     "value": "3"
+    },
+    {
+     "kind": "chip",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S77",
+   "ch": 6,
+   "size": "med",
+   "vo": "That's eight thirty in the evening in London.",
+   "dir": "friendly; stress 'London'",
+   "set": "stream",
+   "setp": {
+    "t": 0.8,
+    "count": 0.3
+   },
+   "cam": [
+    [
+     0.464,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.492,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "LONDON",
+     "value": "20"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S78",
+   "ch": 6,
+   "size": "low",
+   "vo": "A live stream from a science conference in San Francisco.",
+   "dir": "steady",
+   "set": "stream",
+   "setp": {
+    "t": 0.9,
+    "count": 0.2
+   },
+   "cam": [
+    [
+     0.498,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.666,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "side",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "AGU, SAN FRANCISCO"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S79",
+   "ch": 6,
+   "size": "close",
+   "vo": "And nobody outside the team has seen the pictures.",
+   "dir": "hushed; stress 'nobody'",
+   "set": "stream",
+   "setp": {
+    "t": 0.4,
+    "count": 0.1
+   },
+   "cam": [
+    [
+     0.443,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.57,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "NO SPOILERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S80",
+   "ch": 6,
+   "size": "high",
+   "vo": "NASA hasn't even said where Roman looked. That's a real unknown.",
+   "dir": "honest; stress 'unknown'",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.519,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.369,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "TARGETS NOT ANNOUNCED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S81",
+   "ch": 6,
+   "size": "pullout",
+   "vo": "So here's the fun part you can actually do. Claim a pixel.",
+   "dir": "bright; stress 'Claim'",
+   "set": "pixelwall",
+   "setp": {
+    "zoom": 0.3,
+    "pick": 0.0,
+    "card": 0.0
+   },
+   "cam": [
+    [
+     0.502,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.537,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "ADOPT A PIXEL"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S82",
+   "ch": 6,
+   "size": "insert",
+   "vo": "Every pixel of those first images is a unique piece of the cosmos.",
+   "dir": "wonder; stress 'unique'",
+   "set": "pixelwall",
+   "setp": {
+    "zoom": 0.7,
+    "pick": 0.0,
+    "card": 0.0
+   },
+   "cam": [
+    [
+     0.558,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.401,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "threeQuarter",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "EACH PIXEL = A PIECE OF SKY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S83",
+   "ch": 6,
+   "size": "close",
+   "vo": "Pick yours and it glows. You get a digital trading card.",
+   "dir": "delighted; stress 'trading card'",
+   "set": "pixelwall",
+   "setp": {
+    "zoom": 1.0,
+    "pick": 1.0,
+    "card": 1.0
+   },
+   "cam": [
+    [
+     0.389,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.62,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "YOUR PIXEL",
+     "value": "TRADING CARD"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "pop",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S84",
+   "ch": 6,
+   "size": "wide",
+   "vo": "Then you wait, with everyone else, for the stream.",
+   "dir": "warm; stress 'wait'",
+   "set": "stream",
+   "setp": {
+    "t": 1.0,
+    "count": 0.0,
+    "cheer": 1.0
+   },
+   "cam": [
+    [
+     0.51,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.475,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "WAIT FOR 7 DEC"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "crowd_cheer",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S85",
+   "ch": 6,
+   "size": "med",
+   "vo": "You don't need a ticket. NASA streams it live on its own platforms.",
+   "dir": "friendly; stress 'live'",
+   "set": "stream",
+   "setp": {
+    "t": 0.5,
+    "count": 0.6
+   },
+   "cam": [
+    [
+     0.505,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.501,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA LIVE STREAM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S86",
+   "ch": 6,
+   "size": "high",
+   "vo": "People are even hosting watch parties for the reveal.",
+   "dir": "delighted; stress 'watch parties'",
+   "set": "stream",
+   "setp": {
+    "t": 1.0,
+    "count": 0.1,
+    "cheer": 1.0
+   },
+   "cam": [
+    [
+     0.535,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.36,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "WATCH PARTIES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "crowd_cheer",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S87",
+   "ch": 7,
+   "size": "wide",
+   "vo": "Roman isn't only here for pretty pictures.",
+   "dir": "serious; stress 'isn't only'",
+   "set": "darkweb",
+   "setp": {
+    "t": 0.4,
+    "warp": 0.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.467,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.507,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "THE REAL JOB"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S88",
+   "ch": 7,
+   "size": "high",
+   "vo": "In the nineteen nineties, astronomers found the universe's expansion is speeding up.",
+   "dir": "thoughtful; stress 'speeding up'",
+   "set": "darkweb",
+   "setp": {
+    "t": 0.8,
+    "warp": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.533,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.373,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "EXPANSION"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S89",
+   "ch": 7,
+   "size": "med",
+   "vo": "We call whatever drives that dark energy.",
+   "dir": "low; stress 'dark energy'",
+   "set": "darkweb",
+   "setp": {
+    "t": 1.0,
+    "warp": 1.0,
+    "glow": "violet"
+   },
+   "cam": [
+    [
+     0.501,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.451,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "DARK ENERGY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S90",
+   "ch": 7,
+   "size": "close",
+   "vo": "Roman's wide view will test whether dark energy changes over time.",
+   "dir": "building; stress 'changes'",
+   "set": "darkweb",
+   "setp": {
+    "t": 1.0,
+    "warp": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.387,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.562,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "DOES IT CHANGE?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S91",
+   "ch": 7,
+   "size": "low",
+   "vo": "It will also chart dark matter, which we only feel as gravity.",
+   "dir": "hushed; stress 'gravity'",
+   "set": "darkweb",
+   "setp": {
+    "t": 0.6,
+    "warp": 0.3,
+    "glow": "violet"
+   },
+   "cam": [
+    [
+     0.454,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.749,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "DARK MATTER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S92",
+   "ch": 7,
+   "size": "insert",
+   "vo": "By watching how visible stuff moves, Roman reads the invisible stuff.",
+   "dir": "clever; stress 'reads'",
+   "set": "darkweb",
+   "setp": {
+    "t": 0.9,
+    "warp": 0.6,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.552,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.446,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "threeQuarter",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SEES GRAVITY AT WORK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S93",
+   "ch": 7,
+   "size": "med",
+   "vo": "Roman also carries a coronagraph. Basically, a sun visor for planets.",
+   "dir": "playful; stress 'sun visor'",
+   "set": "planet",
+   "setp": {
+    "mask": 0.3,
+    "t": 0.2
+   },
+   "cam": [
+    [
+     0.54,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.55,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug",
+    "over": "shades"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "CORONAGRAPH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "laugh",
+     "at": 0.6,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S94",
+   "ch": 7,
+   "size": "close",
+   "vo": "It blocks the star's glare so a faint planet can show.",
+   "dir": "explaining; stress 'glare'",
+   "set": "planet",
+   "setp": {
+    "mask": 0.8,
+    "t": 0.6
+   },
+   "cam": [
+    [
+     0.416,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.588,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "BLOCK THE GLARE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S95",
+   "ch": 7,
+   "size": "pullout",
+   "vo": "NASA says it's a hundred to a thousand times better than earlier ones.",
+   "dir": "amazed; stress 'thousand'",
+   "set": "planet",
+   "setp": {
+    "mask": 1.0,
+    "t": 0.9
+   },
+   "cam": [
+    [
+     0.543,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.537,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 100,
+      "to": 1000,
+      "label": "TIMES BETTER",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "CORONAGRAPH",
+     "value": "100-1,000x"
+    },
+    {
+     "kind": "chip",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.7,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S96",
+   "ch": 7,
+   "size": "high",
+   "vo": "Remember the catch? Roman can't zoom in like Hubble.",
+   "dir": "callback; stress 'catch'",
+   "set": "zoomwide",
+   "setp": {
+    "t": 1.0,
+    "pick": "wide",
+    "link": 0.0
+   },
+   "cam": [
+    [
+     0.496,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.352,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "THE CATCH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S97",
+   "ch": 7,
+   "size": "med",
+   "vo": "So Roman finds the interesting spots. And Hubble and Webb zoom in.",
+   "dir": "satisfying; stress 'finds' and 'zoom in'",
+   "set": "zoomwide",
+   "setp": {
+    "t": 1.0,
+    "pick": "zoom",
+    "link": 1.0
+   },
+   "cam": [
+    [
+     0.471,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.485,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "TEAM",
+     "value": "ROMAN+HUBBLE+WEBB"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "crowd_cheer",
+     "at": 0.6,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S98",
+   "ch": 7,
+   "size": "close",
+   "vo": "Wide to find it. Zoom to understand it.",
+   "dir": "punchy; stress 'Wide' and 'Zoom'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.403,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.57,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "WIDE + ZOOM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S99",
+   "ch": 7,
+   "size": "insert",
+   "vo": "Roman's camera can also split light into colours, across its whole view.",
+   "dir": "clever; stress 'whole view'",
+   "set": "darkweb",
+   "setp": {
+    "t": 1.0,
+    "warp": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.611,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.486,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "threeQuarter",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SPECTROSCOPY, WIDE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S100",
+   "ch": 7,
+   "size": "med",
+   "vo": "That reads motion, chemistry and temperature, everywhere at once.",
+   "dir": "building; stress 'everywhere'",
+   "set": "darkweb",
+   "setp": {
+    "t": 0.5,
+    "warp": 0.9,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.467,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.474,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "READS",
+     "value": "MOTION+CHEMISTRY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S101",
+   "ch": 7,
+   "size": "wide",
+   "vo": "And it keeps coming back, so the sky becomes a movie.",
+   "dir": "bright; stress 'movie'",
+   "set": "darkweb",
+   "setp": {
+    "t": 0.7,
+    "warp": 0.4,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.455,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.465,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "SKY AS A MOVIE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S102",
+   "ch": 7,
+   "size": "close",
+   "vo": "Hubble's archive shows change on a human timescale. Roman will stretch that far.",
+   "dir": "reflective; stress 'stretch'",
+   "set": "darkweb",
+   "setp": {
+    "t": 0.8,
+    "warp": 0.4,
+    "glow": "violet"
+   },
+   "cam": [
+    [
+     0.388,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.606,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "side",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "CHANGE OVER TIME"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S103",
+   "ch": 7,
+   "size": "med",
+   "vo": "One more thing about the name.",
+   "dir": "soft, turning",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.474,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.465,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "THE NAME"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S104",
+   "ch": 7,
+   "size": "insert",
+   "vo": "Nancy Grace Roman was NASA's first chief astronomer.",
+   "dir": "warm; stress 'first'",
+   "set": "moonsky",
+   "setp": {
+    "hub": 0.0,
+    "rom": 0.0,
+    "t": 0.05
+   },
+   "cam": [
+    [
+     0.638,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.429,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "FIRST CHIEF ASTRONOMER"
+    },
+    {
+     "kind": "chip",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S105",
+   "ch": 7,
+   "size": "close",
+   "vo": "People call her the mother of Hubble.",
+   "dir": "fond; stress 'mother'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.422,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.62,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "threeQuarter",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "HUBBLE'S MOM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S106",
+   "ch": 7,
+   "size": "low",
+   "vo": "So Roman isn't a replacement. It's a wide-eyed sibling.",
+   "dir": "tender, humorous; stress 'sibling'",
+   "set": "zoomwide",
+   "setp": {
+    "t": 1.0,
+    "pick": "wide",
+    "link": 1.0
+   },
+   "cam": [
+    [
+     0.535,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.659,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NOT A REPLACEMENT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "laugh",
+     "at": 0.6,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S107",
+   "ch": 7,
+   "size": "low",
+   "vo": "Roman will also catch subtle changes in our own Milky Way.",
+   "dir": "curious; stress 'own'",
+   "set": "darkweb",
+   "setp": {
+    "t": 0.4,
+    "warp": 0.7,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.472,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.717,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "threeQuarter",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "OUR MILKY WAY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S108",
+   "ch": 8,
+   "size": "wide",
+   "vo": "So back to that first square. Hubble's window.",
+   "dir": "reflective; stress 'square'",
+   "set": "fov",
+   "setp": {
+    "hub": 1.0,
+    "rom": 0.0,
+    "t": 0.2,
+    "label": 1.0
+   },
+   "cam": [
+    [
+     0.502,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.522,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "side",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "HUBBLE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S109",
+   "ch": 8,
+   "size": "pullout",
+   "vo": "That giant frame is the same mirror, bent a smarter way.",
+   "dir": "warm; stress 'smarter'",
+   "set": "fov",
+   "setp": {
+    "hub": 1.0,
+    "rom": 1.0,
+    "t": 0.6,
+    "label": 1.0
+   },
+   "cam": [
+    [
+     0.456,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.504,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SAME MIRROR, WIDER VIEW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S110",
+   "ch": 8,
+   "size": "high",
+   "vo": "One hundred times the sky. Fifty times the coverage, in five years.",
+   "dir": "proud; stress 'one hundred'",
+   "set": "grid",
+   "setp": {
+    "fill": 100.0,
+    "zoom": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.478,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.43,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "AREA",
+     "value": "100x"
+    },
+    {
+     "kind": "pill",
+     "slot": "bl",
+     "color": "cyan",
+     "label": "5 YRS",
+     "value": "50x"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S111",
+   "ch": 8,
+   "size": "wide",
+   "vo": "And on seventh December, we all finally get to look through it.",
+   "dir": "soft, hopeful; stress 'finally'",
+   "set": "stream",
+   "setp": {
+    "t": 1.0,
+    "count": 0.0,
+    "cheer": 1.0
+   },
+   "cam": [
+    [
+     0.467,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.517,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "7 DEC - 20"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "crowd_cheer",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S112",
+   "ch": 8,
+   "size": "close",
+   "vo": "Which part of the sky do you want Roman to look at first?",
+   "dir": "inviting, a real question; stress 'first'",
+   "set": "fov",
+   "setp": {
+    "hub": 0.0,
+    "rom": 1.0,
+    "t": 1.0,
+    "label": 0.0
+   },
+   "cam": [
+    [
+     0.37,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.631,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "COMMENT YOUR TARGET"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S113",
+   "ch": 8,
+   "size": "close",
+   "vo": "Tomorrow: what if the Sun blinked out for one minute?",
+   "dir": "teasing; stress 'vanished'",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.381,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.613,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "TOMORROW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  }
+ ],
+ "short": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "wide",
+   "vo": "You hold a camera that sees one hundred Hubbles at once.",
+   "dir": "hushed then awed; stress 'one hundred'",
+   "set": "fov",
+   "setp": {
+    "hub": 1.0,
+    "rom": 1.0,
+    "label": 1.0,
+    "t": 0.2
+   },
+   "cam": [
+    [
+     0.474,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.504,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "sideL",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "stand",
+    "held": "camera"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "100x SKY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.35
+    },
+    {
+     "clip": "title_boom",
+     "word": "hundred",
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "Hubble sees this tiny square. Roman sees all of this.",
+   "dir": "quick; stress 'all'",
+   "set": "moonsky",
+   "setp": {
+    "hub": 1.0,
+    "rom": 1.0,
+    "t": 0.7
+   },
+   "cam": [
+    [
+     0.507,
+     0.5,
+     1.52
+    ],
+    [
+     0.5,
+     0.493,
+     0.95
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "ROMAN",
+     "value": "0.8 x 0.4 DEG"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "insert",
+   "vo": "Same two point four metre mirror.",
+   "dir": "dry; stress 'same'",
+   "set": "mirror",
+   "setp": {
+    "t": 0.5,
+    "weight": 0.0,
+    "bump": 0.0
+   },
+   "cam": [
+    [
+     0.602,
+     0.45,
+     1.9
+    ],
+    [
+     0.55,
+     0.481,
+     1.71
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cream",
+     "label": "MIRROR",
+     "value": "2.4 m BOTH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "high",
+   "vo": "The trick is three mirrors, and a focal length a third as long.",
+   "dir": "explaining; stress 'third'",
+   "set": "optics",
+   "setp": {
+    "t": 1.0,
+    "wide": 0.9,
+    "short": 1.0
+   },
+   "cam": [
+    [
+     0.521,
+     0.3,
+     1.04
+    ],
+    [
+     0.5,
+     0.434,
+     1.19
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "FOCAL LENGTH",
+     "value": "1/3"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "low",
+   "vo": "It sees in infrared, like Webb's cousin.",
+   "dir": "wry; stress 'cousin'",
+   "set": "scope",
+   "setp": {
+    "t": 0.6,
+    "look": 0.7
+   },
+   "cam": [
+    [
+     0.451,
+     0.75,
+     1.14
+    ],
+    [
+     0.5,
+     0.661,
+     1.28
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "INFRARED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 0,
+   "size": "low",
+   "vo": "Hubble spent ten years stitching Andromeda.",
+   "dir": "tired humour; stress 'ten years'",
+   "set": "mosaic",
+   "setp": {
+    "tiles": 500.0,
+    "calendar": 10.0
+   },
+   "cam": [
+    [
+     0.514,
+     0.75,
+     1.14
+    ],
+    [
+     0.5,
+     0.693,
+     1.28
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 10
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "HUBBLE",
+     "value": "10 YEARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 0,
+   "size": "med",
+   "vo": "Roman does it in a few clicks.",
+   "dir": "punchy; stress 'clicks'",
+   "set": "fov",
+   "setp": {
+    "hub": 0.0,
+    "rom": 1.0,
+    "t": 0.8,
+    "label": 1.0
+   },
+   "cam": [
+    [
+     0.477,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.499,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer",
+    "held": "camera"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "FEW CLICKS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "message_whoosh",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 0,
+   "size": "insert",
+   "vo": "NASA says nearly fifteen hundred times faster.",
+   "dir": "amazed; stress 'fifteen hundred'",
+   "set": "grid",
+   "setp": {
+    "fill": 100.0,
+    "zoom": 0.4,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.648,
+     0.45,
+     1.9
+    ],
+    [
+     0.55,
+     0.405,
+     1.71
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "threeQuarter",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 1,
+      "to": 1500,
+      "label": "TIMES FASTER",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "SPEED-UP",
+     "value": "1,500x"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.6,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "Hubble has seen one tenth of one percent of the sky.",
+   "dir": "sober; stress 'tenth'",
+   "set": "skyspeck",
+   "setp": {
+    "cover": 1.0,
+    "rom": 0.0,
+    "t": 0.3
+   },
+   "cam": [
+    [
+     0.472,
+     0.5,
+     1.52
+    ],
+    [
+     0.5,
+     0.543,
+     0.95
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "HUBBLE'S SKY",
+     "value": "0.1%"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 0,
+   "size": "wide",
+   "vo": "Roman will image fifty times that in five years.",
+   "dir": "excited; stress 'fifty times'",
+   "set": "skyspeck",
+   "setp": {
+    "cover": 1.0,
+    "rom": 1.0,
+    "t": 0.9
+   },
+   "cam": [
+    [
+     0.457,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.493,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 1,
+      "to": 50,
+      "label": "TIMES AS MUCH",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "ROMAN 5 YRS",
+     "value": "50x"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "crowd_cheer",
+     "at": 0.7,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "ch": 0,
+   "size": "med",
+   "vo": "Its first pictures drop on seventh December.",
+   "dir": "building; stress 'seventh December'",
+   "set": "stream",
+   "setp": {
+    "t": 0.8,
+    "count": 0.2
+   },
+   "cam": [
+    [
+     0.478,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.5,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "text": "7 DEC"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "7 DEC - 20"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "ch": 0,
+   "size": "insert",
+   "vo": "You can even claim one pixel.",
+   "dir": "bright; stress 'pixel'",
+   "set": "pixelwall",
+   "setp": {
+    "zoom": 1.0,
+    "pick": 1.0,
+    "card": 1.0
+   },
+   "cam": [
+    [
+     0.577,
+     0.45,
+     1.9
+    ],
+    [
+     0.55,
+     0.454,
+     1.71
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "ADOPT A PIXEL"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "pop",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "ch": 0,
+   "size": "insert",
+   "vo": "It's named for NASA's first chief astronomer.",
+   "dir": "warm; stress 'first'",
+   "set": "moonsky",
+   "setp": {
+    "hub": 0.0,
+    "rom": 0.0,
+    "t": 0.05
+   },
+   "cam": [
+    [
+     0.565,
+     0.45,
+     1.9
+    ],
+    [
+     0.55,
+     0.419,
+     1.71
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "threeQuarter",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "FIRST CHIEF ASTRONOMER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "ch": 0,
+   "size": "close",
+   "vo": "Tomorrow: what if the Sun blinked out for one minute?",
+   "dir": "teasing; stress 'blinked'",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.405,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.562,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "TOMORROW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "ch": 0,
+   "size": "wide",
+   "vo": "One hundred Hubbles in one shot. Full film on the channel.",
+   "dir": "friendly; stress 'one shot'",
+   "set": "fov",
+   "setp": {
+    "hub": 1.0,
+    "rom": 1.0,
+    "label": 1.0,
+    "t": 0.9
+   },
+   "cam": [
+    [
+     0.508,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.469,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "sideL",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "stand",
+    "held": "camera"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "FULL FILM ON CHANNEL"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2076 @@
+{
+ "slug": "romanwide",
+ "title": "WHAT IF YOUR TELESCOPE SAW 100X MORE SKY?",
+ "fps": 30,
+ "total": 12219,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 68,
+   "t0": 0,
+   "t1": 68,
+   "line": "This tiny square is all Hubble sees in one shot. This is Roman's."
+  },
+  {
+   "shot": "S1",
+   "a": 68,
+   "b": 137,
+   "t0": 68,
+   "t1": 137,
+   "line": "This tiny square is all Hubble sees in one shot. This is Roman's."
+  },
+  {
+   "shot": "S2",
+   "a": 137,
+   "b": 255,
+   "t0": 0,
+   "t1": 118,
+   "line": "One hundred times the sky. Same mirror. Same sharpness."
+  },
+  {
+   "shot": "S3",
+   "a": 255,
+   "b": 354,
+   "t0": 0,
+   "t1": 99,
+   "line": "NASA says the first pictures arrive on seventh December."
+  },
+  {
+   "shot": "S4",
+   "a": 354,
+   "b": 410,
+   "t0": 0,
+   "t1": 56,
+   "line": "So what if you held that camera?"
+  },
+  {
+   "shot": "S5",
+   "a": 410,
+   "b": 518,
+   "t0": 0,
+   "t1": 108,
+   "line": "Welcome to Ifmosphere. Here are the rules."
+  },
+  {
+   "shot": "S6",
+   "a": 518,
+   "b": 614,
+   "t0": 0,
+   "t1": 96,
+   "line": "You get two windows onto the sky, side by side."
+  },
+  {
+   "shot": "S7",
+   "a": 614,
+   "b": 689,
+   "t0": 0,
+   "t1": 75,
+   "line": "Hubble's window is a sharp little square."
+  },
+  {
+   "shot": "S8",
+   "a": 689,
+   "b": 768,
+   "t0": 0,
+   "t1": 79,
+   "line": "Roman's window is a giant, and it's real."
+  },
+  {
+   "shot": "S9",
+   "a": 768,
+   "b": 863,
+   "t0": 0,
+   "t1": 95,
+   "line": "The rule is simple. Pick one, and the other waits."
+  },
+  {
+   "shot": "S10",
+   "a": 863,
+   "b": 932,
+   "t0": 0,
+   "t1": 69,
+   "line": "Here is the catch. You have to understand why the big one works."
+  },
+  {
+   "shot": "S10",
+   "a": 932,
+   "b": 1002,
+   "t0": 69,
+   "t1": 139,
+   "line": "Here is the catch. You have to understand why the big one works."
+  },
+  {
+   "shot": "S11",
+   "a": 1002,
+   "b": 1074,
+   "t0": 0,
+   "t1": 72,
+   "line": "Start with Hubble. Its patch is zero point zero five six degrees wide."
+  },
+  {
+   "shot": "S11",
+   "a": 1074,
+   "b": 1146,
+   "t0": 72,
+   "t1": 144,
+   "line": "Start with Hubble. Its patch is zero point zero five six degrees wide."
+  },
+  {
+   "shot": "S12",
+   "a": 1146,
+   "b": 1220,
+   "t0": 0,
+   "t1": 74,
+   "line": "That is a tenth the width of the full Moon."
+  },
+  {
+   "shot": "S13",
+   "a": 1220,
+   "b": 1336,
+   "t0": 0,
+   "t1": 116,
+   "line": "One shot, sixteen megapixels. Your phone does more."
+  },
+  {
+   "shot": "S14",
+   "a": 1336,
+   "b": 1443,
+   "t0": 0,
+   "t1": 107,
+   "line": "Now aim it at something huge, like the Andromeda galaxy."
+  },
+  {
+   "shot": "S15",
+   "a": 1443,
+   "b": 1573,
+   "t0": 0,
+   "t1": 130,
+   "line": "In our sky it spreads three degrees. Six full Moons wide."
+  },
+  {
+   "shot": "S16",
+   "a": 1573,
+   "b": 1643,
+   "t0": 0,
+   "t1": 70,
+   "line": "Hubble covers it a square at a time."
+  },
+  {
+   "shot": "S17",
+   "a": 1643,
+   "b": 1731,
+   "t0": 0,
+   "t1": 88,
+   "line": "So Hubble's real answer was to just keep going."
+  },
+  {
+   "shot": "S18",
+   "a": 1731,
+   "b": 1842,
+   "t0": 0,
+   "t1": 111,
+   "line": "Years of it. More than six hundred overlapping snapshots."
+  },
+  {
+   "shot": "S19",
+   "a": 1842,
+   "b": 1910,
+   "t0": 0,
+   "t1": 68,
+   "line": "Over ten years, for one galaxy."
+  },
+  {
+   "shot": "S20",
+   "a": 1910,
+   "b": 1989,
+   "t0": 0,
+   "t1": 79,
+   "line": "The result is gorgeous. Two point five billion pixels, two hundred million stars."
+  },
+  {
+   "shot": "S20",
+   "a": 1989,
+   "b": 2069,
+   "t0": 79,
+   "t1": 159,
+   "line": "The result is gorgeous. Two point five billion pixels, two hundred million stars."
+  },
+  {
+   "shot": "S21",
+   "a": 2069,
+   "b": 2157,
+   "t0": 0,
+   "t1": 88,
+   "line": "But you just spent a decade. Hold that thought."
+  },
+  {
+   "shot": "S22",
+   "a": 2157,
+   "b": 2241,
+   "t0": 0,
+   "t1": 84,
+   "line": "Hubble is a zoom champion. In visible and ultraviolet light, nothing sharper exists."
+  },
+  {
+   "shot": "S22",
+   "a": 2241,
+   "b": 2325,
+   "t0": 84,
+   "t1": 168,
+   "line": "Hubble is a zoom champion. In visible and ultraviolet light, nothing sharper exists."
+  },
+  {
+   "shot": "S23",
+   "a": 2325,
+   "b": 2401,
+   "t0": 0,
+   "t1": 76,
+   "line": "Roman sees a tenth of an arcsecond per pixel. Hubble-sharp, in infrared."
+  },
+  {
+   "shot": "S23",
+   "a": 2401,
+   "b": 2477,
+   "t0": 76,
+   "t1": 152,
+   "line": "Roman sees a tenth of an arcsecond per pixel. Hubble-sharp, in infrared."
+  },
+  {
+   "shot": "S24",
+   "a": 2477,
+   "b": 2569,
+   "t0": 0,
+   "t1": 92,
+   "line": "Hubble sees ultraviolet, visible and near-infrared. Roman leans infrared."
+  },
+  {
+   "shot": "S24",
+   "a": 2569,
+   "b": 2662,
+   "t0": 92,
+   "t1": 185,
+   "line": "Hubble sees ultraviolet, visible and near-infrared. Roman leans infrared."
+  },
+  {
+   "shot": "S25",
+   "a": 2662,
+   "b": 2762,
+   "t0": 0,
+   "t1": 100,
+   "line": "Now switch windows. Roman's camera is the wide one."
+  },
+  {
+   "shot": "S26",
+   "a": 2762,
+   "b": 2882,
+   "t0": 0,
+   "t1": 120,
+   "line": "Here is the twist. Roman's mirror is the same size as Hubble's."
+  },
+  {
+   "shot": "S27",
+   "a": 2882,
+   "b": 2981,
+   "t0": 0,
+   "t1": 99,
+   "line": "Two point four metres across. Almost eight feet."
+  },
+  {
+   "shot": "S28",
+   "a": 2981,
+   "b": 3063,
+   "t0": 0,
+   "t1": 82,
+   "line": "So where does a hundred times the sky come from?"
+  },
+  {
+   "shot": "S29",
+   "a": 3063,
+   "b": 3156,
+   "t0": 0,
+   "t1": 93,
+   "line": "Not from a bigger mirror. From a shorter focal length."
+  },
+  {
+   "shot": "S30",
+   "a": 3156,
+   "b": 3266,
+   "t0": 0,
+   "t1": 110,
+   "line": "Hubble folds light off two mirrors. Roman uses three."
+  },
+  {
+   "shot": "S31",
+   "a": 3266,
+   "b": 3367,
+   "t0": 0,
+   "t1": 101,
+   "line": "Roman's three mirrors shorten the focal length to a third."
+  },
+  {
+   "shot": "S32",
+   "a": 3367,
+   "b": 3500,
+   "t0": 0,
+   "t1": 133,
+   "line": "Shorter focal length, wider view. It's a wide-angle lens in space."
+  },
+  {
+   "shot": "S33",
+   "a": 3500,
+   "b": 3594,
+   "t0": 0,
+   "t1": 94,
+   "line": "Hubble is the zoom lens. Roman is the wide one."
+  },
+  {
+   "shot": "S34",
+   "a": 3594,
+   "b": 3726,
+   "t0": 0,
+   "t1": 132,
+   "line": "And the mirror itself is the real flex. It weighs four times less."
+  },
+  {
+   "shot": "S35",
+   "a": 3726,
+   "b": 3855,
+   "t0": 0,
+   "t1": 129,
+   "line": "One eighty-six kilograms against eight twenty-eight. Pip approves."
+  },
+  {
+   "shot": "S36",
+   "a": 3855,
+   "b": 3988,
+   "t0": 0,
+   "t1": 133,
+   "line": "It is also absurdly smooth. Scale Earth up to that mirror's size."
+  },
+  {
+   "shot": "S37",
+   "a": 3988,
+   "b": 4066,
+   "t0": 0,
+   "t1": 78,
+   "line": "The biggest bump on it would be a quarter of an inch."
+  },
+  {
+   "shot": "S38",
+   "a": 4066,
+   "b": 4190,
+   "t0": 0,
+   "t1": 124,
+   "line": "Hubble's biggest bump, six inches. A speed hump for an ant."
+  },
+  {
+   "shot": "S39",
+   "a": 4190,
+   "b": 4287,
+   "t0": 0,
+   "t1": 97,
+   "line": "So now you hold the wide window. What do you point it at?"
+  },
+  {
+   "shot": "S40",
+   "a": 4287,
+   "b": 4400,
+   "t0": 0,
+   "t1": 113,
+   "line": "Its mirror wears a silver coat, four hundred nanometres thick."
+  },
+  {
+   "shot": "S41",
+   "a": 4400,
+   "b": 4488,
+   "t0": 0,
+   "t1": 88,
+   "line": "That is three hundred times thinner than a human hair."
+  },
+  {
+   "shot": "S42",
+   "a": 4488,
+   "b": 4569,
+   "t0": 0,
+   "t1": 81,
+   "line": "Do the tiling. A hundred Hubble frames, ten by ten, fill Roman's."
+  },
+  {
+   "shot": "S42",
+   "a": 4569,
+   "b": 4651,
+   "t0": 81,
+   "t1": 163,
+   "line": "Do the tiling. A hundred Hubble frames, ten by ten, fill Roman's."
+  },
+  {
+   "shot": "S43",
+   "a": 4651,
+   "b": 4734,
+   "t0": 0,
+   "t1": 83,
+   "line": "The same galaxy that cost Hubble ten years."
+  },
+  {
+   "shot": "S44",
+   "a": 4734,
+   "b": 4823,
+   "t0": 0,
+   "t1": 89,
+   "line": "Roman's window covers a huge slab of it at once."
+  },
+  {
+   "shot": "S45",
+   "a": 4823,
+   "b": 4880,
+   "t0": 0,
+   "t1": 57,
+   "line": "Click. That's one picture."
+  },
+  {
+   "shot": "S46",
+   "a": 4880,
+   "b": 4950,
+   "t0": 0,
+   "t1": 70,
+   "line": "Nudge the camera, click again. A few pointings and the whole galaxy's done."
+  },
+  {
+   "shot": "S46",
+   "a": 4950,
+   "b": 5021,
+   "t0": 70,
+   "t1": 141,
+   "line": "Nudge the camera, click again. A few pointings and the whole galaxy's done."
+  },
+  {
+   "shot": "S47",
+   "a": 5021,
+   "b": 5081,
+   "t0": 0,
+   "t1": 60,
+   "line": "Where Hubble needed ten years."
+  },
+  {
+   "shot": "S48",
+   "a": 5081,
+   "b": 5213,
+   "t0": 0,
+   "t1": 132,
+   "line": "NASA says Roman surveys Andromeda nearly fifteen hundred times faster."
+  },
+  {
+   "shot": "S49",
+   "a": 5213,
+   "b": 5292,
+   "t0": 0,
+   "t1": 79,
+   "line": "A decade becomes about two and a half days."
+  },
+  {
+   "shot": "S50",
+   "a": 5292,
+   "b": 5422,
+   "t0": 0,
+   "t1": 130,
+   "line": "Quick honesty check. That last number is our maths, not NASA's."
+  },
+  {
+   "shot": "S51",
+   "a": 5422,
+   "b": 5545,
+   "t0": 0,
+   "t1": 123,
+   "line": "Ten years divided by fifteen hundred is roughly two and a half days."
+  },
+  {
+   "shot": "S52",
+   "a": 5545,
+   "b": 5614,
+   "t0": 0,
+   "t1": 69,
+   "line": "Whole sky now. Thirty years of Hubble: one tenth of one percent."
+  },
+  {
+   "shot": "S52",
+   "a": 5614,
+   "b": 5684,
+   "t0": 69,
+   "t1": 139,
+   "line": "Whole sky now. Thirty years of Hubble: one tenth of one percent."
+  },
+  {
+   "shot": "S53",
+   "a": 5684,
+   "b": 5753,
+   "t0": 0,
+   "t1": 69,
+   "line": "In five years, Roman images fifty times what Hubble managed in thirty."
+  },
+  {
+   "shot": "S53",
+   "a": 5753,
+   "b": 5823,
+   "t0": 69,
+   "t1": 139,
+   "line": "In five years, Roman images fifty times what Hubble managed in thirty."
+  },
+  {
+   "shot": "S54",
+   "a": 5823,
+   "b": 5927,
+   "t0": 0,
+   "t1": 104,
+   "line": "That's the trade. You give up zoom, and you get everything."
+  },
+  {
+   "shot": "S55",
+   "a": 5927,
+   "b": 6016,
+   "t0": 0,
+   "t1": 89,
+   "line": "But a camera this good has to get to its spot first."
+  },
+  {
+   "shot": "S56",
+   "a": 6016,
+   "b": 6149,
+   "t0": 0,
+   "t1": 133,
+   "line": "Two point five billion pixels, still only a fraction of Andromeda's stars."
+  },
+  {
+   "shot": "S57",
+   "a": 6149,
+   "b": 6263,
+   "t0": 0,
+   "t1": 114,
+   "line": "Imagine what a wider window finds in all that light."
+  },
+  {
+   "shot": "S58",
+   "a": 6263,
+   "b": 6375,
+   "t0": 0,
+   "t1": 112,
+   "line": "Hubble hugs Earth, about four hundred eighty kilometres up."
+  },
+  {
+   "shot": "S59",
+   "a": 6375,
+   "b": 6487,
+   "t0": 0,
+   "t1": 112,
+   "line": "Roman flies a million miles out, to a spot called L two."
+  },
+  {
+   "shot": "S60",
+   "a": 6487,
+   "b": 6590,
+   "t0": 0,
+   "t1": 103,
+   "line": "It launched on the thirtieth of August, on a Falcon Heavy."
+  },
+  {
+   "shot": "S61",
+   "a": 6590,
+   "b": 6681,
+   "t0": 0,
+   "t1": 91,
+   "line": "Then a three-month trip, alone, through the dark."
+  },
+  {
+   "shot": "S62",
+   "a": 6681,
+   "b": 6773,
+   "t0": 0,
+   "t1": 92,
+   "line": "At L two, the pull of the Sun and Earth balance."
+  },
+  {
+   "shot": "S63",
+   "a": 6773,
+   "b": 6847,
+   "t0": 0,
+   "t1": 74,
+   "line": "It sits cold and steady, far from Earth's glow. Perfect for infrared."
+  },
+  {
+   "shot": "S63",
+   "a": 6847,
+   "b": 6921,
+   "t0": 74,
+   "t1": 148,
+   "line": "It sits cold and steady, far from Earth's glow. Perfect for infrared."
+  },
+  {
+   "shot": "S64",
+   "a": 6921,
+   "b": 7014,
+   "t0": 0,
+   "t1": 93,
+   "line": "Next door is Webb. Roman joins it out there."
+  },
+  {
+   "shot": "S65",
+   "a": 7014,
+   "b": 7110,
+   "t0": 0,
+   "t1": 96,
+   "line": "Out there, the telescope switches on piece by piece."
+  },
+  {
+   "shot": "S66",
+   "a": 7110,
+   "b": 7226,
+   "t0": 0,
+   "t1": 116,
+   "line": "Cameras, detectors, mirrors. Every one tested and tuned."
+  },
+  {
+   "shot": "S67",
+   "a": 7226,
+   "b": 7309,
+   "t0": 0,
+   "t1": 83,
+   "line": "Eighteen detectors have to work as one camera."
+  },
+  {
+   "shot": "S68",
+   "a": 7309,
+   "b": 7403,
+   "t0": 0,
+   "t1": 94,
+   "line": "Together they make two hundred eighty-eight megapixels."
+  },
+  {
+   "shot": "S69",
+   "a": 7403,
+   "b": 7498,
+   "t0": 0,
+   "t1": 95,
+   "line": "Sixteen for Hubble. Two eighty-eight for Roman."
+  },
+  {
+   "shot": "S70",
+   "a": 7498,
+   "b": 7626,
+   "t0": 0,
+   "t1": 128,
+   "line": "And in each frame, Roman's view is point eight by point four degrees."
+  },
+  {
+   "shot": "S71",
+   "a": 7626,
+   "b": 7690,
+   "t0": 0,
+   "t1": 64,
+   "line": "A shade wider than the full Moon."
+  },
+  {
+   "shot": "S72",
+   "a": 7690,
+   "b": 7785,
+   "t0": 0,
+   "t1": 95,
+   "line": "So the camera works. But what will it show first?"
+  },
+  {
+   "shot": "S73",
+   "a": 7785,
+   "b": 7857,
+   "t0": 0,
+   "t1": 72,
+   "line": "Parking there costs almost no fuel. The orbit practically holds itself."
+  },
+  {
+   "shot": "S73",
+   "a": 7857,
+   "b": 7929,
+   "t0": 72,
+   "t1": 144,
+   "line": "Parking there costs almost no fuel. The orbit practically holds itself."
+  },
+  {
+   "shot": "S74",
+   "a": 7929,
+   "b": 8003,
+   "t0": 0,
+   "t1": 74,
+   "line": "No Earth glow, no Moon glare, just cold, quiet dark."
+  },
+  {
+   "shot": "S74",
+   "a": 8003,
+   "b": 8077,
+   "t0": 74,
+   "t1": 148,
+   "line": "No Earth glow, no Moon glare, just cold, quiet dark."
+  },
+  {
+   "shot": "S75",
+   "a": 8077,
+   "b": 8168,
+   "t0": 0,
+   "t1": 91,
+   "line": "NASA is saving that for Monday, seventh December."
+  },
+  {
+   "shot": "S76",
+   "a": 8168,
+   "b": 8253,
+   "t0": 0,
+   "t1": 85,
+   "line": "Three thirty in the afternoon, Eastern time."
+  },
+  {
+   "shot": "S77",
+   "a": 8253,
+   "b": 8326,
+   "t0": 0,
+   "t1": 73,
+   "line": "That's eight thirty in the evening in London."
+  },
+  {
+   "shot": "S78",
+   "a": 8326,
+   "b": 8424,
+   "t0": 0,
+   "t1": 98,
+   "line": "A live stream from a science conference in San Francisco."
+  },
+  {
+   "shot": "S79",
+   "a": 8424,
+   "b": 8502,
+   "t0": 0,
+   "t1": 78,
+   "line": "And nobody outside the team has seen the pictures."
+  },
+  {
+   "shot": "S80",
+   "a": 8502,
+   "b": 8624,
+   "t0": 0,
+   "t1": 122,
+   "line": "NASA hasn't even said where Roman looked. That's a real unknown."
+  },
+  {
+   "shot": "S81",
+   "a": 8624,
+   "b": 8727,
+   "t0": 0,
+   "t1": 103,
+   "line": "So here's the fun part you can actually do. Claim a pixel."
+  },
+  {
+   "shot": "S82",
+   "a": 8727,
+   "b": 8849,
+   "t0": 0,
+   "t1": 122,
+   "line": "Every pixel of those first images is a unique piece of the cosmos."
+  },
+  {
+   "shot": "S83",
+   "a": 8849,
+   "b": 8950,
+   "t0": 0,
+   "t1": 101,
+   "line": "Pick yours and it glows. You get a digital trading card."
+  },
+  {
+   "shot": "S84",
+   "a": 8950,
+   "b": 9030,
+   "t0": 0,
+   "t1": 80,
+   "line": "Then you wait, with everyone else, for the stream."
+  },
+  {
+   "shot": "S85",
+   "a": 9030,
+   "b": 9153,
+   "t0": 0,
+   "t1": 123,
+   "line": "You don't need a ticket. NASA streams it live on its own platforms."
+  },
+  {
+   "shot": "S86",
+   "a": 9153,
+   "b": 9268,
+   "t0": 0,
+   "t1": 115,
+   "line": "People are even hosting watch parties for the reveal."
+  },
+  {
+   "shot": "S87",
+   "a": 9268,
+   "b": 9347,
+   "t0": 0,
+   "t1": 79,
+   "line": "Roman isn't only here for pretty pictures."
+  },
+  {
+   "shot": "S88",
+   "a": 9347,
+   "b": 9419,
+   "t0": 0,
+   "t1": 72,
+   "line": "In the nineteen nineties, astronomers found the universe's expansion is speeding up."
+  },
+  {
+   "shot": "S88",
+   "a": 9419,
+   "b": 9492,
+   "t0": 72,
+   "t1": 145,
+   "line": "In the nineteen nineties, astronomers found the universe's expansion is speeding up."
+  },
+  {
+   "shot": "S89",
+   "a": 9492,
+   "b": 9572,
+   "t0": 0,
+   "t1": 80,
+   "line": "We call whatever drives that dark energy."
+  },
+  {
+   "shot": "S90",
+   "a": 9572,
+   "b": 9696,
+   "t0": 0,
+   "t1": 124,
+   "line": "Roman's wide view will test whether dark energy changes over time."
+  },
+  {
+   "shot": "S91",
+   "a": 9696,
+   "b": 9808,
+   "t0": 0,
+   "t1": 112,
+   "line": "It will also chart dark matter, which we only feel as gravity."
+  },
+  {
+   "shot": "S92",
+   "a": 9808,
+   "b": 9938,
+   "t0": 0,
+   "t1": 130,
+   "line": "By watching how visible stuff moves, Roman reads the invisible stuff."
+  },
+  {
+   "shot": "S93",
+   "a": 9938,
+   "b": 10009,
+   "t0": 0,
+   "t1": 71,
+   "line": "Roman also carries a coronagraph. Basically, a sun visor for planets."
+  },
+  {
+   "shot": "S93",
+   "a": 10009,
+   "b": 10081,
+   "t0": 71,
+   "t1": 143,
+   "line": "Roman also carries a coronagraph. Basically, a sun visor for planets."
+  },
+  {
+   "shot": "S94",
+   "a": 10081,
+   "b": 10180,
+   "t0": 0,
+   "t1": 99,
+   "line": "It blocks the star's glare so a faint planet can show."
+  },
+  {
+   "shot": "S95",
+   "a": 10180,
+   "b": 10295,
+   "t0": 0,
+   "t1": 115,
+   "line": "NASA says it's a hundred to a thousand times better than earlier ones."
+  },
+  {
+   "shot": "S96",
+   "a": 10295,
+   "b": 10400,
+   "t0": 0,
+   "t1": 105,
+   "line": "Remember the catch? Roman can't zoom in like Hubble."
+  },
+  {
+   "shot": "S97",
+   "a": 10400,
+   "b": 10527,
+   "t0": 0,
+   "t1": 127,
+   "line": "So Roman finds the interesting spots. And Hubble and Webb zoom in."
+  },
+  {
+   "shot": "S98",
+   "a": 10527,
+   "b": 10615,
+   "t0": 0,
+   "t1": 88,
+   "line": "Wide to find it. Zoom to understand it."
+  },
+  {
+   "shot": "S99",
+   "a": 10615,
+   "b": 10739,
+   "t0": 0,
+   "t1": 124,
+   "line": "Roman's camera can also split light into colours, across its whole view."
+  },
+  {
+   "shot": "S100",
+   "a": 10739,
+   "b": 10861,
+   "t0": 0,
+   "t1": 122,
+   "line": "That reads motion, chemistry and temperature, everywhere at once."
+  },
+  {
+   "shot": "S101",
+   "a": 10861,
+   "b": 10962,
+   "t0": 0,
+   "t1": 101,
+   "line": "And it keeps coming back, so the sky becomes a movie."
+  },
+  {
+   "shot": "S102",
+   "a": 10962,
+   "b": 11039,
+   "t0": 0,
+   "t1": 77,
+   "line": "Hubble's archive shows change on a human timescale. Roman will stretch that far."
+  },
+  {
+   "shot": "S102",
+   "a": 11039,
+   "b": 11117,
+   "t0": 77,
+   "t1": 155,
+   "line": "Hubble's archive shows change on a human timescale. Roman will stretch that far."
+  },
+  {
+   "shot": "S103",
+   "a": 11117,
+   "b": 11170,
+   "t0": 0,
+   "t1": 53,
+   "line": "One more thing about the name."
+  },
+  {
+   "shot": "S104",
+   "a": 11170,
+   "b": 11271,
+   "t0": 0,
+   "t1": 101,
+   "line": "Nancy Grace Roman was NASA's first chief astronomer."
+  },
+  {
+   "shot": "S105",
+   "a": 11271,
+   "b": 11334,
+   "t0": 0,
+   "t1": 63,
+   "line": "People call her the mother of Hubble."
+  },
+  {
+   "shot": "S106",
+   "a": 11334,
+   "b": 11438,
+   "t0": 0,
+   "t1": 104,
+   "line": "So Roman isn't a replacement. It's a wide-eyed sibling."
+  },
+  {
+   "shot": "S107",
+   "a": 11438,
+   "b": 11570,
+   "t0": 0,
+   "t1": 132,
+   "line": "Roman will also catch subtle changes in our own Milky Way."
+  },
+  {
+   "shot": "S108",
+   "a": 11570,
+   "b": 11665,
+   "t0": 0,
+   "t1": 95,
+   "line": "So back to that first square. Hubble's window."
+  },
+  {
+   "shot": "S109",
+   "a": 11665,
+   "b": 11769,
+   "t0": 0,
+   "t1": 104,
+   "line": "That giant frame is the same mirror, bent a smarter way."
+  },
+  {
+   "shot": "S110",
+   "a": 11769,
+   "b": 11901,
+   "t0": 0,
+   "t1": 132,
+   "line": "One hundred times the sky. Fifty times the coverage, in five years."
+  },
+  {
+   "shot": "S111",
+   "a": 11901,
+   "b": 12002,
+   "t0": 0,
+   "t1": 101,
+   "line": "And on seventh December, we all finally get to look through it."
+  },
+  {
+   "shot": "S112",
+   "a": 12002,
+   "b": 12097,
+   "t0": 0,
+   "t1": 95,
+   "line": "Which part of the sky do you want Roman to look at first?"
+  },
+  {
+   "shot": "S113",
+   "a": 12097,
+   "b": 12219,
+   "t0": 0,
+   "t1": 122,
+   "line": "Tomorrow: what if the Sun blinked out for one minute?"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 85,
+   "len": 137,
+   "first": 0,
+   "line": "This tiny square is all Hubble sees in one shot. This is Roman's.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "pullout",
+   "key": 73,
+   "len": 118,
+   "first": 137,
+   "line": "One hundred times the sky. Same mirror. Same sharpness.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "med",
+   "key": 61,
+   "len": 99,
+   "first": 255,
+   "line": "NASA says the first pictures arrive on seventh December.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "close",
+   "key": 35,
+   "len": 56,
+   "first": 354,
+   "line": "So what if you held that camera?",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "wide",
+   "key": 67,
+   "len": 108,
+   "first": 410,
+   "line": "Welcome to Ifmosphere. Here are the rules.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "med",
+   "key": 60,
+   "len": 96,
+   "first": 518,
+   "line": "You get two windows onto the sky, side by side.",
+   "note": "ch1"
+  },
+  {
+   "id": "S7",
+   "size": "insert",
+   "key": 46,
+   "len": 75,
+   "first": 614,
+   "line": "Hubble's window is a sharp little square.",
+   "note": "ch1"
+  },
+  {
+   "id": "S8",
+   "size": "wide",
+   "key": 49,
+   "len": 79,
+   "first": 689,
+   "line": "Roman's window is a giant, and it's real.",
+   "note": "ch1"
+  },
+  {
+   "id": "S9",
+   "size": "low",
+   "key": 59,
+   "len": 95,
+   "first": 768,
+   "line": "The rule is simple. Pick one, and the other waits.",
+   "note": "ch1"
+  },
+  {
+   "id": "S10",
+   "size": "high",
+   "key": 86,
+   "len": 139,
+   "first": 863,
+   "line": "Here is the catch. You have to understand why the big one works.",
+   "note": "ch1"
+  },
+  {
+   "id": "S11",
+   "size": "close",
+   "key": 89,
+   "len": 144,
+   "first": 1002,
+   "line": "Start with Hubble. Its patch is zero point zero five six degrees wide.",
+   "note": "ch2"
+  },
+  {
+   "id": "S12",
+   "size": "insert",
+   "key": 46,
+   "len": 74,
+   "first": 1146,
+   "line": "That is a tenth the width of the full Moon.",
+   "note": "ch2"
+  },
+  {
+   "id": "S13",
+   "size": "med",
+   "key": 72,
+   "len": 116,
+   "first": 1220,
+   "line": "One shot, sixteen megapixels. Your phone does more.",
+   "note": "ch2"
+  },
+  {
+   "id": "S14",
+   "size": "pullout",
+   "key": 66,
+   "len": 107,
+   "first": 1336,
+   "line": "Now aim it at something huge, like the Andromeda galaxy.",
+   "note": "ch2"
+  },
+  {
+   "id": "S15",
+   "size": "wide",
+   "key": 81,
+   "len": 130,
+   "first": 1443,
+   "line": "In our sky it spreads three degrees. Six full Moons wide.",
+   "note": "ch2"
+  },
+  {
+   "id": "S16",
+   "size": "close",
+   "key": 43,
+   "len": 70,
+   "first": 1573,
+   "line": "Hubble covers it a square at a time.",
+   "note": "ch2"
+  },
+  {
+   "id": "S17",
+   "size": "low",
+   "key": 55,
+   "len": 88,
+   "first": 1643,
+   "line": "So Hubble's real answer was to just keep going.",
+   "note": "ch2"
+  },
+  {
+   "id": "S18",
+   "size": "high",
+   "key": 69,
+   "len": 111,
+   "first": 1731,
+   "line": "Years of it. More than six hundred overlapping snapshots.",
+   "note": "ch2"
+  },
+  {
+   "id": "S19",
+   "size": "pullout",
+   "key": 42,
+   "len": 68,
+   "first": 1842,
+   "line": "Over ten years, for one galaxy.",
+   "note": "ch2"
+  },
+  {
+   "id": "S20",
+   "size": "insert",
+   "key": 99,
+   "len": 159,
+   "first": 1910,
+   "line": "The result is gorgeous. Two point five billion pixels, two hundred million stars.",
+   "note": "ch2"
+  },
+  {
+   "id": "S21",
+   "size": "med",
+   "key": 55,
+   "len": 88,
+   "first": 2069,
+   "line": "But you just spent a decade. Hold that thought.",
+   "note": "ch2"
+  },
+  {
+   "id": "S22",
+   "size": "close",
+   "key": 104,
+   "len": 168,
+   "first": 2157,
+   "line": "Hubble is a zoom champion. In visible and ultraviolet light, nothing sharper exists.",
+   "note": "ch2"
+  },
+  {
+   "id": "S23",
+   "size": "insert",
+   "key": 94,
+   "len": 152,
+   "first": 2325,
+   "line": "Roman sees a tenth of an arcsecond per pixel. Hubble-sharp, in infrared.",
+   "note": "ch2"
+  },
+  {
+   "id": "S24",
+   "size": "low",
+   "key": 115,
+   "len": 185,
+   "first": 2477,
+   "line": "Hubble sees ultraviolet, visible and near-infrared. Roman leans infrared.",
+   "note": "ch2"
+  },
+  {
+   "id": "S25",
+   "size": "wide",
+   "key": 62,
+   "len": 100,
+   "first": 2662,
+   "line": "Now switch windows. Roman's camera is the wide one.",
+   "note": "ch3"
+  },
+  {
+   "id": "S26",
+   "size": "close",
+   "key": 74,
+   "len": 120,
+   "first": 2762,
+   "line": "Here is the twist. Roman's mirror is the same size as Hubble's.",
+   "note": "ch3"
+  },
+  {
+   "id": "S27",
+   "size": "low",
+   "key": 61,
+   "len": 99,
+   "first": 2882,
+   "line": "Two point four metres across. Almost eight feet.",
+   "note": "ch3"
+  },
+  {
+   "id": "S28",
+   "size": "insert",
+   "key": 51,
+   "len": 82,
+   "first": 2981,
+   "line": "So where does a hundred times the sky come from?",
+   "note": "ch3"
+  },
+  {
+   "id": "S29",
+   "size": "high",
+   "key": 58,
+   "len": 93,
+   "first": 3063,
+   "line": "Not from a bigger mirror. From a shorter focal length.",
+   "note": "ch3"
+  },
+  {
+   "id": "S30",
+   "size": "med",
+   "key": 68,
+   "len": 110,
+   "first": 3156,
+   "line": "Hubble folds light off two mirrors. Roman uses three.",
+   "note": "ch3"
+  },
+  {
+   "id": "S31",
+   "size": "pullout",
+   "key": 63,
+   "len": 101,
+   "first": 3266,
+   "line": "Roman's three mirrors shorten the focal length to a third.",
+   "note": "ch3"
+  },
+  {
+   "id": "S32",
+   "size": "wide",
+   "key": 82,
+   "len": 133,
+   "first": 3367,
+   "line": "Shorter focal length, wider view. It's a wide-angle lens in space.",
+   "note": "ch3"
+  },
+  {
+   "id": "S33",
+   "size": "med",
+   "key": 58,
+   "len": 94,
+   "first": 3500,
+   "line": "Hubble is the zoom lens. Roman is the wide one.",
+   "note": "ch3"
+  },
+  {
+   "id": "S34",
+   "size": "insert",
+   "key": 82,
+   "len": 132,
+   "first": 3594,
+   "line": "And the mirror itself is the real flex. It weighs four times less.",
+   "note": "ch3"
+  },
+  {
+   "id": "S35",
+   "size": "close",
+   "key": 80,
+   "len": 129,
+   "first": 3726,
+   "line": "One eighty-six kilograms against eight twenty-eight. Pip approves.",
+   "note": "ch3"
+  },
+  {
+   "id": "S36",
+   "size": "high",
+   "key": 82,
+   "len": 133,
+   "first": 3855,
+   "line": "It is also absurdly smooth. Scale Earth up to that mirror's size.",
+   "note": "ch3"
+  },
+  {
+   "id": "S37",
+   "size": "insert",
+   "key": 48,
+   "len": 78,
+   "first": 3988,
+   "line": "The biggest bump on it would be a quarter of an inch.",
+   "note": "ch3"
+  },
+  {
+   "id": "S38",
+   "size": "low",
+   "key": 77,
+   "len": 124,
+   "first": 4066,
+   "line": "Hubble's biggest bump, six inches. A speed hump for an ant.",
+   "note": "ch3"
+  },
+  {
+   "id": "S39",
+   "size": "pullout",
+   "key": 60,
+   "len": 97,
+   "first": 4190,
+   "line": "So now you hold the wide window. What do you point it at?",
+   "note": "ch3"
+  },
+  {
+   "id": "S40",
+   "size": "med",
+   "key": 70,
+   "len": 113,
+   "first": 4287,
+   "line": "Its mirror wears a silver coat, four hundred nanometres thick.",
+   "note": "ch3"
+  },
+  {
+   "id": "S41",
+   "size": "close",
+   "key": 55,
+   "len": 88,
+   "first": 4400,
+   "line": "That is three hundred times thinner than a human hair.",
+   "note": "ch3"
+  },
+  {
+   "id": "S42",
+   "size": "pullout",
+   "key": 101,
+   "len": 163,
+   "first": 4488,
+   "line": "Do the tiling. A hundred Hubble frames, ten by ten, fill Roman's.",
+   "note": "ch3"
+  },
+  {
+   "id": "S43",
+   "size": "wide",
+   "key": 51,
+   "len": 83,
+   "first": 4651,
+   "line": "The same galaxy that cost Hubble ten years.",
+   "note": "ch4"
+  },
+  {
+   "id": "S44",
+   "size": "med",
+   "key": 55,
+   "len": 89,
+   "first": 4734,
+   "line": "Roman's window covers a huge slab of it at once.",
+   "note": "ch4"
+  },
+  {
+   "id": "S45",
+   "size": "close",
+   "key": 35,
+   "len": 57,
+   "first": 4823,
+   "line": "Click. That's one picture.",
+   "note": "ch4"
+  },
+  {
+   "id": "S46",
+   "size": "pullout",
+   "key": 87,
+   "len": 141,
+   "first": 4880,
+   "line": "Nudge the camera, click again. A few pointings and the whole galaxy's done.",
+   "note": "ch4"
+  },
+  {
+   "id": "S47",
+   "size": "low",
+   "key": 37,
+   "len": 60,
+   "first": 5021,
+   "line": "Where Hubble needed ten years.",
+   "note": "ch4"
+  },
+  {
+   "id": "S48",
+   "size": "insert",
+   "key": 82,
+   "len": 132,
+   "first": 5081,
+   "line": "NASA says Roman surveys Andromeda nearly fifteen hundred times faster.",
+   "note": "ch4"
+  },
+  {
+   "id": "S49",
+   "size": "high",
+   "key": 49,
+   "len": 79,
+   "first": 5213,
+   "line": "A decade becomes about two and a half days.",
+   "note": "ch4"
+  },
+  {
+   "id": "S50",
+   "size": "close",
+   "key": 81,
+   "len": 130,
+   "first": 5292,
+   "line": "Quick honesty check. That last number is our maths, not NASA's.",
+   "note": "ch4"
+  },
+  {
+   "id": "S51",
+   "size": "med",
+   "key": 76,
+   "len": 123,
+   "first": 5422,
+   "line": "Ten years divided by fifteen hundred is roughly two and a half days.",
+   "note": "ch4"
+  },
+  {
+   "id": "S52",
+   "size": "pullout",
+   "key": 86,
+   "len": 139,
+   "first": 5545,
+   "line": "Whole sky now. Thirty years of Hubble: one tenth of one percent.",
+   "note": "ch4"
+  },
+  {
+   "id": "S53",
+   "size": "wide",
+   "key": 86,
+   "len": 139,
+   "first": 5684,
+   "line": "In five years, Roman images fifty times what Hubble managed in thirty.",
+   "note": "ch4"
+  },
+  {
+   "id": "S54",
+   "size": "close",
+   "key": 64,
+   "len": 104,
+   "first": 5823,
+   "line": "That's the trade. You give up zoom, and you get everything.",
+   "note": "ch4"
+  },
+  {
+   "id": "S55",
+   "size": "pan",
+   "key": 55,
+   "len": 89,
+   "first": 5927,
+   "line": "But a camera this good has to get to its spot first.",
+   "note": "ch4"
+  },
+  {
+   "id": "S56",
+   "size": "wide",
+   "key": 82,
+   "len": 133,
+   "first": 6016,
+   "line": "Two point five billion pixels, still only a fraction of Andromeda's stars.",
+   "note": "ch4"
+  },
+  {
+   "id": "S57",
+   "size": "high",
+   "key": 71,
+   "len": 114,
+   "first": 6149,
+   "line": "Imagine what a wider window finds in all that light.",
+   "note": "ch4"
+  },
+  {
+   "id": "S58",
+   "size": "wide",
+   "key": 69,
+   "len": 112,
+   "first": 6263,
+   "line": "Hubble hugs Earth, about four hundred eighty kilometres up.",
+   "note": "ch5"
+  },
+  {
+   "id": "S59",
+   "size": "pullout",
+   "key": 69,
+   "len": 112,
+   "first": 6375,
+   "line": "Roman flies a million miles out, to a spot called L two.",
+   "note": "ch5"
+  },
+  {
+   "id": "S60",
+   "size": "low",
+   "key": 64,
+   "len": 103,
+   "first": 6487,
+   "line": "It launched on the thirtieth of August, on a Falcon Heavy.",
+   "note": "ch5"
+  },
+  {
+   "id": "S61",
+   "size": "high",
+   "key": 56,
+   "len": 91,
+   "first": 6590,
+   "line": "Then a three-month trip, alone, through the dark.",
+   "note": "ch5"
+  },
+  {
+   "id": "S62",
+   "size": "med",
+   "key": 57,
+   "len": 92,
+   "first": 6681,
+   "line": "At L two, the pull of the Sun and Earth balance.",
+   "note": "ch5"
+  },
+  {
+   "id": "S63",
+   "size": "insert",
+   "key": 92,
+   "len": 148,
+   "first": 6773,
+   "line": "It sits cold and steady, far from Earth's glow. Perfect for infrared.",
+   "note": "ch5"
+  },
+  {
+   "id": "S64",
+   "size": "wide",
+   "key": 58,
+   "len": 93,
+   "first": 6921,
+   "line": "Next door is Webb. Roman joins it out there.",
+   "note": "ch5"
+  },
+  {
+   "id": "S65",
+   "size": "close",
+   "key": 60,
+   "len": 96,
+   "first": 7014,
+   "line": "Out there, the telescope switches on piece by piece.",
+   "note": "ch5"
+  },
+  {
+   "id": "S66",
+   "size": "med",
+   "key": 72,
+   "len": 116,
+   "first": 7110,
+   "line": "Cameras, detectors, mirrors. Every one tested and tuned.",
+   "note": "ch5"
+  },
+  {
+   "id": "S67",
+   "size": "insert",
+   "key": 51,
+   "len": 83,
+   "first": 7226,
+   "line": "Eighteen detectors have to work as one camera.",
+   "note": "ch5"
+  },
+  {
+   "id": "S68",
+   "size": "high",
+   "key": 58,
+   "len": 94,
+   "first": 7309,
+   "line": "Together they make two hundred eighty-eight megapixels.",
+   "note": "ch5"
+  },
+  {
+   "id": "S69",
+   "size": "low",
+   "key": 59,
+   "len": 95,
+   "first": 7403,
+   "line": "Sixteen for Hubble. Two eighty-eight for Roman.",
+   "note": "ch5"
+  },
+  {
+   "id": "S70",
+   "size": "pullout",
+   "key": 79,
+   "len": 128,
+   "first": 7498,
+   "line": "And in each frame, Roman's view is point eight by point four degrees.",
+   "note": "ch5"
+  },
+  {
+   "id": "S71",
+   "size": "wide",
+   "key": 40,
+   "len": 64,
+   "first": 7626,
+   "line": "A shade wider than the full Moon.",
+   "note": "ch5"
+  },
+  {
+   "id": "S72",
+   "size": "high",
+   "key": 59,
+   "len": 95,
+   "first": 7690,
+   "line": "So the camera works. But what will it show first?",
+   "note": "ch5"
+  },
+  {
+   "id": "S73",
+   "size": "low",
+   "key": 89,
+   "len": 144,
+   "first": 7785,
+   "line": "Parking there costs almost no fuel. The orbit practically holds itself.",
+   "note": "ch5"
+  },
+  {
+   "id": "S74",
+   "size": "pullout",
+   "key": 92,
+   "len": 148,
+   "first": 7929,
+   "line": "No Earth glow, no Moon glare, just cold, quiet dark.",
+   "note": "ch5"
+  },
+  {
+   "id": "S75",
+   "size": "wide",
+   "key": 56,
+   "len": 91,
+   "first": 8077,
+   "line": "NASA is saving that for Monday, seventh December.",
+   "note": "ch6"
+  },
+  {
+   "id": "S76",
+   "size": "insert",
+   "key": 53,
+   "len": 85,
+   "first": 8168,
+   "line": "Three thirty in the afternoon, Eastern time.",
+   "note": "ch6"
+  },
+  {
+   "id": "S77",
+   "size": "med",
+   "key": 45,
+   "len": 73,
+   "first": 8253,
+   "line": "That's eight thirty in the evening in London.",
+   "note": "ch6"
+  },
+  {
+   "id": "S78",
+   "size": "low",
+   "key": 61,
+   "len": 98,
+   "first": 8326,
+   "line": "A live stream from a science conference in San Francisco.",
+   "note": "ch6"
+  },
+  {
+   "id": "S79",
+   "size": "close",
+   "key": 48,
+   "len": 78,
+   "first": 8424,
+   "line": "And nobody outside the team has seen the pictures.",
+   "note": "ch6"
+  },
+  {
+   "id": "S80",
+   "size": "high",
+   "key": 76,
+   "len": 122,
+   "first": 8502,
+   "line": "NASA hasn't even said where Roman looked. That's a real unknown.",
+   "note": "ch6"
+  },
+  {
+   "id": "S81",
+   "size": "pullout",
+   "key": 64,
+   "len": 103,
+   "first": 8624,
+   "line": "So here's the fun part you can actually do. Claim a pixel.",
+   "note": "ch6"
+  },
+  {
+   "id": "S82",
+   "size": "insert",
+   "key": 76,
+   "len": 122,
+   "first": 8727,
+   "line": "Every pixel of those first images is a unique piece of the cosmos.",
+   "note": "ch6"
+  },
+  {
+   "id": "S83",
+   "size": "close",
+   "key": 63,
+   "len": 101,
+   "first": 8849,
+   "line": "Pick yours and it glows. You get a digital trading card.",
+   "note": "ch6"
+  },
+  {
+   "id": "S84",
+   "size": "wide",
+   "key": 50,
+   "len": 80,
+   "first": 8950,
+   "line": "Then you wait, with everyone else, for the stream.",
+   "note": "ch6"
+  },
+  {
+   "id": "S85",
+   "size": "med",
+   "key": 76,
+   "len": 123,
+   "first": 9030,
+   "line": "You don't need a ticket. NASA streams it live on its own platforms.",
+   "note": "ch6"
+  },
+  {
+   "id": "S86",
+   "size": "high",
+   "key": 71,
+   "len": 115,
+   "first": 9153,
+   "line": "People are even hosting watch parties for the reveal.",
+   "note": "ch6"
+  },
+  {
+   "id": "S87",
+   "size": "wide",
+   "key": 49,
+   "len": 79,
+   "first": 9268,
+   "line": "Roman isn't only here for pretty pictures.",
+   "note": "ch7"
+  },
+  {
+   "id": "S88",
+   "size": "high",
+   "key": 90,
+   "len": 145,
+   "first": 9347,
+   "line": "In the nineteen nineties, astronomers found the universe's expansion is speeding up.",
+   "note": "ch7"
+  },
+  {
+   "id": "S89",
+   "size": "med",
+   "key": 50,
+   "len": 80,
+   "first": 9492,
+   "line": "We call whatever drives that dark energy.",
+   "note": "ch7"
+  },
+  {
+   "id": "S90",
+   "size": "close",
+   "key": 77,
+   "len": 124,
+   "first": 9572,
+   "line": "Roman's wide view will test whether dark energy changes over time.",
+   "note": "ch7"
+  },
+  {
+   "id": "S91",
+   "size": "low",
+   "key": 69,
+   "len": 112,
+   "first": 9696,
+   "line": "It will also chart dark matter, which we only feel as gravity.",
+   "note": "ch7"
+  },
+  {
+   "id": "S92",
+   "size": "insert",
+   "key": 81,
+   "len": 130,
+   "first": 9808,
+   "line": "By watching how visible stuff moves, Roman reads the invisible stuff.",
+   "note": "ch7"
+  },
+  {
+   "id": "S93",
+   "size": "med",
+   "key": 89,
+   "len": 143,
+   "first": 9938,
+   "line": "Roman also carries a coronagraph. Basically, a sun visor for planets.",
+   "note": "ch7"
+  },
+  {
+   "id": "S94",
+   "size": "close",
+   "key": 61,
+   "len": 99,
+   "first": 10081,
+   "line": "It blocks the star's glare so a faint planet can show.",
+   "note": "ch7"
+  },
+  {
+   "id": "S95",
+   "size": "pullout",
+   "key": 71,
+   "len": 115,
+   "first": 10180,
+   "line": "NASA says it's a hundred to a thousand times better than earlier ones.",
+   "note": "ch7"
+  },
+  {
+   "id": "S96",
+   "size": "high",
+   "key": 65,
+   "len": 105,
+   "first": 10295,
+   "line": "Remember the catch? Roman can't zoom in like Hubble.",
+   "note": "ch7"
+  },
+  {
+   "id": "S97",
+   "size": "med",
+   "key": 79,
+   "len": 127,
+   "first": 10400,
+   "line": "So Roman finds the interesting spots. And Hubble and Webb zoom in.",
+   "note": "ch7"
+  },
+  {
+   "id": "S98",
+   "size": "close",
+   "key": 55,
+   "len": 88,
+   "first": 10527,
+   "line": "Wide to find it. Zoom to understand it.",
+   "note": "ch7"
+  },
+  {
+   "id": "S99",
+   "size": "insert",
+   "key": 77,
+   "len": 124,
+   "first": 10615,
+   "line": "Roman's camera can also split light into colours, across its whole view.",
+   "note": "ch7"
+  },
+  {
+   "id": "S100",
+   "size": "med",
+   "key": 76,
+   "len": 122,
+   "first": 10739,
+   "line": "That reads motion, chemistry and temperature, everywhere at once.",
+   "note": "ch7"
+  },
+  {
+   "id": "S101",
+   "size": "wide",
+   "key": 63,
+   "len": 101,
+   "first": 10861,
+   "line": "And it keeps coming back, so the sky becomes a movie.",
+   "note": "ch7"
+  },
+  {
+   "id": "S102",
+   "size": "close",
+   "key": 96,
+   "len": 155,
+   "first": 10962,
+   "line": "Hubble's archive shows change on a human timescale. Roman will stretch that far.",
+   "note": "ch7"
+  },
+  {
+   "id": "S103",
+   "size": "med",
+   "key": 33,
+   "len": 53,
+   "first": 11117,
+   "line": "One more thing about the name.",
+   "note": "ch7"
+  },
+  {
+   "id": "S104",
+   "size": "insert",
+   "key": 63,
+   "len": 101,
+   "first": 11170,
+   "line": "Nancy Grace Roman was NASA's first chief astronomer.",
+   "note": "ch7"
+  },
+  {
+   "id": "S105",
+   "size": "close",
+   "key": 39,
+   "len": 63,
+   "first": 11271,
+   "line": "People call her the mother of Hubble.",
+   "note": "ch7"
+  },
+  {
+   "id": "S106",
+   "size": "low",
+   "key": 64,
+   "len": 104,
+   "first": 11334,
+   "line": "So Roman isn't a replacement. It's a wide-eyed sibling.",
+   "note": "ch7"
+  },
+  {
+   "id": "S107",
+   "size": "low",
+   "key": 82,
+   "len": 132,
+   "first": 11438,
+   "line": "Roman will also catch subtle changes in our own Milky Way.",
+   "note": "ch7"
+  },
+  {
+   "id": "S108",
+   "size": "wide",
+   "key": 59,
+   "len": 95,
+   "first": 11570,
+   "line": "So back to that first square. Hubble's window.",
+   "note": "ch8"
+  },
+  {
+   "id": "S109",
+   "size": "pullout",
+   "key": 64,
+   "len": 104,
+   "first": 11665,
+   "line": "That giant frame is the same mirror, bent a smarter way.",
+   "note": "ch8"
+  },
+  {
+   "id": "S110",
+   "size": "high",
+   "key": 82,
+   "len": 132,
+   "first": 11769,
+   "line": "One hundred times the sky. Fifty times the coverage, in five years.",
+   "note": "ch8"
+  },
+  {
+   "id": "S111",
+   "size": "wide",
+   "key": 63,
+   "len": 101,
+   "first": 11901,
+   "line": "And on seventh December, we all finally get to look through it.",
+   "note": "ch8"
+  },
+  {
+   "id": "S112",
+   "size": "close",
+   "key": 59,
+   "len": 95,
+   "first": 12002,
+   "line": "Which part of the sky do you want Roman to look at first?",
+   "note": "ch8"
+  },
+  {
+   "id": "S113",
+   "size": "close",
+   "key": 76,
+   "len": 122,
+   "first": 12097,
+   "line": "Tomorrow: what if the Sun blinked out for one minute?",
+   "note": "ch8"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "romanwide/voice.wav",
+  "sfx": "romanwide/sfx.wav",
+  "music": "romanwide/music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}
