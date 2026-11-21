@@ -1,0 +1,325 @@
+{
+ "slug": "mercury",
+ "title": "WHAT IF YOU FLEW 10 BILLION KM TO MERCURY?",
+ "fps": 30,
+ "total": 1668,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 114,
+   "t0": 0,
+   "t1": 114,
+   "line": "You get one burn to catch a planet. Miss it, you fly past."
+  },
+  {
+   "shot": "S2",
+   "a": 114,
+   "b": 188,
+   "t0": 0,
+   "t1": 74,
+   "line": "BepiColombo. Eight years to get here."
+  },
+  {
+   "shot": "S3",
+   "a": 188,
+   "b": 270,
+   "t0": 0,
+   "t1": 82,
+   "line": "Ten billion kilometres, for one tiny window."
+  },
+  {
+   "shot": "S4",
+   "a": 270,
+   "b": 358,
+   "t0": 0,
+   "t1": 88,
+   "line": "Commands take eight minutes. No live steering."
+  },
+  {
+   "shot": "S5",
+   "a": 358,
+   "b": 454,
+   "t0": 0,
+   "t1": 96,
+   "line": "Falling sunward makes you faster. So it has to brake."
+  },
+  {
+   "shot": "S6",
+   "a": 454,
+   "b": 549,
+   "t0": 0,
+   "t1": 95,
+   "line": "Orbiting Mercury costs more energy than reaching Pluto."
+  },
+  {
+   "shot": "S7",
+   "a": 549,
+   "b": 654,
+   "t0": 0,
+   "t1": 105,
+   "line": "So: nine slingshots. Earth, Venus, Mercury."
+  },
+  {
+   "shot": "S8",
+   "a": 654,
+   "b": 761,
+   "t0": 0,
+   "t1": 107,
+   "line": "Then in twenty twenty-four, a power fault weakened its thrusters."
+  },
+  {
+   "shot": "S9",
+   "a": 761,
+   "b": 822,
+   "t0": 0,
+   "t1": 61,
+   "line": "A year late, but still flying."
+  },
+  {
+   "shot": "S10",
+   "a": 822,
+   "b": 921,
+   "t0": 0,
+   "t1": 99,
+   "line": "Today, four thrusters are set to fire over the night side."
+  },
+  {
+   "shot": "S11",
+   "a": 921,
+   "b": 1032,
+   "t0": 0,
+   "t1": 111,
+   "line": "If it works, Mercury catches it in a wide, lopsided orbit."
+  },
+  {
+   "shot": "S12",
+   "a": 1032,
+   "b": 1091,
+   "t0": 0,
+   "t1": 59,
+   "line": "In December, it splits in two."
+  },
+  {
+   "shot": "S13",
+   "a": 1091,
+   "b": 1194,
+   "t0": 0,
+   "t1": 103,
+   "line": "A Mercury day: three months light, three months dark."
+  },
+  {
+   "shot": "S14",
+   "a": 1194,
+   "b": 1293,
+   "t0": 0,
+   "t1": 99,
+   "line": "Four hundred fifty degrees. Then minus one eighty."
+  },
+  {
+   "shot": "S15",
+   "a": 1293,
+   "b": 1357,
+   "t0": 0,
+   "t1": 64,
+   "line": "Yet there's ice in the dark craters."
+  },
+  {
+   "shot": "S16",
+   "a": 1357,
+   "b": 1445,
+   "t0": 0,
+   "t1": 88,
+   "line": "In about three years, it crashes. No return."
+  },
+  {
+   "shot": "S17",
+   "a": 1445,
+   "b": 1544,
+   "t0": 0,
+   "t1": 99,
+   "line": "Look east before sunrise. That dot is Mercury."
+  },
+  {
+   "shot": "S18",
+   "a": 1544,
+   "b": 1668,
+   "t0": 0,
+   "t1": 124,
+   "line": "Full film on the channel. Because out here, you get one burn."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 71,
+   "len": 114,
+   "first": 0,
+   "line": "You get one burn to catch a planet. Miss it, you fly past.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "med",
+   "key": 46,
+   "len": 74,
+   "first": 114,
+   "line": "BepiColombo. Eight years to get here.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "pullout",
+   "key": 51,
+   "len": 82,
+   "first": 188,
+   "line": "Ten billion kilometres, for one tiny window.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "insert",
+   "key": 55,
+   "len": 88,
+   "first": 270,
+   "line": "Commands take eight minutes. No live steering.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "low",
+   "key": 60,
+   "len": 96,
+   "first": 358,
+   "line": "Falling sunward makes you faster. So it has to brake.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "insert",
+   "key": 59,
+   "len": 95,
+   "first": 454,
+   "line": "Orbiting Mercury costs more energy than reaching Pluto.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "high",
+   "key": 65,
+   "len": 105,
+   "first": 549,
+   "line": "So: nine slingshots. Earth, Venus, Mercury.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "close",
+   "key": 66,
+   "len": 107,
+   "first": 654,
+   "line": "Then in twenty twenty-four, a power fault weakened its thrusters.",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "pan",
+   "key": 38,
+   "len": 61,
+   "first": 761,
+   "line": "A year late, but still flying.",
+   "note": "ch0"
+  },
+  {
+   "id": "S10",
+   "size": "wide",
+   "key": 61,
+   "len": 99,
+   "first": 822,
+   "line": "Today, four thrusters are set to fire over the night side.",
+   "note": "ch0"
+  },
+  {
+   "id": "S11",
+   "size": "pullout",
+   "key": 69,
+   "len": 111,
+   "first": 921,
+   "line": "If it works, Mercury catches it in a wide, lopsided orbit.",
+   "note": "ch0"
+  },
+  {
+   "id": "S12",
+   "size": "high",
+   "key": 37,
+   "len": 59,
+   "first": 1032,
+   "line": "In December, it splits in two.",
+   "note": "ch0"
+  },
+  {
+   "id": "S13",
+   "size": "med",
+   "key": 64,
+   "len": 103,
+   "first": 1091,
+   "line": "A Mercury day: three months light, three months dark.",
+   "note": "ch0"
+  },
+  {
+   "id": "S14",
+   "size": "wide",
+   "key": 61,
+   "len": 99,
+   "first": 1194,
+   "line": "Four hundred fifty degrees. Then minus one eighty.",
+   "note": "ch0"
+  },
+  {
+   "id": "S15",
+   "size": "insert",
+   "key": 40,
+   "len": 64,
+   "first": 1293,
+   "line": "Yet there's ice in the dark craters.",
+   "note": "ch0"
+  },
+  {
+   "id": "S16",
+   "size": "low",
+   "key": 55,
+   "len": 88,
+   "first": 1357,
+   "line": "In about three years, it crashes. No return.",
+   "note": "ch0"
+  },
+  {
+   "id": "S17",
+   "size": "wide",
+   "key": 61,
+   "len": 99,
+   "first": 1445,
+   "line": "Look east before sunrise. That dot is Mercury.",
+   "note": "ch0"
+  },
+  {
+   "id": "S18",
+   "size": "wide",
+   "key": 77,
+   "len": 124,
+   "first": 1544,
+   "line": "Full film on the channel. Because out here, you get one burn.",
+   "note": "ch0"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "mercury/short-voice.wav",
+  "sfx": "mercury/short-sfx.wav",
+  "music": "mercury/short-music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}

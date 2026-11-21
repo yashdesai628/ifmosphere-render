@@ -1,0 +1,2086 @@
+{
+ "slug": "mercury",
+ "title": "WHAT IF YOU FLEW 10 BILLION KM TO MERCURY?",
+ "fps": 30,
+ "total": 12462,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 131,
+   "t0": 0,
+   "t1": 131,
+   "line": "Eight years. Ten billion kilometres. Now four thrusters fire."
+  },
+  {
+   "shot": "S2",
+   "a": 131,
+   "b": 223,
+   "t0": 0,
+   "t1": 92,
+   "line": "Miss this burn, and Mercury just flies past."
+  },
+  {
+   "shot": "S3",
+   "a": 223,
+   "b": 339,
+   "t0": 0,
+   "t1": 116,
+   "line": "ESA's plan: capture into orbit on twenty-first November."
+  },
+  {
+   "shot": "S4",
+   "a": 339,
+   "b": 407,
+   "t0": 0,
+   "t1": 68,
+   "line": "So what if you rode that spacecraft?"
+  },
+  {
+   "shot": "S5",
+   "a": 407,
+   "b": 521,
+   "t0": 0,
+   "t1": 114,
+   "line": "Welcome to Ifmosphere. Here are the rules."
+  },
+  {
+   "shot": "S6",
+   "a": 521,
+   "b": 591,
+   "t0": 0,
+   "t1": 70,
+   "line": "You ride a stack: a European orbiter with a Japanese one tucked inside."
+  },
+  {
+   "shot": "S6",
+   "a": 591,
+   "b": 661,
+   "t0": 70,
+   "t1": 140,
+   "line": "You ride a stack: a European orbiter with a Japanese one tucked inside."
+  },
+  {
+   "shot": "S7",
+   "a": 661,
+   "b": 778,
+   "t0": 0,
+   "t1": 117,
+   "line": "At launch the whole stack weighed four thousand one hundred kilograms."
+  },
+  {
+   "shot": "S8",
+   "a": 778,
+   "b": 867,
+   "t0": 0,
+   "t1": 89,
+   "line": "Fourteen hundred of those kilograms were just fuel."
+  },
+  {
+   "shot": "S9",
+   "a": 867,
+   "b": 946,
+   "t0": 0,
+   "t1": 79,
+   "line": "Rule one. You can't steer live."
+  },
+  {
+   "shot": "S10",
+   "a": 946,
+   "b": 1046,
+   "t0": 0,
+   "t1": 100,
+   "line": "Earth is almost one hundred and fifty million kilometres away."
+  },
+  {
+   "shot": "S11",
+   "a": 1046,
+   "b": 1143,
+   "t0": 0,
+   "t1": 97,
+   "line": "Every command takes eight point three minutes to arrive."
+  },
+  {
+   "shot": "S12",
+   "a": 1143,
+   "b": 1271,
+   "t0": 0,
+   "t1": 128,
+   "line": "Confirmation takes the same again. That's sixteen minutes of silence."
+  },
+  {
+   "shot": "S13",
+   "a": 1271,
+   "b": 1345,
+   "t0": 0,
+   "t1": 74,
+   "line": "Rule two. It's a one way trip."
+  },
+  {
+   "shot": "S14",
+   "a": 1345,
+   "b": 1413,
+   "t0": 0,
+   "t1": 68,
+   "line": "And here's the catch. Mercury is a terrible place to arrive."
+  },
+  {
+   "shot": "S14",
+   "a": 1413,
+   "b": 1482,
+   "t0": 68,
+   "t1": 137,
+   "line": "And here's the catch. Mercury is a terrible place to arrive."
+  },
+  {
+   "shot": "S15",
+   "a": 1482,
+   "b": 1596,
+   "t0": 0,
+   "t1": 114,
+   "line": "Think a small planet near the Sun sounds easy? It's the opposite."
+  },
+  {
+   "shot": "S16",
+   "a": 1596,
+   "b": 1687,
+   "t0": 0,
+   "t1": 91,
+   "line": "Fall toward the Sun, and the Sun speeds you up."
+  },
+  {
+   "shot": "S17",
+   "a": 1687,
+   "b": 1759,
+   "t0": 0,
+   "t1": 72,
+   "line": "Faster, and faster, and faster."
+  },
+  {
+   "shot": "S18",
+   "a": 1759,
+   "b": 1852,
+   "t0": 0,
+   "t1": 93,
+   "line": "To get captured, you have to throw that speed away."
+  },
+  {
+   "shot": "S19",
+   "a": 1852,
+   "b": 1950,
+   "t0": 0,
+   "t1": 98,
+   "line": "ESA says it takes more energy than flying to Pluto."
+  },
+  {
+   "shot": "S20",
+   "a": 1950,
+   "b": 2052,
+   "t0": 0,
+   "t1": 102,
+   "line": "Pluto. The planet-sized snowball at the edge of everything."
+  },
+  {
+   "shot": "S21",
+   "a": 2052,
+   "b": 2165,
+   "t0": 0,
+   "t1": 113,
+   "line": "So the stack doesn't brake once. It cheats, nine times."
+  },
+  {
+   "shot": "S22",
+   "a": 2165,
+   "b": 2256,
+   "t0": 0,
+   "t1": 91,
+   "line": "Flyby one is Earth, in April twenty twenty."
+  },
+  {
+   "shot": "S23",
+   "a": 2256,
+   "b": 2338,
+   "t0": 0,
+   "t1": 82,
+   "line": "Then Venus. Twice. October twenty twenty, and August twenty twenty-one."
+  },
+  {
+   "shot": "S23",
+   "a": 2338,
+   "b": 2421,
+   "t0": 82,
+   "t1": 165,
+   "line": "Then Venus. Twice. October twenty twenty, and August twenty twenty-one."
+  },
+  {
+   "shot": "S24",
+   "a": 2421,
+   "b": 2552,
+   "t0": 0,
+   "t1": 131,
+   "line": "Then Mercury itself. Six flybys, each one a gravity brake."
+  },
+  {
+   "shot": "S25",
+   "a": 2552,
+   "b": 2620,
+   "t0": 0,
+   "t1": 68,
+   "line": "Nine slingshots. A grand total of nine point nine billion kilometres."
+  },
+  {
+   "shot": "S25",
+   "a": 2620,
+   "b": 2689,
+   "t0": 68,
+   "t1": 137,
+   "line": "Nine slingshots. A grand total of nine point nine billion kilometres."
+  },
+  {
+   "shot": "S26",
+   "a": 2689,
+   "b": 2798,
+   "t0": 0,
+   "t1": 109,
+   "line": "That's about sixty-six times the distance from Earth to the Sun."
+  },
+  {
+   "shot": "S27",
+   "a": 2798,
+   "b": 2874,
+   "t0": 0,
+   "t1": 76,
+   "line": "Remember the rule. No steering live."
+  },
+  {
+   "shot": "S28",
+   "a": 2874,
+   "b": 2964,
+   "t0": 0,
+   "t1": 90,
+   "line": "Which means the brake burn is a script you wrote years ago."
+  },
+  {
+   "shot": "S29",
+   "a": 2964,
+   "b": 3064,
+   "t0": 0,
+   "t1": 100,
+   "line": "But first, meet the planet you're aiming at."
+  },
+  {
+   "shot": "S30",
+   "a": 3064,
+   "b": 3156,
+   "t0": 0,
+   "t1": 92,
+   "line": "Mercury is the smallest planet in the solar system."
+  },
+  {
+   "shot": "S31",
+   "a": 3156,
+   "b": 3232,
+   "t0": 0,
+   "t1": 76,
+   "line": "But it's still half as big again as the Moon."
+  },
+  {
+   "shot": "S32",
+   "a": 3232,
+   "b": 3348,
+   "t0": 0,
+   "t1": 116,
+   "line": "And four times heavier. That is a lot of planet for its size."
+  },
+  {
+   "shot": "S33",
+   "a": 3348,
+   "b": 3480,
+   "t0": 0,
+   "t1": 132,
+   "line": "The reason hides inside. An unusually huge metal core."
+  },
+  {
+   "shot": "S34",
+   "a": 3480,
+   "b": 3548,
+   "t0": 0,
+   "t1": 68,
+   "line": "Why so dense? That's one of the questions BepiColombo came to answer."
+  },
+  {
+   "shot": "S34",
+   "a": 3548,
+   "b": 3616,
+   "t0": 68,
+   "t1": 136,
+   "line": "Why so dense? That's one of the questions BepiColombo came to answer."
+  },
+  {
+   "shot": "S35",
+   "a": 3616,
+   "b": 3684,
+   "t0": 0,
+   "t1": 68,
+   "line": "Now the neighbourhood. Mercury sits thirty-six million miles from the Sun."
+  },
+  {
+   "shot": "S35",
+   "a": 3684,
+   "b": 3752,
+   "t0": 68,
+   "t1": 136,
+   "line": "Now the neighbourhood. Mercury sits thirty-six million miles from the Sun."
+  },
+  {
+   "shot": "S36",
+   "a": 3752,
+   "b": 3835,
+   "t0": 0,
+   "t1": 83,
+   "line": "That is just over a third of Earth's distance."
+  },
+  {
+   "shot": "S37",
+   "a": 3835,
+   "b": 3942,
+   "t0": 0,
+   "t1": 107,
+   "line": "One Mercury day lasts fifty-eight Earth days of spinning."
+  },
+  {
+   "shot": "S38",
+   "a": 3942,
+   "b": 4058,
+   "t0": 0,
+   "t1": 116,
+   "line": "The sun stays up three months. Then it stays down three months."
+  },
+  {
+   "shot": "S39",
+   "a": 4058,
+   "b": 4156,
+   "t0": 0,
+   "t1": 98,
+   "line": "In the day the ground reaches four hundred and fifty degrees."
+  },
+  {
+   "shot": "S40",
+   "a": 4156,
+   "b": 4239,
+   "t0": 0,
+   "t1": 83,
+   "line": "At night it drops to minus one hundred and eighty."
+  },
+  {
+   "shot": "S41",
+   "a": 4239,
+   "b": 4369,
+   "t0": 0,
+   "t1": 130,
+   "line": "Hot enough to melt lead, cold enough to freeze air. Same rock."
+  },
+  {
+   "shot": "S42",
+   "a": 4369,
+   "b": 4459,
+   "t0": 0,
+   "t1": 90,
+   "line": "Yet in the dark craters at the poles, there's ice."
+  },
+  {
+   "shot": "S43",
+   "a": 4459,
+   "b": 4564,
+   "t0": 0,
+   "t1": 105,
+   "line": "Permanently shadowed. The sunlight never reaches the floor."
+  },
+  {
+   "shot": "S44",
+   "a": 4564,
+   "b": 4685,
+   "t0": 0,
+   "t1": 121,
+   "line": "So that's your target. Now, what almost went wrong."
+  },
+  {
+   "shot": "S45",
+   "a": 4685,
+   "b": 4804,
+   "t0": 0,
+   "t1": 119,
+   "line": "Your arrival was meant to be the fifth of December, twenty twenty-five."
+  },
+  {
+   "shot": "S46",
+   "a": 4804,
+   "b": 4902,
+   "t0": 0,
+   "t1": 98,
+   "line": "Then, in April twenty twenty-four, a power fault."
+  },
+  {
+   "shot": "S47",
+   "a": 4902,
+   "b": 5032,
+   "t0": 0,
+   "t1": 130,
+   "line": "Unexpected electrical currents, between a solar wing and a power unit."
+  },
+  {
+   "shot": "S48",
+   "a": 5032,
+   "b": 5162,
+   "t0": 0,
+   "t1": 130,
+   "line": "The ion thrusters lost power. Your engines, running on a diet."
+  },
+  {
+   "shot": "S49",
+   "a": 5162,
+   "b": 5277,
+   "t0": 0,
+   "t1": 115,
+   "line": "Mission control had one choice. Redo the entire route."
+  },
+  {
+   "shot": "S50",
+   "a": 5277,
+   "b": 5345,
+   "t0": 0,
+   "t1": 68,
+   "line": "Arrival slipped by almost a whole year, to November twenty twenty-six."
+  },
+  {
+   "shot": "S50",
+   "a": 5345,
+   "b": 5413,
+   "t0": 68,
+   "t1": 136,
+   "line": "Arrival slipped by almost a whole year, to November twenty twenty-six."
+  },
+  {
+   "shot": "S51",
+   "a": 5413,
+   "b": 5544,
+   "t0": 0,
+   "t1": 131,
+   "line": "On fifteenth June twenty twenty-six, the ion drive switched off for good."
+  },
+  {
+   "shot": "S52",
+   "a": 5544,
+   "b": 5635,
+   "t0": 0,
+   "t1": 91,
+   "line": "On third September, the transfer module let go."
+  },
+  {
+   "shot": "S53",
+   "a": 5635,
+   "b": 5715,
+   "t0": 0,
+   "t1": 80,
+   "line": "About two hundred million kilometres from Earth."
+  },
+  {
+   "shot": "S54",
+   "a": 5715,
+   "b": 5849,
+   "t0": 0,
+   "t1": 134,
+   "line": "That module had no antenna, no computer. Just a drifting box."
+  },
+  {
+   "shot": "S55",
+   "a": 5849,
+   "b": 5960,
+   "t0": 0,
+   "t1": 111,
+   "line": "From here on, only the orbiter's chemical thrusters steer you."
+  },
+  {
+   "shot": "S56",
+   "a": 5960,
+   "b": 6036,
+   "t0": 0,
+   "t1": 76,
+   "line": "So. The burn."
+  },
+  {
+   "shot": "S57",
+   "a": 6036,
+   "b": 6119,
+   "t0": 0,
+   "t1": 83,
+   "line": "You come in over the south pole, on the night side."
+  },
+  {
+   "shot": "S58",
+   "a": 6119,
+   "b": 6220,
+   "t0": 0,
+   "t1": 101,
+   "line": "Below you, nothing but black rock and a thin line of dawn."
+  },
+  {
+   "shot": "S59",
+   "a": 6220,
+   "b": 6287,
+   "t0": 0,
+   "t1": 67,
+   "line": "Four of your thrusters fire together."
+  },
+  {
+   "shot": "S60",
+   "a": 6287,
+   "b": 6391,
+   "t0": 0,
+   "t1": 104,
+   "line": "They push against your speed, every second, for a long burn."
+  },
+  {
+   "shot": "S61",
+   "a": 6391,
+   "b": 6517,
+   "t0": 0,
+   "t1": 126,
+   "line": "Too short, and you skim away. Too long, and you dive in."
+  },
+  {
+   "shot": "S62",
+   "a": 6517,
+   "b": 6630,
+   "t0": 0,
+   "t1": 113,
+   "line": "And you cannot touch the controls. Remember the sixteen minutes."
+  },
+  {
+   "shot": "S63",
+   "a": 6630,
+   "b": 6712,
+   "t0": 0,
+   "t1": 82,
+   "line": "All you can do is watch the dot on the screen."
+  },
+  {
+   "shot": "S64",
+   "a": 6712,
+   "b": 6799,
+   "t0": 0,
+   "t1": 87,
+   "line": "Then your speed slips below the planet's grip."
+  },
+  {
+   "shot": "S65",
+   "a": 6799,
+   "b": 6895,
+   "t0": 0,
+   "t1": 96,
+   "line": "Mercury's gravity catches you. You're in orbit."
+  },
+  {
+   "shot": "S66",
+   "a": 6895,
+   "b": 6976,
+   "t0": 0,
+   "t1": 81,
+   "line": "A wide, lopsided loop: five ninety by eleven thousand six hundred forty kilometres."
+  },
+  {
+   "shot": "S66",
+   "a": 6976,
+   "b": 7057,
+   "t0": 81,
+   "t1": 162,
+   "line": "A wide, lopsided loop: five ninety by eleven thousand six hundred forty kilometres."
+  },
+  {
+   "shot": "S67",
+   "a": 7057,
+   "b": 7128,
+   "t0": 0,
+   "t1": 71,
+   "line": "Low point, five ninety. High point, so far you almost leave."
+  },
+  {
+   "shot": "S67",
+   "a": 7128,
+   "b": 7199,
+   "t0": 71,
+   "t1": 142,
+   "line": "Low point, five ninety. High point, so far you almost leave."
+  },
+  {
+   "shot": "S68",
+   "a": 7199,
+   "b": 7303,
+   "t0": 0,
+   "t1": 104,
+   "line": "Mission control only learns it worked sixteen minutes later."
+  },
+  {
+   "shot": "S69",
+   "a": 7303,
+   "b": 7381,
+   "t0": 0,
+   "t1": 78,
+   "line": "And remember, this is only one step of many."
+  },
+  {
+   "shot": "S70",
+   "a": 7381,
+   "b": 7468,
+   "t0": 0,
+   "t1": 87,
+   "line": "ESA calls it a six-month arrival sequence."
+  },
+  {
+   "shot": "S71",
+   "a": 7468,
+   "b": 7588,
+   "t0": 0,
+   "t1": 120,
+   "line": "Capture is the middle. The best parts come next."
+  },
+  {
+   "shot": "S72",
+   "a": 7588,
+   "b": 7685,
+   "t0": 0,
+   "t1": 97,
+   "line": "On the ninth and tenth of December, the stack comes apart."
+  },
+  {
+   "shot": "S73",
+   "a": 7685,
+   "b": 7820,
+   "t0": 0,
+   "t1": 135,
+   "line": "The European orbiter, MPO, lets go of the Japanese one, Mio."
+  },
+  {
+   "shot": "S74",
+   "a": 7820,
+   "b": 7925,
+   "t0": 0,
+   "t1": 105,
+   "line": "On sixteenth December, Mio's sunshield drops away."
+  },
+  {
+   "shot": "S75",
+   "a": 7925,
+   "b": 7993,
+   "t0": 0,
+   "t1": 68,
+   "line": "Then the two of you go your separate ways."
+  },
+  {
+   "shot": "S76",
+   "a": 7993,
+   "b": 8127,
+   "t0": 0,
+   "t1": 134,
+   "line": "MPO drops low: four hundred and eighty by fifteen hundred kilometres."
+  },
+  {
+   "shot": "S77",
+   "a": 8127,
+   "b": 8221,
+   "t0": 0,
+   "t1": 94,
+   "line": "It circles Mercury every two point three hours."
+  },
+  {
+   "shot": "S78",
+   "a": 8221,
+   "b": 8291,
+   "t0": 0,
+   "t1": 70,
+   "line": "Mio swings wide: five ninety by eleven thousand six hundred forty."
+  },
+  {
+   "shot": "S78",
+   "a": 8291,
+   "b": 8361,
+   "t0": 70,
+   "t1": 140,
+   "line": "Mio swings wide: five ninety by eleven thousand six hundred forty."
+  },
+  {
+   "shot": "S79",
+   "a": 8361,
+   "b": 8493,
+   "t0": 0,
+   "t1": 132,
+   "line": "One lap takes nine point three hours. Long enough for a whole movie."
+  },
+  {
+   "shot": "S80",
+   "a": 8493,
+   "b": 8618,
+   "t0": 0,
+   "t1": 125,
+   "line": "MPO keeps burning, to settle into its final orbit by March."
+  },
+  {
+   "shot": "S81",
+   "a": 8618,
+   "b": 8705,
+   "t0": 0,
+   "t1": 87,
+   "line": "Science starts in April twenty twenty-seven."
+  },
+  {
+   "shot": "S82",
+   "a": 8705,
+   "b": 8834,
+   "t0": 0,
+   "t1": 129,
+   "line": "Two spacecraft at one planet. That has never happened at Mercury."
+  },
+  {
+   "shot": "S83",
+   "a": 8834,
+   "b": 8915,
+   "t0": 0,
+   "t1": 81,
+   "line": "Before you, only one spacecraft ever orbited Mercury. NASA's MESSENGER."
+  },
+  {
+   "shot": "S83",
+   "a": 8915,
+   "b": 8997,
+   "t0": 81,
+   "t1": 163,
+   "line": "Before you, only one spacecraft ever orbited Mercury. NASA's MESSENGER."
+  },
+  {
+   "shot": "S84",
+   "a": 8997,
+   "b": 9079,
+   "t0": 0,
+   "t1": 82,
+   "line": "That makes you second ever. Count Mariner Ten, and you're the third visit."
+  },
+  {
+   "shot": "S84",
+   "a": 9079,
+   "b": 9162,
+   "t0": 82,
+   "t1": 165,
+   "line": "That makes you second ever. Count Mariner Ten, and you're the third visit."
+  },
+  {
+   "shot": "S85",
+   "a": 9162,
+   "b": 9228,
+   "t0": 0,
+   "t1": 66,
+   "line": "So what does all that work buy you?"
+  },
+  {
+   "shot": "S86",
+   "a": 9228,
+   "b": 9342,
+   "t0": 0,
+   "t1": 114,
+   "line": "MPO carries eleven instruments. Mio carries five."
+  },
+  {
+   "shot": "S87",
+   "a": 9342,
+   "b": 9424,
+   "t0": 0,
+   "t1": 82,
+   "line": "A laser will map the shape of the entire planet."
+  },
+  {
+   "shot": "S88",
+   "a": 9424,
+   "b": 9522,
+   "t0": 0,
+   "t1": 98,
+   "line": "Cameras across many colours will read the surface rock."
+  },
+  {
+   "shot": "S89",
+   "a": 9522,
+   "b": 9619,
+   "t0": 0,
+   "t1": 97,
+   "line": "And an X-ray eye will taste what the ground is made of."
+  },
+  {
+   "shot": "S90",
+   "a": 9619,
+   "b": 9740,
+   "t0": 0,
+   "t1": 121,
+   "line": "It already passed its first test. Staring at the Crab Nebula."
+  },
+  {
+   "shot": "S91",
+   "a": 9740,
+   "b": 9817,
+   "t0": 0,
+   "t1": 77,
+   "line": "Thirty-nine hours of looking, in September."
+  },
+  {
+   "shot": "S92",
+   "a": 9817,
+   "b": 9927,
+   "t0": 0,
+   "t1": 110,
+   "line": "Fifty-five times the spacecraft turned, to nudge the view."
+  },
+  {
+   "shot": "S93",
+   "a": 9927,
+   "b": 10045,
+   "t0": 0,
+   "t1": 118,
+   "line": "The picture came out slightly sharper than the lab test in twenty fifteen."
+  },
+  {
+   "shot": "S94",
+   "a": 10045,
+   "b": 10152,
+   "t0": 0,
+   "t1": 107,
+   "line": "Eighty percent of that instrument's technology was brand new."
+  },
+  {
+   "shot": "S95",
+   "a": 10152,
+   "b": 10279,
+   "t0": 0,
+   "t1": 127,
+   "line": "After eight years in space, its detector shows no radiation damage."
+  },
+  {
+   "shot": "S96",
+   "a": 10279,
+   "b": 10399,
+   "t0": 0,
+   "t1": 120,
+   "line": "Mio will watch the magnetic field, and the solar wind hitting it."
+  },
+  {
+   "shot": "S97",
+   "a": 10399,
+   "b": 10514,
+   "t0": 0,
+   "t1": 115,
+   "line": "It will taste the thin sodium haze that trails behind the planet."
+  },
+  {
+   "shot": "S98",
+   "a": 10514,
+   "b": 10635,
+   "t0": 0,
+   "t1": 121,
+   "line": "Two spacecraft at once means one watches the wind arrive."
+  },
+  {
+   "shot": "S99",
+   "a": 10635,
+   "b": 10714,
+   "t0": 0,
+   "t1": 79,
+   "line": "While the other measures what it does up close."
+  },
+  {
+   "shot": "S100",
+   "a": 10714,
+   "b": 10825,
+   "t0": 0,
+   "t1": 111,
+   "line": "One orbiter alone could never do that. Remember the ice?"
+  },
+  {
+   "shot": "S101",
+   "a": 10825,
+   "b": 10893,
+   "t0": 0,
+   "t1": 68,
+   "line": "Scientists hope those spacecraft can finally say what the ice is."
+  },
+  {
+   "shot": "S101",
+   "a": 10893,
+   "b": 10961,
+   "t0": 68,
+   "t1": 136,
+   "line": "Scientists hope those spacecraft can finally say what the ice is."
+  },
+  {
+   "shot": "S102",
+   "a": 10961,
+   "b": 11071,
+   "t0": 0,
+   "t1": 110,
+   "line": "Here's the part nobody warns you about. You're not coming home."
+  },
+  {
+   "shot": "S103",
+   "a": 11071,
+   "b": 11174,
+   "t0": 0,
+   "t1": 103,
+   "line": "The spacecraft are expected to orbit for about three years."
+  },
+  {
+   "shot": "S104",
+   "a": 11174,
+   "b": 11282,
+   "t0": 0,
+   "t1": 108,
+   "line": "Then the fuel runs out, they lose height, and they land hard."
+  },
+  {
+   "shot": "S105",
+   "a": 11282,
+   "b": 11407,
+   "t0": 0,
+   "t1": 125,
+   "line": "Their lead scientist put it simply. Sadly, they are not coming back."
+  },
+  {
+   "shot": "S106",
+   "a": 11407,
+   "b": 11539,
+   "t0": 0,
+   "t1": 132,
+   "line": "It's a one point six billion euro goodbye, and it's worth every cent."
+  },
+  {
+   "shot": "S107",
+   "a": 11539,
+   "b": 11638,
+   "t0": 0,
+   "t1": 99,
+   "line": "And you can wave at Mercury yourself, on a clear morning."
+  },
+  {
+   "shot": "S108",
+   "a": 11638,
+   "b": 11771,
+   "t0": 0,
+   "t1": 133,
+   "line": "On twenty-first November it sits nineteen point six degrees from the Sun."
+  },
+  {
+   "shot": "S109",
+   "a": 11771,
+   "b": 11869,
+   "t0": 0,
+   "t1": 98,
+   "line": "That's as far from the Sun as it ever gets this time round."
+  },
+  {
+   "shot": "S110",
+   "a": 11869,
+   "b": 11982,
+   "t0": 0,
+   "t1": 113,
+   "line": "Brighter than almost every star. Find it low in the east."
+  },
+  {
+   "shot": "S111",
+   "a": 11982,
+   "b": 12061,
+   "t0": 0,
+   "t1": 79,
+   "line": "Remember the cold open. Four thrusters. One burn. Ten billion kilometres."
+  },
+  {
+   "shot": "S111",
+   "a": 12061,
+   "b": 12140,
+   "t0": 79,
+   "t1": 158,
+   "line": "Remember the cold open. Four thrusters. One burn. Ten billion kilometres."
+  },
+  {
+   "shot": "S112",
+   "a": 12140,
+   "b": 12222,
+   "t0": 0,
+   "t1": 82,
+   "line": "Now you know why every second of it was a gamble."
+  },
+  {
+   "shot": "S113",
+   "a": 12222,
+   "b": 12292,
+   "t0": 0,
+   "t1": 70,
+   "line": "Which planet would you try to orbit first?"
+  },
+  {
+   "shot": "S114",
+   "a": 12292,
+   "b": 12347,
+   "t0": 0,
+   "t1": 55,
+   "line": "Tomorrow: another What If."
+  },
+  {
+   "shot": "S115",
+   "a": 12347,
+   "b": 12462,
+   "t0": 0,
+   "t1": 115,
+   "line": "Eight years to arrive. One planet to learn."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 81,
+   "len": 131,
+   "first": 0,
+   "line": "Eight years. Ten billion kilometres. Now four thrusters fire.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "pullout",
+   "key": 57,
+   "len": 92,
+   "first": 131,
+   "line": "Miss this burn, and Mercury just flies past.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "med",
+   "key": 72,
+   "len": 116,
+   "first": 223,
+   "line": "ESA's plan: capture into orbit on twenty-first November.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "close",
+   "key": 42,
+   "len": 68,
+   "first": 339,
+   "line": "So what if you rode that spacecraft?",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "wide",
+   "key": 71,
+   "len": 114,
+   "first": 407,
+   "line": "Welcome to Ifmosphere. Here are the rules.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "med",
+   "key": 87,
+   "len": 140,
+   "first": 521,
+   "line": "You ride a stack: a European orbiter with a Japanese one tucked inside.",
+   "note": "ch1"
+  },
+  {
+   "id": "S7",
+   "size": "insert",
+   "key": 73,
+   "len": 117,
+   "first": 661,
+   "line": "At launch the whole stack weighed four thousand one hundred kilograms.",
+   "note": "ch1"
+  },
+  {
+   "id": "S8",
+   "size": "low",
+   "key": 55,
+   "len": 89,
+   "first": 778,
+   "line": "Fourteen hundred of those kilograms were just fuel.",
+   "note": "ch1"
+  },
+  {
+   "id": "S9",
+   "size": "med",
+   "key": 49,
+   "len": 79,
+   "first": 867,
+   "line": "Rule one. You can't steer live.",
+   "note": "ch1"
+  },
+  {
+   "id": "S10",
+   "size": "pullout",
+   "key": 62,
+   "len": 100,
+   "first": 946,
+   "line": "Earth is almost one hundred and fifty million kilometres away.",
+   "note": "ch1"
+  },
+  {
+   "id": "S11",
+   "size": "insert",
+   "key": 60,
+   "len": 97,
+   "first": 1046,
+   "line": "Every command takes eight point three minutes to arrive.",
+   "note": "ch1"
+  },
+  {
+   "id": "S12",
+   "size": "high",
+   "key": 79,
+   "len": 128,
+   "first": 1143,
+   "line": "Confirmation takes the same again. That's sixteen minutes of silence.",
+   "note": "ch1"
+  },
+  {
+   "id": "S13",
+   "size": "wide",
+   "key": 46,
+   "len": 74,
+   "first": 1271,
+   "line": "Rule two. It's a one way trip.",
+   "note": "ch1"
+  },
+  {
+   "id": "S14",
+   "size": "close",
+   "key": 85,
+   "len": 137,
+   "first": 1345,
+   "line": "And here's the catch. Mercury is a terrible place to arrive.",
+   "note": "ch1"
+  },
+  {
+   "id": "S15",
+   "size": "med",
+   "key": 71,
+   "len": 114,
+   "first": 1482,
+   "line": "Think a small planet near the Sun sounds easy? It's the opposite.",
+   "note": "ch2"
+  },
+  {
+   "id": "S16",
+   "size": "wide",
+   "key": 56,
+   "len": 91,
+   "first": 1596,
+   "line": "Fall toward the Sun, and the Sun speeds you up.",
+   "note": "ch2"
+  },
+  {
+   "id": "S17",
+   "size": "pan",
+   "key": 45,
+   "len": 72,
+   "first": 1687,
+   "line": "Faster, and faster, and faster.",
+   "note": "ch2"
+  },
+  {
+   "id": "S18",
+   "size": "low",
+   "key": 58,
+   "len": 93,
+   "first": 1759,
+   "line": "To get captured, you have to throw that speed away.",
+   "note": "ch2"
+  },
+  {
+   "id": "S19",
+   "size": "insert",
+   "key": 61,
+   "len": 98,
+   "first": 1852,
+   "line": "ESA says it takes more energy than flying to Pluto.",
+   "note": "ch2"
+  },
+  {
+   "id": "S20",
+   "size": "close",
+   "key": 63,
+   "len": 102,
+   "first": 1950,
+   "line": "Pluto. The planet-sized snowball at the edge of everything.",
+   "note": "ch2"
+  },
+  {
+   "id": "S21",
+   "size": "high",
+   "key": 70,
+   "len": 113,
+   "first": 2052,
+   "line": "So the stack doesn't brake once. It cheats, nine times.",
+   "note": "ch2"
+  },
+  {
+   "id": "S22",
+   "size": "med",
+   "key": 56,
+   "len": 91,
+   "first": 2165,
+   "line": "Flyby one is Earth, in April twenty twenty.",
+   "note": "ch2"
+  },
+  {
+   "id": "S23",
+   "size": "pan",
+   "key": 102,
+   "len": 165,
+   "first": 2256,
+   "line": "Then Venus. Twice. October twenty twenty, and August twenty twenty-one.",
+   "note": "ch2"
+  },
+  {
+   "id": "S24",
+   "size": "wide",
+   "key": 81,
+   "len": 131,
+   "first": 2421,
+   "line": "Then Mercury itself. Six flybys, each one a gravity brake.",
+   "note": "ch2"
+  },
+  {
+   "id": "S25",
+   "size": "pullout",
+   "key": 85,
+   "len": 137,
+   "first": 2552,
+   "line": "Nine slingshots. A grand total of nine point nine billion kilometres.",
+   "note": "ch2"
+  },
+  {
+   "id": "S26",
+   "size": "insert",
+   "key": 68,
+   "len": 109,
+   "first": 2689,
+   "line": "That's about sixty-six times the distance from Earth to the Sun.",
+   "note": "ch2"
+  },
+  {
+   "id": "S27",
+   "size": "low",
+   "key": 47,
+   "len": 76,
+   "first": 2798,
+   "line": "Remember the rule. No steering live.",
+   "note": "ch2"
+  },
+  {
+   "id": "S28",
+   "size": "close",
+   "key": 56,
+   "len": 90,
+   "first": 2874,
+   "line": "Which means the brake burn is a script you wrote years ago.",
+   "note": "ch2"
+  },
+  {
+   "id": "S29",
+   "size": "wide",
+   "key": 62,
+   "len": 100,
+   "first": 2964,
+   "line": "But first, meet the planet you're aiming at.",
+   "note": "ch2"
+  },
+  {
+   "id": "S30",
+   "size": "wide",
+   "key": 57,
+   "len": 92,
+   "first": 3064,
+   "line": "Mercury is the smallest planet in the solar system.",
+   "note": "ch3"
+  },
+  {
+   "id": "S31",
+   "size": "insert",
+   "key": 47,
+   "len": 76,
+   "first": 3156,
+   "line": "But it's still half as big again as the Moon.",
+   "note": "ch3"
+  },
+  {
+   "id": "S32",
+   "size": "med",
+   "key": 72,
+   "len": 116,
+   "first": 3232,
+   "line": "And four times heavier. That is a lot of planet for its size.",
+   "note": "ch3"
+  },
+  {
+   "id": "S33",
+   "size": "close",
+   "key": 82,
+   "len": 132,
+   "first": 3348,
+   "line": "The reason hides inside. An unusually huge metal core.",
+   "note": "ch3"
+  },
+  {
+   "id": "S34",
+   "size": "high",
+   "key": 84,
+   "len": 136,
+   "first": 3480,
+   "line": "Why so dense? That's one of the questions BepiColombo came to answer.",
+   "note": "ch3"
+  },
+  {
+   "id": "S35",
+   "size": "pullout",
+   "key": 84,
+   "len": 136,
+   "first": 3616,
+   "line": "Now the neighbourhood. Mercury sits thirty-six million miles from the Sun.",
+   "note": "ch3"
+  },
+  {
+   "id": "S36",
+   "size": "low",
+   "key": 51,
+   "len": 83,
+   "first": 3752,
+   "line": "That is just over a third of Earth's distance.",
+   "note": "ch3"
+  },
+  {
+   "id": "S37",
+   "size": "insert",
+   "key": 66,
+   "len": 107,
+   "first": 3835,
+   "line": "One Mercury day lasts fifty-eight Earth days of spinning.",
+   "note": "ch3"
+  },
+  {
+   "id": "S38",
+   "size": "med",
+   "key": 72,
+   "len": 116,
+   "first": 3942,
+   "line": "The sun stays up three months. Then it stays down three months.",
+   "note": "ch3"
+  },
+  {
+   "id": "S39",
+   "size": "insert",
+   "key": 61,
+   "len": 98,
+   "first": 4058,
+   "line": "In the day the ground reaches four hundred and fifty degrees.",
+   "note": "ch3"
+  },
+  {
+   "id": "S40",
+   "size": "insert",
+   "key": 51,
+   "len": 83,
+   "first": 4156,
+   "line": "At night it drops to minus one hundred and eighty.",
+   "note": "ch3"
+  },
+  {
+   "id": "S41",
+   "size": "wide",
+   "key": 81,
+   "len": 130,
+   "first": 4239,
+   "line": "Hot enough to melt lead, cold enough to freeze air. Same rock.",
+   "note": "ch3"
+  },
+  {
+   "id": "S42",
+   "size": "high",
+   "key": 56,
+   "len": 90,
+   "first": 4369,
+   "line": "Yet in the dark craters at the poles, there's ice.",
+   "note": "ch3"
+  },
+  {
+   "id": "S43",
+   "size": "low",
+   "key": 65,
+   "len": 105,
+   "first": 4459,
+   "line": "Permanently shadowed. The sunlight never reaches the floor.",
+   "note": "ch3"
+  },
+  {
+   "id": "S44",
+   "size": "close",
+   "key": 75,
+   "len": 121,
+   "first": 4564,
+   "line": "So that's your target. Now, what almost went wrong.",
+   "note": "ch3"
+  },
+  {
+   "id": "S45",
+   "size": "med",
+   "key": 74,
+   "len": 119,
+   "first": 4685,
+   "line": "Your arrival was meant to be the fifth of December, twenty twenty-five.",
+   "note": "ch4"
+  },
+  {
+   "id": "S46",
+   "size": "insert",
+   "key": 61,
+   "len": 98,
+   "first": 4804,
+   "line": "Then, in April twenty twenty-four, a power fault.",
+   "note": "ch4"
+  },
+  {
+   "id": "S47",
+   "size": "close",
+   "key": 81,
+   "len": 130,
+   "first": 4902,
+   "line": "Unexpected electrical currents, between a solar wing and a power unit.",
+   "note": "ch4"
+  },
+  {
+   "id": "S48",
+   "size": "low",
+   "key": 81,
+   "len": 130,
+   "first": 5032,
+   "line": "The ion thrusters lost power. Your engines, running on a diet.",
+   "note": "ch4"
+  },
+  {
+   "id": "S49",
+   "size": "med",
+   "key": 71,
+   "len": 115,
+   "first": 5162,
+   "line": "Mission control had one choice. Redo the entire route.",
+   "note": "ch4"
+  },
+  {
+   "id": "S50",
+   "size": "pan",
+   "key": 84,
+   "len": 136,
+   "first": 5277,
+   "line": "Arrival slipped by almost a whole year, to November twenty twenty-six.",
+   "note": "ch4"
+  },
+  {
+   "id": "S51",
+   "size": "insert",
+   "key": 81,
+   "len": 131,
+   "first": 5413,
+   "line": "On fifteenth June twenty twenty-six, the ion drive switched off for good.",
+   "note": "ch4"
+  },
+  {
+   "id": "S52",
+   "size": "wide",
+   "key": 56,
+   "len": 91,
+   "first": 5544,
+   "line": "On third September, the transfer module let go.",
+   "note": "ch4"
+  },
+  {
+   "id": "S53",
+   "size": "pullout",
+   "key": 50,
+   "len": 80,
+   "first": 5635,
+   "line": "About two hundred million kilometres from Earth.",
+   "note": "ch4"
+  },
+  {
+   "id": "S54",
+   "size": "high",
+   "key": 83,
+   "len": 134,
+   "first": 5715,
+   "line": "That module had no antenna, no computer. Just a drifting box.",
+   "note": "ch4"
+  },
+  {
+   "id": "S55",
+   "size": "close",
+   "key": 69,
+   "len": 111,
+   "first": 5849,
+   "line": "From here on, only the orbiter's chemical thrusters steer you.",
+   "note": "ch4"
+  },
+  {
+   "id": "S56",
+   "size": "close",
+   "key": 47,
+   "len": 76,
+   "first": 5960,
+   "line": "So. The burn.",
+   "note": "ch4"
+  },
+  {
+   "id": "S57",
+   "size": "wide",
+   "key": 51,
+   "len": 83,
+   "first": 6036,
+   "line": "You come in over the south pole, on the night side.",
+   "note": "ch5"
+  },
+  {
+   "id": "S58",
+   "size": "low",
+   "key": 63,
+   "len": 101,
+   "first": 6119,
+   "line": "Below you, nothing but black rock and a thin line of dawn.",
+   "note": "ch5"
+  },
+  {
+   "id": "S59",
+   "size": "insert",
+   "key": 42,
+   "len": 67,
+   "first": 6220,
+   "line": "Four of your thrusters fire together.",
+   "note": "ch5"
+  },
+  {
+   "id": "S60",
+   "size": "close",
+   "key": 64,
+   "len": 104,
+   "first": 6287,
+   "line": "They push against your speed, every second, for a long burn.",
+   "note": "ch5"
+  },
+  {
+   "id": "S61",
+   "size": "high",
+   "key": 78,
+   "len": 126,
+   "first": 6391,
+   "line": "Too short, and you skim away. Too long, and you dive in.",
+   "note": "ch5"
+  },
+  {
+   "id": "S62",
+   "size": "insert",
+   "key": 70,
+   "len": 113,
+   "first": 6517,
+   "line": "And you cannot touch the controls. Remember the sixteen minutes.",
+   "note": "ch5"
+  },
+  {
+   "id": "S63",
+   "size": "med",
+   "key": 51,
+   "len": 82,
+   "first": 6630,
+   "line": "All you can do is watch the dot on the screen.",
+   "note": "ch5"
+  },
+  {
+   "id": "S64",
+   "size": "wide",
+   "key": 54,
+   "len": 87,
+   "first": 6712,
+   "line": "Then your speed slips below the planet's grip.",
+   "note": "ch5"
+  },
+  {
+   "id": "S65",
+   "size": "pullout",
+   "key": 60,
+   "len": 96,
+   "first": 6799,
+   "line": "Mercury's gravity catches you. You're in orbit.",
+   "note": "ch5"
+  },
+  {
+   "id": "S66",
+   "size": "wide",
+   "key": 100,
+   "len": 162,
+   "first": 6895,
+   "line": "A wide, lopsided loop: five ninety by eleven thousand six hundred forty kilometres.",
+   "note": "ch5"
+  },
+  {
+   "id": "S67",
+   "size": "pullout",
+   "key": 88,
+   "len": 142,
+   "first": 7057,
+   "line": "Low point, five ninety. High point, so far you almost leave.",
+   "note": "ch5"
+  },
+  {
+   "id": "S68",
+   "size": "med",
+   "key": 64,
+   "len": 104,
+   "first": 7199,
+   "line": "Mission control only learns it worked sixteen minutes later.",
+   "note": "ch5"
+  },
+  {
+   "id": "S69",
+   "size": "pan",
+   "key": 48,
+   "len": 78,
+   "first": 7303,
+   "line": "And remember, this is only one step of many.",
+   "note": "ch5"
+  },
+  {
+   "id": "S70",
+   "size": "insert",
+   "key": 54,
+   "len": 87,
+   "first": 7381,
+   "line": "ESA calls it a six-month arrival sequence.",
+   "note": "ch5"
+  },
+  {
+   "id": "S71",
+   "size": "wide",
+   "key": 74,
+   "len": 120,
+   "first": 7468,
+   "line": "Capture is the middle. The best parts come next.",
+   "note": "ch5"
+  },
+  {
+   "id": "S72",
+   "size": "wide",
+   "key": 60,
+   "len": 97,
+   "first": 7588,
+   "line": "On the ninth and tenth of December, the stack comes apart.",
+   "note": "ch6"
+  },
+  {
+   "id": "S73",
+   "size": "close",
+   "key": 84,
+   "len": 135,
+   "first": 7685,
+   "line": "The European orbiter, MPO, lets go of the Japanese one, Mio.",
+   "note": "ch6"
+  },
+  {
+   "id": "S74",
+   "size": "low",
+   "key": 65,
+   "len": 105,
+   "first": 7820,
+   "line": "On sixteenth December, Mio's sunshield drops away.",
+   "note": "ch6"
+  },
+  {
+   "id": "S75",
+   "size": "high",
+   "key": 42,
+   "len": 68,
+   "first": 7925,
+   "line": "Then the two of you go your separate ways.",
+   "note": "ch6"
+  },
+  {
+   "id": "S76",
+   "size": "insert",
+   "key": 83,
+   "len": 134,
+   "first": 7993,
+   "line": "MPO drops low: four hundred and eighty by fifteen hundred kilometres.",
+   "note": "ch6"
+  },
+  {
+   "id": "S77",
+   "size": "med",
+   "key": 58,
+   "len": 94,
+   "first": 8127,
+   "line": "It circles Mercury every two point three hours.",
+   "note": "ch6"
+  },
+  {
+   "id": "S78",
+   "size": "pullout",
+   "key": 87,
+   "len": 140,
+   "first": 8221,
+   "line": "Mio swings wide: five ninety by eleven thousand six hundred forty.",
+   "note": "ch6"
+  },
+  {
+   "id": "S79",
+   "size": "insert",
+   "key": 82,
+   "len": 132,
+   "first": 8361,
+   "line": "One lap takes nine point three hours. Long enough for a whole movie.",
+   "note": "ch6"
+  },
+  {
+   "id": "S80",
+   "size": "pan",
+   "key": 78,
+   "len": 125,
+   "first": 8493,
+   "line": "MPO keeps burning, to settle into its final orbit by March.",
+   "note": "ch6"
+  },
+  {
+   "id": "S81",
+   "size": "wide",
+   "key": 54,
+   "len": 87,
+   "first": 8618,
+   "line": "Science starts in April twenty twenty-seven.",
+   "note": "ch6"
+  },
+  {
+   "id": "S82",
+   "size": "pullout",
+   "key": 80,
+   "len": 129,
+   "first": 8705,
+   "line": "Two spacecraft at one planet. That has never happened at Mercury.",
+   "note": "ch6"
+  },
+  {
+   "id": "S83",
+   "size": "med",
+   "key": 101,
+   "len": 163,
+   "first": 8834,
+   "line": "Before you, only one spacecraft ever orbited Mercury. NASA's MESSENGER.",
+   "note": "ch6"
+  },
+  {
+   "id": "S84",
+   "size": "high",
+   "key": 102,
+   "len": 165,
+   "first": 8997,
+   "line": "That makes you second ever. Count Mariner Ten, and you're the third visit.",
+   "note": "ch6"
+  },
+  {
+   "id": "S85",
+   "size": "med",
+   "key": 41,
+   "len": 66,
+   "first": 9162,
+   "line": "So what does all that work buy you?",
+   "note": "ch7"
+  },
+  {
+   "id": "S86",
+   "size": "insert",
+   "key": 71,
+   "len": 114,
+   "first": 9228,
+   "line": "MPO carries eleven instruments. Mio carries five.",
+   "note": "ch7"
+  },
+  {
+   "id": "S87",
+   "size": "wide",
+   "key": 51,
+   "len": 82,
+   "first": 9342,
+   "line": "A laser will map the shape of the entire planet.",
+   "note": "ch7"
+  },
+  {
+   "id": "S88",
+   "size": "close",
+   "key": 61,
+   "len": 98,
+   "first": 9424,
+   "line": "Cameras across many colours will read the surface rock.",
+   "note": "ch7"
+  },
+  {
+   "id": "S89",
+   "size": "low",
+   "key": 60,
+   "len": 97,
+   "first": 9522,
+   "line": "And an X-ray eye will taste what the ground is made of.",
+   "note": "ch7"
+  },
+  {
+   "id": "S90",
+   "size": "insert",
+   "key": 75,
+   "len": 121,
+   "first": 9619,
+   "line": "It already passed its first test. Staring at the Crab Nebula.",
+   "note": "ch7"
+  },
+  {
+   "id": "S91",
+   "size": "med",
+   "key": 48,
+   "len": 77,
+   "first": 9740,
+   "line": "Thirty-nine hours of looking, in September.",
+   "note": "ch7"
+  },
+  {
+   "id": "S92",
+   "size": "insert",
+   "key": 68,
+   "len": 110,
+   "first": 9817,
+   "line": "Fifty-five times the spacecraft turned, to nudge the view.",
+   "note": "ch7"
+  },
+  {
+   "id": "S93",
+   "size": "close",
+   "key": 73,
+   "len": 118,
+   "first": 9927,
+   "line": "The picture came out slightly sharper than the lab test in twenty fifteen.",
+   "note": "ch7"
+  },
+  {
+   "id": "S94",
+   "size": "insert",
+   "key": 66,
+   "len": 107,
+   "first": 10045,
+   "line": "Eighty percent of that instrument's technology was brand new.",
+   "note": "ch7"
+  },
+  {
+   "id": "S95",
+   "size": "wide",
+   "key": 79,
+   "len": 127,
+   "first": 10152,
+   "line": "After eight years in space, its detector shows no radiation damage.",
+   "note": "ch7"
+  },
+  {
+   "id": "S96",
+   "size": "pan",
+   "key": 74,
+   "len": 120,
+   "first": 10279,
+   "line": "Mio will watch the magnetic field, and the solar wind hitting it.",
+   "note": "ch7"
+  },
+  {
+   "id": "S97",
+   "size": "close",
+   "key": 71,
+   "len": 115,
+   "first": 10399,
+   "line": "It will taste the thin sodium haze that trails behind the planet.",
+   "note": "ch7"
+  },
+  {
+   "id": "S98",
+   "size": "med",
+   "key": 75,
+   "len": 121,
+   "first": 10514,
+   "line": "Two spacecraft at once means one watches the wind arrive.",
+   "note": "ch7"
+  },
+  {
+   "id": "S99",
+   "size": "low",
+   "key": 49,
+   "len": 79,
+   "first": 10635,
+   "line": "While the other measures what it does up close.",
+   "note": "ch7"
+  },
+  {
+   "id": "S100",
+   "size": "insert",
+   "key": 69,
+   "len": 111,
+   "first": 10714,
+   "line": "One orbiter alone could never do that. Remember the ice?",
+   "note": "ch7"
+  },
+  {
+   "id": "S101",
+   "size": "high",
+   "key": 84,
+   "len": 136,
+   "first": 10825,
+   "line": "Scientists hope those spacecraft can finally say what the ice is.",
+   "note": "ch7"
+  },
+  {
+   "id": "S102",
+   "size": "wide",
+   "key": 68,
+   "len": 110,
+   "first": 10961,
+   "line": "Here's the part nobody warns you about. You're not coming home.",
+   "note": "ch8"
+  },
+  {
+   "id": "S103",
+   "size": "med",
+   "key": 64,
+   "len": 103,
+   "first": 11071,
+   "line": "The spacecraft are expected to orbit for about three years.",
+   "note": "ch8"
+  },
+  {
+   "id": "S104",
+   "size": "low",
+   "key": 67,
+   "len": 108,
+   "first": 11174,
+   "line": "Then the fuel runs out, they lose height, and they land hard.",
+   "note": "ch8"
+  },
+  {
+   "id": "S105",
+   "size": "close",
+   "key": 78,
+   "len": 125,
+   "first": 11282,
+   "line": "Their lead scientist put it simply. Sadly, they are not coming back.",
+   "note": "ch8"
+  },
+  {
+   "id": "S106",
+   "size": "insert",
+   "key": 82,
+   "len": 132,
+   "first": 11407,
+   "line": "It's a one point six billion euro goodbye, and it's worth every cent.",
+   "note": "ch8"
+  },
+  {
+   "id": "S107",
+   "size": "wide",
+   "key": 61,
+   "len": 99,
+   "first": 11539,
+   "line": "And you can wave at Mercury yourself, on a clear morning.",
+   "note": "ch8"
+  },
+  {
+   "id": "S108",
+   "size": "med",
+   "key": 82,
+   "len": 133,
+   "first": 11638,
+   "line": "On twenty-first November it sits nineteen point six degrees from the Sun.",
+   "note": "ch8"
+  },
+  {
+   "id": "S109",
+   "size": "high",
+   "key": 61,
+   "len": 98,
+   "first": 11771,
+   "line": "That's as far from the Sun as it ever gets this time round.",
+   "note": "ch8"
+  },
+  {
+   "id": "S110",
+   "size": "low",
+   "key": 70,
+   "len": 113,
+   "first": 11869,
+   "line": "Brighter than almost every star. Find it low in the east.",
+   "note": "ch8"
+  },
+  {
+   "id": "S111",
+   "size": "wide",
+   "key": 98,
+   "len": 158,
+   "first": 11982,
+   "line": "Remember the cold open. Four thrusters. One burn. Ten billion kilometres.",
+   "note": "ch8"
+  },
+  {
+   "id": "S112",
+   "size": "pullout",
+   "key": 51,
+   "len": 82,
+   "first": 12140,
+   "line": "Now you know why every second of it was a gamble.",
+   "note": "ch8"
+  },
+  {
+   "id": "S113",
+   "size": "close",
+   "key": 43,
+   "len": 70,
+   "first": 12222,
+   "line": "Which planet would you try to orbit first?",
+   "note": "ch8"
+  },
+  {
+   "id": "S114",
+   "size": "close",
+   "key": 34,
+   "len": 55,
+   "first": 12292,
+   "line": "Tomorrow: another What If.",
+   "note": "ch8"
+  },
+  {
+   "id": "S115",
+   "size": "wide",
+   "key": 71,
+   "len": 115,
+   "first": 12347,
+   "line": "Eight years to arrive. One planet to learn.",
+   "note": "ch8"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "mercury/voice.wav",
+  "sfx": "mercury/sfx.wav",
+  "music": "mercury/music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}
