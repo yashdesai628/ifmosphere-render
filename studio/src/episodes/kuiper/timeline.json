@@ -1,0 +1,1916 @@
+{
+ "slug": "kuiper",
+ "title": "WHAT IF YOU STOOD 4 BILLION MILES OUT?",
+ "fps": 30,
+ "total": 11225,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 107,
+   "t0": 0,
+   "t1": 107,
+   "line": "Four billion miles from the Sun, the Sun is just a star."
+  },
+  {
+   "shot": "S2",
+   "a": 107,
+   "b": 222,
+   "t0": 0,
+   "t1": 115,
+   "line": "Daylight here is a ghost of ours, far too faint to warm you."
+  },
+  {
+   "shot": "S3",
+   "a": 222,
+   "b": 328,
+   "t0": 0,
+   "t1": 106,
+   "line": "NASA just found fresh clues to the ice you'd be standing on."
+  },
+  {
+   "shot": "S4",
+   "a": 328,
+   "b": 403,
+   "t0": 0,
+   "t1": 75,
+   "line": "So what if you stood on a Kuiper Belt world?"
+  },
+  {
+   "shot": "S5",
+   "a": 403,
+   "b": 523,
+   "t0": 0,
+   "t1": 120,
+   "line": "Welcome to Ifmosphere. Here are the rules."
+  },
+  {
+   "shot": "S6",
+   "a": 523,
+   "b": 638,
+   "t0": 0,
+   "t1": 115,
+   "line": "The Kuiper Belt is a doughnut of icy leftovers beyond Neptune."
+  },
+  {
+   "shot": "S7",
+   "a": 638,
+   "b": 773,
+   "t0": 0,
+   "t1": 135,
+   "line": "Neptune's orbit marks the inner edge, thirty times Earth's distance."
+  },
+  {
+   "shot": "S8",
+   "a": 773,
+   "b": 846,
+   "t0": 0,
+   "t1": 73,
+   "line": "The main part stretches to about fifty."
+  },
+  {
+   "shot": "S9",
+   "a": 846,
+   "b": 917,
+   "t0": 0,
+   "t1": 71,
+   "line": "Rule one. You land four billion miles out, as in NASA's picture."
+  },
+  {
+   "shot": "S9",
+   "a": 917,
+   "b": 988,
+   "t0": 71,
+   "t1": 142,
+   "line": "Rule one. You land four billion miles out, as in NASA's picture."
+  },
+  {
+   "shot": "S10",
+   "a": 988,
+   "b": 1116,
+   "t0": 0,
+   "t1": 128,
+   "line": "Rule two. No radio miracles. Nothing goes faster than light."
+  },
+  {
+   "shot": "S11",
+   "a": 1116,
+   "b": 1187,
+   "t0": 0,
+   "t1": 71,
+   "line": "Rule three. It's a one way trip."
+  },
+  {
+   "shot": "S12",
+   "a": 1187,
+   "b": 1274,
+   "t0": 0,
+   "t1": 87,
+   "line": "You wear a plain hooded suit. Keep the hood up."
+  },
+  {
+   "shot": "S13",
+   "a": 1274,
+   "b": 1371,
+   "t0": 0,
+   "t1": 97,
+   "line": "And here's the catch. The view is the strangest part."
+  },
+  {
+   "shot": "S14",
+   "a": 1371,
+   "b": 1455,
+   "t0": 0,
+   "t1": 84,
+   "line": "Look up. Find the Sun."
+  },
+  {
+   "shot": "S15",
+   "a": 1455,
+   "b": 1558,
+   "t0": 0,
+   "t1": 103,
+   "line": "There. That bright pinprick, no bigger than a star."
+  },
+  {
+   "shot": "S16",
+   "a": 1558,
+   "b": 1653,
+   "t0": 0,
+   "t1": 95,
+   "line": "From here it's forty-three times farther than from Earth."
+  },
+  {
+   "shot": "S17",
+   "a": 1653,
+   "b": 1724,
+   "t0": 0,
+   "t1": 71,
+   "line": "Light thins out with distance squared, so it's about eighteen hundred times dimmer."
+  },
+  {
+   "shot": "S17",
+   "a": 1724,
+   "b": 1795,
+   "t0": 71,
+   "t1": 142,
+   "line": "Light thins out with distance squared, so it's about eighteen hundred times dimmer."
+  },
+  {
+   "shot": "S18",
+   "a": 1795,
+   "b": 1922,
+   "t0": 0,
+   "t1": 127,
+   "line": "Sunrise, sunset, shadows, all of it, just a bright dot."
+  },
+  {
+   "shot": "S19",
+   "a": 1922,
+   "b": 2001,
+   "t0": 0,
+   "t1": 79,
+   "line": "Now look around the Sun. Four more dots."
+  },
+  {
+   "shot": "S20",
+   "a": 2001,
+   "b": 2097,
+   "t0": 0,
+   "t1": 96,
+   "line": "That's Jupiter, Saturn, Uranus and Neptune."
+  },
+  {
+   "shot": "S21",
+   "a": 2097,
+   "b": 2166,
+   "t0": 0,
+   "t1": 69,
+   "line": "NASA's own illustration shows the four largest planets as bright dots."
+  },
+  {
+   "shot": "S21",
+   "a": 2166,
+   "b": 2236,
+   "t0": 69,
+   "t1": 139,
+   "line": "NASA's own illustration shows the four largest planets as bright dots."
+  },
+  {
+   "shot": "S22",
+   "a": 2236,
+   "b": 2332,
+   "t0": 0,
+   "t1": 96,
+   "line": "And the inner planets? Too close to the Sun to see."
+  },
+  {
+   "shot": "S23",
+   "a": 2332,
+   "b": 2434,
+   "t0": 0,
+   "t1": 102,
+   "line": "Earth, our whole world, is hidden in the Sun's glare."
+  },
+  {
+   "shot": "S24",
+   "a": 2434,
+   "b": 2554,
+   "t0": 0,
+   "t1": 120,
+   "line": "A Milky Way band arcs over everything, sharp as chalk."
+  },
+  {
+   "shot": "S25",
+   "a": 2554,
+   "b": 2643,
+   "t0": 0,
+   "t1": 89,
+   "line": "You'd see farther than anyone on Earth ever has."
+  },
+  {
+   "shot": "S26",
+   "a": 2643,
+   "b": 2736,
+   "t0": 0,
+   "t1": 93,
+   "line": "The ground at your feet glitters faintly with frost."
+  },
+  {
+   "shot": "S27",
+   "a": 2736,
+   "b": 2866,
+   "t0": 0,
+   "t1": 130,
+   "line": "Remember that ice. NASA scientists just learned something about it."
+  },
+  {
+   "shot": "S28",
+   "a": 2866,
+   "b": 2939,
+   "t0": 0,
+   "t1": 73,
+   "line": "But first, call home."
+  },
+  {
+   "shot": "S29",
+   "a": 2939,
+   "b": 3048,
+   "t0": 0,
+   "t1": 109,
+   "line": "Radio travels at the speed of light, and light takes time."
+  },
+  {
+   "shot": "S30",
+   "a": 3048,
+   "b": 3181,
+   "t0": 0,
+   "t1": 133,
+   "line": "Four billion miles is about twenty-one thousand, five hundred seconds."
+  },
+  {
+   "shot": "S31",
+   "a": 3181,
+   "b": 3286,
+   "t0": 0,
+   "t1": 105,
+   "line": "That's almost six hours, just for a hello to reach Earth."
+  },
+  {
+   "shot": "S32",
+   "a": 3286,
+   "b": 3363,
+   "t0": 0,
+   "t1": 77,
+   "line": "And six more hours for anyone to answer."
+  },
+  {
+   "shot": "S33",
+   "a": 3363,
+   "b": 3442,
+   "t0": 0,
+   "t1": 79,
+   "line": "A twelve hour wait for the reply to hello."
+  },
+  {
+   "shot": "S34",
+   "a": 3442,
+   "b": 3512,
+   "t0": 0,
+   "t1": 70,
+   "line": "Voyager One just crossed one light-day: twenty-four hours each way."
+  },
+  {
+   "shot": "S34",
+   "a": 3512,
+   "b": 3582,
+   "t0": 70,
+   "t1": 140,
+   "line": "Voyager One just crossed one light-day: twenty-four hours each way."
+  },
+  {
+   "shot": "S35",
+   "a": 3582,
+   "b": 3644,
+   "t0": 0,
+   "t1": 62,
+   "line": "So you're far, but you're not that far."
+  },
+  {
+   "shot": "S36",
+   "a": 3644,
+   "b": 3738,
+   "t0": 0,
+   "t1": 94,
+   "line": "Back to the ground. Is anything out here moving?"
+  },
+  {
+   "shot": "S37",
+   "a": 3738,
+   "b": 3864,
+   "t0": 0,
+   "t1": 126,
+   "line": "Astronomers think there are millions of small icy objects out here."
+  },
+  {
+   "shot": "S38",
+   "a": 3864,
+   "b": 3962,
+   "t0": 0,
+   "t1": 98,
+   "line": "Hundreds of thousands are wider than a hundred kilometres."
+  },
+  {
+   "shot": "S39",
+   "a": 3962,
+   "b": 4050,
+   "t0": 0,
+   "t1": 88,
+   "line": "But we've catalogued only a little over two thousand."
+  },
+  {
+   "shot": "S40",
+   "a": 4050,
+   "b": 4136,
+   "t0": 0,
+   "t1": 86,
+   "line": "You are standing in mostly unexplored space."
+  },
+  {
+   "shot": "S41",
+   "a": 4136,
+   "b": 4207,
+   "t0": 0,
+   "t1": 71,
+   "line": "Time to meet the neighbours."
+  },
+  {
+   "shot": "S42",
+   "a": 4207,
+   "b": 4275,
+   "t0": 0,
+   "t1": 68,
+   "line": "The king of the Kuiper Belt is Pluto."
+  },
+  {
+   "shot": "S43",
+   "a": 4275,
+   "b": 4389,
+   "t0": 0,
+   "t1": 114,
+   "line": "Found in nineteen thirty, long before anyone expected a belt."
+  },
+  {
+   "shot": "S44",
+   "a": 4389,
+   "b": 4497,
+   "t0": 0,
+   "t1": 108,
+   "line": "Pluto orbits twice for every three laps Neptune makes."
+  },
+  {
+   "shot": "S45",
+   "a": 4497,
+   "b": 4614,
+   "t0": 0,
+   "t1": 117,
+   "line": "Their orbits cross, yet they never meet. A perfect dance."
+  },
+  {
+   "shot": "S46",
+   "a": 4614,
+   "b": 4725,
+   "t0": 0,
+   "t1": 111,
+   "line": "Pluto even gets closer to Uranus than it ever does to Neptune."
+  },
+  {
+   "shot": "S47",
+   "a": 4725,
+   "b": 4820,
+   "t0": 0,
+   "t1": 95,
+   "line": "Now a different neighbour. Arrokoth, a snowman."
+  },
+  {
+   "shot": "S48",
+   "a": 4820,
+   "b": 4914,
+   "t0": 0,
+   "t1": 94,
+   "line": "Two lobes stuck together, red as old rust."
+  },
+  {
+   "shot": "S49",
+   "a": 4914,
+   "b": 4984,
+   "t0": 0,
+   "t1": 70,
+   "line": "NASA's New Horizons flew past it on the first of January, twenty nineteen."
+  },
+  {
+   "shot": "S49",
+   "a": 4984,
+   "b": 5054,
+   "t0": 70,
+   "t1": 140,
+   "line": "NASA's New Horizons flew past it on the first of January, twenty nineteen."
+  },
+  {
+   "shot": "S50",
+   "a": 5054,
+   "b": 5123,
+   "t0": 0,
+   "t1": 69,
+   "line": "It's the most distant, most primitive object a spacecraft has ever explored."
+  },
+  {
+   "shot": "S50",
+   "a": 5123,
+   "b": 5192,
+   "t0": 69,
+   "t1": 138,
+   "line": "It's the most distant, most primitive object a spacecraft has ever explored."
+  },
+  {
+   "shot": "S51",
+   "a": 5192,
+   "b": 5289,
+   "t0": 0,
+   "t1": 97,
+   "line": "Pairs like it may be almost unchanged since birth."
+  },
+  {
+   "shot": "S52",
+   "a": 5289,
+   "b": 5417,
+   "t0": 0,
+   "t1": 128,
+   "line": "Dwarf planets live here too: Eris, Haumea and Makemake."
+  },
+  {
+   "shot": "S53",
+   "a": 5417,
+   "b": 5520,
+   "t0": 0,
+   "t1": 103,
+   "line": "Eris, the heaviest of them, drifts in the scattered disk."
+  },
+  {
+   "shot": "S54",
+   "a": 5520,
+   "b": 5588,
+   "t0": 0,
+   "t1": 68,
+   "line": "And Sedna swings from seventy-six to twelve hundred times Earth's distance."
+  },
+  {
+   "shot": "S54",
+   "a": 5588,
+   "b": 5657,
+   "t0": 68,
+   "t1": 137,
+   "line": "And Sedna swings from seventy-six to twelve hundred times Earth's distance."
+  },
+  {
+   "shot": "S55",
+   "a": 5657,
+   "b": 5755,
+   "t0": 0,
+   "t1": 98,
+   "line": "So how did all this ice end up out here?"
+  },
+  {
+   "shot": "S56",
+   "a": 5755,
+   "b": 5813,
+   "t0": 0,
+   "t1": 58,
+   "line": "Go back to the early solar system."
+  },
+  {
+   "shot": "S57",
+   "a": 5813,
+   "b": 5924,
+   "t0": 0,
+   "t1": 111,
+   "line": "A thick disk of icy bodies surrounds the young giant planets."
+  },
+  {
+   "shot": "S58",
+   "a": 5924,
+   "b": 6044,
+   "t0": 0,
+   "t1": 120,
+   "line": "Neptune's gravity stirs it, so the ice can't clump into a planet."
+  },
+  {
+   "shot": "S59",
+   "a": 6044,
+   "b": 6148,
+   "t0": 0,
+   "t1": 104,
+   "line": "That's the key. Neptune stopped a planet from forming."
+  },
+  {
+   "shot": "S60",
+   "a": 6148,
+   "b": 6219,
+   "t0": 0,
+   "t1": 71,
+   "line": "Meanwhile Jupiter and Saturn shift, and Uranus and Neptune get pushed outward."
+  },
+  {
+   "shot": "S60",
+   "a": 6219,
+   "b": 6291,
+   "t0": 71,
+   "t1": 143,
+   "line": "Meanwhile Jupiter and Saturn shift, and Uranus and Neptune get pushed outward."
+  },
+  {
+   "shot": "S61",
+   "a": 6291,
+   "b": 6387,
+   "t0": 0,
+   "t1": 96,
+   "line": "On the way out they plough through the ice like snowploughs."
+  },
+  {
+   "shot": "S62",
+   "a": 6387,
+   "b": 6511,
+   "t0": 0,
+   "t1": 124,
+   "line": "Jupiter flings most of it into the Oort Cloud, or out entirely."
+  },
+  {
+   "shot": "S63",
+   "a": 6511,
+   "b": 6625,
+   "t0": 0,
+   "t1": 114,
+   "line": "Today's belt holds no more than about ten percent of Earth's mass."
+  },
+  {
+   "shot": "S64",
+   "a": 6625,
+   "b": 6711,
+   "t0": 0,
+   "t1": 86,
+   "line": "Once it held seven to ten times Earth's mass."
+  },
+  {
+   "shot": "S65",
+   "a": 6711,
+   "b": 6769,
+   "t0": 0,
+   "t1": 58,
+   "line": "Most of the belt is already gone."
+  },
+  {
+   "shot": "S66",
+   "a": 6769,
+   "b": 6834,
+   "t0": 0,
+   "t1": 65,
+   "line": "And what's left is slowly crumbling."
+  },
+  {
+   "shot": "S67",
+   "a": 6834,
+   "b": 6965,
+   "t0": 0,
+   "t1": 131,
+   "line": "Collisions make smaller bits, and dust that the solar wind blows away."
+  },
+  {
+   "shot": "S68",
+   "a": 6965,
+   "b": 7088,
+   "t0": 0,
+   "t1": 123,
+   "line": "Dust. Hold that word. It's about to matter."
+  },
+  {
+   "shot": "S69",
+   "a": 7088,
+   "b": 7165,
+   "t0": 0,
+   "t1": 77,
+   "line": "Eighteen November twenty twenty-six. NASA scientists announce a find."
+  },
+  {
+   "shot": "S69",
+   "a": 7165,
+   "b": 7242,
+   "t0": 77,
+   "t1": 154,
+   "line": "Eighteen November twenty twenty-six. NASA scientists announce a find."
+  },
+  {
+   "shot": "S70",
+   "a": 7242,
+   "b": 7324,
+   "t0": 0,
+   "t1": 82,
+   "line": "They studied twelve tiny dust particles."
+  },
+  {
+   "shot": "S71",
+   "a": 7324,
+   "b": 7428,
+   "t0": 0,
+   "t1": 104,
+   "line": "Not from a spacecraft. From Earth's stratosphere."
+  },
+  {
+   "shot": "S72",
+   "a": 7428,
+   "b": 7525,
+   "t0": 0,
+   "t1": 97,
+   "line": "NASA's high-altitude research plane scooped them up."
+  },
+  {
+   "shot": "S73",
+   "a": 7525,
+   "b": 7628,
+   "t0": 0,
+   "t1": 103,
+   "line": "The dust is smaller than a speck, but it carried a secret."
+  },
+  {
+   "shot": "S74",
+   "a": 7628,
+   "b": 7763,
+   "t0": 0,
+   "t1": 135,
+   "line": "First, where did each grain come from? Tracks of solar particles."
+  },
+  {
+   "shot": "S75",
+   "a": 7763,
+   "b": 7869,
+   "t0": 0,
+   "t1": 106,
+   "line": "High concentrations of solar energetic particle tracks."
+  },
+  {
+   "shot": "S76",
+   "a": 7869,
+   "b": 7966,
+   "t0": 0,
+   "t1": 97,
+   "line": "Those tracks trace each grain back to the Kuiper Belt."
+  },
+  {
+   "shot": "S77",
+   "a": 7966,
+   "b": 8101,
+   "t0": 0,
+   "t1": 135,
+   "line": "Then the minerals. They formed when water touched dust, ages ago."
+  },
+  {
+   "shot": "S78",
+   "a": 8101,
+   "b": 8187,
+   "t0": 0,
+   "t1": 86,
+   "line": "Researchers used electron microscopy at NASA, and an ion microprobe at UCLA."
+  },
+  {
+   "shot": "S78",
+   "a": 8187,
+   "b": 8273,
+   "t0": 86,
+   "t1": 172,
+   "line": "Researchers used electron microscopy at NASA, and an ion microprobe at UCLA."
+  },
+  {
+   "shot": "S79",
+   "a": 8273,
+   "b": 8366,
+   "t0": 0,
+   "t1": 93,
+   "line": "The water they found was enriched in heavier oxygen."
+  },
+  {
+   "shot": "S80",
+   "a": 8366,
+   "b": 8488,
+   "t0": 0,
+   "t1": 122,
+   "line": "Heavier atoms. Same oxygen, but with extra neutrons."
+  },
+  {
+   "shot": "S81",
+   "a": 8488,
+   "b": 8585,
+   "t0": 0,
+   "t1": 97,
+   "line": "Scientists had suspected ice like that for decades."
+  },
+  {
+   "shot": "S82",
+   "a": 8585,
+   "b": 8701,
+   "t0": 0,
+   "t1": 116,
+   "line": "Meteorites and asteroid samples hinted at it, but never enough."
+  },
+  {
+   "shot": "S83",
+   "a": 8701,
+   "b": 8831,
+   "t0": 0,
+   "t1": 130,
+   "line": "Now there's compelling evidence of an ancient reservoir of ice."
+  },
+  {
+   "shot": "S84",
+   "a": 8831,
+   "b": 8963,
+   "t0": 0,
+   "t1": 132,
+   "line": "A reservoir of ice enriched in heavier oxygen, out in the Kuiper Belt."
+  },
+  {
+   "shot": "S85",
+   "a": 8963,
+   "b": 9093,
+   "t0": 0,
+   "t1": 130,
+   "line": "NASA's Genesis mission gave scientists a reference to compare against."
+  },
+  {
+   "shot": "S86",
+   "a": 9093,
+   "b": 9187,
+   "t0": 0,
+   "t1": 94,
+   "line": "Real meteorites rarely show this same signature."
+  },
+  {
+   "shot": "S87",
+   "a": 9187,
+   "b": 9261,
+   "t0": 0,
+   "t1": 74,
+   "line": "That suggests the giant planets limited mixing between outer and inner solar system."
+  },
+  {
+   "shot": "S87",
+   "a": 9261,
+   "b": 9336,
+   "t0": 74,
+   "t1": 149,
+   "line": "That suggests the giant planets limited mixing between outer and inner solar system."
+  },
+  {
+   "shot": "S88",
+   "a": 9336,
+   "b": 9450,
+   "t0": 0,
+   "t1": 114,
+   "line": "In other words, a wall of giants kept outer ice outside."
+  },
+  {
+   "shot": "S89",
+   "a": 9450,
+   "b": 9534,
+   "t0": 0,
+   "t1": 84,
+   "line": "So the ice under your boots is a time capsule."
+  },
+  {
+   "shot": "S90",
+   "a": 9534,
+   "b": 9624,
+   "t0": 0,
+   "t1": 90,
+   "line": "Chemistry from before the planets finished moving in."
+  },
+  {
+   "shot": "S91",
+   "a": 9624,
+   "b": 9732,
+   "t0": 0,
+   "t1": 108,
+   "line": "Only a few places keep this record, and you're standing on one."
+  },
+  {
+   "shot": "S92",
+   "a": 9732,
+   "b": 9832,
+   "t0": 0,
+   "t1": 100,
+   "line": "The scientists say it helps explain how planets formed."
+  },
+  {
+   "shot": "S93",
+   "a": 9832,
+   "b": 9902,
+   "t0": 0,
+   "t1": 70,
+   "line": "That's a lot of story from twelve grains."
+  },
+  {
+   "shot": "S94",
+   "a": 9902,
+   "b": 10003,
+   "t0": 0,
+   "t1": 101,
+   "line": "And now you know why the cold open mattered."
+  },
+  {
+   "shot": "S95",
+   "a": 10003,
+   "b": 10114,
+   "t0": 0,
+   "t1": 111,
+   "line": "Here's the part nobody warns you about. The belt is fading."
+  },
+  {
+   "shot": "S96",
+   "a": 10114,
+   "b": 10236,
+   "t0": 0,
+   "t1": 122,
+   "line": "The giants threw most of it away, and collisions grind down the rest."
+  },
+  {
+   "shot": "S97",
+   "a": 10236,
+   "b": 10324,
+   "t0": 0,
+   "t1": 88,
+   "line": "But what remains is the best archive we have."
+  },
+  {
+   "shot": "S98",
+   "a": 10324,
+   "b": 10398,
+   "t0": 0,
+   "t1": 74,
+   "line": "Pluto, Arrokoth, Eris, Sedna, and millions of unnamed worlds."
+  },
+  {
+   "shot": "S98",
+   "a": 10398,
+   "b": 10472,
+   "t0": 74,
+   "t1": 148,
+   "line": "Pluto, Arrokoth, Eris, Sedna, and millions of unnamed worlds."
+  },
+  {
+   "shot": "S99",
+   "a": 10472,
+   "b": 10560,
+   "t0": 0,
+   "t1": 88,
+   "line": "Kuiper's paper in nineteen fifty-one guessed at it."
+  },
+  {
+   "shot": "S100",
+   "a": 10560,
+   "b": 10663,
+   "t0": 0,
+   "t1": 103,
+   "line": "Seventy-five years later, we're reading it in grains of dust."
+  },
+  {
+   "shot": "S101",
+   "a": 10663,
+   "b": 10735,
+   "t0": 0,
+   "t1": 72,
+   "line": "Remember the cold open. Four billion miles. The Sun, just a star."
+  },
+  {
+   "shot": "S101",
+   "a": 10735,
+   "b": 10808,
+   "t0": 72,
+   "t1": 145,
+   "line": "Remember the cold open. Four billion miles. The Sun, just a star."
+  },
+  {
+   "shot": "S102",
+   "a": 10808,
+   "b": 10879,
+   "t0": 0,
+   "t1": 71,
+   "line": "Now you know what that dim light was lighting up."
+  },
+  {
+   "shot": "S103",
+   "a": 10879,
+   "b": 10965,
+   "t0": 0,
+   "t1": 86,
+   "line": "Would you stay a night out here, or run home?"
+  },
+  {
+   "shot": "S104",
+   "a": 10965,
+   "b": 11067,
+   "t0": 0,
+   "t1": 102,
+   "line": "Tomorrow: what if the Moon vanished for one whole day?"
+  },
+  {
+   "shot": "S105",
+   "a": 11067,
+   "b": 11146,
+   "t0": 0,
+   "t1": 79,
+   "line": "Four billion miles out, the Sun is a star, and the ice remembers."
+  },
+  {
+   "shot": "S105",
+   "a": 11146,
+   "b": 11225,
+   "t0": 79,
+   "t1": 158,
+   "line": "Four billion miles out, the Sun is a star, and the ice remembers."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 66,
+   "len": 107,
+   "first": 0,
+   "line": "Four billion miles from the Sun, the Sun is just a star.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "med",
+   "key": 71,
+   "len": 115,
+   "first": 107,
+   "line": "Daylight here is a ghost of ours, far too faint to warm you.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "pullout",
+   "key": 66,
+   "len": 106,
+   "first": 222,
+   "line": "NASA just found fresh clues to the ice you'd be standing on.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "close",
+   "key": 46,
+   "len": 75,
+   "first": 328,
+   "line": "So what if you stood on a Kuiper Belt world?",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "wide",
+   "key": 74,
+   "len": 120,
+   "first": 403,
+   "line": "Welcome to Ifmosphere. Here are the rules.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "wide",
+   "key": 71,
+   "len": 115,
+   "first": 523,
+   "line": "The Kuiper Belt is a doughnut of icy leftovers beyond Neptune.",
+   "note": "ch1"
+  },
+  {
+   "id": "S7",
+   "size": "insert",
+   "key": 84,
+   "len": 135,
+   "first": 638,
+   "line": "Neptune's orbit marks the inner edge, thirty times Earth's distance.",
+   "note": "ch1"
+  },
+  {
+   "id": "S8",
+   "size": "low",
+   "key": 45,
+   "len": 73,
+   "first": 773,
+   "line": "The main part stretches to about fifty.",
+   "note": "ch1"
+  },
+  {
+   "id": "S9",
+   "size": "med",
+   "key": 88,
+   "len": 142,
+   "first": 846,
+   "line": "Rule one. You land four billion miles out, as in NASA's picture.",
+   "note": "ch1"
+  },
+  {
+   "id": "S10",
+   "size": "med",
+   "key": 79,
+   "len": 128,
+   "first": 988,
+   "line": "Rule two. No radio miracles. Nothing goes faster than light.",
+   "note": "ch1"
+  },
+  {
+   "id": "S11",
+   "size": "wide",
+   "key": 44,
+   "len": 71,
+   "first": 1116,
+   "line": "Rule three. It's a one way trip.",
+   "note": "ch1"
+  },
+  {
+   "id": "S12",
+   "size": "close",
+   "key": 54,
+   "len": 87,
+   "first": 1187,
+   "line": "You wear a plain hooded suit. Keep the hood up.",
+   "note": "ch1"
+  },
+  {
+   "id": "S13",
+   "size": "close",
+   "key": 60,
+   "len": 97,
+   "first": 1274,
+   "line": "And here's the catch. The view is the strangest part.",
+   "note": "ch1"
+  },
+  {
+   "id": "S14",
+   "size": "high",
+   "key": 52,
+   "len": 84,
+   "first": 1371,
+   "line": "Look up. Find the Sun.",
+   "note": "ch1"
+  },
+  {
+   "id": "S15",
+   "size": "med",
+   "key": 64,
+   "len": 103,
+   "first": 1455,
+   "line": "There. That bright pinprick, no bigger than a star.",
+   "note": "ch2"
+  },
+  {
+   "id": "S16",
+   "size": "insert",
+   "key": 59,
+   "len": 95,
+   "first": 1558,
+   "line": "From here it's forty-three times farther than from Earth.",
+   "note": "ch2"
+  },
+  {
+   "id": "S17",
+   "size": "insert",
+   "key": 88,
+   "len": 142,
+   "first": 1653,
+   "line": "Light thins out with distance squared, so it's about eighteen hundred times dimmer.",
+   "note": "ch2"
+  },
+  {
+   "id": "S18",
+   "size": "wide",
+   "key": 79,
+   "len": 127,
+   "first": 1795,
+   "line": "Sunrise, sunset, shadows, all of it, just a bright dot.",
+   "note": "ch2"
+  },
+  {
+   "id": "S19",
+   "size": "pan",
+   "key": 49,
+   "len": 79,
+   "first": 1922,
+   "line": "Now look around the Sun. Four more dots.",
+   "note": "ch2"
+  },
+  {
+   "id": "S20",
+   "size": "med",
+   "key": 60,
+   "len": 96,
+   "first": 2001,
+   "line": "That's Jupiter, Saturn, Uranus and Neptune.",
+   "note": "ch2"
+  },
+  {
+   "id": "S21",
+   "size": "low",
+   "key": 86,
+   "len": 139,
+   "first": 2097,
+   "line": "NASA's own illustration shows the four largest planets as bright dots.",
+   "note": "ch2"
+  },
+  {
+   "id": "S22",
+   "size": "close",
+   "key": 60,
+   "len": 96,
+   "first": 2236,
+   "line": "And the inner planets? Too close to the Sun to see.",
+   "note": "ch2"
+  },
+  {
+   "id": "S23",
+   "size": "high",
+   "key": 63,
+   "len": 102,
+   "first": 2332,
+   "line": "Earth, our whole world, is hidden in the Sun's glare.",
+   "note": "ch2"
+  },
+  {
+   "id": "S24",
+   "size": "wide",
+   "key": 74,
+   "len": 120,
+   "first": 2434,
+   "line": "A Milky Way band arcs over everything, sharp as chalk.",
+   "note": "ch2"
+  },
+  {
+   "id": "S25",
+   "size": "med",
+   "key": 55,
+   "len": 89,
+   "first": 2554,
+   "line": "You'd see farther than anyone on Earth ever has.",
+   "note": "ch2"
+  },
+  {
+   "id": "S26",
+   "size": "low",
+   "key": 58,
+   "len": 93,
+   "first": 2643,
+   "line": "The ground at your feet glitters faintly with frost.",
+   "note": "ch2"
+  },
+  {
+   "id": "S27",
+   "size": "pullout",
+   "key": 81,
+   "len": 130,
+   "first": 2736,
+   "line": "Remember that ice. NASA scientists just learned something about it.",
+   "note": "ch2"
+  },
+  {
+   "id": "S28",
+   "size": "med",
+   "key": 45,
+   "len": 73,
+   "first": 2866,
+   "line": "But first, call home.",
+   "note": "ch2"
+  },
+  {
+   "id": "S29",
+   "size": "wide",
+   "key": 68,
+   "len": 109,
+   "first": 2939,
+   "line": "Radio travels at the speed of light, and light takes time.",
+   "note": "ch3"
+  },
+  {
+   "id": "S30",
+   "size": "insert",
+   "key": 82,
+   "len": 133,
+   "first": 3048,
+   "line": "Four billion miles is about twenty-one thousand, five hundred seconds.",
+   "note": "ch3"
+  },
+  {
+   "id": "S31",
+   "size": "high",
+   "key": 65,
+   "len": 105,
+   "first": 3181,
+   "line": "That's almost six hours, just for a hello to reach Earth.",
+   "note": "ch3"
+  },
+  {
+   "id": "S32",
+   "size": "pullout",
+   "key": 48,
+   "len": 77,
+   "first": 3286,
+   "line": "And six more hours for anyone to answer.",
+   "note": "ch3"
+  },
+  {
+   "id": "S33",
+   "size": "low",
+   "key": 49,
+   "len": 79,
+   "first": 3363,
+   "line": "A twelve hour wait for the reply to hello.",
+   "note": "ch3"
+  },
+  {
+   "id": "S34",
+   "size": "pan",
+   "key": 87,
+   "len": 140,
+   "first": 3442,
+   "line": "Voyager One just crossed one light-day: twenty-four hours each way.",
+   "note": "ch3"
+  },
+  {
+   "id": "S35",
+   "size": "wide",
+   "key": 38,
+   "len": 62,
+   "first": 3582,
+   "line": "So you're far, but you're not that far.",
+   "note": "ch3"
+  },
+  {
+   "id": "S36",
+   "size": "low",
+   "key": 58,
+   "len": 94,
+   "first": 3644,
+   "line": "Back to the ground. Is anything out here moving?",
+   "note": "ch3"
+  },
+  {
+   "id": "S37",
+   "size": "pullout",
+   "key": 78,
+   "len": 126,
+   "first": 3738,
+   "line": "Astronomers think there are millions of small icy objects out here.",
+   "note": "ch3"
+  },
+  {
+   "id": "S38",
+   "size": "insert",
+   "key": 61,
+   "len": 98,
+   "first": 3864,
+   "line": "Hundreds of thousands are wider than a hundred kilometres.",
+   "note": "ch3"
+  },
+  {
+   "id": "S39",
+   "size": "high",
+   "key": 55,
+   "len": 88,
+   "first": 3962,
+   "line": "But we've catalogued only a little over two thousand.",
+   "note": "ch3"
+  },
+  {
+   "id": "S40",
+   "size": "wide",
+   "key": 53,
+   "len": 86,
+   "first": 4050,
+   "line": "You are standing in mostly unexplored space.",
+   "note": "ch3"
+  },
+  {
+   "id": "S41",
+   "size": "med",
+   "key": 44,
+   "len": 71,
+   "first": 4136,
+   "line": "Time to meet the neighbours.",
+   "note": "ch3"
+  },
+  {
+   "id": "S42",
+   "size": "med",
+   "key": 42,
+   "len": 68,
+   "first": 4207,
+   "line": "The king of the Kuiper Belt is Pluto.",
+   "note": "ch4"
+  },
+  {
+   "id": "S43",
+   "size": "med",
+   "key": 71,
+   "len": 114,
+   "first": 4275,
+   "line": "Found in nineteen thirty, long before anyone expected a belt.",
+   "note": "ch4"
+  },
+  {
+   "id": "S44",
+   "size": "wide",
+   "key": 67,
+   "len": 108,
+   "first": 4389,
+   "line": "Pluto orbits twice for every three laps Neptune makes.",
+   "note": "ch4"
+  },
+  {
+   "id": "S45",
+   "size": "pullout",
+   "key": 73,
+   "len": 117,
+   "first": 4497,
+   "line": "Their orbits cross, yet they never meet. A perfect dance.",
+   "note": "ch4"
+  },
+  {
+   "id": "S46",
+   "size": "close",
+   "key": 69,
+   "len": 111,
+   "first": 4614,
+   "line": "Pluto even gets closer to Uranus than it ever does to Neptune.",
+   "note": "ch4"
+  },
+  {
+   "id": "S47",
+   "size": "med",
+   "key": 59,
+   "len": 95,
+   "first": 4725,
+   "line": "Now a different neighbour. Arrokoth, a snowman.",
+   "note": "ch4"
+  },
+  {
+   "id": "S48",
+   "size": "close",
+   "key": 58,
+   "len": 94,
+   "first": 4820,
+   "line": "Two lobes stuck together, red as old rust.",
+   "note": "ch4"
+  },
+  {
+   "id": "S49",
+   "size": "med",
+   "key": 87,
+   "len": 140,
+   "first": 4914,
+   "line": "NASA's New Horizons flew past it on the first of January, twenty nineteen.",
+   "note": "ch4"
+  },
+  {
+   "id": "S50",
+   "size": "insert",
+   "key": 86,
+   "len": 138,
+   "first": 5054,
+   "line": "It's the most distant, most primitive object a spacecraft has ever explored.",
+   "note": "ch4"
+  },
+  {
+   "id": "S51",
+   "size": "low",
+   "key": 60,
+   "len": 97,
+   "first": 5192,
+   "line": "Pairs like it may be almost unchanged since birth.",
+   "note": "ch4"
+  },
+  {
+   "id": "S52",
+   "size": "wide",
+   "key": 79,
+   "len": 128,
+   "first": 5289,
+   "line": "Dwarf planets live here too: Eris, Haumea and Makemake.",
+   "note": "ch4"
+  },
+  {
+   "id": "S53",
+   "size": "pan",
+   "key": 64,
+   "len": 103,
+   "first": 5417,
+   "line": "Eris, the heaviest of them, drifts in the scattered disk.",
+   "note": "ch4"
+  },
+  {
+   "id": "S54",
+   "size": "pullout",
+   "key": 85,
+   "len": 137,
+   "first": 5520,
+   "line": "And Sedna swings from seventy-six to twelve hundred times Earth's distance.",
+   "note": "ch4"
+  },
+  {
+   "id": "S55",
+   "size": "close",
+   "key": 61,
+   "len": 98,
+   "first": 5657,
+   "line": "So how did all this ice end up out here?",
+   "note": "ch4"
+  },
+  {
+   "id": "S56",
+   "size": "wide",
+   "key": 36,
+   "len": 58,
+   "first": 5755,
+   "line": "Go back to the early solar system.",
+   "note": "ch5"
+  },
+  {
+   "id": "S57",
+   "size": "med",
+   "key": 69,
+   "len": 111,
+   "first": 5813,
+   "line": "A thick disk of icy bodies surrounds the young giant planets.",
+   "note": "ch5"
+  },
+  {
+   "id": "S58",
+   "size": "insert",
+   "key": 74,
+   "len": 120,
+   "first": 5924,
+   "line": "Neptune's gravity stirs it, so the ice can't clump into a planet.",
+   "note": "ch5"
+  },
+  {
+   "id": "S59",
+   "size": "high",
+   "key": 64,
+   "len": 104,
+   "first": 6044,
+   "line": "That's the key. Neptune stopped a planet from forming.",
+   "note": "ch5"
+  },
+  {
+   "id": "S60",
+   "size": "pan",
+   "key": 89,
+   "len": 143,
+   "first": 6148,
+   "line": "Meanwhile Jupiter and Saturn shift, and Uranus and Neptune get pushed outward.",
+   "note": "ch5"
+  },
+  {
+   "id": "S61",
+   "size": "med",
+   "key": 60,
+   "len": 96,
+   "first": 6291,
+   "line": "On the way out they plough through the ice like snowploughs.",
+   "note": "ch5"
+  },
+  {
+   "id": "S62",
+   "size": "wide",
+   "key": 77,
+   "len": 124,
+   "first": 6387,
+   "line": "Jupiter flings most of it into the Oort Cloud, or out entirely.",
+   "note": "ch5"
+  },
+  {
+   "id": "S63",
+   "size": "insert",
+   "key": 71,
+   "len": 114,
+   "first": 6511,
+   "line": "Today's belt holds no more than about ten percent of Earth's mass.",
+   "note": "ch5"
+  },
+  {
+   "id": "S64",
+   "size": "close",
+   "key": 53,
+   "len": 86,
+   "first": 6625,
+   "line": "Once it held seven to ten times Earth's mass.",
+   "note": "ch5"
+  },
+  {
+   "id": "S65",
+   "size": "low",
+   "key": 36,
+   "len": 58,
+   "first": 6711,
+   "line": "Most of the belt is already gone.",
+   "note": "ch5"
+  },
+  {
+   "id": "S66",
+   "size": "pullout",
+   "key": 40,
+   "len": 65,
+   "first": 6769,
+   "line": "And what's left is slowly crumbling.",
+   "note": "ch5"
+  },
+  {
+   "id": "S67",
+   "size": "med",
+   "key": 81,
+   "len": 131,
+   "first": 6834,
+   "line": "Collisions make smaller bits, and dust that the solar wind blows away.",
+   "note": "ch5"
+  },
+  {
+   "id": "S68",
+   "size": "close",
+   "key": 76,
+   "len": 123,
+   "first": 6965,
+   "line": "Dust. Hold that word. It's about to matter.",
+   "note": "ch5"
+  },
+  {
+   "id": "S69",
+   "size": "wide",
+   "key": 95,
+   "len": 154,
+   "first": 7088,
+   "line": "Eighteen November twenty twenty-six. NASA scientists announce a find.",
+   "note": "ch6"
+  },
+  {
+   "id": "S70",
+   "size": "insert",
+   "key": 51,
+   "len": 82,
+   "first": 7242,
+   "line": "They studied twelve tiny dust particles.",
+   "note": "ch6"
+  },
+  {
+   "id": "S71",
+   "size": "pullout",
+   "key": 64,
+   "len": 104,
+   "first": 7324,
+   "line": "Not from a spacecraft. From Earth's stratosphere.",
+   "note": "ch6"
+  },
+  {
+   "id": "S72",
+   "size": "wide",
+   "key": 60,
+   "len": 97,
+   "first": 7428,
+   "line": "NASA's high-altitude research plane scooped them up.",
+   "note": "ch6"
+  },
+  {
+   "id": "S73",
+   "size": "insert",
+   "key": 64,
+   "len": 103,
+   "first": 7525,
+   "line": "The dust is smaller than a speck, but it carried a secret.",
+   "note": "ch6"
+  },
+  {
+   "id": "S74",
+   "size": "med",
+   "key": 84,
+   "len": 135,
+   "first": 7628,
+   "line": "First, where did each grain come from? Tracks of solar particles.",
+   "note": "ch6"
+  },
+  {
+   "id": "S75",
+   "size": "close",
+   "key": 66,
+   "len": 106,
+   "first": 7763,
+   "line": "High concentrations of solar energetic particle tracks.",
+   "note": "ch6"
+  },
+  {
+   "id": "S76",
+   "size": "pullout",
+   "key": 60,
+   "len": 97,
+   "first": 7869,
+   "line": "Those tracks trace each grain back to the Kuiper Belt.",
+   "note": "ch6"
+  },
+  {
+   "id": "S77",
+   "size": "med",
+   "key": 84,
+   "len": 135,
+   "first": 7966,
+   "line": "Then the minerals. They formed when water touched dust, ages ago.",
+   "note": "ch6"
+  },
+  {
+   "id": "S78",
+   "size": "insert",
+   "key": 107,
+   "len": 172,
+   "first": 8101,
+   "line": "Researchers used electron microscopy at NASA, and an ion microprobe at UCLA.",
+   "note": "ch6"
+  },
+  {
+   "id": "S79",
+   "size": "close",
+   "key": 58,
+   "len": 93,
+   "first": 8273,
+   "line": "The water they found was enriched in heavier oxygen.",
+   "note": "ch6"
+  },
+  {
+   "id": "S80",
+   "size": "insert",
+   "key": 76,
+   "len": 122,
+   "first": 8366,
+   "line": "Heavier atoms. Same oxygen, but with extra neutrons.",
+   "note": "ch6"
+  },
+  {
+   "id": "S81",
+   "size": "wide",
+   "key": 60,
+   "len": 97,
+   "first": 8488,
+   "line": "Scientists had suspected ice like that for decades.",
+   "note": "ch6"
+  },
+  {
+   "id": "S82",
+   "size": "low",
+   "key": 72,
+   "len": 116,
+   "first": 8585,
+   "line": "Meteorites and asteroid samples hinted at it, but never enough.",
+   "note": "ch6"
+  },
+  {
+   "id": "S83",
+   "size": "pullout",
+   "key": 81,
+   "len": 130,
+   "first": 8701,
+   "line": "Now there's compelling evidence of an ancient reservoir of ice.",
+   "note": "ch6"
+  },
+  {
+   "id": "S84",
+   "size": "med",
+   "key": 82,
+   "len": 132,
+   "first": 8831,
+   "line": "A reservoir of ice enriched in heavier oxygen, out in the Kuiper Belt.",
+   "note": "ch7"
+  },
+  {
+   "id": "S85",
+   "size": "insert",
+   "key": 81,
+   "len": 130,
+   "first": 8963,
+   "line": "NASA's Genesis mission gave scientists a reference to compare against.",
+   "note": "ch7"
+  },
+  {
+   "id": "S86",
+   "size": "close",
+   "key": 58,
+   "len": 94,
+   "first": 9093,
+   "line": "Real meteorites rarely show this same signature.",
+   "note": "ch7"
+  },
+  {
+   "id": "S87",
+   "size": "pullout",
+   "key": 92,
+   "len": 149,
+   "first": 9187,
+   "line": "That suggests the giant planets limited mixing between outer and inner solar system.",
+   "note": "ch7"
+  },
+  {
+   "id": "S88",
+   "size": "wide",
+   "key": 71,
+   "len": 114,
+   "first": 9336,
+   "line": "In other words, a wall of giants kept outer ice outside.",
+   "note": "ch7"
+  },
+  {
+   "id": "S89",
+   "size": "low",
+   "key": 52,
+   "len": 84,
+   "first": 9450,
+   "line": "So the ice under your boots is a time capsule.",
+   "note": "ch7"
+  },
+  {
+   "id": "S90",
+   "size": "med",
+   "key": 56,
+   "len": 90,
+   "first": 9534,
+   "line": "Chemistry from before the planets finished moving in.",
+   "note": "ch7"
+  },
+  {
+   "id": "S91",
+   "size": "wide",
+   "key": 67,
+   "len": 108,
+   "first": 9624,
+   "line": "Only a few places keep this record, and you're standing on one.",
+   "note": "ch7"
+  },
+  {
+   "id": "S92",
+   "size": "insert",
+   "key": 62,
+   "len": 100,
+   "first": 9732,
+   "line": "The scientists say it helps explain how planets formed.",
+   "note": "ch7"
+  },
+  {
+   "id": "S93",
+   "size": "close",
+   "key": 43,
+   "len": 70,
+   "first": 9832,
+   "line": "That's a lot of story from twelve grains.",
+   "note": "ch7"
+  },
+  {
+   "id": "S94",
+   "size": "wide",
+   "key": 63,
+   "len": 101,
+   "first": 9902,
+   "line": "And now you know why the cold open mattered.",
+   "note": "ch7"
+  },
+  {
+   "id": "S95",
+   "size": "wide",
+   "key": 69,
+   "len": 111,
+   "first": 10003,
+   "line": "Here's the part nobody warns you about. The belt is fading.",
+   "note": "ch8"
+  },
+  {
+   "id": "S96",
+   "size": "med",
+   "key": 76,
+   "len": 122,
+   "first": 10114,
+   "line": "The giants threw most of it away, and collisions grind down the rest.",
+   "note": "ch8"
+  },
+  {
+   "id": "S97",
+   "size": "insert",
+   "key": 55,
+   "len": 88,
+   "first": 10236,
+   "line": "But what remains is the best archive we have.",
+   "note": "ch8"
+  },
+  {
+   "id": "S98",
+   "size": "pullout",
+   "key": 92,
+   "len": 148,
+   "first": 10324,
+   "line": "Pluto, Arrokoth, Eris, Sedna, and millions of unnamed worlds.",
+   "note": "ch8"
+  },
+  {
+   "id": "S99",
+   "size": "med",
+   "key": 55,
+   "len": 88,
+   "first": 10472,
+   "line": "Kuiper's paper in nineteen fifty-one guessed at it.",
+   "note": "ch8"
+  },
+  {
+   "id": "S100",
+   "size": "close",
+   "key": 64,
+   "len": 103,
+   "first": 10560,
+   "line": "Seventy-five years later, we're reading it in grains of dust.",
+   "note": "ch8"
+  },
+  {
+   "id": "S101",
+   "size": "wide",
+   "key": 90,
+   "len": 145,
+   "first": 10663,
+   "line": "Remember the cold open. Four billion miles. The Sun, just a star.",
+   "note": "ch8"
+  },
+  {
+   "id": "S102",
+   "size": "low",
+   "key": 44,
+   "len": 71,
+   "first": 10808,
+   "line": "Now you know what that dim light was lighting up.",
+   "note": "ch8"
+  },
+  {
+   "id": "S103",
+   "size": "close",
+   "key": 53,
+   "len": 86,
+   "first": 10879,
+   "line": "Would you stay a night out here, or run home?",
+   "note": "ch8"
+  },
+  {
+   "id": "S104",
+   "size": "close",
+   "key": 63,
+   "len": 102,
+   "first": 10965,
+   "line": "Tomorrow: what if the Moon vanished for one whole day?",
+   "note": "ch8"
+  },
+  {
+   "id": "S105",
+   "size": "wide",
+   "key": 98,
+   "len": 158,
+   "first": 11067,
+   "line": "Four billion miles out, the Sun is a star, and the ice remembers.",
+   "note": "ch8"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "kuiper/voice.wav",
+  "sfx": "kuiper/sfx.wav",
+  "music": "kuiper/music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}

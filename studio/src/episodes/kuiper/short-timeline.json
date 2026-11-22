@@ -1,0 +1,197 @@
+{
+ "slug": "kuiper",
+ "title": "WHAT IF YOU STOOD 4 BILLION MILES OUT?",
+ "fps": 30,
+ "total": 1056,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 98,
+   "t0": 0,
+   "t1": 98,
+   "line": "Four billion miles out, the Sun is just a star."
+  },
+  {
+   "shot": "S2",
+   "a": 98,
+   "b": 195,
+   "t0": 0,
+   "t1": 97,
+   "line": "That dot is eighteen hundred times dimmer than our Sun."
+  },
+  {
+   "shot": "S3",
+   "a": 195,
+   "b": 294,
+   "t0": 0,
+   "t1": 99,
+   "line": "Call home, and it takes almost six hours to arrive."
+  },
+  {
+   "shot": "S4",
+   "a": 294,
+   "b": 362,
+   "t0": 0,
+   "t1": 68,
+   "line": "This is the Kuiper Belt, a doughnut of icy leftovers past Neptune."
+  },
+  {
+   "shot": "S4",
+   "a": 362,
+   "b": 430,
+   "t0": 68,
+   "t1": 136,
+   "line": "This is the Kuiper Belt, a doughnut of icy leftovers past Neptune."
+  },
+  {
+   "shot": "S5",
+   "a": 430,
+   "b": 539,
+   "t0": 0,
+   "t1": 109,
+   "line": "Hundreds of thousands of worlds wider than a hundred kilometres."
+  },
+  {
+   "shot": "S6",
+   "a": 539,
+   "b": 672,
+   "t0": 0,
+   "t1": 133,
+   "line": "On eighteen November, NASA announced new clues in twelve dust grains."
+  },
+  {
+   "shot": "S7",
+   "a": 672,
+   "b": 747,
+   "t0": 0,
+   "t1": 75,
+   "line": "Their tracks trace back to the Kuiper Belt."
+  },
+  {
+   "shot": "S8",
+   "a": 747,
+   "b": 831,
+   "t0": 0,
+   "t1": 84,
+   "line": "The water inside has extra-heavy oxygen."
+  },
+  {
+   "shot": "S9",
+   "a": 831,
+   "b": 926,
+   "t0": 0,
+   "t1": 95,
+   "line": "Ancient ice, from before the planets stopped moving."
+  },
+  {
+   "shot": "S10",
+   "a": 926,
+   "b": 1056,
+   "t0": 0,
+   "t1": 130,
+   "line": "Full film on the channel. Out here, the Sun is just a star."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 61,
+   "len": 98,
+   "first": 0,
+   "line": "Four billion miles out, the Sun is just a star.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "insert",
+   "key": 60,
+   "len": 97,
+   "first": 98,
+   "line": "That dot is eighteen hundred times dimmer than our Sun.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "med",
+   "key": 61,
+   "len": 99,
+   "first": 195,
+   "line": "Call home, and it takes almost six hours to arrive.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "pullout",
+   "key": 84,
+   "len": 136,
+   "first": 294,
+   "line": "This is the Kuiper Belt, a doughnut of icy leftovers past Neptune.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "high",
+   "key": 68,
+   "len": 109,
+   "first": 430,
+   "line": "Hundreds of thousands of worlds wider than a hundred kilometres.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "insert",
+   "key": 82,
+   "len": 133,
+   "first": 539,
+   "line": "On eighteen November, NASA announced new clues in twelve dust grains.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "pullout",
+   "key": 46,
+   "len": 75,
+   "first": 672,
+   "line": "Their tracks trace back to the Kuiper Belt.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "close",
+   "key": 52,
+   "len": 84,
+   "first": 747,
+   "line": "The water inside has extra-heavy oxygen.",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "low",
+   "key": 59,
+   "len": 95,
+   "first": 831,
+   "line": "Ancient ice, from before the planets stopped moving.",
+   "note": "ch0"
+  },
+  {
+   "id": "S10",
+   "size": "wide",
+   "key": 81,
+   "len": 130,
+   "first": 926,
+   "line": "Full film on the channel. Out here, the Sun is just a star.",
+   "note": "ch0"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "kuiper/short-voice.wav",
+  "sfx": "kuiper/short-sfx.wav",
+  "music": "kuiper/short-music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}

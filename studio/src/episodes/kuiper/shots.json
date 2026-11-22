@@ -1,0 +1,5976 @@
+{
+ "slug": "kuiper",
+ "id": "Kuiper",
+ "title": [
+  "WHAT IF YOU STOOD",
+  "4 BILLION MILES OUT?"
+ ],
+ "accent": [
+  "4 BILLION MILES"
+ ],
+ "voice": {
+  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.45,
+   "similarity_boost": 0.8,
+   "style": 0.34,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  }
+ },
+ "short_vo": {
+  "stability": 0.42,
+  "style": 0.4,
+  "speed": 1.03
+ },
+ "short_music": {
+  "mood": "wonder",
+  "energy": 0.85
+ },
+ "mix": {
+  "music_under": 17,
+  "sfx_under": 7,
+  "duck_db": 6
+ },
+ "sets": {
+  "skyview": "View from a Kuiper Belt object looking at the sky. Deep-navy starfield with the Milky Way band; the Sun is a small bright white star near the centre, not a disc; four faint dots on a gentle arc near it for Jupiter, Saturn, Uranus and Neptune, tiny cream labels; setp.t 0..1 = slow drift and twinkle; setp.sun 0..1 = the Sun star brightens and a small ring shows its apparent size; setp.labels 0|1 = chips name the dots; setp.glow 'gold'|'cyan'.",
+  "surface": "Surface of a Kuiper Belt object at night. Deep-navy sky with stars and a tiny bright Sun-star low on the horizon; the ground is a dark rounded plain of grey-blue ice with soft frost sparkle and a few low ridges, 4 px outlines, faint cold-cyan rim light; setp.t 0..1 = the camera drifts slowly and frost sparkles; setp.frost 0..1 = frost glints grow; setp.glow 'cyan'|'gold'.",
+  "journey": "Route out of the solar system. Deep-navy bg; a small yellow Sun at the left, thin orbit rings for Earth, Jupiter, Saturn, Uranus and Neptune getting wider, then a dotted donut band beyond Neptune; a glowing cyan dotted path runs from Earth out to the band with a small probe dot; setp.t 0..1 = the path draws on and the probe travels; setp.mark 0..1 = a cream ring and tag at the band; setp.glow 'cyan'|'gold'.",
+  "delay": "Signal delay diagram. Deep-navy bg; a small blue Earth with a dish on the left, a tiny probe on the right, a long thin cyan line between them with a bright pulse; setp.t 0..1 = the pulse travels from Earth to the probe; setp.back 0..1 = a gold pulse returns; setp.clock 0|1 = a stopwatch face between them shows elapsed hours.",
+  "belt": "The Kuiper Belt as a thick donut. Deep-navy bg; seen from slightly above: a tiny yellow Sun in the middle, small rings for the planets, Neptune's ring in blue, and a wide fuzzy donut of thousands of tiny pale dots from 30 to 50 AU; setp.t 0..1 = slow camera tilt; setp.edge 0..1 = cream distance ticks 30 AU and 50 AU draw on; setp.scattered 0..1 = a thin cloud of dots stretches far outward; setp.glow 'cyan'|'gold'.",
+  "resonance": "Pluto and Neptune orbit dance. Deep-navy bg; a small yellow Sun in the middle, a round blue Neptune orbit and a more oval grey Pluto orbit crossing it, a blue dot and a grey dot circling; setp.t 0..1 = the dots circle (Pluto twice while Neptune goes round three times); setp.count 0..3 = tick marks count the laps; setp.glow 'cyan'|'gold'.",
+  "migrate": "Early solar system, the giant planets shifting. Deep-navy bg; a ring of countless tiny icy specks; four large planets in a row (Jupiter big orange, Saturn pale gold, Uranus teal, Neptune blue); setp.t 0..1 = Uranus and Neptune drift outward through the speck ring and specks get flung in curved trails, some inward, some far out; setp.fling 0..1 = most specks are thrown away leaving a thin donut; setp.glow 'cyan'|'gold'.",
+  "arrokoth": "Arrokoth close-up. Deep-navy bg; a reddish-brown snowman-shaped object made of two touching lobes, one bigger, 4 px outline, warm rim light on one side, faint craters; setp.t 0..1 = slow rotation; setp.label 0|1 = chips name the two lobes; setp.glow 'gold'|'cyan'.",
+  "dust": "Catching dust high in the sky. Deep-navy-to-pale-blue gradient high-altitude sky with a curved Earth horizon; a sleek twin-tail spy-plane silhouette (ER-2) with a small collector plate under the wing; tiny grey specks drifting; setp.t 0..1 = the plane glides across and specks stick to the plate; setp.zoom 0..1 = camera pushes in to one glowing grain; setp.glow 'cyan'|'gold'.",
+  "isotope": "Oxygen isotope lab readout. Deep-navy bg; a big round detector screen, 4 px outline, with two columns of small balls: light oxygen (small, pale) and heavy oxygen (bigger, gold); setp.t 0..1 = the balls fall in; setp.heavy 0..1 = the heavy column fills up past a dashed 'normal' line; setp.ref 0|1 = a second smaller bar labelled GENESIS appears for comparison; setp.glow 'gold'|'cyan'.",
+  "mass": "Mass comparison. Deep-navy bg; a big blue-green Earth ball on the left and a thin pale ring of dots on the right; setp.t 0..1 = the ring thins; setp.now 0..1 = a small bracket marks 10 percent of Earth's mass for the ring today; setp.then 0..1 = a ghost bigger ring shows 7 to 10 Earth masses long ago; setp.glow 'cyan'|'gold'.",
+  "scattered": "Sedna's long orbit. Deep-navy bg; a tiny Sun far left, Neptune ring, and one very long thin oval orbit stretching to the far right with a small reddish dot (Sedna) on it; cream tick marks for 76 AU and 1,200 AU; setp.t 0..1 = the dot travels along the orbit; setp.ticks 0..1 = the AU marks draw on; setp.glow 'gold'|'cyan'.",
+  "lab": "A bright planetary-science lab. far: wall of dark screens with soft charts and an electron-microscope image; mid: a desk with a microscope, two laptops, a coffee mug and a sticky note; near: carpet GroundPlane with pale rim; setp.alert 0..1 = a screen flashes amber with a magnifier icon; setp.ok 1 = screens turn green.",
+  "timeline": "A horizontal timeline. Deep-navy bg; a long gold line with milestone dots and cream calendar tags; setp.t 0..1 = the camera pans along the line; setp.now 0..1 = a bright cyan marker glides along and pulses on each dot; setp.glow 'gold'|'cyan'.",
+  "void": "Plain deep-navy SpaceBackdrop stage with slow light rays and almost no stars, for big numbers, bars and diagrams. setp.glow 'gold'|'cyan'|'red' tints the rays."
+ },
+ "props": {
+  "counter": "Big flat panel, 4 px dark outline, dark #1E1B2E face, cream flip digits in FONTS.title with thousands separators, label in FONTS.ui underneath. pp.from and pp.to: the number counts from->to across the shot (ease-out); pp.label text; pp.color gold|red|cyan.",
+  "clock": "Round analogue clock face, cream disc, 4 px dark outline, ticks, one hand. pp.from..pp.to in hours: the hand sweeps; pp.glow true adds a gold bloom.",
+  "bar": "Horizontal progress bar with 4 px outline, filled with pp.color (gold|red|cyan) to pp.frac of its width over the shot; pp.label above in FONTS.ui.",
+  "arrow": "Thick outlined curved arrow, pp.color gold|cyan|red, draws on across the shot.",
+  "flag": "Small green check mark badge in a round outlined cream disc with a tiny sparkle; or red cross when pp.bad true.",
+  "calendar": "Small wall calendar page, cream with a red top strip, 4 px outline; pp.text the date in FONTS.title (max 8 chars).",
+  "magnifier": "Outlined magnifying glass with a cream handle and pale glass; pp.s scale; pp.glow true adds a cyan bloom in the lens.",
+  "ring": "Pulsing cyan circle outline, 4 px, soft bloom, that expands and fades each second; pp.s scale.",
+  "scale": "Small balance scale icon, cream, 4 px outline, one pan tipped low; pp.s scale; pp.label text beneath.",
+  "probe": "Icon of the BepiColombo stack: a small gold-foil box body with two dark solar-panel wings, a round grey antenna dish and a silver conical sunshield on top, 4 px outline; pp.s scale; pp.glow true adds an orange thruster flame at the bottom.",
+  "thermo": "Tall outlined thermometer, cream glass tube, red or blue fluid to pp.frac (0..1), pp.label text beneath in FONTS.ui; pp.color red|cyan.",
+  "grain": "Tiny dust grain icon: a rough grey-brown speck with a few sparkling facets and a thin pale outline 4 px, on a soft cyan glow; pp.s scale; pp.glow true makes it pulse."
+ },
+ "actions": {
+  "lookup": "Pip tilts head back (headTilt up), arms hang loose, small sway; eyes lift at p 0.2.",
+  "duck": "Pip drops into a crouch with both arms raised over the head at p 0.15 and holds with a small tremble.",
+  "spin": "Pip turns one slow full rotation (yaw/spin) across the shot while looking up.",
+  "flinch": "A quick squash and lean away at p 0.2 with arms up, then settles back by p 0.7.",
+  "pointup": "Pip's arm swings up to point at the sky at p 0.2 with a small overshoot."
+ },
+ "sfx_new": {},
+ "chapters": [
+  {
+   "n": 0,
+   "title": "COLD OPEN",
+   "sub": "",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.8
+   },
+   "vo": {
+    "stability": 0.45,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 1,
+   "title": "THE RULES",
+   "sub": "One way, no radio.",
+   "music": {
+    "mood": "playful",
+    "energy": 0.4
+   },
+   "vo": {
+    "stability": 0.47,
+    "style": 0.38,
+    "speed": 1.03
+   },
+   "bed": {
+    "clip": "room_tone",
+    "gain": 0.04
+   }
+  },
+  {
+   "n": 2,
+   "title": "THE VIEW",
+   "sub": "Where the Sun is a star",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.6
+   },
+   "vo": {
+    "stability": 0.47,
+    "style": 0.38,
+    "speed": 0.98
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 3,
+   "title": "THE SILENCE",
+   "sub": "Six hours away",
+   "music": {
+    "mood": "mystery",
+    "energy": 0.55
+   },
+   "vo": {
+    "stability": 0.43,
+    "style": 0.38,
+    "speed": 0.99
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 4,
+   "title": "THE NEIGHBOURS",
+   "sub": "Pluto, Arrokoth, millions more",
+   "music": {
+    "mood": "playful",
+    "energy": 0.55
+   },
+   "vo": {
+    "stability": 0.47,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "room_tone",
+    "gain": 0.04
+   }
+  },
+  {
+   "n": 5,
+   "title": "HOW IT GOT THERE",
+   "sub": "Neptune moves out",
+   "music": {
+    "mood": "tense",
+    "energy": 0.7
+   },
+   "vo": {
+    "stability": 0.44,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 6,
+   "title": "THE DUST",
+   "sub": "Twelve grains from the sky",
+   "music": {
+    "mood": "mystery",
+    "energy": 0.65
+   },
+   "vo": {
+    "stability": 0.45,
+    "style": 0.38,
+    "speed": 0.99
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 7,
+   "title": "WHAT IT MEANS",
+   "sub": "Ancient heavy ice",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.7
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.38,
+    "speed": 0.98
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 8,
+   "title": "THE END",
+   "sub": "The belt is fading",
+   "music": {
+    "mood": "warm",
+    "energy": 0.5
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.38,
+    "speed": 0.97
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  }
+ ],
+ "film": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "wide",
+   "vo": "Four billion miles from the Sun, the Sun is just a star.",
+   "dir": "hushed, awed; stress 'just a star'",
+   "set": "skyview",
+   "setp": {
+    "t": 0.3,
+    "sun": 0.2,
+    "labels": 0.0
+   },
+   "cam": [
+    [
+     0.474,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.504,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "sideL",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "4 BN MILES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "word": "star",
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "med",
+   "vo": "Daylight here is a ghost of ours, far too faint to warm you.",
+   "dir": "quiet; stress 'darker'",
+   "set": "surface",
+   "setp": {
+    "t": 0.4,
+    "frost": 0.6,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.507,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.493,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "NO WARMTH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "NASA just found fresh clues to the ice you'd be standing on.",
+   "dir": "steady, intrigued; stress 'fresh clues'",
+   "set": "dust",
+   "setp": {
+    "t": 0.6,
+    "zoom": 0.3,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.502,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.531,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "NASA - 18 NOV 2026"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "close",
+   "vo": "So what if you stood on a Kuiper Belt world?",
+   "dir": "playful, leaning in; stress 'you'",
+   "set": "belt",
+   "setp": {
+    "t": 0.3,
+    "edge": 0.6
+   },
+   "cam": [
+    [
+     0.421,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.634,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "YOU STAND ON ONE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "wide",
+   "vo": "Welcome to Ifmosphere. Here are the rules.",
+   "dir": "bright, brisk",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.451,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.461,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "IFMOSPHERE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 1,
+   "size": "wide",
+   "vo": "The Kuiper Belt is a doughnut of icy leftovers beyond Neptune.",
+   "dir": "clear; stress 'doughnut'",
+   "set": "belt",
+   "setp": {
+    "t": 0.5,
+    "edge": 0.4
+   },
+   "cam": [
+    [
+     0.514,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.493,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA: DOUGHNUT OF ICE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 1,
+   "size": "insert",
+   "vo": "Neptune's orbit marks the inner edge, thirty times Earth's distance.",
+   "dir": "matter of fact; stress 'thirty'",
+   "set": "belt",
+   "setp": {
+    "t": 0.6,
+    "edge": 0.8
+   },
+   "cam": [
+    [
+     0.577,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.449,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 30,
+      "label": "AU FROM THE SUN",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "INNER EDGE",
+     "value": "30 AU"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "ding",
+     "at": 0.8,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 1,
+   "size": "low",
+   "vo": "The main part stretches to about fifty.",
+   "dir": "dry; stress 'fifty'",
+   "set": "belt",
+   "setp": {
+    "t": 0.8,
+    "edge": 1.0
+   },
+   "cam": [
+    [
+     0.548,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.655,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 0.5,
+      "color": "gold",
+      "label": "30 TO 50 AU"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "MAIN BELT",
+     "value": "30-50 AU"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 1,
+   "size": "med",
+   "vo": "Rule one. You land four billion miles out, as in NASA's picture.",
+   "dir": "firm; stress 'four billion'",
+   "set": "journey",
+   "setp": {
+    "t": 0.9,
+    "mark": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.472,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.543,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "LANDING",
+     "value": "4 BILLION MILES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 1,
+   "size": "med",
+   "vo": "Rule two. No radio miracles. Nothing goes faster than light.",
+   "dir": "playful; stress 'light'",
+   "set": "delay",
+   "setp": {
+    "t": 0.4,
+    "back": 0.0,
+    "clock": 0.0
+   },
+   "cam": [
+    [
+     0.457,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.493,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "NO SHORTCUTS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "ch": 1,
+   "size": "wide",
+   "vo": "Rule three. It's a one way trip.",
+   "dir": "quiet; stress 'one way'",
+   "set": "journey",
+   "setp": {
+    "t": 0.4,
+    "mark": 0.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.478,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.5,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "sideL",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "ONE WAY TRIP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "ch": 1,
+   "size": "close",
+   "vo": "You wear a plain hooded suit. Keep the hood up.",
+   "dir": "teasing; stress 'hood'",
+   "set": "surface",
+   "setp": {
+    "t": 0.2,
+    "frost": 0.3
+   },
+   "cam": [
+    [
+     0.377,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.604,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "HOOD UP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "ch": 1,
+   "size": "close",
+   "vo": "And here's the catch. The view is the strangest part.",
+   "dir": "teasing; stress 'strangest'",
+   "set": "skyview",
+   "setp": {
+    "t": 0.2,
+    "sun": 0.0,
+    "labels": 0.0
+   },
+   "cam": [
+    [
+     0.365,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.569,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "THE CATCH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "ch": 1,
+   "size": "high",
+   "vo": "Look up. Find the Sun.",
+   "dir": "soft; stress 'Find'",
+   "set": "skyview",
+   "setp": {
+    "t": 0.5,
+    "sun": 0.3,
+    "labels": 0.0
+   },
+   "cam": [
+    [
+     0.505,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.362,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "FIND THE SUN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "ch": 2,
+   "size": "med",
+   "vo": "There. That bright pinprick, no bigger than a star.",
+   "dir": "amazed, slow; stress 'pinprick'",
+   "set": "skyview",
+   "setp": {
+    "t": 0.6,
+    "sun": 0.8,
+    "labels": 0.0
+   },
+   "cam": [
+    [
+     0.508,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.469,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "threeQuarter",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "THE SUN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "ch": 2,
+   "size": "insert",
+   "vo": "From here it's forty-three times farther than from Earth.",
+   "dir": "measured; stress 'forty-three'",
+   "set": "skyview",
+   "setp": {
+    "t": 0.8,
+    "sun": 1.0,
+    "labels": 0.0
+   },
+   "cam": [
+    [
+     0.563,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.482,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 43,
+      "label": "TIMES EARTH-SUN",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "DISTANCE",
+     "value": "~43 x EARTH'S"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "ding",
+     "at": 0.8,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "ch": 2,
+   "size": "insert",
+   "vo": "Light thins out with distance squared, so it's about eighteen hundred times dimmer.",
+   "dir": "steady; stress 'eighteen hundred'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.64,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.42,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 0.05,
+      "color": "gold",
+      "label": "SUNLIGHT: 1 / 1,800"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "OUR MATHS: 43 x 43"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "ch": 2,
+   "size": "wide",
+   "vo": "Sunrise, sunset, shadows, all of it, just a bright dot.",
+   "dir": "wry; stress 'dot'",
+   "set": "skyview",
+   "setp": {
+    "t": 0.9,
+    "sun": 0.5,
+    "labels": 0.0
+   },
+   "cam": [
+    [
+     0.501,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.51,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "side",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cream",
+     "text": "NO SUNSET"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "ch": 2,
+   "size": "pan",
+   "vo": "Now look around the Sun. Four more dots.",
+   "dir": "curious; stress 'four'",
+   "set": "skyview",
+   "setp": {
+    "t": 0.7,
+    "sun": 0.4,
+    "labels": 1.0
+   },
+   "cam": [
+    [
+     0.309,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.528,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "4 GIANTS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "ch": 2,
+   "size": "med",
+   "vo": "That's Jupiter, Saturn, Uranus and Neptune.",
+   "dir": "clear; stress 'Neptune'",
+   "set": "skyview",
+   "setp": {
+    "t": 0.8,
+    "sun": 0.4,
+    "labels": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.508,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.503,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "THE GIANT PLANETS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "ch": 2,
+   "size": "low",
+   "vo": "NASA's own illustration shows the four largest planets as bright dots.",
+   "dir": "precise; stress 'bright dots'",
+   "set": "skyview",
+   "setp": {
+    "t": 0.9,
+    "sun": 0.4,
+    "labels": 1.0
+   },
+   "cam": [
+    [
+     0.541,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.735,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA, ESA, STScI"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "ch": 2,
+   "size": "close",
+   "vo": "And the inner planets? Too close to the Sun to see.",
+   "dir": "playful; stress 'too close'",
+   "set": "skyview",
+   "setp": {
+    "t": 1.0,
+    "sun": 0.3,
+    "labels": 0.0
+   },
+   "cam": [
+    [
+     0.432,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.64,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "EARTH? LOST"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "ch": 2,
+   "size": "high",
+   "vo": "Earth, our whole world, is hidden in the Sun's glare.",
+   "dir": "hushed; stress 'hidden'",
+   "set": "skyview",
+   "setp": {
+    "t": 1.0,
+    "sun": 0.6,
+    "labels": 0.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.511,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.372,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "HOME, HIDDEN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "ch": 2,
+   "size": "wide",
+   "vo": "A Milky Way band arcs over everything, sharp as chalk.",
+   "dir": "wondrous; stress 'chalk'",
+   "set": "skyview",
+   "setp": {
+    "t": 0.4,
+    "sun": 0.1,
+    "labels": 0.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.46,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.48,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "MILKY WAY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "ch": 2,
+   "size": "med",
+   "vo": "You'd see farther than anyone on Earth ever has.",
+   "dir": "warm; stress 'ever'",
+   "set": "surface",
+   "setp": {
+    "t": 0.7,
+    "frost": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.528,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.506,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "EDGE OF THE SUN'S FAMILY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "ch": 2,
+   "size": "low",
+   "vo": "The ground at your feet glitters faintly with frost.",
+   "dir": "gentle; stress 'frost'",
+   "set": "surface",
+   "setp": {
+    "t": 0.8,
+    "frost": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.545,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.746,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "crouch",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "crouch"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "ICE UNDERFOOT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "ch": 2,
+   "size": "pullout",
+   "vo": "Remember that ice. NASA scientists just learned something about it.",
+   "dir": "hooky; stress 'ice'",
+   "set": "dust",
+   "setp": {
+    "t": 0.4,
+    "zoom": 0.2
+   },
+   "cam": [
+    [
+     0.54,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.53,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "HOLD THAT THOUGHT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S28",
+   "ch": 2,
+   "size": "med",
+   "vo": "But first, call home.",
+   "dir": "quick; stress 'call'",
+   "set": "delay",
+   "setp": {
+    "t": 0.3,
+    "back": 0.0,
+    "clock": 0.0
+   },
+   "cam": [
+    [
+     0.487,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.48,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "CALL HOME"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S29",
+   "ch": 3,
+   "size": "wide",
+   "vo": "Radio travels at the speed of light, and light takes time.",
+   "dir": "calm; stress 'time'",
+   "set": "delay",
+   "setp": {
+    "t": 0.5,
+    "back": 0.0,
+    "clock": 1.0
+   },
+   "cam": [
+    [
+     0.484,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.489,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "SPEED OF LIGHT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S30",
+   "ch": 3,
+   "size": "insert",
+   "vo": "Four billion miles is about twenty-one thousand, five hundred seconds.",
+   "dir": "measured; stress 'twenty-one thousand'",
+   "set": "delay",
+   "setp": {
+    "t": 0.8,
+    "back": 0.0,
+    "clock": 1.0
+   },
+   "cam": [
+    [
+     0.551,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.431,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 21500,
+      "label": "SECONDS",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "ONE WAY",
+     "value": "~21,500 s"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "ding",
+     "at": 0.8,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S31",
+   "ch": 3,
+   "size": "high",
+   "vo": "That's almost six hours, just for a hello to reach Earth.",
+   "dir": "stunned; stress 'six hours'",
+   "set": "delay",
+   "setp": {
+    "t": 1.0,
+    "back": 0.0,
+    "clock": 1.0
+   },
+   "cam": [
+    [
+     0.465,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.372,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 6,
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "~6 HOURS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S32",
+   "ch": 3,
+   "size": "pullout",
+   "vo": "And six more hours for anyone to answer.",
+   "dir": "dry; stress 'answer'",
+   "set": "delay",
+   "setp": {
+    "t": 1.0,
+    "back": 0.9,
+    "clock": 1.0
+   },
+   "cam": [
+    [
+     0.525,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.473,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "ROUND TRIP",
+     "value": "~12 HOURS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S33",
+   "ch": 3,
+   "size": "low",
+   "vo": "A twelve hour wait for the reply to hello.",
+   "dir": "wry; stress 'twelve hour'",
+   "set": "delay",
+   "setp": {
+    "t": 1.0,
+    "back": 1.0,
+    "clock": 1.0
+   },
+   "cam": [
+    [
+     0.49,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.732,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "crouch",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "crouch"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "OUR MATHS: DISTANCE / LIGHT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S34",
+   "ch": 3,
+   "size": "pan",
+   "vo": "Voyager One just crossed one light-day: twenty-four hours each way.",
+   "dir": "informative; stress 'one light-day'",
+   "set": "timeline",
+   "setp": {
+    "t": 0.9,
+    "now": 0.9,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.284,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.537,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "VOYAGER 1",
+     "value": "1 LIGHT-DAY"
+    },
+    {
+     "kind": "chip",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA, NOV 2026"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S35",
+   "ch": 3,
+   "size": "wide",
+   "vo": "So you're far, but you're not that far.",
+   "dir": "reassuring; stress 'not'",
+   "set": "journey",
+   "setp": {
+    "t": 0.6,
+    "mark": 0.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.519,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.525,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "float",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "FAR, NOT FARTHEST"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S36",
+   "ch": 3,
+   "size": "low",
+   "vo": "Back to the ground. Is anything out here moving?",
+   "dir": "curious; stress 'moving'",
+   "set": "surface",
+   "setp": {
+    "t": 0.5,
+    "frost": 0.7
+   },
+   "cam": [
+    [
+     0.534,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.722,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "ANYONE HOME?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S37",
+   "ch": 3,
+   "size": "pullout",
+   "vo": "Astronomers think there are millions of small icy objects out here.",
+   "dir": "bright; stress 'millions'",
+   "set": "belt",
+   "setp": {
+    "t": 0.8,
+    "edge": 1.0
+   },
+   "cam": [
+    [
+     0.456,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.514,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "MILLIONS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S38",
+   "ch": 3,
+   "size": "insert",
+   "vo": "Hundreds of thousands are wider than a hundred kilometres.",
+   "dir": "steady; stress 'hundreds of thousands'",
+   "set": "belt",
+   "setp": {
+    "t": 0.9,
+    "edge": 1.0
+   },
+   "cam": [
+    [
+     0.581,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.453,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "threeQuarter",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 300,
+      "label": "THOUSAND ICY WORLDS",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "OVER 100 km",
+     "value": "100,000s+"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "ding",
+     "at": 0.8,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S39",
+   "ch": 3,
+   "size": "high",
+   "vo": "But we've catalogued only a little over two thousand.",
+   "dir": "hushed; stress 'two thousand'",
+   "set": "belt",
+   "setp": {
+    "t": 1.0,
+    "edge": 1.0
+   },
+   "cam": [
+    [
+     0.454,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.438,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 2000,
+      "label": "TRANS-NEPTUNIANS",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "CATALOGUED",
+     "value": "2,000+"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "ding",
+     "at": 0.8,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S40",
+   "ch": 3,
+   "size": "wide",
+   "vo": "You are standing in mostly unexplored space.",
+   "dir": "quiet; stress 'unexplored'",
+   "set": "surface",
+   "setp": {
+    "t": 0.9,
+    "frost": 0.4,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.487,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.47,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "sideL",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "MOSTLY UNEXPLORED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S41",
+   "ch": 3,
+   "size": "med",
+   "vo": "Time to meet the neighbours.",
+   "dir": "friendly; stress 'neighbours'",
+   "set": "belt",
+   "setp": {
+    "t": 1.0,
+    "edge": 1.0
+   },
+   "cam": [
+    [
+     0.522,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.464,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "MEET THE NEIGHBOURS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S42",
+   "ch": 4,
+   "size": "med",
+   "vo": "The king of the Kuiper Belt is Pluto.",
+   "dir": "announcing; stress 'king'",
+   "set": "resonance",
+   "setp": {
+    "t": 0.2,
+    "count": 0.0
+   },
+   "cam": [
+    [
+     0.504,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.484,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "PLUTO"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S43",
+   "ch": 4,
+   "size": "med",
+   "vo": "Found in nineteen thirty, long before anyone expected a belt.",
+   "dir": "amused; stress 'long before'",
+   "set": "timeline",
+   "setp": {
+    "t": 0.3,
+    "now": 0.3,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.503,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.525,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "text": "1930"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "DISCOVERED",
+     "value": "1930"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S44",
+   "ch": 4,
+   "size": "wide",
+   "vo": "Pluto orbits twice for every three laps Neptune makes.",
+   "dir": "playful; stress 'twice'",
+   "set": "resonance",
+   "setp": {
+    "t": 0.7,
+    "count": 2.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.463,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.493,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "ORBIT RATIO",
+     "value": "2 : 3"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S45",
+   "ch": 4,
+   "size": "pullout",
+   "vo": "Their orbits cross, yet they never meet. A perfect dance.",
+   "dir": "wry; stress 'never'",
+   "set": "resonance",
+   "setp": {
+    "t": 1.0,
+    "count": 3.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.532,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.476,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "float",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NEPTUNE KEEPS ITS DISTANCE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S46",
+   "ch": 4,
+   "size": "close",
+   "vo": "Pluto even gets closer to Uranus than it ever does to Neptune.",
+   "dir": "amazed; stress 'Uranus'",
+   "set": "resonance",
+   "setp": {
+    "t": 1.0,
+    "count": 3.0
+   },
+   "cam": [
+    [
+     0.42,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.555,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "threeQuarter",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "CLOSER TO URANUS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S47",
+   "ch": 4,
+   "size": "med",
+   "vo": "Now a different neighbour. Arrokoth, a snowman.",
+   "dir": "teasing; stress 'snowman'",
+   "set": "arrokoth",
+   "setp": {
+    "t": 0.3,
+    "label": 0.0
+   },
+   "cam": [
+    [
+     0.505,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.463,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "A SNOWMAN?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S48",
+   "ch": 4,
+   "size": "close",
+   "vo": "Two lobes stuck together, red as old rust.",
+   "dir": "descriptive; stress 'stuck together'",
+   "set": "arrokoth",
+   "setp": {
+    "t": 0.7,
+    "label": 1.0
+   },
+   "cam": [
+    [
+     0.375,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.603,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "CONTACT BINARY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S49",
+   "ch": 4,
+   "size": "med",
+   "vo": "NASA's New Horizons flew past it on the first of January, twenty nineteen.",
+   "dir": "bright; stress 'first of January'",
+   "set": "timeline",
+   "setp": {
+    "t": 0.7,
+    "now": 0.7,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.464,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.548,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "text": "1 JAN"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "FLYBY",
+     "value": "1 JAN 2019"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S50",
+   "ch": 4,
+   "size": "insert",
+   "vo": "It's the most distant, most primitive object a spacecraft has ever explored.",
+   "dir": "awed; stress 'most primitive'",
+   "set": "arrokoth",
+   "setp": {
+    "t": 1.0,
+    "label": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.606,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.461,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "threeQuarter",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "RECORD",
+     "value": "MOST PRIMITIVE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S51",
+   "ch": 4,
+   "size": "low",
+   "vo": "Pairs like it may be almost unchanged since birth.",
+   "dir": "quiet; stress 'unchanged'",
+   "set": "arrokoth",
+   "setp": {
+    "t": 1.0,
+    "label": 0.0
+   },
+   "cam": [
+    [
+     0.46,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.688,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "LITTLE CHANGE SINCE BIRTH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S52",
+   "ch": 4,
+   "size": "wide",
+   "vo": "Dwarf planets live here too: Eris, Haumea and Makemake.",
+   "dir": "list-like, easy; stress 'Eris'",
+   "set": "belt",
+   "setp": {
+    "t": 1.0,
+    "edge": 1.0,
+    "scattered": 0.6
+   },
+   "cam": [
+    [
+     0.542,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.481,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "side",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "DWARF PLANETS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S53",
+   "ch": 4,
+   "size": "pan",
+   "vo": "Eris, the heaviest of them, drifts in the scattered disk.",
+   "dir": "steady; stress 'heaviest'",
+   "set": "belt",
+   "setp": {
+    "t": 1.0,
+    "edge": 1.0,
+    "scattered": 1.0
+   },
+   "cam": [
+    [
+     0.253,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.503,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "ERIS: SCATTERED DISK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S54",
+   "ch": 4,
+   "size": "pullout",
+   "vo": "And Sedna swings from seventy-six to twelve hundred times Earth's distance.",
+   "dir": "wondrous; stress 'twelve hundred'",
+   "set": "scattered",
+   "setp": {
+    "t": 0.8,
+    "ticks": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.483,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.522,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "SEDNA",
+     "value": "76-1,200 AU"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S55",
+   "ch": 4,
+   "size": "close",
+   "vo": "So how did all this ice end up out here?",
+   "dir": "curious; stress 'how'",
+   "set": "migrate",
+   "setp": {
+    "t": 0.1,
+    "fling": 0.0
+   },
+   "cam": [
+    [
+     0.398,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.647,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "HOW?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S56",
+   "ch": 5,
+   "size": "wide",
+   "vo": "Go back to the early solar system.",
+   "dir": "hushed, storytelling; stress 'back'",
+   "set": "migrate",
+   "setp": {
+    "t": 0.1,
+    "fling": 0.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.53,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.487,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "sideL",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "EARLY SOLAR SYSTEM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S57",
+   "ch": 5,
+   "size": "med",
+   "vo": "A thick disk of icy bodies surrounds the young giant planets.",
+   "dir": "calm; stress 'thick disk'",
+   "set": "migrate",
+   "setp": {
+    "t": 0.2,
+    "fling": 0.0
+   },
+   "cam": [
+    [
+     0.487,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.452,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "LEFTOVERS FROM BIRTH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S58",
+   "ch": 5,
+   "size": "insert",
+   "vo": "Neptune's gravity stirs it, so the ice can't clump into a planet.",
+   "dir": "clear; stress 'can't'",
+   "set": "migrate",
+   "setp": {
+    "t": 0.4,
+    "fling": 0.0
+   },
+   "cam": [
+    [
+     0.632,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.41,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "NO PLANET HERE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S59",
+   "ch": 5,
+   "size": "high",
+   "vo": "That's the key. Neptune stopped a planet from forming.",
+   "dir": "dramatic; stress 'stopped'",
+   "set": "migrate",
+   "setp": {
+    "t": 0.5,
+    "fling": 0.1
+   },
+   "cam": [
+    [
+     0.533,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.405,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "NEPTUNE: NO"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S60",
+   "ch": 5,
+   "size": "pan",
+   "vo": "Meanwhile Jupiter and Saturn shift, and Uranus and Neptune get pushed outward.",
+   "dir": "building; stress 'pushed outward'",
+   "set": "migrate",
+   "setp": {
+    "t": 0.7,
+    "fling": 0.3
+   },
+   "cam": [
+    [
+     0.275,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.451,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "crouch",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "jump"
+   },
+   "props": [
+    {
+     "k": "arrow",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "GIANTS MIGRATE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S61",
+   "ch": 5,
+   "size": "med",
+   "vo": "On the way out they plough through the ice like snowploughs.",
+   "dir": "vivid; stress 'snowploughs'",
+   "set": "migrate",
+   "setp": {
+    "t": 0.85,
+    "fling": 0.6
+   },
+   "cam": [
+    [
+     0.482,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.504,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimL",
+    "act": "flinch"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SCATTERING ICE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S62",
+   "ch": 5,
+   "size": "wide",
+   "vo": "Jupiter flings most of it into the Oort Cloud, or out entirely.",
+   "dir": "tense; stress 'flings'",
+   "set": "migrate",
+   "setp": {
+    "t": 1.0,
+    "fling": 0.9
+   },
+   "cam": [
+    [
+     0.477,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.464,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "THROWN OUT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    },
+    {
+     "clip": "message_whoosh",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S63",
+   "ch": 5,
+   "size": "insert",
+   "vo": "Today's belt holds no more than about ten percent of Earth's mass.",
+   "dir": "sobering; stress 'ten percent'",
+   "set": "mass",
+   "setp": {
+    "t": 0.8,
+    "now": 1.0,
+    "then": 0.0
+   },
+   "cam": [
+    [
+     0.603,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.41,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 10,
+      "label": "% OF EARTH'S MASS",
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "MASS TODAY",
+     "value": "<= 10% EARTH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "ding",
+     "at": 0.8,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S64",
+   "ch": 5,
+   "size": "close",
+   "vo": "Once it held seven to ten times Earth's mass.",
+   "dir": "hushed; stress 'ten times'",
+   "set": "mass",
+   "setp": {
+    "t": 1.0,
+    "now": 1.0,
+    "then": 1.0
+   },
+   "cam": [
+    [
+     0.381,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.551,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "front",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "ONCE",
+     "value": "7-10 x EARTH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S65",
+   "ch": 5,
+   "size": "low",
+   "vo": "Most of the belt is already gone.",
+   "dir": "quiet; stress 'gone'",
+   "set": "mass",
+   "setp": {
+    "t": 1.0,
+    "now": 1.0,
+    "then": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.454,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.663,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "crouch",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "crouch"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "MOSTLY GONE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S66",
+   "ch": 5,
+   "size": "pullout",
+   "vo": "And what's left is slowly crumbling.",
+   "dir": "soft; stress 'crumbling'",
+   "set": "belt",
+   "setp": {
+    "t": 1.0,
+    "edge": 0.6
+   },
+   "cam": [
+    [
+     0.457,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.503,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SLOWLY ERODING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S67",
+   "ch": 5,
+   "size": "med",
+   "vo": "Collisions make smaller bits, and dust that the solar wind blows away.",
+   "dir": "steady; stress 'blows away'",
+   "set": "belt",
+   "setp": {
+    "t": 1.0,
+    "edge": 0.4,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.469,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.472,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "DUST ESCAPES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S68",
+   "ch": 5,
+   "size": "close",
+   "vo": "Dust. Hold that word. It's about to matter.",
+   "dir": "teasing; stress 'matter'",
+   "set": "dust",
+   "setp": {
+    "t": 0.2,
+    "zoom": 0.0
+   },
+   "cam": [
+    [
+     0.438,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.645,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "DUST"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S69",
+   "ch": 6,
+   "size": "wide",
+   "vo": "Eighteen November twenty twenty-six. NASA scientists announce a find.",
+   "dir": "brisk; stress 'announce'",
+   "set": "lab",
+   "setp": {
+    "alert": 0.5
+   },
+   "cam": [
+    [
+     0.542,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.538,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "text": "18 NOV"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "18 NOV 2026"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S70",
+   "ch": 6,
+   "size": "insert",
+   "vo": "They studied twelve tiny dust particles.",
+   "dir": "clear; stress 'twelve'",
+   "set": "dust",
+   "setp": {
+    "t": 0.3,
+    "zoom": 0.4
+   },
+   "cam": [
+    [
+     0.567,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.449,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 12,
+      "label": "DUST GRAINS",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "PARTICLES",
+     "value": "12"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "ding",
+     "at": 0.8,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S71",
+   "ch": 6,
+   "size": "pullout",
+   "vo": "Not from a spacecraft. From Earth's stratosphere.",
+   "dir": "surprised; stress 'stratosphere'",
+   "set": "dust",
+   "setp": {
+    "t": 0.6,
+    "zoom": 0.2,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.54,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.518,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "HIGH IN OUR SKY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S72",
+   "ch": 6,
+   "size": "wide",
+   "vo": "NASA's high-altitude research plane scooped them up.",
+   "dir": "vivid; stress 'ER-2'",
+   "set": "dust",
+   "setp": {
+    "t": 0.8,
+    "zoom": 0.3
+   },
+   "cam": [
+    [
+     0.53,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.545,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "side",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "ER-2 RESEARCH AIRCRAFT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S73",
+   "ch": 6,
+   "size": "insert",
+   "vo": "The dust is smaller than a speck, but it carried a secret.",
+   "dir": "wondrous; stress 'secret'",
+   "set": "dust",
+   "setp": {
+    "t": 1.0,
+    "zoom": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.598,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.462,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "grain",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "A TINY SECRET"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S74",
+   "ch": 6,
+   "size": "med",
+   "vo": "First, where did each grain come from? Tracks of solar particles.",
+   "dir": "detective; stress 'tracks'",
+   "set": "lab",
+   "setp": {
+    "alert": 0.8
+   },
+   "cam": [
+    [
+     0.486,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.513,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "magnifier",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "READ THE TRACKS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S75",
+   "ch": 6,
+   "size": "close",
+   "vo": "High concentrations of solar energetic particle tracks.",
+   "dir": "technical, careful; stress 'tracks'",
+   "set": "dust",
+   "setp": {
+    "t": 1.0,
+    "zoom": 1.0
+   },
+   "cam": [
+    [
+     0.36,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.636,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SOLAR PARTICLE TRACKS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S76",
+   "ch": 6,
+   "size": "pullout",
+   "vo": "Those tracks trace each grain back to the Kuiper Belt.",
+   "dir": "triumphant; stress 'Kuiper Belt'",
+   "set": "journey",
+   "setp": {
+    "t": 1.0,
+    "mark": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.528,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.532,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "ORIGIN: KUIPER BELT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.6,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S77",
+   "ch": 6,
+   "size": "med",
+   "vo": "Then the minerals. They formed when water touched dust, ages ago.",
+   "dir": "explaining; stress 'water'",
+   "set": "lab",
+   "setp": {
+    "ok": 1.0
+   },
+   "cam": [
+    [
+     0.464,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.492,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "WATER + DUST"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S78",
+   "ch": 6,
+   "size": "insert",
+   "vo": "Researchers used electron microscopy at NASA, and an ion microprobe at UCLA.",
+   "dir": "precise; stress 'ion microprobe'",
+   "set": "lab",
+   "setp": {
+    "alert": 0.3,
+    "ok": 1.0
+   },
+   "cam": [
+    [
+     0.598,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.416,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "TOOLS",
+     "value": "EM + ION PROBE"
+    },
+    {
+     "kind": "chip",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA JSC + UCLA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S79",
+   "ch": 6,
+   "size": "close",
+   "vo": "The water they found was enriched in heavier oxygen.",
+   "dir": "hushed, important; stress 'heavier'",
+   "set": "isotope",
+   "setp": {
+    "t": 0.7,
+    "heavy": 0.8,
+    "ref": 0.0
+   },
+   "cam": [
+    [
+     0.443,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.57,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "HEAVY OXYGEN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S80",
+   "ch": 6,
+   "size": "insert",
+   "vo": "Heavier atoms. Same oxygen, but with extra neutrons.",
+   "dir": "simple; stress 'extra'",
+   "set": "isotope",
+   "setp": {
+    "t": 0.9,
+    "heavy": 1.0,
+    "ref": 0.0
+   },
+   "cam": [
+    [
+     0.619,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.419,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SAME ELEMENT, HEAVIER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S81",
+   "ch": 6,
+   "size": "wide",
+   "vo": "Scientists had suspected ice like that for decades.",
+   "dir": "calm; stress 'decades'",
+   "set": "timeline",
+   "setp": {
+    "t": 0.5,
+    "now": 0.5
+   },
+   "cam": [
+    [
+     0.502,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.537,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cream",
+     "text": "SUSPECTED FOR DECADES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S82",
+   "ch": 6,
+   "size": "low",
+   "vo": "Meteorites and asteroid samples hinted at it, but never enough.",
+   "dir": "even; stress 'never enough'",
+   "set": "isotope",
+   "setp": {
+    "t": 1.0,
+    "heavy": 0.4,
+    "ref": 0.0
+   },
+   "cam": [
+    [
+     0.458,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.651,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimR",
+    "act": "flinch"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "EVIDENCE LIMITED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S83",
+   "ch": 6,
+   "size": "pullout",
+   "vo": "Now there's compelling evidence of an ancient reservoir of ice.",
+   "dir": "triumphant; stress 'ancient reservoir'",
+   "set": "isotope",
+   "setp": {
+    "t": 1.0,
+    "heavy": 1.0,
+    "ref": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.489,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.52,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "NASA",
+     "value": "ICE RESERVOIR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.7,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S84",
+   "ch": 7,
+   "size": "med",
+   "vo": "A reservoir of ice enriched in heavier oxygen, out in the Kuiper Belt.",
+   "dir": "clear; stress 'enriched'",
+   "set": "isotope",
+   "setp": {
+    "t": 1.0,
+    "heavy": 1.0,
+    "ref": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.51,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.475,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "HEAVY-OXYGEN ICE OUT THERE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S85",
+   "ch": 7,
+   "size": "insert",
+   "vo": "NASA's Genesis mission gave scientists a reference to compare against.",
+   "dir": "explaining; stress 'Genesis'",
+   "set": "isotope",
+   "setp": {
+    "t": 1.0,
+    "heavy": 1.0,
+    "ref": 1.0
+   },
+   "cam": [
+    [
+     0.605,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.451,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "front",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "GENESIS = REFERENCE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S86",
+   "ch": 7,
+   "size": "close",
+   "vo": "Real meteorites rarely show this same signature.",
+   "dir": "puzzled; stress 'rarely'",
+   "set": "isotope",
+   "setp": {
+    "t": 0.5,
+    "heavy": 0.2,
+    "ref": 1.0
+   },
+   "cam": [
+    [
+     0.435,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.56,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "RARE IN METEORITES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S87",
+   "ch": 7,
+   "size": "pullout",
+   "vo": "That suggests the giant planets limited mixing between outer and inner solar system.",
+   "dir": "insightful; stress 'limited mixing'",
+   "set": "migrate",
+   "setp": {
+    "t": 1.0,
+    "fling": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.467,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.507,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "LIMITED MIXING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S88",
+   "ch": 7,
+   "size": "wide",
+   "vo": "In other words, a wall of giants kept outer ice outside.",
+   "dir": "vivid; stress 'wall'",
+   "set": "migrate",
+   "setp": {
+    "t": 1.0,
+    "fling": 0.8
+   },
+   "cam": [
+    [
+     0.533,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.473,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "GIANTS AS A BARRIER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S89",
+   "ch": 7,
+   "size": "low",
+   "vo": "So the ice under your boots is a time capsule.",
+   "dir": "warm, intimate; stress 'time capsule'",
+   "set": "surface",
+   "setp": {
+    "t": 0.9,
+    "frost": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.501,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.651,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "crouch",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "crouch"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "TIME CAPSULE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "space_swell",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S90",
+   "ch": 7,
+   "size": "med",
+   "vo": "Chemistry from before the planets finished moving in.",
+   "dir": "hushed; stress 'before'",
+   "set": "timeline",
+   "setp": {
+    "t": 0.2,
+    "now": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.487,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.462,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "BEFORE THE PLANETS SETTLED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S91",
+   "ch": 7,
+   "size": "wide",
+   "vo": "Only a few places keep this record, and you're standing on one.",
+   "dir": "quiet; stress 'one'",
+   "set": "surface",
+   "setp": {
+    "t": 1.0,
+    "frost": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.454,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.549,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "sideL",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "YOU ARE HERE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S92",
+   "ch": 7,
+   "size": "insert",
+   "vo": "The scientists say it helps explain how planets formed.",
+   "dir": "even; stress 'how planets formed'",
+   "set": "lab",
+   "setp": {
+    "ok": 1.0
+   },
+   "cam": [
+    [
+     0.552,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.446,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA: PLANET FORMATION"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S93",
+   "ch": 7,
+   "size": "close",
+   "vo": "That's a lot of story from twelve grains.",
+   "dir": "amused; stress 'twelve'",
+   "set": "dust",
+   "setp": {
+    "t": 1.0,
+    "zoom": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.44,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.65,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "grain",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "12 GRAINS",
+     "value": "ONE STORY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S94",
+   "ch": 7,
+   "size": "wide",
+   "vo": "And now you know why the cold open mattered.",
+   "dir": "wry; stress 'cold open'",
+   "set": "skyview",
+   "setp": {
+    "t": 0.5,
+    "sun": 1.0,
+    "labels": 1.0
+   },
+   "cam": [
+    [
+     0.516,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.488,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "sideL",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "4 BN MILES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S95",
+   "ch": 8,
+   "size": "wide",
+   "vo": "Here's the part nobody warns you about. The belt is fading.",
+   "dir": "gentle; stress 'fading'",
+   "set": "belt",
+   "setp": {
+    "t": 1.0,
+    "edge": 0.4
+   },
+   "cam": [
+    [
+     0.543,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.537,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "sideL",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cream",
+     "text": "SLOWLY ERODING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S96",
+   "ch": 8,
+   "size": "med",
+   "vo": "The giants threw most of it away, and collisions grind down the rest.",
+   "dir": "soft; stress 'wearing down'",
+   "set": "migrate",
+   "setp": {
+    "t": 1.0,
+    "fling": 1.0
+   },
+   "cam": [
+    [
+     0.496,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.452,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "LESS EVERY YEAR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S97",
+   "ch": 8,
+   "size": "insert",
+   "vo": "But what remains is the best archive we have.",
+   "dir": "warm; stress 'best archive'",
+   "set": "belt",
+   "setp": {
+    "t": 1.0,
+    "edge": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.571,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.435,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "RECORD",
+     "value": "ORIGIN OF PLANETS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S98",
+   "ch": 8,
+   "size": "pullout",
+   "vo": "Pluto, Arrokoth, Eris, Sedna, and millions of unnamed worlds.",
+   "dir": "list; stress 'unnamed'",
+   "set": "scattered",
+   "setp": {
+    "t": 1.0,
+    "ticks": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.503,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.47,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "MILLIONS UNNAMED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S99",
+   "ch": 8,
+   "size": "med",
+   "vo": "Kuiper's paper in nineteen fifty-one guessed at it.",
+   "dir": "quick; stress 'guessed'",
+   "set": "timeline",
+   "setp": {
+    "t": 0.8,
+    "now": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.511,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.536,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.7,
+     "y": 0.3,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "text": "1951"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "KUIPER PAPER",
+     "value": "1951"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S100",
+   "ch": 8,
+   "size": "close",
+   "vo": "Seventy-five years later, we're reading it in grains of dust.",
+   "dir": "wonder; stress 'dust'",
+   "set": "dust",
+   "setp": {
+    "t": 1.0,
+    "zoom": 0.6,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.367,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.574,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "READ IN DUST"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S101",
+   "ch": 8,
+   "size": "wide",
+   "vo": "Remember the cold open. Four billion miles. The Sun, just a star.",
+   "dir": "callback; stress 'just a star'",
+   "set": "skyview",
+   "setp": {
+    "t": 0.5,
+    "sun": 0.9,
+    "labels": 0.0
+   },
+   "cam": [
+    [
+     0.455,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.465,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "sideL",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "JUST A STAR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S102",
+   "ch": 8,
+   "size": "low",
+   "vo": "Now you know what that dim light was lighting up.",
+   "dir": "wry, warm; stress 'lighting up'",
+   "set": "surface",
+   "setp": {
+    "t": 1.0,
+    "frost": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.488,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.706,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "ANCIENT ICE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S103",
+   "ch": 8,
+   "size": "close",
+   "vo": "Would you stay a night out here, or run home?",
+   "dir": "playful; stress 'stay'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.374,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.565,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "COMMENT YOUR PICK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S104",
+   "ch": 8,
+   "size": "close",
+   "vo": "Tomorrow: what if the Moon vanished for one whole day?",
+   "dir": "teasing; stress 'vanished'",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.438,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.579,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "TOMORROW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S105",
+   "ch": 8,
+   "size": "wide",
+   "vo": "Four billion miles out, the Sun is a star, and the ice remembers.",
+   "dir": "closing; stress 'remembers'",
+   "set": "skyview",
+   "setp": {
+    "t": 1.0,
+    "sun": 0.7,
+    "labels": 0.0
+   },
+   "cam": [
+    [
+     0.522,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.52,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "sideL",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "FOLLOW IFMOSPHERE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  }
+ ],
+ "short": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "wide",
+   "vo": "Four billion miles out, the Sun is just a star.",
+   "dir": "hushed then hard stop; stress 'just a star'",
+   "set": "skyview",
+   "setp": {
+    "t": 0.3,
+    "sun": 0.2,
+    "labels": 0.0
+   },
+   "cam": [
+    [
+     0.474,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.504,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "sideL",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "4 BN MILES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "word": "star",
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "insert",
+   "vo": "That dot is eighteen hundred times dimmer than our Sun.",
+   "dir": "quick; stress 'eighteen hundred'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.607,
+     0.45,
+     1.9
+    ],
+    [
+     0.55,
+     0.443,
+     1.71
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 0.05,
+      "color": "gold",
+      "label": "1 / 1,800"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "SUNLIGHT",
+     "value": "1 / 1,800"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "med",
+   "vo": "Call home, and it takes almost six hours to arrive.",
+   "dir": "dry; stress 'six hours'",
+   "set": "delay",
+   "setp": {
+    "t": 1.0,
+    "back": 0.0,
+    "clock": 1.0
+   },
+   "cam": [
+    [
+     0.502,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.531,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "ONE WAY",
+     "value": "~6 HOURS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "This is the Kuiper Belt, a doughnut of icy leftovers past Neptune.",
+   "dir": "clear; stress 'doughnut'",
+   "set": "belt",
+   "setp": {
+    "t": 0.7,
+    "edge": 1.0
+   },
+   "cam": [
+    [
+     0.521,
+     0.5,
+     1.52
+    ],
+    [
+     0.5,
+     0.534,
+     0.95
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "30-50 AU"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "high",
+   "vo": "Hundreds of thousands of worlds wider than a hundred kilometres.",
+   "dir": "building; stress 'hundreds of thousands'",
+   "set": "belt",
+   "setp": {
+    "t": 1.0,
+    "edge": 1.0
+   },
+   "cam": [
+    [
+     0.451,
+     0.3,
+     1.04
+    ],
+    [
+     0.5,
+     0.361,
+     1.19
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "100,000s"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 0,
+   "size": "insert",
+   "vo": "On eighteen November, NASA announced new clues in twelve dust grains.",
+   "dir": "brisk; stress 'twelve dust grains'",
+   "set": "dust",
+   "setp": {
+    "t": 0.7,
+    "zoom": 0.5
+   },
+   "cam": [
+    [
+     0.614,
+     0.45,
+     1.9
+    ],
+    [
+     0.55,
+     0.443,
+     1.71
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "grain",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "NASA",
+     "value": "12 GRAINS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "Their tracks trace back to the Kuiper Belt.",
+   "dir": "triumphant; stress 'trace back'",
+   "set": "journey",
+   "setp": {
+    "t": 1.0,
+    "mark": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.477,
+     0.5,
+     1.52
+    ],
+    [
+     0.5,
+     0.499,
+     0.95
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "BACK TO THE BELT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 0,
+   "size": "close",
+   "vo": "The water inside has extra-heavy oxygen.",
+   "dir": "important; stress 'heavy'",
+   "set": "isotope",
+   "setp": {
+    "t": 1.0,
+    "heavy": 1.0,
+    "ref": 0.0
+   },
+   "cam": [
+    [
+     0.448,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.555,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "HEAVIER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 0,
+   "size": "low",
+   "vo": "Ancient ice, from before the planets stopped moving.",
+   "dir": "hushed; stress 'ancient'",
+   "set": "surface",
+   "setp": {
+    "t": 1.0,
+    "frost": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.472,
+     0.75,
+     1.14
+    ],
+    [
+     0.5,
+     0.743,
+     1.28
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "crouch",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "crouch"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "ANCIENT ICE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 0,
+   "size": "wide",
+   "vo": "Full film on the channel. Out here, the Sun is just a star.",
+   "dir": "friendly, leading back into the start; stress 'just a star'",
+   "set": "skyview",
+   "setp": {
+    "t": 0.3,
+    "sun": 0.2,
+    "labels": 0.0
+   },
+   "cam": [
+    [
+     0.457,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.493,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "sideL",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "4 BN MILES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  }
+ ]
+}
