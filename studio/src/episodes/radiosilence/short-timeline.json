@@ -1,0 +1,214 @@
+{
+ "slug": "radiosilence",
+ "title": "WHAT IF MARS WENT SILENT FOR 100 SECONDS?",
+ "fps": 30,
+ "total": 1111,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 102,
+   "t0": 0,
+   "t1": 102,
+   "line": "For one hundred seconds, a rover on Mars heard nothing."
+  },
+  {
+   "shot": "S2",
+   "a": 102,
+   "b": 173,
+   "t0": 0,
+   "t1": 71,
+   "line": "Its radio stopped sending its heartbeat."
+  },
+  {
+   "shot": "S3",
+   "a": 173,
+   "b": 277,
+   "t0": 0,
+   "t1": 104,
+   "line": "Twenty-five missed pings, and the computer pulled the plug."
+  },
+  {
+   "shot": "S4",
+   "a": 277,
+   "b": 367,
+   "t0": 0,
+   "t1": 90,
+   "line": "It swapped to the backup radio and went into safe mode."
+  },
+  {
+   "shot": "S5",
+   "a": 367,
+   "b": 432,
+   "t0": 0,
+   "t1": 65,
+   "line": "But the backup is only at half power."
+  },
+  {
+   "shot": "S6",
+   "a": 432,
+   "b": 534,
+   "t0": 0,
+   "t1": 102,
+   "line": "So NASA parked both radios and talks straight to Earth."
+  },
+  {
+   "shot": "S7",
+   "a": 534,
+   "b": 625,
+   "t0": 0,
+   "t1": 91,
+   "line": "Slower link, so science and photos are paused."
+  },
+  {
+   "shot": "S8",
+   "a": 625,
+   "b": 731,
+   "t0": 0,
+   "t1": 106,
+   "line": "Meanwhile Odyssey, twenty-five years old, lost a wheel."
+  },
+  {
+   "shot": "S9",
+   "a": 731,
+   "b": 837,
+   "t0": 0,
+   "t1": 106,
+   "line": "It needs three, and has fuel for one to two months without them."
+  },
+  {
+   "shot": "S10",
+   "a": 837,
+   "b": 968,
+   "t0": 0,
+   "t1": 131,
+   "line": "One test, the wheel moved. NASA hopes both are back by month end."
+  },
+  {
+   "shot": "S11",
+   "a": 968,
+   "b": 1039,
+   "t0": 0,
+   "t1": 71,
+   "line": "Full film on the channel. Out there, silence is the scariest sound."
+  },
+  {
+   "shot": "S11",
+   "a": 1039,
+   "b": 1111,
+   "t0": 71,
+   "t1": 143,
+   "line": "Full film on the channel. Out there, silence is the scariest sound."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 63,
+   "len": 102,
+   "first": 0,
+   "line": "For one hundred seconds, a rover on Mars heard nothing.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "close",
+   "key": 44,
+   "len": 71,
+   "first": 102,
+   "line": "Its radio stopped sending its heartbeat.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "insert",
+   "key": 64,
+   "len": 104,
+   "first": 173,
+   "line": "Twenty-five missed pings, and the computer pulled the plug.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "med",
+   "key": 56,
+   "len": 90,
+   "first": 277,
+   "line": "It swapped to the backup radio and went into safe mode.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "close",
+   "key": 40,
+   "len": 65,
+   "first": 367,
+   "line": "But the backup is only at half power.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "wide",
+   "key": 63,
+   "len": 102,
+   "first": 432,
+   "line": "So NASA parked both radios and talks straight to Earth.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "low",
+   "key": 56,
+   "len": 91,
+   "first": 534,
+   "line": "Slower link, so science and photos are paused.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "insert",
+   "key": 66,
+   "len": 106,
+   "first": 625,
+   "line": "Meanwhile Odyssey, twenty-five years old, lost a wheel.",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "close",
+   "key": 66,
+   "len": 106,
+   "first": 731,
+   "line": "It needs three, and has fuel for one to two months without them.",
+   "note": "ch0"
+  },
+  {
+   "id": "S10",
+   "size": "med",
+   "key": 81,
+   "len": 131,
+   "first": 837,
+   "line": "One test, the wheel moved. NASA hopes both are back by month end.",
+   "note": "ch0"
+  },
+  {
+   "id": "S11",
+   "size": "wide",
+   "key": 89,
+   "len": 143,
+   "first": 968,
+   "line": "Full film on the channel. Out there, silence is the scariest sound.",
+   "note": "ch0"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "radiosilence/short-voice.wav",
+  "sfx": "radiosilence/short-sfx.wav",
+  "music": "radiosilence/short-music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}

@@ -1,0 +1,5719 @@
+{
+ "slug": "radiosilence",
+ "id": "Radiosilence",
+ "title": [
+  "WHAT IF MARS WENT",
+  "SILENT FOR 100 SECONDS?"
+ ],
+ "accent": [
+  "100 SECONDS"
+ ],
+ "voice": {
+  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.45,
+   "similarity_boost": 0.8,
+   "style": 0.34,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  }
+ },
+ "short_vo": {
+  "stability": 0.42,
+  "style": 0.4,
+  "speed": 1.03
+ },
+ "short_music": {
+  "mood": "tense",
+  "energy": 0.85
+ },
+ "mix": {
+  "music_under": 17,
+  "sfx_under": 7,
+  "duck_db": 6
+ },
+ "sets": {
+  "marsfield": "Mars surface. Butterscotch haze sky fading to dusty pink at the horizon, a small pale Sun, rust-orange rocky plain with 4 px outlined rocks and faint wheel tracks, soft warm rim light; setp.t 0..1 = slow camera drift and drifting dust; setp.dust 0..1 = a dust gust; setp.dark 0..1 = the light dims to dusk and stars show; setp.glow 'gold'|'cyan'|'red'.",
+  "mcc": "Mission control room. far: wall of big dark screens with soft blue charts and one big world map; mid: two rows of desks with laptops, coffee mugs and a sticky note; near: dark chair silhouettes; setp.alert 0..1 = the screens flash amber; setp.calm 0..1 = amber fades to green; setp.t 0..1 = slow push through the room.",
+  "heartbeat": "Heartbeat monitor. Deep-navy bg, a big outlined screen with a bright cyan ECG trace sweeping left to right, one tall blip every 4 seconds drawn as a spike; setp.t 0..1 = the trace sweeps; setp.missed 0..25 = small red tick marks count missed beats under the line and the trace goes flat; setp.glow 'cyan'|'red'|'gold'.",
+  "relay": "Mars to Earth relay diagram. Deep-navy bg; a rust Mars ball with a tiny rover at the lower left, a small orbiter above it, a blue Earth with a dish at the far right; thin cyan lines; setp.t 0..1 = pulses travel; setp.relay 0..1 = the short fast route rover->orbiter->Earth glows thick; setp.direct 0..1 = a thin slow direct line rover->Earth glows gold; setp.cut 0..1 = the relay line breaks with a small red spark; setp.glow 'cyan'|'gold'.",
+  "wheels": "Spacecraft reaction wheels diagram. Deep-navy bg; a small gold-and-grey orbiter body in the middle with four outlined wheels in a 2x2 grid beside it, labelled 1-4; setp.t 0..1 = the wheels spin; setp.dead 0..2 = wheel 1 (2013) then wheel 2 (2026) darken with red crosses; setp.need 0..1 = a cream bracket 'AT LEAST 3' appears; setp.glow 'cyan'|'gold'|'red'.",
+  "fuel": "Fuel gauge. Deep-navy bg; a big round outlined tank with a visible liquid level and a calendar strip beside it; setp.frac 0..1 = liquid level; setp.t 0..1 = the level slowly drains; setp.range 0..1 = a cream bracket marks 1 to 2 months; setp.glow 'cyan'|'gold'|'red'.",
+  "orbiter": "Odyssey in orbit. Deep-navy bg; the curve of a rust Mars filling the lower half, a small gold-and-grey orbiter with two solar wings above it; setp.t 0..1 = the orbiter glides across and tiny stars drift; setp.tilt 0..1 = it slowly tumbles away from the Sun; setp.glow 'cyan'|'gold'|'red'.",
+  "timeline": "A horizontal timeline. Deep-navy bg; a long gold line with milestone dots and cream calendar tags; setp.t 0..1 = the camera pans along the line; setp.now 0..1 = a bright cyan marker glides along; setp.glow 'gold'|'cyan'.",
+  "landers": "Four landing sites on a Mars globe. Deep-navy bg; a big rust Mars globe with four small outlined pins labelled PHOENIX, SPIRIT, OPPORTUNITY, CURIOSITY and a tiny orbiter circling; setp.t 0..1 = slow globe turn; setp.send 0..1 = cyan lines from each pin to the orbiter glow in turn; setp.glow 'cyan'|'gold'.",
+  "void": "Plain deep-navy SpaceBackdrop stage with slow light rays and almost no stars, for big numbers, bars and diagrams. setp.glow 'gold'|'cyan'|'red' tints the rays."
+ },
+ "props": {
+  "counter": "Big flat panel, 4 px dark outline, dark #1E1B2E face, cream flip digits in FONTS.title with thousands separators, label in FONTS.ui underneath. pp.from and pp.to: the number counts from->to across the shot (ease-out); pp.label text; pp.color gold|red|cyan.",
+  "clock": "Round analogue clock face, cream disc, 4 px dark outline, ticks, one hand. pp.from..pp.to in hours: the hand sweeps; pp.glow true adds a gold bloom.",
+  "bar": "Horizontal progress bar with 4 px outline, filled with pp.color (gold|red|cyan) to pp.frac of its width over the shot; pp.label above in FONTS.ui.",
+  "arrow": "Thick outlined curved arrow, pp.color gold|cyan|red, draws on across the shot.",
+  "flag": "Small green check mark badge in a round outlined cream disc with a tiny sparkle; or red cross when pp.bad true.",
+  "calendar": "Small wall calendar page, cream with a red top strip, 4 px outline; pp.text the date in FONTS.title (max 8 chars).",
+  "magnifier": "Outlined magnifying glass with a cream handle and pale glass; pp.s scale; pp.glow true adds a cyan bloom in the lens.",
+  "ring": "Pulsing cyan circle outline, 4 px, soft bloom, that expands and fades each second; pp.s scale.",
+  "scale": "Small balance scale icon, cream, 4 px outline, one pan tipped low; pp.s scale; pp.label text beneath.",
+  "_probe_old": "Icon of the BepiColombo stack: a small gold-foil box body with two dark solar-panel wings, a round grey antenna dish and a silver conical sunshield on top, 4 px outline; pp.s scale; pp.glow true adds an orange thruster flame at the bottom.",
+  "thermo": "Tall outlined thermometer, cream glass tube, red or blue fluid to pp.frac (0..1), pp.label text beneath in FONTS.ui; pp.color red|cyan.",
+  "rover": "Icon of the Perseverance rover: boxy cream-grey body, six dark wheels, a thin mast with a camera head and a round white high-gain dish on the deck, 4 px outline; pp.s scale; pp.glow true adds a soft cyan bloom; pp.dim true greys it out.",
+  "radio": "Small outlined radio box, dark #1E1B2E body with a cream front, a tiny antenna and an LED; pp.led green|red|amber sets the light, pp.half true shows a half-full signal meter; pp.s scale.",
+  "heart": "Round outlined badge with a small cream heart and a tiny cyan pulse ring that beats once a second; pp.flat true freezes it to a flat grey line; pp.s scale.",
+  "dish": "Outlined Deep Space Network dish on a short pedestal, cream bowl, small cyan signal arcs; pp.s scale; pp.glow true pulses the arcs.",
+  "wheel": "Round outlined reaction wheel: grey disc with spokes and a gold hub, 4 px outline; pp.spin true spins it, pp.dead true makes it dark with a small red cross; pp.s scale."
+ },
+ "actions": {
+  "lookup": "Pip tilts head back, arms loose, small sway; eyes lift at p 0.2.",
+  "duck": "Pip drops into a crouch with both arms over the head at p 0.15 and holds with a small tremble.",
+  "spin": "Pip turns one slow full rotation across the shot while looking around.",
+  "flinch": "A quick squash and lean away at p 0.2 with arms up, then settles back by p 0.7.",
+  "pointup": "Pip's arm swings up to point up at p 0.2 with a small overshoot."
+ },
+ "sfx_new": {},
+ "chapters": [
+  {
+   "n": 0,
+   "title": "COLD OPEN",
+   "sub": "",
+   "music": {
+    "mood": "tense",
+    "energy": 0.8
+   },
+   "vo": {
+    "stability": 0.43,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 1,
+   "title": "THE HEARTBEAT",
+   "sub": "A ping every four seconds",
+   "music": {
+    "mood": "tense",
+    "energy": 0.6
+   },
+   "vo": {
+    "stability": 0.44,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 2,
+   "title": "THE SWAP",
+   "sub": "A backup at half power",
+   "music": {
+    "mood": "mystery",
+    "energy": 0.6
+   },
+   "vo": {
+    "stability": 0.44,
+    "style": 0.38,
+    "speed": 0.99
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 3,
+   "title": "THE LONG WAY",
+   "sub": "Straight to Earth",
+   "music": {
+    "mood": "playful",
+    "energy": 0.5
+   },
+   "vo": {
+    "stability": 0.47,
+    "style": 0.38,
+    "speed": 1.02
+   },
+   "bed": {
+    "clip": "room_tone",
+    "gain": 0.04
+   }
+  },
+  {
+   "n": 4,
+   "title": "THE OLD RELAY",
+   "sub": "Odyssey, built for 2.5 years",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.6
+   },
+   "vo": {
+    "stability": 0.47,
+    "style": 0.38,
+    "speed": 0.98
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 5,
+   "title": "THE WHEEL",
+   "sub": "Four wheels, three needed",
+   "music": {
+    "mood": "tense",
+    "energy": 0.7
+   },
+   "vo": {
+    "stability": 0.44,
+    "style": 0.38,
+    "speed": 1.01
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 6,
+   "title": "THE FUEL",
+   "sub": "One to two months",
+   "music": {
+    "mood": "tense",
+    "energy": 0.75
+   },
+   "vo": {
+    "stability": 0.42,
+    "style": 0.38,
+    "speed": 1.02
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 7,
+   "title": "THE FIX",
+   "sub": "The wheel moved",
+   "music": {
+    "mood": "triumph",
+    "energy": 0.7
+   },
+   "vo": {
+    "stability": 0.47,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 8,
+   "title": "THE END",
+   "sub": "Back by the end of November",
+   "music": {
+    "mood": "warm",
+    "energy": 0.5
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.38,
+    "speed": 0.97
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  }
+ ],
+ "film": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "wide",
+   "vo": "For one hundred seconds, a rover on Mars heard nothing.",
+   "dir": "hushed, tense; stress 'nothing'",
+   "set": "marsfield",
+   "setp": {
+    "t": 0.2,
+    "dark": 0.2,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.474,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.504,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "sideL",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "props": [
+    {
+     "k": "rover",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "100 SECONDS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "word": "nothing",
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "close",
+   "vo": "Its own radio had gone quiet.",
+   "dir": "low, flat",
+   "set": "heartbeat",
+   "setp": {
+    "t": 0.4,
+    "missed": 6.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.407,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.593,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "RADIO SILENT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "insert",
+   "vo": "And the brain on board noticed every missing beat.",
+   "dir": "building; stress 'every'",
+   "set": "heartbeat",
+   "setp": {
+    "t": 0.8,
+    "missed": 14.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.602,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.481,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "MISSED",
+     "value": "14"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "close",
+   "vo": "Twenty-five in a row, and it pulled the plug.",
+   "dir": "sharp; stress 'twenty-five'",
+   "set": "heartbeat",
+   "setp": {
+    "t": 1.0,
+    "missed": 25.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.421,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.634,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "heart",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "flat": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "25 IN A ROW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "med",
+   "vo": "This is NASA's Perseverance, and it is still in trouble today.",
+   "dir": "steady, serious; stress 'still'",
+   "set": "marsfield",
+   "setp": {
+    "t": 0.5,
+    "dark": 0.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.451,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.461,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "threeQuarter",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "rover",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 1.1,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "NASA UPDATE 19 NOV 2026"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 0,
+   "size": "close",
+   "vo": "So what if you were the one stuck inside it?",
+   "dir": "playful, leaning in; stress 'you'",
+   "set": "mcc",
+   "setp": {
+    "t": 0.3,
+    "alert": 0.3
+   },
+   "cam": [
+    [
+     0.414,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.593,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "YOU ARE THE ROVER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 1,
+   "size": "wide",
+   "vo": "Here is the rule. Your radio must say hello to your brain.",
+   "dir": "clear, brisk; stress 'hello'",
+   "set": "heartbeat",
+   "setp": {
+    "t": 0.2,
+    "missed": 0.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.477,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.499,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "radio",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "led": "green"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "THE RULE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 1,
+   "size": "insert",
+   "vo": "A little ping, again and again, about every four seconds.",
+   "dir": "rhythmic; stress 'every four seconds'",
+   "set": "heartbeat",
+   "setp": {
+    "t": 0.5,
+    "missed": 0.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.648,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.405,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "heart",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "PING",
+     "value": "~4 SECONDS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.5,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 1,
+   "size": "close",
+   "vo": "Each ping resets a counter inside the main computer.",
+   "dir": "explanatory; stress 'resets'",
+   "set": "heartbeat",
+   "setp": {
+    "t": 0.9,
+    "missed": 0.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.372,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.643,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 4,
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "COUNTER RESETS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 1,
+   "size": "low",
+   "vo": "Ping, reset. Ping, reset. You barely notice it.",
+   "dir": "light, almost sing-song; stress 'barely'",
+   "set": "mcc",
+   "setp": {
+    "t": 0.7,
+    "calm": 1.0
+   },
+   "cam": [
+    [
+     0.457,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.693,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "PING. RESET."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.6,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "ch": 1,
+   "size": "pullout",
+   "vo": "But if the pings stop, the counter keeps climbing.",
+   "dir": "tightening; stress 'keeps climbing'",
+   "set": "heartbeat",
+   "setp": {
+    "t": 0.6,
+    "missed": 4.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.478,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.5,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 0.2,
+      "color": "gold",
+      "label": "MISSING PINGS"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "MISSED",
+     "value": "4"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "ch": 1,
+   "size": "close",
+   "vo": "Hit the limit, and the computer assumes the radio is dead.",
+   "dir": "dry, final; stress 'dead'",
+   "set": "heartbeat",
+   "setp": {
+    "t": 0.8,
+    "missed": 25.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.377,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.604,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 1.0,
+      "color": "red",
+      "label": "MISSING PINGS"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "LIMIT: 25"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "ch": 1,
+   "size": "high",
+   "vo": "Thirty October. Your alarm goes off, you power on for the day.",
+   "dir": "quick, matter-of-fact; stress 'thirty October'",
+   "set": "marsfield",
+   "setp": {
+    "t": 0.3,
+    "dust": 0.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.465,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.369,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "30 OCT"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "DATE",
+     "value": "30 OCT 2026"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "ch": 1,
+   "size": "med",
+   "vo": "Your main radio is supposed to wake up with you.",
+   "dir": "gentle; stress 'supposed'",
+   "set": "marsfield",
+   "setp": {
+    "t": 0.6,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.505,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.462,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "side",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "props": [
+    {
+     "k": "radio",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "led": "amber"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "RADIO #1 WAKES UP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "ch": 1,
+   "size": "insert",
+   "vo": "It doesn't send a single ping.",
+   "dir": "hard stop; stress 'single'",
+   "set": "heartbeat",
+   "setp": {
+    "t": 0.2,
+    "missed": 1.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.608,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.419,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "heart",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "flat": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "NO PING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.4,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "ch": 1,
+   "size": "wide",
+   "vo": "One missed. Then five. Then ten.",
+   "dir": "counting up, speeding; stress 'ten'",
+   "set": "heartbeat",
+   "setp": {
+    "t": 0.5,
+    "missed": 10.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.463,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.532,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 10,
+      "label": "MISSED PINGS",
+      "color": "red"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "MISSED",
+     "value": "10"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.4,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.7,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "ch": 1,
+   "size": "pan",
+   "vo": "You can't feel it, but your computer is counting.",
+   "dir": "hushed; stress 'counting'",
+   "set": "mcc",
+   "setp": {
+    "t": 0.5,
+    "alert": 0.4
+   },
+   "cam": [
+    [
+     0.34,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.47,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "threeQuarter",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "orange",
+     "text": "COUNTING..."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "ch": 1,
+   "size": "close",
+   "vo": "At twenty-five, that is about a hundred seconds of silence.",
+   "dir": "slow, heavy; stress 'hundred seconds'",
+   "set": "heartbeat",
+   "setp": {
+    "t": 1.0,
+    "missed": 25.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.401,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.61,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 100,
+      "label": "SECONDS OF SILENCE",
+      "color": "red"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "25 MISSED",
+     "value": "~100 SEC"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "ch": 2,
+   "size": "med",
+   "vo": "Your computer does not panic. It follows a script.",
+   "dir": "calm; stress 'script'",
+   "set": "mcc",
+   "setp": {
+    "t": 0.4,
+    "calm": 0.6
+   },
+   "cam": [
+    [
+     0.509,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.528,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "FAULT PROTECTION"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "ch": 2,
+   "size": "insert",
+   "vo": "Step one. Power off the radio that stopped talking.",
+   "dir": "crisp; stress 'power off'",
+   "set": "relay",
+   "setp": {
+    "t": 0.2,
+    "cut": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.608,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.453,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "radio",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "led": "red"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "STEP 1: POWER OFF"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "ch": 2,
+   "size": "wide",
+   "vo": "Step two. Swap to the backup radio, an identical twin.",
+   "dir": "crisp; stress 'twin'",
+   "set": "relay",
+   "setp": {
+    "t": 0.5,
+    "relay": 0.5,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.541,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.535,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "radio",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "led": "green"
+     }
+    },
+    {
+     "k": "radio",
+     "x": 0.8,
+     "y": 0.55,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "led": "amber"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "STEP 2: SWAP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "ch": 2,
+   "size": "low",
+   "vo": "Step three. Shut everything non-essential down. Safe mode.",
+   "dir": "hushed; stress 'safe mode'",
+   "set": "marsfield",
+   "setp": {
+    "t": 0.5,
+    "dark": 0.7,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.532,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.74,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "crouch",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "crouch"
+   },
+   "props": [
+    {
+     "k": "rover",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "dim": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "SAFE MODE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.0,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "ch": 2,
+   "size": "high",
+   "vo": "Cameras off. Arm still. Wheels still. You wait.",
+   "dir": "slow, measured; stress 'wait'",
+   "set": "marsfield",
+   "setp": {
+    "t": 0.8,
+    "dark": 0.9
+   },
+   "cam": [
+    [
+     0.511,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.372,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "sideL",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "props": [
+    {
+     "k": "rover",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "dim": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "EVERYTHING PAUSED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "ch": 2,
+   "size": "pullout",
+   "vo": "Ground teams on Earth bring the rover back out of it.",
+   "dir": "relieved; stress 'bring'",
+   "set": "mcc",
+   "setp": {
+    "t": 0.7,
+    "alert": 0.2,
+    "calm": 0.8
+   },
+   "cam": [
+    [
+     0.46,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.48,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "green",
+     "text": "RECOVERED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.35
+    },
+    {
+     "clip": "pop",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "ch": 2,
+   "size": "wide",
+   "vo": "Good news. You're awake, and the backup radio works.",
+   "dir": "bright; stress 'works'",
+   "set": "relay",
+   "setp": {
+    "t": 0.9,
+    "relay": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.528,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.506,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "props": [
+    {
+     "k": "radio",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "led": "green"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "BACKUP ONLINE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "ch": 2,
+   "size": "close",
+   "vo": "Then the engineers read the data, and find a second problem.",
+   "dir": "slowing; stress 'second problem'",
+   "set": "mcc",
+   "setp": {
+    "t": 0.9,
+    "alert": 0.6
+   },
+   "cam": [
+    [
+     0.445,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.646,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "orange",
+     "text": "A SECOND PROBLEM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "ch": 2,
+   "size": "insert",
+   "vo": "The backup is only transmitting at about half its expected power.",
+   "dir": "flat, worried; stress 'half'",
+   "set": "relay",
+   "setp": {
+    "t": 0.7,
+    "relay": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.64,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.48,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "radio",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "half": true,
+      "led": "amber"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "HALF POWER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S28",
+   "ch": 2,
+   "size": "med",
+   "vo": "So now both radios are in doubt.",
+   "dir": "low; stress 'both'",
+   "set": "relay",
+   "setp": {
+    "t": 0.9,
+    "cut": 0.7,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.487,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.48,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "radio",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "led": "red"
+     }
+    },
+    {
+     "k": "radio",
+     "x": 0.8,
+     "y": 0.55,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "led": "amber",
+      "half": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "RADIOS IN USE",
+     "value": "0"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S29",
+   "ch": 2,
+   "size": "pan",
+   "vo": "NASA stops using either one until it is sure they're safe.",
+   "dir": "firm; stress 'stops'",
+   "set": "mcc",
+   "setp": {
+    "t": 0.9,
+    "alert": 0.5
+   },
+   "cam": [
+    [
+     0.284,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.489,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "orange",
+     "text": "BOTH PARKED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S30",
+   "ch": 2,
+   "size": "close",
+   "vo": "A radio you cannot trust is worse than silence.",
+   "dir": "dry; stress 'worse'",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.351,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.581,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "scale",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "label": "RISK"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "TRUST MATTERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S31",
+   "ch": 3,
+   "size": "wide",
+   "vo": "So how do you talk to Earth with no relay radio?",
+   "dir": "curious; stress 'no relay'",
+   "set": "relay",
+   "setp": {
+    "t": 0.3,
+    "relay": 0.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.465,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.472,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "HOW DO YOU CALL HOME?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S32",
+   "ch": 3,
+   "size": "pan",
+   "vo": "Normally, your radios hand data up to an orbiter overhead.",
+   "dir": "clear; stress 'orbiter'",
+   "set": "relay",
+   "setp": {
+    "t": 0.6,
+    "relay": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.325,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.473,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "NORMAL ROUTE: RELAY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S33",
+   "ch": 3,
+   "size": "high",
+   "vo": "The orbiter has a big dish and a quick path to Earth.",
+   "dir": "clear; stress 'quick'",
+   "set": "orbiter",
+   "setp": {
+    "t": 0.5,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.49,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.432,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "ORBITER = FAST LANE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S34",
+   "ch": 3,
+   "size": "insert",
+   "vo": "That is the fast lane for pictures, and lots of them.",
+   "dir": "bright; stress 'lots'",
+   "set": "relay",
+   "setp": {
+    "t": 1.0,
+    "relay": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.584,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.487,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 0.95,
+      "color": "cyan",
+      "label": "DATA RATE"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "LOTS OF DATA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S35",
+   "ch": 3,
+   "size": "med",
+   "vo": "With both relay radios parked, you have one option left.",
+   "dir": "slowing; stress 'one option'",
+   "set": "relay",
+   "setp": {
+    "t": 0.5,
+    "cut": 1.0,
+    "direct": 0.3,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.519,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.525,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "ONE OPTION LEFT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S36",
+   "ch": 3,
+   "size": "wide",
+   "vo": "Shout straight at Earth, using your big white dish.",
+   "dir": "playful; stress 'shout'",
+   "set": "relay",
+   "setp": {
+    "t": 0.9,
+    "direct": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.534,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.522,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "dish",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "DIRECT TO EARTH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S37",
+   "ch": 3,
+   "size": "close",
+   "vo": "It is called the high-gain antenna, on the X-band.",
+   "dir": "explanatory; stress 'X-band'",
+   "set": "relay",
+   "setp": {
+    "t": 0.4,
+    "direct": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.356,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.614,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "dish",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.1,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "LINK",
+     "value": "X-BAND"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S38",
+   "ch": 3,
+   "size": "pullout",
+   "vo": "NASA's Deep Space Network dishes on Earth listen for you.",
+   "dir": "steady; stress 'listen'",
+   "set": "relay",
+   "setp": {
+    "t": 1.0,
+    "direct": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.481,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.503,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "sideL",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "props": [
+    {
+     "k": "dish",
+     "x": 0.75,
+     "y": 0.5,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "DEEP SPACE NETWORK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S39",
+   "ch": 3,
+   "size": "close",
+   "vo": "The catch. The data rate is significantly lower.",
+   "dir": "hard, dry; stress 'lower'",
+   "set": "relay",
+   "setp": {
+    "t": 1.0,
+    "direct": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.354,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.638,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 0.12,
+      "color": "gold",
+      "label": "DATA RATE"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "MUCH SLOWER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S40",
+   "ch": 3,
+   "size": "med",
+   "vo": "It is like going from fibre broadband to a dial-up modem.",
+   "dir": "wry, quick; stress 'dial-up'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.487,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.47,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 0.9,
+      "color": "cyan",
+      "label": "BEFORE"
+     }
+    },
+    {
+     "k": "bar",
+     "x": 0.64,
+     "y": 0.6,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 0.1,
+      "color": "gold",
+      "label": "NOW"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "AN ANALOGY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S41",
+   "ch": 3,
+   "size": "high",
+   "vo": "So you do the sensible thing. You save the bandwidth.",
+   "dir": "brisk; stress 'save'",
+   "set": "mcc",
+   "setp": {
+    "t": 0.8,
+    "calm": 0.4
+   },
+   "cam": [
+    [
+     0.522,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.364,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "SAVE BANDWIDTH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S42",
+   "ch": 3,
+   "size": "insert",
+   "vo": "Everything left in the pipe goes to diagnostics. Not science.",
+   "dir": "firm; stress 'not science'",
+   "set": "relay",
+   "setp": {
+    "t": 1.0,
+    "direct": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.604,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.434,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "DIAGNOSTICS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S43",
+   "ch": 3,
+   "size": "wide",
+   "vo": "Science and instrument work are paused.",
+   "dir": "quiet; stress 'paused'",
+   "set": "marsfield",
+   "setp": {
+    "t": 0.9,
+    "dark": 0.3
+   },
+   "cam": [
+    [
+     0.503,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.525,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "crouch",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "crouch"
+   },
+   "props": [
+    {
+     "k": "rover",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "dim": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "SCIENCE",
+     "value": "PAUSED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S44",
+   "ch": 3,
+   "size": "low",
+   "vo": "No new pictures. The raw image feed on the website goes quiet.",
+   "dir": "sad; stress 'goes quiet'",
+   "set": "marsfield",
+   "setp": {
+    "t": 1.0,
+    "dark": 0.5
+   },
+   "cam": [
+    [
+     0.463,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.693,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "sideL",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cream",
+     "text": "NO NEW IMAGES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S45",
+   "ch": 3,
+   "size": "close",
+   "vo": "For a camera-mad rover, that is a very long weekend.",
+   "dir": "wry; stress 'long weekend'",
+   "set": "marsfield",
+   "setp": {
+    "t": 0.4,
+    "dust": 0.3
+   },
+   "cam": [
+    [
+     0.432,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.576,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "rover",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "dim": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SO MUCH FOR SELFIES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S46",
+   "ch": 4,
+   "size": "wide",
+   "vo": "And the rover is not the only machine in trouble.",
+   "dir": "turning; stress 'not the only'",
+   "set": "orbiter",
+   "setp": {
+    "t": 0.3,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.52,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.455,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "SECOND MACHINE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S47",
+   "ch": 4,
+   "size": "high",
+   "vo": "Meet Mars Odyssey, the orbiter that carries the rover's mail.",
+   "dir": "warm, introducing; stress 'Odyssey'",
+   "set": "orbiter",
+   "setp": {
+    "t": 0.7,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.505,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.363,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "threeQuarter",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "MARS ODYSSEY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S48",
+   "ch": 4,
+   "size": "pan",
+   "vo": "It launched in April two thousand one.",
+   "dir": "simple; stress 'two thousand one'",
+   "set": "timeline",
+   "setp": {
+    "t": 0.1,
+    "now": 0.1,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.275,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.503,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "APR 2001"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "LAUNCH",
+     "value": "APR 2001"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S49",
+   "ch": 4,
+   "size": "panr",
+   "vo": "It reached Mars orbit that October.",
+   "dir": "simple; stress 'October'",
+   "set": "timeline",
+   "setp": {
+    "t": 0.35,
+    "now": 0.3,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.664,
+     0.5,
+     1.3
+    ],
+    [
+     0.3,
+     0.548,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "side",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "OCT 2001"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "ORBIT",
+     "value": "OCT 2001"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S50",
+   "ch": 4,
+   "size": "insert",
+   "vo": "It was designed to work for just over two and a half years.",
+   "dir": "quick; stress 'two and a half'",
+   "set": "timeline",
+   "setp": {
+    "t": 0.6,
+    "now": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.606,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.461,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 0.1,
+      "color": "gold",
+      "label": "PLANNED LIFE"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "2.5 YR DESIGN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S51",
+   "ch": 4,
+   "size": "close",
+   "vo": "It has now orbited Mars for twenty-five years.",
+   "dir": "proud; stress 'twenty-five'",
+   "set": "timeline",
+   "setp": {
+    "t": 1.0,
+    "now": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.36,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.588,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 25,
+      "label": "YEARS IN ORBIT",
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "25 YEARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S52",
+   "ch": 4,
+   "size": "pullout",
+   "vo": "Longer than any other mission has ever worked at the Red Planet.",
+   "dir": "awed; stress 'longer than any'",
+   "set": "orbiter",
+   "setp": {
+    "t": 0.9,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.542,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.481,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "LONGEST AT MARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S53",
+   "ch": 4,
+   "size": "low",
+   "vo": "It mapped the whole surface, and found buried ice a metre down.",
+   "dir": "bright; stress 'buried ice'",
+   "set": "orbiter",
+   "setp": {
+    "t": 0.4,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.453,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.703,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "crouch",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "crouch"
+   },
+   "props": [
+    {
+     "k": "magnifier",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "ICE",
+     "value": "TOP 1 M"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S54",
+   "ch": 4,
+   "size": "wide",
+   "vo": "It also relayed the first pictures from four landers.",
+   "dir": "clear; stress 'first pictures'",
+   "set": "landers",
+   "setp": {
+    "t": 0.4,
+    "send": 0.5,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.483,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.522,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "FIRST IMAGES RELAYED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S55",
+   "ch": 4,
+   "size": "high",
+   "vo": "Phoenix. Spirit. Opportunity. Curiosity.",
+   "dir": "list, rising; stress each name",
+   "set": "landers",
+   "setp": {
+    "t": 0.9,
+    "send": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.498,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.447,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "4 LANDERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.4,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.7,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S56",
+   "ch": 4,
+   "size": "pullout",
+   "vo": "So when Odyssey stumbles, the whole Mars network feels it.",
+   "dir": "hushed, worried; stress 'whole network'",
+   "set": "relay",
+   "setp": {
+    "t": 0.9,
+    "relay": 0.6,
+    "cut": 0.3,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.53,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.487,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "MARS RELAY NETWORK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S57",
+   "ch": 5,
+   "size": "wide",
+   "vo": "Between the fourth and sixth of November, Odyssey went into safe mode.",
+   "dir": "tense; stress 'safe mode'",
+   "set": "orbiter",
+   "setp": {
+    "t": 0.5,
+    "tilt": 0.6,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.487,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.452,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "4-6 NOV"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "SAFE MODE",
+     "value": "4-6 NOV"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S58",
+   "ch": 5,
+   "size": "close",
+   "vo": "Engineers found a reaction wheel had stopped spinning.",
+   "dir": "serious; stress 'stopped'",
+   "set": "wheels",
+   "setp": {
+    "t": 0.7,
+    "dead": 1.4,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.432,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.56,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "wheel",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "dead": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "WHEEL STOPPED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S59",
+   "ch": 5,
+   "size": "insert",
+   "vo": "Think of reaction wheels as the spacecraft's steering.",
+   "dir": "explanatory; stress 'steering'",
+   "set": "wheels",
+   "setp": {
+    "t": 0.3,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.633,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.455,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "wheel",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "spin": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "HOW IT STEERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S60",
+   "ch": 5,
+   "size": "med",
+   "vo": "Speed one up or slow it down, and the whole craft turns.",
+   "dir": "playful; stress 'whole craft'",
+   "set": "wheels",
+   "setp": {
+    "t": 0.8,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.475,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.451,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "wheel",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "spin": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SPEED UP = TURN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S61",
+   "ch": 5,
+   "size": "high",
+   "vo": "That keeps its solar panels pointed at the Sun.",
+   "dir": "clear; stress 'Sun'",
+   "set": "orbiter",
+   "setp": {
+    "t": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.482,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.404,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "POINT AT THE SUN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S62",
+   "ch": 5,
+   "size": "pan",
+   "vo": "Odyssey carries four wheels.",
+   "dir": "simple; stress 'four'",
+   "set": "wheels",
+   "setp": {
+    "t": 0.5,
+    "dead": 0.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.277,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.464,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "4 WHEELS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S63",
+   "ch": 5,
+   "size": "low",
+   "vo": "One of them already died back in twenty thirteen.",
+   "dir": "flat; stress 'twenty thirteen'",
+   "set": "wheels",
+   "setp": {
+    "t": 0.5,
+    "dead": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.503,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.66,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "2013"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "FAILED",
+     "value": "2013"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S64",
+   "ch": 5,
+   "size": "close",
+   "vo": "Now a second one has stopped. That leaves two.",
+   "dir": "grim; stress 'two'",
+   "set": "wheels",
+   "setp": {
+    "t": 0.9,
+    "dead": 2.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.381,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.551,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "2 LEFT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S65",
+   "ch": 5,
+   "size": "insert",
+   "vo": "And the rule is simple. You need at least three.",
+   "dir": "firm; stress 'at least three'",
+   "set": "wheels",
+   "setp": {
+    "t": 1.0,
+    "dead": 2.0,
+    "need": 1.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.554,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.413,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "NEEDED",
+     "value": "AT LEAST 3"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S66",
+   "ch": 5,
+   "size": "wide",
+   "vo": "Without three, you steer with thrusters alone.",
+   "dir": "hushed; stress 'thrusters'",
+   "set": "orbiter",
+   "setp": {
+    "t": 0.9,
+    "tilt": 1.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.457,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.503,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "crouch",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "crouch"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "THRUSTERS ONLY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S67",
+   "ch": 6,
+   "size": "med",
+   "vo": "Thrusters burn hydrazine, and Odyssey has been up there a long time.",
+   "dir": "slow; stress 'long time'",
+   "set": "fuel",
+   "setp": {
+    "t": 0.2,
+    "frac": 0.4,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.469,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.472,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "HYDRAZINE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S68",
+   "ch": 6,
+   "size": "insert",
+   "vo": "After twenty-five years, the tank is far from full.",
+   "dir": "grim; stress 'far from full'",
+   "set": "fuel",
+   "setp": {
+    "t": 0.5,
+    "frac": 0.25,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.638,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.495,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "YEARS ON ORBIT",
+     "value": "25"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S69",
+   "ch": 6,
+   "size": "close",
+   "vo": "The team estimates enough fuel to steer alone for one to two months.",
+   "dir": "urgent; stress 'one to two months'",
+   "set": "fuel",
+   "setp": {
+    "t": 0.9,
+    "frac": 0.15,
+    "range": 1.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.442,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.638,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "~60 DAYS"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "1 TO 2 MONTHS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S70",
+   "ch": 6,
+   "size": "low",
+   "vo": "That is a clock, and nobody can pause it.",
+   "dir": "dry; stress 'nobody'",
+   "set": "fuel",
+   "setp": {
+    "t": 1.0,
+    "frac": 0.08,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.467,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.699,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 12,
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "THE CLOCK RUNS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S71",
+   "ch": 6,
+   "size": "pan",
+   "vo": "They are still refining that estimate, so the number could move.",
+   "dir": "honest; stress 'could move'",
+   "set": "fuel",
+   "setp": {
+    "t": 0.5,
+    "frac": 0.18,
+    "range": 0.6,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.34,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.518,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "front",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "ESTIMATE STILL MOVING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S72",
+   "ch": 6,
+   "size": "wide",
+   "vo": "Meanwhile the rover's backup mail carrier is limping.",
+   "dir": "wry, tense; stress 'limping'",
+   "set": "relay",
+   "setp": {
+    "t": 0.9,
+    "cut": 0.9,
+    "direct": 0.6,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.53,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.545,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "BOTH RELAYS SHAKY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S73",
+   "ch": 6,
+   "size": "close",
+   "vo": "Two sick machines, on one planet, in the same fortnight.",
+   "dir": "quick; stress 'same fortnight'",
+   "set": "mcc",
+   "setp": {
+    "t": 0.9,
+    "alert": 0.8
+   },
+   "cam": [
+    [
+     0.398,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.612,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "orange",
+     "text": "2 MACHINES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S74",
+   "ch": 6,
+   "size": "tilt",
+   "vo": "Remember the heartbeat? Mission control is listening to a heartbeat too.",
+   "dir": "knowing; stress 'listening'",
+   "set": "mcc",
+   "setp": {
+    "t": 0.6,
+    "alert": 0.7
+   },
+   "cam": [
+    [
+     0.486,
+     0.8,
+     1.3
+    ],
+    [
+     0.5,
+     0.263,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "LISTENING CLOSELY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S75",
+   "ch": 7,
+   "size": "med",
+   "vo": "So the teams run tests. One at a time, carefully.",
+   "dir": "calm, hopeful; stress 'carefully'",
+   "set": "mcc",
+   "setp": {
+    "t": 0.9,
+    "alert": 0.3,
+    "calm": 0.4
+   },
+   "cam": [
+    [
+     0.46,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.536,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "TESTING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S76",
+   "ch": 7,
+   "size": "insert",
+   "vo": "They command the stuck wheel to move.",
+   "dir": "slow, tense; stress 'move'",
+   "set": "wheels",
+   "setp": {
+    "t": 0.3,
+    "dead": 1.4,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.628,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.482,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "wheel",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "dead": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "COMMAND: MOVE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S77",
+   "ch": 7,
+   "size": "close",
+   "vo": "And in one test, it does.",
+   "dir": "breaking into a smile; stress 'it does'",
+   "set": "wheels",
+   "setp": {
+    "t": 0.7,
+    "dead": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.364,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.592,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "wheel",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "spin": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "green",
+     "text": "IT MOVED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.35
+    },
+    {
+     "clip": "ding",
+     "at": 0.5,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S78",
+   "ch": 7,
+   "size": "pullout",
+   "vo": "Whether it is truly recoverable, they don't know yet.",
+   "dir": "honest, measured; stress 'don't know'",
+   "set": "wheels",
+   "setp": {
+    "t": 1.0,
+    "dead": 1.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.498,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.466,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "NOT YET PROVEN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S79",
+   "ch": 7,
+   "size": "wide",
+   "vo": "Odyssey is out of safe mode, but its science is still off.",
+   "dir": "steady; stress 'still off'",
+   "set": "orbiter",
+   "setp": {
+    "t": 0.8,
+    "tilt": 0.1,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.543,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.47,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "side",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "OUT OF SAFE MODE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S80",
+   "ch": 7,
+   "size": "panr",
+   "vo": "The goal is science and relay back by late November.",
+   "dir": "hopeful; stress 'last week'",
+   "set": "timeline",
+   "setp": {
+    "t": 0.9,
+    "now": 0.9,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.719,
+     0.5,
+     1.3
+    ],
+    [
+     0.3,
+     0.469,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "END NOV"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "TARGET",
+     "value": "LAST WEEK OF NOV"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S81",
+   "ch": 7,
+   "size": "high",
+   "vo": "Perseverance hopes to be back doing science by the end of the month.",
+   "dir": "hopeful; stress 'end of the month'",
+   "set": "marsfield",
+   "setp": {
+    "t": 0.8,
+    "dark": 0.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.502,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.437,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "rover",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "ROVER TARGET",
+     "value": "END NOV"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S82",
+   "ch": 8,
+   "size": "close",
+   "vo": "So back to the hundred seconds of silence.",
+   "dir": "quiet, reflective; stress 'silence'",
+   "set": "heartbeat",
+   "setp": {
+    "t": 1.0,
+    "missed": 25.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.358,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.551,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "heart",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "flat": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "100 SECONDS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S83",
+   "ch": 8,
+   "size": "wide",
+   "vo": "The rover did not break. It did what it was built to do.",
+   "dir": "warm; stress 'exactly'",
+   "set": "marsfield",
+   "setp": {
+    "t": 0.6,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.489,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.52,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "rover",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "FAULT PROTECTION WORKED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S84",
+   "ch": 8,
+   "size": "pullout",
+   "vo": "It noticed the silence, swapped, and protected itself.",
+   "dir": "steady; stress 'protected'",
+   "set": "relay",
+   "setp": {
+    "t": 0.8,
+    "relay": 0.7,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.51,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.475,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NOTICE. SWAP. PROTECT."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S85",
+   "ch": 8,
+   "size": "insert",
+   "vo": "Out there, listening for a heartbeat is how you stay alive.",
+   "dir": "gentle; stress 'stay alive'",
+   "set": "heartbeat",
+   "setp": {
+    "t": 0.7,
+    "missed": 0.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.605,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.451,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "heart",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "PING. RESET."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    },
+    {
+     "clip": "ding",
+     "at": 0.6,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S86",
+   "ch": 8,
+   "size": "med",
+   "vo": "Which would you fix first, the rover or the orbiter?",
+   "dir": "inviting; stress 'first'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.535,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.46,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "rover",
+     "x": 0.4,
+     "y": 0.55,
+     "s": 1.0,
+     "z": "back"
+    },
+    {
+     "k": "wheel",
+     "x": 0.75,
+     "y": 0.55,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "spin": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "FIX WHICH?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S87",
+   "ch": 8,
+   "size": "close",
+   "vo": "Tell me in the comments.",
+   "dir": "friendly",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.367,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.607,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "COMMENT BELOW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S88",
+   "ch": 8,
+   "size": "wide",
+   "vo": "Tomorrow: what if tonight's supermoon hung even closer?",
+   "dir": "teasing; stress 'Tomorrow'",
+   "set": "marsfield",
+   "setp": {
+    "t": 0.9,
+    "dark": 0.8,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.533,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.473,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "sideL",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "TOMORROW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  }
+ ],
+ "short": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "wide",
+   "vo": "For one hundred seconds, a rover on Mars heard nothing.",
+   "dir": "hushed then hard stop; stress 'nothing'",
+   "set": "marsfield",
+   "setp": {
+    "t": 0.2,
+    "dark": 0.2,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.474,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.504,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "sideL",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "props": [
+    {
+     "k": "rover",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "100 SEC"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "word": "nothing",
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "close",
+   "vo": "Its radio stopped sending its heartbeat.",
+   "dir": "quick; stress 'heartbeat'",
+   "set": "heartbeat",
+   "setp": {
+    "t": 0.8,
+    "missed": 10.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.407,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.593,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "MISSED",
+     "value": "10"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "insert",
+   "vo": "Twenty-five missed pings, and the computer pulled the plug.",
+   "dir": "sharp; stress 'twenty-five'",
+   "set": "heartbeat",
+   "setp": {
+    "t": 1.0,
+    "missed": 25.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.602,
+     0.45,
+     1.9
+    ],
+    [
+     0.55,
+     0.481,
+     1.71
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "heart",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "flat": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "25 MISSED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "med",
+   "vo": "It swapped to the backup radio and went into safe mode.",
+   "dir": "brisk; stress 'safe mode'",
+   "set": "relay",
+   "setp": {
+    "t": 0.5,
+    "relay": 0.5,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.521,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.534,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "radio",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "led": "green"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "BACKUP RADIO"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "close",
+   "vo": "But the backup is only at half power.",
+   "dir": "flat; stress 'half'",
+   "set": "relay",
+   "setp": {
+    "t": 0.9,
+    "relay": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.351,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.561,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "radio",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "half": true,
+      "led": "amber"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "HALF POWER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 0,
+   "size": "wide",
+   "vo": "So NASA parked both radios and talks straight to Earth.",
+   "dir": "clear; stress 'straight to Earth'",
+   "set": "relay",
+   "setp": {
+    "t": 1.0,
+    "direct": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.514,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.493,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "dish",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "DIRECT TO EARTH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 0,
+   "size": "low",
+   "vo": "Slower link, so science and photos are paused.",
+   "dir": "dry; stress 'paused'",
+   "set": "marsfield",
+   "setp": {
+    "t": 0.9,
+    "dark": 0.4
+   },
+   "cam": [
+    [
+     0.477,
+     0.75,
+     1.14
+    ],
+    [
+     0.5,
+     0.699,
+     1.28
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "crouch",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "crouch"
+   },
+   "props": [
+    {
+     "k": "rover",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "dim": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "SCIENCE",
+     "value": "PAUSED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 0,
+   "size": "insert",
+   "vo": "Meanwhile Odyssey, twenty-five years old, lost a wheel.",
+   "dir": "urgent; stress 'lost a wheel'",
+   "set": "wheels",
+   "setp": {
+    "t": 0.7,
+    "dead": 2.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.648,
+     0.45,
+     1.9
+    ],
+    [
+     0.55,
+     0.405,
+     1.71
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "WHEELS LEFT",
+     "value": "2 OF 4"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 0,
+   "size": "close",
+   "vo": "It needs three, and has fuel for one to two months without them.",
+   "dir": "building; stress 'one to two months'",
+   "set": "fuel",
+   "setp": {
+    "t": 0.9,
+    "frac": 0.15,
+    "range": 1.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.372,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.643,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "1-2 MONTHS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 0,
+   "size": "med",
+   "vo": "One test, the wheel moved. NASA hopes both are back by month end.",
+   "dir": "hopeful; stress 'moved'",
+   "set": "wheels",
+   "setp": {
+    "t": 1.0,
+    "dead": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.457,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.493,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "wheel",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "spin": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "BACK BY END NOV"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "ch": 0,
+   "size": "wide",
+   "vo": "Full film on the channel. Out there, silence is the scariest sound.",
+   "dir": "friendly, leading back to the start; stress 'silence'",
+   "set": "marsfield",
+   "setp": {
+    "t": 0.2,
+    "dark": 0.2,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.478,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.5,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "sideL",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "props": [
+    {
+     "k": "rover",
+     "x": 0.64,
+     "y": 0.55,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "100 SEC"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  }
+ ],
+ "_doc": "Written by Hark 23 Nov 2026."
+}

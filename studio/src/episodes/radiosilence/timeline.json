@@ -1,0 +1,1523 @@
+{
+ "slug": "radiosilence",
+ "title": "WHAT IF MARS WENT SILENT FOR 100 SECONDS?",
+ "fps": 30,
+ "total": 8770,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 104,
+   "t0": 0,
+   "t1": 104,
+   "line": "For one hundred seconds, a rover on Mars heard nothing."
+  },
+  {
+   "shot": "S2",
+   "a": 104,
+   "b": 168,
+   "t0": 0,
+   "t1": 64,
+   "line": "Its own radio had gone quiet."
+  },
+  {
+   "shot": "S3",
+   "a": 168,
+   "b": 263,
+   "t0": 0,
+   "t1": 95,
+   "line": "And the brain on board noticed every missing beat."
+  },
+  {
+   "shot": "S4",
+   "a": 263,
+   "b": 351,
+   "t0": 0,
+   "t1": 88,
+   "line": "Twenty-five in a row, and it pulled the plug."
+  },
+  {
+   "shot": "S5",
+   "a": 351,
+   "b": 474,
+   "t0": 0,
+   "t1": 123,
+   "line": "This is NASA's Perseverance, and it is still in trouble today."
+  },
+  {
+   "shot": "S6",
+   "a": 474,
+   "b": 574,
+   "t0": 0,
+   "t1": 100,
+   "line": "So what if you were the one stuck inside it?"
+  },
+  {
+   "shot": "S7",
+   "a": 574,
+   "b": 682,
+   "t0": 0,
+   "t1": 108,
+   "line": "Here is the rule. Your radio must say hello to your brain."
+  },
+  {
+   "shot": "S8",
+   "a": 682,
+   "b": 796,
+   "t0": 0,
+   "t1": 114,
+   "line": "A little ping, again and again, about every four seconds."
+  },
+  {
+   "shot": "S9",
+   "a": 796,
+   "b": 902,
+   "t0": 0,
+   "t1": 106,
+   "line": "Each ping resets a counter inside the main computer."
+  },
+  {
+   "shot": "S10",
+   "a": 902,
+   "b": 1030,
+   "t0": 0,
+   "t1": 128,
+   "line": "Ping, reset. Ping, reset. You barely notice it."
+  },
+  {
+   "shot": "S11",
+   "a": 1030,
+   "b": 1109,
+   "t0": 0,
+   "t1": 79,
+   "line": "But if the pings stop, the counter keeps climbing."
+  },
+  {
+   "shot": "S12",
+   "a": 1109,
+   "b": 1213,
+   "t0": 0,
+   "t1": 104,
+   "line": "Hit the limit, and the computer assumes the radio is dead."
+  },
+  {
+   "shot": "S13",
+   "a": 1213,
+   "b": 1344,
+   "t0": 0,
+   "t1": 131,
+   "line": "Thirty October. Your alarm goes off, you power on for the day."
+  },
+  {
+   "shot": "S14",
+   "a": 1344,
+   "b": 1419,
+   "t0": 0,
+   "t1": 75,
+   "line": "Your main radio is supposed to wake up with you."
+  },
+  {
+   "shot": "S15",
+   "a": 1419,
+   "b": 1474,
+   "t0": 0,
+   "t1": 55,
+   "line": "It doesn't send a single ping."
+  },
+  {
+   "shot": "S16",
+   "a": 1474,
+   "b": 1559,
+   "t0": 0,
+   "t1": 85,
+   "line": "One missed. Then five. Then ten."
+  },
+  {
+   "shot": "S17",
+   "a": 1559,
+   "b": 1645,
+   "t0": 0,
+   "t1": 86,
+   "line": "You can't feel it, but your computer is counting."
+  },
+  {
+   "shot": "S18",
+   "a": 1645,
+   "b": 1770,
+   "t0": 0,
+   "t1": 125,
+   "line": "At twenty-five, that is about a hundred seconds of silence."
+  },
+  {
+   "shot": "S19",
+   "a": 1770,
+   "b": 1866,
+   "t0": 0,
+   "t1": 96,
+   "line": "Your computer does not panic. It follows a script."
+  },
+  {
+   "shot": "S20",
+   "a": 1866,
+   "b": 1966,
+   "t0": 0,
+   "t1": 100,
+   "line": "Step one. Power off the radio that stopped talking."
+  },
+  {
+   "shot": "S21",
+   "a": 1966,
+   "b": 2085,
+   "t0": 0,
+   "t1": 119,
+   "line": "Step two. Swap to the backup radio, an identical twin."
+  },
+  {
+   "shot": "S22",
+   "a": 2085,
+   "b": 2203,
+   "t0": 0,
+   "t1": 118,
+   "line": "Step three. Shut everything non-essential down. Safe mode."
+  },
+  {
+   "shot": "S23",
+   "a": 2203,
+   "b": 2322,
+   "t0": 0,
+   "t1": 119,
+   "line": "Cameras off. Arm still. Wheels still. You wait."
+  },
+  {
+   "shot": "S24",
+   "a": 2322,
+   "b": 2407,
+   "t0": 0,
+   "t1": 85,
+   "line": "Ground teams on Earth bring the rover back out of it."
+  },
+  {
+   "shot": "S25",
+   "a": 2407,
+   "b": 2515,
+   "t0": 0,
+   "t1": 108,
+   "line": "Good news. You're awake, and the backup radio works."
+  },
+  {
+   "shot": "S26",
+   "a": 2515,
+   "b": 2621,
+   "t0": 0,
+   "t1": 106,
+   "line": "Then the engineers read the data, and find a second problem."
+  },
+  {
+   "shot": "S27",
+   "a": 2621,
+   "b": 2727,
+   "t0": 0,
+   "t1": 106,
+   "line": "The backup is only transmitting at about half its expected power."
+  },
+  {
+   "shot": "S28",
+   "a": 2727,
+   "b": 2791,
+   "t0": 0,
+   "t1": 64,
+   "line": "So now both radios are in doubt."
+  },
+  {
+   "shot": "S29",
+   "a": 2791,
+   "b": 2899,
+   "t0": 0,
+   "t1": 108,
+   "line": "NASA stops using either one until it is sure they're safe."
+  },
+  {
+   "shot": "S30",
+   "a": 2899,
+   "b": 3011,
+   "t0": 0,
+   "t1": 112,
+   "line": "A radio you cannot trust is worse than silence."
+  },
+  {
+   "shot": "S31",
+   "a": 3011,
+   "b": 3098,
+   "t0": 0,
+   "t1": 87,
+   "line": "So how do you talk to Earth with no relay radio?"
+  },
+  {
+   "shot": "S32",
+   "a": 3098,
+   "b": 3216,
+   "t0": 0,
+   "t1": 118,
+   "line": "Normally, your radios hand data up to an orbiter overhead."
+  },
+  {
+   "shot": "S33",
+   "a": 3216,
+   "b": 3309,
+   "t0": 0,
+   "t1": 93,
+   "line": "The orbiter has a big dish and a quick path to Earth."
+  },
+  {
+   "shot": "S34",
+   "a": 3309,
+   "b": 3402,
+   "t0": 0,
+   "t1": 93,
+   "line": "That is the fast lane for pictures, and lots of them."
+  },
+  {
+   "shot": "S35",
+   "a": 3402,
+   "b": 3505,
+   "t0": 0,
+   "t1": 103,
+   "line": "With both relay radios parked, you have one option left."
+  },
+  {
+   "shot": "S36",
+   "a": 3505,
+   "b": 3599,
+   "t0": 0,
+   "t1": 94,
+   "line": "Shout straight at Earth, using your big white dish."
+  },
+  {
+   "shot": "S37",
+   "a": 3599,
+   "b": 3697,
+   "t0": 0,
+   "t1": 98,
+   "line": "It is called the high-gain antenna, on the X-band."
+  },
+  {
+   "shot": "S38",
+   "a": 3697,
+   "b": 3798,
+   "t0": 0,
+   "t1": 101,
+   "line": "NASA's Deep Space Network dishes on Earth listen for you."
+  },
+  {
+   "shot": "S39",
+   "a": 3798,
+   "b": 3899,
+   "t0": 0,
+   "t1": 101,
+   "line": "The catch. The data rate is significantly lower."
+  },
+  {
+   "shot": "S40",
+   "a": 3899,
+   "b": 4011,
+   "t0": 0,
+   "t1": 112,
+   "line": "It is like going from fibre broadband to a dial-up modem."
+  },
+  {
+   "shot": "S41",
+   "a": 4011,
+   "b": 4109,
+   "t0": 0,
+   "t1": 98,
+   "line": "So you do the sensible thing. You save the bandwidth."
+  },
+  {
+   "shot": "S42",
+   "a": 4109,
+   "b": 4226,
+   "t0": 0,
+   "t1": 117,
+   "line": "Everything left in the pipe goes to diagnostics. Not science."
+  },
+  {
+   "shot": "S43",
+   "a": 4226,
+   "b": 4291,
+   "t0": 0,
+   "t1": 65,
+   "line": "Science and instrument work are paused."
+  },
+  {
+   "shot": "S44",
+   "a": 4291,
+   "b": 4417,
+   "t0": 0,
+   "t1": 126,
+   "line": "No new pictures. The raw image feed on the website goes quiet."
+  },
+  {
+   "shot": "S45",
+   "a": 4417,
+   "b": 4544,
+   "t0": 0,
+   "t1": 127,
+   "line": "For a camera-mad rover, that is a very long weekend."
+  },
+  {
+   "shot": "S46",
+   "a": 4544,
+   "b": 4627,
+   "t0": 0,
+   "t1": 83,
+   "line": "And the rover is not the only machine in trouble."
+  },
+  {
+   "shot": "S47",
+   "a": 4627,
+   "b": 4741,
+   "t0": 0,
+   "t1": 114,
+   "line": "Meet Mars Odyssey, the orbiter that carries the rover's mail."
+  },
+  {
+   "shot": "S48",
+   "a": 4741,
+   "b": 4815,
+   "t0": 0,
+   "t1": 74,
+   "line": "It launched in April two thousand one."
+  },
+  {
+   "shot": "S49",
+   "a": 4815,
+   "b": 4888,
+   "t0": 0,
+   "t1": 73,
+   "line": "It reached Mars orbit that October."
+  },
+  {
+   "shot": "S50",
+   "a": 4888,
+   "b": 4982,
+   "t0": 0,
+   "t1": 94,
+   "line": "It was designed to work for just over two and a half years."
+  },
+  {
+   "shot": "S51",
+   "a": 4982,
+   "b": 5068,
+   "t0": 0,
+   "t1": 86,
+   "line": "It has now orbited Mars for twenty-five years."
+  },
+  {
+   "shot": "S52",
+   "a": 5068,
+   "b": 5163,
+   "t0": 0,
+   "t1": 95,
+   "line": "Longer than any other mission has ever worked at the Red Planet."
+  },
+  {
+   "shot": "S53",
+   "a": 5163,
+   "b": 5278,
+   "t0": 0,
+   "t1": 115,
+   "line": "It mapped the whole surface, and found buried ice a metre down."
+  },
+  {
+   "shot": "S54",
+   "a": 5278,
+   "b": 5370,
+   "t0": 0,
+   "t1": 92,
+   "line": "It also relayed the first pictures from four landers."
+  },
+  {
+   "shot": "S55",
+   "a": 5370,
+   "b": 5479,
+   "t0": 0,
+   "t1": 109,
+   "line": "Phoenix. Spirit. Opportunity. Curiosity."
+  },
+  {
+   "shot": "S56",
+   "a": 5479,
+   "b": 5609,
+   "t0": 0,
+   "t1": 130,
+   "line": "So when Odyssey stumbles, the whole Mars network feels it."
+  },
+  {
+   "shot": "S57",
+   "a": 5609,
+   "b": 5733,
+   "t0": 0,
+   "t1": 124,
+   "line": "Between the fourth and sixth of November, Odyssey went into safe mode."
+  },
+  {
+   "shot": "S58",
+   "a": 5733,
+   "b": 5823,
+   "t0": 0,
+   "t1": 90,
+   "line": "Engineers found a reaction wheel had stopped spinning."
+  },
+  {
+   "shot": "S59",
+   "a": 5823,
+   "b": 5920,
+   "t0": 0,
+   "t1": 97,
+   "line": "Think of reaction wheels as the spacecraft's steering."
+  },
+  {
+   "shot": "S60",
+   "a": 5920,
+   "b": 6033,
+   "t0": 0,
+   "t1": 113,
+   "line": "Speed one up or slow it down, and the whole craft turns."
+  },
+  {
+   "shot": "S61",
+   "a": 6033,
+   "b": 6116,
+   "t0": 0,
+   "t1": 83,
+   "line": "That keeps its solar panels pointed at the Sun."
+  },
+  {
+   "shot": "S62",
+   "a": 6116,
+   "b": 6176,
+   "t0": 0,
+   "t1": 60,
+   "line": "Odyssey carries four wheels."
+  },
+  {
+   "shot": "S63",
+   "a": 6176,
+   "b": 6263,
+   "t0": 0,
+   "t1": 87,
+   "line": "One of them already died back in twenty thirteen."
+  },
+  {
+   "shot": "S64",
+   "a": 6263,
+   "b": 6357,
+   "t0": 0,
+   "t1": 94,
+   "line": "Now a second one has stopped. That leaves two."
+  },
+  {
+   "shot": "S65",
+   "a": 6357,
+   "b": 6450,
+   "t0": 0,
+   "t1": 93,
+   "line": "And the rule is simple. You need at least three."
+  },
+  {
+   "shot": "S66",
+   "a": 6450,
+   "b": 6563,
+   "t0": 0,
+   "t1": 113,
+   "line": "Without three, you steer with thrusters alone."
+  },
+  {
+   "shot": "S67",
+   "a": 6563,
+   "b": 6694,
+   "t0": 0,
+   "t1": 131,
+   "line": "Thrusters burn hydrazine, and Odyssey has been up there a long time."
+  },
+  {
+   "shot": "S68",
+   "a": 6694,
+   "b": 6794,
+   "t0": 0,
+   "t1": 100,
+   "line": "After twenty-five years, the tank is far from full."
+  },
+  {
+   "shot": "S69",
+   "a": 6794,
+   "b": 6914,
+   "t0": 0,
+   "t1": 120,
+   "line": "The team estimates enough fuel to steer alone for one to two months."
+  },
+  {
+   "shot": "S70",
+   "a": 6914,
+   "b": 6989,
+   "t0": 0,
+   "t1": 75,
+   "line": "That is a clock, and nobody can pause it."
+  },
+  {
+   "shot": "S71",
+   "a": 6989,
+   "b": 7098,
+   "t0": 0,
+   "t1": 109,
+   "line": "They are still refining that estimate, so the number could move."
+  },
+  {
+   "shot": "S72",
+   "a": 7098,
+   "b": 7194,
+   "t0": 0,
+   "t1": 96,
+   "line": "Meanwhile the rover's backup mail carrier is limping."
+  },
+  {
+   "shot": "S73",
+   "a": 7194,
+   "b": 7316,
+   "t0": 0,
+   "t1": 122,
+   "line": "Two sick machines, on one planet, in the same fortnight."
+  },
+  {
+   "shot": "S74",
+   "a": 7316,
+   "b": 7392,
+   "t0": 0,
+   "t1": 76,
+   "line": "Remember the heartbeat? Mission control is listening to a heartbeat too."
+  },
+  {
+   "shot": "S74",
+   "a": 7392,
+   "b": 7469,
+   "t0": 76,
+   "t1": 153,
+   "line": "Remember the heartbeat? Mission control is listening to a heartbeat too."
+  },
+  {
+   "shot": "S75",
+   "a": 7469,
+   "b": 7579,
+   "t0": 0,
+   "t1": 110,
+   "line": "So the teams run tests. One at a time, carefully."
+  },
+  {
+   "shot": "S76",
+   "a": 7579,
+   "b": 7648,
+   "t0": 0,
+   "t1": 69,
+   "line": "They command the stuck wheel to move."
+  },
+  {
+   "shot": "S77",
+   "a": 7648,
+   "b": 7706,
+   "t0": 0,
+   "t1": 58,
+   "line": "And in one test, it does."
+  },
+  {
+   "shot": "S78",
+   "a": 7706,
+   "b": 7795,
+   "t0": 0,
+   "t1": 89,
+   "line": "Whether it is truly recoverable, they don't know yet."
+  },
+  {
+   "shot": "S79",
+   "a": 7795,
+   "b": 7901,
+   "t0": 0,
+   "t1": 106,
+   "line": "Odyssey is out of safe mode, but its science is still off."
+  },
+  {
+   "shot": "S80",
+   "a": 7901,
+   "b": 7993,
+   "t0": 0,
+   "t1": 92,
+   "line": "The goal is science and relay back by late November."
+  },
+  {
+   "shot": "S81",
+   "a": 7993,
+   "b": 8127,
+   "t0": 0,
+   "t1": 134,
+   "line": "Perseverance hopes to be back doing science by the end of the month."
+  },
+  {
+   "shot": "S82",
+   "a": 8127,
+   "b": 8201,
+   "t0": 0,
+   "t1": 74,
+   "line": "So back to the hundred seconds of silence."
+  },
+  {
+   "shot": "S83",
+   "a": 8201,
+   "b": 8296,
+   "t0": 0,
+   "t1": 95,
+   "line": "The rover did not break. It did what it was built to do."
+  },
+  {
+   "shot": "S84",
+   "a": 8296,
+   "b": 8399,
+   "t0": 0,
+   "t1": 103,
+   "line": "It noticed the silence, swapped, and protected itself."
+  },
+  {
+   "shot": "S85",
+   "a": 8399,
+   "b": 8507,
+   "t0": 0,
+   "t1": 108,
+   "line": "Out there, listening for a heartbeat is how you stay alive."
+  },
+  {
+   "shot": "S86",
+   "a": 8507,
+   "b": 8597,
+   "t0": 0,
+   "t1": 90,
+   "line": "Which would you fix first, the rover or the orbiter?"
+  },
+  {
+   "shot": "S87",
+   "a": 8597,
+   "b": 8638,
+   "t0": 0,
+   "t1": 41,
+   "line": "Tell me in the comments."
+  },
+  {
+   "shot": "S88",
+   "a": 8638,
+   "b": 8770,
+   "t0": 0,
+   "t1": 132,
+   "line": "Tomorrow: what if tonight's supermoon hung even closer?"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 64,
+   "len": 104,
+   "first": 0,
+   "line": "For one hundred seconds, a rover on Mars heard nothing.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "close",
+   "key": 40,
+   "len": 64,
+   "first": 104,
+   "line": "Its own radio had gone quiet.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "insert",
+   "key": 59,
+   "len": 95,
+   "first": 168,
+   "line": "And the brain on board noticed every missing beat.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "close",
+   "key": 55,
+   "len": 88,
+   "first": 263,
+   "line": "Twenty-five in a row, and it pulled the plug.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "med",
+   "key": 76,
+   "len": 123,
+   "first": 351,
+   "line": "This is NASA's Perseverance, and it is still in trouble today.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "close",
+   "key": 62,
+   "len": 100,
+   "first": 474,
+   "line": "So what if you were the one stuck inside it?",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "wide",
+   "key": 67,
+   "len": 108,
+   "first": 574,
+   "line": "Here is the rule. Your radio must say hello to your brain.",
+   "note": "ch1"
+  },
+  {
+   "id": "S8",
+   "size": "insert",
+   "key": 71,
+   "len": 114,
+   "first": 682,
+   "line": "A little ping, again and again, about every four seconds.",
+   "note": "ch1"
+  },
+  {
+   "id": "S9",
+   "size": "close",
+   "key": 66,
+   "len": 106,
+   "first": 796,
+   "line": "Each ping resets a counter inside the main computer.",
+   "note": "ch1"
+  },
+  {
+   "id": "S10",
+   "size": "low",
+   "key": 79,
+   "len": 128,
+   "first": 902,
+   "line": "Ping, reset. Ping, reset. You barely notice it.",
+   "note": "ch1"
+  },
+  {
+   "id": "S11",
+   "size": "pullout",
+   "key": 49,
+   "len": 79,
+   "first": 1030,
+   "line": "But if the pings stop, the counter keeps climbing.",
+   "note": "ch1"
+  },
+  {
+   "id": "S12",
+   "size": "close",
+   "key": 64,
+   "len": 104,
+   "first": 1109,
+   "line": "Hit the limit, and the computer assumes the radio is dead.",
+   "note": "ch1"
+  },
+  {
+   "id": "S13",
+   "size": "high",
+   "key": 81,
+   "len": 131,
+   "first": 1213,
+   "line": "Thirty October. Your alarm goes off, you power on for the day.",
+   "note": "ch1"
+  },
+  {
+   "id": "S14",
+   "size": "med",
+   "key": 46,
+   "len": 75,
+   "first": 1344,
+   "line": "Your main radio is supposed to wake up with you.",
+   "note": "ch1"
+  },
+  {
+   "id": "S15",
+   "size": "insert",
+   "key": 34,
+   "len": 55,
+   "first": 1419,
+   "line": "It doesn't send a single ping.",
+   "note": "ch1"
+  },
+  {
+   "id": "S16",
+   "size": "wide",
+   "key": 53,
+   "len": 85,
+   "first": 1474,
+   "line": "One missed. Then five. Then ten.",
+   "note": "ch1"
+  },
+  {
+   "id": "S17",
+   "size": "pan",
+   "key": 53,
+   "len": 86,
+   "first": 1559,
+   "line": "You can't feel it, but your computer is counting.",
+   "note": "ch1"
+  },
+  {
+   "id": "S18",
+   "size": "close",
+   "key": 78,
+   "len": 125,
+   "first": 1645,
+   "line": "At twenty-five, that is about a hundred seconds of silence.",
+   "note": "ch1"
+  },
+  {
+   "id": "S19",
+   "size": "med",
+   "key": 60,
+   "len": 96,
+   "first": 1770,
+   "line": "Your computer does not panic. It follows a script.",
+   "note": "ch2"
+  },
+  {
+   "id": "S20",
+   "size": "insert",
+   "key": 62,
+   "len": 100,
+   "first": 1866,
+   "line": "Step one. Power off the radio that stopped talking.",
+   "note": "ch2"
+  },
+  {
+   "id": "S21",
+   "size": "wide",
+   "key": 74,
+   "len": 119,
+   "first": 1966,
+   "line": "Step two. Swap to the backup radio, an identical twin.",
+   "note": "ch2"
+  },
+  {
+   "id": "S22",
+   "size": "low",
+   "key": 73,
+   "len": 118,
+   "first": 2085,
+   "line": "Step three. Shut everything non-essential down. Safe mode.",
+   "note": "ch2"
+  },
+  {
+   "id": "S23",
+   "size": "high",
+   "key": 74,
+   "len": 119,
+   "first": 2203,
+   "line": "Cameras off. Arm still. Wheels still. You wait.",
+   "note": "ch2"
+  },
+  {
+   "id": "S24",
+   "size": "pullout",
+   "key": 53,
+   "len": 85,
+   "first": 2322,
+   "line": "Ground teams on Earth bring the rover back out of it.",
+   "note": "ch2"
+  },
+  {
+   "id": "S25",
+   "size": "wide",
+   "key": 67,
+   "len": 108,
+   "first": 2407,
+   "line": "Good news. You're awake, and the backup radio works.",
+   "note": "ch2"
+  },
+  {
+   "id": "S26",
+   "size": "close",
+   "key": 66,
+   "len": 106,
+   "first": 2515,
+   "line": "Then the engineers read the data, and find a second problem.",
+   "note": "ch2"
+  },
+  {
+   "id": "S27",
+   "size": "insert",
+   "key": 66,
+   "len": 106,
+   "first": 2621,
+   "line": "The backup is only transmitting at about half its expected power.",
+   "note": "ch2"
+  },
+  {
+   "id": "S28",
+   "size": "med",
+   "key": 40,
+   "len": 64,
+   "first": 2727,
+   "line": "So now both radios are in doubt.",
+   "note": "ch2"
+  },
+  {
+   "id": "S29",
+   "size": "pan",
+   "key": 67,
+   "len": 108,
+   "first": 2791,
+   "line": "NASA stops using either one until it is sure they're safe.",
+   "note": "ch2"
+  },
+  {
+   "id": "S30",
+   "size": "close",
+   "key": 69,
+   "len": 112,
+   "first": 2899,
+   "line": "A radio you cannot trust is worse than silence.",
+   "note": "ch2"
+  },
+  {
+   "id": "S31",
+   "size": "wide",
+   "key": 54,
+   "len": 87,
+   "first": 3011,
+   "line": "So how do you talk to Earth with no relay radio?",
+   "note": "ch3"
+  },
+  {
+   "id": "S32",
+   "size": "pan",
+   "key": 73,
+   "len": 118,
+   "first": 3098,
+   "line": "Normally, your radios hand data up to an orbiter overhead.",
+   "note": "ch3"
+  },
+  {
+   "id": "S33",
+   "size": "high",
+   "key": 58,
+   "len": 93,
+   "first": 3216,
+   "line": "The orbiter has a big dish and a quick path to Earth.",
+   "note": "ch3"
+  },
+  {
+   "id": "S34",
+   "size": "insert",
+   "key": 58,
+   "len": 93,
+   "first": 3309,
+   "line": "That is the fast lane for pictures, and lots of them.",
+   "note": "ch3"
+  },
+  {
+   "id": "S35",
+   "size": "med",
+   "key": 64,
+   "len": 103,
+   "first": 3402,
+   "line": "With both relay radios parked, you have one option left.",
+   "note": "ch3"
+  },
+  {
+   "id": "S36",
+   "size": "wide",
+   "key": 58,
+   "len": 94,
+   "first": 3505,
+   "line": "Shout straight at Earth, using your big white dish.",
+   "note": "ch3"
+  },
+  {
+   "id": "S37",
+   "size": "close",
+   "key": 61,
+   "len": 98,
+   "first": 3599,
+   "line": "It is called the high-gain antenna, on the X-band.",
+   "note": "ch3"
+  },
+  {
+   "id": "S38",
+   "size": "pullout",
+   "key": 63,
+   "len": 101,
+   "first": 3697,
+   "line": "NASA's Deep Space Network dishes on Earth listen for you.",
+   "note": "ch3"
+  },
+  {
+   "id": "S39",
+   "size": "close",
+   "key": 63,
+   "len": 101,
+   "first": 3798,
+   "line": "The catch. The data rate is significantly lower.",
+   "note": "ch3"
+  },
+  {
+   "id": "S40",
+   "size": "med",
+   "key": 69,
+   "len": 112,
+   "first": 3899,
+   "line": "It is like going from fibre broadband to a dial-up modem.",
+   "note": "ch3"
+  },
+  {
+   "id": "S41",
+   "size": "high",
+   "key": 61,
+   "len": 98,
+   "first": 4011,
+   "line": "So you do the sensible thing. You save the bandwidth.",
+   "note": "ch3"
+  },
+  {
+   "id": "S42",
+   "size": "insert",
+   "key": 73,
+   "len": 117,
+   "first": 4109,
+   "line": "Everything left in the pipe goes to diagnostics. Not science.",
+   "note": "ch3"
+  },
+  {
+   "id": "S43",
+   "size": "wide",
+   "key": 40,
+   "len": 65,
+   "first": 4226,
+   "line": "Science and instrument work are paused.",
+   "note": "ch3"
+  },
+  {
+   "id": "S44",
+   "size": "low",
+   "key": 78,
+   "len": 126,
+   "first": 4291,
+   "line": "No new pictures. The raw image feed on the website goes quiet.",
+   "note": "ch3"
+  },
+  {
+   "id": "S45",
+   "size": "close",
+   "key": 79,
+   "len": 127,
+   "first": 4417,
+   "line": "For a camera-mad rover, that is a very long weekend.",
+   "note": "ch3"
+  },
+  {
+   "id": "S46",
+   "size": "wide",
+   "key": 51,
+   "len": 83,
+   "first": 4544,
+   "line": "And the rover is not the only machine in trouble.",
+   "note": "ch4"
+  },
+  {
+   "id": "S47",
+   "size": "high",
+   "key": 71,
+   "len": 114,
+   "first": 4627,
+   "line": "Meet Mars Odyssey, the orbiter that carries the rover's mail.",
+   "note": "ch4"
+  },
+  {
+   "id": "S48",
+   "size": "pan",
+   "key": 46,
+   "len": 74,
+   "first": 4741,
+   "line": "It launched in April two thousand one.",
+   "note": "ch4"
+  },
+  {
+   "id": "S49",
+   "size": "panr",
+   "key": 45,
+   "len": 73,
+   "first": 4815,
+   "line": "It reached Mars orbit that October.",
+   "note": "ch4"
+  },
+  {
+   "id": "S50",
+   "size": "insert",
+   "key": 58,
+   "len": 94,
+   "first": 4888,
+   "line": "It was designed to work for just over two and a half years.",
+   "note": "ch4"
+  },
+  {
+   "id": "S51",
+   "size": "close",
+   "key": 53,
+   "len": 86,
+   "first": 4982,
+   "line": "It has now orbited Mars for twenty-five years.",
+   "note": "ch4"
+  },
+  {
+   "id": "S52",
+   "size": "pullout",
+   "key": 59,
+   "len": 95,
+   "first": 5068,
+   "line": "Longer than any other mission has ever worked at the Red Planet.",
+   "note": "ch4"
+  },
+  {
+   "id": "S53",
+   "size": "low",
+   "key": 71,
+   "len": 115,
+   "first": 5163,
+   "line": "It mapped the whole surface, and found buried ice a metre down.",
+   "note": "ch4"
+  },
+  {
+   "id": "S54",
+   "size": "wide",
+   "key": 57,
+   "len": 92,
+   "first": 5278,
+   "line": "It also relayed the first pictures from four landers.",
+   "note": "ch4"
+  },
+  {
+   "id": "S55",
+   "size": "high",
+   "key": 68,
+   "len": 109,
+   "first": 5370,
+   "line": "Phoenix. Spirit. Opportunity. Curiosity.",
+   "note": "ch4"
+  },
+  {
+   "id": "S56",
+   "size": "pullout",
+   "key": 81,
+   "len": 130,
+   "first": 5479,
+   "line": "So when Odyssey stumbles, the whole Mars network feels it.",
+   "note": "ch4"
+  },
+  {
+   "id": "S57",
+   "size": "wide",
+   "key": 77,
+   "len": 124,
+   "first": 5609,
+   "line": "Between the fourth and sixth of November, Odyssey went into safe mode.",
+   "note": "ch5"
+  },
+  {
+   "id": "S58",
+   "size": "close",
+   "key": 56,
+   "len": 90,
+   "first": 5733,
+   "line": "Engineers found a reaction wheel had stopped spinning.",
+   "note": "ch5"
+  },
+  {
+   "id": "S59",
+   "size": "insert",
+   "key": 60,
+   "len": 97,
+   "first": 5823,
+   "line": "Think of reaction wheels as the spacecraft's steering.",
+   "note": "ch5"
+  },
+  {
+   "id": "S60",
+   "size": "med",
+   "key": 70,
+   "len": 113,
+   "first": 5920,
+   "line": "Speed one up or slow it down, and the whole craft turns.",
+   "note": "ch5"
+  },
+  {
+   "id": "S61",
+   "size": "high",
+   "key": 51,
+   "len": 83,
+   "first": 6033,
+   "line": "That keeps its solar panels pointed at the Sun.",
+   "note": "ch5"
+  },
+  {
+   "id": "S62",
+   "size": "pan",
+   "key": 37,
+   "len": 60,
+   "first": 6116,
+   "line": "Odyssey carries four wheels.",
+   "note": "ch5"
+  },
+  {
+   "id": "S63",
+   "size": "low",
+   "key": 54,
+   "len": 87,
+   "first": 6176,
+   "line": "One of them already died back in twenty thirteen.",
+   "note": "ch5"
+  },
+  {
+   "id": "S64",
+   "size": "close",
+   "key": 58,
+   "len": 94,
+   "first": 6263,
+   "line": "Now a second one has stopped. That leaves two.",
+   "note": "ch5"
+  },
+  {
+   "id": "S65",
+   "size": "insert",
+   "key": 58,
+   "len": 93,
+   "first": 6357,
+   "line": "And the rule is simple. You need at least three.",
+   "note": "ch5"
+  },
+  {
+   "id": "S66",
+   "size": "wide",
+   "key": 70,
+   "len": 113,
+   "first": 6450,
+   "line": "Without three, you steer with thrusters alone.",
+   "note": "ch5"
+  },
+  {
+   "id": "S67",
+   "size": "med",
+   "key": 81,
+   "len": 131,
+   "first": 6563,
+   "line": "Thrusters burn hydrazine, and Odyssey has been up there a long time.",
+   "note": "ch6"
+  },
+  {
+   "id": "S68",
+   "size": "insert",
+   "key": 62,
+   "len": 100,
+   "first": 6694,
+   "line": "After twenty-five years, the tank is far from full.",
+   "note": "ch6"
+  },
+  {
+   "id": "S69",
+   "size": "close",
+   "key": 74,
+   "len": 120,
+   "first": 6794,
+   "line": "The team estimates enough fuel to steer alone for one to two months.",
+   "note": "ch6"
+  },
+  {
+   "id": "S70",
+   "size": "low",
+   "key": 46,
+   "len": 75,
+   "first": 6914,
+   "line": "That is a clock, and nobody can pause it.",
+   "note": "ch6"
+  },
+  {
+   "id": "S71",
+   "size": "pan",
+   "key": 68,
+   "len": 109,
+   "first": 6989,
+   "line": "They are still refining that estimate, so the number could move.",
+   "note": "ch6"
+  },
+  {
+   "id": "S72",
+   "size": "wide",
+   "key": 60,
+   "len": 96,
+   "first": 7098,
+   "line": "Meanwhile the rover's backup mail carrier is limping.",
+   "note": "ch6"
+  },
+  {
+   "id": "S73",
+   "size": "close",
+   "key": 76,
+   "len": 122,
+   "first": 7194,
+   "line": "Two sick machines, on one planet, in the same fortnight.",
+   "note": "ch6"
+  },
+  {
+   "id": "S74",
+   "size": "tilt",
+   "key": 95,
+   "len": 153,
+   "first": 7316,
+   "line": "Remember the heartbeat? Mission control is listening to a heartbeat too.",
+   "note": "ch6"
+  },
+  {
+   "id": "S75",
+   "size": "med",
+   "key": 68,
+   "len": 110,
+   "first": 7469,
+   "line": "So the teams run tests. One at a time, carefully.",
+   "note": "ch7"
+  },
+  {
+   "id": "S76",
+   "size": "insert",
+   "key": 43,
+   "len": 69,
+   "first": 7579,
+   "line": "They command the stuck wheel to move.",
+   "note": "ch7"
+  },
+  {
+   "id": "S77",
+   "size": "close",
+   "key": 36,
+   "len": 58,
+   "first": 7648,
+   "line": "And in one test, it does.",
+   "note": "ch7"
+  },
+  {
+   "id": "S78",
+   "size": "pullout",
+   "key": 55,
+   "len": 89,
+   "first": 7706,
+   "line": "Whether it is truly recoverable, they don't know yet.",
+   "note": "ch7"
+  },
+  {
+   "id": "S79",
+   "size": "wide",
+   "key": 66,
+   "len": 106,
+   "first": 7795,
+   "line": "Odyssey is out of safe mode, but its science is still off.",
+   "note": "ch7"
+  },
+  {
+   "id": "S80",
+   "size": "panr",
+   "key": 57,
+   "len": 92,
+   "first": 7901,
+   "line": "The goal is science and relay back by late November.",
+   "note": "ch7"
+  },
+  {
+   "id": "S81",
+   "size": "high",
+   "key": 83,
+   "len": 134,
+   "first": 7993,
+   "line": "Perseverance hopes to be back doing science by the end of the month.",
+   "note": "ch7"
+  },
+  {
+   "id": "S82",
+   "size": "close",
+   "key": 46,
+   "len": 74,
+   "first": 8127,
+   "line": "So back to the hundred seconds of silence.",
+   "note": "ch8"
+  },
+  {
+   "id": "S83",
+   "size": "wide",
+   "key": 59,
+   "len": 95,
+   "first": 8201,
+   "line": "The rover did not break. It did what it was built to do.",
+   "note": "ch8"
+  },
+  {
+   "id": "S84",
+   "size": "pullout",
+   "key": 64,
+   "len": 103,
+   "first": 8296,
+   "line": "It noticed the silence, swapped, and protected itself.",
+   "note": "ch8"
+  },
+  {
+   "id": "S85",
+   "size": "insert",
+   "key": 67,
+   "len": 108,
+   "first": 8399,
+   "line": "Out there, listening for a heartbeat is how you stay alive.",
+   "note": "ch8"
+  },
+  {
+   "id": "S86",
+   "size": "med",
+   "key": 56,
+   "len": 90,
+   "first": 8507,
+   "line": "Which would you fix first, the rover or the orbiter?",
+   "note": "ch8"
+  },
+  {
+   "id": "S87",
+   "size": "close",
+   "key": 25,
+   "len": 41,
+   "first": 8597,
+   "line": "Tell me in the comments.",
+   "note": "ch8"
+  },
+  {
+   "id": "S88",
+   "size": "wide",
+   "key": 82,
+   "len": 132,
+   "first": 8638,
+   "line": "Tomorrow: what if tonight's supermoon hung even closer?",
+   "note": "ch8"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "radiosilence/voice.wav",
+  "sfx": "radiosilence/sfx.wav",
+  "music": "radiosilence/music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}
