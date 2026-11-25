@@ -846,7 +846,7 @@
    "text": [
     {
      "kind": "big",
-     "slot": "top",
+     "slot": "tl",
      "color": "red",
      "text": "IRON"
     }
@@ -1596,7 +1596,7 @@
    "text": [
     {
      "kind": "big",
-     "slot": "top",
+     "slot": "tl",
      "color": "red",
      "text": "GRAVITY WINS"
     }
@@ -3214,7 +3214,7 @@
    "text": [
     {
      "kind": "big",
-     "slot": "top",
+     "slot": "tl",
      "color": "gold",
      "text": "IT MERGED"
     }
@@ -3379,7 +3379,7 @@
    "text": [
     {
      "kind": "big",
-     "slot": "top",
+     "slot": "tl",
      "color": "red",
      "text": "VERY SHORTLY"
     }
@@ -4195,7 +4195,7 @@
    "text": [
     {
      "kind": "big",
-     "slot": "top",
+     "slot": "tl",
      "color": "gold",
      "text": "HOURS BEFORE"
     }
@@ -4396,7 +4396,7 @@
    "text": [
     {
      "kind": "big",
-     "slot": "top",
+     "slot": "tr",
      "color": "gold",
      "text": "YOUR PICK?"
     }
@@ -4883,7 +4883,7 @@
     ]
    ],
    "pip": {
-    "x": 0.3,
+    "x": 0.47,
     "pose": "stand",
     "expr": "neutral",
     "rim": "rimR",
