@@ -1,0 +1,8327 @@
+{
+ "slug": "quasar",
+ "id": "Quasar",
+ "title": [
+  "WHAT IF YOU RODE LIGHT",
+  "FOR 13 BILLION YEARS?"
+ ],
+ "accent": [
+  "13 BILLION YEARS"
+ ],
+ "voice": {
+  "voice_id": "pNInz6obpgDQGcFmaJgB",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.45,
+   "similarity_boost": 0.8,
+   "style": 0.34,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  }
+ },
+ "short_vo": {
+  "stability": 0.42,
+  "style": 0.4,
+  "speed": 1.03
+ },
+ "short_music": {
+  "mood": "mystery",
+  "energy": 0.85
+ },
+ "mix": {
+  "music_under": 17,
+  "sfx_under": 7,
+  "duck_db": 6
+ },
+ "sets": {
+  "quasar": "A quasar in the early universe. Deep-navy bg with a small reddish young galaxy of faint stars; in the centre a black hole as a pure black disc with a thin cream photon ring, wrapped in a huge flat tilted accretion disc of white-hot inner rings fading to orange and red outer rings, 4 px outlines on the disc edges; setp.t 0..1 = disc rotation and camera drift; setp.jets 0..1 = two thin cyan-white jets shoot up and down out of the poles; setp.feed 0..1 = streams of gas spiral in from the galaxy into the disc; setp.outshine 0..1 = a white glare blooms until the galaxy's stars fade under it; setp.close 0..1 = camera pushes right up to the photon ring; setp.glow 'gold'|'cyan'|'red'.",
+  "beam": "Riding a beam of light. Deep-navy bg of deep space with stars streaking past in parallax; a long glowing cream-white light ribbon runs left to right across the frame like a road with a wave pattern along it, Pip rides on top of it; setp.t 0..1 = speed of the streaks; setp.stretch 0..1 = the wave pattern on the ribbon stretches longer and the ribbon colour shifts from blue-white (0) to orange (0.5) to deep red (1); setp.grid 0..1 = a faint cream square grid behind everything stretches wider (space expanding); setp.glow 'gold'|'cyan'|'red'.",
+  "dawn": "The cosmic dawn. Dark navy-black bg filled with thick dark grey-violet hydrogen fog; the first stars pop on as big blue-white points with soft blooms, and around them round bubbles of clear space grow and merge; small reddish baby galaxies drift in the clear bubbles; setp.stars 0..1 = how many first stars are lit; setp.clear 0..1 = how much fog the bubbles have cleared (0 almost all fog, 1 clear space); setp.t 0..1 = slow drift; setp.glow 'gold'|'cyan'.",
+  "timeline": "A cosmic timeline. Deep-navy bg; one long glowing gold line from a white BIG BANG burst on the far left to a small blue Earth labelled NOW on the far right, with outlined milestone dots and cream calendar-style tags (QUASAR 630 MYR, MILKY WAY, SUN 4.6 BYR, NOW); setp.now 0..1 = a bright cyan light spark (the photon) glides along the line from left to right; setp.t 0..1 = the camera pans along the line; setp.mark 0..4 = milestone tags pop up one by one; setp.glow 'gold'|'cyan'.",
+  "euclid": "ESA's Euclid telescope in deep space. Deep-navy bg with a faint band of distant galaxies; the Euclid spacecraft big in frame: white-silver tube body with dark aperture, a large flat dark-blue solar-panel sunshield, gold service module, 4 px outlines; a thin cyan field-of-view cone reaches out of the aperture; setp.t 0..1 = slow orbit drift; setp.scan 0..1 = the cone sweeps across the galaxy band leaving cream square survey tiles behind; setp.catch 0..1 = a single small red spark arrives from the left and enters the aperture with a bright flash at 1; setp.glow 'gold'|'cyan'.",
+  "field": "A deep sky survey image. Black bg crowded with hundreds of tiny galaxies (cream, lilac, orange ellipses and spirals) and white stars with small spikes; one tiny red dot near the centre; setp.zoom 0..1 = camera pushes from the whole crowded field down to the red dot; setp.mark 0..1 = a cream circle draws on around the red dot with a short cream leader line; setp.count 0..1 = more and more objects fade in (millions); setp.glow 'gold'|'cyan'|'red'.",
+  "spectrum": "Redshift explained. Deep-navy bg; a wide outlined rainbow strip across the frame from violet on the left through blue, green, yellow, orange, red, then a dark maroon zone labelled INFRARED on the far right; a glowing marker spark sits above it; setp.z 0..1 = the marker slides from blue (0) through red to deep in the infrared (1); setp.wave 0..1 = a thick wave line under the strip stretches to match; setp.eye 0..1 = a big simple outlined human eye icon over the visible part fades to a closed eye when the marker passes red; setp.glow 'gold'|'cyan'|'red'.",
+  "earthnight": "Earth at night. A dark blue sky full of stars over a soft grassy hill silhouette with a few warm house lights far away; Pip stands on the hill; setp.t 0..1 = slow star drift; setp.dot 0..1 = one faint red point high in the sky brightens a little and gets a cream ring; setp.milky 0..1 = a soft Milky Way band fades in across the sky; setp.glow 'gold'|'cyan'.",
+  "growth": "Black hole growth chart. Deep-navy bg; on the left a tiny black-hole seed (black dot with thin ring), on the right a huge black hole with a fiery orange disc; between them a steep outlined gold curve on simple axes (TIME across, MASS up) with a short cream bracket labelled FIRST 630 MILLION YEARS; setp.grow 0..1 = the curve draws on and the black hole on the right swells; setp.t 0..1 = slow push; setp.burst 0..1 = three bright jagged steps appear on the curve (rapid growth spurts); setp.glow 'gold'|'red'|'cyan'.",
+  "fort": "D\u00fan Aonghasa, a prehistoric stone fort on a cliff edge on Inis M\u00f3r, Ireland, at dusk: curved dry-stone walls in grey on green grass at the top of a sheer cliff with the Atlantic Ocean below and a huge starry sky above; one small red star glows over the horizon; setp.t 0..1 = slow pan out toward the sea; setp.stars 0..1 = the stars come out; setp.glow 'gold'|'cyan'.",
+  "void": "Plain deep-navy SpaceBackdrop stage with slow light rays and almost no stars, for big numbers, bars and diagrams. setp.glow 'gold'|'cyan'|'red' tints the rays."
+ },
+ "props": {
+  "counter": "Big flat panel, 4 px dark outline, dark #1E1B2E face, cream flip digits in FONTS.title with thousands separators, label in FONTS.ui underneath. pp.from and pp.to: the number counts from->to across the shot (ease-out); pp.label text; pp.color gold|red|cyan.",
+  "clock": "Round analogue clock face, cream disc, 4 px dark outline, ticks, one hand. pp.from..pp.to in hours: the hand sweeps; pp.glow true adds a gold bloom.",
+  "bar": "Horizontal progress bar with 4 px outline, filled with pp.color (gold|red|cyan) to pp.frac of its width over the shot; pp.label above in FONTS.ui.",
+  "arrow": "Thick outlined curved arrow, pp.color gold|cyan|red, draws on across the shot.",
+  "flag": "Small green check mark badge in a round outlined cream disc with a tiny sparkle; or red cross when pp.bad true.",
+  "calendar": "Small wall calendar page, cream with a red top strip, 4 px outline; pp.text the date in FONTS.title (max 8 chars).",
+  "magnifier": "Outlined magnifying glass with a cream handle and pale glass; pp.s scale; pp.glow true adds a cyan bloom in the lens.",
+  "ring": "Pulsing cyan circle outline, 4 px, soft bloom, that expands and fades each second; pp.s scale.",
+  "scale": "Small balance scale icon, cream, 4 px outline, one pan tipped low; pp.s scale; pp.label text beneath.",
+  "_probe_old": "Icon of the BepiColombo stack: a small gold-foil box body with two dark solar-panel wings, a round grey antenna dish and a silver conical sunshield on top, 4 px outline; pp.s scale; pp.glow true adds an orange thruster flame at the bottom.",
+  "thermo": "Tall outlined thermometer, cream glass tube, red or blue fluid to pp.frac (0..1), pp.label text beneath in FONTS.ui; pp.color red|cyan.",
+  "euclid": "Icon of ESA's Euclid space telescope: a white-silver tube body with a dark open aperture, a big flat dark-blue solar-panel sunshield on one side and a small gold service module below, 4 px outline; pp.s scale; pp.glow true adds a soft cyan bloom at the aperture.",
+  "webb": "Icon of the James Webb Space Telescope: a gold hexagon-segment mirror on a dark boom with a silver diamond sunshield below, 4 px outline; pp.s scale; pp.glow true adds a soft gold bloom.",
+  "bh": "Small black-hole icon: a pure black disc with a thin bright cream photon ring and a tilted orange-gold accretion disc around it, 4 px outline; pp.s scale; pp.glow true adds a hot white-gold bloom; pp.jets true adds two thin cyan jets up and down.",
+  "sun": "Small outlined yellow Sun disc with short rays and a tiny smile-free face-less glow, 4 px outline; pp.s scale; pp.label optional text beneath in FONTS.ui.",
+  "galaxy": "Small outlined spiral galaxy icon, cream core and two lilac arms, 4 px outline on the core; pp.s scale; pp.red true tints it reddish (young, far galaxy).",
+  "wave": "A horizontal light wave squiggle, thick outlined line; pp.stretch 0..1: across the shot the wiggles get longer and fewer while the colour slides from blue (0) to red (0.6) to dark infrared maroon (1); pp.label optional text above in FONTS.ui.",
+  "photon": "A tiny glowing cream-white light spark with a short comet-like streak behind it, 4 px outline on the core; pp.s scale; pp.color white|red sets the core tint.",
+  "plate": "An outlined cream dinner plate seen at a slight angle with a fork beside it and one tiny glowing crumb in the middle; pp.s scale.",
+  "tag": "Outlined cream tag on a short string with pp.text in FONTS.ui (max 12 chars); pp.color gold|cyan|red sets the string and underline.",
+  "earth": "Small outlined blue-green Earth ball with white cloud swirls, 4 px outline; pp.s scale; pp.young true makes it a glowing orange molten ball instead."
+ },
+ "actions": {
+  "lookup": "Pip tilts head back, arms loose, small sway; eyes lift at p 0.2.",
+  "duck": "Pip drops into a crouch with both arms over the head at p 0.15 and holds with a small tremble.",
+  "spin": "Pip turns one slow full rotation across the shot while looking around.",
+  "flinch": "A quick squash and lean away at p 0.2 with arms up, then settles back by p 0.7.",
+  "pointup": "Pip's arm swings up to point up at p 0.2 with a small overshoot."
+ },
+ "sfx_new": {},
+ "chapters": [
+  {
+   "n": 0,
+   "title": "COLD OPEN",
+   "sub": "",
+   "music": {
+    "mood": "mystery",
+    "energy": 0.8
+   },
+   "vo": {
+    "stability": 0.43,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 1,
+   "title": "THE RULES",
+   "sub": "You are the light",
+   "music": {
+    "mood": "playful",
+    "energy": 0.55
+   },
+   "vo": {
+    "stability": 0.45,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "room_tone",
+    "gain": 0.04
+   }
+  },
+  {
+   "n": 2,
+   "title": "THE LAUNCH",
+   "sub": "A monster wakes up",
+   "music": {
+    "mood": "tense",
+    "energy": 0.8
+   },
+   "vo": {
+    "stability": 0.42,
+    "style": 0.38,
+    "speed": 1.02
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 3,
+   "title": "THE DAWN",
+   "sub": "The universe switches on",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.55
+   },
+   "vo": {
+    "stability": 0.47,
+    "style": 0.38,
+    "speed": 0.98
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 4,
+   "title": "THE STRETCH",
+   "sub": "Space pulls you longer",
+   "music": {
+    "mood": "mystery",
+    "energy": 0.6
+   },
+   "vo": {
+    "stability": 0.44,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 5,
+   "title": "THE LONG WAIT",
+   "sub": "Billions of years",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.5
+   },
+   "vo": {
+    "stability": 0.47,
+    "style": 0.38,
+    "speed": 0.97
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 6,
+   "title": "THE CATCH",
+   "sub": "A telescope is waiting",
+   "music": {
+    "mood": "tense",
+    "energy": 0.75
+   },
+   "vo": {
+    "stability": 0.43,
+    "style": 0.38,
+    "speed": 1.02
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 7,
+   "title": "THE PUZZLE",
+   "sub": "Too big, too fast",
+   "music": {
+    "mood": "mystery",
+    "energy": 0.65
+   },
+   "vo": {
+    "stability": 0.44,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 8,
+   "title": "THE HUNT",
+   "sub": "Euclid's record run",
+   "music": {
+    "mood": "triumph",
+    "energy": 0.7
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 9,
+   "title": "THE END",
+   "sub": "Look up, look back",
+   "music": {
+    "mood": "warm",
+    "energy": 0.5
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.38,
+    "speed": 0.97
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  }
+ ],
+ "film": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "wide",
+   "vo": "You have been flying for thirteen billion years.",
+   "dir": "tense, urgent; stress 'thirteen billion'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.2,
+    "catch": 0.7,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.474,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.504,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "photon",
+     "x": 0.3,
+     "y": 0.45,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "color": "red"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "13 BILLION YRS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.0,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "high",
+   "vo": "And you are about to hit a telescope.",
+   "dir": "tense, urgent; stress 'thirteen billion'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.28,
+    "catch": 0.7,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.507,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.393,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.7,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "photon",
+     "x": 0.3,
+     "y": 0.45,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "color": "red"
+     }
+    }
+   ],
+   "text": [],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "word": "telescope",
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "med",
+   "vo": "You are a single speck of light.",
+   "dir": "quick, proud; stress 'most distant'",
+   "set": "field",
+   "setp": {
+    "zoom": 0.6,
+    "mark": 1.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.502,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.531,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "MOST DISTANT QUASAR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "low",
+   "vo": "From the most distant quasar ever found.",
+   "dir": "quick, proud; stress 'most distant'",
+   "set": "field",
+   "setp": {
+    "zoom": 0.6,
+    "mark": 1.0,
+    "glow": "red",
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.521,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.734,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "When you left home, the universe was a baby.",
+   "dir": "hushed; stress 'baby'",
+   "set": "dawn",
+   "setp": {
+    "stars": 0.3,
+    "clear": 0.1,
+    "t": 0.2,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.451,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.461,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "THE UNIVERSE WAS YOUNG"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 0,
+   "size": "pan",
+   "vo": "Earth did not exist. The Sun did not exist. Nothing you know existed.",
+   "dir": "building, deliberate; stress 'nothing'",
+   "set": "timeline",
+   "setp": {
+    "now": 0.1,
+    "t": 0.1,
+    "mark": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.314,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.493,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "gold",
+     "text": "NO SUN. NO EARTH."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 0,
+   "size": "low",
+   "vo": "And what made you? A black hole.",
+   "dir": "awed, slow; stress 'three hundred sixty million'",
+   "set": "quasar",
+   "setp": {
+    "t": 0.3,
+    "jets": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.477,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.699,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "BLACK HOLE",
+     "value": "360 MILLION SUNS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 0,
+   "size": "pan",
+   "vo": "Three hundred sixty million times heavier than the Sun.",
+   "dir": "awed, slow; stress 'three hundred sixty million'",
+   "set": "quasar",
+   "setp": {
+    "t": 0.38,
+    "jets": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.348,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.455,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 0,
+   "size": "high",
+   "vo": "ESA's Euclid telescope just announced it. A brand new record.",
+   "dir": "bright, newsy; stress 'record'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.5,
+    "scan": 0.4,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.472,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.443,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "ESA EUCLID 24 NOV 2026"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 0,
+   "size": "close",
+   "vo": "So what if you were that light.",
+   "dir": "playful, leaning in; stress 'you'",
+   "set": "beam",
+   "setp": {
+    "t": 0.4,
+    "stretch": 0.0,
+    "grid": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.357,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.593,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "float",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "RIDE IT ALL THE WAY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "And you rode the whole way here?",
+   "dir": "playful, leaning in; stress 'you'",
+   "set": "beam",
+   "setp": {
+    "t": 0.48,
+    "stretch": 0.0,
+    "grid": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.478,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.5,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "float",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "ch": 1,
+   "size": "wide",
+   "vo": "First, the rules. You are one photon. One tiny packet of light.",
+   "dir": "clear, brisk; stress 'one photon'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.477,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.504,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "photon",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.4,
+     "z": "back",
+     "p": {
+      "color": "white"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "YOU = 1 PHOTON"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "ch": 1,
+   "size": "med",
+   "vo": "You move at about three hundred thousand kilometres every second.",
+   "dir": "steady; stress 'every second'",
+   "set": "beam",
+   "setp": {
+    "t": 0.7,
+    "stretch": 0.0,
+    "grid": 0.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.465,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.469,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 300000,
+      "label": "KM EACH SECOND",
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "SPEED",
+     "value": "300,000 KM/S"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "ch": 1,
+   "size": "insert",
+   "vo": "Earth to the Moon? About one and a bit seconds.",
+   "dir": "wry, quick; stress 'seconds'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.605,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.412,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "earth",
+     "x": 0.6,
+     "y": 0.45,
+     "s": 0.8,
+     "z": "back"
+    },
+    {
+     "k": "arrow",
+     "x": 0.72,
+     "y": 0.4,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "EARTH TO MOON: ~1.3 S"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "meteor_streak",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "ch": 1,
+   "size": "close",
+   "vo": "Rule two: you cannot stop. You cannot slow down. You cannot turn.",
+   "dir": "firm, counting; stress 'cannot'",
+   "set": "beam",
+   "setp": {
+    "t": 0.9,
+    "stretch": 0.05,
+    "grid": 0.1,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.408,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.569,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "float",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "red",
+     "text": "NO STOPS. NO TURNS."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "ch": 1,
+   "size": "pan",
+   "vo": "No snack breaks. No toilet. Thirteen billion years in a straight line.",
+   "dir": "deadpan comedy; stress 'no toilet'",
+   "set": "beam",
+   "setp": {
+    "t": 0.6,
+    "stretch": 0.08,
+    "grid": 0.1,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.263,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.532,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "plate",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 0.9,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NO SNACK BREAKS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.3,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "ch": 1,
+   "size": "high",
+   "vo": "Rule three is the strange one. Space itself will stretch you.",
+   "dir": "mysterious, slower; stress 'stretch'",
+   "set": "beam",
+   "setp": {
+    "t": 0.4,
+    "stretch": 0.3,
+    "grid": 0.6,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.54,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.37,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "float",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "wave",
+     "x": 0.6,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "stretch": 0.3
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "SPACE STRETCHES YOU"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "ch": 1,
+   "size": "pullout",
+   "vo": "Remember that. It is the reason anyone can find you at all.",
+   "dir": "knowing, teasing; stress 'find you'",
+   "set": "field",
+   "setp": {
+    "zoom": 0.2,
+    "count": 0.4,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.501,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.51,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "props": [
+    {
+     "k": "magnifier",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "REMEMBER THE STRETCH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "ch": 1,
+   "size": "wide",
+   "vo": "Now, where does your trip begin?",
+   "dir": "curious, pivoting; stress 'begin'",
+   "set": "quasar",
+   "setp": {
+    "t": 0.1,
+    "jets": 0.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.509,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.528,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "threeQuarter",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "gold",
+     "text": "WHERE IT BEGINS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "ch": 2,
+   "size": "pan",
+   "vo": "You start your life six hundred thirty million years after the Big Bang.",
+   "dir": "grand, steady; stress 'six hundred thirty million'",
+   "set": "timeline",
+   "setp": {
+    "now": 0.05,
+    "t": 0.05,
+    "mark": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.308,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.503,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "AFTER BIG BANG",
+     "value": "630 MILLION YRS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "ch": 2,
+   "size": "med",
+   "vo": "That sounds old. For the universe, it is barely out of nappies.",
+   "dir": "wry; stress 'nappies'",
+   "set": "dawn",
+   "setp": {
+    "stars": 0.4,
+    "clear": 0.15,
+    "t": 0.3,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.541,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.535,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "BARELY OUT OF NAPPIES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.4,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "ch": 2,
+   "size": "close",
+   "vo": "It is only about five percent of its age today.",
+   "dir": "clear; stress 'five percent'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.432,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.64,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.6,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 0.05,
+      "label": "UNIVERSE AGE",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "5% OF ITS AGE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "ch": 2,
+   "size": "pullout",
+   "vo": "You are born in the heart of a young, reddish galaxy.",
+   "dir": "warm, then wary; stress 'heart'",
+   "set": "quasar",
+   "setp": {
+    "t": 0.2,
+    "feed": 0.2,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.511,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.472,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "galaxy",
+     "x": 0.66,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "red": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "A YOUNG GALAXY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "ch": 2,
+   "size": "low",
+   "vo": "And at that heart sits something enormous.",
+   "dir": "ominous, slower; stress 'enormous'",
+   "set": "quasar",
+   "setp": {
+    "t": 0.35,
+    "feed": 0.3,
+    "close": 0.3,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.46,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.68,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "red",
+     "text": "SOMETHING ENORMOUS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "ch": 2,
+   "size": "insert",
+   "vo": "A supermassive black hole.",
+   "dir": "vivid; stress 'plughole'",
+   "set": "quasar",
+   "setp": {
+    "t": 0.5,
+    "feed": 0.8,
+    "close": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.628,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.456,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "arrow",
+     "x": 0.66,
+     "y": 0.35,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "GAS SPIRALS IN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "ch": 2,
+   "size": "panr",
+   "vo": "Gas spirals in around it like water down a plughole.",
+   "dir": "vivid; stress 'plughole'",
+   "set": "quasar",
+   "setp": {
+    "t": 0.58,
+    "feed": 0.8,
+    "close": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.745,
+     0.5,
+     1.3
+    ],
+    [
+     0.3,
+     0.546,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "props": [
+    {
+     "k": "arrow",
+     "x": 0.66,
+     "y": 0.35,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "ch": 2,
+   "size": "close",
+   "vo": "The gas rubs, heats up, and glows brighter than anything around it.",
+   "dir": "building; stress 'brighter'",
+   "set": "quasar",
+   "setp": {
+    "t": 0.6,
+    "feed": 0.7,
+    "outshine": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.44,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.63,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "flinch"
+   },
+   "props": [
+    {
+     "k": "thermo",
+     "x": 0.8,
+     "y": 0.58,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "frac": 0.95,
+      "label": "DISC HEAT",
+      "color": "red"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "HOTTER. BRIGHTER."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S28",
+   "ch": 2,
+   "size": "wide",
+   "vo": "That blazing core is called a quasar.",
+   "dir": "clear, naming it; stress 'quasar'",
+   "set": "quasar",
+   "setp": {
+    "t": 0.7,
+    "jets": 0.8,
+    "outshine": 0.6,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.487,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.48,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "QUASAR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S29",
+   "ch": 2,
+   "size": "pullout",
+   "vo": "A quasar can outshine every star in its own galaxy put together.",
+   "dir": "impressed; stress 'every star'",
+   "set": "quasar",
+   "setp": {
+    "t": 0.8,
+    "jets": 0.6,
+    "outshine": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.484,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.489,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "OUTSHINES",
+     "value": "ITS WHOLE GALAXY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S30",
+   "ch": 2,
+   "size": "high",
+   "vo": "Imagine a torch so bright it hides the whole city behind it.",
+   "dir": "playful image; stress 'whole city'",
+   "set": "quasar",
+   "setp": {
+    "t": 0.85,
+    "outshine": 0.9,
+    "close": 0.1,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.451,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.381,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "ring",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "BRIGHTER THAN THE CITY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S31",
+   "ch": 2,
+   "size": "med",
+   "vo": "Webb later weighed this black hole: about three hundred sixty million Suns.",
+   "dir": "weighty; stress 'weighed'",
+   "set": "growth",
+   "setp": {
+    "grow": 1.0,
+    "t": 0.3,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.465,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.472,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "webb",
+     "x": 0.66,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    },
+    {
+     "k": "scale",
+     "x": 0.25,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "label": "360,000,000"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "WEBB",
+     "value": "~360 MILLION SUNS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S32",
+   "ch": 2,
+   "size": "insert",
+   "vo": "Line up our Sun three hundred sixty million times.",
+   "dir": "slow, stacking; stress 'one'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.625,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.423,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "shrug",
+    "expr2": "shock",
+    "at2": 0.6
+   },
+   "props": [
+    {
+     "k": "sun",
+     "x": 0.6,
+     "y": 0.45,
+     "s": 0.7,
+     "z": "back",
+     "p": {
+      "label": "x 360 MILLION"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "gold",
+     "text": "360,000,000 x SUN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S33",
+   "ch": 2,
+   "size": "panr",
+   "vo": "That is one black hole.",
+   "dir": "slow, stacking; stress 'one'",
+   "set": "void",
+   "setp": {
+    "glow": "gold",
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.69,
+     0.5,
+     1.3
+    ],
+    [
+     0.3,
+     0.532,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.32,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "think",
+    "expr2": "shock",
+    "at2": 0.6
+   },
+   "props": [
+    {
+     "k": "sun",
+     "x": 0.6,
+     "y": 0.45,
+     "s": 0.7,
+     "z": "back",
+     "p": {
+      "label": "x 360 MILLION"
+     }
+    }
+   ],
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S34",
+   "ch": 2,
+   "size": "close",
+   "vo": "You are flung out of that glare in a fraction of a second.",
+   "dir": "fast, punchy; stress 'flung'",
+   "set": "quasar",
+   "setp": {
+    "t": 0.95,
+    "jets": 1.0,
+    "outshine": 0.8,
+    "close": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.384,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.637,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "crouch",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "jump"
+   },
+   "props": [
+    {
+     "k": "photon",
+     "x": 0.62,
+     "y": 0.35,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "color": "white"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "LAUNCHED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.18,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S35",
+   "ch": 2,
+   "size": "wide",
+   "vo": "Bad news: you are not the only light leaving. Trillions leave with you.",
+   "dir": "comic twist; stress 'trillions'",
+   "set": "beam",
+   "setp": {
+    "t": 0.8,
+    "stretch": 0.0,
+    "grid": 0.1,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.519,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.525,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "float",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "YOU ARE NOT ALONE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S36",
+   "ch": 2,
+   "size": "med",
+   "vo": "Almost all of them will never hit anything we can see. You will.",
+   "dir": "sly, building; stress 'you will'",
+   "set": "beam",
+   "setp": {
+    "t": 0.7,
+    "stretch": 0.02,
+    "grid": 0.15,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.534,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.522,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "BUT YOU GET CAUGHT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S37",
+   "ch": 2,
+   "size": "low",
+   "vo": "But first, the universe you are flying through looks nothing like ours.",
+   "dir": "pivoting, curious; stress 'nothing like'",
+   "set": "dawn",
+   "setp": {
+    "stars": 0.2,
+    "clear": 0.05,
+    "t": 0.1,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.456,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.714,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "float",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "cyan",
+     "text": "NOTHING LIKE OURS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S38",
+   "ch": 3,
+   "size": "wide",
+   "vo": "It is foggy out here. Thick clouds of hydrogen gas everywhere.",
+   "dir": "hushed; stress 'foggy'",
+   "set": "dawn",
+   "setp": {
+    "stars": 0.15,
+    "clear": 0.05,
+    "t": 0.3,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.481,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.503,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "float",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "HYDROGEN FOG"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "roof_wind",
+     "at": 0.0,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S39",
+   "ch": 3,
+   "size": "pullout",
+   "vo": "For a long time after the Big Bang, the universe was dark.",
+   "dir": "slow, quiet; stress 'dark'",
+   "set": "dawn",
+   "setp": {
+    "stars": 0.0,
+    "clear": 0.0,
+    "t": 0.4,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.454,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.538,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "float",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "cyan",
+     "text": "A DARK UNIVERSE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "switch_off",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S40",
+   "ch": 3,
+   "size": "med",
+   "vo": "Now the very first stars and galaxies are switching on.",
+   "dir": "wonder, rising; stress 'first stars'",
+   "set": "dawn",
+   "setp": {
+    "stars": 0.6,
+    "clear": 0.3,
+    "t": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.487,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.47,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "FIRST STARS SWITCH ON"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S41",
+   "ch": 3,
+   "size": "insert",
+   "vo": "Each new star blows a bubble of clear space around itself.",
+   "dir": "delighted; stress 'bubble'",
+   "set": "dawn",
+   "setp": {
+    "stars": 0.7,
+    "clear": 0.5,
+    "t": 0.55,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.622,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.414,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "ring",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.1,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "BUBBLES OF LIGHT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S42",
+   "ch": 3,
+   "size": "high",
+   "vo": "The bubbles grow and join, like lights coming on across a city.",
+   "dir": "warm image; stress 'join'",
+   "set": "dawn",
+   "setp": {
+    "stars": 0.85,
+    "clear": 0.7,
+    "t": 0.65,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.504,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.384,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "THE LIGHTS COME ON"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S43",
+   "ch": 3,
+   "size": "wide",
+   "vo": "ESA calls it the moment a dark universe filled with light.",
+   "dir": "respectful; stress 'filled with light'",
+   "set": "dawn",
+   "setp": {
+    "stars": 1.0,
+    "clear": 0.9,
+    "t": 0.75,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.503,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.525,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "DARK TO LIGHT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S44",
+   "ch": 3,
+   "size": "close",
+   "vo": "You are flying right through it. Front row seats.",
+   "dir": "excited; stress 'front row'",
+   "set": "dawn",
+   "setp": {
+    "stars": 0.9,
+    "clear": 0.8,
+    "t": 0.85,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.363,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.593,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "float",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "FRONT ROW SEATS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S45",
+   "ch": 3,
+   "size": "pan",
+   "vo": "You pass baby galaxies. Small, messy, red, and full of new stars.",
+   "dir": "listing, fond; stress 'messy'",
+   "set": "dawn",
+   "setp": {
+    "stars": 0.95,
+    "clear": 0.85,
+    "t": 0.9,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.332,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.476,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "galaxy",
+     "x": 0.62,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "red": true
+     }
+    },
+    {
+     "k": "galaxy",
+     "x": 0.74,
+     "y": 0.5,
+     "s": 0.6,
+     "z": "back",
+     "p": {
+      "red": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "BABY GALAXIES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S46",
+   "ch": 3,
+   "size": "med",
+   "vo": "Some of them will one day grow into giants like our Milky Way.",
+   "dir": "warm; stress 'Milky Way'",
+   "set": "timeline",
+   "setp": {
+    "now": 0.12,
+    "t": 0.2,
+    "mark": 2.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.52,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.455,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "galaxy",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 1.1,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "FUTURE MILKY WAYS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S47",
+   "ch": 3,
+   "size": "insert",
+   "vo": "Our own galaxy? Not finished. Not even close.",
+   "dir": "wry; stress 'not even close'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.605,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.413,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.6,
+     "y": 0.45,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 0.1,
+      "label": "MILKY WAY",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "gold",
+     "text": "NOT FINISHED YET"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.3,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S48",
+   "ch": 3,
+   "size": "low",
+   "vo": "And that quasar behind you? It is a puzzle nobody can explain yet.",
+   "dir": "teasing an open loop; stress 'puzzle'",
+   "set": "quasar",
+   "setp": {
+    "t": 0.4,
+    "jets": 0.4,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.475,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.703,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "threeQuarter",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "AN UNSOLVED PUZZLE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S49",
+   "ch": 3,
+   "size": "close",
+   "vo": "Hold that thought. We will come back to it.",
+   "dir": "conspiratorial; stress 'come back'",
+   "set": "beam",
+   "setp": {
+    "t": 0.5,
+    "stretch": 0.15,
+    "grid": 0.3,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.364,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.648,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "float",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "tag",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "text": "PUZZLE #1",
+      "color": "red"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "HOLD THAT THOUGHT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S50",
+   "ch": 3,
+   "size": "wide",
+   "vo": "Because something is happening to you. You are changing colour.",
+   "dir": "uneasy, slower; stress 'changing colour'",
+   "set": "beam",
+   "setp": {
+    "t": 0.5,
+    "stretch": 0.3,
+    "grid": 0.4,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.506,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.511,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "red",
+     "text": "YOU'RE CHANGING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S51",
+   "ch": 4,
+   "size": "pullout",
+   "vo": "Here is rule three in action. The universe is expanding.",
+   "dir": "explanatory; stress 'expanding'",
+   "set": "beam",
+   "setp": {
+    "t": 0.4,
+    "stretch": 0.35,
+    "grid": 0.7,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.46,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.488,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "float",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "SPACE IS EXPANDING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S52",
+   "ch": 4,
+   "size": "high",
+   "vo": "Every bit of space between the galaxies keeps getting bigger.",
+   "dir": "clear; stress 'bigger'",
+   "set": "beam",
+   "setp": {
+    "t": 0.3,
+    "stretch": 0.4,
+    "grid": 0.85,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.542,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.381,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "float",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "arrow",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SPACE KEEPS GROWING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S53",
+   "ch": 4,
+   "size": "med",
+   "vo": "And as space stretches, it stretches you with it.",
+   "dir": "ominous, slow; stress 'you'",
+   "set": "spectrum",
+   "setp": {
+    "z": 0.2,
+    "wave": 0.2,
+    "eye": 0.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.453,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.503,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "act": "flinch"
+   },
+   "props": [
+    {
+     "k": "wave",
+     "x": 0.6,
+     "y": 0.75,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "stretch": 0.2
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "cyan",
+     "text": "IT STRETCHES YOU"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S54",
+   "ch": 4,
+   "size": "wide",
+   "vo": "Light is a wave. Short waves look blue. Long waves look red.",
+   "dir": "teacherly, crisp; stress 'blue' and 'red'",
+   "set": "spectrum",
+   "setp": {
+    "z": 0.35,
+    "wave": 0.35,
+    "eye": 0.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.483,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.522,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "SHORT = BLUE. LONG = RED."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S55",
+   "ch": 4,
+   "size": "pan",
+   "vo": "Your waves are being pulled longer and longer.",
+   "dir": "rising tension; stress 'longer'",
+   "set": "spectrum",
+   "setp": {
+    "z": 0.55,
+    "wave": 0.6,
+    "eye": 0.2,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.298,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.547,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "wave",
+     "x": 0.6,
+     "y": 0.75,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "stretch": 0.6
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "LONGER AND LONGER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S56",
+   "ch": 4,
+   "size": "close",
+   "vo": "Astronomers call this redshift. Yours is eight point one three.",
+   "dir": "precise; stress 'eight point one three'",
+   "set": "spectrum",
+   "setp": {
+    "z": 0.8,
+    "wave": 0.8,
+    "eye": 0.6,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.43,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.587,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "threeQuarter",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "REDSHIFT",
+     "value": "8.13"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S57",
+   "ch": 4,
+   "size": "insert",
+   "vo": "That number is a record. No quasar had ever been found beyond eight.",
+   "dir": "proud; stress 'beyond eight'",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.587,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.402,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 1.1,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "FIRST PAST 8"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S58",
+   "ch": 4,
+   "size": "med",
+   "vo": "In plain words.",
+   "dir": "clear, slower; stress 'nine times'",
+   "set": "spectrum",
+   "setp": {
+    "z": 0.95,
+    "wave": 1.0,
+    "eye": 0.8,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.532,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.46,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "wave",
+     "x": 0.6,
+     "y": 0.75,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "stretch": 1
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "STRETCHED",
+     "value": "~9x LONGER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S59",
+   "ch": 4,
+   "size": "low",
+   "vo": "Your waves end up about nine times longer than when you left.",
+   "dir": "clear, slower; stress 'nine times'",
+   "set": "spectrum",
+   "setp": {
+    "z": 0.95,
+    "wave": 1.0,
+    "eye": 0.8,
+    "glow": "red",
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.533,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.705,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.38,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "think"
+   },
+   "props": [
+    {
+     "k": "wave",
+     "x": 0.6,
+     "y": 0.75,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "stretch": 1
+     }
+    }
+   ],
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S60",
+   "ch": 4,
+   "size": "low",
+   "vo": "You were blazing ultraviolet and blue. Now you are deep red.",
+   "dir": "dramatic contrast; stress 'deep red'",
+   "set": "beam",
+   "setp": {
+    "t": 0.4,
+    "stretch": 0.9,
+    "grid": 0.9,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.475,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.651,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "float",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "BLUE TO DEEP RED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S61",
+   "ch": 4,
+   "size": "wide",
+   "vo": "Then past red. Into infrared, a colour human eyes cannot see.",
+   "dir": "hushed; stress 'cannot see'",
+   "set": "spectrum",
+   "setp": {
+    "z": 1.0,
+    "wave": 1.0,
+    "eye": 1.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.482,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.504,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "INVISIBLE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "switch_off",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S62",
+   "ch": 4,
+   "size": "close",
+   "vo": "Congratulations. You are now invisible. Also very, very long.",
+   "dir": "deadpan comedy; stress 'very long'",
+   "set": "beam",
+   "setp": {
+    "t": 0.5,
+    "stretch": 1.0,
+    "grid": 1.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.377,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.564,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "float",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "ring",
+     "x": 0.6,
+     "y": 0.4,
+     "s": 0.9,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "INVISIBLE. AND LONG."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.3,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S63",
+   "ch": 4,
+   "size": "pullout",
+   "vo": "Remember why the stretch matters? To find you, a telescope needs infrared eyes.",
+   "dir": "closing the loop; stress 'infrared eyes'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.3,
+    "scan": 0.2,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.503,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.46,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "euclid",
+     "x": 0.66,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "NEEDS INFRARED EYES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S64",
+   "ch": 4,
+   "size": "pan",
+   "vo": "That telescope will not even exist for thirteen billion years.",
+   "dir": "wry, ominous; stress 'not even exist'",
+   "set": "timeline",
+   "setp": {
+    "now": 0.2,
+    "t": 0.3,
+    "mark": 2.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.281,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.451,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "2023"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "NOT BUILT YET"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S65",
+   "ch": 4,
+   "size": "high",
+   "vo": "So you settle in. This is going to take a while.",
+   "dir": "resigned, warm; stress 'a while'",
+   "set": "beam",
+   "setp": {
+    "t": 0.2,
+    "stretch": 0.95,
+    "grid": 0.95,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.454,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.363,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SETTLE IN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S66",
+   "ch": 5,
+   "size": "pan",
+   "vo": "One billion years go by. Then two. Then five.",
+   "dir": "slow, counting; stress each number",
+   "set": "timeline",
+   "setp": {
+    "now": 0.3,
+    "t": 0.35,
+    "mark": 2.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.257,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.503,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "float",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 1,
+      "to": 5,
+      "label": "BILLION YEARS",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "TRIP SO FAR",
+     "value": "5 BILLION YRS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S67",
+   "ch": 5,
+   "size": "wide",
+   "vo": "Galaxies crash together. Spirals form. Our Milky Way slowly takes shape.",
+   "dir": "grand, flowing; stress 'Milky Way'",
+   "set": "timeline",
+   "setp": {
+    "now": 0.4,
+    "t": 0.45,
+    "mark": 2.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.469,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.472,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "galaxy",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 1.2,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "THE MILKY WAY FORMS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S68",
+   "ch": 5,
+   "size": "med",
+   "vo": "You are still flying. Still red. Still going.",
+   "dir": "dry, flat; stress 'still'",
+   "set": "beam",
+   "setp": {
+    "t": 0.3,
+    "stretch": 0.95,
+    "grid": 0.9,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.538,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.545,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "float",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "STILL GOING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S69",
+   "ch": 5,
+   "size": "pullout",
+   "vo": "Around nine billion years into your trip.",
+   "dir": "storytelling, softer; stress 'quiet corner'",
+   "set": "timeline",
+   "setp": {
+    "now": 0.65,
+    "t": 0.6,
+    "mark": 3.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.542,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.538,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "A QUIET CORNER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S70",
+   "ch": 5,
+   "size": "tilt",
+   "vo": "A cloud collapses in a quiet corner of the Milky Way.",
+   "dir": "storytelling, softer; stress 'quiet corner'",
+   "set": "timeline",
+   "setp": {
+    "now": 0.65,
+    "t": 0.68,
+    "mark": 3.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.467,
+     0.8,
+     1.3
+    ],
+    [
+     0.5,
+     0.249,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.32,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S71",
+   "ch": 5,
+   "size": "close",
+   "vo": "It becomes our Sun, about four point six billion years ago.",
+   "dir": "warm, important; stress 'our Sun'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.44,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.618,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "sun",
+     "x": 0.25,
+     "y": 0.45,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "label": "NEW SUN"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "THE SUN IS BORN",
+     "value": "4.6 BILLION YRS AGO"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.35
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S72",
+   "ch": 5,
+   "size": "insert",
+   "vo": "Think about that. You are older than the Sun. By billions of years.",
+   "dir": "awed, slower; stress 'older than the Sun'",
+   "set": "timeline",
+   "setp": {
+    "now": 0.68,
+    "t": 0.65,
+    "mark": 3.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.63,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.495,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "gold",
+     "text": "OLDER THAN THE SUN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S73",
+   "ch": 5,
+   "size": "high",
+   "vo": "Then a hot little ball forms near the new Sun. Earth.",
+   "dir": "fond; stress 'Earth'",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.498,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.412,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "earth",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "young": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "BABY EARTH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S74",
+   "ch": 5,
+   "size": "wide",
+   "vo": "It cools down, grows oceans, and, very slowly, grows life.",
+   "dir": "gentle, rising; stress 'life'",
+   "set": "earthnight",
+   "setp": {
+    "t": 0.2,
+    "dot": 0.0,
+    "milky": 0.2,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.486,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.513,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "earth",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 0.9,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "OCEANS. THEN LIFE."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S75",
+   "ch": 5,
+   "size": "close",
+   "vo": "Dinosaurs come and go. You do not care. You are a photon.",
+   "dir": "comic deadpan; stress 'you do not care'",
+   "set": "beam",
+   "setp": {
+    "t": 0.4,
+    "stretch": 1.0,
+    "grid": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.36,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.636,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "float",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "DINOSAURS: COME AND GO"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.4,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S76",
+   "ch": 5,
+   "size": "pan",
+   "vo": "Humans show up. They build fires, then cities, then telescopes.",
+   "dir": "quickening; stress 'telescopes'",
+   "set": "earthnight",
+   "setp": {
+    "t": 0.5,
+    "dot": 0.0,
+    "milky": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.328,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.532,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "magnifier",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 0.9,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "FIRES. CITIES. TELESCOPES."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S77",
+   "ch": 5,
+   "size": "wide",
+   "vo": "All of human history fits into the last blink of your trip.",
+   "dir": "awed, quiet; stress 'last blink'",
+   "set": "timeline",
+   "setp": {
+    "now": 0.99,
+    "t": 0.95,
+    "mark": 4.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.5,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.6,
+     "y": 0.75,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 0.999,
+      "label": "YOUR TRIP",
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "THE LAST BLINK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S78",
+   "ch": 5,
+   "size": "med",
+   "vo": "And here is the wild part.",
+   "dir": "building; stress 'whole time'",
+   "set": "beam",
+   "setp": {
+    "t": 0.5,
+    "stretch": 1.0,
+    "grid": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.498,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.466,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "float",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "arrow",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "STILL STRETCHING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S79",
+   "ch": 5,
+   "size": "low",
+   "vo": "Space has kept stretching behind you the whole time.",
+   "dir": "building; stress 'whole time'",
+   "set": "beam",
+   "setp": {
+    "t": 0.58,
+    "stretch": 1.0,
+    "grid": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.543,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.67,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "float",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "arrow",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S80",
+   "ch": 5,
+   "size": "wide",
+   "vo": "So home is now far, far more than thirteen billion light-years away.",
+   "dir": "hushed; stress 'far more'",
+   "set": "quasar",
+   "setp": {
+    "t": 0.5,
+    "close": 0.0,
+    "outshine": 0.4,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.519,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.469,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "threeQuarter",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "HOME IS NOW MUCH FARTHER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S81",
+   "ch": 5,
+   "size": "insert",
+   "vo": "You could never fly back. Not that you were allowed to turn.",
+   "dir": "wry callback; stress 'not allowed'",
+   "set": "beam",
+   "setp": {
+    "t": 0.6,
+    "stretch": 1.0,
+    "grid": 0.95,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.602,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.487,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "bad": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "NO WAY BACK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S82",
+   "ch": 5,
+   "size": "pullout",
+   "vo": "Then, in your last few years, something new appears up ahead.",
+   "dir": "alert, rising; stress 'up ahead'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.1,
+    "scan": 0.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.458,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.451,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "SOMETHING UP AHEAD"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S83",
+   "ch": 6,
+   "size": "wide",
+   "vo": "In twenty twenty-three, Europe launches the Euclid space telescope.",
+   "dir": "newsy, brisk; stress 'Euclid'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.3,
+    "scan": 0.1,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.489,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.52,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "2023"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "EUCLID LAUNCH",
+     "value": "2023"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S84",
+   "ch": 6,
+   "size": "high",
+   "vo": "Its job: map the dark universe across a huge patch of sky.",
+   "dir": "clear; stress 'huge patch'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.45,
+    "scan": 0.5,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.51,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.375,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "MAPPING THE SKY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S85",
+   "ch": 6,
+   "size": "close",
+   "vo": "And it has exactly what you need: very sensitive infrared eyes.",
+   "dir": "satisfied, callback; stress 'infrared'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.55,
+    "scan": 0.6,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.405,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.601,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "euclid",
+     "x": 0.66,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "INFRARED EYES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S86",
+   "ch": 6,
+   "size": "insert",
+   "vo": "Your thirteen billion year trip ends on its detector.",
+   "dir": "climactic, slower; stress 'ends'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.7,
+    "scan": 0.7,
+    "catch": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.635,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.41,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "CAUGHT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.4
+    },
+    {
+     "clip": "sparkle",
+     "at": 0.15,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S87",
+   "ch": 6,
+   "size": "med",
+   "vo": "Splat. Well, a tiny electric blip. But still, you made it.",
+   "dir": "comic relief; stress 'made it'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.467,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.507,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "photon",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "color": "red"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "A TINY BLIP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.35
+    },
+    {
+     "clip": "crowd_cheer",
+     "at": 0.4,
+     "gain": 0.15
+    }
+   ]
+  },
+  {
+   "id": "S88",
+   "ch": 6,
+   "size": "close",
+   "vo": "In the picture, you are not a blazing beacon.",
+   "dir": "deflating, wry; stress 'red dot'",
+   "set": "field",
+   "setp": {
+    "zoom": 0.9,
+    "mark": 0.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.433,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.573,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "A RED DOT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.2,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S89",
+   "ch": 6,
+   "size": "pullout",
+   "vo": "You are a red dot.",
+   "dir": "deflating, wry; stress 'red dot'",
+   "set": "field",
+   "setp": {
+    "zoom": 0.9,
+    "mark": 0.0,
+    "glow": "red",
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.501,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.451,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "think"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S90",
+   "ch": 6,
+   "size": "wide",
+   "vo": "And you are one dot among millions of objects.",
+   "dir": "daunting; stress 'millions'",
+   "set": "field",
+   "setp": {
+    "zoom": 0.0,
+    "count": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.487,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.462,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "1 AMONG MILLIONS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S91",
+   "ch": 6,
+   "size": "pan",
+   "vo": "Scientists sifted through about eighteen months of Euclid data to spot you.",
+   "dir": "patient, admiring; stress 'eighteen months'",
+   "set": "field",
+   "setp": {
+    "zoom": 0.3,
+    "count": 0.8,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.254,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.549,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "think"
+   },
+   "props": [
+    {
+     "k": "magnifier",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "SEARCH",
+     "value": "18 MONTHS OF DATA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S92",
+   "ch": 6,
+   "size": "med",
+   "vo": "Finding you was harder than finding one grain of sand on a beach.",
+   "dir": "playful; stress 'one grain'",
+   "set": "field",
+   "setp": {
+    "zoom": 0.6,
+    "count": 0.9,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.452,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.496,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NEEDLE IN A HAYSTACK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S93",
+   "ch": 6,
+   "size": "close",
+   "vo": "But a red dot could be a lot of things.",
+   "dir": "sceptical; stress 'a lot of things'",
+   "set": "field",
+   "setp": {
+    "zoom": 0.8,
+    "mark": 1.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.44,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.65,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "STAR? GALAXY? QUASAR?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S94",
+   "ch": 6,
+   "size": "pullout",
+   "vo": "A nearby cool star. A dusty galaxy.",
+   "dir": "sceptical; stress 'a lot of things'",
+   "set": "field",
+   "setp": {
+    "zoom": 0.8,
+    "mark": 1.0,
+    "glow": "red",
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.516,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.488,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.32,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S95",
+   "ch": 6,
+   "size": "pullout",
+   "vo": "So the big telescopes were called in.",
+   "dir": "brisk, assembling a team; stress 'Keck'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.543,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.537,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "tag",
+     "x": 0.6,
+     "y": 0.35,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "KECK",
+      "color": "cyan"
+     }
+    },
+    {
+     "k": "tag",
+     "x": 0.74,
+     "y": 0.5,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "LBT",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "KECK + LBT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S96",
+   "ch": 6,
+   "size": "tilt",
+   "vo": "Keck in Hawaii. The Large Binocular Telescope.",
+   "dir": "brisk, assembling a team; stress 'Keck'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan",
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.496,
+     0.8,
+     1.3
+    ],
+    [
+     0.5,
+     0.202,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "props": [
+    {
+     "k": "tag",
+     "x": 0.6,
+     "y": 0.35,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "KECK",
+      "color": "cyan"
+     }
+    },
+    {
+     "k": "tag",
+     "x": 0.74,
+     "y": 0.5,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "LBT",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S97",
+   "ch": 6,
+   "size": "insert",
+   "vo": "Then Hubble. And finally, Webb.",
+   "dir": "rising, triumphant; stress 'Webb'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.571,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.435,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "webb",
+     "x": 0.66,
+     "y": 0.35,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "HUBBLE + WEBB"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S98",
+   "ch": 6,
+   "size": "wide",
+   "vo": "Webb split your light and confirmed it. You really are a quasar.",
+   "dir": "satisfied; stress 'really are'",
+   "set": "field",
+   "setp": {
+    "zoom": 1.0,
+    "mark": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.5,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "CONFIRMED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S99",
+   "ch": 6,
+   "size": "wide",
+   "vo": "Its nickname is D\u00fan Aonghasa.",
+   "dir": "amused at the mouthful; stress 'nickname'",
+   "set": "fort",
+   "setp": {
+    "t": 0.3,
+    "stars": 0.6,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.511,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.536,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "tag",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "text": "DUN AONGHASA",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "J1504+6252"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S100",
+   "ch": 6,
+   "size": "high",
+   "vo": "Its official name is J fifteen-oh-four plus sixty-two fifty-two.",
+   "dir": "amused at the mouthful; stress 'nickname'",
+   "set": "fort",
+   "setp": {
+    "t": 0.38,
+    "stars": 0.6,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.467,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.374,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.38,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "props": [
+    {
+     "k": "tag",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "text": "DUN AONGHASA",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S101",
+   "ch": 6,
+   "size": "pan",
+   "vo": "It is named after an ancient stone fort.",
+   "dir": "warm, picturesque; stress 'cliff edge'",
+   "set": "fort",
+   "setp": {
+    "t": 0.6,
+    "stars": 0.8,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.255,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.465,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "A FORT ON THE EDGE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "roof_wind",
+     "at": 0.0,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S102",
+   "ch": 6,
+   "size": "wide",
+   "vo": "On a cliff edge in Ireland.",
+   "dir": "warm, picturesque; stress 'cliff edge'",
+   "set": "fort",
+   "setp": {
+    "t": 0.68,
+    "stars": 0.8,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.488,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.506,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.6,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S103",
+   "ch": 6,
+   "size": "high",
+   "vo": "Like that fort.",
+   "dir": "poetic; stress 'edge'",
+   "set": "fort",
+   "setp": {
+    "t": 0.9,
+    "stars": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.474,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.365,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "THE EDGE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S104",
+   "ch": 6,
+   "size": "insert",
+   "vo": "This quasar sits right at the edge of what we can see.",
+   "dir": "poetic; stress 'edge'",
+   "set": "fort",
+   "setp": {
+    "t": 0.98,
+    "stars": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.638,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.429,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S105",
+   "ch": 7,
+   "size": "close",
+   "vo": "Now, remember the puzzle? Here it is.",
+   "dir": "conspiratorial, closing loop; stress 'puzzle'",
+   "set": "growth",
+   "setp": {
+    "grow": 0.0,
+    "t": 0.2,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.422,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.62,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "think"
+   },
+   "props": [
+    {
+     "k": "tag",
+     "x": 0.42,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "text": "PUZZLE #1",
+      "color": "red"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "THE PUZZLE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S106",
+   "ch": 7,
+   "size": "wide",
+   "vo": "Black holes grow by eating gas.",
+   "dir": "explanatory; stress 'time'",
+   "set": "growth",
+   "setp": {
+    "grow": 0.4,
+    "t": 0.35,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.535,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.459,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.66,
+     "y": 0.35,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 12
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "GROWING TAKES TIME"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S107",
+   "ch": 7,
+   "size": "high",
+   "vo": "Big ones need a lot of time to get big.",
+   "dir": "explanatory; stress 'time'",
+   "set": "growth",
+   "setp": {
+    "grow": 0.4,
+    "t": 0.43,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.472,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.417,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "think"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.66,
+     "y": 0.35,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 12
+     }
+    }
+   ],
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S108",
+   "ch": 7,
+   "size": "med",
+   "vo": "This one had only six hundred thirty million years since the Big Bang.",
+   "dir": "pressing; stress 'only'",
+   "set": "growth",
+   "setp": {
+    "grow": 0.6,
+    "t": 0.5,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.502,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.522,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "TIME AVAILABLE",
+     "value": "630 MILLION YRS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S109",
+   "ch": 7,
+   "size": "insert",
+   "vo": "And it still reached three hundred sixty million Suns.",
+   "dir": "incredulous; stress 'still'",
+   "set": "growth",
+   "setp": {
+    "grow": 1.0,
+    "t": 0.6,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.556,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.454,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "flinch"
+   },
+   "props": [
+    {
+     "k": "bh",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "red",
+     "text": "360 MILLION SUNS?!"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S110",
+   "ch": 7,
+   "size": "close",
+   "vo": "Here is the twist. Right now, this quasar is a slow eater.",
+   "dir": "the twist, savoured; stress 'slow eater'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.378,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.63,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "plate",
+     "x": 0.3,
+     "y": 0.55,
+     "s": 1.1,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "TWIST: A SLOW EATER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "gulp",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S111",
+   "ch": 7,
+   "size": "pullout",
+   "vo": "ESA says it is eating at a relatively slow rate.",
+   "dir": "careful, sourced; stress 'slow rate'",
+   "set": "quasar",
+   "setp": {
+    "t": 0.6,
+    "feed": 0.15,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.467,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.517,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "EATING SLOWLY - ESA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S112",
+   "ch": 7,
+   "size": "wide",
+   "vo": "So how did a slow eater get that huge, that fast?",
+   "dir": "the big question; stress 'how'",
+   "set": "growth",
+   "setp": {
+    "grow": 0.8,
+    "t": 0.7,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.48,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.5,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "HOW SO FAST?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S113",
+   "ch": 7,
+   "size": "med",
+   "vo": "It is like meeting a toddler the size of a house.",
+   "dir": "comic image; stress 'size of a house'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.481,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.513,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "A HOUSE-SIZED TODDLER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.4,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S114",
+   "ch": 7,
+   "size": "low",
+   "vo": "Who barely eats.",
+   "dir": "comic image; stress 'size of a house'",
+   "set": "void",
+   "setp": {
+    "glow": "gold",
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.481,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.702,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.32,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S115",
+   "ch": 7,
+   "size": "pan",
+   "vo": "The answer, scientists think, is short, wild growth spurts very early on.",
+   "dir": "building; stress 'growth spurts'",
+   "set": "growth",
+   "setp": {
+    "grow": 1.0,
+    "burst": 1.0,
+    "t": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.261,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.486,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "BEST GUESS",
+     "value": "RAPID GROWTH SPURTS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S116",
+   "ch": 7,
+   "size": "high",
+   "vo": "Feasting so hard, so fast, that our models struggle to keep up.",
+   "dir": "tense, admiring; stress 'struggle'",
+   "set": "growth",
+   "setp": {
+    "grow": 1.0,
+    "burst": 1.0,
+    "t": 0.9,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.486,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.415,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.6,
+     "y": 0.75,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 0.9,
+      "label": "PRESSURE ON MODELS",
+      "color": "red"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "MODELS UNDER PRESSURE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S117",
+   "ch": 7,
+   "size": "close",
+   "vo": "That is why this little red dot matters so much.",
+   "dir": "sincere; stress 'matters'",
+   "set": "field",
+   "setp": {
+    "zoom": 1.0,
+    "mark": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.44,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.579,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "WHY IT MATTERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S118",
+   "ch": 7,
+   "size": "wide",
+   "vo": "It is a clue to how the first giant black holes were born.",
+   "dir": "wonder; stress 'born'",
+   "set": "dawn",
+   "setp": {
+    "stars": 0.8,
+    "clear": 0.6,
+    "t": 0.95,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.542,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.547,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "bh",
+     "x": 0.64,
+     "y": 0.38,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "jets": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "HOW GIANTS ARE BORN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S119",
+   "ch": 7,
+   "size": "insert",
+   "vo": "And it is not the only red dot Euclid has caught.",
+   "dir": "teasing, leading on; stress 'not the only'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.8,
+    "scan": 0.9,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.571,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.447,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NOT THE ONLY ONE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S120",
+   "ch": 8,
+   "size": "med",
+   "vo": "This find beats Euclid's own record, set just a few months earlier.",
+   "dir": "energetic; stress 'own record'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.491,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.506,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "BEAT ITS OWN RECORD"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S121",
+   "ch": 8,
+   "size": "pan",
+   "vo": "It looks back an extra forty million years.",
+   "dir": "precise; stress 'forty million'",
+   "set": "timeline",
+   "setp": {
+    "now": 0.04,
+    "t": 0.05,
+    "mark": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.317,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.502,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 40,
+      "label": "MILLION YEARS",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "EXTRA LOOKBACK",
+     "value": "40 MILLION YRS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S122",
+   "ch": 8,
+   "size": "wide",
+   "vo": "In just a year and a half.",
+   "dir": "impressed, quickening; stress 'thirty-one'",
+   "set": "field",
+   "setp": {
+    "zoom": 0.2,
+    "count": 1.0,
+    "mark": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.532,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.499,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 31,
+      "label": "ANCIENT QUASARS",
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "IN 1.5 YEARS",
+     "value": "31 QUASARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S123",
+   "ch": 8,
+   "size": "high",
+   "vo": "Euclid has announced thirty-one ancient quasars.",
+   "dir": "impressed, quickening; stress 'thirty-one'",
+   "set": "field",
+   "setp": {
+    "zoom": 0.2,
+    "count": 1.0,
+    "mark": 1.0,
+    "glow": "cyan",
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.546,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.416,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "think"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 31,
+      "label": "ANCIENT QUASARS",
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S124",
+   "ch": 8,
+   "size": "close",
+   "vo": "Twelve of them sit beyond redshift seven.",
+   "dir": "clear; stress 'twelve'",
+   "set": "spectrum",
+   "setp": {
+    "z": 0.75,
+    "wave": 0.7,
+    "eye": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.381,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.598,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "12 BEYOND REDSHIFT 7"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S125",
+   "ch": 8,
+   "size": "insert",
+   "vo": "Older surveys took fifteen years just to reach that distance.",
+   "dir": "contrast; stress 'fifteen years'",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.585,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.486,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.64,
+     "y": 0.35,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "15 YRS"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "red",
+     "text": "15 YEARS BEFORE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S126",
+   "ch": 8,
+   "size": "high",
+   "vo": "Euclid more than doubled the known count out there.",
+   "dir": "triumphant; stress 'doubled'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.9,
+    "scan": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.53,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.407,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.6,
+     "y": 0.75,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 1,
+      "label": "KNOWN AT THIS DISTANCE",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "MORE THAN DOUBLED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S127",
+   "ch": 8,
+   "size": "pullout",
+   "vo": "But at redshift eight.",
+   "dir": "sobering; stress 'a few tens'",
+   "set": "field",
+   "setp": {
+    "zoom": 0.5,
+    "count": 0.6,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.487,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.545,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "AT Z 8: A FEW TENS, MAX"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S128",
+   "ch": 8,
+   "size": "tilt",
+   "vo": "They are so rare that ESA expects a few tens at most.",
+   "dir": "sobering; stress 'a few tens'",
+   "set": "field",
+   "setp": {
+    "zoom": 0.5,
+    "count": 0.6,
+    "glow": "red",
+    "t": 0.5
+   },
+   "cam": [
+    [
+     0.473,
+     0.8,
+     1.3
+    ],
+    [
+     0.5,
+     0.231,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.6,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S129",
+   "ch": 8,
+   "size": "med",
+   "vo": "In the whole survey. That is how special your little trip was.",
+   "dir": "warm pride; stress 'special'",
+   "set": "beam",
+   "setp": {
+    "t": 0.3,
+    "stretch": 1.0,
+    "grid": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.531,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.458,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "VERY RARE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S130",
+   "ch": 8,
+   "size": "low",
+   "vo": "So somewhere out there, older light is still on its way.",
+   "dir": "wonder, rising; stress 'still on its way'",
+   "set": "beam",
+   "setp": {
+    "t": 0.7,
+    "stretch": 0.98,
+    "grid": 0.7,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.45,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.749,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "float",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "photon",
+     "x": 0.66,
+     "y": 0.35,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "color": "red"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "OLDER LIGHT INCOMING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S131",
+   "ch": 8,
+   "size": "wide",
+   "vo": "Every new record pushes the edge a little further back.",
+   "dir": "building to the end; stress 'further back'",
+   "set": "fort",
+   "setp": {
+    "t": 0.95,
+    "stars": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.459,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.498,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "PUSHING THE EDGE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S132",
+   "ch": 9,
+   "size": "wide",
+   "vo": "So back to that moment. Thirteen billion years, and you hit a telescope.",
+   "dir": "reflective callback; stress 'that moment'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.95,
+    "catch": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.511,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.491,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "float",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "photon",
+     "x": 0.3,
+     "y": 0.45,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "color": "red"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "13 BILLION YRS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S133",
+   "ch": 9,
+   "size": "pan",
+   "vo": "You left before the Sun. Before Earth. Before anyone could look up.",
+   "dir": "soft, slow; stress 'before'",
+   "set": "timeline",
+   "setp": {
+    "now": 1.0,
+    "t": 1.0,
+    "mark": 4.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.314,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.463,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "BEFORE THE SUN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S134",
+   "ch": 9,
+   "size": "pullout",
+   "vo": "And someone finally did look up, just in time to catch you.",
+   "dir": "warm, landing it; stress 'just in time'",
+   "set": "earthnight",
+   "setp": {
+    "t": 0.9,
+    "dot": 1.0,
+    "milky": 0.9,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.496,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.45,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "JUST IN TIME"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S135",
+   "ch": 9,
+   "size": "wide",
+   "vo": "Every time you look at the night sky.",
+   "dir": "the takeaway, gentle; stress 'back in time'",
+   "set": "earthnight",
+   "setp": {
+    "t": 0.7,
+    "dot": 0.6,
+    "milky": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.486,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.503,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "cyan",
+     "text": "LOOK UP = LOOK BACK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S136",
+   "ch": 9,
+   "size": "high",
+   "vo": "You are looking back in time.",
+   "dir": "the takeaway, gentle; stress 'back in time'",
+   "set": "earthnight",
+   "setp": {
+    "t": 0.78,
+    "dot": 0.6,
+    "milky": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.502,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.427,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.6,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S137",
+   "ch": 9,
+   "size": "close",
+   "vo": "Which would you rather ride: the oldest light, or the brightest?",
+   "dir": "inviting; stress 'rather'",
+   "set": "beam",
+   "setp": {
+    "t": 0.5,
+    "stretch": 0.5,
+    "grid": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.416,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.595,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "OLDEST OR BRIGHTEST?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S138",
+   "ch": 9,
+   "size": "med",
+   "vo": "Tell me in the comments.",
+   "dir": "friendly",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.475,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.515,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "COMMENT BELOW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S139",
+   "ch": 9,
+   "size": "wide",
+   "vo": "Tomorrow: what if you rode a nuclear-powered spaceship to Mars?",
+   "dir": "teasing; stress 'nuclear-powered'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.488,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.516,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "sideL",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "TOMORROW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  }
+ ],
+ "short": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "close",
+   "vo": "This red dot is a giant black hole.",
+   "dir": "hard, clear, instant; stress 'black hole'",
+   "set": "field",
+   "setp": {
+    "zoom": 1.0,
+    "mark": 1.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.5,
+     0.46,
+     1.25
+    ],
+    [
+     0.5,
+     0.47,
+     1.15
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "THIS DOT ="
+    },
+    {
+     "kind": "label",
+     "slot": "mid",
+     "color": "cream",
+     "text": "A GIANT BLACK HOLE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "word": "hole",
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "med",
+   "vo": "Its light left thirteen billion years ago, before the Sun existed.",
+   "dir": "quick, awed; stress 'before the Sun'",
+   "set": "beam",
+   "setp": {
+    "t": 0.6,
+    "stretch": 0.5,
+    "grid": 0.4,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.507,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.493,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "photon",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "color": "red"
+     }
+    },
+    {
+     "k": "sun",
+     "x": 0.36,
+     "y": 0.62,
+     "s": 0.8,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "13 BILLION"
+    },
+    {
+     "kind": "label",
+     "slot": "mid",
+     "color": "cream",
+     "text": "YEARS. BEFORE THE SUN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "wide",
+   "vo": "ESA's Euclid telescope spotted it. A new record.",
+   "dir": "newsy; stress 'most distant'",
+   "set": "euclid",
+   "setp": {
+    "t": 0.6,
+    "scan": 0.6,
+    "catch": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.502,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.531,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "ESA EUCLID: NEW RECORD"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "close",
+   "vo": "Gas falls into the black hole and outshines its whole galaxy.",
+   "dir": "clear, vivid; stress 'brighter'",
+   "set": "quasar",
+   "setp": {
+    "t": 0.6,
+    "feed": 0.8,
+    "outshine": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.421,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.634,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "act": "flinch"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "mid",
+     "color": "cream",
+     "text": "BRIGHTER THAN A GALAXY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "We see it six hundred thirty million years after the Big Bang.",
+   "dir": "precise; stress 'six hundred thirty million'",
+   "set": "dawn",
+   "setp": {
+    "stars": 0.6,
+    "clear": 0.4,
+    "t": 0.5,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.451,
+     0.5,
+     1.52
+    ],
+    [
+     0.5,
+     0.461,
+     0.95
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "float",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "AFTER BIG BANG",
+     "value": "630 MYR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 0,
+   "size": "med",
+   "vo": "Space stretched its light nine times, into invisible infrared.",
+   "dir": "quick, technical but simple; stress 'invisible'",
+   "set": "spectrum",
+   "setp": {
+    "z": 1.0,
+    "wave": 1.0,
+    "eye": 1.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.514,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.493,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "wave",
+     "x": 0.5,
+     "y": 0.8,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "stretch": 1
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "9x LONGER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 0,
+   "size": "insert",
+   "vo": "So it shows up red, and only infrared eyes can spot it.",
+   "dir": "satisfied; stress 'infrared eyes'",
+   "set": "field",
+   "setp": {
+    "zoom": 0.7,
+    "mark": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.577,
+     0.45,
+     1.9
+    ],
+    [
+     0.55,
+     0.449,
+     1.71
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "euclid",
+     "x": 0.6,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "NEEDS INFRARED EYES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 0,
+   "size": "wide",
+   "vo": "Webb weighed it: three hundred sixty million Suns.",
+   "dir": "weighty; stress 'weighed'",
+   "set": "growth",
+   "setp": {
+    "grow": 1.0,
+    "t": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.548,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.455,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "webb",
+     "x": 0.6,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "WEBB",
+     "value": "360M SUNS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 0,
+   "size": "close",
+   "vo": "The twist? We catch it eating slowly.",
+   "dir": "sly, savouring; stress 'slow eater'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.372,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.643,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "plate",
+     "x": 0.57,
+     "y": 0.66,
+     "s": 1.1,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "SLOW EATER"
+    },
+    {
+     "kind": "label",
+     "slot": "mid",
+     "color": "cream",
+     "text": "THE TWIST"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "gulp",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 0,
+   "size": "low",
+   "vo": "So how did it get that huge, that fast? Nobody knows yet.",
+   "dir": "the open question; stress 'nobody knows'",
+   "set": "growth",
+   "setp": {
+    "grow": 1.0,
+    "burst": 1.0,
+    "t": 0.8,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.457,
+     0.75,
+     1.14
+    ],
+    [
+     0.5,
+     0.693,
+     1.28
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "HOW?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "ch": 0,
+   "size": "med",
+   "vo": "Best guess: wild growth spurts, very early on.",
+   "dir": "quick; stress 'growth spurts'",
+   "set": "growth",
+   "setp": {
+    "grow": 0.9,
+    "burst": 0.8,
+    "t": 0.95,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.478,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.5,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "EARLY GROWTH SPURTS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "ch": 0,
+   "size": "wide",
+   "vo": "So every time you look up, you are looking back in time.",
+   "dir": "warm takeaway; stress 'back in time'",
+   "set": "earthnight",
+   "setp": {
+    "t": 0.8,
+    "dot": 1.0,
+    "milky": 0.9,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.477,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.504,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "LOOK BACK"
+    },
+    {
+     "kind": "label",
+     "slot": "mid",
+     "color": "cream",
+     "text": "EVERY TIME YOU LOOK UP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "ch": 0,
+   "size": "close",
+   "vo": "Full film on the channel. And this red dot? A giant black hole.",
+   "dir": "friendly, looping to the start; stress 'red dot'",
+   "set": "field",
+   "setp": {
+    "zoom": 0.95,
+    "mark": 1.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.5,
+     0.46,
+     1.25
+    ],
+    [
+     0.5,
+     0.47,
+     1.15
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "THIS DOT ="
+    },
+    {
+     "kind": "label",
+     "slot": "mid",
+     "color": "cream",
+     "text": "A GIANT BLACK HOLE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  }
+ ],
+ "_doc": "Written by Hark 25 Nov 2026 (edge-tts voice)."
+}

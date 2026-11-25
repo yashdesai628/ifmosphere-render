@@ -1,0 +1,248 @@
+{
+ "slug": "quasar",
+ "title": "WHAT IF YOU RODE LIGHT FOR 13 BILLION YEARS?",
+ "fps": 30,
+ "total": 1347,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 74,
+   "t0": 0,
+   "t1": 74,
+   "line": "This red dot is a giant black hole."
+  },
+  {
+   "shot": "S2",
+   "a": 74,
+   "b": 191,
+   "t0": 0,
+   "t1": 117,
+   "line": "Its light left thirteen billion years ago, before the Sun existed."
+  },
+  {
+   "shot": "S3",
+   "a": 191,
+   "b": 294,
+   "t0": 0,
+   "t1": 103,
+   "line": "ESA's Euclid telescope spotted it. A new record."
+  },
+  {
+   "shot": "S4",
+   "a": 294,
+   "b": 400,
+   "t0": 0,
+   "t1": 106,
+   "line": "Gas falls into the black hole and outshines its whole galaxy."
+  },
+  {
+   "shot": "S5",
+   "a": 400,
+   "b": 502,
+   "t0": 0,
+   "t1": 102,
+   "line": "We see it six hundred thirty million years after the Big Bang."
+  },
+  {
+   "shot": "S6",
+   "a": 502,
+   "b": 618,
+   "t0": 0,
+   "t1": 116,
+   "line": "Space stretched its light nine times, into invisible infrared."
+  },
+  {
+   "shot": "S7",
+   "a": 618,
+   "b": 720,
+   "t0": 0,
+   "t1": 102,
+   "line": "So it shows up red, and only infrared eyes can spot it."
+  },
+  {
+   "shot": "S8",
+   "a": 720,
+   "b": 809,
+   "t0": 0,
+   "t1": 89,
+   "line": "Webb weighed it: three hundred sixty million Suns."
+  },
+  {
+   "shot": "S9",
+   "a": 809,
+   "b": 887,
+   "t0": 0,
+   "t1": 78,
+   "line": "The twist? We catch it eating slowly."
+  },
+  {
+   "shot": "S10",
+   "a": 887,
+   "b": 1005,
+   "t0": 0,
+   "t1": 118,
+   "line": "So how did it get that huge, that fast? Nobody knows yet."
+  },
+  {
+   "shot": "S11",
+   "a": 1005,
+   "b": 1110,
+   "t0": 0,
+   "t1": 105,
+   "line": "Best guess: wild growth spurts, very early on."
+  },
+  {
+   "shot": "S12",
+   "a": 1110,
+   "b": 1198,
+   "t0": 0,
+   "t1": 88,
+   "line": "So every time you look up, you are looking back in time."
+  },
+  {
+   "shot": "S13",
+   "a": 1198,
+   "b": 1272,
+   "t0": 0,
+   "t1": 74,
+   "line": "Full film on the channel. And this red dot? A giant black hole."
+  },
+  {
+   "shot": "S13",
+   "a": 1272,
+   "b": 1347,
+   "t0": 74,
+   "t1": 149,
+   "line": "Full film on the channel. And this red dot? A giant black hole."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "close",
+   "key": 46,
+   "len": 74,
+   "first": 0,
+   "line": "This red dot is a giant black hole.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "med",
+   "key": 73,
+   "len": 117,
+   "first": 74,
+   "line": "Its light left thirteen billion years ago, before the Sun existed.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "wide",
+   "key": 64,
+   "len": 103,
+   "first": 191,
+   "line": "ESA's Euclid telescope spotted it. A new record.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "close",
+   "key": 66,
+   "len": 106,
+   "first": 294,
+   "line": "Gas falls into the black hole and outshines its whole galaxy.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "pullout",
+   "key": 63,
+   "len": 102,
+   "first": 400,
+   "line": "We see it six hundred thirty million years after the Big Bang.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "med",
+   "key": 72,
+   "len": 116,
+   "first": 502,
+   "line": "Space stretched its light nine times, into invisible infrared.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "insert",
+   "key": 63,
+   "len": 102,
+   "first": 618,
+   "line": "So it shows up red, and only infrared eyes can spot it.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "wide",
+   "key": 55,
+   "len": 89,
+   "first": 720,
+   "line": "Webb weighed it: three hundred sixty million Suns.",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "close",
+   "key": 48,
+   "len": 78,
+   "first": 809,
+   "line": "The twist? We catch it eating slowly.",
+   "note": "ch0"
+  },
+  {
+   "id": "S10",
+   "size": "low",
+   "key": 73,
+   "len": 118,
+   "first": 887,
+   "line": "So how did it get that huge, that fast? Nobody knows yet.",
+   "note": "ch0"
+  },
+  {
+   "id": "S11",
+   "size": "med",
+   "key": 65,
+   "len": 105,
+   "first": 1005,
+   "line": "Best guess: wild growth spurts, very early on.",
+   "note": "ch0"
+  },
+  {
+   "id": "S12",
+   "size": "wide",
+   "key": 55,
+   "len": 88,
+   "first": 1110,
+   "line": "So every time you look up, you are looking back in time.",
+   "note": "ch0"
+  },
+  {
+   "id": "S13",
+   "size": "close",
+   "key": 92,
+   "len": 149,
+   "first": 1198,
+   "line": "Full film on the channel. And this red dot? A giant black hole.",
+   "note": "ch0"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "quasar/short-voice.wav",
+  "sfx": "quasar/short-sfx.wav",
+  "music": "quasar/short-music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}

@@ -1,0 +1,2534 @@
+{
+ "slug": "quasar",
+ "title": "WHAT IF YOU RODE LIGHT FOR 13 BILLION YEARS?",
+ "fps": 30,
+ "total": 14448,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 88,
+   "t0": 0,
+   "t1": 88,
+   "line": "You have been flying for thirteen billion years."
+  },
+  {
+   "shot": "S2",
+   "a": 88,
+   "b": 148,
+   "t0": 0,
+   "t1": 60,
+   "line": "And you are about to hit a telescope."
+  },
+  {
+   "shot": "S3",
+   "a": 148,
+   "b": 209,
+   "t0": 0,
+   "t1": 61,
+   "line": "You are a single speck of light."
+  },
+  {
+   "shot": "S4",
+   "a": 209,
+   "b": 284,
+   "t0": 0,
+   "t1": 75,
+   "line": "From the most distant quasar ever found."
+  },
+  {
+   "shot": "S5",
+   "a": 284,
+   "b": 370,
+   "t0": 0,
+   "t1": 86,
+   "line": "When you left home, the universe was a baby."
+  },
+  {
+   "shot": "S6",
+   "a": 370,
+   "b": 446,
+   "t0": 0,
+   "t1": 76,
+   "line": "Earth did not exist. The Sun did not exist. Nothing you know existed."
+  },
+  {
+   "shot": "S6",
+   "a": 446,
+   "b": 523,
+   "t0": 76,
+   "t1": 153,
+   "line": "Earth did not exist. The Sun did not exist. Nothing you know existed."
+  },
+  {
+   "shot": "S7",
+   "a": 523,
+   "b": 597,
+   "t0": 0,
+   "t1": 74,
+   "line": "And what made you? A black hole."
+  },
+  {
+   "shot": "S8",
+   "a": 597,
+   "b": 682,
+   "t0": 0,
+   "t1": 85,
+   "line": "Three hundred sixty million times heavier than the Sun."
+  },
+  {
+   "shot": "S9",
+   "a": 682,
+   "b": 809,
+   "t0": 0,
+   "t1": 127,
+   "line": "ESA's Euclid telescope just announced it. A brand new record."
+  },
+  {
+   "shot": "S10",
+   "a": 809,
+   "b": 856,
+   "t0": 0,
+   "t1": 47,
+   "line": "So what if you were that light."
+  },
+  {
+   "shot": "S11",
+   "a": 856,
+   "b": 938,
+   "t0": 0,
+   "t1": 82,
+   "line": "And you rode the whole way here?"
+  },
+  {
+   "shot": "S12",
+   "a": 938,
+   "b": 1014,
+   "t0": 0,
+   "t1": 76,
+   "line": "First, the rules. You are one photon. One tiny packet of light."
+  },
+  {
+   "shot": "S12",
+   "a": 1014,
+   "b": 1091,
+   "t0": 76,
+   "t1": 153,
+   "line": "First, the rules. You are one photon. One tiny packet of light."
+  },
+  {
+   "shot": "S13",
+   "a": 1091,
+   "b": 1204,
+   "t0": 0,
+   "t1": 113,
+   "line": "You move at about three hundred thousand kilometres every second."
+  },
+  {
+   "shot": "S14",
+   "a": 1204,
+   "b": 1305,
+   "t0": 0,
+   "t1": 101,
+   "line": "Earth to the Moon? About one and a bit seconds."
+  },
+  {
+   "shot": "S15",
+   "a": 1305,
+   "b": 1379,
+   "t0": 0,
+   "t1": 74,
+   "line": "Rule two: you cannot stop. You cannot slow down. You cannot turn."
+  },
+  {
+   "shot": "S15",
+   "a": 1379,
+   "b": 1454,
+   "t0": 74,
+   "t1": 149,
+   "line": "Rule two: you cannot stop. You cannot slow down. You cannot turn."
+  },
+  {
+   "shot": "S16",
+   "a": 1454,
+   "b": 1532,
+   "t0": 0,
+   "t1": 78,
+   "line": "No snack breaks. No toilet. Thirteen billion years in a straight line."
+  },
+  {
+   "shot": "S16",
+   "a": 1532,
+   "b": 1610,
+   "t0": 78,
+   "t1": 156,
+   "line": "No snack breaks. No toilet. Thirteen billion years in a straight line."
+  },
+  {
+   "shot": "S17",
+   "a": 1610,
+   "b": 1730,
+   "t0": 0,
+   "t1": 120,
+   "line": "Rule three is the strange one. Space itself will stretch you."
+  },
+  {
+   "shot": "S18",
+   "a": 1730,
+   "b": 1838,
+   "t0": 0,
+   "t1": 108,
+   "line": "Remember that. It is the reason anyone can find you at all."
+  },
+  {
+   "shot": "S19",
+   "a": 1838,
+   "b": 1927,
+   "t0": 0,
+   "t1": 89,
+   "line": "Now, where does your trip begin?"
+  },
+  {
+   "shot": "S20",
+   "a": 1927,
+   "b": 2040,
+   "t0": 0,
+   "t1": 113,
+   "line": "You start your life six hundred thirty million years after the Big Bang."
+  },
+  {
+   "shot": "S21",
+   "a": 2040,
+   "b": 2168,
+   "t0": 0,
+   "t1": 128,
+   "line": "That sounds old. For the universe, it is barely out of nappies."
+  },
+  {
+   "shot": "S22",
+   "a": 2168,
+   "b": 2253,
+   "t0": 0,
+   "t1": 85,
+   "line": "It is only about five percent of its age today."
+  },
+  {
+   "shot": "S23",
+   "a": 2253,
+   "b": 2351,
+   "t0": 0,
+   "t1": 98,
+   "line": "You are born in the heart of a young, reddish galaxy."
+  },
+  {
+   "shot": "S24",
+   "a": 2351,
+   "b": 2419,
+   "t0": 0,
+   "t1": 68,
+   "line": "And at that heart sits something enormous."
+  },
+  {
+   "shot": "S25",
+   "a": 2419,
+   "b": 2478,
+   "t0": 0,
+   "t1": 59,
+   "line": "A supermassive black hole."
+  },
+  {
+   "shot": "S26",
+   "a": 2478,
+   "b": 2571,
+   "t0": 0,
+   "t1": 93,
+   "line": "Gas spirals in around it like water down a plughole."
+  },
+  {
+   "shot": "S27",
+   "a": 2571,
+   "b": 2697,
+   "t0": 0,
+   "t1": 126,
+   "line": "The gas rubs, heats up, and glows brighter than anything around it."
+  },
+  {
+   "shot": "S28",
+   "a": 2697,
+   "b": 2770,
+   "t0": 0,
+   "t1": 73,
+   "line": "That blazing core is called a quasar."
+  },
+  {
+   "shot": "S29",
+   "a": 2770,
+   "b": 2892,
+   "t0": 0,
+   "t1": 122,
+   "line": "A quasar can outshine every star in its own galaxy put together."
+  },
+  {
+   "shot": "S30",
+   "a": 2892,
+   "b": 3002,
+   "t0": 0,
+   "t1": 110,
+   "line": "Imagine a torch so bright it hides the whole city behind it."
+  },
+  {
+   "shot": "S31",
+   "a": 3002,
+   "b": 3134,
+   "t0": 0,
+   "t1": 132,
+   "line": "Webb later weighed this black hole: about three hundred sixty million Suns."
+  },
+  {
+   "shot": "S32",
+   "a": 3134,
+   "b": 3225,
+   "t0": 0,
+   "t1": 91,
+   "line": "Line up our Sun three hundred sixty million times."
+  },
+  {
+   "shot": "S33",
+   "a": 3225,
+   "b": 3273,
+   "t0": 0,
+   "t1": 48,
+   "line": "That is one black hole."
+  },
+  {
+   "shot": "S34",
+   "a": 3273,
+   "b": 3369,
+   "t0": 0,
+   "t1": 96,
+   "line": "You are flung out of that glare in a fraction of a second."
+  },
+  {
+   "shot": "S35",
+   "a": 3369,
+   "b": 3499,
+   "t0": 0,
+   "t1": 130,
+   "line": "Bad news: you are not the only light leaving. Trillions leave with you."
+  },
+  {
+   "shot": "S36",
+   "a": 3499,
+   "b": 3620,
+   "t0": 0,
+   "t1": 121,
+   "line": "Almost all of them will never hit anything we can see. You will."
+  },
+  {
+   "shot": "S37",
+   "a": 3620,
+   "b": 3694,
+   "t0": 0,
+   "t1": 74,
+   "line": "But first, the universe you are flying through looks nothing like ours."
+  },
+  {
+   "shot": "S37",
+   "a": 3694,
+   "b": 3769,
+   "t0": 74,
+   "t1": 149,
+   "line": "But first, the universe you are flying through looks nothing like ours."
+  },
+  {
+   "shot": "S38",
+   "a": 3769,
+   "b": 3896,
+   "t0": 0,
+   "t1": 127,
+   "line": "It is foggy out here. Thick clouds of hydrogen gas everywhere."
+  },
+  {
+   "shot": "S39",
+   "a": 3896,
+   "b": 4015,
+   "t0": 0,
+   "t1": 119,
+   "line": "For a long time after the Big Bang, the universe was dark."
+  },
+  {
+   "shot": "S40",
+   "a": 4015,
+   "b": 4120,
+   "t0": 0,
+   "t1": 105,
+   "line": "Now the very first stars and galaxies are switching on."
+  },
+  {
+   "shot": "S41",
+   "a": 4120,
+   "b": 4225,
+   "t0": 0,
+   "t1": 105,
+   "line": "Each new star blows a bubble of clear space around itself."
+  },
+  {
+   "shot": "S42",
+   "a": 4225,
+   "b": 4344,
+   "t0": 0,
+   "t1": 119,
+   "line": "The bubbles grow and join, like lights coming on across a city."
+  },
+  {
+   "shot": "S43",
+   "a": 4344,
+   "b": 4451,
+   "t0": 0,
+   "t1": 107,
+   "line": "ESA calls it the moment a dark universe filled with light."
+  },
+  {
+   "shot": "S44",
+   "a": 4451,
+   "b": 4544,
+   "t0": 0,
+   "t1": 93,
+   "line": "You are flying right through it. Front row seats."
+  },
+  {
+   "shot": "S45",
+   "a": 4544,
+   "b": 4630,
+   "t0": 0,
+   "t1": 86,
+   "line": "You pass baby galaxies. Small, messy, red, and full of new stars."
+  },
+  {
+   "shot": "S45",
+   "a": 4630,
+   "b": 4717,
+   "t0": 86,
+   "t1": 173,
+   "line": "You pass baby galaxies. Small, messy, red, and full of new stars."
+  },
+  {
+   "shot": "S46",
+   "a": 4717,
+   "b": 4822,
+   "t0": 0,
+   "t1": 105,
+   "line": "Some of them will one day grow into giants like our Milky Way."
+  },
+  {
+   "shot": "S47",
+   "a": 4822,
+   "b": 4942,
+   "t0": 0,
+   "t1": 120,
+   "line": "Our own galaxy? Not finished. Not even close."
+  },
+  {
+   "shot": "S48",
+   "a": 4942,
+   "b": 5075,
+   "t0": 0,
+   "t1": 133,
+   "line": "And that quasar behind you? It is a puzzle nobody can explain yet."
+  },
+  {
+   "shot": "S49",
+   "a": 5075,
+   "b": 5154,
+   "t0": 0,
+   "t1": 79,
+   "line": "Hold that thought. We will come back to it."
+  },
+  {
+   "shot": "S50",
+   "a": 5154,
+   "b": 5289,
+   "t0": 0,
+   "t1": 135,
+   "line": "Because something is happening to you. You are changing colour."
+  },
+  {
+   "shot": "S51",
+   "a": 5289,
+   "b": 5403,
+   "t0": 0,
+   "t1": 114,
+   "line": "Here is rule three in action. The universe is expanding."
+  },
+  {
+   "shot": "S52",
+   "a": 5403,
+   "b": 5512,
+   "t0": 0,
+   "t1": 109,
+   "line": "Every bit of space between the galaxies keeps getting bigger."
+  },
+  {
+   "shot": "S53",
+   "a": 5512,
+   "b": 5596,
+   "t0": 0,
+   "t1": 84,
+   "line": "And as space stretches, it stretches you with it."
+  },
+  {
+   "shot": "S54",
+   "a": 5596,
+   "b": 5725,
+   "t0": 0,
+   "t1": 129,
+   "line": "Light is a wave. Short waves look blue. Long waves look red."
+  },
+  {
+   "shot": "S55",
+   "a": 5725,
+   "b": 5807,
+   "t0": 0,
+   "t1": 82,
+   "line": "Your waves are being pulled longer and longer."
+  },
+  {
+   "shot": "S56",
+   "a": 5807,
+   "b": 5931,
+   "t0": 0,
+   "t1": 124,
+   "line": "Astronomers call this redshift. Yours is eight point one three."
+  },
+  {
+   "shot": "S57",
+   "a": 5931,
+   "b": 6061,
+   "t0": 0,
+   "t1": 130,
+   "line": "That number is a record. No quasar had ever been found beyond eight."
+  },
+  {
+   "shot": "S58",
+   "a": 6061,
+   "b": 6103,
+   "t0": 0,
+   "t1": 42,
+   "line": "In plain words."
+  },
+  {
+   "shot": "S59",
+   "a": 6103,
+   "b": 6203,
+   "t0": 0,
+   "t1": 100,
+   "line": "Your waves end up about nine times longer than when you left."
+  },
+  {
+   "shot": "S60",
+   "a": 6203,
+   "b": 6316,
+   "t0": 0,
+   "t1": 113,
+   "line": "You were blazing ultraviolet and blue. Now you are deep red."
+  },
+  {
+   "shot": "S61",
+   "a": 6316,
+   "b": 6387,
+   "t0": 0,
+   "t1": 71,
+   "line": "Then past red. Into infrared, a colour human eyes cannot see."
+  },
+  {
+   "shot": "S61",
+   "a": 6387,
+   "b": 6458,
+   "t0": 71,
+   "t1": 142,
+   "line": "Then past red. Into infrared, a colour human eyes cannot see."
+  },
+  {
+   "shot": "S62",
+   "a": 6458,
+   "b": 6537,
+   "t0": 0,
+   "t1": 79,
+   "line": "Congratulations. You are now invisible. Also very, very long."
+  },
+  {
+   "shot": "S62",
+   "a": 6537,
+   "b": 6616,
+   "t0": 79,
+   "t1": 158,
+   "line": "Congratulations. You are now invisible. Also very, very long."
+  },
+  {
+   "shot": "S63",
+   "a": 6616,
+   "b": 6692,
+   "t0": 0,
+   "t1": 76,
+   "line": "Remember why the stretch matters? To find you, a telescope needs infrared eyes."
+  },
+  {
+   "shot": "S63",
+   "a": 6692,
+   "b": 6768,
+   "t0": 76,
+   "t1": 152,
+   "line": "Remember why the stretch matters? To find you, a telescope needs infrared eyes."
+  },
+  {
+   "shot": "S64",
+   "a": 6768,
+   "b": 6885,
+   "t0": 0,
+   "t1": 117,
+   "line": "That telescope will not even exist for thirteen billion years."
+  },
+  {
+   "shot": "S65",
+   "a": 6885,
+   "b": 7009,
+   "t0": 0,
+   "t1": 124,
+   "line": "So you settle in. This is going to take a while."
+  },
+  {
+   "shot": "S66",
+   "a": 7009,
+   "b": 7127,
+   "t0": 0,
+   "t1": 118,
+   "line": "One billion years go by. Then two. Then five."
+  },
+  {
+   "shot": "S67",
+   "a": 7127,
+   "b": 7212,
+   "t0": 0,
+   "t1": 85,
+   "line": "Galaxies crash together. Spirals form. Our Milky Way slowly takes shape."
+  },
+  {
+   "shot": "S67",
+   "a": 7212,
+   "b": 7297,
+   "t0": 85,
+   "t1": 170,
+   "line": "Galaxies crash together. Spirals form. Our Milky Way slowly takes shape."
+  },
+  {
+   "shot": "S68",
+   "a": 7297,
+   "b": 7409,
+   "t0": 0,
+   "t1": 112,
+   "line": "You are still flying. Still red. Still going."
+  },
+  {
+   "shot": "S69",
+   "a": 7409,
+   "b": 7483,
+   "t0": 0,
+   "t1": 74,
+   "line": "Around nine billion years into your trip."
+  },
+  {
+   "shot": "S70",
+   "a": 7483,
+   "b": 7585,
+   "t0": 0,
+   "t1": 102,
+   "line": "A cloud collapses in a quiet corner of the Milky Way."
+  },
+  {
+   "shot": "S71",
+   "a": 7585,
+   "b": 7705,
+   "t0": 0,
+   "t1": 120,
+   "line": "It becomes our Sun, about four point six billion years ago."
+  },
+  {
+   "shot": "S72",
+   "a": 7705,
+   "b": 7773,
+   "t0": 0,
+   "t1": 68,
+   "line": "Think about that. You are older than the Sun. By billions of years."
+  },
+  {
+   "shot": "S72",
+   "a": 7773,
+   "b": 7841,
+   "t0": 68,
+   "t1": 136,
+   "line": "Think about that. You are older than the Sun. By billions of years."
+  },
+  {
+   "shot": "S73",
+   "a": 7841,
+   "b": 7936,
+   "t0": 0,
+   "t1": 95,
+   "line": "Then a hot little ball forms near the new Sun. Earth."
+  },
+  {
+   "shot": "S74",
+   "a": 7936,
+   "b": 8012,
+   "t0": 0,
+   "t1": 76,
+   "line": "It cools down, grows oceans, and, very slowly, grows life."
+  },
+  {
+   "shot": "S74",
+   "a": 8012,
+   "b": 8089,
+   "t0": 76,
+   "t1": 153,
+   "line": "It cools down, grows oceans, and, very slowly, grows life."
+  },
+  {
+   "shot": "S75",
+   "a": 8089,
+   "b": 8158,
+   "t0": 0,
+   "t1": 69,
+   "line": "Dinosaurs come and go. You do not care. You are a photon."
+  },
+  {
+   "shot": "S75",
+   "a": 8158,
+   "b": 8227,
+   "t0": 69,
+   "t1": 138,
+   "line": "Dinosaurs come and go. You do not care. You are a photon."
+  },
+  {
+   "shot": "S76",
+   "a": 8227,
+   "b": 8302,
+   "t0": 0,
+   "t1": 75,
+   "line": "Humans show up. They build fires, then cities, then telescopes."
+  },
+  {
+   "shot": "S76",
+   "a": 8302,
+   "b": 8377,
+   "t0": 75,
+   "t1": 150,
+   "line": "Humans show up. They build fires, then cities, then telescopes."
+  },
+  {
+   "shot": "S77",
+   "a": 8377,
+   "b": 8482,
+   "t0": 0,
+   "t1": 105,
+   "line": "All of human history fits into the last blink of your trip."
+  },
+  {
+   "shot": "S78",
+   "a": 8482,
+   "b": 8536,
+   "t0": 0,
+   "t1": 54,
+   "line": "And here is the wild part."
+  },
+  {
+   "shot": "S79",
+   "a": 8536,
+   "b": 8631,
+   "t0": 0,
+   "t1": 95,
+   "line": "Space has kept stretching behind you the whole time."
+  },
+  {
+   "shot": "S80",
+   "a": 8631,
+   "b": 8762,
+   "t0": 0,
+   "t1": 131,
+   "line": "So home is now far, far more than thirteen billion light-years away."
+  },
+  {
+   "shot": "S81",
+   "a": 8762,
+   "b": 8868,
+   "t0": 0,
+   "t1": 106,
+   "line": "You could never fly back. Not that you were allowed to turn."
+  },
+  {
+   "shot": "S82",
+   "a": 8868,
+   "b": 8942,
+   "t0": 0,
+   "t1": 74,
+   "line": "Then, in your last few years, something new appears up ahead."
+  },
+  {
+   "shot": "S82",
+   "a": 8942,
+   "b": 9017,
+   "t0": 74,
+   "t1": 149,
+   "line": "Then, in your last few years, something new appears up ahead."
+  },
+  {
+   "shot": "S83",
+   "a": 9017,
+   "b": 9133,
+   "t0": 0,
+   "t1": 116,
+   "line": "In twenty twenty-three, Europe launches the Euclid space telescope."
+  },
+  {
+   "shot": "S84",
+   "a": 9133,
+   "b": 9255,
+   "t0": 0,
+   "t1": 122,
+   "line": "Its job: map the dark universe across a huge patch of sky."
+  },
+  {
+   "shot": "S85",
+   "a": 9255,
+   "b": 9377,
+   "t0": 0,
+   "t1": 122,
+   "line": "And it has exactly what you need: very sensitive infrared eyes."
+  },
+  {
+   "shot": "S86",
+   "a": 9377,
+   "b": 9472,
+   "t0": 0,
+   "t1": 95,
+   "line": "Your thirteen billion year trip ends on its detector."
+  },
+  {
+   "shot": "S87",
+   "a": 9472,
+   "b": 9545,
+   "t0": 0,
+   "t1": 73,
+   "line": "Splat. Well, a tiny electric blip. But still, you made it."
+  },
+  {
+   "shot": "S87",
+   "a": 9545,
+   "b": 9618,
+   "t0": 73,
+   "t1": 146,
+   "line": "Splat. Well, a tiny electric blip. But still, you made it."
+  },
+  {
+   "shot": "S88",
+   "a": 9618,
+   "b": 9698,
+   "t0": 0,
+   "t1": 80,
+   "line": "In the picture, you are not a blazing beacon."
+  },
+  {
+   "shot": "S89",
+   "a": 9698,
+   "b": 9738,
+   "t0": 0,
+   "t1": 40,
+   "line": "You are a red dot."
+  },
+  {
+   "shot": "S90",
+   "a": 9738,
+   "b": 9822,
+   "t0": 0,
+   "t1": 84,
+   "line": "And you are one dot among millions of objects."
+  },
+  {
+   "shot": "S91",
+   "a": 9822,
+   "b": 9943,
+   "t0": 0,
+   "t1": 121,
+   "line": "Scientists sifted through about eighteen months of Euclid data to spot you."
+  },
+  {
+   "shot": "S92",
+   "a": 9943,
+   "b": 10050,
+   "t0": 0,
+   "t1": 107,
+   "line": "Finding you was harder than finding one grain of sand on a beach."
+  },
+  {
+   "shot": "S93",
+   "a": 10050,
+   "b": 10121,
+   "t0": 0,
+   "t1": 71,
+   "line": "But a red dot could be a lot of things."
+  },
+  {
+   "shot": "S94",
+   "a": 10121,
+   "b": 10215,
+   "t0": 0,
+   "t1": 94,
+   "line": "A nearby cool star. A dusty galaxy."
+  },
+  {
+   "shot": "S95",
+   "a": 10215,
+   "b": 10282,
+   "t0": 0,
+   "t1": 67,
+   "line": "So the big telescopes were called in."
+  },
+  {
+   "shot": "S96",
+   "a": 10282,
+   "b": 10383,
+   "t0": 0,
+   "t1": 101,
+   "line": "Keck in Hawaii. The Large Binocular Telescope."
+  },
+  {
+   "shot": "S97",
+   "a": 10383,
+   "b": 10463,
+   "t0": 0,
+   "t1": 80,
+   "line": "Then Hubble. And finally, Webb."
+  },
+  {
+   "shot": "S98",
+   "a": 10463,
+   "b": 10579,
+   "t0": 0,
+   "t1": 116,
+   "line": "Webb split your light and confirmed it. You really are a quasar."
+  },
+  {
+   "shot": "S99",
+   "a": 10579,
+   "b": 10647,
+   "t0": 0,
+   "t1": 68,
+   "line": "Its nickname is Dún Aonghasa."
+  },
+  {
+   "shot": "S100",
+   "a": 10647,
+   "b": 10772,
+   "t0": 0,
+   "t1": 125,
+   "line": "Its official name is J fifteen-oh-four plus sixty-two fifty-two."
+  },
+  {
+   "shot": "S101",
+   "a": 10772,
+   "b": 10846,
+   "t0": 0,
+   "t1": 74,
+   "line": "It is named after an ancient stone fort."
+  },
+  {
+   "shot": "S102",
+   "a": 10846,
+   "b": 10899,
+   "t0": 0,
+   "t1": 53,
+   "line": "On a cliff edge in Ireland."
+  },
+  {
+   "shot": "S103",
+   "a": 10899,
+   "b": 10933,
+   "t0": 0,
+   "t1": 34,
+   "line": "Like that fort."
+  },
+  {
+   "shot": "S104",
+   "a": 10933,
+   "b": 11055,
+   "t0": 0,
+   "t1": 122,
+   "line": "This quasar sits right at the edge of what we can see."
+  },
+  {
+   "shot": "S105",
+   "a": 11055,
+   "b": 11144,
+   "t0": 0,
+   "t1": 89,
+   "line": "Now, remember the puzzle? Here it is."
+  },
+  {
+   "shot": "S106",
+   "a": 11144,
+   "b": 11211,
+   "t0": 0,
+   "t1": 67,
+   "line": "Black holes grow by eating gas."
+  },
+  {
+   "shot": "S107",
+   "a": 11211,
+   "b": 11284,
+   "t0": 0,
+   "t1": 73,
+   "line": "Big ones need a lot of time to get big."
+  },
+  {
+   "shot": "S108",
+   "a": 11284,
+   "b": 11401,
+   "t0": 0,
+   "t1": 117,
+   "line": "This one had only six hundred thirty million years since the Big Bang."
+  },
+  {
+   "shot": "S109",
+   "a": 11401,
+   "b": 11496,
+   "t0": 0,
+   "t1": 95,
+   "line": "And it still reached three hundred sixty million Suns."
+  },
+  {
+   "shot": "S110",
+   "a": 11496,
+   "b": 11624,
+   "t0": 0,
+   "t1": 128,
+   "line": "Here is the twist. Right now, this quasar is a slow eater."
+  },
+  {
+   "shot": "S111",
+   "a": 11624,
+   "b": 11724,
+   "t0": 0,
+   "t1": 100,
+   "line": "ESA says it is eating at a relatively slow rate."
+  },
+  {
+   "shot": "S112",
+   "a": 11724,
+   "b": 11819,
+   "t0": 0,
+   "t1": 95,
+   "line": "So how did a slow eater get that huge, that fast?"
+  },
+  {
+   "shot": "S113",
+   "a": 11819,
+   "b": 11907,
+   "t0": 0,
+   "t1": 88,
+   "line": "It is like meeting a toddler the size of a house."
+  },
+  {
+   "shot": "S114",
+   "a": 11907,
+   "b": 11946,
+   "t0": 0,
+   "t1": 39,
+   "line": "Who barely eats."
+  },
+  {
+   "shot": "S115",
+   "a": 11946,
+   "b": 12026,
+   "t0": 0,
+   "t1": 80,
+   "line": "The answer, scientists think, is short, wild growth spurts very early on."
+  },
+  {
+   "shot": "S115",
+   "a": 12026,
+   "b": 12106,
+   "t0": 80,
+   "t1": 160,
+   "line": "The answer, scientists think, is short, wild growth spurts very early on."
+  },
+  {
+   "shot": "S116",
+   "a": 12106,
+   "b": 12240,
+   "t0": 0,
+   "t1": 134,
+   "line": "Feasting so hard, so fast, that our models struggle to keep up."
+  },
+  {
+   "shot": "S117",
+   "a": 12240,
+   "b": 12331,
+   "t0": 0,
+   "t1": 91,
+   "line": "That is why this little red dot matters so much."
+  },
+  {
+   "shot": "S118",
+   "a": 12331,
+   "b": 12429,
+   "t0": 0,
+   "t1": 98,
+   "line": "It is a clue to how the first giant black holes were born."
+  },
+  {
+   "shot": "S119",
+   "a": 12429,
+   "b": 12546,
+   "t0": 0,
+   "t1": 117,
+   "line": "And it is not the only red dot Euclid has caught."
+  },
+  {
+   "shot": "S120",
+   "a": 12546,
+   "b": 12668,
+   "t0": 0,
+   "t1": 122,
+   "line": "This find beats Euclid's own record, set just a few months earlier."
+  },
+  {
+   "shot": "S121",
+   "a": 12668,
+   "b": 12748,
+   "t0": 0,
+   "t1": 80,
+   "line": "It looks back an extra forty million years."
+  },
+  {
+   "shot": "S122",
+   "a": 12748,
+   "b": 12804,
+   "t0": 0,
+   "t1": 56,
+   "line": "In just a year and a half."
+  },
+  {
+   "shot": "S123",
+   "a": 12804,
+   "b": 12896,
+   "t0": 0,
+   "t1": 92,
+   "line": "Euclid has announced thirty-one ancient quasars."
+  },
+  {
+   "shot": "S124",
+   "a": 12896,
+   "b": 12970,
+   "t0": 0,
+   "t1": 74,
+   "line": "Twelve of them sit beyond redshift seven."
+  },
+  {
+   "shot": "S125",
+   "a": 12970,
+   "b": 13078,
+   "t0": 0,
+   "t1": 108,
+   "line": "Older surveys took fifteen years just to reach that distance."
+  },
+  {
+   "shot": "S126",
+   "a": 13078,
+   "b": 13157,
+   "t0": 0,
+   "t1": 79,
+   "line": "Euclid more than doubled the known count out there."
+  },
+  {
+   "shot": "S127",
+   "a": 13157,
+   "b": 13200,
+   "t0": 0,
+   "t1": 43,
+   "line": "But at redshift eight."
+  },
+  {
+   "shot": "S128",
+   "a": 13200,
+   "b": 13306,
+   "t0": 0,
+   "t1": 106,
+   "line": "They are so rare that ESA expects a few tens at most."
+  },
+  {
+   "shot": "S129",
+   "a": 13306,
+   "b": 13418,
+   "t0": 0,
+   "t1": 112,
+   "line": "In the whole survey. That is how special your little trip was."
+  },
+  {
+   "shot": "S130",
+   "a": 13418,
+   "b": 13515,
+   "t0": 0,
+   "t1": 97,
+   "line": "So somewhere out there, older light is still on its way."
+  },
+  {
+   "shot": "S131",
+   "a": 13515,
+   "b": 13640,
+   "t0": 0,
+   "t1": 125,
+   "line": "Every new record pushes the edge a little further back."
+  },
+  {
+   "shot": "S132",
+   "a": 13640,
+   "b": 13712,
+   "t0": 0,
+   "t1": 72,
+   "line": "So back to that moment. Thirteen billion years, and you hit a telescope."
+  },
+  {
+   "shot": "S132",
+   "a": 13712,
+   "b": 13784,
+   "t0": 72,
+   "t1": 144,
+   "line": "So back to that moment. Thirteen billion years, and you hit a telescope."
+  },
+  {
+   "shot": "S133",
+   "a": 13784,
+   "b": 13919,
+   "t0": 0,
+   "t1": 135,
+   "line": "You left before the Sun. Before Earth. Before anyone could look up."
+  },
+  {
+   "shot": "S134",
+   "a": 13919,
+   "b": 14023,
+   "t0": 0,
+   "t1": 104,
+   "line": "And someone finally did look up, just in time to catch you."
+  },
+  {
+   "shot": "S135",
+   "a": 14023,
+   "b": 14086,
+   "t0": 0,
+   "t1": 63,
+   "line": "Every time you look at the night sky."
+  },
+  {
+   "shot": "S136",
+   "a": 14086,
+   "b": 14139,
+   "t0": 0,
+   "t1": 53,
+   "line": "You are looking back in time."
+  },
+  {
+   "shot": "S137",
+   "a": 14139,
+   "b": 14252,
+   "t0": 0,
+   "t1": 113,
+   "line": "Which would you rather ride: the oldest light, or the brightest?"
+  },
+  {
+   "shot": "S138",
+   "a": 14252,
+   "b": 14299,
+   "t0": 0,
+   "t1": 47,
+   "line": "Tell me in the comments."
+  },
+  {
+   "shot": "S139",
+   "a": 14299,
+   "b": 14373,
+   "t0": 0,
+   "t1": 74,
+   "line": "Tomorrow: what if you rode a nuclear-powered spaceship to Mars?"
+  },
+  {
+   "shot": "S139",
+   "a": 14373,
+   "b": 14448,
+   "t0": 74,
+   "t1": 149,
+   "line": "Tomorrow: what if you rode a nuclear-powered spaceship to Mars?"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 55,
+   "len": 88,
+   "first": 0,
+   "line": "You have been flying for thirteen billion years.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "high",
+   "key": 37,
+   "len": 60,
+   "first": 88,
+   "line": "And you are about to hit a telescope.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "med",
+   "key": 38,
+   "len": 61,
+   "first": 148,
+   "line": "You are a single speck of light.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "low",
+   "key": 46,
+   "len": 75,
+   "first": 209,
+   "line": "From the most distant quasar ever found.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "pullout",
+   "key": 53,
+   "len": 86,
+   "first": 284,
+   "line": "When you left home, the universe was a baby.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "pan",
+   "key": 95,
+   "len": 153,
+   "first": 370,
+   "line": "Earth did not exist. The Sun did not exist. Nothing you know existed.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "low",
+   "key": 46,
+   "len": 74,
+   "first": 523,
+   "line": "And what made you? A black hole.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "pan",
+   "key": 53,
+   "len": 85,
+   "first": 597,
+   "line": "Three hundred sixty million times heavier than the Sun.",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "high",
+   "key": 79,
+   "len": 127,
+   "first": 682,
+   "line": "ESA's Euclid telescope just announced it. A brand new record.",
+   "note": "ch0"
+  },
+  {
+   "id": "S10",
+   "size": "close",
+   "key": 29,
+   "len": 47,
+   "first": 809,
+   "line": "So what if you were that light.",
+   "note": "ch0"
+  },
+  {
+   "id": "S11",
+   "size": "pullout",
+   "key": 51,
+   "len": 82,
+   "first": 856,
+   "line": "And you rode the whole way here?",
+   "note": "ch0"
+  },
+  {
+   "id": "S12",
+   "size": "wide",
+   "key": 95,
+   "len": 153,
+   "first": 938,
+   "line": "First, the rules. You are one photon. One tiny packet of light.",
+   "note": "ch1"
+  },
+  {
+   "id": "S13",
+   "size": "med",
+   "key": 70,
+   "len": 113,
+   "first": 1091,
+   "line": "You move at about three hundred thousand kilometres every second.",
+   "note": "ch1"
+  },
+  {
+   "id": "S14",
+   "size": "insert",
+   "key": 63,
+   "len": 101,
+   "first": 1204,
+   "line": "Earth to the Moon? About one and a bit seconds.",
+   "note": "ch1"
+  },
+  {
+   "id": "S15",
+   "size": "close",
+   "key": 92,
+   "len": 149,
+   "first": 1305,
+   "line": "Rule two: you cannot stop. You cannot slow down. You cannot turn.",
+   "note": "ch1"
+  },
+  {
+   "id": "S16",
+   "size": "pan",
+   "key": 97,
+   "len": 156,
+   "first": 1454,
+   "line": "No snack breaks. No toilet. Thirteen billion years in a straight line.",
+   "note": "ch1"
+  },
+  {
+   "id": "S17",
+   "size": "high",
+   "key": 74,
+   "len": 120,
+   "first": 1610,
+   "line": "Rule three is the strange one. Space itself will stretch you.",
+   "note": "ch1"
+  },
+  {
+   "id": "S18",
+   "size": "pullout",
+   "key": 67,
+   "len": 108,
+   "first": 1730,
+   "line": "Remember that. It is the reason anyone can find you at all.",
+   "note": "ch1"
+  },
+  {
+   "id": "S19",
+   "size": "wide",
+   "key": 55,
+   "len": 89,
+   "first": 1838,
+   "line": "Now, where does your trip begin?",
+   "note": "ch1"
+  },
+  {
+   "id": "S20",
+   "size": "pan",
+   "key": 70,
+   "len": 113,
+   "first": 1927,
+   "line": "You start your life six hundred thirty million years after the Big Bang.",
+   "note": "ch2"
+  },
+  {
+   "id": "S21",
+   "size": "med",
+   "key": 79,
+   "len": 128,
+   "first": 2040,
+   "line": "That sounds old. For the universe, it is barely out of nappies.",
+   "note": "ch2"
+  },
+  {
+   "id": "S22",
+   "size": "close",
+   "key": 53,
+   "len": 85,
+   "first": 2168,
+   "line": "It is only about five percent of its age today.",
+   "note": "ch2"
+  },
+  {
+   "id": "S23",
+   "size": "pullout",
+   "key": 61,
+   "len": 98,
+   "first": 2253,
+   "line": "You are born in the heart of a young, reddish galaxy.",
+   "note": "ch2"
+  },
+  {
+   "id": "S24",
+   "size": "low",
+   "key": 42,
+   "len": 68,
+   "first": 2351,
+   "line": "And at that heart sits something enormous.",
+   "note": "ch2"
+  },
+  {
+   "id": "S25",
+   "size": "insert",
+   "key": 37,
+   "len": 59,
+   "first": 2419,
+   "line": "A supermassive black hole.",
+   "note": "ch2"
+  },
+  {
+   "id": "S26",
+   "size": "panr",
+   "key": 58,
+   "len": 93,
+   "first": 2478,
+   "line": "Gas spirals in around it like water down a plughole.",
+   "note": "ch2"
+  },
+  {
+   "id": "S27",
+   "size": "close",
+   "key": 78,
+   "len": 126,
+   "first": 2571,
+   "line": "The gas rubs, heats up, and glows brighter than anything around it.",
+   "note": "ch2"
+  },
+  {
+   "id": "S28",
+   "size": "wide",
+   "key": 45,
+   "len": 73,
+   "first": 2697,
+   "line": "That blazing core is called a quasar.",
+   "note": "ch2"
+  },
+  {
+   "id": "S29",
+   "size": "pullout",
+   "key": 76,
+   "len": 122,
+   "first": 2770,
+   "line": "A quasar can outshine every star in its own galaxy put together.",
+   "note": "ch2"
+  },
+  {
+   "id": "S30",
+   "size": "high",
+   "key": 68,
+   "len": 110,
+   "first": 2892,
+   "line": "Imagine a torch so bright it hides the whole city behind it.",
+   "note": "ch2"
+  },
+  {
+   "id": "S31",
+   "size": "med",
+   "key": 82,
+   "len": 132,
+   "first": 3002,
+   "line": "Webb later weighed this black hole: about three hundred sixty million Suns.",
+   "note": "ch2"
+  },
+  {
+   "id": "S32",
+   "size": "insert",
+   "key": 56,
+   "len": 91,
+   "first": 3134,
+   "line": "Line up our Sun three hundred sixty million times.",
+   "note": "ch2"
+  },
+  {
+   "id": "S33",
+   "size": "panr",
+   "key": 30,
+   "len": 48,
+   "first": 3225,
+   "line": "That is one black hole.",
+   "note": "ch2"
+  },
+  {
+   "id": "S34",
+   "size": "close",
+   "key": 60,
+   "len": 96,
+   "first": 3273,
+   "line": "You are flung out of that glare in a fraction of a second.",
+   "note": "ch2"
+  },
+  {
+   "id": "S35",
+   "size": "wide",
+   "key": 81,
+   "len": 130,
+   "first": 3369,
+   "line": "Bad news: you are not the only light leaving. Trillions leave with you.",
+   "note": "ch2"
+  },
+  {
+   "id": "S36",
+   "size": "med",
+   "key": 75,
+   "len": 121,
+   "first": 3499,
+   "line": "Almost all of them will never hit anything we can see. You will.",
+   "note": "ch2"
+  },
+  {
+   "id": "S37",
+   "size": "low",
+   "key": 92,
+   "len": 149,
+   "first": 3620,
+   "line": "But first, the universe you are flying through looks nothing like ours.",
+   "note": "ch2"
+  },
+  {
+   "id": "S38",
+   "size": "wide",
+   "key": 79,
+   "len": 127,
+   "first": 3769,
+   "line": "It is foggy out here. Thick clouds of hydrogen gas everywhere.",
+   "note": "ch3"
+  },
+  {
+   "id": "S39",
+   "size": "pullout",
+   "key": 74,
+   "len": 119,
+   "first": 3896,
+   "line": "For a long time after the Big Bang, the universe was dark.",
+   "note": "ch3"
+  },
+  {
+   "id": "S40",
+   "size": "med",
+   "key": 65,
+   "len": 105,
+   "first": 4015,
+   "line": "Now the very first stars and galaxies are switching on.",
+   "note": "ch3"
+  },
+  {
+   "id": "S41",
+   "size": "insert",
+   "key": 65,
+   "len": 105,
+   "first": 4120,
+   "line": "Each new star blows a bubble of clear space around itself.",
+   "note": "ch3"
+  },
+  {
+   "id": "S42",
+   "size": "high",
+   "key": 74,
+   "len": 119,
+   "first": 4225,
+   "line": "The bubbles grow and join, like lights coming on across a city.",
+   "note": "ch3"
+  },
+  {
+   "id": "S43",
+   "size": "wide",
+   "key": 66,
+   "len": 107,
+   "first": 4344,
+   "line": "ESA calls it the moment a dark universe filled with light.",
+   "note": "ch3"
+  },
+  {
+   "id": "S44",
+   "size": "close",
+   "key": 58,
+   "len": 93,
+   "first": 4451,
+   "line": "You are flying right through it. Front row seats.",
+   "note": "ch3"
+  },
+  {
+   "id": "S45",
+   "size": "pan",
+   "key": 107,
+   "len": 173,
+   "first": 4544,
+   "line": "You pass baby galaxies. Small, messy, red, and full of new stars.",
+   "note": "ch3"
+  },
+  {
+   "id": "S46",
+   "size": "med",
+   "key": 65,
+   "len": 105,
+   "first": 4717,
+   "line": "Some of them will one day grow into giants like our Milky Way.",
+   "note": "ch3"
+  },
+  {
+   "id": "S47",
+   "size": "insert",
+   "key": 74,
+   "len": 120,
+   "first": 4822,
+   "line": "Our own galaxy? Not finished. Not even close.",
+   "note": "ch3"
+  },
+  {
+   "id": "S48",
+   "size": "low",
+   "key": 82,
+   "len": 133,
+   "first": 4942,
+   "line": "And that quasar behind you? It is a puzzle nobody can explain yet.",
+   "note": "ch3"
+  },
+  {
+   "id": "S49",
+   "size": "close",
+   "key": 49,
+   "len": 79,
+   "first": 5075,
+   "line": "Hold that thought. We will come back to it.",
+   "note": "ch3"
+  },
+  {
+   "id": "S50",
+   "size": "wide",
+   "key": 84,
+   "len": 135,
+   "first": 5154,
+   "line": "Because something is happening to you. You are changing colour.",
+   "note": "ch3"
+  },
+  {
+   "id": "S51",
+   "size": "pullout",
+   "key": 71,
+   "len": 114,
+   "first": 5289,
+   "line": "Here is rule three in action. The universe is expanding.",
+   "note": "ch4"
+  },
+  {
+   "id": "S52",
+   "size": "high",
+   "key": 68,
+   "len": 109,
+   "first": 5403,
+   "line": "Every bit of space between the galaxies keeps getting bigger.",
+   "note": "ch4"
+  },
+  {
+   "id": "S53",
+   "size": "med",
+   "key": 52,
+   "len": 84,
+   "first": 5512,
+   "line": "And as space stretches, it stretches you with it.",
+   "note": "ch4"
+  },
+  {
+   "id": "S54",
+   "size": "wide",
+   "key": 80,
+   "len": 129,
+   "first": 5596,
+   "line": "Light is a wave. Short waves look blue. Long waves look red.",
+   "note": "ch4"
+  },
+  {
+   "id": "S55",
+   "size": "pan",
+   "key": 51,
+   "len": 82,
+   "first": 5725,
+   "line": "Your waves are being pulled longer and longer.",
+   "note": "ch4"
+  },
+  {
+   "id": "S56",
+   "size": "close",
+   "key": 77,
+   "len": 124,
+   "first": 5807,
+   "line": "Astronomers call this redshift. Yours is eight point one three.",
+   "note": "ch4"
+  },
+  {
+   "id": "S57",
+   "size": "insert",
+   "key": 81,
+   "len": 130,
+   "first": 5931,
+   "line": "That number is a record. No quasar had ever been found beyond eight.",
+   "note": "ch4"
+  },
+  {
+   "id": "S58",
+   "size": "med",
+   "key": 26,
+   "len": 42,
+   "first": 6061,
+   "line": "In plain words.",
+   "note": "ch4"
+  },
+  {
+   "id": "S59",
+   "size": "low",
+   "key": 62,
+   "len": 100,
+   "first": 6103,
+   "line": "Your waves end up about nine times longer than when you left.",
+   "note": "ch4"
+  },
+  {
+   "id": "S60",
+   "size": "low",
+   "key": 70,
+   "len": 113,
+   "first": 6203,
+   "line": "You were blazing ultraviolet and blue. Now you are deep red.",
+   "note": "ch4"
+  },
+  {
+   "id": "S61",
+   "size": "wide",
+   "key": 88,
+   "len": 142,
+   "first": 6316,
+   "line": "Then past red. Into infrared, a colour human eyes cannot see.",
+   "note": "ch4"
+  },
+  {
+   "id": "S62",
+   "size": "close",
+   "key": 98,
+   "len": 158,
+   "first": 6458,
+   "line": "Congratulations. You are now invisible. Also very, very long.",
+   "note": "ch4"
+  },
+  {
+   "id": "S63",
+   "size": "pullout",
+   "key": 94,
+   "len": 152,
+   "first": 6616,
+   "line": "Remember why the stretch matters? To find you, a telescope needs infrared eyes.",
+   "note": "ch4"
+  },
+  {
+   "id": "S64",
+   "size": "pan",
+   "key": 73,
+   "len": 117,
+   "first": 6768,
+   "line": "That telescope will not even exist for thirteen billion years.",
+   "note": "ch4"
+  },
+  {
+   "id": "S65",
+   "size": "high",
+   "key": 77,
+   "len": 124,
+   "first": 6885,
+   "line": "So you settle in. This is going to take a while.",
+   "note": "ch4"
+  },
+  {
+   "id": "S66",
+   "size": "pan",
+   "key": 73,
+   "len": 118,
+   "first": 7009,
+   "line": "One billion years go by. Then two. Then five.",
+   "note": "ch5"
+  },
+  {
+   "id": "S67",
+   "size": "wide",
+   "key": 105,
+   "len": 170,
+   "first": 7127,
+   "line": "Galaxies crash together. Spirals form. Our Milky Way slowly takes shape.",
+   "note": "ch5"
+  },
+  {
+   "id": "S68",
+   "size": "med",
+   "key": 69,
+   "len": 112,
+   "first": 7297,
+   "line": "You are still flying. Still red. Still going.",
+   "note": "ch5"
+  },
+  {
+   "id": "S69",
+   "size": "pullout",
+   "key": 46,
+   "len": 74,
+   "first": 7409,
+   "line": "Around nine billion years into your trip.",
+   "note": "ch5"
+  },
+  {
+   "id": "S70",
+   "size": "tilt",
+   "key": 63,
+   "len": 102,
+   "first": 7483,
+   "line": "A cloud collapses in a quiet corner of the Milky Way.",
+   "note": "ch5"
+  },
+  {
+   "id": "S71",
+   "size": "close",
+   "key": 74,
+   "len": 120,
+   "first": 7585,
+   "line": "It becomes our Sun, about four point six billion years ago.",
+   "note": "ch5"
+  },
+  {
+   "id": "S72",
+   "size": "insert",
+   "key": 84,
+   "len": 136,
+   "first": 7705,
+   "line": "Think about that. You are older than the Sun. By billions of years.",
+   "note": "ch5"
+  },
+  {
+   "id": "S73",
+   "size": "high",
+   "key": 59,
+   "len": 95,
+   "first": 7841,
+   "line": "Then a hot little ball forms near the new Sun. Earth.",
+   "note": "ch5"
+  },
+  {
+   "id": "S74",
+   "size": "wide",
+   "key": 95,
+   "len": 153,
+   "first": 7936,
+   "line": "It cools down, grows oceans, and, very slowly, grows life.",
+   "note": "ch5"
+  },
+  {
+   "id": "S75",
+   "size": "close",
+   "key": 86,
+   "len": 138,
+   "first": 8089,
+   "line": "Dinosaurs come and go. You do not care. You are a photon.",
+   "note": "ch5"
+  },
+  {
+   "id": "S76",
+   "size": "pan",
+   "key": 93,
+   "len": 150,
+   "first": 8227,
+   "line": "Humans show up. They build fires, then cities, then telescopes.",
+   "note": "ch5"
+  },
+  {
+   "id": "S77",
+   "size": "wide",
+   "key": 65,
+   "len": 105,
+   "first": 8377,
+   "line": "All of human history fits into the last blink of your trip.",
+   "note": "ch5"
+  },
+  {
+   "id": "S78",
+   "size": "med",
+   "key": 33,
+   "len": 54,
+   "first": 8482,
+   "line": "And here is the wild part.",
+   "note": "ch5"
+  },
+  {
+   "id": "S79",
+   "size": "low",
+   "key": 59,
+   "len": 95,
+   "first": 8536,
+   "line": "Space has kept stretching behind you the whole time.",
+   "note": "ch5"
+  },
+  {
+   "id": "S80",
+   "size": "wide",
+   "key": 81,
+   "len": 131,
+   "first": 8631,
+   "line": "So home is now far, far more than thirteen billion light-years away.",
+   "note": "ch5"
+  },
+  {
+   "id": "S81",
+   "size": "insert",
+   "key": 66,
+   "len": 106,
+   "first": 8762,
+   "line": "You could never fly back. Not that you were allowed to turn.",
+   "note": "ch5"
+  },
+  {
+   "id": "S82",
+   "size": "pullout",
+   "key": 92,
+   "len": 149,
+   "first": 8868,
+   "line": "Then, in your last few years, something new appears up ahead.",
+   "note": "ch5"
+  },
+  {
+   "id": "S83",
+   "size": "wide",
+   "key": 72,
+   "len": 116,
+   "first": 9017,
+   "line": "In twenty twenty-three, Europe launches the Euclid space telescope.",
+   "note": "ch6"
+  },
+  {
+   "id": "S84",
+   "size": "high",
+   "key": 76,
+   "len": 122,
+   "first": 9133,
+   "line": "Its job: map the dark universe across a huge patch of sky.",
+   "note": "ch6"
+  },
+  {
+   "id": "S85",
+   "size": "close",
+   "key": 76,
+   "len": 122,
+   "first": 9255,
+   "line": "And it has exactly what you need: very sensitive infrared eyes.",
+   "note": "ch6"
+  },
+  {
+   "id": "S86",
+   "size": "insert",
+   "key": 59,
+   "len": 95,
+   "first": 9377,
+   "line": "Your thirteen billion year trip ends on its detector.",
+   "note": "ch6"
+  },
+  {
+   "id": "S87",
+   "size": "med",
+   "key": 91,
+   "len": 146,
+   "first": 9472,
+   "line": "Splat. Well, a tiny electric blip. But still, you made it.",
+   "note": "ch6"
+  },
+  {
+   "id": "S88",
+   "size": "close",
+   "key": 50,
+   "len": 80,
+   "first": 9618,
+   "line": "In the picture, you are not a blazing beacon.",
+   "note": "ch6"
+  },
+  {
+   "id": "S89",
+   "size": "pullout",
+   "key": 25,
+   "len": 40,
+   "first": 9698,
+   "line": "You are a red dot.",
+   "note": "ch6"
+  },
+  {
+   "id": "S90",
+   "size": "wide",
+   "key": 52,
+   "len": 84,
+   "first": 9738,
+   "line": "And you are one dot among millions of objects.",
+   "note": "ch6"
+  },
+  {
+   "id": "S91",
+   "size": "pan",
+   "key": 75,
+   "len": 121,
+   "first": 9822,
+   "line": "Scientists sifted through about eighteen months of Euclid data to spot you.",
+   "note": "ch6"
+  },
+  {
+   "id": "S92",
+   "size": "med",
+   "key": 66,
+   "len": 107,
+   "first": 9943,
+   "line": "Finding you was harder than finding one grain of sand on a beach.",
+   "note": "ch6"
+  },
+  {
+   "id": "S93",
+   "size": "close",
+   "key": 44,
+   "len": 71,
+   "first": 10050,
+   "line": "But a red dot could be a lot of things.",
+   "note": "ch6"
+  },
+  {
+   "id": "S94",
+   "size": "pullout",
+   "key": 58,
+   "len": 94,
+   "first": 10121,
+   "line": "A nearby cool star. A dusty galaxy.",
+   "note": "ch6"
+  },
+  {
+   "id": "S95",
+   "size": "pullout",
+   "key": 42,
+   "len": 67,
+   "first": 10215,
+   "line": "So the big telescopes were called in.",
+   "note": "ch6"
+  },
+  {
+   "id": "S96",
+   "size": "tilt",
+   "key": 63,
+   "len": 101,
+   "first": 10282,
+   "line": "Keck in Hawaii. The Large Binocular Telescope.",
+   "note": "ch6"
+  },
+  {
+   "id": "S97",
+   "size": "insert",
+   "key": 50,
+   "len": 80,
+   "first": 10383,
+   "line": "Then Hubble. And finally, Webb.",
+   "note": "ch6"
+  },
+  {
+   "id": "S98",
+   "size": "wide",
+   "key": 72,
+   "len": 116,
+   "first": 10463,
+   "line": "Webb split your light and confirmed it. You really are a quasar.",
+   "note": "ch6"
+  },
+  {
+   "id": "S99",
+   "size": "wide",
+   "key": 42,
+   "len": 68,
+   "first": 10579,
+   "line": "Its nickname is Dún Aonghasa.",
+   "note": "ch6"
+  },
+  {
+   "id": "S100",
+   "size": "high",
+   "key": 78,
+   "len": 125,
+   "first": 10647,
+   "line": "Its official name is J fifteen-oh-four plus sixty-two fifty-two.",
+   "note": "ch6"
+  },
+  {
+   "id": "S101",
+   "size": "pan",
+   "key": 46,
+   "len": 74,
+   "first": 10772,
+   "line": "It is named after an ancient stone fort.",
+   "note": "ch6"
+  },
+  {
+   "id": "S102",
+   "size": "wide",
+   "key": 33,
+   "len": 53,
+   "first": 10846,
+   "line": "On a cliff edge in Ireland.",
+   "note": "ch6"
+  },
+  {
+   "id": "S103",
+   "size": "high",
+   "key": 21,
+   "len": 34,
+   "first": 10899,
+   "line": "Like that fort.",
+   "note": "ch6"
+  },
+  {
+   "id": "S104",
+   "size": "insert",
+   "key": 76,
+   "len": 122,
+   "first": 10933,
+   "line": "This quasar sits right at the edge of what we can see.",
+   "note": "ch6"
+  },
+  {
+   "id": "S105",
+   "size": "close",
+   "key": 55,
+   "len": 89,
+   "first": 11055,
+   "line": "Now, remember the puzzle? Here it is.",
+   "note": "ch7"
+  },
+  {
+   "id": "S106",
+   "size": "wide",
+   "key": 42,
+   "len": 67,
+   "first": 11144,
+   "line": "Black holes grow by eating gas.",
+   "note": "ch7"
+  },
+  {
+   "id": "S107",
+   "size": "high",
+   "key": 45,
+   "len": 73,
+   "first": 11211,
+   "line": "Big ones need a lot of time to get big.",
+   "note": "ch7"
+  },
+  {
+   "id": "S108",
+   "size": "med",
+   "key": 73,
+   "len": 117,
+   "first": 11284,
+   "line": "This one had only six hundred thirty million years since the Big Bang.",
+   "note": "ch7"
+  },
+  {
+   "id": "S109",
+   "size": "insert",
+   "key": 59,
+   "len": 95,
+   "first": 11401,
+   "line": "And it still reached three hundred sixty million Suns.",
+   "note": "ch7"
+  },
+  {
+   "id": "S110",
+   "size": "close",
+   "key": 79,
+   "len": 128,
+   "first": 11496,
+   "line": "Here is the twist. Right now, this quasar is a slow eater.",
+   "note": "ch7"
+  },
+  {
+   "id": "S111",
+   "size": "pullout",
+   "key": 62,
+   "len": 100,
+   "first": 11624,
+   "line": "ESA says it is eating at a relatively slow rate.",
+   "note": "ch7"
+  },
+  {
+   "id": "S112",
+   "size": "wide",
+   "key": 59,
+   "len": 95,
+   "first": 11724,
+   "line": "So how did a slow eater get that huge, that fast?",
+   "note": "ch7"
+  },
+  {
+   "id": "S113",
+   "size": "med",
+   "key": 55,
+   "len": 88,
+   "first": 11819,
+   "line": "It is like meeting a toddler the size of a house.",
+   "note": "ch7"
+  },
+  {
+   "id": "S114",
+   "size": "low",
+   "key": 24,
+   "len": 39,
+   "first": 11907,
+   "line": "Who barely eats.",
+   "note": "ch7"
+  },
+  {
+   "id": "S115",
+   "size": "pan",
+   "key": 99,
+   "len": 160,
+   "first": 11946,
+   "line": "The answer, scientists think, is short, wild growth spurts very early on.",
+   "note": "ch7"
+  },
+  {
+   "id": "S116",
+   "size": "high",
+   "key": 83,
+   "len": 134,
+   "first": 12106,
+   "line": "Feasting so hard, so fast, that our models struggle to keep up.",
+   "note": "ch7"
+  },
+  {
+   "id": "S117",
+   "size": "close",
+   "key": 56,
+   "len": 91,
+   "first": 12240,
+   "line": "That is why this little red dot matters so much.",
+   "note": "ch7"
+  },
+  {
+   "id": "S118",
+   "size": "wide",
+   "key": 61,
+   "len": 98,
+   "first": 12331,
+   "line": "It is a clue to how the first giant black holes were born.",
+   "note": "ch7"
+  },
+  {
+   "id": "S119",
+   "size": "insert",
+   "key": 73,
+   "len": 117,
+   "first": 12429,
+   "line": "And it is not the only red dot Euclid has caught.",
+   "note": "ch7"
+  },
+  {
+   "id": "S120",
+   "size": "med",
+   "key": 76,
+   "len": 122,
+   "first": 12546,
+   "line": "This find beats Euclid's own record, set just a few months earlier.",
+   "note": "ch8"
+  },
+  {
+   "id": "S121",
+   "size": "pan",
+   "key": 50,
+   "len": 80,
+   "first": 12668,
+   "line": "It looks back an extra forty million years.",
+   "note": "ch8"
+  },
+  {
+   "id": "S122",
+   "size": "wide",
+   "key": 35,
+   "len": 56,
+   "first": 12748,
+   "line": "In just a year and a half.",
+   "note": "ch8"
+  },
+  {
+   "id": "S123",
+   "size": "high",
+   "key": 57,
+   "len": 92,
+   "first": 12804,
+   "line": "Euclid has announced thirty-one ancient quasars.",
+   "note": "ch8"
+  },
+  {
+   "id": "S124",
+   "size": "close",
+   "key": 46,
+   "len": 74,
+   "first": 12896,
+   "line": "Twelve of them sit beyond redshift seven.",
+   "note": "ch8"
+  },
+  {
+   "id": "S125",
+   "size": "insert",
+   "key": 67,
+   "len": 108,
+   "first": 12970,
+   "line": "Older surveys took fifteen years just to reach that distance.",
+   "note": "ch8"
+  },
+  {
+   "id": "S126",
+   "size": "high",
+   "key": 49,
+   "len": 79,
+   "first": 13078,
+   "line": "Euclid more than doubled the known count out there.",
+   "note": "ch8"
+  },
+  {
+   "id": "S127",
+   "size": "pullout",
+   "key": 27,
+   "len": 43,
+   "first": 13157,
+   "line": "But at redshift eight.",
+   "note": "ch8"
+  },
+  {
+   "id": "S128",
+   "size": "tilt",
+   "key": 66,
+   "len": 106,
+   "first": 13200,
+   "line": "They are so rare that ESA expects a few tens at most.",
+   "note": "ch8"
+  },
+  {
+   "id": "S129",
+   "size": "med",
+   "key": 69,
+   "len": 112,
+   "first": 13306,
+   "line": "In the whole survey. That is how special your little trip was.",
+   "note": "ch8"
+  },
+  {
+   "id": "S130",
+   "size": "low",
+   "key": 60,
+   "len": 97,
+   "first": 13418,
+   "line": "So somewhere out there, older light is still on its way.",
+   "note": "ch8"
+  },
+  {
+   "id": "S131",
+   "size": "wide",
+   "key": 78,
+   "len": 125,
+   "first": 13515,
+   "line": "Every new record pushes the edge a little further back.",
+   "note": "ch8"
+  },
+  {
+   "id": "S132",
+   "size": "wide",
+   "key": 89,
+   "len": 144,
+   "first": 13640,
+   "line": "So back to that moment. Thirteen billion years, and you hit a telescope.",
+   "note": "ch9"
+  },
+  {
+   "id": "S133",
+   "size": "pan",
+   "key": 84,
+   "len": 135,
+   "first": 13784,
+   "line": "You left before the Sun. Before Earth. Before anyone could look up.",
+   "note": "ch9"
+  },
+  {
+   "id": "S134",
+   "size": "pullout",
+   "key": 64,
+   "len": 104,
+   "first": 13919,
+   "line": "And someone finally did look up, just in time to catch you.",
+   "note": "ch9"
+  },
+  {
+   "id": "S135",
+   "size": "wide",
+   "key": 39,
+   "len": 63,
+   "first": 14023,
+   "line": "Every time you look at the night sky.",
+   "note": "ch9"
+  },
+  {
+   "id": "S136",
+   "size": "high",
+   "key": 33,
+   "len": 53,
+   "first": 14086,
+   "line": "You are looking back in time.",
+   "note": "ch9"
+  },
+  {
+   "id": "S137",
+   "size": "close",
+   "key": 70,
+   "len": 113,
+   "first": 14139,
+   "line": "Which would you rather ride: the oldest light, or the brightest?",
+   "note": "ch9"
+  },
+  {
+   "id": "S138",
+   "size": "med",
+   "key": 29,
+   "len": 47,
+   "first": 14252,
+   "line": "Tell me in the comments.",
+   "note": "ch9"
+  },
+  {
+   "id": "S139",
+   "size": "wide",
+   "key": 92,
+   "len": 149,
+   "first": 14299,
+   "line": "Tomorrow: what if you rode a nuclear-powered spaceship to Mars?",
+   "note": "ch9"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "quasar/voice.wav",
+  "sfx": "quasar/sfx.wav",
+  "music": "quasar/music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}
