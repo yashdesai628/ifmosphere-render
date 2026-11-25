@@ -1,0 +1,5018 @@
+{
+ "slug": "casa",
+ "id": "Casa",
+ "title": [
+  "WHAT IF YOU READ A STAR'S",
+  "FINAL HOURS IN DUST?"
+ ],
+ "accent": [
+  "FINAL HOURS"
+ ],
+ "voice": {
+  "voice_id": "pNInz6obpgDQGcFmaJgB",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.45,
+   "similarity_boost": 0.8,
+   "style": 0.34,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  }
+ },
+ "short_vo": {
+  "stability": 0.42,
+  "style": 0.4,
+  "speed": 1.03
+ },
+ "short_music": {
+  "mood": "mystery",
+  "energy": 0.85
+ },
+ "mix": {
+  "music_under": 17,
+  "sfx_under": 7,
+  "duck_db": 6
+ },
+ "sets": {
+  "star": "Cross-section of a massive star, centred, filling most of the frame. Deep-navy bg with faint stars; concentric outlined shells like an onion, outermost pale blue (hydrogen), then cream (helium), then warm grey (carbon), then orange (oxygen), then purple (silicon), and a small dark-grey iron core, 4 px outlines, soft glow; setp.shells 0..1 = the shells draw on from the outside in; setp.t 0..1 = slow camera drift and gentle shimmer; setp.churn 0..1 = the carbon and oxygen shells wobble and swirl; setp.merge 0..1 = the carbon and oxygen shells blur into one orange-grey band; setp.collapse 0..1 = the core shrinks to a point, then at 1 a bright white flash; setp.glow 'gold'|'cyan'|'red'.",
+  "blast": "A supernova explosion. Deep-navy bg; a white-gold shock ring expanding from the centre with orange and green filaments streaking outward and sparkling debris; setp.t 0..1 = the ring expands from small to the whole frame; setp.dust 0..1 = tiny grains appear in the cooling debris; setp.glow 'gold'|'red'|'cyan'.",
+  "remnant": "The supernova remnant Cassiopeia A. Black space bg; a roughly circular cloud of orange and green smoky filaments with light-blue pockets, ring-shaped dense orange band between centre and edge, drawn in the brand stylised look, 4 px outlines on the biggest wisps; setp.t 0..1 = slow drift; setp.zoom 0..1 = the camera pushes into the orange ring; setp.regions 0..3 = cream boxes labelled P1, P2 (GREEN MONSTER), P3 appear one by one; setp.glow 'gold'|'cyan'.",
+  "webbview": "Webb observing screen. Deep-navy bg; a big outlined monitor with a glowing remnant image on the left half and a coloured spectrum graph on the right half with a thin baseline and labelled axes; setp.t 0..1 = slow push in; setp.spec 0..1 = the spectrum curve draws on; setp.pick 0..3 = a cream marker lands on peak 1 (SILICA), 2 (MAGNESIUM SILICATE), 3 (CARBON); setp.glow 'gold'|'cyan'.",
+  "clumps": "Dust clumps. Deep-navy bg; big soft dust clumps in cream-pink, charcoal and green drifting like smoke with tiny faceted grains sparkling inside; a small outlined Sun-and-planets solar system sits beside one clump for scale; setp.t 0..1 = drift; setp.size 0..1 = the solar system outline pulses next to a clump and a cream bracket 'AS BIG AS OUR SOLAR SYSTEM' appears; setp.type 'silica'|'carbon'|'mag' tints the clump colours; setp.glow 'gold'|'cyan'.",
+  "clock": "A huge countdown clock. Deep-navy bg; a big outlined clock face centred with 12 hour ticks and a red sweeping hand and a red arc showing remaining time; setp.h 0..12 = hours left on the arc (the arc shrinks as it falls); setp.t 0..1 = hand sweeps; setp.glow 'gold'|'cyan'|'red'.",
+  "cycle": "Cosmic recycling loop. Deep-navy bg; four outlined stations around a loop of gold arrows: an exploding star, a drifting cloud, a glowing new star with a tiny planet, and a tiny Earth-like ball; setp.t 0..1 = a gold pulse travels the loop; setp.stage 0..4 = stations light up one by one; setp.glow 'gold'|'cyan'.",
+  "timeline": "A horizontal timeline. Deep-navy bg; a long gold line with milestone dots and cream calendar tags; setp.t 0..1 = the camera pans along the line; setp.now 0..1 = a bright cyan marker glides along; setp.glow 'gold'|'cyan'.",
+  "void": "Plain deep-navy SpaceBackdrop stage with slow light rays and almost no stars, for big numbers, bars and diagrams. setp.glow 'gold'|'cyan'|'red' tints the rays."
+ },
+ "props": {
+  "counter": "Big flat panel, 4 px dark outline, dark #1E1B2E face, cream flip digits in FONTS.title with thousands separators, label in FONTS.ui underneath. pp.from and pp.to: the number counts from->to across the shot (ease-out); pp.label text; pp.color gold|red|cyan.",
+  "clock": "Round analogue clock face, cream disc, 4 px dark outline, ticks, one hand. pp.from..pp.to in hours: the hand sweeps; pp.glow true adds a gold bloom.",
+  "bar": "Horizontal progress bar with 4 px outline, filled with pp.color (gold|red|cyan) to pp.frac of its width over the shot; pp.label above in FONTS.ui.",
+  "arrow": "Thick outlined curved arrow, pp.color gold|cyan|red, draws on across the shot.",
+  "flag": "Small green check mark badge in a round outlined cream disc with a tiny sparkle; or red cross when pp.bad true.",
+  "calendar": "Small wall calendar page, cream with a red top strip, 4 px outline; pp.text the date in FONTS.title (max 8 chars).",
+  "magnifier": "Outlined magnifying glass with a cream handle and pale glass; pp.s scale; pp.glow true adds a cyan bloom in the lens.",
+  "ring": "Pulsing cyan circle outline, 4 px, soft bloom, that expands and fades each second; pp.s scale.",
+  "scale": "Small balance scale icon, cream, 4 px outline, one pan tipped low; pp.s scale; pp.label text beneath.",
+  "_probe_old": "Icon of the BepiColombo stack: a small gold-foil box body with two dark solar-panel wings, a round grey antenna dish and a silver conical sunshield on top, 4 px outline; pp.s scale; pp.glow true adds an orange thruster flame at the bottom.",
+  "thermo": "Tall outlined thermometer, cream glass tube, red or blue fluid to pp.frac (0..1), pp.label text beneath in FONTS.ui; pp.color red|cyan.",
+  "webb": "Icon of the James Webb Space Telescope: a gold hexagon-segment mirror on a dark boom with a silver diamond sunshield below, 4 px outline; pp.s scale; pp.glow true adds a soft gold bloom.",
+  "grain": "A tiny outlined dust-grain crystal, faceted, 4 px outline; pp.type silica (cream-pink)|carbon (charcoal with grey highlights)|mag (green); pp.s scale; pp.glow true sparkles.",
+  "ironball": "Small outlined dull-grey iron ball with a faint rust sheen and a tiny 'Fe' mark; pp.s scale; pp.glow true adds a red-orange heat bloom.",
+  "tag": "Outlined cream tag on a short string with pp.text in FONTS.ui (max 12 chars); pp.color gold|cyan|red sets the string and underline."
+ },
+ "actions": {
+  "lookup": "Pip tilts head back, arms loose, small sway; eyes lift at p 0.2.",
+  "duck": "Pip drops into a crouch with both arms over the head at p 0.15 and holds with a small tremble.",
+  "spin": "Pip turns one slow full rotation across the shot while looking around.",
+  "flinch": "A quick squash and lean away at p 0.2 with arms up, then settles back by p 0.7.",
+  "pointup": "Pip's arm swings up to point up at p 0.2 with a small overshoot."
+ },
+ "sfx_new": {},
+ "chapters": [
+  {
+   "n": 0,
+   "title": "COLD OPEN",
+   "sub": "",
+   "music": {
+    "mood": "mystery",
+    "energy": 0.8
+   },
+   "vo": {
+    "stability": 0.43,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 1,
+   "title": "THE ONION",
+   "sub": "Shell on shell",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.55
+   },
+   "vo": {
+    "stability": 0.47,
+    "style": 0.38,
+    "speed": 0.98
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 2,
+   "title": "THE LAST HOURS",
+   "sub": "The shells collide",
+   "music": {
+    "mood": "tense",
+    "energy": 0.7
+   },
+   "vo": {
+    "stability": 0.43,
+    "style": 0.38,
+    "speed": 1.02
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 3,
+   "title": "THE BLAST",
+   "sub": "Core collapse",
+   "music": {
+    "mood": "tense",
+    "energy": 0.85
+   },
+   "vo": {
+    "stability": 0.42,
+    "style": 0.38,
+    "speed": 1.03
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 4,
+   "title": "THE LEFTOVERS",
+   "sub": "Dust the size of a solar system",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.6
+   },
+   "vo": {
+    "stability": 0.47,
+    "style": 0.38,
+    "speed": 0.98
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 5,
+   "title": "THE DETECTIVE",
+   "sub": "Webb reads the dust",
+   "music": {
+    "mood": "playful",
+    "energy": 0.5
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "room_tone",
+    "gain": 0.04
+   }
+  },
+  {
+   "n": 6,
+   "title": "THE CLUE",
+   "sub": "Read the dust, read the star",
+   "music": {
+    "mood": "mystery",
+    "energy": 0.65
+   },
+   "vo": {
+    "stability": 0.44,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 7,
+   "title": "WHY IT MATTERS",
+   "sub": "Dust to planets",
+   "music": {
+    "mood": "triumph",
+    "energy": 0.7
+   },
+   "vo": {
+    "stability": 0.47,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 8,
+   "title": "THE END",
+   "sub": "Read it yourself",
+   "music": {
+    "mood": "warm",
+    "energy": 0.5
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.38,
+    "speed": 0.97
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  }
+ ],
+ "film": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "wide",
+   "vo": "Hours before this star exploded, its insides got scrambled.",
+   "dir": "hushed, ominous; stress 'scrambled'",
+   "set": "star",
+   "setp": {
+    "t": 0.3,
+    "shells": 1.0,
+    "churn": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.474,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.504,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "sideL",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "HOURS BEFORE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "word": "scrambled",
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "med",
+   "vo": "We can tell, because the dust it left behind kept the evidence.",
+   "dir": "quick, intrigued; stress 'evidence'",
+   "set": "remnant",
+   "setp": {
+    "t": 0.4,
+    "zoom": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.507,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.493,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "NASA WEBB 23 NOV 2026"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "This is Cassiopeia A, eleven thousand light-years away.",
+   "dir": "steady; stress 'eleven thousand'",
+   "set": "remnant",
+   "setp": {
+    "t": 0.7,
+    "zoom": 0.1,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.502,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.531,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "threeQuarter",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "DISTANCE",
+     "value": "11,000 LY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "insert",
+   "vo": "And Webb just read its dust, clump by clump.",
+   "dir": "bright; stress 'clump by clump'",
+   "set": "clumps",
+   "setp": {
+    "t": 0.5,
+    "size": 0.0,
+    "type": "silica",
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.621,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.484,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "webb",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "CLUMP BY CLUMP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "close",
+   "vo": "What it found changes the last hours of a star's life.",
+   "dir": "building; stress 'last hours'",
+   "set": "star",
+   "setp": {
+    "t": 0.6,
+    "shells": 1.0,
+    "merge": 0.6,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.351,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.561,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "STAR'S LAST HOURS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 0,
+   "size": "close",
+   "vo": "So what if you could ride along for those final hours?",
+   "dir": "playful, leaning in; stress 'you'",
+   "set": "clock",
+   "setp": {
+    "h": 12.0,
+    "t": 0.2,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.414,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.593,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "YOU ARE ALONG FOR IT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 1,
+   "size": "wide",
+   "vo": "First, meet the star. It is huge, and built like an onion.",
+   "dir": "clear, brisk; stress 'onion'",
+   "set": "star",
+   "setp": {
+    "t": 0.2,
+    "shells": 0.4,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.477,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.499,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "THE STAR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 1,
+   "size": "med",
+   "vo": "Not an onion you cry over. An onion you could not survive.",
+   "dir": "wry; stress 'could not survive'",
+   "set": "star",
+   "setp": {
+    "t": 0.4,
+    "shells": 0.7,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.548,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.455,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "LAYERS OF FIRE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 1,
+   "size": "close",
+   "vo": "On the outside, hydrogen. Under it, helium.",
+   "dir": "steady, listing; stress 'helium'",
+   "set": "star",
+   "setp": {
+    "t": 0.5,
+    "shells": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.372,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.643,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "tag",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "text": "HELIUM",
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "OUTSIDE",
+     "value": "HYDROGEN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 1,
+   "size": "insert",
+   "vo": "Deeper still, carbon, then oxygen.",
+   "dir": "lower, slower; stress 'oxygen'",
+   "set": "star",
+   "setp": {
+    "t": 0.6,
+    "shells": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.557,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.443,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "threeQuarter",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "tag",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "text": "OXYGEN",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "CARBON. OXYGEN."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "ch": 1,
+   "size": "low",
+   "vo": "Every layer is burning one fuel into the next.",
+   "dir": "explanatory; stress 'burning'",
+   "set": "star",
+   "setp": {
+    "t": 0.8,
+    "shells": 1.0,
+    "churn": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.478,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.7,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "EACH LAYER BURNS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "ch": 1,
+   "size": "close",
+   "vo": "At the very middle, the burning stops at iron.",
+   "dir": "hushed; stress 'iron'",
+   "set": "star",
+   "setp": {
+    "t": 0.9,
+    "shells": 1.0,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.377,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.604,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "ironball",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "IRON"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "ch": 1,
+   "size": "high",
+   "vo": "Iron is a dead end. Nothing more can be squeezed out of it.",
+   "dir": "flat, final; stress 'dead end'",
+   "set": "star",
+   "setp": {
+    "t": 0.9,
+    "collapse": 0.1,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.465,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.369,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "ironball",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "FUSION ENDS AT",
+     "value": "IRON"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "ch": 1,
+   "size": "pullout",
+   "vo": "Those shells are a diary. Every layer is a chapter of its life.",
+   "dir": "reflective; stress 'diary'",
+   "set": "star",
+   "setp": {
+    "t": 0.4,
+    "shells": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.505,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.462,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "A STAR'S DIARY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "ch": 1,
+   "size": "med",
+   "vo": "Remember the oxygen and carbon layers. They matter in a moment.",
+   "dir": "teasing; stress 'matter'",
+   "set": "star",
+   "setp": {
+    "t": 0.7,
+    "shells": 1.0,
+    "churn": 0.3,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.508,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.469,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "sideL",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "REMEMBER: CARBON + OXYGEN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "ch": 1,
+   "size": "close",
+   "vo": "Because inside, something is about to go wrong.",
+   "dir": "low, turning; stress 'wrong'",
+   "set": "star",
+   "setp": {
+    "t": 0.9,
+    "shells": 1.0,
+    "churn": 0.6,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.363,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.632,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "SOMETHING IS OFF"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "ch": 2,
+   "size": "wide",
+   "vo": "The star is in its last hours, and the layers are churning.",
+   "dir": "tense; stress 'churning'",
+   "set": "star",
+   "setp": {
+    "t": 0.3,
+    "shells": 1.0,
+    "churn": 0.8,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.54,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.47,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "act": "duck"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "TIME LEFT",
+     "value": "HOURS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "ch": 2,
+   "size": "close",
+   "vo": "Hot material rises and falls, stirring the boundaries between shells.",
+   "dir": "brisk; stress 'stirring'",
+   "set": "star",
+   "setp": {
+    "t": 0.5,
+    "shells": 1.0,
+    "churn": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.401,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.61,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "STIRRING THE LAYERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "ch": 2,
+   "size": "insert",
+   "vo": "Then the wall between the carbon and oxygen layers gives way.",
+   "dir": "rising; stress 'gives way'",
+   "set": "star",
+   "setp": {
+    "t": 0.7,
+    "shells": 1.0,
+    "churn": 1.0,
+    "merge": 0.4,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.609,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.478,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "flinch"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "WALL BREAKS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "ch": 2,
+   "size": "med",
+   "vo": "Scientists call it a shell merger.",
+   "dir": "simple, naming it; stress 'shell merger'",
+   "set": "star",
+   "setp": {
+    "t": 0.8,
+    "shells": 1.0,
+    "merge": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.508,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.503,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "SHELL MERGER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "ch": 2,
+   "size": "pullout",
+   "vo": "Two layers blend into one, and the star changes its own shape.",
+   "dir": "clear; stress 'changes'",
+   "set": "star",
+   "setp": {
+    "t": 0.9,
+    "shells": 1.0,
+    "merge": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.541,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.535,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "threeQuarter",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "TWO LAYERS, ONE BAND"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "ch": 2,
+   "size": "high",
+   "vo": "That changes which elements get thrown out when it blows.",
+   "dir": "explanatory; stress 'which elements'",
+   "set": "blast",
+   "setp": {
+    "t": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.532,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.44,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "CHANGES THE RECIPE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "ch": 2,
+   "size": "wide",
+   "vo": "Here is the catch. You cannot see any of this from outside.",
+   "dir": "dry; stress 'cannot'",
+   "set": "star",
+   "setp": {
+    "t": 0.4,
+    "shells": 0.3,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.511,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.472,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "SEEN FROM OUTSIDE",
+     "value": "NO"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "ch": 2,
+   "size": "close",
+   "vo": "A star hides its insides, right up to the end.",
+   "dir": "hushed; stress 'hides'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.36,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.58,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "HIDDEN INSIDE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "ch": 2,
+   "size": "med",
+   "vo": "So how can anyone know it happened hours before?",
+   "dir": "curious, leaning in; stress 'how'",
+   "set": "clock",
+   "setp": {
+    "h": 6.0,
+    "t": 0.5,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.528,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.506,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 6,
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "HOURS BEFORE",
+     "value": "?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "ch": 2,
+   "size": "insert",
+   "vo": "Hold that thought. First, the boom.",
+   "dir": "teasing; stress 'boom'",
+   "set": "clock",
+   "setp": {
+    "h": 1.0,
+    "t": 0.9,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.645,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.496,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "act": "duck"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "HOLD THAT THOUGHT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "ch": 3,
+   "size": "close",
+   "vo": "The iron core cannot hold. Gravity wins.",
+   "dir": "tense; stress 'wins'",
+   "set": "star",
+   "setp": {
+    "t": 0.9,
+    "shells": 1.0,
+    "collapse": 0.6,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.44,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.63,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "flinch"
+   },
+   "props": [
+    {
+     "k": "ironball",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "GRAVITY WINS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S28",
+   "ch": 3,
+   "size": "insert",
+   "vo": "It collapses to a point, and the whole star rebounds.",
+   "dir": "fast, sharp; stress 'rebounds'",
+   "set": "star",
+   "setp": {
+    "t": 1.0,
+    "shells": 1.0,
+    "collapse": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.587,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.43,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "act": "duck"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "CORE COLLAPSE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.45
+    },
+    {
+     "clip": "drone_hit",
+     "at": 0.0,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S29",
+   "ch": 3,
+   "size": "wide",
+   "vo": "A shock wave rips outward and throws the layers across space.",
+   "dir": "big, awed; stress 'rips outward'",
+   "set": "blast",
+   "setp": {
+    "t": 0.6,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.484,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.489,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "float",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "LAYERS THROWN OUT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S30",
+   "ch": 3,
+   "size": "high",
+   "vo": "Hydrogen, helium, carbon, oxygen, scattered like confetti.",
+   "dir": "wry; stress 'confetti'",
+   "set": "blast",
+   "setp": {
+    "t": 0.9,
+    "dust": 0.3,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.451,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.381,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "THE DIARY SCATTERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S31",
+   "ch": 3,
+   "size": "med",
+   "vo": "But the explosion is not the end of the story.",
+   "dir": "low; stress 'not the end'",
+   "set": "blast",
+   "setp": {
+    "t": 1.0,
+    "dust": 0.6,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.465,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.472,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NOT THE END"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S32",
+   "ch": 3,
+   "size": "panr",
+   "vo": "Light from this blast reached Earth around sixteen sixty-seven.",
+   "dir": "steady, wondering; stress 'sixteen sixty-seven'",
+   "set": "timeline",
+   "setp": {
+    "t": 0.8,
+    "now": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.725,
+     0.5,
+     1.3
+    ],
+    [
+     0.3,
+     0.473,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "~1667"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "OBSERVED",
+     "value": "~1667"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S33",
+   "ch": 3,
+   "size": "pullout",
+   "vo": "And the wreckage is still glowing today.",
+   "dir": "soft; stress 'still'",
+   "set": "remnant",
+   "setp": {
+    "t": 0.8,
+    "zoom": 0.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.49,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.532,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "STILL GLOWING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S34",
+   "ch": 3,
+   "size": "wide",
+   "vo": "That wreckage is Cassiopeia A.",
+   "dir": "simple; stress 'Cassiopeia A'",
+   "set": "remnant",
+   "setp": {
+    "t": 0.9,
+    "zoom": 0.1,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.484,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.537,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "side",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "CASSIOPEIA A"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S35",
+   "ch": 3,
+   "size": "med",
+   "vo": "It is the leftover of the star you just watched die.",
+   "dir": "quiet; stress 'leftover'",
+   "set": "remnant",
+   "setp": {
+    "t": 1.0,
+    "zoom": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.519,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.525,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "THE LEFTOVERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S36",
+   "ch": 4,
+   "size": "close",
+   "vo": "In the cooling debris, something new appears: dust.",
+   "dir": "wondering; stress 'dust'",
+   "set": "blast",
+   "setp": {
+    "t": 1.0,
+    "dust": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.434,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.622,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "grain",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "type": "silica",
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "DUST"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S37",
+   "ch": 4,
+   "size": "insert",
+   "vo": "Tiny grains of silica, carbon and magnesium silicate.",
+   "dir": "listing; stress 'magnesium'",
+   "set": "clumps",
+   "setp": {
+    "t": 0.3,
+    "type": "silica",
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.556,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.464,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "threeQuarter",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "grain",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "type": "carbon"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "SILICA. CARBON. MAGNESIUM."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S38",
+   "ch": 4,
+   "size": "wide",
+   "vo": "Each type forms in a different layer of the dead star.",
+   "dir": "clear; stress 'different layer'",
+   "set": "star",
+   "setp": {
+    "t": 0.5,
+    "shells": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.481,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.503,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "DUST = A LAYER'S FINGERPRINT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S39",
+   "ch": 4,
+   "size": "med",
+   "vo": "So the dust remembers which layer it came from.",
+   "dir": "bright; stress 'remembers'",
+   "set": "clumps",
+   "setp": {
+    "t": 0.6,
+    "type": "mag",
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.454,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.538,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "grain",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "type": "mag",
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "DUST REMEMBERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S40",
+   "ch": 4,
+   "size": "pullout",
+   "vo": "The grains clump together, in blobs as big as our solar system.",
+   "dir": "awed; stress 'solar system'",
+   "set": "clumps",
+   "setp": {
+    "t": 0.8,
+    "size": 1.0,
+    "type": "carbon",
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.487,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.47,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "SOLAR SYSTEM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S41",
+   "ch": 4,
+   "size": "high",
+   "vo": "Each clump is a sealed time capsule, drifting out there.",
+   "dir": "reflective; stress 'time capsule'",
+   "set": "clumps",
+   "setp": {
+    "t": 0.9,
+    "type": "silica",
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.522,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.364,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "TIME CAPSULES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S42",
+   "ch": 4,
+   "size": "low",
+   "vo": "Which clump came from the merged layers? Good question.",
+   "dir": "playful; stress 'good question'",
+   "set": "remnant",
+   "setp": {
+    "t": 0.5,
+    "zoom": 0.4,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.504,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.684,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "WHICH CLUMP?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S43",
+   "ch": 4,
+   "size": "close",
+   "vo": "To find out, you would need a very sharp pair of eyes.",
+   "dir": "dry; stress 'sharp'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.403,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.625,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SHARP EYES NEEDED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S44",
+   "ch": 4,
+   "size": "wide",
+   "vo": "Lucky for us, we now have a telescope built for exactly this.",
+   "dir": "upbeat; stress 'exactly this'",
+   "set": "webbview",
+   "setp": {
+    "t": 0.2,
+    "spec": 0.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.463,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.493,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "webb",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "JWST"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S45",
+   "ch": 5,
+   "size": "high",
+   "vo": "The James Webb Space Telescope. Its mid-infrared camera sees warm dust glow.",
+   "dir": "warm, introducing; stress 'warm dust'",
+   "set": "webbview",
+   "setp": {
+    "t": 0.4,
+    "spec": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.532,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.376,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "threeQuarter",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "webb",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "WEBB MIRI"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S46",
+   "ch": 5,
+   "size": "med",
+   "vo": "First, the team needed clues about where to look.",
+   "dir": "brisk; stress 'where'",
+   "set": "remnant",
+   "setp": {
+    "t": 0.5,
+    "zoom": 0.3,
+    "regions": 0.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.52,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.455,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "magnifier",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.1,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "WHERE TO LOOK?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S47",
+   "ch": 5,
+   "size": "pullout",
+   "vo": "Old data from the retired Spitzer telescope pointed to three regions.",
+   "dir": "steady; stress 'three regions'",
+   "set": "remnant",
+   "setp": {
+    "t": 0.7,
+    "zoom": 0.4,
+    "regions": 3.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.505,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.463,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "SPITZER PICKED",
+     "value": "3 REGIONS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S48",
+   "ch": 5,
+   "size": "insert",
+   "vo": "Webb split the light from each one into a spectrum.",
+   "dir": "clear; stress 'spectrum'",
+   "set": "webbview",
+   "setp": {
+    "t": 0.5,
+    "spec": 0.7,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.575,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.453,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "LIGHT INTO A SPECTRUM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S49",
+   "ch": 5,
+   "size": "close",
+   "vo": "A spectrum is like a barcode. Each kind of dust has its own.",
+   "dir": "bright; stress 'barcode'",
+   "set": "webbview",
+   "setp": {
+    "t": 0.7,
+    "spec": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.364,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.648,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "DUST BARCODE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S50",
+   "ch": 5,
+   "size": "med",
+   "vo": "Region one is full of silica, glass-like grains.",
+   "dir": "matter-of-fact; stress 'silica'",
+   "set": "webbview",
+   "setp": {
+    "t": 0.8,
+    "spec": 1.0,
+    "pick": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.506,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.511,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "grain",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "type": "silica",
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "REGION 1",
+     "value": "SILICA"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S51",
+   "ch": 5,
+   "size": "low",
+   "vo": "Region two glows with magnesium silicates.",
+   "dir": "steady; stress 'magnesium silicates'",
+   "set": "webbview",
+   "setp": {
+    "t": 0.85,
+    "spec": 1.0,
+    "pick": 2.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.46,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.688,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "side",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "props": [
+    {
+     "k": "grain",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "type": "mag",
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "REGION 2",
+     "value": "MG SILICATE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S52",
+   "ch": 5,
+   "size": "close",
+   "vo": "That one is the Green Monster, a structure Webb found itself.",
+   "dir": "wry; stress 'Green Monster'",
+   "set": "remnant",
+   "setp": {
+    "t": 0.8,
+    "zoom": 0.5,
+    "regions": 2.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.442,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.581,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "THE GREEN MONSTER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S53",
+   "ch": 5,
+   "size": "wide",
+   "vo": "But it is not from the explosion. The star shed it earlier.",
+   "dir": "explanatory; stress 'shed'",
+   "set": "clumps",
+   "setp": {
+    "t": 0.9,
+    "type": "mag",
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.453,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.503,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "threeQuarter",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SHED BEFORE THE BLAST"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S54",
+   "ch": 5,
+   "size": "insert",
+   "vo": "Region three is mostly carbon, in two neon-rich crescents.",
+   "dir": "quick; stress 'carbon'",
+   "set": "webbview",
+   "setp": {
+    "t": 0.95,
+    "spec": 1.0,
+    "pick": 3.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.583,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.472,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "grain",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "type": "carbon",
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "REGION 3",
+     "value": "CARBON"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S55",
+   "ch": 5,
+   "size": "pan",
+   "vo": "Silica here, carbon there. Different layers, different dust.",
+   "dir": "crisp, comparing; stress 'different'",
+   "set": "clumps",
+   "setp": {
+    "t": 0.5,
+    "type": "carbon",
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.298,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.547,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "front",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "SILICA/CARBON"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S56",
+   "ch": 5,
+   "size": "med",
+   "vo": "Now for the big question. Could those layers have mixed?",
+   "dir": "curious; stress 'mixed'",
+   "set": "star",
+   "setp": {
+    "t": 0.8,
+    "shells": 1.0,
+    "merge": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.53,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.487,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "DID THEY MIX?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S57",
+   "ch": 5,
+   "size": "high",
+   "vo": "The team compared the dust with models of exploding stars.",
+   "dir": "brisk; stress 'models'",
+   "set": "webbview",
+   "setp": {
+    "t": 0.9,
+    "spec": 1.0,
+    "pick": 3.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.487,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.352,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "scale",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "label": "MODEL VS DUST"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "DUST vs MODELS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S58",
+   "ch": 5,
+   "size": "close",
+   "vo": "Only a carbon and oxygen merger explains what they saw.",
+   "dir": "hushed, big reveal; stress 'merger'",
+   "set": "star",
+   "setp": {
+    "t": 1.0,
+    "shells": 1.0,
+    "merge": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.432,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.56,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "IT MERGED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S59",
+   "ch": 6,
+   "size": "pullout",
+   "vo": "The signs are not in one spot. They span much of the remnant.",
+   "dir": "building; stress 'across'",
+   "set": "remnant",
+   "setp": {
+    "t": 0.9,
+    "zoom": 0.0,
+    "regions": 3.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.533,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.505,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "spin"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "MERGER SIGNS",
+     "value": "ACROSS REMNANT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S60",
+   "ch": 6,
+   "size": "med",
+   "vo": "Add X-ray data from Chandra and Japan's XRISM.",
+   "dir": "steady; stress 'X-ray'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.475,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.451,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "tag",
+     "x": 0.4,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "text": "CHANDRA",
+      "color": "cyan"
+     }
+    },
+    {
+     "k": "tag",
+     "x": 0.75,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "text": "XRISM",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "CHANDRA + XRISM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S61",
+   "ch": 6,
+   "size": "close",
+   "vo": "Together they say the merger was underway very shortly before the explosion.",
+   "dir": "clear, weighty; stress 'very shortly'",
+   "set": "clock",
+   "setp": {
+    "h": 3.0,
+    "t": 0.8,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.382,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.604,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "VERY SHORTLY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S62",
+   "ch": 6,
+   "size": "insert",
+   "vo": "A scientist said, we think it shows the hours before collapse.",
+   "dir": "careful; stress 'we think'",
+   "set": "clock",
+   "setp": {
+    "h": 2.0,
+    "t": 0.9,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.577,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.414,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "tag",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "text": "WE THINK",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "red",
+     "label": "MILISAVLJEVIC",
+     "value": "'THE HOURS'"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S63",
+   "ch": 6,
+   "size": "low",
+   "vo": "Notice the wording. We think. Even NASA stays careful.",
+   "dir": "dry; stress 'careful'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.503,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.66,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "HONEST SCIENCE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S64",
+   "ch": 6,
+   "size": "wide",
+   "vo": "Nobody saw the star's last hours. The dust is a witness.",
+   "dir": "hushed; stress 'witness'",
+   "set": "clumps",
+   "setp": {
+    "t": 0.9,
+    "type": "silica",
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.481,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.451,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "grain",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "type": "silica",
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "THE DUST IS A WITNESS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S65",
+   "ch": 6,
+   "size": "panr",
+   "vo": "Hundreds of years later, we can still read it.",
+   "dir": "wondering; stress 'still read'",
+   "set": "timeline",
+   "setp": {
+    "t": 1.0,
+    "now": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.654,
+     0.5,
+     1.3
+    ],
+    [
+     0.3,
+     0.463,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "side",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "READ",
+     "value": "CENTURIES LATER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S66",
+   "ch": 6,
+   "size": "pullout",
+   "vo": "It is forensics, across eleven thousand light-years.",
+   "dir": "upbeat; stress 'forensics'",
+   "set": "remnant",
+   "setp": {
+    "t": 0.5,
+    "zoom": 0.1,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.457,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.503,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "magnifier",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "11,000 LY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S67",
+   "ch": 6,
+   "size": "high",
+   "vo": "It is a best reading, not a video of the moment.",
+   "dir": "sly; stress 'best reading'",
+   "set": "clock",
+   "setp": {
+    "h": 12.0,
+    "t": 0.3,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.469,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.372,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 12
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "BEST READING, NOT VIDEO"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S68",
+   "ch": 6,
+   "size": "close",
+   "vo": "X-rays and dust agree on the merger. That makes it strong.",
+   "dir": "clear; stress 'agree'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.438,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.645,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "X-RAY + DUST AGREE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S69",
+   "ch": 7,
+   "size": "wide",
+   "vo": "Why does a star's last few hours matter to you?",
+   "dir": "bright; stress 'you'",
+   "set": "cycle",
+   "setp": {
+    "t": 0.2,
+    "stage": 0.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.542,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.538,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "WHY IT MATTERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S70",
+   "ch": 7,
+   "size": "med",
+   "vo": "Because the blast decides which elements fly out.",
+   "dir": "clear; stress 'decides'",
+   "set": "cycle",
+   "setp": {
+    "t": 0.4,
+    "stage": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.467,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.499,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "BLAST DECIDES THE MIX"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S71",
+   "ch": 7,
+   "size": "pullout",
+   "vo": "That mix seeds the next generation of stars and planets.",
+   "dir": "warm; stress 'planets'",
+   "set": "cycle",
+   "setp": {
+    "t": 0.7,
+    "stage": 3.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.54,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.518,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "NEXT STARS + PLANETS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S72",
+   "ch": 7,
+   "size": "close",
+   "vo": "Your own world was built from dust like this.",
+   "dir": "soft, awed; stress 'your own'",
+   "set": "cycle",
+   "setp": {
+    "t": 1.0,
+    "stage": 4.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.43,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.645,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "DUST LIKE THIS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S73",
+   "ch": 7,
+   "size": "insert",
+   "vo": "The oxygen you are breathing was cooked in a star.",
+   "dir": "quiet; stress 'cooked'",
+   "set": "cycle",
+   "setp": {
+    "t": 0.9,
+    "stage": 4.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.598,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.462,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "COOKED IN A STAR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S74",
+   "ch": 7,
+   "size": "high",
+   "vo": "And now there is a new tool for reading any supernova remnant.",
+   "dir": "upbeat; stress 'new tool'",
+   "set": "webbview",
+   "setp": {
+    "t": 0.9,
+    "spec": 1.0,
+    "pick": 3.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.486,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.413,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "props": [
+    {
+     "k": "webb",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "NEW METHOD",
+     "value": "DUST CHEMISTRY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S75",
+   "ch": 7,
+   "size": "wide",
+   "vo": "Other astronomers can use it to peek inside other dead stars.",
+   "dir": "brisk; stress 'other dead stars'",
+   "set": "remnant",
+   "setp": {
+    "t": 0.8,
+    "zoom": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.46,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.536,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "side",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "USE IT ON OTHERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S76",
+   "ch": 7,
+   "size": "close",
+   "vo": "So the next time you look up, remember the onion.",
+   "dir": "gentle; stress 'onion'",
+   "set": "star",
+   "setp": {
+    "t": 0.5,
+    "shells": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.428,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.632,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "REMEMBER THE ONION"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S77",
+   "ch": 8,
+   "size": "close",
+   "vo": "So back to the star, and its scrambled insides.",
+   "dir": "reflective; stress 'scrambled'",
+   "set": "star",
+   "setp": {
+    "t": 0.9,
+    "shells": 1.0,
+    "merge": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.364,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.592,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "HOURS BEFORE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S78",
+   "ch": 8,
+   "size": "wide",
+   "vo": "Nobody can ride along. But the dust did.",
+   "dir": "warm; stress 'dust did'",
+   "set": "remnant",
+   "setp": {
+    "t": 0.9,
+    "zoom": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.498,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.466,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "THE DUST WAS THERE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S79",
+   "ch": 8,
+   "size": "pullout",
+   "vo": "It kept a note of what happened inside.",
+   "dir": "steady; stress 'note'",
+   "set": "clumps",
+   "setp": {
+    "t": 0.8,
+    "type": "silica",
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.543,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.47,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "front",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "A NOTE FROM THE STAR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S80",
+   "ch": 8,
+   "size": "insert",
+   "vo": "Webb just learned to read it.",
+   "dir": "soft; stress 'read'",
+   "set": "webbview",
+   "setp": {
+    "t": 1.0,
+    "spec": 1.0,
+    "pick": 3.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.619,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.419,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "webb",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "WEBB READS IT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S81",
+   "ch": 8,
+   "size": "med",
+   "vo": "Which layer of a star would you want to see first?",
+   "dir": "inviting; stress 'first'",
+   "set": "star",
+   "setp": {
+    "t": 0.5,
+    "shells": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.502,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.537,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "YOUR PICK?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S82",
+   "ch": 8,
+   "size": "close",
+   "vo": "Tell me in the comments.",
+   "dir": "friendly",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.358,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.551,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "COMMENT BELOW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S83",
+   "ch": 8,
+   "size": "wide",
+   "vo": "Tomorrow: what if the Moon got its own nuclear reactor?",
+   "dir": "teasing; stress 'Tomorrow'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.489,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.52,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "sideL",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "TOMORROW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  }
+ ],
+ "short": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "wide",
+   "vo": "Hours before this star exploded, its insides got scrambled.",
+   "dir": "hushed then hard stop; stress 'scrambled'",
+   "set": "star",
+   "setp": {
+    "t": 0.3,
+    "shells": 1.0,
+    "churn": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.474,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.504,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "sideL",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "LAST HOURS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "word": "scrambled",
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "close",
+   "vo": "A star is built like an onion, with burning layers.",
+   "dir": "quick; stress 'onion'",
+   "set": "star",
+   "setp": {
+    "t": 0.5,
+    "shells": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.407,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.593,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "LAYERS OF FIRE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "insert",
+   "vo": "In its last hours, the carbon and oxygen layers merged.",
+   "dir": "sharp; stress 'merged'",
+   "set": "star",
+   "setp": {
+    "t": 0.9,
+    "shells": 1.0,
+    "merge": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.602,
+     0.45,
+     1.9
+    ],
+    [
+     0.55,
+     0.481,
+     1.71
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "flinch"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "MERGER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "med",
+   "vo": "Then the iron core collapsed and the star blew apart.",
+   "dir": "fast; stress 'blew apart'",
+   "set": "star",
+   "setp": {
+    "t": 1.0,
+    "shells": 1.0,
+    "collapse": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.521,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.534,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "act": "duck"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "CORE COLLAPSE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.3,
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "wide",
+   "vo": "The wreckage is Cassiopeia A, eleven thousand light-years away.",
+   "dir": "clear; stress 'eleven thousand'",
+   "set": "remnant",
+   "setp": {
+    "t": 0.8,
+    "zoom": 0.1,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.451,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.461,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "DISTANCE",
+     "value": "11,000 LY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 0,
+   "size": "close",
+   "vo": "Its dust clumps are as big as our solar system.",
+   "dir": "awed; stress 'solar system'",
+   "set": "clumps",
+   "setp": {
+    "t": 0.8,
+    "size": 1.0,
+    "type": "carbon",
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.414,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.593,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "HUGE CLUMP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 0,
+   "size": "med",
+   "vo": "Webb read that dust, and the chemistry points to the merger.",
+   "dir": "steady; stress 'Webb'",
+   "set": "webbview",
+   "setp": {
+    "t": 0.9,
+    "spec": 1.0,
+    "pick": 3.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.477,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.499,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "front",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "front"
+   },
+   "props": [
+    {
+     "k": "webb",
+     "x": 0.64,
+     "y": 0.3,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "WEBB: SHELL MERGER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 0,
+   "size": "insert",
+   "vo": "Silica in one region, carbon in another. Different layers.",
+   "dir": "crisp; stress 'different'",
+   "set": "clumps",
+   "setp": {
+    "t": 0.5,
+    "type": "silica",
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.648,
+     0.45,
+     1.9
+    ],
+    [
+     0.55,
+     0.405,
+     1.71
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "grain",
+     "x": 0.64,
+     "y": 0.4,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "type": "silica"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "SILICA / CARBON",
+     "value": "LAYERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 0,
+   "size": "close",
+   "vo": "NASA says the mixing came very shortly before the blast.",
+   "dir": "careful; stress 'very shortly'",
+   "set": "clock",
+   "setp": {
+    "h": 2.0,
+    "t": 0.9,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.372,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.643,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "LAST HOURS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 0,
+   "size": "wide",
+   "vo": "Full film on the channel. Tomorrow: a nuclear reactor on the Moon.",
+   "dir": "friendly, leading back to the start; stress 'Moon'",
+   "set": "star",
+   "setp": {
+    "t": 0.3,
+    "shells": 1.0,
+    "churn": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.457,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.493,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "sideL",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "LAST HOURS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  }
+ ],
+ "_doc": "Written by Hark 24 Nov 2026."
+}

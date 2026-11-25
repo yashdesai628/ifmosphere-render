@@ -1,0 +1,1470 @@
+{
+ "slug": "casa",
+ "title": "WHAT IF YOU READ A STAR'S FINAL HOURS IN DUST?",
+ "fps": 30,
+ "total": 8602,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 119,
+   "t0": 0,
+   "t1": 119,
+   "line": "Hours before this star exploded, its insides got scrambled."
+  },
+  {
+   "shot": "S2",
+   "a": 119,
+   "b": 235,
+   "t0": 0,
+   "t1": 116,
+   "line": "We can tell, because the dust it left behind kept the evidence."
+  },
+  {
+   "shot": "S3",
+   "a": 235,
+   "b": 341,
+   "t0": 0,
+   "t1": 106,
+   "line": "This is Cassiopeia A, eleven thousand light-years away."
+  },
+  {
+   "shot": "S4",
+   "a": 341,
+   "b": 425,
+   "t0": 0,
+   "t1": 84,
+   "line": "And Webb just read its dust, clump by clump."
+  },
+  {
+   "shot": "S5",
+   "a": 425,
+   "b": 524,
+   "t0": 0,
+   "t1": 99,
+   "line": "What it found changes the last hours of a star's life."
+  },
+  {
+   "shot": "S6",
+   "a": 524,
+   "b": 643,
+   "t0": 0,
+   "t1": 119,
+   "line": "So what if you could ride along for those final hours?"
+  },
+  {
+   "shot": "S7",
+   "a": 643,
+   "b": 774,
+   "t0": 0,
+   "t1": 131,
+   "line": "First, meet the star. It is huge, and built like an onion."
+  },
+  {
+   "shot": "S8",
+   "a": 774,
+   "b": 888,
+   "t0": 0,
+   "t1": 114,
+   "line": "Not an onion you cry over. An onion you could not survive."
+  },
+  {
+   "shot": "S9",
+   "a": 888,
+   "b": 994,
+   "t0": 0,
+   "t1": 106,
+   "line": "On the outside, hydrogen. Under it, helium."
+  },
+  {
+   "shot": "S10",
+   "a": 994,
+   "b": 1080,
+   "t0": 0,
+   "t1": 86,
+   "line": "Deeper still, carbon, then oxygen."
+  },
+  {
+   "shot": "S11",
+   "a": 1080,
+   "b": 1170,
+   "t0": 0,
+   "t1": 90,
+   "line": "Every layer is burning one fuel into the next."
+  },
+  {
+   "shot": "S12",
+   "a": 1170,
+   "b": 1257,
+   "t0": 0,
+   "t1": 87,
+   "line": "At the very middle, the burning stops at iron."
+  },
+  {
+   "shot": "S13",
+   "a": 1257,
+   "b": 1370,
+   "t0": 0,
+   "t1": 113,
+   "line": "Iron is a dead end. Nothing more can be squeezed out of it."
+  },
+  {
+   "shot": "S14",
+   "a": 1370,
+   "b": 1496,
+   "t0": 0,
+   "t1": 126,
+   "line": "Those shells are a diary. Every layer is a chapter of its life."
+  },
+  {
+   "shot": "S15",
+   "a": 1496,
+   "b": 1622,
+   "t0": 0,
+   "t1": 126,
+   "line": "Remember the oxygen and carbon layers. They matter in a moment."
+  },
+  {
+   "shot": "S16",
+   "a": 1622,
+   "b": 1744,
+   "t0": 0,
+   "t1": 122,
+   "line": "Because inside, something is about to go wrong."
+  },
+  {
+   "shot": "S17",
+   "a": 1744,
+   "b": 1845,
+   "t0": 0,
+   "t1": 101,
+   "line": "The star is in its last hours, and the layers are churning."
+  },
+  {
+   "shot": "S18",
+   "a": 1845,
+   "b": 1973,
+   "t0": 0,
+   "t1": 128,
+   "line": "Hot material rises and falls, stirring the boundaries between shells."
+  },
+  {
+   "shot": "S19",
+   "a": 1973,
+   "b": 2075,
+   "t0": 0,
+   "t1": 102,
+   "line": "Then the wall between the carbon and oxygen layers gives way."
+  },
+  {
+   "shot": "S20",
+   "a": 2075,
+   "b": 2138,
+   "t0": 0,
+   "t1": 63,
+   "line": "Scientists call it a shell merger."
+  },
+  {
+   "shot": "S21",
+   "a": 2138,
+   "b": 2247,
+   "t0": 0,
+   "t1": 109,
+   "line": "Two layers blend into one, and the star changes its own shape."
+  },
+  {
+   "shot": "S22",
+   "a": 2247,
+   "b": 2339,
+   "t0": 0,
+   "t1": 92,
+   "line": "That changes which elements get thrown out when it blows."
+  },
+  {
+   "shot": "S23",
+   "a": 2339,
+   "b": 2445,
+   "t0": 0,
+   "t1": 106,
+   "line": "Here is the catch. You cannot see any of this from outside."
+  },
+  {
+   "shot": "S24",
+   "a": 2445,
+   "b": 2531,
+   "t0": 0,
+   "t1": 86,
+   "line": "A star hides its insides, right up to the end."
+  },
+  {
+   "shot": "S25",
+   "a": 2531,
+   "b": 2614,
+   "t0": 0,
+   "t1": 83,
+   "line": "So how can anyone know it happened hours before?"
+  },
+  {
+   "shot": "S26",
+   "a": 2614,
+   "b": 2726,
+   "t0": 0,
+   "t1": 112,
+   "line": "Hold that thought. First, the boom."
+  },
+  {
+   "shot": "S27",
+   "a": 2726,
+   "b": 2820,
+   "t0": 0,
+   "t1": 94,
+   "line": "The iron core cannot hold. Gravity wins."
+  },
+  {
+   "shot": "S28",
+   "a": 2820,
+   "b": 2919,
+   "t0": 0,
+   "t1": 99,
+   "line": "It collapses to a point, and the whole star rebounds."
+  },
+  {
+   "shot": "S29",
+   "a": 2919,
+   "b": 3024,
+   "t0": 0,
+   "t1": 105,
+   "line": "A shock wave rips outward and throws the layers across space."
+  },
+  {
+   "shot": "S30",
+   "a": 3024,
+   "b": 3092,
+   "t0": 0,
+   "t1": 68,
+   "line": "Hydrogen, helium, carbon, oxygen, scattered like confetti."
+  },
+  {
+   "shot": "S30",
+   "a": 3092,
+   "b": 3160,
+   "t0": 68,
+   "t1": 136,
+   "line": "Hydrogen, helium, carbon, oxygen, scattered like confetti."
+  },
+  {
+   "shot": "S31",
+   "a": 3160,
+   "b": 3236,
+   "t0": 0,
+   "t1": 76,
+   "line": "But the explosion is not the end of the story."
+  },
+  {
+   "shot": "S32",
+   "a": 3236,
+   "b": 3346,
+   "t0": 0,
+   "t1": 110,
+   "line": "Light from this blast reached Earth around sixteen sixty-seven."
+  },
+  {
+   "shot": "S33",
+   "a": 3346,
+   "b": 3411,
+   "t0": 0,
+   "t1": 65,
+   "line": "And the wreckage is still glowing today."
+  },
+  {
+   "shot": "S34",
+   "a": 3411,
+   "b": 3476,
+   "t0": 0,
+   "t1": 65,
+   "line": "That wreckage is Cassiopeia A."
+  },
+  {
+   "shot": "S35",
+   "a": 3476,
+   "b": 3589,
+   "t0": 0,
+   "t1": 113,
+   "line": "It is the leftover of the star you just watched die."
+  },
+  {
+   "shot": "S36",
+   "a": 3589,
+   "b": 3689,
+   "t0": 0,
+   "t1": 100,
+   "line": "In the cooling debris, something new appears: dust."
+  },
+  {
+   "shot": "S37",
+   "a": 3689,
+   "b": 3809,
+   "t0": 0,
+   "t1": 120,
+   "line": "Tiny grains of silica, carbon and magnesium silicate."
+  },
+  {
+   "shot": "S38",
+   "a": 3809,
+   "b": 3901,
+   "t0": 0,
+   "t1": 92,
+   "line": "Each type forms in a different layer of the dead star."
+  },
+  {
+   "shot": "S39",
+   "a": 3901,
+   "b": 3982,
+   "t0": 0,
+   "t1": 81,
+   "line": "So the dust remembers which layer it came from."
+  },
+  {
+   "shot": "S40",
+   "a": 3982,
+   "b": 4105,
+   "t0": 0,
+   "t1": 123,
+   "line": "The grains clump together, in blobs as big as our solar system."
+  },
+  {
+   "shot": "S41",
+   "a": 4105,
+   "b": 4214,
+   "t0": 0,
+   "t1": 109,
+   "line": "Each clump is a sealed time capsule, drifting out there."
+  },
+  {
+   "shot": "S42",
+   "a": 4214,
+   "b": 4314,
+   "t0": 0,
+   "t1": 100,
+   "line": "Which clump came from the merged layers? Good question."
+  },
+  {
+   "shot": "S43",
+   "a": 4314,
+   "b": 4420,
+   "t0": 0,
+   "t1": 106,
+   "line": "To find out, you would need a very sharp pair of eyes."
+  },
+  {
+   "shot": "S44",
+   "a": 4420,
+   "b": 4496,
+   "t0": 0,
+   "t1": 76,
+   "line": "Lucky for us, we now have a telescope built for exactly this."
+  },
+  {
+   "shot": "S44",
+   "a": 4496,
+   "b": 4573,
+   "t0": 76,
+   "t1": 153,
+   "line": "Lucky for us, we now have a telescope built for exactly this."
+  },
+  {
+   "shot": "S45",
+   "a": 4573,
+   "b": 4652,
+   "t0": 0,
+   "t1": 79,
+   "line": "The James Webb Space Telescope. Its mid-infrared camera sees warm dust glow."
+  },
+  {
+   "shot": "S45",
+   "a": 4652,
+   "b": 4731,
+   "t0": 79,
+   "t1": 158,
+   "line": "The James Webb Space Telescope. Its mid-infrared camera sees warm dust glow."
+  },
+  {
+   "shot": "S46",
+   "a": 4731,
+   "b": 4822,
+   "t0": 0,
+   "t1": 91,
+   "line": "First, the team needed clues about where to look."
+  },
+  {
+   "shot": "S47",
+   "a": 4822,
+   "b": 4948,
+   "t0": 0,
+   "t1": 126,
+   "line": "Old data from the retired Spitzer telescope pointed to three regions."
+  },
+  {
+   "shot": "S48",
+   "a": 4948,
+   "b": 5029,
+   "t0": 0,
+   "t1": 81,
+   "line": "Webb split the light from each one into a spectrum."
+  },
+  {
+   "shot": "S49",
+   "a": 5029,
+   "b": 5147,
+   "t0": 0,
+   "t1": 118,
+   "line": "A spectrum is like a barcode. Each kind of dust has its own."
+  },
+  {
+   "shot": "S50",
+   "a": 5147,
+   "b": 5248,
+   "t0": 0,
+   "t1": 101,
+   "line": "Region one is full of silica, glass-like grains."
+  },
+  {
+   "shot": "S51",
+   "a": 5248,
+   "b": 5340,
+   "t0": 0,
+   "t1": 92,
+   "line": "Region two glows with magnesium silicates."
+  },
+  {
+   "shot": "S52",
+   "a": 5340,
+   "b": 5450,
+   "t0": 0,
+   "t1": 110,
+   "line": "That one is the Green Monster, a structure Webb found itself."
+  },
+  {
+   "shot": "S53",
+   "a": 5450,
+   "b": 5561,
+   "t0": 0,
+   "t1": 111,
+   "line": "But it is not from the explosion. The star shed it earlier."
+  },
+  {
+   "shot": "S54",
+   "a": 5561,
+   "b": 5682,
+   "t0": 0,
+   "t1": 121,
+   "line": "Region three is mostly carbon, in two neon-rich crescents."
+  },
+  {
+   "shot": "S55",
+   "a": 5682,
+   "b": 5810,
+   "t0": 0,
+   "t1": 128,
+   "line": "Silica here, carbon there. Different layers, different dust."
+  },
+  {
+   "shot": "S56",
+   "a": 5810,
+   "b": 5906,
+   "t0": 0,
+   "t1": 96,
+   "line": "Now for the big question. Could those layers have mixed?"
+  },
+  {
+   "shot": "S57",
+   "a": 5906,
+   "b": 6008,
+   "t0": 0,
+   "t1": 102,
+   "line": "The team compared the dust with models of exploding stars."
+  },
+  {
+   "shot": "S58",
+   "a": 6008,
+   "b": 6079,
+   "t0": 0,
+   "t1": 71,
+   "line": "Only a carbon and oxygen merger explains what they saw."
+  },
+  {
+   "shot": "S58",
+   "a": 6079,
+   "b": 6150,
+   "t0": 71,
+   "t1": 142,
+   "line": "Only a carbon and oxygen merger explains what they saw."
+  },
+  {
+   "shot": "S59",
+   "a": 6150,
+   "b": 6267,
+   "t0": 0,
+   "t1": 117,
+   "line": "The signs are not in one spot. They span much of the remnant."
+  },
+  {
+   "shot": "S60",
+   "a": 6267,
+   "b": 6356,
+   "t0": 0,
+   "t1": 89,
+   "line": "Add X-ray data from Chandra and Japan's XRISM."
+  },
+  {
+   "shot": "S61",
+   "a": 6356,
+   "b": 6487,
+   "t0": 0,
+   "t1": 131,
+   "line": "Together they say the merger was underway very shortly before the explosion."
+  },
+  {
+   "shot": "S62",
+   "a": 6487,
+   "b": 6607,
+   "t0": 0,
+   "t1": 120,
+   "line": "A scientist said, we think it shows the hours before collapse."
+  },
+  {
+   "shot": "S63",
+   "a": 6607,
+   "b": 6733,
+   "t0": 0,
+   "t1": 126,
+   "line": "Notice the wording. We think. Even NASA stays careful."
+  },
+  {
+   "shot": "S64",
+   "a": 6733,
+   "b": 6854,
+   "t0": 0,
+   "t1": 121,
+   "line": "Nobody saw the star's last hours. The dust is a witness."
+  },
+  {
+   "shot": "S65",
+   "a": 6854,
+   "b": 6933,
+   "t0": 0,
+   "t1": 79,
+   "line": "Hundreds of years later, we can still read it."
+  },
+  {
+   "shot": "S66",
+   "a": 6933,
+   "b": 7029,
+   "t0": 0,
+   "t1": 96,
+   "line": "It is forensics, across eleven thousand light-years."
+  },
+  {
+   "shot": "S67",
+   "a": 7029,
+   "b": 7118,
+   "t0": 0,
+   "t1": 89,
+   "line": "It is a best reading, not a video of the moment."
+  },
+  {
+   "shot": "S68",
+   "a": 7118,
+   "b": 7191,
+   "t0": 0,
+   "t1": 73,
+   "line": "X-rays and dust agree on the merger. That makes it strong."
+  },
+  {
+   "shot": "S68",
+   "a": 7191,
+   "b": 7264,
+   "t0": 73,
+   "t1": 146,
+   "line": "X-rays and dust agree on the merger. That makes it strong."
+  },
+  {
+   "shot": "S69",
+   "a": 7264,
+   "b": 7349,
+   "t0": 0,
+   "t1": 85,
+   "line": "Why does a star's last few hours matter to you?"
+  },
+  {
+   "shot": "S70",
+   "a": 7349,
+   "b": 7436,
+   "t0": 0,
+   "t1": 87,
+   "line": "Because the blast decides which elements fly out."
+  },
+  {
+   "shot": "S71",
+   "a": 7436,
+   "b": 7539,
+   "t0": 0,
+   "t1": 103,
+   "line": "That mix seeds the next generation of stars and planets."
+  },
+  {
+   "shot": "S72",
+   "a": 7539,
+   "b": 7616,
+   "t0": 0,
+   "t1": 77,
+   "line": "Your own world was built from dust like this."
+  },
+  {
+   "shot": "S73",
+   "a": 7616,
+   "b": 7699,
+   "t0": 0,
+   "t1": 83,
+   "line": "The oxygen you are breathing was cooked in a star."
+  },
+  {
+   "shot": "S74",
+   "a": 7699,
+   "b": 7808,
+   "t0": 0,
+   "t1": 109,
+   "line": "And now there is a new tool for reading any supernova remnant."
+  },
+  {
+   "shot": "S75",
+   "a": 7808,
+   "b": 7918,
+   "t0": 0,
+   "t1": 110,
+   "line": "Other astronomers can use it to peek inside other dead stars."
+  },
+  {
+   "shot": "S76",
+   "a": 7918,
+   "b": 8030,
+   "t0": 0,
+   "t1": 112,
+   "line": "So the next time you look up, remember the onion."
+  },
+  {
+   "shot": "S77",
+   "a": 8030,
+   "b": 8125,
+   "t0": 0,
+   "t1": 95,
+   "line": "So back to the star, and its scrambled insides."
+  },
+  {
+   "shot": "S78",
+   "a": 8125,
+   "b": 8217,
+   "t0": 0,
+   "t1": 92,
+   "line": "Nobody can ride along. But the dust did."
+  },
+  {
+   "shot": "S79",
+   "a": 8217,
+   "b": 8289,
+   "t0": 0,
+   "t1": 72,
+   "line": "It kept a note of what happened inside."
+  },
+  {
+   "shot": "S80",
+   "a": 8289,
+   "b": 8339,
+   "t0": 0,
+   "t1": 50,
+   "line": "Webb just learned to read it."
+  },
+  {
+   "shot": "S81",
+   "a": 8339,
+   "b": 8422,
+   "t0": 0,
+   "t1": 83,
+   "line": "Which layer of a star would you want to see first?"
+  },
+  {
+   "shot": "S82",
+   "a": 8422,
+   "b": 8469,
+   "t0": 0,
+   "t1": 47,
+   "line": "Tell me in the comments."
+  },
+  {
+   "shot": "S83",
+   "a": 8469,
+   "b": 8602,
+   "t0": 0,
+   "t1": 133,
+   "line": "Tomorrow: what if the Moon got its own nuclear reactor?"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 74,
+   "len": 119,
+   "first": 0,
+   "line": "Hours before this star exploded, its insides got scrambled.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "med",
+   "key": 72,
+   "len": 116,
+   "first": 119,
+   "line": "We can tell, because the dust it left behind kept the evidence.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "pullout",
+   "key": 66,
+   "len": 106,
+   "first": 235,
+   "line": "This is Cassiopeia A, eleven thousand light-years away.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "insert",
+   "key": 52,
+   "len": 84,
+   "first": 341,
+   "line": "And Webb just read its dust, clump by clump.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "close",
+   "key": 61,
+   "len": 99,
+   "first": 425,
+   "line": "What it found changes the last hours of a star's life.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "close",
+   "key": 74,
+   "len": 119,
+   "first": 524,
+   "line": "So what if you could ride along for those final hours?",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "wide",
+   "key": 81,
+   "len": 131,
+   "first": 643,
+   "line": "First, meet the star. It is huge, and built like an onion.",
+   "note": "ch1"
+  },
+  {
+   "id": "S8",
+   "size": "med",
+   "key": 71,
+   "len": 114,
+   "first": 774,
+   "line": "Not an onion you cry over. An onion you could not survive.",
+   "note": "ch1"
+  },
+  {
+   "id": "S9",
+   "size": "close",
+   "key": 66,
+   "len": 106,
+   "first": 888,
+   "line": "On the outside, hydrogen. Under it, helium.",
+   "note": "ch1"
+  },
+  {
+   "id": "S10",
+   "size": "insert",
+   "key": 53,
+   "len": 86,
+   "first": 994,
+   "line": "Deeper still, carbon, then oxygen.",
+   "note": "ch1"
+  },
+  {
+   "id": "S11",
+   "size": "low",
+   "key": 56,
+   "len": 90,
+   "first": 1080,
+   "line": "Every layer is burning one fuel into the next.",
+   "note": "ch1"
+  },
+  {
+   "id": "S12",
+   "size": "close",
+   "key": 54,
+   "len": 87,
+   "first": 1170,
+   "line": "At the very middle, the burning stops at iron.",
+   "note": "ch1"
+  },
+  {
+   "id": "S13",
+   "size": "high",
+   "key": 70,
+   "len": 113,
+   "first": 1257,
+   "line": "Iron is a dead end. Nothing more can be squeezed out of it.",
+   "note": "ch1"
+  },
+  {
+   "id": "S14",
+   "size": "pullout",
+   "key": 78,
+   "len": 126,
+   "first": 1370,
+   "line": "Those shells are a diary. Every layer is a chapter of its life.",
+   "note": "ch1"
+  },
+  {
+   "id": "S15",
+   "size": "med",
+   "key": 78,
+   "len": 126,
+   "first": 1496,
+   "line": "Remember the oxygen and carbon layers. They matter in a moment.",
+   "note": "ch1"
+  },
+  {
+   "id": "S16",
+   "size": "close",
+   "key": 76,
+   "len": 122,
+   "first": 1622,
+   "line": "Because inside, something is about to go wrong.",
+   "note": "ch1"
+  },
+  {
+   "id": "S17",
+   "size": "wide",
+   "key": 63,
+   "len": 101,
+   "first": 1744,
+   "line": "The star is in its last hours, and the layers are churning.",
+   "note": "ch2"
+  },
+  {
+   "id": "S18",
+   "size": "close",
+   "key": 79,
+   "len": 128,
+   "first": 1845,
+   "line": "Hot material rises and falls, stirring the boundaries between shells.",
+   "note": "ch2"
+  },
+  {
+   "id": "S19",
+   "size": "insert",
+   "key": 63,
+   "len": 102,
+   "first": 1973,
+   "line": "Then the wall between the carbon and oxygen layers gives way.",
+   "note": "ch2"
+  },
+  {
+   "id": "S20",
+   "size": "med",
+   "key": 39,
+   "len": 63,
+   "first": 2075,
+   "line": "Scientists call it a shell merger.",
+   "note": "ch2"
+  },
+  {
+   "id": "S21",
+   "size": "pullout",
+   "key": 68,
+   "len": 109,
+   "first": 2138,
+   "line": "Two layers blend into one, and the star changes its own shape.",
+   "note": "ch2"
+  },
+  {
+   "id": "S22",
+   "size": "high",
+   "key": 57,
+   "len": 92,
+   "first": 2247,
+   "line": "That changes which elements get thrown out when it blows.",
+   "note": "ch2"
+  },
+  {
+   "id": "S23",
+   "size": "wide",
+   "key": 66,
+   "len": 106,
+   "first": 2339,
+   "line": "Here is the catch. You cannot see any of this from outside.",
+   "note": "ch2"
+  },
+  {
+   "id": "S24",
+   "size": "close",
+   "key": 53,
+   "len": 86,
+   "first": 2445,
+   "line": "A star hides its insides, right up to the end.",
+   "note": "ch2"
+  },
+  {
+   "id": "S25",
+   "size": "med",
+   "key": 51,
+   "len": 83,
+   "first": 2531,
+   "line": "So how can anyone know it happened hours before?",
+   "note": "ch2"
+  },
+  {
+   "id": "S26",
+   "size": "insert",
+   "key": 69,
+   "len": 112,
+   "first": 2614,
+   "line": "Hold that thought. First, the boom.",
+   "note": "ch2"
+  },
+  {
+   "id": "S27",
+   "size": "close",
+   "key": 58,
+   "len": 94,
+   "first": 2726,
+   "line": "The iron core cannot hold. Gravity wins.",
+   "note": "ch3"
+  },
+  {
+   "id": "S28",
+   "size": "insert",
+   "key": 61,
+   "len": 99,
+   "first": 2820,
+   "line": "It collapses to a point, and the whole star rebounds.",
+   "note": "ch3"
+  },
+  {
+   "id": "S29",
+   "size": "wide",
+   "key": 65,
+   "len": 105,
+   "first": 2919,
+   "line": "A shock wave rips outward and throws the layers across space.",
+   "note": "ch3"
+  },
+  {
+   "id": "S30",
+   "size": "high",
+   "key": 84,
+   "len": 136,
+   "first": 3024,
+   "line": "Hydrogen, helium, carbon, oxygen, scattered like confetti.",
+   "note": "ch3"
+  },
+  {
+   "id": "S31",
+   "size": "med",
+   "key": 47,
+   "len": 76,
+   "first": 3160,
+   "line": "But the explosion is not the end of the story.",
+   "note": "ch3"
+  },
+  {
+   "id": "S32",
+   "size": "panr",
+   "key": 68,
+   "len": 110,
+   "first": 3236,
+   "line": "Light from this blast reached Earth around sixteen sixty-seven.",
+   "note": "ch3"
+  },
+  {
+   "id": "S33",
+   "size": "pullout",
+   "key": 40,
+   "len": 65,
+   "first": 3346,
+   "line": "And the wreckage is still glowing today.",
+   "note": "ch3"
+  },
+  {
+   "id": "S34",
+   "size": "wide",
+   "key": 40,
+   "len": 65,
+   "first": 3411,
+   "line": "That wreckage is Cassiopeia A.",
+   "note": "ch3"
+  },
+  {
+   "id": "S35",
+   "size": "med",
+   "key": 70,
+   "len": 113,
+   "first": 3476,
+   "line": "It is the leftover of the star you just watched die.",
+   "note": "ch3"
+  },
+  {
+   "id": "S36",
+   "size": "close",
+   "key": 62,
+   "len": 100,
+   "first": 3589,
+   "line": "In the cooling debris, something new appears: dust.",
+   "note": "ch4"
+  },
+  {
+   "id": "S37",
+   "size": "insert",
+   "key": 74,
+   "len": 120,
+   "first": 3689,
+   "line": "Tiny grains of silica, carbon and magnesium silicate.",
+   "note": "ch4"
+  },
+  {
+   "id": "S38",
+   "size": "wide",
+   "key": 57,
+   "len": 92,
+   "first": 3809,
+   "line": "Each type forms in a different layer of the dead star.",
+   "note": "ch4"
+  },
+  {
+   "id": "S39",
+   "size": "med",
+   "key": 50,
+   "len": 81,
+   "first": 3901,
+   "line": "So the dust remembers which layer it came from.",
+   "note": "ch4"
+  },
+  {
+   "id": "S40",
+   "size": "pullout",
+   "key": 76,
+   "len": 123,
+   "first": 3982,
+   "line": "The grains clump together, in blobs as big as our solar system.",
+   "note": "ch4"
+  },
+  {
+   "id": "S41",
+   "size": "high",
+   "key": 68,
+   "len": 109,
+   "first": 4105,
+   "line": "Each clump is a sealed time capsule, drifting out there.",
+   "note": "ch4"
+  },
+  {
+   "id": "S42",
+   "size": "low",
+   "key": 62,
+   "len": 100,
+   "first": 4214,
+   "line": "Which clump came from the merged layers? Good question.",
+   "note": "ch4"
+  },
+  {
+   "id": "S43",
+   "size": "close",
+   "key": 66,
+   "len": 106,
+   "first": 4314,
+   "line": "To find out, you would need a very sharp pair of eyes.",
+   "note": "ch4"
+  },
+  {
+   "id": "S44",
+   "size": "wide",
+   "key": 95,
+   "len": 153,
+   "first": 4420,
+   "line": "Lucky for us, we now have a telescope built for exactly this.",
+   "note": "ch4"
+  },
+  {
+   "id": "S45",
+   "size": "high",
+   "key": 98,
+   "len": 158,
+   "first": 4573,
+   "line": "The James Webb Space Telescope. Its mid-infrared camera sees warm dust glow.",
+   "note": "ch5"
+  },
+  {
+   "id": "S46",
+   "size": "med",
+   "key": 56,
+   "len": 91,
+   "first": 4731,
+   "line": "First, the team needed clues about where to look.",
+   "note": "ch5"
+  },
+  {
+   "id": "S47",
+   "size": "pullout",
+   "key": 78,
+   "len": 126,
+   "first": 4822,
+   "line": "Old data from the retired Spitzer telescope pointed to three regions.",
+   "note": "ch5"
+  },
+  {
+   "id": "S48",
+   "size": "insert",
+   "key": 50,
+   "len": 81,
+   "first": 4948,
+   "line": "Webb split the light from each one into a spectrum.",
+   "note": "ch5"
+  },
+  {
+   "id": "S49",
+   "size": "close",
+   "key": 73,
+   "len": 118,
+   "first": 5029,
+   "line": "A spectrum is like a barcode. Each kind of dust has its own.",
+   "note": "ch5"
+  },
+  {
+   "id": "S50",
+   "size": "med",
+   "key": 63,
+   "len": 101,
+   "first": 5147,
+   "line": "Region one is full of silica, glass-like grains.",
+   "note": "ch5"
+  },
+  {
+   "id": "S51",
+   "size": "low",
+   "key": 57,
+   "len": 92,
+   "first": 5248,
+   "line": "Region two glows with magnesium silicates.",
+   "note": "ch5"
+  },
+  {
+   "id": "S52",
+   "size": "close",
+   "key": 68,
+   "len": 110,
+   "first": 5340,
+   "line": "That one is the Green Monster, a structure Webb found itself.",
+   "note": "ch5"
+  },
+  {
+   "id": "S53",
+   "size": "wide",
+   "key": 69,
+   "len": 111,
+   "first": 5450,
+   "line": "But it is not from the explosion. The star shed it earlier.",
+   "note": "ch5"
+  },
+  {
+   "id": "S54",
+   "size": "insert",
+   "key": 75,
+   "len": 121,
+   "first": 5561,
+   "line": "Region three is mostly carbon, in two neon-rich crescents.",
+   "note": "ch5"
+  },
+  {
+   "id": "S55",
+   "size": "pan",
+   "key": 79,
+   "len": 128,
+   "first": 5682,
+   "line": "Silica here, carbon there. Different layers, different dust.",
+   "note": "ch5"
+  },
+  {
+   "id": "S56",
+   "size": "med",
+   "key": 60,
+   "len": 96,
+   "first": 5810,
+   "line": "Now for the big question. Could those layers have mixed?",
+   "note": "ch5"
+  },
+  {
+   "id": "S57",
+   "size": "high",
+   "key": 63,
+   "len": 102,
+   "first": 5906,
+   "line": "The team compared the dust with models of exploding stars.",
+   "note": "ch5"
+  },
+  {
+   "id": "S58",
+   "size": "close",
+   "key": 88,
+   "len": 142,
+   "first": 6008,
+   "line": "Only a carbon and oxygen merger explains what they saw.",
+   "note": "ch5"
+  },
+  {
+   "id": "S59",
+   "size": "pullout",
+   "key": 73,
+   "len": 117,
+   "first": 6150,
+   "line": "The signs are not in one spot. They span much of the remnant.",
+   "note": "ch6"
+  },
+  {
+   "id": "S60",
+   "size": "med",
+   "key": 55,
+   "len": 89,
+   "first": 6267,
+   "line": "Add X-ray data from Chandra and Japan's XRISM.",
+   "note": "ch6"
+  },
+  {
+   "id": "S61",
+   "size": "close",
+   "key": 81,
+   "len": 131,
+   "first": 6356,
+   "line": "Together they say the merger was underway very shortly before the explosion.",
+   "note": "ch6"
+  },
+  {
+   "id": "S62",
+   "size": "insert",
+   "key": 74,
+   "len": 120,
+   "first": 6487,
+   "line": "A scientist said, we think it shows the hours before collapse.",
+   "note": "ch6"
+  },
+  {
+   "id": "S63",
+   "size": "low",
+   "key": 78,
+   "len": 126,
+   "first": 6607,
+   "line": "Notice the wording. We think. Even NASA stays careful.",
+   "note": "ch6"
+  },
+  {
+   "id": "S64",
+   "size": "wide",
+   "key": 75,
+   "len": 121,
+   "first": 6733,
+   "line": "Nobody saw the star's last hours. The dust is a witness.",
+   "note": "ch6"
+  },
+  {
+   "id": "S65",
+   "size": "panr",
+   "key": 49,
+   "len": 79,
+   "first": 6854,
+   "line": "Hundreds of years later, we can still read it.",
+   "note": "ch6"
+  },
+  {
+   "id": "S66",
+   "size": "pullout",
+   "key": 60,
+   "len": 96,
+   "first": 6933,
+   "line": "It is forensics, across eleven thousand light-years.",
+   "note": "ch6"
+  },
+  {
+   "id": "S67",
+   "size": "high",
+   "key": 55,
+   "len": 89,
+   "first": 7029,
+   "line": "It is a best reading, not a video of the moment.",
+   "note": "ch6"
+  },
+  {
+   "id": "S68",
+   "size": "close",
+   "key": 91,
+   "len": 146,
+   "first": 7118,
+   "line": "X-rays and dust agree on the merger. That makes it strong.",
+   "note": "ch6"
+  },
+  {
+   "id": "S69",
+   "size": "wide",
+   "key": 53,
+   "len": 85,
+   "first": 7264,
+   "line": "Why does a star's last few hours matter to you?",
+   "note": "ch7"
+  },
+  {
+   "id": "S70",
+   "size": "med",
+   "key": 54,
+   "len": 87,
+   "first": 7349,
+   "line": "Because the blast decides which elements fly out.",
+   "note": "ch7"
+  },
+  {
+   "id": "S71",
+   "size": "pullout",
+   "key": 64,
+   "len": 103,
+   "first": 7436,
+   "line": "That mix seeds the next generation of stars and planets.",
+   "note": "ch7"
+  },
+  {
+   "id": "S72",
+   "size": "close",
+   "key": 48,
+   "len": 77,
+   "first": 7539,
+   "line": "Your own world was built from dust like this.",
+   "note": "ch7"
+  },
+  {
+   "id": "S73",
+   "size": "insert",
+   "key": 51,
+   "len": 83,
+   "first": 7616,
+   "line": "The oxygen you are breathing was cooked in a star.",
+   "note": "ch7"
+  },
+  {
+   "id": "S74",
+   "size": "high",
+   "key": 68,
+   "len": 109,
+   "first": 7699,
+   "line": "And now there is a new tool for reading any supernova remnant.",
+   "note": "ch7"
+  },
+  {
+   "id": "S75",
+   "size": "wide",
+   "key": 68,
+   "len": 110,
+   "first": 7808,
+   "line": "Other astronomers can use it to peek inside other dead stars.",
+   "note": "ch7"
+  },
+  {
+   "id": "S76",
+   "size": "close",
+   "key": 69,
+   "len": 112,
+   "first": 7918,
+   "line": "So the next time you look up, remember the onion.",
+   "note": "ch7"
+  },
+  {
+   "id": "S77",
+   "size": "close",
+   "key": 59,
+   "len": 95,
+   "first": 8030,
+   "line": "So back to the star, and its scrambled insides.",
+   "note": "ch8"
+  },
+  {
+   "id": "S78",
+   "size": "wide",
+   "key": 57,
+   "len": 92,
+   "first": 8125,
+   "line": "Nobody can ride along. But the dust did.",
+   "note": "ch8"
+  },
+  {
+   "id": "S79",
+   "size": "pullout",
+   "key": 45,
+   "len": 72,
+   "first": 8217,
+   "line": "It kept a note of what happened inside.",
+   "note": "ch8"
+  },
+  {
+   "id": "S80",
+   "size": "insert",
+   "key": 31,
+   "len": 50,
+   "first": 8289,
+   "line": "Webb just learned to read it.",
+   "note": "ch8"
+  },
+  {
+   "id": "S81",
+   "size": "med",
+   "key": 51,
+   "len": 83,
+   "first": 8339,
+   "line": "Which layer of a star would you want to see first?",
+   "note": "ch8"
+  },
+  {
+   "id": "S82",
+   "size": "close",
+   "key": 29,
+   "len": 47,
+   "first": 8422,
+   "line": "Tell me in the comments.",
+   "note": "ch8"
+  },
+  {
+   "id": "S83",
+   "size": "wide",
+   "key": 82,
+   "len": 133,
+   "first": 8469,
+   "line": "Tomorrow: what if the Moon got its own nuclear reactor?",
+   "note": "ch8"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "casa/voice.wav",
+  "sfx": "casa/sfx.wav",
+  "music": "casa/music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}

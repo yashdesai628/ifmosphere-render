@@ -1,0 +1,197 @@
+{
+ "slug": "casa",
+ "title": "WHAT IF YOU READ A STAR'S FINAL HOURS IN DUST?",
+ "fps": 30,
+ "total": 1059,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 114,
+   "t0": 0,
+   "t1": 114,
+   "line": "Hours before this star exploded, its insides got scrambled."
+  },
+  {
+   "shot": "S2",
+   "a": 114,
+   "b": 203,
+   "t0": 0,
+   "t1": 89,
+   "line": "A star is built like an onion, with burning layers."
+  },
+  {
+   "shot": "S3",
+   "a": 203,
+   "b": 313,
+   "t0": 0,
+   "t1": 110,
+   "line": "In its last hours, the carbon and oxygen layers merged."
+  },
+  {
+   "shot": "S4",
+   "a": 313,
+   "b": 403,
+   "t0": 0,
+   "t1": 90,
+   "line": "Then the iron core collapsed and the star blew apart."
+  },
+  {
+   "shot": "S5",
+   "a": 403,
+   "b": 514,
+   "t0": 0,
+   "t1": 111,
+   "line": "The wreckage is Cassiopeia A, eleven thousand light-years away."
+  },
+  {
+   "shot": "S6",
+   "a": 514,
+   "b": 598,
+   "t0": 0,
+   "t1": 84,
+   "line": "Its dust clumps are as big as our solar system."
+  },
+  {
+   "shot": "S7",
+   "a": 598,
+   "b": 694,
+   "t0": 0,
+   "t1": 96,
+   "line": "Webb read that dust, and the chemistry points to the merger."
+  },
+  {
+   "shot": "S8",
+   "a": 694,
+   "b": 808,
+   "t0": 0,
+   "t1": 114,
+   "line": "Silica in one region, carbon in another. Different layers."
+  },
+  {
+   "shot": "S9",
+   "a": 808,
+   "b": 914,
+   "t0": 0,
+   "t1": 106,
+   "line": "NASA says the mixing came very shortly before the blast."
+  },
+  {
+   "shot": "S10",
+   "a": 914,
+   "b": 986,
+   "t0": 0,
+   "t1": 72,
+   "line": "Full film on the channel. Tomorrow: a nuclear reactor on the Moon."
+  },
+  {
+   "shot": "S10",
+   "a": 986,
+   "b": 1059,
+   "t0": 72,
+   "t1": 145,
+   "line": "Full film on the channel. Tomorrow: a nuclear reactor on the Moon."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 71,
+   "len": 114,
+   "first": 0,
+   "line": "Hours before this star exploded, its insides got scrambled.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "close",
+   "key": 55,
+   "len": 89,
+   "first": 114,
+   "line": "A star is built like an onion, with burning layers.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "insert",
+   "key": 68,
+   "len": 110,
+   "first": 203,
+   "line": "In its last hours, the carbon and oxygen layers merged.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "med",
+   "key": 56,
+   "len": 90,
+   "first": 313,
+   "line": "Then the iron core collapsed and the star blew apart.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "wide",
+   "key": 69,
+   "len": 111,
+   "first": 403,
+   "line": "The wreckage is Cassiopeia A, eleven thousand light-years away.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "close",
+   "key": 52,
+   "len": 84,
+   "first": 514,
+   "line": "Its dust clumps are as big as our solar system.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "med",
+   "key": 60,
+   "len": 96,
+   "first": 598,
+   "line": "Webb read that dust, and the chemistry points to the merger.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "insert",
+   "key": 71,
+   "len": 114,
+   "first": 694,
+   "line": "Silica in one region, carbon in another. Different layers.",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "close",
+   "key": 66,
+   "len": 106,
+   "first": 808,
+   "line": "NASA says the mixing came very shortly before the blast.",
+   "note": "ch0"
+  },
+  {
+   "id": "S10",
+   "size": "wide",
+   "key": 90,
+   "len": 145,
+   "first": 914,
+   "line": "Full film on the channel. Tomorrow: a nuclear reactor on the Moon.",
+   "note": "ch0"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "casa/short-voice.wav",
+  "sfx": "casa/short-sfx.wav",
+  "music": "casa/short-music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}

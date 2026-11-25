@@ -20,4 +20,5 @@ import { romanwide, romanwideShort } from './romanwide';
 import { mercury, mercuryShort } from './mercury';
 import { kuiper, kuiperShort } from './kuiper';
 import { radiosilence, radiosilenceShort } from './radiosilence';
-export const EPISODES = [rewind, copyPaste, reaction, meteor, starcatcher, jump, jumpShort, lightday, lightdayShort, closermoon, closermoonShort, jupiterfall, jupiterfallShort, marsyear, marsyearShort, leonidstorm, leonidstormShort, slingshot, slingshotShort, ship42, ship42Short, dart14k, dart14kShort, euclidcomet, euclidcometShort, starmerge, starmergeShort, romanwide, romanwideShort, mercury, mercuryShort, kuiper, kuiperShort, radiosilence, radiosilenceShort];
+import { casa, casaShort } from './casa';
+export const EPISODES = [rewind, copyPaste, reaction, meteor, starcatcher, jump, jumpShort, lightday, lightdayShort, closermoon, closermoonShort, jupiterfall, jupiterfallShort, marsyear, marsyearShort, leonidstorm, leonidstormShort, slingshot, slingshotShort, ship42, ship42Short, dart14k, dart14kShort, euclidcomet, euclidcometShort, starmerge, starmergeShort, romanwide, romanwideShort, mercury, mercuryShort, kuiper, kuiperShort, radiosilence, radiosilenceShort, casa, casaShort];
