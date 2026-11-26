@@ -1,0 +1,265 @@
+{
+ "slug": "freedom",
+ "title": "WHAT IF YOU FLEW TO MARS ON A NUCLEAR REACTOR?",
+ "fps": 30,
+ "total": 1435,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 87,
+   "t0": 0,
+   "t1": 87,
+   "line": "This spaceship carries a nuclear reactor to Mars."
+  },
+  {
+   "shot": "S2",
+   "a": 87,
+   "b": 214,
+   "t0": 0,
+   "t1": 127,
+   "line": "NASA just locked in its design. Launch: late twenty twenty-eight."
+  },
+  {
+   "shot": "S3",
+   "a": 214,
+   "b": 306,
+   "t0": 0,
+   "t1": 92,
+   "line": "Here's the twist. The reactor barely flies the ship."
+  },
+  {
+   "shot": "S4",
+   "a": 306,
+   "b": 402,
+   "t0": 0,
+   "t1": 96,
+   "line": "Houston wakes it up slowly, over about seven days."
+  },
+  {
+   "shot": "S5",
+   "a": 402,
+   "b": 500,
+   "t0": 0,
+   "t1": 98,
+   "line": "It makes twenty kilowatts and powers a blue electric thruster."
+  },
+  {
+   "shot": "S6",
+   "a": 500,
+   "b": 599,
+   "t0": 0,
+   "t1": 99,
+   "line": "Then it shuts down. Sunlight flies it most of the way."
+  },
+  {
+   "shot": "S7",
+   "a": 599,
+   "b": 674,
+   "t0": 0,
+   "t1": 75,
+   "line": "Why? The first job is to learn: start, run, stop, in deep space."
+  },
+  {
+   "shot": "S7",
+   "a": 674,
+   "b": 749,
+   "t0": 75,
+   "t1": 150,
+   "line": "Why? The first job is to learn: start, run, stop, in deep space."
+  },
+  {
+   "shot": "S8",
+   "a": 749,
+   "b": 835,
+   "t0": 0,
+   "t1": 86,
+   "line": "At Mars, it drops a capsule with three helicopters."
+  },
+  {
+   "shot": "S9",
+   "a": 835,
+   "b": 934,
+   "t0": 0,
+   "t1": 99,
+   "line": "They unfold in mid-air, then hunt for ice underground."
+  },
+  {
+   "shot": "S10",
+   "a": 934,
+   "b": 1033,
+   "t0": 0,
+   "t1": 99,
+   "line": "Then the reactor restarts, and engineers push it hard."
+  },
+  {
+   "shot": "S11",
+   "a": 1033,
+   "b": 1126,
+   "t0": 0,
+   "t1": 93,
+   "line": "They even plan to break parts on purpose, to learn."
+  },
+  {
+   "shot": "S12",
+   "a": 1126,
+   "b": 1241,
+   "t0": 0,
+   "t1": 115,
+   "line": "Because one day, reactors will light Moon bases through the long night."
+  },
+  {
+   "shot": "S13",
+   "a": 1241,
+   "b": 1359,
+   "t0": 0,
+   "t1": 118,
+   "line": "Full film on the channel. Tomorrow: a helicopter on Titan."
+  },
+  {
+   "shot": "S14",
+   "a": 1359,
+   "b": 1435,
+   "t0": 0,
+   "t1": 76,
+   "line": "And it all starts with one ship."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "close",
+   "key": 54,
+   "len": 87,
+   "first": 0,
+   "line": "This spaceship carries a nuclear reactor to Mars.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "wide",
+   "key": 79,
+   "len": 127,
+   "first": 87,
+   "line": "NASA just locked in its design. Launch: late twenty twenty-eight.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "close",
+   "key": 57,
+   "len": 92,
+   "first": 214,
+   "line": "Here's the twist. The reactor barely flies the ship.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "med",
+   "key": 60,
+   "len": 96,
+   "first": 306,
+   "line": "Houston wakes it up slowly, over about seven days.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "pan",
+   "key": 61,
+   "len": 98,
+   "first": 402,
+   "line": "It makes twenty kilowatts and powers a blue electric thruster.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "wide",
+   "key": 61,
+   "len": 99,
+   "first": 500,
+   "line": "Then it shuts down. Sunlight flies it most of the way.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "close",
+   "key": 93,
+   "len": 150,
+   "first": 599,
+   "line": "Why? The first job is to learn: start, run, stop, in deep space.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "med",
+   "key": 53,
+   "len": 86,
+   "first": 749,
+   "line": "At Mars, it drops a capsule with three helicopters.",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "wide",
+   "key": 61,
+   "len": 99,
+   "first": 835,
+   "line": "They unfold in mid-air, then hunt for ice underground.",
+   "note": "ch0"
+  },
+  {
+   "id": "S10",
+   "size": "close",
+   "key": 61,
+   "len": 99,
+   "first": 934,
+   "line": "Then the reactor restarts, and engineers push it hard.",
+   "note": "ch0"
+  },
+  {
+   "id": "S11",
+   "size": "pan",
+   "key": 58,
+   "len": 93,
+   "first": 1033,
+   "line": "They even plan to break parts on purpose, to learn.",
+   "note": "ch0"
+  },
+  {
+   "id": "S12",
+   "size": "pullout",
+   "key": 71,
+   "len": 115,
+   "first": 1126,
+   "line": "Because one day, reactors will light Moon bases through the long night.",
+   "note": "ch0"
+  },
+  {
+   "id": "S13",
+   "size": "pullout",
+   "key": 73,
+   "len": 118,
+   "first": 1241,
+   "line": "Full film on the channel. Tomorrow: a helicopter on Titan.",
+   "note": "ch0"
+  },
+  {
+   "id": "S14",
+   "size": "close",
+   "key": 47,
+   "len": 76,
+   "first": 1359,
+   "line": "And it all starts with one ship.",
+   "note": "ch0"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "freedom/short-voice.wav",
+  "sfx": "freedom/short-sfx.wav",
+  "music": "freedom/short-music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}

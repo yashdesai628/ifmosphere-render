@@ -1,0 +1,2231 @@
+{
+ "slug": "freedom",
+ "title": "WHAT IF YOU FLEW TO MARS ON A NUCLEAR REACTOR?",
+ "fps": 30,
+ "total": 13058,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 105,
+   "t0": 0,
+   "t1": 105,
+   "line": "You are strapped beside a nuclear reactor, deep in space."
+  },
+  {
+   "shot": "S2",
+   "a": 105,
+   "b": 185,
+   "t0": 0,
+   "t1": 80,
+   "line": "And someone in Houston is about to switch it on."
+  },
+  {
+   "shot": "S3",
+   "a": 185,
+   "b": 276,
+   "t0": 0,
+   "t1": 91,
+   "line": "Two operators sit side by side at the controls."
+  },
+  {
+   "shot": "S4",
+   "a": 276,
+   "b": 372,
+   "t0": 0,
+   "t1": 96,
+   "line": "One from NASA. One from the Department of Energy."
+  },
+  {
+   "shot": "S5",
+   "a": 372,
+   "b": 442,
+   "t0": 0,
+   "t1": 70,
+   "line": "Waking this reactor takes about seven days, one careful step at a time."
+  },
+  {
+   "shot": "S5",
+   "a": 442,
+   "b": 513,
+   "t0": 70,
+   "t1": 141,
+   "line": "Waking this reactor takes about seven days, one careful step at a time."
+  },
+  {
+   "shot": "S6",
+   "a": 513,
+   "b": 580,
+   "t0": 0,
+   "t1": 67,
+   "line": "This is S R One Freedom."
+  },
+  {
+   "shot": "S7",
+   "a": 580,
+   "b": 692,
+   "t0": 0,
+   "t1": 112,
+   "line": "The first fission-powered spacecraft ever to leave Earth orbit."
+  },
+  {
+   "shot": "S8",
+   "a": 692,
+   "b": 761,
+   "t0": 0,
+   "t1": 69,
+   "line": "NASA locked in its design this week. Launch: late twenty twenty-eight."
+  },
+  {
+   "shot": "S8",
+   "a": 761,
+   "b": 831,
+   "t0": 69,
+   "t1": 139,
+   "line": "NASA locked in its design this week. Launch: late twenty twenty-eight."
+  },
+  {
+   "shot": "S9",
+   "a": 831,
+   "b": 939,
+   "t0": 0,
+   "t1": 108,
+   "line": "So what if you rode along, all the way to Mars?"
+  },
+  {
+   "shot": "S10",
+   "a": 939,
+   "b": 1029,
+   "t0": 0,
+   "t1": 90,
+   "line": "First, the bad news. There are no seats."
+  },
+  {
+   "shot": "S11",
+   "a": 1029,
+   "b": 1127,
+   "t0": 0,
+   "t1": 98,
+   "line": "It is a robot ship. Nobody planned for a passenger."
+  },
+  {
+   "shot": "S12",
+   "a": 1127,
+   "b": 1256,
+   "t0": 0,
+   "t1": 129,
+   "line": "So you squeeze in next to its real cargo: three folded helicopters."
+  },
+  {
+   "shot": "S13",
+   "a": 1256,
+   "b": 1372,
+   "t0": 0,
+   "t1": 116,
+   "line": "Rule one: you go where the ship goes. No turning back."
+  },
+  {
+   "shot": "S14",
+   "a": 1372,
+   "b": 1486,
+   "t0": 0,
+   "t1": 114,
+   "line": "Rule two: when the reactor runs, you stay behind the shield."
+  },
+  {
+   "shot": "S15",
+   "a": 1486,
+   "b": 1602,
+   "t0": 0,
+   "t1": 116,
+   "line": "Rule three: pack snacks. Mars is a long way off."
+  },
+  {
+   "shot": "S16",
+   "a": 1602,
+   "b": 1672,
+   "t0": 0,
+   "t1": 70,
+   "line": "And the strangest rule? This nuclear ship barely flies on nuclear power."
+  },
+  {
+   "shot": "S16",
+   "a": 1672,
+   "b": 1742,
+   "t0": 70,
+   "t1": 140,
+   "line": "And the strangest rule? This nuclear ship barely flies on nuclear power."
+  },
+  {
+   "shot": "S17",
+   "a": 1742,
+   "b": 1838,
+   "t0": 0,
+   "t1": 96,
+   "line": "Hold that thought. First, the tour."
+  },
+  {
+   "shot": "S18",
+   "a": 1838,
+   "b": 1917,
+   "t0": 0,
+   "t1": 79,
+   "line": "Freedom weighs about twelve thousand kilograms."
+  },
+  {
+   "shot": "S19",
+   "a": 1917,
+   "b": 2005,
+   "t0": 0,
+   "t1": 88,
+   "line": "That is roughly two big elephants, in space."
+  },
+  {
+   "shot": "S20",
+   "a": 2005,
+   "b": 2116,
+   "t0": 0,
+   "t1": 111,
+   "line": "Up front sits the reactor, on a metal arm called the boom."
+  },
+  {
+   "shot": "S21",
+   "a": 2116,
+   "b": 2236,
+   "t0": 0,
+   "t1": 120,
+   "line": "Early drawings had a long boom, to keep radiation far away."
+  },
+  {
+   "shot": "S22",
+   "a": 2236,
+   "b": 2319,
+   "t0": 0,
+   "t1": 83,
+   "line": "This week's news: the boom just got shorter."
+  },
+  {
+   "shot": "S23",
+   "a": 2319,
+   "b": 2413,
+   "t0": 0,
+   "t1": 94,
+   "line": "Better shielding lets the reactor sit closer to the ship."
+  },
+  {
+   "shot": "S24",
+   "a": 2413,
+   "b": 2492,
+   "t0": 0,
+   "t1": 79,
+   "line": "Shorter means lighter, and simpler to build."
+  },
+  {
+   "shot": "S25",
+   "a": 2492,
+   "b": 2588,
+   "t0": 0,
+   "t1": 96,
+   "line": "Shorter boom. Same legroom. Which is none."
+  },
+  {
+   "shot": "S26",
+   "a": 2588,
+   "b": 2694,
+   "t0": 0,
+   "t1": 106,
+   "line": "Behind you is the main body: the Power and Propulsion Element."
+  },
+  {
+   "shot": "S27",
+   "a": 2694,
+   "b": 2813,
+   "t0": 0,
+   "t1": 119,
+   "line": "Its wings are giant roll-out solar arrays, purple and white."
+  },
+  {
+   "shot": "S28",
+   "a": 2813,
+   "b": 2926,
+   "t0": 0,
+   "t1": 113,
+   "line": "Grey radiator panels stick out to dump the reactor's heat."
+  },
+  {
+   "shot": "S29",
+   "a": 2926,
+   "b": 3032,
+   "t0": 0,
+   "t1": 106,
+   "line": "And bigger dishes, to talk to Earth across deep space."
+  },
+  {
+   "shot": "S30",
+   "a": 3032,
+   "b": 3144,
+   "t0": 0,
+   "t1": 112,
+   "line": "At the back: a Hall thruster, rated at twelve kilowatts."
+  },
+  {
+   "shot": "S31",
+   "a": 3144,
+   "b": 3258,
+   "t0": 0,
+   "t1": 114,
+   "line": "It doesn't burn fuel like a rocket. It runs on electricity."
+  },
+  {
+   "shot": "S32",
+   "a": 3258,
+   "b": 3327,
+   "t0": 0,
+   "t1": 69,
+   "line": "Which raises a question. Where does all that electricity come from?"
+  },
+  {
+   "shot": "S32",
+   "a": 3327,
+   "b": 3396,
+   "t0": 69,
+   "t1": 138,
+   "line": "Which raises a question. Where does all that electricity come from?"
+  },
+  {
+   "shot": "S33",
+   "a": 3396,
+   "b": 3523,
+   "t0": 0,
+   "t1": 127,
+   "line": "Launch day, late twenty twenty-eight. You're tucked inside a rocket."
+  },
+  {
+   "shot": "S34",
+   "a": 3523,
+   "b": 3636,
+   "t0": 0,
+   "t1": 113,
+   "line": "Right now, the reactor is switched off. It stays off through launch."
+  },
+  {
+   "shot": "S35",
+   "a": 3636,
+   "b": 3721,
+   "t0": 0,
+   "t1": 85,
+   "line": "Its fuel is uranium, but a special kind."
+  },
+  {
+   "shot": "S36",
+   "a": 3721,
+   "b": 3847,
+   "t0": 0,
+   "t1": 126,
+   "line": "High-assay low-enriched uranium. Engineers call it hay-loo."
+  },
+  {
+   "shot": "S37",
+   "a": 3847,
+   "b": 3939,
+   "t0": 0,
+   "t1": 92,
+   "line": "Three. Two. One. Liftoff!"
+  },
+  {
+   "shot": "S38",
+   "a": 3939,
+   "b": 4061,
+   "t0": 0,
+   "t1": 122,
+   "line": "The rocket shakes. You shake. The helicopters stay packed tight."
+  },
+  {
+   "shot": "S39",
+   "a": 4061,
+   "b": 4162,
+   "t0": 0,
+   "t1": 101,
+   "line": "Minutes later, the rocket lets go. You're on your own."
+  },
+  {
+   "shot": "S40",
+   "a": 4162,
+   "b": 4276,
+   "t0": 0,
+   "t1": 114,
+   "line": "Freedom heads out on an Earth escape path, aimed at Mars."
+  },
+  {
+   "shot": "S41",
+   "a": 4276,
+   "b": 4408,
+   "t0": 0,
+   "t1": 132,
+   "line": "Then the big moment arrives. Time to wake the reactor."
+  },
+  {
+   "shot": "S42",
+   "a": 4408,
+   "b": 4523,
+   "t0": 0,
+   "t1": 115,
+   "line": "Once Freedom has left Earth orbit, Houston starts the reactor."
+  },
+  {
+   "shot": "S43",
+   "a": 4523,
+   "b": 4632,
+   "t0": 0,
+   "t1": 109,
+   "line": "No big lever. Power creeps up, a little at a time."
+  },
+  {
+   "shot": "S44",
+   "a": 4632,
+   "b": 4733,
+   "t0": 0,
+   "t1": 101,
+   "line": "Inside, uranium atoms split apart and give off heat."
+  },
+  {
+   "shot": "S45",
+   "a": 4733,
+   "b": 4839,
+   "t0": 0,
+   "t1": 106,
+   "line": "That heat is the whole point. It's where the power comes from."
+  },
+  {
+   "shot": "S46",
+   "a": 4839,
+   "b": 4941,
+   "t0": 0,
+   "t1": 102,
+   "line": "A loop of gas carries the heat to a spinning turbine."
+  },
+  {
+   "shot": "S47",
+   "a": 4941,
+   "b": 5016,
+   "t0": 0,
+   "t1": 75,
+   "line": "Engineers call it a closed Brayton cycle. Heat in, electricity out."
+  },
+  {
+   "shot": "S47",
+   "a": 5016,
+   "b": 5091,
+   "t0": 75,
+   "t1": 150,
+   "line": "Engineers call it a closed Brayton cycle. Heat in, electricity out."
+  },
+  {
+   "shot": "S48",
+   "a": 5091,
+   "b": 5193,
+   "t0": 0,
+   "t1": 102,
+   "line": "The design target: twenty kilowatts of electricity."
+  },
+  {
+   "shot": "S49",
+   "a": 5193,
+   "b": 5303,
+   "t0": 0,
+   "t1": 110,
+   "line": "Enough to light two hundred old hundred-watt bulbs at once."
+  },
+  {
+   "shot": "S50",
+   "a": 5303,
+   "b": 5394,
+   "t0": 0,
+   "t1": 91,
+   "line": "But a reactor makes much more heat than electricity."
+  },
+  {
+   "shot": "S51",
+   "a": 5394,
+   "b": 5493,
+   "t0": 0,
+   "t1": 99,
+   "line": "And in space, there's no air to carry that heat away."
+  },
+  {
+   "shot": "S52",
+   "a": 5493,
+   "b": 5598,
+   "t0": 0,
+   "t1": 105,
+   "line": "So the radiators glow, shedding heat into the dark."
+  },
+  {
+   "shot": "S53",
+   "a": 5598,
+   "b": 5668,
+   "t0": 0,
+   "t1": 70,
+   "line": "NASA just awarded thirty-nine point three million dollars for that cooling system."
+  },
+  {
+   "shot": "S53",
+   "a": 5668,
+   "b": 5738,
+   "t0": 70,
+   "t1": 140,
+   "line": "NASA just awarded thirty-nine point three million dollars for that cooling system."
+  },
+  {
+   "shot": "S54",
+   "a": 5738,
+   "b": 5812,
+   "t0": 0,
+   "t1": 74,
+   "line": "Johns Hopkins' Applied Physics Lab will build it, with heat pipes and radiators."
+  },
+  {
+   "shot": "S54",
+   "a": 5812,
+   "b": 5886,
+   "t0": 74,
+   "t1": 148,
+   "line": "Johns Hopkins' Applied Physics Lab will build it, with heat pipes and radiators."
+  },
+  {
+   "shot": "S55",
+   "a": 5886,
+   "b": 5981,
+   "t0": 0,
+   "t1": 95,
+   "line": "Seven days of checks later, the reactor is humming."
+  },
+  {
+   "shot": "S56",
+   "a": 5981,
+   "b": 6053,
+   "t0": 0,
+   "t1": 72,
+   "line": "You're riding the first fission-powered ship ever beyond Earth orbit."
+  },
+  {
+   "shot": "S56",
+   "a": 6053,
+   "b": 6125,
+   "t0": 72,
+   "t1": 144,
+   "line": "You're riding the first fission-powered ship ever beyond Earth orbit."
+  },
+  {
+   "shot": "S57",
+   "a": 6125,
+   "b": 6206,
+   "t0": 0,
+   "t1": 81,
+   "line": "Now that electricity flows to the thruster."
+  },
+  {
+   "shot": "S58",
+   "a": 6206,
+   "b": 6298,
+   "t0": 0,
+   "t1": 92,
+   "line": "The Hall thruster lights up with a soft blue glow."
+  },
+  {
+   "shot": "S59",
+   "a": 6298,
+   "b": 6413,
+   "t0": 0,
+   "t1": 115,
+   "line": "It fires charged gas out the back. Very, very fast."
+  },
+  {
+   "shot": "S60",
+   "a": 6413,
+   "b": 6497,
+   "t0": 0,
+   "t1": 84,
+   "line": "But the push is gentle. Barely a whisper."
+  },
+  {
+   "shot": "S61",
+   "a": 6497,
+   "b": 6618,
+   "t0": 0,
+   "t1": 121,
+   "line": "You wouldn't even feel it. Your sandwich wouldn't slide off its tray."
+  },
+  {
+   "shot": "S62",
+   "a": 6618,
+   "b": 6666,
+   "t0": 0,
+   "t1": 48,
+   "line": "But it never gets tired."
+  },
+  {
+   "shot": "S63",
+   "a": 6666,
+   "b": 6741,
+   "t0": 0,
+   "t1": 75,
+   "line": "It can keep pushing for a very long time."
+  },
+  {
+   "shot": "S64",
+   "a": 6741,
+   "b": 6840,
+   "t0": 0,
+   "t1": 99,
+   "line": "A chemical rocket is a sprint. This is a marathon."
+  },
+  {
+   "shot": "S65",
+   "a": 6840,
+   "b": 6915,
+   "t0": 0,
+   "t1": 75,
+   "line": "Reactor power driving electric thrusters. That's nuclear electric propulsion."
+  },
+  {
+   "shot": "S65",
+   "a": 6915,
+   "b": 6990,
+   "t0": 75,
+   "t1": 150,
+   "line": "Reactor power driving electric thrusters. That's nuclear electric propulsion."
+  },
+  {
+   "shot": "S66",
+   "a": 6990,
+   "b": 7079,
+   "t0": 0,
+   "t1": 89,
+   "line": "Nobody has ever flown it in deep space before."
+  },
+  {
+   "shot": "S67",
+   "a": 7079,
+   "b": 7150,
+   "t0": 0,
+   "t1": 71,
+   "line": "And then... the reactor shuts down."
+  },
+  {
+   "shot": "S68",
+   "a": 7150,
+   "b": 7232,
+   "t0": 0,
+   "t1": 82,
+   "line": "Remember the strange rule? Here it is."
+  },
+  {
+   "shot": "S69",
+   "a": 7232,
+   "b": 7336,
+   "t0": 0,
+   "t1": 104,
+   "line": "For most of the trip to Mars, Freedom cruises on sunlight."
+  },
+  {
+   "shot": "S70",
+   "a": 7336,
+   "b": 7447,
+   "t0": 0,
+   "t1": 111,
+   "line": "The nuclear spaceship is mostly solar powered on the way there."
+  },
+  {
+   "shot": "S71",
+   "a": 7447,
+   "b": 7529,
+   "t0": 0,
+   "t1": 82,
+   "line": "So why build a reactor, then switch it off?"
+  },
+  {
+   "shot": "S72",
+   "a": 7529,
+   "b": 7585,
+   "t0": 0,
+   "t1": 56,
+   "line": "Because the first job is to learn."
+  },
+  {
+   "shot": "S73",
+   "a": 7585,
+   "b": 7717,
+   "t0": 0,
+   "t1": 132,
+   "line": "Start it, run it, shut it down. Then send every reading home."
+  },
+  {
+   "shot": "S74",
+   "a": 7717,
+   "b": 7789,
+   "t0": 0,
+   "t1": 72,
+   "line": "Nobody has done this beyond Earth orbit. Every number is new."
+  },
+  {
+   "shot": "S74",
+   "a": 7789,
+   "b": 7862,
+   "t0": 72,
+   "t1": 145,
+   "line": "Nobody has done this beyond Earth orbit. Every number is new."
+  },
+  {
+   "shot": "S75",
+   "a": 7862,
+   "b": 7923,
+   "t0": 0,
+   "t1": 61,
+   "line": "So the solar arrays take over."
+  },
+  {
+   "shot": "S76",
+   "a": 7923,
+   "b": 8011,
+   "t0": 0,
+   "t1": 88,
+   "line": "The main body can make forty-eight kilowatts of power."
+  },
+  {
+   "shot": "S77",
+   "a": 8011,
+   "b": 8080,
+   "t0": 0,
+   "t1": 69,
+   "line": "Yes. On this trip, sunlight out-powers the reactor. For now."
+  },
+  {
+   "shot": "S77",
+   "a": 8080,
+   "b": 8149,
+   "t0": 69,
+   "t1": 138,
+   "line": "Yes. On this trip, sunlight out-powers the reactor. For now."
+  },
+  {
+   "shot": "S78",
+   "a": 8149,
+   "b": 8263,
+   "t0": 0,
+   "t1": 114,
+   "line": "Mars is far. The ship follows a long curve around the Sun."
+  },
+  {
+   "shot": "S79",
+   "a": 8263,
+   "b": 8348,
+   "t0": 0,
+   "t1": 85,
+   "line": "Days become weeks. Weeks become months."
+  },
+  {
+   "shot": "S80",
+   "a": 8348,
+   "b": 8426,
+   "t0": 0,
+   "t1": 78,
+   "line": "You count the stars. You run out of snacks."
+  },
+  {
+   "shot": "S81",
+   "a": 8426,
+   "b": 8534,
+   "t0": 0,
+   "t1": 108,
+   "line": "So you name the helicopters. Rotor, Blade, and Steve."
+  },
+  {
+   "shot": "S82",
+   "a": 8534,
+   "b": 8621,
+   "t0": 0,
+   "t1": 87,
+   "line": "Up ahead, a small red dot is slowly getting bigger."
+  },
+  {
+   "shot": "S83",
+   "a": 8621,
+   "b": 8738,
+   "t0": 0,
+   "t1": 117,
+   "line": "That's Mars. And it's time to make a delivery."
+  },
+  {
+   "shot": "S84",
+   "a": 8738,
+   "b": 8812,
+   "t0": 0,
+   "t1": 74,
+   "line": "Your cargo has a name: SkyFall."
+  },
+  {
+   "shot": "S85",
+   "a": 8812,
+   "b": 8933,
+   "t0": 0,
+   "t1": 121,
+   "line": "A capsule holding three helicopters, evolved from Ingenuity."
+  },
+  {
+   "shot": "S86",
+   "a": 8933,
+   "b": 9053,
+   "t0": 0,
+   "t1": 120,
+   "line": "Ingenuity made the first powered, controlled flight on another planet."
+  },
+  {
+   "shot": "S87",
+   "a": 9053,
+   "b": 9136,
+   "t0": 0,
+   "t1": 83,
+   "line": "These three are its bigger, bolder grandkids."
+  },
+  {
+   "shot": "S88",
+   "a": 9136,
+   "b": 9218,
+   "t0": 0,
+   "t1": 82,
+   "line": "Freedom lets the capsule go, toward Mars."
+  },
+  {
+   "shot": "S89",
+   "a": 9218,
+   "b": 9339,
+   "t0": 0,
+   "t1": 121,
+   "line": "It plunges into the thin Martian air, heat shield glowing."
+  },
+  {
+   "shot": "S90",
+   "a": 9339,
+   "b": 9452,
+   "t0": 0,
+   "t1": 113,
+   "line": "Then the wild part: the helicopters deploy in mid-air."
+  },
+  {
+   "shot": "S91",
+   "a": 9452,
+   "b": 9526,
+   "t0": 0,
+   "t1": 74,
+   "line": "No landing pad. No runway. They unfold, spin up, and fly."
+  },
+  {
+   "shot": "S91",
+   "a": 9526,
+   "b": 9600,
+   "t0": 74,
+   "t1": 148,
+   "line": "No landing pad. No runway. They unfold, spin up, and fly."
+  },
+  {
+   "shot": "S92",
+   "a": 9600,
+   "b": 9685,
+   "t0": 0,
+   "t1": 85,
+   "line": "Rotor, Blade, and Steve are airborne!"
+  },
+  {
+   "shot": "S93",
+   "a": 9685,
+   "b": 9785,
+   "t0": 0,
+   "t1": 100,
+   "line": "Each carries ground-penetrating radar, and cameras."
+  },
+  {
+   "shot": "S94",
+   "a": 9785,
+   "b": 9898,
+   "t0": 0,
+   "t1": 113,
+   "line": "They measure air temperature, wind speed, and wind direction."
+  },
+  {
+   "shot": "S95",
+   "a": 9898,
+   "b": 9997,
+   "t0": 0,
+   "t1": 99,
+   "line": "Their big job: hunt for ice hidden under the ground."
+  },
+  {
+   "shot": "S96",
+   "a": 9997,
+   "b": 10104,
+   "t0": 0,
+   "t1": 107,
+   "line": "If they find it, the radar can help show how deep it goes."
+  },
+  {
+   "shot": "S97",
+   "a": 10104,
+   "b": 10229,
+   "t0": 0,
+   "t1": 125,
+   "line": "Ice means water. Future explorers will want every drop."
+  },
+  {
+   "shot": "S98",
+   "a": 10229,
+   "b": 10361,
+   "t0": 0,
+   "t1": 132,
+   "line": "Delivery complete. But Freedom isn't finished yet."
+  },
+  {
+   "shot": "S99",
+   "a": 10361,
+   "b": 10459,
+   "t0": 0,
+   "t1": 98,
+   "line": "With the cargo gone, Freedom restarts its reactor."
+  },
+  {
+   "shot": "S100",
+   "a": 10459,
+   "b": 10541,
+   "t0": 0,
+   "t1": 82,
+   "line": "This time, there's no precious cargo to protect."
+  },
+  {
+   "shot": "S101",
+   "a": 10541,
+   "b": 10625,
+   "t0": 0,
+   "t1": 84,
+   "line": "The reactor team says now they can really drive it."
+  },
+  {
+   "shot": "S102",
+   "a": 10625,
+   "b": 10721,
+   "t0": 0,
+   "t1": 96,
+   "line": "They even plan to make some parts fail, on purpose."
+  },
+  {
+   "shot": "S103",
+   "a": 10721,
+   "b": 10837,
+   "t0": 0,
+   "t1": 116,
+   "line": "Why break your own ship? To learn before people depend on it."
+  },
+  {
+   "shot": "S104",
+   "a": 10837,
+   "b": 10925,
+   "t0": 0,
+   "t1": 88,
+   "line": "Every reading beams home through those bigger dishes."
+  },
+  {
+   "shot": "S105",
+   "a": 10925,
+   "b": 11010,
+   "t0": 0,
+   "t1": 85,
+   "line": "To NASA's Deep Space Network, back on Earth."
+  },
+  {
+   "shot": "S106",
+   "a": 11010,
+   "b": 11135,
+   "t0": 0,
+   "t1": 125,
+   "line": "But only so much data can squeeze through. So every bit counts."
+  },
+  {
+   "shot": "S107",
+   "a": 11135,
+   "b": 11254,
+   "t0": 0,
+   "t1": 119,
+   "line": "How long will the reactor run? Even NASA hasn't decided yet."
+  },
+  {
+   "shot": "S108",
+   "a": 11254,
+   "b": 11389,
+   "t0": 0,
+   "t1": 135,
+   "line": "Its power level and number of radiators are still being worked out."
+  },
+  {
+   "shot": "S109",
+   "a": 11389,
+   "b": 11449,
+   "t0": 0,
+   "t1": 60,
+   "line": "So why does any of this matter?"
+  },
+  {
+   "shot": "S110",
+   "a": 11449,
+   "b": 11569,
+   "t0": 0,
+   "t1": 120,
+   "line": "Far from the Sun, sunlight gets weak. And at night, it's gone."
+  },
+  {
+   "shot": "S111",
+   "a": 11569,
+   "b": 11671,
+   "t0": 0,
+   "t1": 102,
+   "line": "A reactor doesn't care. It keeps running in the dark."
+  },
+  {
+   "shot": "S112",
+   "a": 11671,
+   "b": 11796,
+   "t0": 0,
+   "t1": 125,
+   "line": "Next comes Lunar Reactor One, to power NASA's Moon Base."
+  },
+  {
+   "shot": "S113",
+   "a": 11796,
+   "b": 11902,
+   "t0": 0,
+   "t1": 106,
+   "line": "Through the long lunar nights, when solar panels go quiet."
+  },
+  {
+   "shot": "S114",
+   "a": 11902,
+   "b": 12004,
+   "t0": 0,
+   "t1": 102,
+   "line": "And one day, ships that reach the outer solar system."
+  },
+  {
+   "shot": "S115",
+   "a": 12004,
+   "b": 12099,
+   "t0": 0,
+   "t1": 95,
+   "line": "NASA's program director has a name for this mission."
+  },
+  {
+   "shot": "S116",
+   "a": 12099,
+   "b": 12195,
+   "t0": 0,
+   "t1": 96,
+   "line": "The first freight run on the railroad of the solar system."
+  },
+  {
+   "shot": "S117",
+   "a": 12195,
+   "b": 12301,
+   "t0": 0,
+   "t1": 106,
+   "line": "Freedom lays the very first stretch of track."
+  },
+  {
+   "shot": "S118",
+   "a": 12301,
+   "b": 12429,
+   "t0": 0,
+   "t1": 128,
+   "line": "So back to that moment. Houston wakes the reactor, step by step."
+  },
+  {
+   "shot": "S119",
+   "a": 12429,
+   "b": 12545,
+   "t0": 0,
+   "t1": 116,
+   "line": "And you're beside it, heading for Mars on sunlight and uranium."
+  },
+  {
+   "shot": "S120",
+   "a": 12545,
+   "b": 12620,
+   "t0": 0,
+   "t1": 75,
+   "line": "Three helicopters. One reactor. A seven-day wake-up. Zero seats."
+  },
+  {
+   "shot": "S120",
+   "a": 12620,
+   "b": 12696,
+   "t0": 75,
+   "t1": 151,
+   "line": "Three helicopters. One reactor. A seven-day wake-up. Zero seats."
+  },
+  {
+   "shot": "S121",
+   "a": 12696,
+   "b": 12815,
+   "t0": 0,
+   "t1": 119,
+   "line": "The age of nuclear spaceships starts with a robot and a delivery."
+  },
+  {
+   "shot": "S122",
+   "a": 12815,
+   "b": 12895,
+   "t0": 0,
+   "t1": 80,
+   "line": "Would you ride along, or wait for the version with seats?"
+  },
+  {
+   "shot": "S123",
+   "a": 12895,
+   "b": 12937,
+   "t0": 0,
+   "t1": 42,
+   "line": "Tell me in the comments."
+  },
+  {
+   "shot": "S124",
+   "a": 12937,
+   "b": 13058,
+   "t0": 0,
+   "t1": 121,
+   "line": "Tomorrow: what if you flew a helicopter on Titan?"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "close",
+   "key": 65,
+   "len": 105,
+   "first": 0,
+   "line": "You are strapped beside a nuclear reactor, deep in space.",
+   "note": "ch0"
+  },
+  {
+   "id": "S2",
+   "size": "med",
+   "key": 50,
+   "len": 80,
+   "first": 105,
+   "line": "And someone in Houston is about to switch it on.",
+   "note": "ch0"
+  },
+  {
+   "id": "S3",
+   "size": "wide",
+   "key": 56,
+   "len": 91,
+   "first": 185,
+   "line": "Two operators sit side by side at the controls.",
+   "note": "ch0"
+  },
+  {
+   "id": "S4",
+   "size": "insert",
+   "key": 60,
+   "len": 96,
+   "first": 276,
+   "line": "One from NASA. One from the Department of Energy.",
+   "note": "ch0"
+  },
+  {
+   "id": "S5",
+   "size": "pullout",
+   "key": 87,
+   "len": 141,
+   "first": 372,
+   "line": "Waking this reactor takes about seven days, one careful step at a time.",
+   "note": "ch0"
+  },
+  {
+   "id": "S6",
+   "size": "wide",
+   "key": 42,
+   "len": 67,
+   "first": 513,
+   "line": "This is S R One Freedom.",
+   "note": "ch0"
+  },
+  {
+   "id": "S7",
+   "size": "high",
+   "key": 69,
+   "len": 112,
+   "first": 580,
+   "line": "The first fission-powered spacecraft ever to leave Earth orbit.",
+   "note": "ch0"
+  },
+  {
+   "id": "S8",
+   "size": "med",
+   "key": 86,
+   "len": 139,
+   "first": 692,
+   "line": "NASA locked in its design this week. Launch: late twenty twenty-eight.",
+   "note": "ch0"
+  },
+  {
+   "id": "S9",
+   "size": "pan",
+   "key": 67,
+   "len": 108,
+   "first": 831,
+   "line": "So what if you rode along, all the way to Mars?",
+   "note": "ch0"
+  },
+  {
+   "id": "S10",
+   "size": "wide",
+   "key": 56,
+   "len": 90,
+   "first": 939,
+   "line": "First, the bad news. There are no seats.",
+   "note": "ch1"
+  },
+  {
+   "id": "S11",
+   "size": "pan",
+   "key": 61,
+   "len": 98,
+   "first": 1029,
+   "line": "It is a robot ship. Nobody planned for a passenger.",
+   "note": "ch1"
+  },
+  {
+   "id": "S12",
+   "size": "med",
+   "key": 80,
+   "len": 129,
+   "first": 1127,
+   "line": "So you squeeze in next to its real cargo: three folded helicopters.",
+   "note": "ch1"
+  },
+  {
+   "id": "S13",
+   "size": "high",
+   "key": 72,
+   "len": 116,
+   "first": 1256,
+   "line": "Rule one: you go where the ship goes. No turning back.",
+   "note": "ch1"
+  },
+  {
+   "id": "S14",
+   "size": "close",
+   "key": 71,
+   "len": 114,
+   "first": 1372,
+   "line": "Rule two: when the reactor runs, you stay behind the shield.",
+   "note": "ch1"
+  },
+  {
+   "id": "S15",
+   "size": "insert",
+   "key": 72,
+   "len": 116,
+   "first": 1486,
+   "line": "Rule three: pack snacks. Mars is a long way off.",
+   "note": "ch1"
+  },
+  {
+   "id": "S16",
+   "size": "low",
+   "key": 87,
+   "len": 140,
+   "first": 1602,
+   "line": "And the strangest rule? This nuclear ship barely flies on nuclear power.",
+   "note": "ch1"
+  },
+  {
+   "id": "S17",
+   "size": "pullout",
+   "key": 60,
+   "len": 96,
+   "first": 1742,
+   "line": "Hold that thought. First, the tour.",
+   "note": "ch1"
+  },
+  {
+   "id": "S18",
+   "size": "wide",
+   "key": 49,
+   "len": 79,
+   "first": 1838,
+   "line": "Freedom weighs about twelve thousand kilograms.",
+   "note": "ch2"
+  },
+  {
+   "id": "S19",
+   "size": "med",
+   "key": 55,
+   "len": 88,
+   "first": 1917,
+   "line": "That is roughly two big elephants, in space.",
+   "note": "ch2"
+  },
+  {
+   "id": "S20",
+   "size": "pan",
+   "key": 69,
+   "len": 111,
+   "first": 2005,
+   "line": "Up front sits the reactor, on a metal arm called the boom.",
+   "note": "ch2"
+  },
+  {
+   "id": "S21",
+   "size": "wide",
+   "key": 74,
+   "len": 120,
+   "first": 2116,
+   "line": "Early drawings had a long boom, to keep radiation far away.",
+   "note": "ch2"
+  },
+  {
+   "id": "S22",
+   "size": "close",
+   "key": 51,
+   "len": 83,
+   "first": 2236,
+   "line": "This week's news: the boom just got shorter.",
+   "note": "ch2"
+  },
+  {
+   "id": "S23",
+   "size": "insert",
+   "key": 58,
+   "len": 94,
+   "first": 2319,
+   "line": "Better shielding lets the reactor sit closer to the ship.",
+   "note": "ch2"
+  },
+  {
+   "id": "S24",
+   "size": "low",
+   "key": 49,
+   "len": 79,
+   "first": 2413,
+   "line": "Shorter means lighter, and simpler to build.",
+   "note": "ch2"
+  },
+  {
+   "id": "S25",
+   "size": "close",
+   "key": 60,
+   "len": 96,
+   "first": 2492,
+   "line": "Shorter boom. Same legroom. Which is none.",
+   "note": "ch2"
+  },
+  {
+   "id": "S26",
+   "size": "high",
+   "key": 66,
+   "len": 106,
+   "first": 2588,
+   "line": "Behind you is the main body: the Power and Propulsion Element.",
+   "note": "ch2"
+  },
+  {
+   "id": "S27",
+   "size": "wide",
+   "key": 74,
+   "len": 119,
+   "first": 2694,
+   "line": "Its wings are giant roll-out solar arrays, purple and white.",
+   "note": "ch2"
+  },
+  {
+   "id": "S28",
+   "size": "med",
+   "key": 70,
+   "len": 113,
+   "first": 2813,
+   "line": "Grey radiator panels stick out to dump the reactor's heat.",
+   "note": "ch2"
+  },
+  {
+   "id": "S29",
+   "size": "pullout",
+   "key": 66,
+   "len": 106,
+   "first": 2926,
+   "line": "And bigger dishes, to talk to Earth across deep space.",
+   "note": "ch2"
+  },
+  {
+   "id": "S30",
+   "size": "panr",
+   "key": 69,
+   "len": 112,
+   "first": 3032,
+   "line": "At the back: a Hall thruster, rated at twelve kilowatts.",
+   "note": "ch2"
+  },
+  {
+   "id": "S31",
+   "size": "insert",
+   "key": 71,
+   "len": 114,
+   "first": 3144,
+   "line": "It doesn't burn fuel like a rocket. It runs on electricity.",
+   "note": "ch2"
+  },
+  {
+   "id": "S32",
+   "size": "close",
+   "key": 86,
+   "len": 138,
+   "first": 3258,
+   "line": "Which raises a question. Where does all that electricity come from?",
+   "note": "ch2"
+  },
+  {
+   "id": "S33",
+   "size": "wide",
+   "key": 79,
+   "len": 127,
+   "first": 3396,
+   "line": "Launch day, late twenty twenty-eight. You're tucked inside a rocket.",
+   "note": "ch3"
+  },
+  {
+   "id": "S34",
+   "size": "med",
+   "key": 70,
+   "len": 113,
+   "first": 3523,
+   "line": "Right now, the reactor is switched off. It stays off through launch.",
+   "note": "ch3"
+  },
+  {
+   "id": "S35",
+   "size": "close",
+   "key": 53,
+   "len": 85,
+   "first": 3636,
+   "line": "Its fuel is uranium, but a special kind.",
+   "note": "ch3"
+  },
+  {
+   "id": "S36",
+   "size": "insert",
+   "key": 78,
+   "len": 126,
+   "first": 3721,
+   "line": "High-assay low-enriched uranium. Engineers call it hay-loo.",
+   "note": "ch3"
+  },
+  {
+   "id": "S37",
+   "size": "low",
+   "key": 57,
+   "len": 92,
+   "first": 3847,
+   "line": "Three. Two. One. Liftoff!",
+   "note": "ch3"
+  },
+  {
+   "id": "S38",
+   "size": "close",
+   "key": 76,
+   "len": 122,
+   "first": 3939,
+   "line": "The rocket shakes. You shake. The helicopters stay packed tight.",
+   "note": "ch3"
+  },
+  {
+   "id": "S39",
+   "size": "pullout",
+   "key": 63,
+   "len": 101,
+   "first": 4061,
+   "line": "Minutes later, the rocket lets go. You're on your own.",
+   "note": "ch3"
+  },
+  {
+   "id": "S40",
+   "size": "high",
+   "key": 71,
+   "len": 114,
+   "first": 4162,
+   "line": "Freedom heads out on an Earth escape path, aimed at Mars.",
+   "note": "ch3"
+  },
+  {
+   "id": "S41",
+   "size": "close",
+   "key": 82,
+   "len": 132,
+   "first": 4276,
+   "line": "Then the big moment arrives. Time to wake the reactor.",
+   "note": "ch3"
+  },
+  {
+   "id": "S42",
+   "size": "wide",
+   "key": 71,
+   "len": 115,
+   "first": 4408,
+   "line": "Once Freedom has left Earth orbit, Houston starts the reactor.",
+   "note": "ch4"
+  },
+  {
+   "id": "S43",
+   "size": "close",
+   "key": 68,
+   "len": 109,
+   "first": 4523,
+   "line": "No big lever. Power creeps up, a little at a time.",
+   "note": "ch4"
+  },
+  {
+   "id": "S44",
+   "size": "insert",
+   "key": 63,
+   "len": 101,
+   "first": 4632,
+   "line": "Inside, uranium atoms split apart and give off heat.",
+   "note": "ch4"
+  },
+  {
+   "id": "S45",
+   "size": "med",
+   "key": 66,
+   "len": 106,
+   "first": 4733,
+   "line": "That heat is the whole point. It's where the power comes from.",
+   "note": "ch4"
+  },
+  {
+   "id": "S46",
+   "size": "pan",
+   "key": 63,
+   "len": 102,
+   "first": 4839,
+   "line": "A loop of gas carries the heat to a spinning turbine.",
+   "note": "ch4"
+  },
+  {
+   "id": "S47",
+   "size": "wide",
+   "key": 93,
+   "len": 150,
+   "first": 4941,
+   "line": "Engineers call it a closed Brayton cycle. Heat in, electricity out.",
+   "note": "ch4"
+  },
+  {
+   "id": "S48",
+   "size": "close",
+   "key": 63,
+   "len": 102,
+   "first": 5091,
+   "line": "The design target: twenty kilowatts of electricity.",
+   "note": "ch4"
+  },
+  {
+   "id": "S49",
+   "size": "insert",
+   "key": 68,
+   "len": 110,
+   "first": 5193,
+   "line": "Enough to light two hundred old hundred-watt bulbs at once.",
+   "note": "ch4"
+  },
+  {
+   "id": "S50",
+   "size": "low",
+   "key": 56,
+   "len": 91,
+   "first": 5303,
+   "line": "But a reactor makes much more heat than electricity.",
+   "note": "ch4"
+  },
+  {
+   "id": "S51",
+   "size": "med",
+   "key": 61,
+   "len": 99,
+   "first": 5394,
+   "line": "And in space, there's no air to carry that heat away.",
+   "note": "ch4"
+  },
+  {
+   "id": "S52",
+   "size": "pan",
+   "key": 65,
+   "len": 105,
+   "first": 5493,
+   "line": "So the radiators glow, shedding heat into the dark.",
+   "note": "ch4"
+  },
+  {
+   "id": "S53",
+   "size": "wide",
+   "key": 87,
+   "len": 140,
+   "first": 5598,
+   "line": "NASA just awarded thirty-nine point three million dollars for that cooling system.",
+   "note": "ch4"
+  },
+  {
+   "id": "S54",
+   "size": "high",
+   "key": 92,
+   "len": 148,
+   "first": 5738,
+   "line": "Johns Hopkins' Applied Physics Lab will build it, with heat pipes and radiators.",
+   "note": "ch4"
+  },
+  {
+   "id": "S55",
+   "size": "pullout",
+   "key": 59,
+   "len": 95,
+   "first": 5886,
+   "line": "Seven days of checks later, the reactor is humming.",
+   "note": "ch4"
+  },
+  {
+   "id": "S56",
+   "size": "wide",
+   "key": 89,
+   "len": 144,
+   "first": 5981,
+   "line": "You're riding the first fission-powered ship ever beyond Earth orbit.",
+   "note": "ch4"
+  },
+  {
+   "id": "S57",
+   "size": "med",
+   "key": 50,
+   "len": 81,
+   "first": 6125,
+   "line": "Now that electricity flows to the thruster.",
+   "note": "ch5"
+  },
+  {
+   "id": "S58",
+   "size": "close",
+   "key": 57,
+   "len": 92,
+   "first": 6206,
+   "line": "The Hall thruster lights up with a soft blue glow.",
+   "note": "ch5"
+  },
+  {
+   "id": "S59",
+   "size": "panr",
+   "key": 71,
+   "len": 115,
+   "first": 6298,
+   "line": "It fires charged gas out the back. Very, very fast.",
+   "note": "ch5"
+  },
+  {
+   "id": "S60",
+   "size": "insert",
+   "key": 52,
+   "len": 84,
+   "first": 6413,
+   "line": "But the push is gentle. Barely a whisper.",
+   "note": "ch5"
+  },
+  {
+   "id": "S61",
+   "size": "close",
+   "key": 75,
+   "len": 121,
+   "first": 6497,
+   "line": "You wouldn't even feel it. Your sandwich wouldn't slide off its tray.",
+   "note": "ch5"
+  },
+  {
+   "id": "S62",
+   "size": "high",
+   "key": 30,
+   "len": 48,
+   "first": 6618,
+   "line": "But it never gets tired.",
+   "note": "ch5"
+  },
+  {
+   "id": "S63",
+   "size": "insert",
+   "key": 46,
+   "len": 75,
+   "first": 6666,
+   "line": "It can keep pushing for a very long time.",
+   "note": "ch5"
+  },
+  {
+   "id": "S64",
+   "size": "wide",
+   "key": 61,
+   "len": 99,
+   "first": 6741,
+   "line": "A chemical rocket is a sprint. This is a marathon.",
+   "note": "ch5"
+  },
+  {
+   "id": "S65",
+   "size": "pullout",
+   "key": 93,
+   "len": 150,
+   "first": 6840,
+   "line": "Reactor power driving electric thrusters. That's nuclear electric propulsion.",
+   "note": "ch5"
+  },
+  {
+   "id": "S66",
+   "size": "low",
+   "key": 55,
+   "len": 89,
+   "first": 6990,
+   "line": "Nobody has ever flown it in deep space before.",
+   "note": "ch5"
+  },
+  {
+   "id": "S67",
+   "size": "close",
+   "key": 44,
+   "len": 71,
+   "first": 7079,
+   "line": "And then... the reactor shuts down.",
+   "note": "ch5"
+  },
+  {
+   "id": "S68",
+   "size": "med",
+   "key": 51,
+   "len": 82,
+   "first": 7150,
+   "line": "Remember the strange rule? Here it is.",
+   "note": "ch5"
+  },
+  {
+   "id": "S69",
+   "size": "wide",
+   "key": 64,
+   "len": 104,
+   "first": 7232,
+   "line": "For most of the trip to Mars, Freedom cruises on sunlight.",
+   "note": "ch5"
+  },
+  {
+   "id": "S70",
+   "size": "insert",
+   "key": 69,
+   "len": 111,
+   "first": 7336,
+   "line": "The nuclear spaceship is mostly solar powered on the way there.",
+   "note": "ch5"
+  },
+  {
+   "id": "S71",
+   "size": "close",
+   "key": 51,
+   "len": 82,
+   "first": 7447,
+   "line": "So why build a reactor, then switch it off?",
+   "note": "ch5"
+  },
+  {
+   "id": "S72",
+   "size": "high",
+   "key": 35,
+   "len": 56,
+   "first": 7529,
+   "line": "Because the first job is to learn.",
+   "note": "ch5"
+  },
+  {
+   "id": "S73",
+   "size": "pan",
+   "key": 82,
+   "len": 132,
+   "first": 7585,
+   "line": "Start it, run it, shut it down. Then send every reading home.",
+   "note": "ch5"
+  },
+  {
+   "id": "S74",
+   "size": "wide",
+   "key": 90,
+   "len": 145,
+   "first": 7717,
+   "line": "Nobody has done this beyond Earth orbit. Every number is new.",
+   "note": "ch5"
+  },
+  {
+   "id": "S75",
+   "size": "wide",
+   "key": 38,
+   "len": 61,
+   "first": 7862,
+   "line": "So the solar arrays take over.",
+   "note": "ch6"
+  },
+  {
+   "id": "S76",
+   "size": "med",
+   "key": 55,
+   "len": 88,
+   "first": 7923,
+   "line": "The main body can make forty-eight kilowatts of power.",
+   "note": "ch6"
+  },
+  {
+   "id": "S77",
+   "size": "close",
+   "key": 86,
+   "len": 138,
+   "first": 8011,
+   "line": "Yes. On this trip, sunlight out-powers the reactor. For now.",
+   "note": "ch6"
+  },
+  {
+   "id": "S78",
+   "size": "pullout",
+   "key": 71,
+   "len": 114,
+   "first": 8149,
+   "line": "Mars is far. The ship follows a long curve around the Sun.",
+   "note": "ch6"
+  },
+  {
+   "id": "S79",
+   "size": "insert",
+   "key": 53,
+   "len": 85,
+   "first": 8263,
+   "line": "Days become weeks. Weeks become months.",
+   "note": "ch6"
+  },
+  {
+   "id": "S80",
+   "size": "low",
+   "key": 48,
+   "len": 78,
+   "first": 8348,
+   "line": "You count the stars. You run out of snacks.",
+   "note": "ch6"
+  },
+  {
+   "id": "S81",
+   "size": "wide",
+   "key": 67,
+   "len": 108,
+   "first": 8426,
+   "line": "So you name the helicopters. Rotor, Blade, and Steve.",
+   "note": "ch6"
+  },
+  {
+   "id": "S82",
+   "size": "close",
+   "key": 54,
+   "len": 87,
+   "first": 8534,
+   "line": "Up ahead, a small red dot is slowly getting bigger.",
+   "note": "ch6"
+  },
+  {
+   "id": "S83",
+   "size": "wide",
+   "key": 73,
+   "len": 117,
+   "first": 8621,
+   "line": "That's Mars. And it's time to make a delivery.",
+   "note": "ch6"
+  },
+  {
+   "id": "S84",
+   "size": "close",
+   "key": 46,
+   "len": 74,
+   "first": 8738,
+   "line": "Your cargo has a name: SkyFall.",
+   "note": "ch7"
+  },
+  {
+   "id": "S85",
+   "size": "med",
+   "key": 75,
+   "len": 121,
+   "first": 8812,
+   "line": "A capsule holding three helicopters, evolved from Ingenuity.",
+   "note": "ch7"
+  },
+  {
+   "id": "S86",
+   "size": "wide",
+   "key": 74,
+   "len": 120,
+   "first": 8933,
+   "line": "Ingenuity made the first powered, controlled flight on another planet.",
+   "note": "ch7"
+  },
+  {
+   "id": "S87",
+   "size": "insert",
+   "key": 51,
+   "len": 83,
+   "first": 9053,
+   "line": "These three are its bigger, bolder grandkids.",
+   "note": "ch7"
+  },
+  {
+   "id": "S88",
+   "size": "high",
+   "key": 51,
+   "len": 82,
+   "first": 9136,
+   "line": "Freedom lets the capsule go, toward Mars.",
+   "note": "ch7"
+  },
+  {
+   "id": "S89",
+   "size": "close",
+   "key": 75,
+   "len": 121,
+   "first": 9218,
+   "line": "It plunges into the thin Martian air, heat shield glowing.",
+   "note": "ch7"
+  },
+  {
+   "id": "S90",
+   "size": "wide",
+   "key": 70,
+   "len": 113,
+   "first": 9339,
+   "line": "Then the wild part: the helicopters deploy in mid-air.",
+   "note": "ch7"
+  },
+  {
+   "id": "S91",
+   "size": "pan",
+   "key": 92,
+   "len": 148,
+   "first": 9452,
+   "line": "No landing pad. No runway. They unfold, spin up, and fly.",
+   "note": "ch7"
+  },
+  {
+   "id": "S92",
+   "size": "low",
+   "key": 53,
+   "len": 85,
+   "first": 9600,
+   "line": "Rotor, Blade, and Steve are airborne!",
+   "note": "ch7"
+  },
+  {
+   "id": "S93",
+   "size": "med",
+   "key": 62,
+   "len": 100,
+   "first": 9685,
+   "line": "Each carries ground-penetrating radar, and cameras.",
+   "note": "ch7"
+  },
+  {
+   "id": "S94",
+   "size": "high",
+   "key": 70,
+   "len": 113,
+   "first": 9785,
+   "line": "They measure air temperature, wind speed, and wind direction.",
+   "note": "ch7"
+  },
+  {
+   "id": "S95",
+   "size": "close",
+   "key": 61,
+   "len": 99,
+   "first": 9898,
+   "line": "Their big job: hunt for ice hidden under the ground.",
+   "note": "ch7"
+  },
+  {
+   "id": "S96",
+   "size": "insert",
+   "key": 66,
+   "len": 107,
+   "first": 9997,
+   "line": "If they find it, the radar can help show how deep it goes.",
+   "note": "ch7"
+  },
+  {
+   "id": "S97",
+   "size": "wide",
+   "key": 78,
+   "len": 125,
+   "first": 10104,
+   "line": "Ice means water. Future explorers will want every drop.",
+   "note": "ch7"
+  },
+  {
+   "id": "S98",
+   "size": "pullout",
+   "key": 82,
+   "len": 132,
+   "first": 10229,
+   "line": "Delivery complete. But Freedom isn't finished yet.",
+   "note": "ch7"
+  },
+  {
+   "id": "S99",
+   "size": "wide",
+   "key": 61,
+   "len": 98,
+   "first": 10361,
+   "line": "With the cargo gone, Freedom restarts its reactor.",
+   "note": "ch8"
+  },
+  {
+   "id": "S100",
+   "size": "med",
+   "key": 51,
+   "len": 82,
+   "first": 10459,
+   "line": "This time, there's no precious cargo to protect.",
+   "note": "ch8"
+  },
+  {
+   "id": "S101",
+   "size": "close",
+   "key": 52,
+   "len": 84,
+   "first": 10541,
+   "line": "The reactor team says now they can really drive it.",
+   "note": "ch8"
+  },
+  {
+   "id": "S102",
+   "size": "insert",
+   "key": 60,
+   "len": 96,
+   "first": 10625,
+   "line": "They even plan to make some parts fail, on purpose.",
+   "note": "ch8"
+  },
+  {
+   "id": "S103",
+   "size": "high",
+   "key": 72,
+   "len": 116,
+   "first": 10721,
+   "line": "Why break your own ship? To learn before people depend on it.",
+   "note": "ch8"
+  },
+  {
+   "id": "S104",
+   "size": "pan",
+   "key": 55,
+   "len": 88,
+   "first": 10837,
+   "line": "Every reading beams home through those bigger dishes.",
+   "note": "ch8"
+  },
+  {
+   "id": "S105",
+   "size": "wide",
+   "key": 53,
+   "len": 85,
+   "first": 10925,
+   "line": "To NASA's Deep Space Network, back on Earth.",
+   "note": "ch8"
+  },
+  {
+   "id": "S106",
+   "size": "close",
+   "key": 78,
+   "len": 125,
+   "first": 11010,
+   "line": "But only so much data can squeeze through. So every bit counts.",
+   "note": "ch8"
+  },
+  {
+   "id": "S107",
+   "size": "pullout",
+   "key": 74,
+   "len": 119,
+   "first": 11135,
+   "line": "How long will the reactor run? Even NASA hasn't decided yet.",
+   "note": "ch8"
+  },
+  {
+   "id": "S108",
+   "size": "low",
+   "key": 84,
+   "len": 135,
+   "first": 11254,
+   "line": "Its power level and number of radiators are still being worked out.",
+   "note": "ch8"
+  },
+  {
+   "id": "S109",
+   "size": "med",
+   "key": 37,
+   "len": 60,
+   "first": 11389,
+   "line": "So why does any of this matter?",
+   "note": "ch9"
+  },
+  {
+   "id": "S110",
+   "size": "wide",
+   "key": 74,
+   "len": 120,
+   "first": 11449,
+   "line": "Far from the Sun, sunlight gets weak. And at night, it's gone.",
+   "note": "ch9"
+  },
+  {
+   "id": "S111",
+   "size": "close",
+   "key": 63,
+   "len": 102,
+   "first": 11569,
+   "line": "A reactor doesn't care. It keeps running in the dark.",
+   "note": "ch9"
+  },
+  {
+   "id": "S112",
+   "size": "pan",
+   "key": 78,
+   "len": 125,
+   "first": 11671,
+   "line": "Next comes Lunar Reactor One, to power NASA's Moon Base.",
+   "note": "ch9"
+  },
+  {
+   "id": "S113",
+   "size": "high",
+   "key": 66,
+   "len": 106,
+   "first": 11796,
+   "line": "Through the long lunar nights, when solar panels go quiet.",
+   "note": "ch9"
+  },
+  {
+   "id": "S114",
+   "size": "pullout",
+   "key": 63,
+   "len": 102,
+   "first": 11902,
+   "line": "And one day, ships that reach the outer solar system.",
+   "note": "ch9"
+  },
+  {
+   "id": "S115",
+   "size": "insert",
+   "key": 59,
+   "len": 95,
+   "first": 12004,
+   "line": "NASA's program director has a name for this mission.",
+   "note": "ch9"
+  },
+  {
+   "id": "S116",
+   "size": "wide",
+   "key": 60,
+   "len": 96,
+   "first": 12099,
+   "line": "The first freight run on the railroad of the solar system.",
+   "note": "ch9"
+  },
+  {
+   "id": "S117",
+   "size": "low",
+   "key": 66,
+   "len": 106,
+   "first": 12195,
+   "line": "Freedom lays the very first stretch of track.",
+   "note": "ch9"
+  },
+  {
+   "id": "S118",
+   "size": "wide",
+   "key": 79,
+   "len": 128,
+   "first": 12301,
+   "line": "So back to that moment. Houston wakes the reactor, step by step.",
+   "note": "ch10"
+  },
+  {
+   "id": "S119",
+   "size": "pullout",
+   "key": 72,
+   "len": 116,
+   "first": 12429,
+   "line": "And you're beside it, heading for Mars on sunlight and uranium.",
+   "note": "ch10"
+  },
+  {
+   "id": "S120",
+   "size": "med",
+   "key": 94,
+   "len": 151,
+   "first": 12545,
+   "line": "Three helicopters. One reactor. A seven-day wake-up. Zero seats.",
+   "note": "ch10"
+  },
+  {
+   "id": "S121",
+   "size": "wide",
+   "key": 74,
+   "len": 119,
+   "first": 12696,
+   "line": "The age of nuclear spaceships starts with a robot and a delivery.",
+   "note": "ch10"
+  },
+  {
+   "id": "S122",
+   "size": "close",
+   "key": 50,
+   "len": 80,
+   "first": 12815,
+   "line": "Would you ride along, or wait for the version with seats?",
+   "note": "ch10"
+  },
+  {
+   "id": "S123",
+   "size": "med",
+   "key": 26,
+   "len": 42,
+   "first": 12895,
+   "line": "Tell me in the comments.",
+   "note": "ch10"
+  },
+  {
+   "id": "S124",
+   "size": "wide",
+   "key": 75,
+   "len": 121,
+   "first": 12937,
+   "line": "Tomorrow: what if you flew a helicopter on Titan?",
+   "note": "ch10"
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "freedom/voice.wav",
+  "sfx": "freedom/sfx.wav",
+  "music": "freedom/music.wav",
+  "voiceVol": 1,
+  "sfxVol": 1,
+  "musicVol": 1
+ }
+}

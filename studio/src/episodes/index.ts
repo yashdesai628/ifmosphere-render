@@ -22,4 +22,5 @@ import { kuiper, kuiperShort } from './kuiper';
 import { radiosilence, radiosilenceShort } from './radiosilence';
 import { casa, casaShort } from './casa';
 import { quasar, quasarShort } from './quasar';
-export const EPISODES = [rewind, copyPaste, reaction, meteor, starcatcher, jump, jumpShort, lightday, lightdayShort, closermoon, closermoonShort, jupiterfall, jupiterfallShort, marsyear, marsyearShort, leonidstorm, leonidstormShort, slingshot, slingshotShort, ship42, ship42Short, dart14k, dart14kShort, euclidcomet, euclidcometShort, starmerge, starmergeShort, romanwide, romanwideShort, mercury, mercuryShort, kuiper, kuiperShort, radiosilence, radiosilenceShort, casa, casaShort, quasar, quasarShort];
+import { freedom, freedomShort } from './freedom';
+export const EPISODES = [rewind, copyPaste, reaction, meteor, starcatcher, jump, jumpShort, lightday, lightdayShort, closermoon, closermoonShort, jupiterfall, jupiterfallShort, marsyear, marsyearShort, leonidstorm, leonidstormShort, slingshot, slingshotShort, ship42, ship42Short, dart14k, dart14kShort, euclidcomet, euclidcometShort, starmerge, starmergeShort, romanwide, romanwideShort, mercury, mercuryShort, kuiper, kuiperShort, radiosilence, radiosilenceShort, casa, casaShort, quasar, quasarShort, freedom, freedomShort];

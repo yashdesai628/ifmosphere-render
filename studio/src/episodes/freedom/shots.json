@@ -1,0 +1,7737 @@
+{
+ "slug": "freedom",
+ "id": "Freedom",
+ "title": [
+  "WHAT IF YOU FLEW TO MARS",
+  "ON A NUCLEAR REACTOR?"
+ ],
+ "accent": [
+  "NUCLEAR REACTOR"
+ ],
+ "voice": {
+  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.45,
+   "similarity_boost": 0.8,
+   "style": 0.34,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  }
+ },
+ "short_vo": {
+  "stability": 0.42,
+  "style": 0.4,
+  "speed": 1.03
+ },
+ "short_music": {
+  "mood": "tense",
+  "energy": 0.85
+ },
+ "mix": {
+  "music_under": 17,
+  "sfx_under": 7,
+  "duck_db": 6
+ },
+ "sets": {
+  "ship": "NASA's SR-1 Freedom spacecraft big in frame in deep space, Jump treatment. far: deep-navy starfield with slow light rays and a planet disc per setp.bg; mid: the ship: silver box-shaped central body (Power and Propulsion Element), two long purple-and-white checkered roll-out solar array wings, two grey finned radiator panels, a SHORT metal boom at the front ending in a squat cylindrical reactor module behind a dark round shield disc, a white X-band dish, a Hall thruster nozzle at the back, all with 4 px dark outlines and an orange rim light; near: a few out-of-focus dust motes drifting past. setp.t 0..1 = slow camera drift along the ship; setp.reactor 0..1 = the reactor module glows from dark to warm orange with a pulsing bloom and heat shimmer from the radiators; setp.thrust 0..1 = a soft blue plume streams out of the thruster; setp.arrays 0..1 = the solar wings unroll from tight rolls to full length and catch a gold sun glint; setp.bg 'stars'|'earth'|'mars' = a big Earth limb lower-left, a big Mars disc right, or stars only; setp.glow 'gold'|'cyan'|'red'.",
+  "cutaway": "A clean labelled cutaway diagram of SR-1 Freedom on a dark navy blueprint grid, side view, flat vector with 4 px outlines: from left to right the reactor module, the short boom, the grey radiator panels, the silver Power and Propulsion Element body with the purple-and-white solar array wings folded above and below, the Hall thruster at the back, and a small capsule marked as the SkyFall payload tucked under the body. setp.hl 0..5 = which part is highlighted with a gold outline glow and a short cream leader line (0 reactor, 1 boom, 2 radiators, 3 body, 4 thruster, 5 SkyFall capsule); setp.boom 0..1 = the boom length morphs from long (0, early design) to short (1, new design) with the reactor sliding closer; setp.t 0..1 = slow push; setp.glow 'gold'|'cyan'.",
+  "control": "Mission control at NASA's Johnson Space Center in Houston, Jump treatment. far: dark room with a huge wall screen showing a simple outlined SR-1 schematic and a rising power line graph, soft screen glow and light rays; mid: two rows of outlined consoles with glowing cream and cyan screens, two empty operator chairs side by side at the front console; near: an out-of-focus console edge and a coffee mug silhouette sliding past the bottom-left. setp.power 0..1 = the graph line on the wall screen climbs in steps and a big round power gauge on the screen fills; setp.alarm 0..1 = the room light shifts toward a red tint; setp.t 0..1 = slow dolly; setp.glow 'gold'|'cyan'|'red'.",
+  "core": "Inside the reactor and power system, stylised flat vector on deep navy. Left: a squat outlined reactor vessel with a glowing orange core; centre: a closed loop pipe (gas loop) carrying little orange heat arrows clockwise to a round outlined turbine wheel; right: a generator box throwing small cyan electricity bolts out along a cable; top: grey radiator fins on the loop dumping heat as rising red shimmer. setp.power 0..1 = core glow, arrow speed and turbine spin; setp.heat 0..1 = how red the radiator fins glow; setp.elec 0..1 = how many cyan bolts flow out; setp.t 0..1 = slow push; setp.glow 'gold'|'cyan'|'red'.",
+  "pad": "A rocket launch at dawn on a Florida coast pad, Jump treatment: far: pink-orange sky with light rays over the sea; mid: a tall white outlined rocket on a grey launch tower with steam clouds at its base; near: dark palm and fence silhouettes sliding past. setp.lift 0..1 = engines ignite (0.2) with a bright orange-white flame and billowing cream smoke, then the rocket climbs up and out of frame with a long trail (1); setp.shake 0..1 = camera shake amount; setp.glow 'gold'|'red'.",
+  "orbit": "Leaving Earth: a huge curved blue Earth limb filling the lower part of the frame with white clouds and a thin cyan atmosphere glow, black-navy space above with stars; the small SR-1 Freedom ship (as the sr1 icon, bigger) climbs away up-right on a dotted gold escape curve. setp.leave 0..1 = the ship moves along the curve and Earth shrinks and drops away; setp.t 0..1 = slow drift; setp.glow 'gold'|'cyan'.",
+  "route": "A flat top-down map of the inner solar system on deep navy: a bright Sun in the centre, the thin outlined orbits of Earth and Mars as circles with the planets as small outlined balls, and a long dotted gold transfer arc from Earth to Mars with a tiny ship icon on it. setp.prog 0..1 = the ship moves along the arc leaving a solid trail; setp.mode 'nuclear'|'solar' = trail colour orange-red (nuclear) or gold-yellow (solar), with a small matching icon (atom or sun) riding above the ship; setp.t 0..1 = slow zoom; setp.glow 'gold'|'cyan'.",
+  "mars": "Arriving at Mars, Jump treatment: a huge rusty-red Mars disc fills the right two-thirds with craters, the Valles Marineris canyon and a thin pink atmosphere glow; deep space and stars on the left; the SR-1 Freedom ship small in the upper left. setp.drop 0..1 = a small cone-shaped capsule leaves the ship and falls toward Mars, its heat shield glowing orange-white with a plasma trail (0.5-1); setp.t 0..1 = slow drift; setp.glow 'gold'|'red'.",
+  "sky": "High in the pink-tan Martian sky over red dunes and layered cliffs, Jump treatment with a small pale Sun: a falling capsule above opens and three Ingenuity-style helicopters drop out, unfold their legs and blades and spin up into flight. far: hazy cliffs and dunes with dust haze; mid: the helicopters and capsule; near: blowing dust streaks. setp.deploy 0..1 = 0 capsule closed, 0.3 helicopters drop out folded, 0.6 they unfold, 1 all three fly with spinning blurred rotors; setp.t 0..1 = slow pan; setp.glow 'gold'|'red'.",
+  "ground": "Martian landscape seen in a cross-section: above, rusty plains and a cliff with three Ingenuity-style helicopters hovering in a line with spinning rotors; below the surface line, layered red-brown rock strata in a cut-away. setp.radar 0..1 = cyan radar wave arcs pulse down from each helicopter into the ground; setp.ice 0..1 = a glowing pale-blue ice layer appears under the ground with a depth bracket; setp.wind 0..1 = dust streaks and a small wind sock show the wind; setp.t 0..1 = slow pan; setp.glow 'cyan'|'gold'.",
+  "moonbase": "A small Moon base at night on the grey lunar surface, Jump treatment: far: black sky with stars and a small blue Earth; mid: two white outlined habitat domes with warm windows and a compact cylindrical fission reactor unit on a stand a short way off with grey radiator fins, cables to the domes; near: grey regolith rocks sliding past. setp.night 0..1 = darkness level (sunlit grey at 0, deep night at 1); setp.lights 0..1 = the reactor glows and the dome windows and floodlights stay lit warm gold; setp.t 0..1 = slow drift; setp.glow 'gold'|'cyan'.",
+  "rail": "The railroad of the solar system: a stylised flat-vector railway track (cream rails, dark sleepers, 4 px outlines) laid across deep space from a small Earth on the left, past the Moon, to Mars, then fading on toward a far ringed Saturn; a small SR-1 Freedom ship rides the first stretch like a freight engine. setp.lay 0..1 = how far the track has been laid (it builds piece by piece from Earth); setp.t 0..1 = the ship moves along the laid track; setp.glow 'gold'|'cyan'.",
+  "void": "Plain deep-navy SpaceBackdrop stage with slow light rays and almost no stars, for big numbers, bars and diagrams. setp.glow 'gold'|'cyan'|'red' tints the rays."
+ },
+ "props": {
+  "counter": "Big flat panel, 4 px dark outline, dark #1E1B2E face, cream flip digits in FONTS.title with thousands separators, label in FONTS.ui underneath. pp.from and pp.to: the number counts from->to across the shot (ease-out); pp.label text; pp.color gold|red|cyan.",
+  "clock": "Round analogue clock face, cream disc, 4 px dark outline, ticks, one hand. pp.from..pp.to in hours: the hand sweeps; pp.glow true adds a gold bloom.",
+  "bar": "Horizontal progress bar with 4 px outline, filled with pp.color (gold|red|cyan) to pp.frac of its width over the shot; pp.label above in FONTS.ui.",
+  "arrow": "Thick outlined curved arrow, pp.color gold|cyan|red, draws on across the shot.",
+  "flag": "Small green check mark badge in a round outlined cream disc with a tiny sparkle; or red cross when pp.bad true.",
+  "calendar": "Small wall calendar page, cream with a red top strip, 4 px outline; pp.text the date in FONTS.title (max 8 chars).",
+  "magnifier": "Outlined magnifying glass with a cream handle and pale glass; pp.s scale; pp.glow true adds a cyan bloom in the lens.",
+  "ring": "Pulsing cyan circle outline, 4 px, soft bloom, that expands and fades each second; pp.s scale.",
+  "scale": "Small balance scale icon, cream, 4 px outline, one pan tipped low; pp.s scale; pp.label text beneath.",
+  "_probe_old": "Icon of the BepiColombo stack: a small gold-foil box body with two dark solar-panel wings, a round grey antenna dish and a silver conical sunshield on top, 4 px outline; pp.s scale; pp.glow true adds an orange thruster flame at the bottom.",
+  "thermo": "Tall outlined thermometer, cream glass tube, red or blue fluid to pp.frac (0..1), pp.label text beneath in FONTS.ui; pp.color red|cyan.",
+  "sr1": "Small icon of NASA's SR-1 Freedom spacecraft: a silver box-shaped central body, two long purple-and-white checkered roll-out solar array wings, two grey radiator panels, a short metal boom ending in a squat cylindrical reactor module with a dark shield disc, and a soft blue thruster glow at the back, 4 px outline; pp.s scale; pp.glow true makes the reactor module glow warm orange.",
+  "heli": "Mars helicopter icon in the Ingenuity style: a small grey cube body, two stacked counter-rotating dark rotor blades on a mast, a small square solar panel on top, four thin splayed legs, 4 px outline; pp.s scale; pp.spin true blurs the rotors into spinning discs with motion lines; pp.folded true shows the legs and blades folded tight like a packed toy.",
+  "atom": "Fission icon: a cream nucleus ball made of small cream and orange spheres being hit by a tiny cyan neutron dot and splitting into two halves with three small spark lines and an orange heat glow at p 0.3, 4 px outline; pp.s scale.",
+  "dish": "Outlined white parabolic antenna dish on a short grey mount with a thin cyan signal wave pulsing out of it; pp.s scale; pp.big true draws it larger with a gold rim.",
+  "radiator": "Tall grey radiator panel with vertical fins, 4 px outline; pp.hot 0..1 makes the fins glow from grey to dull red with wavy heat shimmer lines rising off them; pp.s scale.",
+  "badge": "Outlined cream ID badge on a lanyard with a blank face-less avatar square and pp.text in FONTS.ui (max 6 chars) in bold; pp.color gold|cyan sets the lanyard colour; pp.s scale.",
+  "switch": "Big outlined toggle switch on a dark panel, cream lever with a red tip; it flips from OFF to ON at p 0.4 with a small green lamp lighting up; pp.s scale.",
+  "bolt": "Thick outlined cyan lightning bolt with a soft cyan bloom, flickers twice; pp.s scale.",
+  "bulb": "Classic outlined light bulb with a cream glass and grey screw base; pp.on true makes it glow warm gold with a bloom; pp.s scale; pp.n optional count (1..12) draws a neat grid of that many small bulbs instead of one.",
+  "snack": "Outlined cream sandwich triangle with a green lettuce edge on a small grey tray; pp.s scale; pp.float true makes it drift gently with a tiny wobble.",
+  "elephant": "Simple cute outlined grey elephant side view, 4 px outline, no face details beyond a dot eye; pp.n 1 or 2 draws one or two side by side; pp.s scale.",
+  "mars": "Small outlined rusty-red Mars ball with darker patches and a white polar cap, 4 px outline; pp.s scale.",
+  "moon": "Small outlined grey Moon ball with craters, 4 px outline; pp.s scale; pp.half true shades half of it dark (night side).",
+  "earth": "Small outlined blue-green Earth ball with white cloud swirls, 4 px outline; pp.s scale.",
+  "sun": "Small outlined yellow Sun disc with short rays and a soft glow, 4 px outline; pp.s scale; pp.dim true makes it smaller and paler (far away).",
+  "tag": "Outlined cream tag on a short string with pp.text in FONTS.ui (max 12 chars); pp.color gold|cyan|red sets the string and underline.",
+  "capsule": "Small outlined entry capsule: a cone-shaped grey back shell on a wide orange-brown heat shield; pp.hot true adds an orange-white plasma glow around the shield with a short trail; pp.s scale."
+ },
+ "actions": {
+  "lookup": "Pip tilts head back, arms loose, small sway; eyes lift at p 0.2.",
+  "duck": "Pip drops into a crouch with both arms over the head at p 0.15 and holds with a small tremble.",
+  "spin": "Pip turns one slow full rotation across the shot while looking around.",
+  "flinch": "A quick squash and lean away at p 0.2 with arms up, then settles back by p 0.7.",
+  "pointup": "Pip's arm swings up to point up at p 0.2 with a small overshoot."
+ },
+ "sfx_new": {
+  "rotor_spin": [
+   "small drone-like helicopter rotors spinning up fast, a light buzzing whirr, clean, no music",
+   2.0
+  ]
+ },
+ "chapters": [
+  {
+   "n": 0,
+   "title": "COLD OPEN",
+   "sub": "",
+   "music": {
+    "mood": "tense",
+    "energy": 0.8
+   },
+   "vo": {
+    "stability": 0.42,
+    "style": 0.38,
+    "speed": 1.01
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 1,
+   "title": "THE RULES",
+   "sub": "No seats, one ride",
+   "music": {
+    "mood": "playful",
+    "energy": 0.55
+   },
+   "vo": {
+    "stability": 0.45,
+    "style": 0.42,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "room_tone",
+    "gain": 0.04
+   }
+  },
+  {
+   "n": 2,
+   "title": "THE SHIP",
+   "sub": "A tour of Freedom",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.55
+   },
+   "vo": {
+    "stability": 0.47,
+    "style": 0.38,
+    "speed": 0.99
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 3,
+   "title": "THE LAUNCH",
+   "sub": "Reactor off",
+   "music": {
+    "mood": "tense",
+    "energy": 0.8
+   },
+   "vo": {
+    "stability": 0.42,
+    "style": 0.38,
+    "speed": 1.02
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 4,
+   "title": "THE WAKE-UP",
+   "sub": "Seven days to power",
+   "music": {
+    "mood": "tense",
+    "energy": 0.7
+   },
+   "vo": {
+    "stability": 0.43,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "power_hum",
+    "gain": 0.04
+   }
+  },
+  {
+   "n": 5,
+   "title": "THE PUSH",
+   "sub": "A whisper of thrust",
+   "music": {
+    "mood": "mystery",
+    "energy": 0.6
+   },
+   "vo": {
+    "stability": 0.44,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 6,
+   "title": "THE CRUISE",
+   "sub": "Running on sunlight",
+   "music": {
+    "mood": "wonder",
+    "energy": 0.45
+   },
+   "vo": {
+    "stability": 0.47,
+    "style": 0.38,
+    "speed": 0.97
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 7,
+   "title": "THE DELIVERY",
+   "sub": "Three helicopters drop",
+   "music": {
+    "mood": "triumph",
+    "energy": 0.8
+   },
+   "vo": {
+    "stability": 0.43,
+    "style": 0.38,
+    "speed": 1.02
+   },
+   "bed": {
+    "clip": "roof_wind",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 8,
+   "title": "THE RESTART",
+   "sub": "Now push it hard",
+   "music": {
+    "mood": "tense",
+    "energy": 0.75
+   },
+   "vo": {
+    "stability": 0.42,
+    "style": 0.38,
+    "speed": 1.02
+   },
+   "bed": {
+    "clip": "drone_hum",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 9,
+   "title": "WHY IT MATTERS",
+   "sub": "Laying the tracks",
+   "music": {
+    "mood": "triumph",
+    "energy": 0.65
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.38,
+    "speed": 1.0
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  },
+  {
+   "n": 10,
+   "title": "THE END",
+   "sub": "Ride along?",
+   "music": {
+    "mood": "warm",
+    "energy": 0.5
+   },
+   "vo": {
+    "stability": 0.46,
+    "style": 0.38,
+    "speed": 0.97
+   },
+   "bed": {
+    "clip": "space_swell",
+    "gain": 0.05
+   }
+  }
+ ],
+ "film": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "close",
+   "vo": "You are strapped beside a nuclear reactor, deep in space.",
+   "dir": "low, tense, close; stress 'nuclear reactor'",
+   "set": "ship",
+   "setp": {
+    "t": 0.2,
+    "reactor": 0.05,
+    "bg": "stars",
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.374,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.604,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "crouch",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "red",
+     "text": "NUCLEAR REACTOR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "power_hum",
+     "at": 0.2,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "med",
+   "vo": "And someone in Houston is about to switch it on.",
+   "dir": "building dread; stress 'switch it on'",
+   "set": "control",
+   "setp": {
+    "power": 0.1,
+    "t": 0.2,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.507,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.493,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "props": [
+    {
+     "k": "switch",
+     "x": 0.66,
+     "y": 0.62,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "HOUSTON, TEXAS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "switch_off",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "wide",
+   "vo": "Two operators sit side by side at the controls.",
+   "dir": "clipped, procedural; stress 'side by side'",
+   "set": "control",
+   "setp": {
+    "power": 0.15,
+    "t": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.502,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.531,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "side",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "props": [
+    {
+     "k": "badge",
+     "x": 0.6,
+     "y": 0.4,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "NASA",
+      "color": "cyan"
+     }
+    },
+    {
+     "k": "badge",
+     "x": 0.74,
+     "y": 0.4,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "DOE",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "TWO OPERATORS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "typing_dots",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "insert",
+   "vo": "One from NASA. One from the Department of Energy.",
+   "dir": "matter-of-fact; stress 'Energy'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.621,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.484,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "badge",
+     "x": 0.42,
+     "y": 0.45,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "text": "NASA",
+      "color": "cyan"
+     }
+    },
+    {
+     "k": "badge",
+     "x": 0.62,
+     "y": 0.45,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "text": "DOE",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "NASA + DEPT OF ENERGY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "Waking this reactor takes about seven days, one careful step at a time.",
+   "dir": "slow, deliberate; stress 'seven days'",
+   "set": "core",
+   "setp": {
+    "power": 0.25,
+    "heat": 0.1,
+    "elec": 0.0,
+    "t": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.451,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.461,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.78,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "text": "7 DAYS"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "START-UP",
+     "value": "~7 DAYS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 0,
+   "size": "wide",
+   "vo": "This is S R One Freedom.",
+   "dir": "proud, a beat of reveal; stress 'Freedom'",
+   "set": "ship",
+   "setp": {
+    "t": 0.5,
+    "reactor": 0.4,
+    "arrays": 1.0,
+    "bg": "stars",
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.514,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.493,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "float",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "SR-1 FREEDOM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 0,
+   "size": "high",
+   "vo": "The first fission-powered spacecraft ever to leave Earth orbit.",
+   "dir": "awed; stress 'first'",
+   "set": "orbit",
+   "setp": {
+    "leave": 0.5,
+    "t": 0.3,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.477,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.399,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "FIRST FISSION SHIP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 0,
+   "size": "med",
+   "vo": "NASA locked in its design this week. Launch: late twenty twenty-eight.",
+   "dir": "bright, newsy; stress 'this week'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 0.0,
+    "boom": 1.0,
+    "t": 0.3,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.548,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.455,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.8,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "NASA, 24 NOV 2026"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 0,
+   "size": "pan",
+   "vo": "So what if you rode along, all the way to Mars?",
+   "dir": "playful, leaning in; stress 'you'",
+   "set": "route",
+   "setp": {
+    "prog": 0.15,
+    "mode": "nuclear",
+    "t": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.272,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.543,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "mars",
+     "x": 0.8,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "RIDE ALONG TO MARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 1,
+   "size": "wide",
+   "vo": "First, the bad news. There are no seats.",
+   "dir": "deadpan; stress 'no seats'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 3.0,
+    "boom": 1.0,
+    "t": 0.4,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.457,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.493,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.22,
+    "pose": "front",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "NO SEATS."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.4,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "ch": 1,
+   "size": "pan",
+   "vo": "It is a robot ship. Nobody planned for a passenger.",
+   "dir": "wry; stress 'nobody'",
+   "set": "ship",
+   "setp": {
+    "t": 0.3,
+    "reactor": 0.0,
+    "arrays": 0.2,
+    "bg": "earth",
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.278,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.5,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "ROBOT SHIP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "ch": 1,
+   "size": "med",
+   "vo": "So you squeeze in next to its real cargo: three folded helicopters.",
+   "dir": "comic squeeze; stress 'three'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.477,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.504,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "crouch",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "crouch"
+   },
+   "props": [
+    {
+     "k": "heli",
+     "x": 0.5,
+     "y": 0.5,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "folded": true
+     }
+    },
+    {
+     "k": "heli",
+     "x": 0.65,
+     "y": 0.5,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "folded": true
+     }
+    },
+    {
+     "k": "heli",
+     "x": 0.8,
+     "y": 0.5,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "folded": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "CARGO: 3 HELICOPTERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "clink",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "ch": 1,
+   "size": "high",
+   "vo": "Rule one: you go where the ship goes. No turning back.",
+   "dir": "firm, counting; stress 'no turning back'",
+   "set": "route",
+   "setp": {
+    "prog": 0.05,
+    "mode": "nuclear",
+    "t": 0.4,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.465,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.369,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.68,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "gold",
+     "text": "RULE 1: NO U-TURNS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "ch": 1,
+   "size": "close",
+   "vo": "Rule two: when the reactor runs, you stay behind the shield.",
+   "dir": "serious; stress 'behind the shield'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 0.0,
+    "boom": 1.0,
+    "t": 0.6,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.405,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.562,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.75,
+    "pose": "crouch",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "red",
+     "text": "RULE 2: STAY BEHIND"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "ch": 1,
+   "size": "insert",
+   "vo": "Rule three: pack snacks. Mars is a long way off.",
+   "dir": "comic, light; stress 'snacks'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.608,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.419,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.38,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "snack",
+     "x": 0.62,
+     "y": 0.5,
+     "s": 1.2,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "RULE 3: SNACKS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "cookie_crunch",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "ch": 1,
+   "size": "low",
+   "vo": "And the strangest rule? This nuclear ship barely flies on nuclear power.",
+   "dir": "sly, teasing; stress 'barely'",
+   "set": "ship",
+   "setp": {
+    "t": 0.6,
+    "reactor": 0.3,
+    "thrust": 0.3,
+    "arrays": 1.0,
+    "bg": "stars",
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.463,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.732,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "THE STRANGE PART"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "glitch",
+     "at": 0.5,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "ch": 1,
+   "size": "pullout",
+   "vo": "Hold that thought. First, the tour.",
+   "dir": "brisk pivot; stress 'tour'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 3.0,
+    "boom": 1.0,
+    "t": 0.1,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.54,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.47,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "THE TOUR"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "ch": 2,
+   "size": "wide",
+   "vo": "Freedom weighs about twelve thousand kilograms.",
+   "dir": "measured; stress 'twelve thousand'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.501,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.51,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.22,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.5,
+     "y": 0.42,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 12000,
+      "label": "KILOGRAMS",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "MASS",
+     "value": "12,000 KG"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "ch": 2,
+   "size": "med",
+   "vo": "That is roughly two big elephants, in space.",
+   "dir": "comic; stress 'elephants'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.509,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.528,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "elephant",
+     "x": 0.6,
+     "y": 0.5,
+     "s": 1.2,
+     "z": "back",
+     "p": {
+      "n": 2
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "ABOUT 2 ELEPHANTS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.3,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "ch": 2,
+   "size": "pan",
+   "vo": "Up front sits the reactor, on a metal arm called the boom.",
+   "dir": "guided tour; stress 'boom'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 0.0,
+    "boom": 0.5,
+    "t": 0.3,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.308,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.503,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.75,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "REACTOR + BOOM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "ch": 2,
+   "size": "wide",
+   "vo": "Early drawings had a long boom, to keep radiation far away.",
+   "dir": "explaining; stress 'long'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 1.0,
+    "boom": 0.0,
+    "t": 0.4,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.541,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.535,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.82,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "think"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "EARLY DESIGN: LONG BOOM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "ch": 2,
+   "size": "close",
+   "vo": "This week's news: the boom just got shorter.",
+   "dir": "newsy reveal; stress 'shorter'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 1.0,
+    "boom": 1.0,
+    "t": 0.6,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.432,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.64,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.82,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "SHORTER BOOM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "clink",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "ch": 2,
+   "size": "insert",
+   "vo": "Better shielding lets the reactor sit closer to the ship.",
+   "dir": "clear; stress 'closer'",
+   "set": "ship",
+   "setp": {
+    "t": 0.2,
+    "reactor": 0.1,
+    "arrays": 1.0,
+    "bg": "stars",
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.611,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.422,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.7,
+    "pose": "float",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "BETTER SHIELDING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "ch": 2,
+   "size": "low",
+   "vo": "Shorter means lighter, and simpler to build.",
+   "dir": "quick, upbeat; stress 'lighter'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 1.0,
+    "boom": 1.0,
+    "t": 0.9,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.46,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.68,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "scale",
+     "x": 0.8,
+     "y": 0.35,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "label": "LIGHTER"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "LIGHTER. SIMPLER."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "ch": 2,
+   "size": "close",
+   "vo": "Shorter boom. Same legroom. Which is none.",
+   "dir": "deadpan comedy; stress 'none'",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.428,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.606,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "crouch",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "crouch"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "LEGROOM: 0"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.3,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "ch": 2,
+   "size": "high",
+   "vo": "Behind you is the main body: the Power and Propulsion Element.",
+   "dir": "tour voice; stress 'Power and Propulsion'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 3.0,
+    "boom": 1.0,
+    "t": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.545,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.446,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "threeQuarter",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "POWER + PROPULSION"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "ch": 2,
+   "size": "wide",
+   "vo": "Its wings are giant roll-out solar arrays, purple and white.",
+   "dir": "admiring; stress 'giant'",
+   "set": "ship",
+   "setp": {
+    "t": 0.7,
+    "arrays": 0.6,
+    "reactor": 0.0,
+    "bg": "stars",
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.54,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.53,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "ROLL-OUT SOLAR WINGS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S28",
+   "ch": 2,
+   "size": "med",
+   "vo": "Grey radiator panels stick out to dump the reactor's heat.",
+   "dir": "explaining; stress 'heat'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 2.0,
+    "boom": 1.0,
+    "t": 0.3,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.487,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.48,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "radiator",
+     "x": 0.82,
+     "y": 0.55,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "hot": 0.3
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "RADIATORS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S29",
+   "ch": 2,
+   "size": "pullout",
+   "vo": "And bigger dishes, to talk to Earth across deep space.",
+   "dir": "warm; stress 'bigger'",
+   "set": "ship",
+   "setp": {
+    "t": 0.4,
+    "reactor": 0.0,
+    "arrays": 1.0,
+    "bg": "earth",
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.484,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.489,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "props": [
+    {
+     "k": "dish",
+     "x": 0.78,
+     "y": 0.4,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "big": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "LARGER X-BAND DISHES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S30",
+   "ch": 2,
+   "size": "panr",
+   "vo": "At the back: a Hall thruster, rated at twelve kilowatts.",
+   "dir": "precise; stress 'twelve kilowatts'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 4.0,
+    "boom": 1.0,
+    "t": 0.7,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.651,
+     0.5,
+     1.3
+    ],
+    [
+     0.3,
+     0.481,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "HALL THRUSTER",
+     "value": "12 kW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S31",
+   "ch": 2,
+   "size": "insert",
+   "vo": "It doesn't burn fuel like a rocket. It runs on electricity.",
+   "dir": "curious contrast; stress 'electricity'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.565,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.422,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "bolt",
+     "x": 0.62,
+     "y": 0.5,
+     "s": 1.2,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "cyan",
+     "text": "RUNS ON ELECTRICITY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "power_hum",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S32",
+   "ch": 2,
+   "size": "close",
+   "vo": "Which raises a question. Where does all that electricity come from?",
+   "dir": "open question, hanging; stress 'where'",
+   "set": "ship",
+   "setp": {
+    "t": 0.9,
+    "reactor": 0.15,
+    "arrays": 1.0,
+    "bg": "stars",
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.425,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.573,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.72,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "WHERE FROM?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S33",
+   "ch": 3,
+   "size": "wide",
+   "vo": "Launch day, late twenty twenty-eight. You're tucked inside a rocket.",
+   "dir": "excited, building; stress 'launch day'",
+   "set": "pad",
+   "setp": {
+    "lift": 0.0,
+    "shake": 0.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.49,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.532,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "LAUNCH: LATE 2028"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "room_tone",
+     "at": 0.0,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S34",
+   "ch": 3,
+   "size": "med",
+   "vo": "Right now, the reactor is switched off. It stays off through launch.",
+   "dir": "reassuring, calm; stress 'off'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 0.0,
+    "boom": 1.0,
+    "t": 0.2,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.484,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.537,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.78,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "REACTOR: OFF"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "switch_off",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S35",
+   "ch": 3,
+   "size": "close",
+   "vo": "Its fuel is uranium, but a special kind.",
+   "dir": "careful; stress 'special'",
+   "set": "core",
+   "setp": {
+    "power": 0.0,
+    "heat": 0.0,
+    "elec": 0.0,
+    "t": 0.1,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.419,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.625,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "think"
+   },
+   "props": [
+    {
+     "k": "atom",
+     "x": 0.7,
+     "y": 0.35,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "FUEL: URANIUM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S36",
+   "ch": 3,
+   "size": "insert",
+   "vo": "High-assay low-enriched uranium. Engineers call it hay-loo.",
+   "dir": "playful with the word; stress 'hay-loo'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.634,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.472,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "tag",
+     "x": 0.65,
+     "y": 0.5,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "text": "HAY-LOO",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "HALEU"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S37",
+   "ch": 3,
+   "size": "low",
+   "vo": "Three. Two. One. Liftoff!",
+   "dir": "countdown, rising; stress 'liftoff'",
+   "set": "pad",
+   "setp": {
+    "lift": 0.6,
+    "shake": 0.8,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.456,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.714,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "crouch",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "jump"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "LIFTOFF"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "start_gun",
+     "at": 0.0,
+     "gain": 0.25
+    },
+    {
+     "clip": "fireball_roar",
+     "at": 0.55,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S38",
+   "ch": 3,
+   "size": "close",
+   "vo": "The rocket shakes. You shake. The helicopters stay packed tight.",
+   "dir": "rattled comedy; stress 'shake'",
+   "set": "pad",
+   "setp": {
+    "lift": 0.85,
+    "shake": 1.0,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.381,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.603,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "crouch",
+    "expr": "dizzy",
+    "rim": "rimR",
+    "to": "crouch"
+   },
+   "props": [
+    {
+     "k": "heli",
+     "x": 0.75,
+     "y": 0.6,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "folded": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "EVERYTHING SHAKES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "tumble",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S39",
+   "ch": 3,
+   "size": "pullout",
+   "vo": "Minutes later, the rocket lets go. You're on your own.",
+   "dir": "quieter, lonely; stress 'own'",
+   "set": "orbit",
+   "setp": {
+    "leave": 0.2,
+    "t": 0.2,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.454,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.538,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "float",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "ON YOUR OWN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "airlock_open",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S40",
+   "ch": 3,
+   "size": "high",
+   "vo": "Freedom heads out on an Earth escape path, aimed at Mars.",
+   "dir": "adventurous; stress 'escape'",
+   "set": "orbit",
+   "setp": {
+    "leave": 0.7,
+    "t": 0.6,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.487,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.37,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "arrow",
+     "x": 0.75,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "EARTH ESCAPE PATH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S41",
+   "ch": 3,
+   "size": "close",
+   "vo": "Then the big moment arrives. Time to wake the reactor.",
+   "dir": "suspense; stress 'wake'",
+   "set": "ship",
+   "setp": {
+    "t": 0.3,
+    "reactor": 0.0,
+    "arrays": 1.0,
+    "bg": "earth",
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.422,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.564,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.72,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "think"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "WAKE IT UP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S42",
+   "ch": 4,
+   "size": "wide",
+   "vo": "Once Freedom has left Earth orbit, Houston starts the reactor.",
+   "dir": "procedural, tense; stress 'starts'",
+   "set": "control",
+   "setp": {
+    "power": 0.2,
+    "t": 0.3,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.504,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.484,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "switch",
+     "x": 0.75,
+     "y": 0.62,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "AFTER EARTH ORBIT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "switch_off",
+     "at": 0.4,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S43",
+   "ch": 4,
+   "size": "close",
+   "vo": "No big lever. Power creeps up, a little at a time.",
+   "dir": "slow, careful; stress 'little'",
+   "set": "control",
+   "setp": {
+    "power": 0.35,
+    "t": 0.6,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.403,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.625,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "think"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.62,
+     "y": 0.78,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 0.3,
+      "label": "REACTOR POWER",
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "cyan",
+     "label": "POWER",
+     "value": "RISING SLOWLY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S44",
+   "ch": 4,
+   "size": "insert",
+   "vo": "Inside, uranium atoms split apart and give off heat.",
+   "dir": "clear, vivid; stress 'split'",
+   "set": "core",
+   "setp": {
+    "power": 0.4,
+    "heat": 0.1,
+    "elec": 0.0,
+    "t": 0.3,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.563,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.443,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "atom",
+     "x": 0.72,
+     "y": 0.32,
+     "s": 1.1,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "ATOMS SPLIT = HEAT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "crack",
+     "at": 0.3,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S45",
+   "ch": 4,
+   "size": "med",
+   "vo": "That heat is the whole point. It's where the power comes from.",
+   "dir": "emphatic; stress 'whole point'",
+   "set": "core",
+   "setp": {
+    "power": 0.55,
+    "heat": 0.2,
+    "elec": 0.2,
+    "t": 0.5,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.532,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.476,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.6,
+    "pose": "front",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "HEAT = POWER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S46",
+   "ch": 4,
+   "size": "pan",
+   "vo": "A loop of gas carries the heat to a spinning turbine.",
+   "dir": "explaining; stress 'turbine'",
+   "set": "core",
+   "setp": {
+    "power": 0.65,
+    "heat": 0.3,
+    "elec": 0.4,
+    "t": 0.7,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.32,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.455,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "GAS LOOP + TURBINE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "window_whirr",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S47",
+   "ch": 4,
+   "size": "wide",
+   "vo": "Engineers call it a closed Brayton cycle. Heat in, electricity out.",
+   "dir": "neat, tidy; stress 'electricity out'",
+   "set": "core",
+   "setp": {
+    "power": 0.75,
+    "heat": 0.4,
+    "elec": 0.7,
+    "t": 0.85,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.505,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.463,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.45,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "bolt",
+     "x": 0.82,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "HEAT IN, POWER OUT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "power_hum",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S48",
+   "ch": 4,
+   "size": "close",
+   "vo": "The design target: twenty kilowatts of electricity.",
+   "dir": "proud; stress 'twenty kilowatts'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.375,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.603,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.5,
+     "y": 0.42,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 20,
+      "label": "KILOWATTS",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "REACTOR",
+     "value": "20 kW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S49",
+   "ch": 4,
+   "size": "insert",
+   "vo": "Enough to light two hundred old hundred-watt bulbs at once.",
+   "dir": "playful picture; stress 'two hundred'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.564,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.498,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "props": [
+    {
+     "k": "bulb",
+     "x": 0.6,
+     "y": 0.45,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "on": true,
+      "n": 12
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "= 200 x 100 W BULBS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "bulb_pop",
+     "at": 0.3,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S50",
+   "ch": 4,
+   "size": "low",
+   "vo": "But a reactor makes much more heat than electricity.",
+   "dir": "turning serious; stress 'much more heat'",
+   "set": "core",
+   "setp": {
+    "power": 0.85,
+    "heat": 0.7,
+    "elec": 0.5,
+    "t": 0.4,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.506,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.711,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "thermo",
+     "x": 0.82,
+     "y": 0.5,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "frac": 0.85,
+      "label": "HEAT",
+      "color": "red"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "MORE HEAT THAN POWER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S51",
+   "ch": 4,
+   "size": "med",
+   "vo": "And in space, there's no air to carry that heat away.",
+   "dir": "tense; stress 'no air'",
+   "set": "ship",
+   "setp": {
+    "t": 0.5,
+    "reactor": 0.7,
+    "arrays": 1.0,
+    "bg": "stars",
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.46,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.488,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.7,
+    "pose": "float",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "NO AIR TO COOL"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S52",
+   "ch": 4,
+   "size": "pan",
+   "vo": "So the radiators glow, shedding heat into the dark.",
+   "dir": "calmer, visual; stress 'glow'",
+   "set": "ship",
+   "setp": {
+    "t": 0.8,
+    "reactor": 0.8,
+    "arrays": 1.0,
+    "bg": "stars",
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.342,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.481,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "float",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "radiator",
+     "x": 0.8,
+     "y": 0.55,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "hot": 0.9
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "RADIATORS SHED HEAT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S53",
+   "ch": 4,
+   "size": "wide",
+   "vo": "NASA just awarded thirty-nine point three million dollars for that cooling system.",
+   "dir": "newsy, weighty; stress 'thirty-nine point three million'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.453,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.503,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.5,
+     "y": 0.42,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 39300000,
+      "label": "DOLLARS",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "COOLING DEAL",
+     "value": "$39.3M"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "clink",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S54",
+   "ch": 4,
+   "size": "high",
+   "vo": "Johns Hopkins' Applied Physics Lab will build it, with heat pipes and radiators.",
+   "dir": "informative; stress 'Johns Hopkins'",
+   "set": "core",
+   "setp": {
+    "power": 0.8,
+    "heat": 0.9,
+    "elec": 0.6,
+    "t": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.483,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.422,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "JOHNS HOPKINS APL"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S55",
+   "ch": 4,
+   "size": "pullout",
+   "vo": "Seven days of checks later, the reactor is humming.",
+   "dir": "satisfied, warm; stress 'humming'",
+   "set": "control",
+   "setp": {
+    "power": 1.0,
+    "t": 0.9,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.498,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.547,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.8,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "REACTOR: ON"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "power_hum",
+     "at": 0.0,
+     "gain": 0.2
+    },
+    {
+     "clip": "crowd_cheer",
+     "at": 0.5,
+     "gain": 0.65
+    }
+   ]
+  },
+  {
+   "id": "S56",
+   "ch": 4,
+   "size": "wide",
+   "vo": "You're riding the first fission-powered ship ever beyond Earth orbit.",
+   "dir": "wonder; stress 'first'",
+   "set": "ship",
+   "setp": {
+    "t": 0.6,
+    "reactor": 1.0,
+    "arrays": 1.0,
+    "bg": "earth",
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.53,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.487,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "float",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "A FIRST BEYOND EARTH"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S57",
+   "ch": 5,
+   "size": "med",
+   "vo": "Now that electricity flows to the thruster.",
+   "dir": "building; stress 'thruster'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 4.0,
+    "boom": 1.0,
+    "t": 0.4,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.487,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.452,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "bolt",
+     "x": 0.5,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "POWER TO THRUSTER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "power_hum",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S58",
+   "ch": 5,
+   "size": "close",
+   "vo": "The Hall thruster lights up with a soft blue glow.",
+   "dir": "soft wonder; stress 'blue'",
+   "set": "ship",
+   "setp": {
+    "t": 0.4,
+    "reactor": 1.0,
+    "thrust": 0.7,
+    "arrays": 1.0,
+    "bg": "stars",
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.432,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.56,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "BLUE GLOW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S59",
+   "ch": 5,
+   "size": "panr",
+   "vo": "It fires charged gas out the back. Very, very fast.",
+   "dir": "quick, punchy; stress 'very fast'",
+   "set": "ship",
+   "setp": {
+    "t": 0.7,
+    "reactor": 1.0,
+    "thrust": 1.0,
+    "arrays": 1.0,
+    "bg": "stars",
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.733,
+     0.5,
+     1.3
+    ],
+    [
+     0.3,
+     0.505,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.62,
+    "pose": "float",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "VERY FAST GAS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "meteor_streak",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S60",
+   "ch": 5,
+   "size": "insert",
+   "vo": "But the push is gentle. Barely a whisper.",
+   "dir": "hushed; stress 'whisper'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.575,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.401,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "arrow",
+     "x": 0.62,
+     "y": 0.5,
+     "s": 0.7,
+     "z": "back",
+     "p": {
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "BARELY A WHISPER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S61",
+   "ch": 5,
+   "size": "close",
+   "vo": "You wouldn't even feel it. Your sandwich wouldn't slide off its tray.",
+   "dir": "deadpan comedy; stress 'sandwich'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.382,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.604,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "hold"
+   },
+   "props": [
+    {
+     "k": "snack",
+     "x": 0.6,
+     "y": 0.55,
+     "s": 1.1,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "SANDWICH: SAFE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.3,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S62",
+   "ch": 5,
+   "size": "high",
+   "vo": "But it never gets tired.",
+   "dir": "building; stress 'never'",
+   "set": "route",
+   "setp": {
+    "prog": 0.25,
+    "mode": "nuclear",
+    "t": 0.4,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.477,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.364,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "NEVER GETS TIRED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S63",
+   "ch": 5,
+   "size": "insert",
+   "vo": "It can keep pushing for a very long time.",
+   "dir": "building; stress 'never'",
+   "set": "route",
+   "setp": {
+    "prog": 0.25,
+    "mode": "nuclear",
+    "t": 0.48,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.603,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.41,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.7,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "think"
+   },
+   "text": [],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S64",
+   "ch": 5,
+   "size": "wide",
+   "vo": "A chemical rocket is a sprint. This is a marathon.",
+   "dir": "punchy contrast; stress 'marathon'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.481,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.451,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.62,
+     "y": 0.5,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 12,
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "gold",
+     "text": "SPRINT VS MARATHON"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S65",
+   "ch": 5,
+   "size": "pullout",
+   "vo": "Reactor power driving electric thrusters. That's nuclear electric propulsion.",
+   "dir": "naming it; stress 'nuclear electric'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 4.0,
+    "boom": 1.0,
+    "t": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.454,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.463,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "threeQuarter",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "pointUp"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "NUCLEAR ELECTRIC DRIVE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S66",
+   "ch": 5,
+   "size": "low",
+   "vo": "Nobody has ever flown it in deep space before.",
+   "dir": "awe; stress 'nobody'",
+   "set": "ship",
+   "setp": {
+    "t": 0.95,
+    "reactor": 1.0,
+    "thrust": 0.8,
+    "arrays": 1.0,
+    "bg": "stars",
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.457,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.703,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.7,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "A DEEP-SPACE FIRST"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S67",
+   "ch": 5,
+   "size": "close",
+   "vo": "And then... the reactor shuts down.",
+   "dir": "sudden drop, quiet; stress 'shuts down'",
+   "set": "ship",
+   "setp": {
+    "t": 0.3,
+    "reactor": 0.0,
+    "thrust": 0.2,
+    "arrays": 1.0,
+    "bg": "stars",
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.369,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.572,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.7,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "stand",
+    "act": "flinch"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "REACTOR: OFF."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "power_down",
+     "at": 0.3,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "S68",
+   "ch": 5,
+   "size": "med",
+   "vo": "Remember the strange rule? Here it is.",
+   "dir": "knowing callback; stress 'strange'",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.538,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.545,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.5,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "THE STRANGE RULE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S69",
+   "ch": 5,
+   "size": "wide",
+   "vo": "For most of the trip to Mars, Freedom cruises on sunlight.",
+   "dir": "plain reveal; stress 'sunlight'",
+   "set": "route",
+   "setp": {
+    "prog": 0.4,
+    "mode": "solar",
+    "t": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.542,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.538,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "oops",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "sun",
+     "x": 0.5,
+     "y": 0.5,
+     "s": 0.8,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "SOLAR CRUISE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S70",
+   "ch": 5,
+   "size": "insert",
+   "vo": "The nuclear spaceship is mostly solar powered on the way there.",
+   "dir": "deadpan comedy; stress 'solar'",
+   "set": "ship",
+   "setp": {
+    "t": 0.5,
+    "reactor": 0.0,
+    "thrust": 0.5,
+    "arrays": 1.0,
+    "bg": "stars",
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.567,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.449,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.65,
+    "pose": "front",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "WAIT. SOLAR?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.3,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S71",
+   "ch": 5,
+   "size": "close",
+   "vo": "So why build a reactor, then switch it off?",
+   "dir": "curious, sharp; stress 'why'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 0.0,
+    "boom": 1.0,
+    "t": 0.5,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.44,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.618,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.8,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimL",
+    "to": "think"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "WHY SWITCH IT OFF?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S72",
+   "ch": 5,
+   "size": "high",
+   "vo": "Because the first job is to learn.",
+   "dir": "simple, firm; stress 'learn'",
+   "set": "control",
+   "setp": {
+    "power": 0.3,
+    "t": 0.4,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.53,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.445,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "JOB 1: LEARN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S73",
+   "ch": 5,
+   "size": "pan",
+   "vo": "Start it, run it, shut it down. Then send every reading home.",
+   "dir": "listing, rhythmic; stress 'every reading'",
+   "set": "control",
+   "setp": {
+    "power": 0.1,
+    "t": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.298,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.512,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "dish",
+     "x": 0.78,
+     "y": 0.35,
+     "s": 0.9,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "START. RUN. STOP."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "typing_dots",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S74",
+   "ch": 5,
+   "size": "wide",
+   "vo": "Nobody has done this beyond Earth orbit. Every number is new.",
+   "dir": "quiet weight; stress 'new'",
+   "set": "orbit",
+   "setp": {
+    "leave": 1.0,
+    "t": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.486,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.513,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "EVERY NUMBER IS NEW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S75",
+   "ch": 6,
+   "size": "wide",
+   "vo": "So the solar arrays take over.",
+   "dir": "calm handover; stress 'solar'",
+   "set": "ship",
+   "setp": {
+    "t": 0.2,
+    "reactor": 0.0,
+    "thrust": 0.4,
+    "arrays": 1.0,
+    "bg": "stars",
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.46,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.536,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "float",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SUN POWER ON"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S76",
+   "ch": 6,
+   "size": "med",
+   "vo": "The main body can make forty-eight kilowatts of power.",
+   "dir": "measured; stress 'forty-eight'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.528,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.532,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "counter",
+     "x": 0.5,
+     "y": 0.42,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 48,
+      "label": "KILOWATTS",
+      "color": "gold"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "SOLAR BODY",
+     "value": "48 kW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S77",
+   "ch": 6,
+   "size": "close",
+   "vo": "Yes. On this trip, sunlight out-powers the reactor. For now.",
+   "dir": "wry; stress 'for now'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.364,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.592,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "sun",
+     "x": 0.45,
+     "y": 0.5,
+     "s": 0.9,
+     "z": "back"
+    },
+    {
+     "k": "atom",
+     "x": 0.7,
+     "y": 0.5,
+     "s": 0.8,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "48 kW VS 20 kW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "laugh",
+     "at": 0.3,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S78",
+   "ch": 6,
+   "size": "pullout",
+   "vo": "Mars is far. The ship follows a long curve around the Sun.",
+   "dir": "wonder, slower; stress 'long curve'",
+   "set": "route",
+   "setp": {
+    "prog": 0.55,
+    "mode": "solar",
+    "t": 0.6,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.498,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.466,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "THE LONG CURVE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S79",
+   "ch": 6,
+   "size": "insert",
+   "vo": "Days become weeks. Weeks become months.",
+   "dir": "slow, drifting; stress 'months'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.643,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.42,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "float",
+    "expr": "tired",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "calendar",
+     "x": 0.6,
+     "y": 0.48,
+     "s": 1.1,
+     "z": "back",
+     "p": {
+      "text": "DAY 90"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "MONTHS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "clock_back",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S80",
+   "ch": 6,
+   "size": "low",
+   "vo": "You count the stars. You run out of snacks.",
+   "dir": "deadpan; stress 'snacks'",
+   "set": "ship",
+   "setp": {
+    "t": 0.6,
+    "reactor": 0.0,
+    "thrust": 0.4,
+    "arrays": 1.0,
+    "bg": "stars",
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.519,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.669,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "float",
+    "expr": "tired",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "props": [
+    {
+     "k": "snack",
+     "x": 0.74,
+     "y": 0.35,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "float": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SNACKS: 0"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "gulp",
+     "at": 0.3,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S81",
+   "ch": 6,
+   "size": "wide",
+   "vo": "So you name the helicopters. Rotor, Blade, and Steve.",
+   "dir": "comic; stress 'Steve'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.502,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.537,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.22,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "heli",
+     "x": 0.48,
+     "y": 0.52,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "folded": true
+     }
+    },
+    {
+     "k": "heli",
+     "x": 0.64,
+     "y": 0.52,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "folded": true
+     }
+    },
+    {
+     "k": "heli",
+     "x": 0.8,
+     "y": 0.52,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "folded": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "ROTOR, BLADE, STEVE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.6,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S82",
+   "ch": 6,
+   "size": "close",
+   "vo": "Up ahead, a small red dot is slowly getting bigger.",
+   "dir": "hushed anticipation; stress 'red dot'",
+   "set": "route",
+   "setp": {
+    "prog": 0.85,
+    "mode": "solar",
+    "t": 0.9,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.358,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.551,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "props": [
+    {
+     "k": "mars",
+     "x": 0.78,
+     "y": 0.35,
+     "s": 0.7,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "A RED DOT AHEAD"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S83",
+   "ch": 6,
+   "size": "wide",
+   "vo": "That's Mars. And it's time to make a delivery.",
+   "dir": "rising, a grin; stress 'delivery'",
+   "set": "mars",
+   "setp": {
+    "drop": 0.0,
+    "t": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.489,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.52,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "float",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "DELIVERY TIME"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S84",
+   "ch": 7,
+   "size": "close",
+   "vo": "Your cargo has a name: SkyFall.",
+   "dir": "proud reveal; stress 'SkyFall'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 5.0,
+    "boom": 1.0,
+    "t": 0.6,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.41,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.575,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.8,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "SKYFALL"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S85",
+   "ch": 7,
+   "size": "med",
+   "vo": "A capsule holding three helicopters, evolved from Ingenuity.",
+   "dir": "informative; stress 'Ingenuity'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.505,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.501,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "capsule",
+     "x": 0.45,
+     "y": 0.5,
+     "s": 1.0,
+     "z": "back"
+    },
+    {
+     "k": "heli",
+     "x": 0.68,
+     "y": 0.5,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "3 HELICOPTERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S86",
+   "ch": 7,
+   "size": "wide",
+   "vo": "Ingenuity made the first powered, controlled flight on another planet.",
+   "dir": "respectful; stress 'first'",
+   "set": "ground",
+   "setp": {
+    "radar": 0.0,
+    "ice": 0.0,
+    "wind": 0.3,
+    "t": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.535,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.46,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "pill",
+     "slot": "tr",
+     "color": "gold",
+     "label": "INGENUITY",
+     "value": "FIRST FLIGHT ON MARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S87",
+   "ch": 7,
+   "size": "insert",
+   "vo": "These three are its bigger, bolder grandkids.",
+   "dir": "fond, playful; stress 'grandkids'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.567,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.457,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "front",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "heli",
+     "x": 0.5,
+     "y": 0.5,
+     "s": 1.0,
+     "z": "back"
+    },
+    {
+     "k": "heli",
+     "x": 0.65,
+     "y": 0.45,
+     "s": 1.0,
+     "z": "back"
+    },
+    {
+     "k": "heli",
+     "x": 0.8,
+     "y": 0.5,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "THE NEXT GENERATION"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.3,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S88",
+   "ch": 7,
+   "size": "high",
+   "vo": "Freedom lets the capsule go, toward Mars.",
+   "dir": "tense release; stress 'go'",
+   "set": "mars",
+   "setp": {
+    "drop": 0.45,
+    "t": 0.4,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.533,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.373,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "float",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "CAPSULE AWAY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "airlock_open",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S89",
+   "ch": 7,
+   "size": "close",
+   "vo": "It plunges into the thin Martian air, heat shield glowing.",
+   "dir": "intense; stress 'glowing'",
+   "set": "mars",
+   "setp": {
+    "drop": 0.9,
+    "t": 0.7,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.401,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.551,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "act": "flinch"
+   },
+   "props": [
+    {
+     "k": "capsule",
+     "x": 0.6,
+     "y": 0.4,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "hot": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "ENTRY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fireball_roar",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S90",
+   "ch": 7,
+   "size": "wide",
+   "vo": "Then the wild part: the helicopters deploy in mid-air.",
+   "dir": "thrilled; stress 'mid-air'",
+   "set": "sky",
+   "setp": {
+    "deploy": 0.3,
+    "t": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.487,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.462,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "crouch",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "jump"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "MID-AIR DROP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S91",
+   "ch": 7,
+   "size": "pan",
+   "vo": "No landing pad. No runway. They unfold, spin up, and fly.",
+   "dir": "quickening; stress 'fly'",
+   "set": "sky",
+   "setp": {
+    "deploy": 0.8,
+    "t": 0.6,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.254,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.549,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "UNFOLD. SPIN. FLY."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "rotor_spin",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S92",
+   "ch": 7,
+   "size": "low",
+   "vo": "Rotor, Blade, and Steve are airborne!",
+   "dir": "triumphant comedy; stress 'airborne'",
+   "set": "sky",
+   "setp": {
+    "deploy": 1.0,
+    "t": 0.95,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.452,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.696,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "ALL 3 FLYING"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "crowd_cheer",
+     "at": 0.2,
+     "gain": 0.2
+    },
+    {
+     "clip": "rotor_spin",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S93",
+   "ch": 7,
+   "size": "med",
+   "vo": "Each carries ground-penetrating radar, and cameras.",
+   "dir": "informative; stress 'radar'",
+   "set": "ground",
+   "setp": {
+    "radar": 0.5,
+    "ice": 0.0,
+    "wind": 0.2,
+    "t": 0.3,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.54,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.55,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "RADAR + CAMERAS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S94",
+   "ch": 7,
+   "size": "high",
+   "vo": "They measure air temperature, wind speed, and wind direction.",
+   "dir": "brisk list; stress 'wind'",
+   "set": "ground",
+   "setp": {
+    "radar": 0.2,
+    "ice": 0.0,
+    "wind": 1.0,
+    "t": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.516,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.388,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "thermo",
+     "x": 0.82,
+     "y": 0.4,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "frac": 0.2,
+      "label": "COLD",
+      "color": "cyan"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "TEMPERATURE + WIND"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "roof_wind",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S95",
+   "ch": 7,
+   "size": "close",
+   "vo": "Their big job: hunt for ice hidden under the ground.",
+   "dir": "mission voice; stress 'ice'",
+   "set": "ground",
+   "setp": {
+    "radar": 1.0,
+    "ice": 0.6,
+    "wind": 0.3,
+    "t": 0.7,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.443,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.637,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "crouch",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "stand"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "HUNT FOR ICE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S96",
+   "ch": 7,
+   "size": "insert",
+   "vo": "If they find it, the radar can help show how deep it goes.",
+   "dir": "clear; stress 'how deep'",
+   "set": "ground",
+   "setp": {
+    "radar": 1.0,
+    "ice": 1.0,
+    "wind": 0.2,
+    "t": 0.9,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.596,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.402,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "magnifier",
+     "x": 0.8,
+     "y": 0.65,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "glow": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "HOW DEEP?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S97",
+   "ch": 7,
+   "size": "wide",
+   "vo": "Ice means water. Future explorers will want every drop.",
+   "dir": "weighty; stress 'every drop'",
+   "set": "ground",
+   "setp": {
+    "radar": 0.4,
+    "ice": 1.0,
+    "wind": 0.1,
+    "t": 0.4,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.471,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.485,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "ICE = WATER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "water_pour",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S98",
+   "ch": 7,
+   "size": "pullout",
+   "vo": "Delivery complete. But Freedom isn't finished yet.",
+   "dir": "turn, suspense; stress 'isn't finished'",
+   "set": "mars",
+   "setp": {
+    "drop": 1.0,
+    "t": 0.95,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.503,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.47,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "float",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "NOT DONE YET"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S99",
+   "ch": 8,
+   "size": "wide",
+   "vo": "With the cargo gone, Freedom restarts its reactor.",
+   "dir": "building power; stress 'restarts'",
+   "set": "ship",
+   "setp": {
+    "t": 0.3,
+    "reactor": 1.0,
+    "thrust": 0.5,
+    "arrays": 1.0,
+    "bg": "mars",
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.511,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.536,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "float",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "red",
+     "text": "REACTOR: ON AGAIN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "power_hum",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S100",
+   "ch": 8,
+   "size": "med",
+   "vo": "This time, there's no precious cargo to protect.",
+   "dir": "sly; stress 'no cargo'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 5.0,
+    "boom": 1.0,
+    "t": 0.9,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.467,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.474,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.8,
+     "y": 0.3,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "bad": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NO CARGO ON BOARD"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S101",
+   "ch": 8,
+   "size": "close",
+   "vo": "The reactor team says now they can really drive it.",
+   "dir": "excited; stress 'really drive'",
+   "set": "control",
+   "setp": {
+    "power": 0.9,
+    "t": 0.3,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.355,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.565,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.62,
+     "y": 0.78,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 0.95,
+      "label": "REACTOR POWER",
+      "color": "red"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "FULL THROTTLE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "power_hum",
+     "at": 0.1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S102",
+   "ch": 8,
+   "size": "insert",
+   "vo": "They even plan to make some parts fail, on purpose.",
+   "dir": "shocked whisper; stress 'on purpose'",
+   "set": "control",
+   "setp": {
+    "power": 0.8,
+    "alarm": 0.7,
+    "t": 0.6,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.588,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.456,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimR",
+    "to": "stand",
+    "act": "flinch"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "red",
+     "text": "BREAK IT ON PURPOSE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.3,
+     "gain": 0.3
+    },
+    {
+     "clip": "glitch",
+     "at": 0.5,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "S103",
+   "ch": 8,
+   "size": "high",
+   "vo": "Why break your own ship? To learn before people depend on it.",
+   "dir": "firm, wise; stress 'learn'",
+   "set": "core",
+   "setp": {
+    "power": 0.9,
+    "heat": 0.9,
+    "elec": 0.8,
+    "t": 0.6,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.474,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.365,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.55,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "think"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "LEARN BEFORE PEOPLE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S104",
+   "ch": 8,
+   "size": "pan",
+   "vo": "Every reading beams home through those bigger dishes.",
+   "dir": "building; stress 'every reading'",
+   "set": "ship",
+   "setp": {
+    "t": 0.7,
+    "reactor": 0.9,
+    "thrust": 0.2,
+    "arrays": 1.0,
+    "bg": "mars",
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.338,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.479,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.65,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "dish",
+     "x": 0.22,
+     "y": 0.3,
+     "s": 0.9,
+     "z": "back",
+     "p": {
+      "big": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "DATA HEADING HOME"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "message_whoosh",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S105",
+   "ch": 8,
+   "size": "wide",
+   "vo": "To NASA's Deep Space Network, back on Earth.",
+   "dir": "clear; stress 'Deep Space Network'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.522,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.52,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "earth",
+     "x": 0.6,
+     "y": 0.5,
+     "s": 1.1,
+     "z": "back"
+    },
+    {
+     "k": "dish",
+     "x": 0.78,
+     "y": 0.62,
+     "s": 0.8,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "NASA DEEP SPACE NETWORK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S106",
+   "ch": 8,
+   "size": "close",
+   "vo": "But only so much data can squeeze through. So every bit counts.",
+   "dir": "tense, tight; stress 'every bit'",
+   "set": "void",
+   "setp": {
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.435,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.559,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "front",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "bar",
+     "x": 0.62,
+     "y": 0.75,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "frac": 0.15,
+      "label": "DATA PIPE",
+      "color": "red"
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "red",
+     "text": "EVERY BIT COUNTS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S107",
+   "ch": 8,
+   "size": "pullout",
+   "vo": "How long will the reactor run? Even NASA hasn't decided yet.",
+   "dir": "honest, intrigued; stress 'hasn't decided'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 0.0,
+    "boom": 1.0,
+    "t": 0.3,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.472,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.517,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "think"
+   },
+   "props": [
+    {
+     "k": "clock",
+     "x": 0.82,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "from": 0,
+      "to": 9
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "RUN TIME: TBD"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "clock_back",
+     "at": 0.2,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S108",
+   "ch": 8,
+   "size": "low",
+   "vo": "Its power level and number of radiators are still being worked out.",
+   "dir": "matter-of-fact; stress 'still'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 2.0,
+    "boom": 1.0,
+    "t": 0.6,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.502,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.722,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "radiator",
+     "x": 0.82,
+     "y": 0.55,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "hot": 0.5
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "STILL BEING DECIDED"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S109",
+   "ch": 9,
+   "size": "med",
+   "vo": "So why does any of this matter?",
+   "dir": "pivot, thoughtful; stress 'matter'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.456,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.504,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "think"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "WHY IT MATTERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S110",
+   "ch": 9,
+   "size": "wide",
+   "vo": "Far from the Sun, sunlight gets weak. And at night, it's gone.",
+   "dir": "clear contrast; stress 'gone'",
+   "set": "route",
+   "setp": {
+    "prog": 1.0,
+    "mode": "solar",
+    "t": 0.2,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.478,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.53,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "worried",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "sun",
+     "x": 0.5,
+     "y": 0.45,
+     "s": 0.6,
+     "z": "back",
+     "p": {
+      "dim": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "red",
+     "text": "SUNLIGHT FADES"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "switch_off",
+     "at": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S111",
+   "ch": 9,
+   "size": "close",
+   "vo": "A reactor doesn't care. It keeps running in the dark.",
+   "dir": "strong; stress 'doesn't care'",
+   "set": "moonbase",
+   "setp": {
+    "night": 1.0,
+    "lights": 1.0,
+    "t": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.367,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.617,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "gold",
+     "text": "WORKS IN THE DARK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "power_hum",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S112",
+   "ch": 9,
+   "size": "pan",
+   "vo": "Next comes Lunar Reactor One, to power NASA's Moon Base.",
+   "dir": "newsy; stress 'Moon Base'",
+   "set": "moonbase",
+   "setp": {
+    "night": 0.6,
+    "lights": 1.0,
+    "t": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.27,
+     0.5,
+     1.3
+    ],
+    [
+     0.7,
+     0.531,
+     1.3
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "moon",
+     "x": 0.8,
+     "y": 0.3,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "half": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "NEXT: LUNAR REACTOR 1"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S113",
+   "ch": 9,
+   "size": "high",
+   "vo": "Through the long lunar nights, when solar panels go quiet.",
+   "dir": "hushed; stress 'quiet'",
+   "set": "moonbase",
+   "setp": {
+    "night": 1.0,
+    "lights": 0.9,
+    "t": 0.8,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.481,
+     0.3,
+     1.1
+    ],
+    [
+     0.5,
+     0.413,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "act": "lookup"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "THROUGH THE LUNAR NIGHT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "room_tone",
+     "at": 0.0,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S114",
+   "ch": 9,
+   "size": "pullout",
+   "vo": "And one day, ships that reach the outer solar system.",
+   "dir": "big, rising; stress 'outer'",
+   "set": "rail",
+   "setp": {
+    "lay": 0.6,
+    "t": 0.4,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.481,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.502,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.2,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "OUTER SOLAR SYSTEM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S115",
+   "ch": 9,
+   "size": "insert",
+   "vo": "NASA's program director has a name for this mission.",
+   "dir": "setting up the quote; stress 'name'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.561,
+     0.45,
+     2.0
+    ],
+    [
+     0.55,
+     0.436,
+     1.8
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "NASA'S STEVE SINACORE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S116",
+   "ch": 9,
+   "size": "wide",
+   "vo": "The first freight run on the railroad of the solar system.",
+   "dir": "proud, quoted; stress 'railroad'",
+   "set": "rail",
+   "setp": {
+    "lay": 0.3,
+    "t": 0.2,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.486,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.515,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "gold",
+     "text": "FIRST FREIGHT RUN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S117",
+   "ch": 9,
+   "size": "low",
+   "vo": "Freedom lays the very first stretch of track.",
+   "dir": "warm; stress 'first stretch'",
+   "set": "rail",
+   "setp": {
+    "lay": 1.0,
+    "t": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.54,
+     0.75,
+     1.2
+    ],
+    [
+     0.5,
+     0.679,
+     1.35
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "float",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "THE FIRST TRACK"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S118",
+   "ch": 10,
+   "size": "wide",
+   "vo": "So back to that moment. Houston wakes the reactor, step by step.",
+   "dir": "reflective callback; stress 'that moment'",
+   "set": "control",
+   "setp": {
+    "power": 0.6,
+    "t": 0.1,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.542,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.547,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "props": [
+    {
+     "k": "switch",
+     "x": 0.75,
+     "y": 0.62,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "STEP BY STEP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "switch_off",
+     "at": 0.4,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S119",
+   "ch": 10,
+   "size": "pullout",
+   "vo": "And you're beside it, heading for Mars on sunlight and uranium.",
+   "dir": "warm wonder; stress 'sunlight and uranium'",
+   "set": "ship",
+   "setp": {
+    "t": 0.9,
+    "reactor": 0.6,
+    "thrust": 0.6,
+    "arrays": 1.0,
+    "bg": "mars",
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.471,
+     0.5,
+     1.6
+    ],
+    [
+     0.5,
+     0.497,
+     1.0
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "SUNLIGHT + URANIUM"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S120",
+   "ch": 10,
+   "size": "med",
+   "vo": "Three helicopters. One reactor. A seven-day wake-up. Zero seats.",
+   "dir": "fun recap, rhythmic; stress 'zero seats'",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.491,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.506,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "props": [
+    {
+     "k": "heli",
+     "x": 0.5,
+     "y": 0.5,
+     "s": 0.8,
+     "z": "back",
+     "p": {
+      "spin": true
+     }
+    },
+    {
+     "k": "atom",
+     "x": 0.68,
+     "y": 0.5,
+     "s": 0.8,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "1 REACTOR. 0 SEATS."
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.2,
+     "gain": 0.25
+    },
+    {
+     "clip": "laugh",
+     "at": 0.7,
+     "gain": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S121",
+   "ch": 10,
+   "size": "wide",
+   "vo": "The age of nuclear spaceships starts with a robot and a delivery.",
+   "dir": "the takeaway, gentle; stress 'starts'",
+   "set": "rail",
+   "setp": {
+    "lay": 1.0,
+    "t": 1.0,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.517,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.502,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "IT STARTS NOW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S122",
+   "ch": 10,
+   "size": "close",
+   "vo": "Would you ride along, or wait for the version with seats?",
+   "dir": "inviting; stress 'seats'",
+   "set": "ship",
+   "setp": {
+    "t": 0.4,
+    "reactor": 0.5,
+    "thrust": 0.4,
+    "arrays": 1.0,
+    "bg": "stars",
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.432,
+     0.6,
+     1.7
+    ],
+    [
+     0.45,
+     0.599,
+     1.55
+    ]
+   ],
+   "pip": {
+    "x": 0.7,
+    "pose": "front",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "RIDE NOW OR WAIT?"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S123",
+   "ch": 10,
+   "size": "med",
+   "vo": "Tell me in the comments.",
+   "dir": "friendly",
+   "set": "void",
+   "setp": {
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.546,
+     0.55,
+     1.25
+    ],
+    [
+     0.5,
+     0.516,
+     1.4
+    ]
+   ],
+   "pip": {
+    "x": 0.4,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "wave"
+   },
+   "text": [
+    {
+     "kind": "label",
+     "slot": "bl",
+     "color": "cream",
+     "text": "COMMENT BELOW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S124",
+   "ch": 10,
+   "size": "wide",
+   "vo": "Tomorrow: what if you flew a helicopter on Titan?",
+   "dir": "teasing; stress 'Titan'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.481,
+     0.5,
+     1.0
+    ],
+    [
+     0.5,
+     0.498,
+     1.1
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "sideL",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "stand"
+   },
+   "props": [
+    {
+     "k": "heli",
+     "x": 0.68,
+     "y": 0.45,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "spin": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "TOMORROW: TITAN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "space_swell",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.55
+    }
+   ]
+  }
+ ],
+ "short": [
+  {
+   "id": "S1",
+   "ch": 0,
+   "size": "close",
+   "vo": "This spaceship carries a nuclear reactor to Mars.",
+   "dir": "hard, clear, instant; stress 'nuclear reactor'",
+   "set": "ship",
+   "setp": {
+    "t": 0.3,
+    "reactor": 0.9,
+    "thrust": 0.5,
+    "arrays": 1.0,
+    "bg": "mars",
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.42,
+     0.55,
+     1.45
+    ],
+    [
+     0.44,
+     0.55,
+     1.32
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "point",
+    "expr": "shock",
+    "rim": "rimL"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "NUCLEAR"
+    },
+    {
+     "kind": "label",
+     "slot": "mid",
+     "color": "cream",
+     "text": "SHIP TO MARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "clip": "power_hum",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "ch": 0,
+   "size": "wide",
+   "vo": "NASA just locked in its design. Launch: late twenty twenty-eight.",
+   "dir": "quick, newsy; stress 'locked in'",
+   "set": "cutaway",
+   "setp": {
+    "hl": 0.0,
+    "boom": 1.0,
+    "t": 0.4,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.507,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.493,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "flag",
+     "x": 0.7,
+     "y": 0.62,
+     "s": 1.0,
+     "z": "back"
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "NASA: LAUNCH LATE 2028"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "ch": 0,
+   "size": "close",
+   "vo": "Here's the twist. The reactor barely flies the ship.",
+   "dir": "sly; stress 'barely'",
+   "set": "ship",
+   "setp": {
+    "t": 0.6,
+    "reactor": 0.2,
+    "thrust": 0.3,
+    "arrays": 1.0,
+    "bg": "stars",
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.402,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.631,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimL",
+    "to": "think"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "THE TWIST"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "glitch",
+     "at": 0.3,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "ch": 0,
+   "size": "med",
+   "vo": "Houston wakes it up slowly, over about seven days.",
+   "dir": "careful; stress 'seven days'",
+   "set": "control",
+   "setp": {
+    "power": 0.5,
+    "t": 0.5,
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.521,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.534,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "neutral",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "7 DAYS"
+    },
+    {
+     "kind": "label",
+     "slot": "mid",
+     "color": "cream",
+     "text": "TO WAKE IT UP"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "counter_tick",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "ch": 0,
+   "size": "pan",
+   "vo": "It makes twenty kilowatts and powers a blue electric thruster.",
+   "dir": "clear; stress 'twenty kilowatts'",
+   "set": "ship",
+   "setp": {
+    "t": 0.8,
+    "reactor": 1.0,
+    "thrust": 1.0,
+    "arrays": 1.0,
+    "bg": "stars",
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.251,
+     0.5,
+     1.23
+    ],
+    [
+     0.7,
+     0.461,
+     1.23
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "float",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "float"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "20 kW"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "power_hum",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "ch": 0,
+   "size": "wide",
+   "vo": "Then it shuts down. Sunlight flies it most of the way.",
+   "dir": "drop, deadpan; stress 'sunlight'",
+   "set": "route",
+   "setp": {
+    "prog": 0.5,
+    "mode": "solar",
+    "t": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.514,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.493,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "front",
+    "expr": "oops",
+    "rim": "rimR",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "gold",
+     "text": "SOLAR?!"
+    },
+    {
+     "kind": "label",
+     "slot": "mid",
+     "color": "cream",
+     "text": "MOST OF THE WAY"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "power_down",
+     "at": 0.0,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "ch": 0,
+   "size": "close",
+   "vo": "Why? The first job is to learn: start, run, stop, in deep space.",
+   "dir": "quick, firm; stress 'learn'",
+   "set": "core",
+   "setp": {
+    "power": 0.6,
+    "heat": 0.4,
+    "elec": 0.5,
+    "t": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.377,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.599,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "top",
+     "color": "gold",
+     "text": "JOB 1: LEARN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "ding",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "ch": 0,
+   "size": "med",
+   "vo": "At Mars, it drops a capsule with three helicopters.",
+   "dir": "rising; stress 'three helicopters'",
+   "set": "mars",
+   "setp": {
+    "drop": 0.8,
+    "t": 0.6,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.548,
+     0.55,
+     1.19
+    ],
+    [
+     0.5,
+     0.455,
+     1.33
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "float",
+    "expr": "happy",
+    "rim": "rimR",
+    "to": "cheer"
+   },
+   "props": [
+    {
+     "k": "capsule",
+     "x": 0.55,
+     "y": 0.45,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "hot": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "3 HELICOPTERS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "fall_whoosh",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "ch": 0,
+   "size": "wide",
+   "vo": "They unfold in mid-air, then hunt for ice underground.",
+   "dir": "thrilled; stress 'ice'",
+   "set": "sky",
+   "setp": {
+    "deploy": 1.0,
+    "t": 0.8,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.472,
+     0.5,
+     0.95
+    ],
+    [
+     0.5,
+     0.543,
+     1.04
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "cyan",
+     "text": "ICE HUNT"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "rotor_spin",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "ch": 0,
+   "size": "close",
+   "vo": "Then the reactor restarts, and engineers push it hard.",
+   "dir": "building; stress 'hard'",
+   "set": "control",
+   "setp": {
+    "power": 1.0,
+    "alarm": 0.3,
+    "t": 0.8,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.357,
+     0.6,
+     1.61
+    ],
+    [
+     0.45,
+     0.593,
+     1.47
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "stand",
+    "expr": "smug",
+    "rim": "rimR",
+    "to": "think"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "FULL POWER"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "title_boom",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "ch": 0,
+   "size": "pan",
+   "vo": "They even plan to break parts on purpose, to learn.",
+   "dir": "shocked; stress 'on purpose'",
+   "set": "control",
+   "setp": {
+    "power": 0.9,
+    "alarm": 0.8,
+    "t": 0.3,
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.38,
+     0.5,
+     1.25
+    ],
+    [
+     0.6,
+     0.5,
+     1.25
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "shrug"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "BREAK IT"
+    },
+    {
+     "kind": "label",
+     "slot": "mid",
+     "color": "cream",
+     "text": "ON PURPOSE"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "buzzer",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "Because one day, reactors will light Moon bases through the long night.",
+   "dir": "the takeaway; stress 'long night'",
+   "set": "moonbase",
+   "setp": {
+    "night": 1.0,
+    "lights": 1.0,
+    "t": 0.5,
+    "glow": "gold"
+   },
+   "cam": [
+    [
+     0.477,
+     0.5,
+     1.52
+    ],
+    [
+     0.5,
+     0.504,
+     0.95
+    ]
+   ],
+   "pip": {
+    "x": 0.35,
+    "pose": "stand",
+    "expr": "cool",
+    "rim": "rimR",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "gold",
+     "text": "NEXT: THE MOON"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "sparkle",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "ch": 0,
+   "size": "pullout",
+   "vo": "Full film on the channel. Tomorrow: a helicopter on Titan.",
+   "dir": "friendly; stress 'Titan'",
+   "set": "void",
+   "setp": {
+    "glow": "cyan"
+   },
+   "cam": [
+    [
+     0.5,
+     0.5,
+     1.5
+    ],
+    [
+     0.5,
+     0.5,
+     1.05
+    ]
+   ],
+   "pip": {
+    "x": 0.3,
+    "pose": "stand",
+    "expr": "happy",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "props": [
+    {
+     "k": "heli",
+     "x": 0.55,
+     "y": 0.45,
+     "s": 1.0,
+     "z": "back",
+     "p": {
+      "spin": true
+     }
+    }
+   ],
+   "text": [
+    {
+     "kind": "chip",
+     "slot": "tr",
+     "color": "cyan",
+     "text": "FULL FILM ON CHANNEL"
+    },
+    {
+     "kind": "label",
+     "slot": "mid",
+     "color": "cream",
+     "text": "NEXT: TITAN"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "pop",
+     "at": 0.1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "ch": 0,
+   "size": "close",
+   "vo": "And it all starts with one ship.",
+   "dir": "looping back; stress 'one ship'",
+   "set": "ship",
+   "setp": {
+    "t": 0.25,
+    "reactor": 0.85,
+    "thrust": 0.5,
+    "arrays": 1.0,
+    "bg": "mars",
+    "glow": "red"
+   },
+   "cam": [
+    [
+     0.43,
+     0.56,
+     1.6
+    ],
+    [
+     0.42,
+     0.55,
+     1.45
+    ]
+   ],
+   "pip": {
+    "x": 0.25,
+    "pose": "stand",
+    "expr": "shock",
+    "rim": "rimL",
+    "to": "point"
+   },
+   "text": [
+    {
+     "kind": "big",
+     "slot": "top",
+     "color": "red",
+     "text": "NUCLEAR"
+    },
+    {
+     "kind": "label",
+     "slot": "mid",
+     "color": "cream",
+     "text": "SHIP TO MARS"
+    }
+   ],
+   "sfx": [
+    {
+     "clip": "drone_hit",
+     "at": 0.6,
+     "gain": 0.3
+    }
+   ]
+  }
+ ],
+ "_doc": "Written by Hark 26 Nov 2026 (ElevenLabs voice)."
+}
