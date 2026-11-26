@@ -7028,13 +7028,15 @@
      "kind": "big",
      "slot": "top",
      "color": "red",
-     "text": "NUCLEAR"
+     "text": "NUCLEAR",
+     "at": -0.5
     },
     {
      "kind": "label",
      "slot": "mid",
      "color": "cream",
-     "text": "TO MARS"
+     "text": "TO MARS",
+     "at": -0.5
     }
    ],
    "sfx": [
